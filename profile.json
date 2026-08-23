@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "profile_id": "sergey_teterin_engineering_profile",
+  "profile_purpose": "Job matching and recommendation profile for remote engineering opportunities.",
+  "sources": [
+    {
+      "type": "portfolio",
+      "name": "vvtol.com",
+      "file": "Sergey Teterin – Flight Control & UAV Systems Engineer.mhtml"
+    },
+    {
+      "type": "linkedin_profile",
+      "name": "LinkedIn profile",
+      "file": "Sergey Teterin _ LinkedIn.mhtml"
+    },
+    {
+      "type": "linkedin_notifications",
+      "name": "LinkedIn notifications",
+      "file": "linkedin_notifications_2026-08-23_20-01-44.mhtml",
+      "use": "context only; not treated as authoritative career history"
+    }
+  ],
+  "headline": "Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python",
+  "summary": {
+    "experience_years": "20+",
+    "primary_identity": "Flight Control & UAV Systems Engineer",
+    "positioning": [
+      "flight control systems",
+      "flight dynamics and simulation",
+      "autopilot algorithms",
+      "guidance, navigation and control",
+      "UAV/UAS and autonomous systems",
+      "applied robotics",
+      "ML/computer vision for autonomy, tracking and telemetry",
+      "engineering leadership and multidisciplinary R&D"
+    ],
+    "work_style": "Cross-disciplinary engineering at the intersection of physics, control theory, simulation, software and autonomous systems."
+  },
+  "career_preferences": {
+    "remote_priority": "high",
+    "remote_worldwide": true,
+    "full_time": true,
+    "part_time": true,
+    "consulting": true,
+    "hybrid": "acceptable",
+    "onsite": "secondary",
+    "relocation": "consider_case_by_case",
+    "geography": "worldwide",
+    "language_constraint": "not specified in source files",
+    "seniority": [
+      "Senior",
+      "Staff",
+      "Lead",
+      "Principal",
+      "Head of Engineering / R&D",
+      "Technical Consultant"
+    ]
+  },
+  "target_domains": {
+    "high_priority": [
+      "Flight Control Systems",
+      "UAV / UAS",
+      "eVTOL / VTOL",
+      "Autopilots",
+      "Guidance Navigation & Control",
+      "Flight Dynamics",
+      "Simulation & Modeling",
+      "Autonomous Systems",
+      "Aerial Robotics",
+      "Robotics",
+      "Sensor Fusion",
+      "Navigation",
+      "Embedded Control"
+    ],
+    "adjacent_priority": [
+      "Machine Learning for physical systems",
+      "Computer Vision for autonomy and tracking",
+      "Telemetry analytics",
+      "Trajectory planning",
+      "Mission optimization",
+      "UAV logistics",
+      "Real-time systems",
+      "Hardware-in-the-loop simulation",
+      "Industrial control",
+      "Mechatronics",
+      "Motion control"
+    ],
+    "broad_interest": [
+      "Autonomous ground vehicles",
+      "Unmanned surface vessels",
+      "Autonomous / remotely controlled marine vessels",
+      "Marine robotics",
+      "Navigation and control of mobile platforms",
+      "Guidance and stabilization systems for non-aerospace autonomous vehicles"
+    ],
+    "note": "Marine/autonomous vessel roles are included as a target expansion based on the user's stated interest. The supplied profile files primarily document aerospace, UAV, robotics and control-system experience."
+  },
+  "target_roles": [
+    "Flight Control Systems Engineer",
+    "Senior Flight Controls Engineer",
+    "GNC Engineer",
+    "Senior GNC Engineer",
+    "Autopilot Engineer",
+    "Flight Dynamics Engineer",
+    "Simulation Engineer",
+    "Modeling & Simulation Engineer",
+    "UAV Systems Engineer",
+    "UAS Engineer",
+    "Autonomy Engineer",
+    "Robotics Controls Engineer",
+    "Control Systems Engineer",
+    "Navigation Engineer",
+    "Guidance Engineer",
+    "Sensor Fusion Engineer",
+    "Trajectory Planning Engineer",
+    "Embedded Controls Engineer",
+    "Applied Robotics Engineer",
+    "Autonomous Systems Engineer",
+    "Technical Lead - Autonomous Systems",
+    "R&D Lead - Flight Control / Robotics",
+    "Head of Engineering - Autonomous Systems",
+    "Technical Consultant - Control / UAV / Robotics",
+    "Marine Autonomy Engineer",
+    "Marine Control Systems Engineer",
+    "Autonomous Vessel Controls Engineer"
+  ],
+  "core_skills": [
+    "Flight Control Systems",
+    "Flight Dynamics",
+    "Flight Dynamics Modeling",
+    "Simulation",
+    "Control Law Design",
+    "Control Theory",
+    "Autopilot Algorithms",
+    "Guidance Navigation & Control (GNC)",
+    "Trajectory Control",
+    "Trajectory Planning",
+    "Stability and Handling Qualities",
+    "Sensor Fusion",
+    "Estimators and Filters",
+    "UAV / UAS",
+    "VTOL / eVTOL",
+    "Aircraft and Rotorcraft Control",
+    "Real-time Simulation",
+    "Hardware-in-the-loop",
+    "Telemetry Analysis",
+    "Machine Learning",
+    "Computer Vision",
+    "Object Tracking",
+    "Perception",
+    "Embedded Systems",
+    "Robotics",
+    "Mission Optimization",
+    "UAV Logistics",
+    "SLA / Operational KPI Engineering",
+    "Technical Leadership",
+    "Multidisciplinary R&D Coordination"
+  ],
+  "tools_and_languages": [
+    "MATLAB",
+    "Simulink",
+    "Python",
+    "C",
+    "C++",
+    "Embedded C",
+    "STM32",
+    "CUDA",
+    "PySide6"
+  ],
+  "experience": [
+    {
+      "role": "Head of Department",
+      "company": "Astrono",
+      "period": "2024-present",
+      "location": "Moscow, Russia",
+      "highlights": [
+        "Led development of an eVTOL / tiltrotor electric aircraft.",
+        "Owned flight dynamics, control-system architecture and simulation environment.",
+        "Designed and validated control laws and guidance algorithms for VTOL, transition and cruise.",
+        "Coordinated multidisciplinary R&D across mechanics, avionics and software.",
+        "Supported autopilot and onboard-system integration.",
+        "Prepared technical documentation and trade studies."
+      ]
+    },
+    {
+      "role": "Specialist / Presenter",
+      "company": "Corporation Irkut",
+      "period": "2020-present",
+      "highlights": [
+        "Developed and validated flight-control and autopilot algorithms for a passenger aircraft.",
+        "Used MATLAB/Simulink and C/C++.",
+        "Built flight-dynamics and control-system models.",
+        "Participated in ground and flight tests.",
+        "Analyzed telemetry and pilot feedback.",
+        "Worked on a long-endurance solar-powered aircraft concept.",
+        "Prepared technical reports and coordinated software, avionics and test activities."
+      ]
+    },
+    {
+      "role": "Developer",
+      "company": "Part-time parallel work",
+      "period": "2010-present",
+      "location": "Moscow, Russia",
+      "highlights": [
+        "Applied AI / machine learning, neural networks, big data, IoT, computer vision and CUDA to engineering and aviation-related tasks."
+      ]
+    },
+    {
+      "role": "Chief Specialist",
+      "company": "State Research Institute of Instrument Engineering",
+      "period": "2017-2020",
+      "location": "Moscow, Russia",
+      "highlights": [
+        "Maintenance and refinement of vertical-takeoff UAV systems.",
+        "Trajectory control.",
+        "UAV-to-UAV guidance and interception."
+      ]
+    }
+  ],
+  "selected_projects": [
+    {
+      "name": "Autonomous UAV Control System & Flight Dynamics Simulation",
+      "domain": "UAV / eVTOL",
+      "skills": [
+        "MATLAB",
+        "Simulink",
+        "Python",
+        "flight dynamics",
+        "control laws",
+        "autopilot",
+        "energy optimization"
+      ]
+    },
+    {
+      "name": "Solar-Powered UAV Prototype",
+      "domain": "Long-endurance UAV",
+      "skills": [
+        "guidance",
+        "control",
+        "energy-aware trajectory planning",
+        "aerodynamic modeling",
+        "power-balance modeling"
+      ]
+    },
+    {
+      "name": "UAV Delivery Mission Optimization",
+      "domain": "UAV logistics",
+      "skills": [
+        "mission quoting",
+        "route constraints",
+        "time/energy/cost estimation",
+        "airframe selection",
+        "unit economics",
+        "SLA",
+        "operations KPIs",
+        "telemetry workflow"
+      ]
+    },
+    {
+      "name": "Flight Control System Algorithms - MC-21 Passenger Aircraft",
+      "domain": "Commercial aircraft",
+      "skills": [
+        "flight control laws",
+        "flight dynamics",
+        "stability analysis",
+        "handling qualities",
+        "MATLAB",
+        "Simulink",
+        "test support",
+        "autopilot",
+        "safety logic"
+      ]
+    },
+    {
+      "name": "STM32 Peltier Temperature Profile Control System",
+      "domain": "Embedded control",
+      "skills": [
+        "STM32",
+        "Embedded C",
+        "Python",
+        "PySide6",
+        "PID control",
+        "real-time telemetry",
+        "adaptive compensation"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Moscow Aviation Institute",
+      "qualification": "Specialist Diploma in Engineering",
+      "field": "Aircraft Control Systems",
+      "period": "1995-2001"
+    }
+  ],
+  "job_matching": {
+    "priority_rules": {
+      "high": [
+        "remote role strongly aligned with control, GNC, flight dynamics, simulation, UAV, robotics or autonomous systems",
+        "role uses MATLAB/Simulink, Python, C/C++ or embedded control",
+        "senior/lead/principal technical scope",
+        "autonomy, navigation, trajectory planning, sensor fusion or model-based development",
+        "marine autonomy / autonomous vessel control when the work is fundamentally guidance, navigation, stabilization, controls or robotics"
+      ],
+      "medium": [
+        "adjacent robotics, ML/CV, simulation or embedded roles where physical-system/control experience is valuable",
+        "technical leadership in multidisciplinary engineering",
+        "general autonomous-platform roles outside aerospace"
+      ],
+      "low": [
+        "pure web/backend/frontend software without controls, simulation, robotics or engineering relevance",
+        "sales, marketing, recruiting, merchandising or clinical roles",
+        "roles dominated by unrelated enterprise software",
+        "junior roles substantially below demonstrated experience level"
+      ]
+    },
+    "score_weights": {
+      "remote_fit": 20,
+      "domain_fit": 25,
+      "controls_gnc_fit": 20,
+      "tool_fit": 10,
+      "seniority_fit": 10,
+      "autonomy_robotics_fit": 10,
+      "leadership_fit": 5
+    },
+    "recommendation_output": [
+      "match_percent",
+      "priority",
+      "why_it_fits",
+      "possible_gaps",
+      "remote_status",
+      "recommended_action"
+    ],
+    "recommended_actions": [
+      "apply",
+      "review_manually",
+      "skip"
+    ]
+  },
+  "negative_filters": [
+    "visual merchandising",
+    "clinical specialist",
+    "pure Java/backend role with no control/robotics/autonomy component",
+    "pure cloud integrations role with no physical-systems relevance",
+    "non-engineering sales/marketing roles"
+  ],
+  "search_keywords": [
+    "flight control",
+    "flight controls",
+    "GNC",
+    "guidance navigation control",
+    "autopilot",
+    "flight dynamics",
+    "simulation",
+    "modeling",
+    "UAV",
+    "UAS",
+    "eVTOL",
+    "VTOL",
+    "autonomy",
+    "autonomous systems",
+    "robotics",
+    "controls engineer",
+    "control systems",
+    "trajectory planning",
+    "navigation",
+    "sensor fusion",
+    "embedded controls",
+    "marine autonomy",
+    "autonomous vessel",
+    "unmanned surface vessel",
+    "USV",
+    "marine robotics"
+  ]
+}
