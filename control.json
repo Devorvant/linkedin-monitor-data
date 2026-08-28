@@ -1,8 +1,8 @@
 {
   "enabled": true,
   "schedule": {
-    "start_time": "08:10",
-    "finish_time": "08:45"
+    "start_time": "17:35",
+    "finish_time": "17:45"
   },
   "run_if_started_late": true,
   "script_name": "linkedin_worker_unified.py",
