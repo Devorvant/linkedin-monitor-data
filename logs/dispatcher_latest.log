@@ -1,0 +1,37 @@
+=== DISPATCHER ===
+[2026-08-28 17:33:47] Dispatcher запущен.
+[2026-08-28 17:33:48] control.json загружен с GitHub.
+[2026-08-28 17:33:48] Ожидание START: 2026-08-28 17:35
+[2026-08-28 17:34:18] Ожидание START: 2026-08-28 17:35
+[2026-08-28 17:35:00] START: время наступило.
+[2026-08-28 17:35:00] control.json загружен с GitHub.
+[2026-08-28 17:35:00] Скачиваю worker: https://raw.githubusercontent.com/Devorvant/linkedin-monitor-data/main/scripts/linkedin_worker_unified.py
+[2026-08-28 17:35:01] Worker сохранён: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\linkedin_worker_unified.py
+[2026-08-28 17:35:01] Запускаю worker через: H:\Users\kusc\AppData\Local\Programs\Python\Python311\python.exe
+[2026-08-28 17:35:02] Worker завершился с кодом: 1
+
+
+=== WORKER ===
+==================================================================
+ LinkedIn WORKER AUTO
+==================================================================
+GUI-�������: ��������� 1280x1024
+Feed -> Jobs -> Notifications -> Excel -> JSON -> GitHub
+Traceback (most recent call last):
+  File "H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\linkedin_worker_unified.py", line 2163, in <module>
+    main()
+  File "H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\linkedin_worker_unified.py", line 2137, in main
+    automate_sequence()
+  File "H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\linkedin_worker_unified.py", line 1840, in automate_sequence
+    config = load_config()
+             ^^^^^^^^^^^^^
+  File "H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\linkedin_worker_unified.py", line 130, in load_config
+    return json.loads(path.read_text(encoding="utf-8"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Users\kusc\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Users\kusc\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'H:\\Users\\kusc\\AppData\\Local\\Programs\\Python\\Python311\\linkedin_desktop_automation\\cache\\config.json'
