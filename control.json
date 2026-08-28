@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "schedule": {
+    "start_time": "08:10",
+    "finish_time": "08:45"
+  },
+  "run_if_started_late": true,
+  "script_name": "linkedin_worker_unified.py",
+  "script_url": "https://raw.githubusercontent.com/Devorvant/linkedin-monitor-data/main/scripts/linkedin_worker_unified.py",
+  "shutdown_after_finish": true,
+  "shutdown_when_disabled": true,
+  "github_repo": "Devorvant/linkedin-monitor-data",
+  "github_branch": "main",
+  "remote_log_path": "logs/dispatcher_latest.log",
+  "remote_status_path": "dispatcher_status.json"
+}
