@@ -39,7 +39,11 @@ except ImportError:
     BeautifulSoup = None
 
 
-ROOT = Path(__file__).resolve().parent
+_SCRIPT_DIR = Path(__file__).resolve().parent
+# Если worker скачан диспетчером в папку cache, рабочий корень проекта
+# находится уровнем выше. При обычном ручном запуске ROOT остаётся
+# папкой самого файла.
+ROOT = _SCRIPT_DIR.parent if _SCRIPT_DIR.name.lower() == "cache" else _SCRIPT_DIR
 
 CHROME_PATHS = [
     Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe"),
