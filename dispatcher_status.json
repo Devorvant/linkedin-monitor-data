@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-08-28T17:35:01",
-  "finished_at": "2026-08-28T17:35:02",
-  "worker_exit_code": 1,
-  "success": false,
+  "started_at": "2026-08-28T18:30:01",
+  "finished_at": "2026-08-28T18:33:07",
+  "worker_exit_code": 0,
+  "success": true,
   "computer": "pc2"
 }
