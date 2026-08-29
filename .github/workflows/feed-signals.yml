@@ -6,6 +6,7 @@ on:
       - feed_latest.json
       - profile.json
       - scripts/feed_signal_analyzer.py.gz.b64
+      - scripts/action_planner.py
       - '.feed-signals-trigger*'
   workflow_dispatch:
 
@@ -52,18 +53,24 @@ jobs:
               --provider none \
               --llm-scope none
           fi
+      - name: Build action queue
+        run: |
+          python scripts/action_planner.py \
+            --signals feed_signals_latest.json \
+            --output action_queue_latest.json
       - name: Save daily history
         run: |
-          mkdir -p history/feed_signals
+          mkdir -p history/feed_signals history/action_queue
           cp feed_signals_latest.json "history/feed_signals/$(date -u +%F).json"
+          cp action_queue_latest.json "history/action_queue/$(date -u +%F).json"
       - name: Commit outputs
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feed_signals_latest.json history/feed_signals
+          git add feed_signals_latest.json action_queue_latest.json history/feed_signals history/action_queue
           if git diff --cached --quiet; then
-            echo 'No signal changes'
+            echo 'No signal/action changes'
             exit 0
           fi
-          git commit -m "Update Feed signals $(date -u +%F)"
+          git commit -m "Update Feed signals and action queue $(date -u +%F)"
           git push
