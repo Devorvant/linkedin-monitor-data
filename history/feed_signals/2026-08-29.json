@@ -1,0 +1,1396 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-08-29T19:06:20.701514+00:00",
+  "summary": {
+    "posts_analyzed": 19,
+    "high_priority": 3,
+    "medium_priority": 4,
+    "low_priority": 12,
+    "signal_type_counts": {
+      "TECH_SIGNAL": 7,
+      "PROJECT_SIGNAL": 8,
+      "PEOPLE_SIGNAL": 5,
+      "NETWORK_SIGNAL": 6,
+      "MARKET_SIGNAL": 6,
+      "HIRING_SIGNAL": 3,
+      "OPPORTUNITY_SIGNAL": 4,
+      "COMPANY_SIGNAL": 6
+    }
+  },
+  "signals": [
+    {
+      "signal_id": "sig_50e52efecb3f028a",
+      "source_post_id": null,
+      "author": "Burak Çetin",
+      "author_type": "person",
+      "company": null,
+      "people": [
+        {
+          "name": "Burak Çetin",
+          "profile_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+          "relation": "author"
+        }
+      ],
+      "signal_types": [
+        "TECH_SIGNAL",
+        "PROJECT_SIGNAL",
+        "PEOPLE_SIGNAL",
+        "NETWORK_SIGNAL"
+      ],
+      "domains": [
+        "robotics"
+      ],
+      "technologies": [
+        "simulation",
+        "autonomy",
+        "UAV/UAS",
+        "robotics",
+        "navigation"
+      ],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 85,
+      "technical_relevance": 100,
+      "networking_relevance": 49,
+      "content_relevance": 70,
+      "profile_matches": [
+        "UAV/UAS",
+        "autonomy",
+        "navigation",
+        "robotics",
+        "simulation"
+      ],
+      "priority": "high",
+      "why_relevant": "технологии: simulation, autonomy, UAV/UAS, robotics, navigation; домены: robotics; совпадение с профилем: UAV/UAS, autonomy, navigation, robotics, simulation.",
+      "recommended_actions": [
+        "review_technology",
+        "save_for_content",
+        "engage_with_post"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+          "link_type": "person",
+          "relation": "author",
+          "priority": "high"
+        }
+      ],
+      "posted_time": "5 дн.",
+      "reactions": 39,
+      "comments": null,
+      "hashtags": [
+        "#PX4",
+        "#RotorPy",
+        "#Robotics",
+        "#Drones",
+        "#Simulation",
+        "#Autonomy",
+        "#MachineLearning"
+      ],
+      "source_text": "Excited to share that my PR for RotorPy support has been merged into PX4! RotorPy is a lightweight Python-based multirotor simulator with aerodynamic modeling and a Gymnasium interface, making it a useful option for simulation, research, and ML/AI workflows. The integration is now part of PX4 main and includes SITL support and documentation to get started. Docs: https://lnkd.in/eYjwYdyj PR: PX4 PR #27116 https://lnkd.in/eCRMaHZS Thanks to the PX4 community for the reviews and contributions! #PX4 #RotorPy #Robotics #Drones #Simulation #Autonomy #MachineLearning",
+      "source_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_2b5d34d34e5e66cd",
+      "source_post_id": "7496448164820869120",
+      "author": "MathWorks",
+      "author_type": "company",
+      "company": "MathWorks",
+      "people": [
+        {
+          "name": "P Chandhana",
+          "profile_url": "https://www.linkedin.com/in/p-chandhana/",
+          "relation": "mentioned"
+        },
+        {
+          "name": "uday Kumar",
+          "profile_url": "https://www.linkedin.com/in/uday-kumar-51b5a026/",
+          "relation": "mentioned"
+        },
+        {
+          "name": "Naresh Babu",
+          "profile_url": "https://www.linkedin.com/in/naresh-babu-77a37444/",
+          "relation": "mentioned"
+        },
+        {
+          "name": "Francis Arokia Swamy",
+          "profile_url": "https://www.linkedin.com/in/francis-arokia-swamy-2b448238a/",
+          "relation": "mentioned"
+        },
+        {
+          "name": "Loy Sabson Fernandes",
+          "profile_url": "https://www.linkedin.com/in/loysabson/",
+          "relation": "mentioned"
+        }
+      ],
+      "signal_types": [
+        "TECH_SIGNAL",
+        "PROJECT_SIGNAL",
+        "MARKET_SIGNAL",
+        "PEOPLE_SIGNAL",
+        "NETWORK_SIGNAL"
+      ],
+      "domains": [],
+      "technologies": [
+        "MATLAB/Simulink",
+        "navigation"
+      ],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 42,
+      "technical_relevance": 58,
+      "networking_relevance": 100,
+      "content_relevance": 44,
+      "profile_matches": [
+        "MATLAB/Simulink",
+        "navigation"
+      ],
+      "priority": "high",
+      "why_relevant": "технологии: MATLAB/Simulink, navigation; совпадение с профилем: MATLAB/Simulink, navigation.",
+      "recommended_actions": [
+        "follow_company",
+        "follow_person",
+        "connect_person"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/anurag-university-/",
+          "link_type": "company",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/company/the-mathworks_2/",
+          "link_type": "company",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/in/p-chandhana/",
+          "link_type": "person",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/in/uday-kumar-51b5a026/",
+          "link_type": "person",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/in/naresh-babu-77a37444/",
+          "link_type": "person",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/in/francis-arokia-swamy-2b448238a/",
+          "link_type": "person",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/in/loysabson/",
+          "link_type": "person",
+          "relation": "mentioned",
+          "priority": "medium"
+        }
+      ],
+      "posted_time": "1 нед.",
+      "reactions": 17,
+      "comments": null,
+      "hashtags": [
+        "#MATLABDay",
+        "#MATLAB",
+        "#Simulink",
+        "#MathWorks",
+        "#AnuragUniversity",
+        "#ARKANCE",
+        "#EngineeringEducation",
+        "#EngineeringStudents",
+        "#TechnicalEducation",
+        "#Innovation",
+        "#AcademicTechnology",
+        "#ARKANCEIndia"
+      ],
+      "source_text": "🎓 MATLAB DAY at Anurag University - A Day of Learning, Innovation & Engineering Excellence! We are pleased to share that MATLAB DAY at Anurag University was successfully conducted by the ARKANCE Education Team, with an enthusiastic response from 200+ students and faculty members across core engineering disciplines. The full-day technical program provided participants with valuable insights into the MathWorks Campus-Wide License, MATLAB & Simulink, academic learning resources, and applications across engineering domains. ✨ Key highlights included: • Introduction to MATLAB, Simulink & Campus-Wide License • Live technical demonstrations across engineering applications • MATLAB Academic Online Training & self-learning resources • Software installation and access guidance • Interactive Q&A with students and faculty A special thanks to our ARKANCE team - P Chandhana , uday Kumar , Naresh Babu , and Francis Arokia Swamy - for successfully planning and delivering the program. We sincerely thank Ajay Talluri and Loy Sabson Fernandes from MathWorks for their continued support and guidance. Together, MathWorks, Anurag University & ARKANCE continue to empower the next generation of engineers with industry-relevant tools, knowledge, and learning opportunities. #MATLABDay #MATLAB #Simulink #MathWorks #AnuragUniversity #ARKANCE #EngineeringEducation #EngineeringStudents #TechnicalEducation #Innovation #AcademicTechnology #ARKANCEIndia",
+      "source_url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_bb16ecf7ba7fd200",
+      "source_post_id": null,
+      "author": "Lockheed Martin",
+      "author_type": "company",
+      "company": "Lockheed Martin",
+      "people": [],
+      "signal_types": [
+        "HIRING_SIGNAL",
+        "TECH_SIGNAL",
+        "MARKET_SIGNAL",
+        "OPPORTUNITY_SIGNAL"
+      ],
+      "domains": [
+        "aerospace",
+        "defense",
+        "space"
+      ],
+      "technologies": [
+        "simulation"
+      ],
+      "hiring": {
+        "detected": true,
+        "intent": "explicit_or_probable"
+      },
+      "career_relevance": 93,
+      "technical_relevance": 66,
+      "networking_relevance": 23,
+      "content_relevance": 50,
+      "profile_matches": [
+        "aerospace",
+        "simulation",
+        "space"
+      ],
+      "priority": "high",
+      "why_relevant": "обнаружен hiring-сигнал; технологии: simulation; домены: aerospace, defense, space; совпадение с профилем: aerospace, simulation, space.",
+      "recommended_actions": [
+        "check_jobs",
+        "find_technical_leads",
+        "find_recruiter",
+        "follow_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/lockheed-martin/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/lockheed-martin/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/lockheed-martin/",
+          "link_type": "company",
+          "relation": "mentioned",
+          "priority": "medium"
+        }
+      ],
+      "posted_time": "4 дн.",
+      "reactions": 212,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "I’m grateful to have completed my Summer 2026 internship with Lockheed Martin Space in Huntsville, Alabama, as a Software Engineer Intern! This experience provided me with valuable exposure to software engineering within the aerospace and defense industry while allowing me to grow both technically and professionally. I’m incredibly thankful for everyone who supported and mentored me throughout my time at Lockheed Martin . I look forward to carrying the knowledge and experience I gained into the next steps of my journey in computer science and software engineering.",
+      "source_url": "https://www.linkedin.com/company/lockheed-martin/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_5ed8f10e7c5bfe5f",
+      "source_post_id": "7495612599888338945",
+      "author": "Rocket Lab",
+      "author_type": "company",
+      "company": "Rocket Lab",
+      "people": [],
+      "signal_types": [
+        "HIRING_SIGNAL",
+        "PROJECT_SIGNAL",
+        "MARKET_SIGNAL",
+        "OPPORTUNITY_SIGNAL"
+      ],
+      "domains": [
+        "defense",
+        "space"
+      ],
+      "technologies": [],
+      "hiring": {
+        "detected": true,
+        "intent": "explicit_or_probable"
+      },
+      "career_relevance": 71,
+      "technical_relevance": 36,
+      "networking_relevance": 23,
+      "content_relevance": 50,
+      "profile_matches": [
+        "space"
+      ],
+      "priority": "medium",
+      "why_relevant": "обнаружен hiring-сигнал; домены: defense, space; совпадение с профилем: space.",
+      "recommended_actions": [
+        "check_jobs",
+        "find_technical_leads",
+        "find_recruiter",
+        "follow_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        }
+      ],
+      "posted_time": "1 нед.",
+      "reactions": 461,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "Calling all Manufacturing Technicians and Supply Chain Specialists! 🚀 Join us for an exclusive networking evening to unlock your next career move. Learn about our ambitious programs reshaping the space industry, connect with the people behind them, and learn what life is really like at Rocket Lab. Apply now if you want to: ✅ Work on real hardware and real missions from day one. ✅ Have a direct impact on national security, deep space exploration, and urgent defense capability. ✅ Solve brutally hard problems alongside teammates as relentlessly driven as you. ✅ Move faster than you ever have to achieve what others thought impossible. This won’t be the easiest job you’ve ever done. It’s not for everyone, but if you’re up for the challenge it will be the most impactful and fulfilling era of your career. Sign up now: https://lnkd.in/esrFaQBA",
+      "source_url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_efacd14ea7014dbc",
+      "source_post_id": "7488730652599787520",
+      "author": "Open Ocean Robotics",
+      "author_type": "company",
+      "company": "Open Ocean Robotics",
+      "people": [
+        {
+          "name": "Alex Rueben",
+          "profile_url": "https://www.linkedin.com/in/alex-rueben-083a8323/",
+          "relation": "mentioned"
+        }
+      ],
+      "signal_types": [
+        "TECH_SIGNAL",
+        "MARKET_SIGNAL",
+        "PEOPLE_SIGNAL",
+        "NETWORK_SIGNAL"
+      ],
+      "domains": [
+        "defense",
+        "marine"
+      ],
+      "technologies": [
+        "FEA/CAE",
+        "navigation"
+      ],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 52,
+      "technical_relevance": 66,
+      "networking_relevance": 49,
+      "content_relevance": 47,
+      "profile_matches": [
+        "marine",
+        "navigation"
+      ],
+      "priority": "medium",
+      "why_relevant": "технологии: FEA/CAE, navigation; домены: defense, marine; совпадение с профилем: marine, navigation.",
+      "recommended_actions": [
+        "follow_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/in/alex-rueben-083a8323/",
+          "link_type": "person",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/company/association-of-british-columbia-marine-industries/",
+          "link_type": "company",
+          "relation": "mentioned",
+          "priority": "medium"
+        }
+      ],
+      "posted_time": "1 нед.",
+      "reactions": 96,
+      "comments": null,
+      "hashtags": [
+        "#BC",
+        "#ColombieBritannique"
+      ],
+      "source_text": "💭 “British Columbia is uniquely positioned to play a larger role in supporting Canada's defence priorities.” This month, we’re pleased to feature Alex Rueben , CEO of the Association of British Columbia Defence and Marine Industries (ABCDMI) , which represents businesses across B.C.’s marine and defence sectors, and brings together industry, government, and academia to drive innovation and growth. Swipe through to hear Alex’s perspective on what makes #BC a leader in marine innovation and how ABCDMI is creating opportunities, strengthening the marine and defence sectors, and supporting Canada’s defence priorities, with investment from PacifiCan. --- 💭 « La Colombie-Britannique est dans une position unique pour jouer un rôle plus important en soutien aux priorités de défense du Canada. » Ce mois-ci, nous avons le plaisir de vous présenter en vedette Alex Rueben , directeur général de l’ Association of British Columbia Defence and Marine Industries (ABCDMI) , laquelle représente des entreprises des secteurs de la marine et de la défense de la Colombie-Britannique et réunit l’industrie, les gouvernements et le monde universitaire pour stimuler l’innovation et la croissance. Faites glisser pour découvrir le point de vue d’Alex sur ce qui fait de la #ColombieBritannique un chef de file en innovation maritime et la façon dont l’ABCDMI crée des possibilités, renforce les secteurs de la marine et de la défense et soutient les priorités du Canada en matière de défense, avec l’aide financière de PacifiCan.",
+      "source_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_1d178dd344b84665",
+      "source_post_id": null,
+      "author": "Relativity Space",
+      "author_type": "company",
+      "company": "Relativity Space",
+      "people": [
+        {
+          "name": "Cinco Murchison",
+          "profile_url": "https://www.linkedin.com/in/cinco-murchison/",
+          "relation": "mentioned"
+        }
+      ],
+      "signal_types": [
+        "TECH_SIGNAL",
+        "PROJECT_SIGNAL",
+        "PEOPLE_SIGNAL",
+        "NETWORK_SIGNAL"
+      ],
+      "domains": [
+        "space"
+      ],
+      "technologies": [
+        "simulation"
+      ],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 52,
+      "technical_relevance": 56,
+      "networking_relevance": 49,
+      "content_relevance": 47,
+      "profile_matches": [
+        "simulation",
+        "space"
+      ],
+      "priority": "medium",
+      "why_relevant": "технологии: simulation; домены: space; совпадение с профилем: simulation, space.",
+      "recommended_actions": [
+        "follow_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/relativity/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/relativity/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/relativity/",
+          "link_type": "company",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/in/cinco-murchison/",
+          "link_type": "person",
+          "relation": "mentioned",
+          "priority": "medium"
+        }
+      ],
+      "posted_time": "4 дн.",
+      "reactions": 107,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "Last week in true Relativity Space fashion we said Good Luck, Have Fun to our Additive Development interns as they head back to school. This was my first time as a formal intern manager, and I was incredibly impressed with how big of an impact our interns made in such a short time. I learned a lot about the balance of leadership and technical work, making sure that we are achieving our milestones while building a team that works well together and plays to the strengths of each individual. Cinco Murchison I really enjoyed working with you this summer, thank you for your eagerness to learn and the lasting contributions you have made to our manufacturing processes. It always feels like our interns leave us before we are ready, and we hope this is not goodbye but see you later. Whether that’s here at Relativity next year or our paths crossing further down the road, we are proud of you and are cheering you on from the sidelines in all of your academic and professional endeavors!",
+      "source_url": "https://www.linkedin.com/company/relativity/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_c47a61c7a61b5181",
+      "source_post_id": null,
+      "author": null,
+      "author_type": null,
+      "company": null,
+      "people": [],
+      "signal_types": [
+        "TECH_SIGNAL",
+        "PROJECT_SIGNAL",
+        "OPPORTUNITY_SIGNAL"
+      ],
+      "domains": [
+        "aerospace"
+      ],
+      "technologies": [
+        "navigation"
+      ],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 52,
+      "technical_relevance": 56,
+      "networking_relevance": 15,
+      "content_relevance": 42,
+      "profile_matches": [
+        "aerospace",
+        "navigation"
+      ],
+      "priority": "medium",
+      "why_relevant": "технологии: navigation; домены: aerospace; совпадение с профилем: aerospace, navigation.",
+      "recommended_actions": [
+        "no_action"
+      ],
+      "links": [],
+      "posted_time": "1 нед.",
+      "reactions": null,
+      "comments": null,
+      "hashtags": [
+        "#WildfireSuppression",
+        "#AerialFirefighting",
+        "#CanadaWildfires",
+        "#USFirefighting",
+        "#AviationSafety"
+      ],
+      "source_text": "Traditional aerial firefighting is broken. Here is how I propose to fix it. Dropping water from ultra-low altitudes endangers flight crews and frequently loses efficiency due to fluid evaporation before reaching the fire perimeter. I have developed a method for high-altitude structured water release from 150 meters, integrated with automatic navigation systems. Key Technical Advantages: 📍 High Precision: Phased, targeted agent distribution along active fire edges — even at night and under light smoke conditions. 🛡 Crew Safety: Flight operations occur at a safe altitude, well above extreme thermal updrafts and hazardous terrain. 🌲 Maximum Efficiency: Optimized drop physics maximize fluid volume reaching the ground. Physics works the same everywhere, making this technology universally applicable. Given the urgency of the global fire crisis, I am currently preparing this solution for deployment in North America (Canada & US) with a vision for global implementation. I'm looking for strategic R&D partners, grant co-applicants, and venture investors to help scale development. I also have a portfolio of over ten engineering solutions focused on enhancing fire suppression in wildland and complex urban environments. 📄 Full technical layout and details are in the attached document below. How is your region adapting aerial tactics for this year’s fire season? Let's discuss in the comments. #WildfireSuppression #AerialFirefighting #CanadaWildfires #USFirefighting #AviationSafety",
+      "source_url": "",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_2549b9ec9b7c293f",
+      "source_post_id": null,
+      "author": "Firefly Aerospace",
+      "author_type": "company",
+      "company": "Firefly Aerospace",
+      "people": [],
+      "signal_types": [
+        "PROJECT_SIGNAL",
+        "MARKET_SIGNAL"
+      ],
+      "domains": [
+        "defense",
+        "space"
+      ],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 41,
+      "technical_relevance": 36,
+      "networking_relevance": 15,
+      "content_relevance": 50,
+      "profile_matches": [
+        "space"
+      ],
+      "priority": "low",
+      "why_relevant": "домены: defense, space; совпадение с профилем: space.",
+      "recommended_actions": [
+        "watch_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/fireflyaerospace/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/fireflyaerospace/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/diux/",
+          "link_type": "company",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/company/space-development-agency/",
+          "link_type": "company",
+          "relation": "mentioned",
+          "priority": "medium"
+        }
+      ],
+      "posted_time": "2 нед.",
+      "reactions": 398,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "Space is getting crowded and we’re doing something about it.🛰️ We secured a new contract with the Defense Innovation Unit (DIU) and the Space Development Agency to design a mission providing deorbit services with our Elytra spacecraft. Our proprietary system is equipped to deorbit end-of-life satellites of vastly different sizes to help mitigate the growing space debris challenge our industry is up against. https://lnkd.in/esbhUJGY",
+      "source_url": "https://www.linkedin.com/company/fireflyaerospace/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_d2addfa836ed0d43",
+      "source_post_id": null,
+      "author": "Lockheed Martin",
+      "author_type": "company",
+      "company": "Lockheed Martin",
+      "people": [],
+      "signal_types": [
+        "HIRING_SIGNAL",
+        "OPPORTUNITY_SIGNAL"
+      ],
+      "domains": [],
+      "technologies": [],
+      "hiring": {
+        "detected": true,
+        "intent": "explicit_or_probable"
+      },
+      "career_relevance": 50,
+      "technical_relevance": 18,
+      "networking_relevance": 23,
+      "content_relevance": 28,
+      "profile_matches": [],
+      "priority": "low",
+      "why_relevant": "обнаружен hiring-сигнал.",
+      "recommended_actions": [
+        "check_jobs"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/lockheed-martin/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/lockheed-martin/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        }
+      ],
+      "posted_time": "4 дн.",
+      "reactions": 212,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "Congratulations on completing your internship, Torrean!",
+      "source_url": "https://www.linkedin.com/company/lockheed-martin/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_9763091a927051a6",
+      "source_post_id": "7466007516150325248",
+      "author": "MAXXIS Europe",
+      "author_type": "company",
+      "company": "MAXXIS Europe",
+      "people": [
+        {
+          "name": "Rudy Versteeg",
+          "profile_url": "https://www.linkedin.com/in/rudy-versteeg-463ba272/",
+          "relation": "mentioned"
+        }
+      ],
+      "signal_types": [
+        "PEOPLE_SIGNAL",
+        "NETWORK_SIGNAL"
+      ],
+      "domains": [
+        "space"
+      ],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 41,
+      "technical_relevance": 36,
+      "networking_relevance": 49,
+      "content_relevance": 23,
+      "profile_matches": [
+        "space"
+      ],
+      "priority": "low",
+      "why_relevant": "домены: space; совпадение с профилем: space.",
+      "recommended_actions": [
+        "watch_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/maxxiseurope/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/maxxiseurope/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/in/rudy-versteeg-463ba272/",
+          "link_type": "person",
+          "relation": "mentioned",
+          "priority": "medium"
+        }
+      ],
+      "posted_time": "",
+      "reactions": 14,
+      "comments": null,
+      "hashtags": [
+        "#MAXXISEurope",
+        "#MAXXPLORE",
+        "#ExploreWithoutLimits"
+      ],
+      "source_text": "Building a great tire takes time. The MAXXPLORE took over a year. Not because it's complicated, but because getting the balance right is hard. Mileage, wet grip, stability. Three things adventure riders depend on, and three things that usually pull in different directions. The result is a 70/30 tire: confident on asphalt, capable off it. Precise enough to be selected as original equipment for the BMW F 450 GS. In the video, our Managing Director Rudy Versteeg walks through the thinking behind it. Worth a watch if you're in the motorcycle or OEM space. 👉 Full specs and details via https://lnkd.in/dY_vD9_G #MAXXISEurope #MAXXPLORE #ExploreWithoutLimits",
+      "source_url": "https://www.linkedin.com/company/maxxiseurope/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_8daa332d8e74f710",
+      "source_post_id": "7496017037065007106",
+      "author": "BETA TECHNOLOGIES",
+      "author_type": "company",
+      "company": "BETA TECHNOLOGIES",
+      "people": [],
+      "signal_types": [
+        "COMPANY_SIGNAL"
+      ],
+      "domains": [
+        "aerospace"
+      ],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 41,
+      "technical_relevance": 36,
+      "networking_relevance": 15,
+      "content_relevance": 28,
+      "profile_matches": [
+        "aerospace"
+      ],
+      "priority": "low",
+      "why_relevant": "домены: aerospace; совпадение с профилем: aerospace.",
+      "recommended_actions": [
+        "watch_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/beta-air-llc/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/beta-air-llc/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        }
+      ],
+      "posted_time": "1 нед.",
+      "reactions": 183,
+      "comments": null,
+      "hashtags": [
+        "#NationalAviationDay"
+      ],
+      "source_text": "By pilots, for pilots #NationalAviationDay",
+      "source_url": "https://www.linkedin.com/company/beta-air-llc/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_875b72e788994a8a",
+      "source_post_id": null,
+      "author": null,
+      "author_type": null,
+      "company": null,
+      "people": [],
+      "signal_types": [
+        "COMPANY_SIGNAL"
+      ],
+      "domains": [
+        "aerospace"
+      ],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 41,
+      "technical_relevance": 36,
+      "networking_relevance": 15,
+      "content_relevance": 23,
+      "profile_matches": [
+        "aerospace"
+      ],
+      "priority": "low",
+      "why_relevant": "домены: aerospace; совпадение с профилем: aerospace.",
+      "recommended_actions": [
+        "no_action"
+      ],
+      "links": [],
+      "posted_time": "1 нед.",
+      "reactions": null,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "It’s NATIONAL AVIATION DAY: What’s that? Who made it a “day? 8/19? RELEVANCE to 2026? https://lnkd.in/etN95umi",
+      "source_url": "",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_977dd3e620a0ea23",
+      "source_post_id": null,
+      "author": "OceanWings",
+      "author_type": "company",
+      "company": "OceanWings",
+      "people": [],
+      "signal_types": [
+        "COMPANY_SIGNAL"
+      ],
+      "domains": [
+        "marine"
+      ],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 41,
+      "technical_relevance": 36,
+      "networking_relevance": 15,
+      "content_relevance": 28,
+      "profile_matches": [
+        "marine"
+      ],
+      "priority": "low",
+      "why_relevant": "домены: marine; совпадение с профилем: marine.",
+      "recommended_actions": [
+        "watch_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/oceanwings/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/oceanwings/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/oceanwings/",
+          "link_type": "company",
+          "relation": "mentioned",
+          "priority": "medium"
+        }
+      ],
+      "posted_time": "4 дн.",
+      "reactions": 55,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "⚓️ : Une aile rigide basculable OceanWings installée sur un vraquier dans le cadre d'un rétrofit Un système d'assistance vélique OceanWings a été installé pour la première fois dans le cadre d'un rétrofit. L'équipementier a intégré son aile rigide de nouvelle génération, fabriquée entre le France et la Chine, avant d’être assemblée directement au chantier, sur le vraquier Maria Topic. 👉 lire l'article : https://lnkd.in/eQErWErB 📷 : Oceanwings",
+      "source_url": "https://www.linkedin.com/company/oceanwings/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_13df3467be6ec998",
+      "source_post_id": "7488730652599787520",
+      "author": "Open Ocean Robotics",
+      "author_type": "company",
+      "company": "Open Ocean Robotics",
+      "people": [],
+      "signal_types": [
+        "PROJECT_SIGNAL",
+        "MARKET_SIGNAL",
+        "NETWORK_SIGNAL"
+      ],
+      "domains": [
+        "marine"
+      ],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 41,
+      "technical_relevance": 36,
+      "networking_relevance": 35,
+      "content_relevance": 40,
+      "profile_matches": [
+        "marine"
+      ],
+      "priority": "low",
+      "why_relevant": "домены: marine; совпадение с профилем: marine.",
+      "recommended_actions": [
+        "watch_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        }
+      ],
+      "posted_time": "1 нед.",
+      "reactions": 96,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "When you look back at our small training centre in Esquimalt To the belief that the BC Marine industry should speak and act as one edity hence the formation ABCMI. looks like the Marine industry and its sub contractors are in a good place now Your leadership is readily accepted and your enthusiasm goes without saying Cheers",
+      "source_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_ec5b570c16f5dfa7",
+      "source_post_id": null,
+      "author": "Rocket Lab",
+      "author_type": "company",
+      "company": "Rocket Lab",
+      "people": [],
+      "signal_types": [
+        "COMPANY_SIGNAL"
+      ],
+      "domains": [
+        "space"
+      ],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 41,
+      "technical_relevance": 36,
+      "networking_relevance": 15,
+      "content_relevance": 38,
+      "profile_matches": [
+        "space"
+      ],
+      "priority": "low",
+      "why_relevant": "домены: space; совпадение с профилем: space.",
+      "recommended_actions": [
+        "watch_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/mdaspace/",
+          "link_type": "company",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/company/globalstar/",
+          "link_type": "company",
+          "relation": "mentioned",
+          "priority": "medium"
+        }
+      ],
+      "posted_time": "1 нед.",
+      "reactions": 1197,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "Eight advanced satellite platforms built by Rocket Lab for MDA Space are now in orbit. These 500kg Lightning spacecraft buses are incorporated into MDA Space satellites for Globalstar . Read more: https://bit.ly/4gCgNGP",
+      "source_url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_baa26880c645a037",
+      "source_post_id": null,
+      "author": "Frictape Ltd",
+      "author_type": "company",
+      "company": "Frictape Ltd",
+      "people": [],
+      "signal_types": [
+        "TECH_SIGNAL"
+      ],
+      "domains": [],
+      "technologies": [
+        "UAV/UAS"
+      ],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 31,
+      "technical_relevance": 38,
+      "networking_relevance": 15,
+      "content_relevance": 25,
+      "profile_matches": [
+        "UAV/UAS"
+      ],
+      "priority": "low",
+      "why_relevant": "технологии: UAV/UAS; совпадение с профилем: UAV/UAS.",
+      "recommended_actions": [
+        "watch_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/frictape-net-ltd/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/frictape-net-ltd/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        }
+      ],
+      "posted_time": "",
+      "reactions": 12,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "You may already detect drones—but can you guarantee they’ll never reach your assets? SpiderNet bridges that gap by turning vulnerable lines of sight into a physical capture zone. Our patented high performnce C-UAS safety netting system stops and contains hostile UAVs at speed, are quick to install, and easy to reconfigure as your risk profile changes. You gain real denial capability without adding operator workload.",
+      "source_url": "https://www.linkedin.com/company/frictape-net-ltd/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_4684fddef4e5267e",
+      "source_post_id": null,
+      "author": "Tetakawi (formerly The Offshore Group)",
+      "author_type": "company",
+      "company": "Tetakawi (formerly The Offshore Group)",
+      "people": [],
+      "signal_types": [
+        "PROJECT_SIGNAL"
+      ],
+      "domains": [],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 20,
+      "technical_relevance": 18,
+      "networking_relevance": 15,
+      "content_relevance": 30,
+      "profile_matches": [],
+      "priority": "low",
+      "why_relevant": "сигнал компании/рынка без сильного совпадения с профилем.",
+      "recommended_actions": [
+        "watch_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/tetakawi/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/tetakawi/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        },
+        {
+          "url": "https://go.tetakawi.com/ebook/manufacture-in-mexico-guide?utm_source=linkedin&utm_medium=paid&utm_campaign=TKW-LI_ExecGuideC1_MfgExec&utm_content=single-image-destination&utm_id=1173690003&hsa_acc=508024063&hsa_cam=1173690003&hsa_grp=810774893&hsa_ad=1496414333&hsa_net=linkedin&hsa_ver=3&li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029",
+          "link_type": "external",
+          "relation": "source",
+          "priority": "medium"
+        }
+      ],
+      "posted_time": "",
+      "reactions": 2,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "Mexico isn't the risk. Execution is. Our executive guide covers the full path, from deciding on Mexico to launching production, and how Tetakawi's Manufacturing Campus model keeps every step predictable. Inside: the 30-day launch path, how manufacturers cut overhead 30-35%, and the 6-phase playbook from decision to scale.",
+      "source_url": "https://www.linkedin.com/company/tetakawi/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_7b86f0351863b3b6",
+      "source_post_id": "7497948683422863360",
+      "author": "EDF",
+      "author_type": "company",
+      "company": "EDF",
+      "people": [],
+      "signal_types": [
+        "COMPANY_SIGNAL"
+      ],
+      "domains": [],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 20,
+      "technical_relevance": 18,
+      "networking_relevance": 15,
+      "content_relevance": 23,
+      "profile_matches": [],
+      "priority": "low",
+      "why_relevant": "сигнал компании/рынка без сильного совпадения с профилем.",
+      "recommended_actions": [
+        "watch_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/edf/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/edf/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        }
+      ],
+      "posted_time": "",
+      "reactions": 141,
+      "comments": null,
+      "hashtags": [
+        "#DLDMars"
+      ],
+      "source_text": "L'eau des barrages a bien plus qu'un rôle à jouer ! 💧 Elle répond à de nombreux besoins sur les territoires : alimentation en eau potable, irrigation des cultures, activités touristiques et de loisirs. Cette gestion repose sur un principe clé : le multi-usages de l’eau, qui consiste à répondre à plusieurs besoins, parfois au même moment. On vous explique tout dans cette vidéo 👇 #DLDMars",
+      "source_url": "https://www.linkedin.com/company/edf/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_22bebd7dd6920457",
+      "source_post_id": null,
+      "author": "Zenika",
+      "author_type": "company",
+      "company": "Zenika",
+      "people": [],
+      "signal_types": [
+        "COMPANY_SIGNAL"
+      ],
+      "domains": [],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 20,
+      "technical_relevance": 18,
+      "networking_relevance": 15,
+      "content_relevance": 23,
+      "profile_matches": [],
+      "priority": "low",
+      "why_relevant": "сигнал компании/рынка без сильного совпадения с профилем.",
+      "recommended_actions": [
+        "watch_company"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/zenika/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/zenika/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/experts-program/",
+          "link_type": "company",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://lnkd.in/e_ghC9U7?li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029",
+          "link_type": "external",
+          "relation": "source",
+          "priority": "medium"
+        }
+      ],
+      "posted_time": "",
+      "reactions": 56,
+      "comments": null,
+      "hashtags": [
+        "#Gemini",
+        "#Quarkus",
+        "#OpenSource",
+        "#GDE"
+      ],
+      "source_text": "Fin juillet, je suis parti en congé en mode « je coupe tout »… 🌴 Le lendemain, je me suis lancé dans la création d'une application pour générer des histoires custom pour mon fils et les transférer directement sur sa nouvelle boîte Lunii. 🧩 La stack : • Quarkus (avec l'extension Quarkus Quinoa) pour l'application • Gemini Flash & TTS pour de la création de l'histoire et de la synthèse vocale • Intégration du projet open source Studio pour le transfert sur la Lunii 👉 https://lnkd.in/e_ghC9U7 #Gemini #Quarkus #OpenSource Google Developer Experts #GDE",
+      "source_url": "https://www.linkedin.com/company/zenika/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    }
+  ],
+  "llm_summary": {
+    "provider": "none",
+    "model": null,
+    "scope": "none",
+    "attempted": 0,
+    "succeeded": 0,
+    "failed": 0,
+    "fallback_to_rules": 0
+  }
+}
