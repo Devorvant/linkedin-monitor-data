@@ -1,1 +1,934 @@
-[]
+[
+  {
+    "type": "company",
+    "title": "ARKANCE IN Private Limited",
+    "company": "",
+    "location": "",
+    "text": "ARKANCE IN Private Limited",
+    "url": "https://www.linkedin.com/company/arkancein/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Anurag University",
+    "company": "",
+    "location": "",
+    "text": "Anurag University",
+    "url": "https://www.linkedin.com/company/anurag-university-/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Association of British Columbia Defence and Marine Industries (ABCDMI)",
+    "company": "",
+    "location": "",
+    "text": "Association of British Columbia Defence and Marine Industries (ABCDMI)",
+    "url": "https://www.linkedin.com/company/association-of-british-columbia-marine-industries/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "BETA TECHNOLOGIES",
+    "company": "",
+    "location": "",
+    "text": "BETA TECHNOLOGIES",
+    "url": "https://www.linkedin.com/company/beta-air-llc/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Defense Innovation Unit (DIU)",
+    "company": "",
+    "location": "",
+    "text": "Defense Innovation Unit (DIU)",
+    "url": "https://www.linkedin.com/company/diux/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Firefly Aerospace",
+    "company": "",
+    "location": "",
+    "text": "Firefly Aerospace",
+    "url": "https://www.linkedin.com/company/fireflyaerospace/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Frictape Ltd",
+    "company": "",
+    "location": "",
+    "text": "Frictape Ltd",
+    "url": "https://www.linkedin.com/company/frictape-net-ltd/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Globalstar",
+    "company": "",
+    "location": "",
+    "text": "Globalstar",
+    "url": "https://www.linkedin.com/company/globalstar/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Google Developer Experts",
+    "company": "",
+    "location": "",
+    "text": "Google Developer Experts",
+    "url": "https://www.linkedin.com/company/experts-program/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Lockheed Martin",
+    "company": "",
+    "location": "",
+    "text": "Lockheed Martin",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Lockheed Martin Подтверждено Lockheed Martin 3 299 133 отслеживающих",
+    "company": "",
+    "location": "",
+    "text": "Lockheed Martin Подтверждено Lockheed Martin 3 299 133 отслеживающих",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "MAXXIS Europe",
+    "company": "",
+    "location": "",
+    "text": "MAXXIS Europe",
+    "url": "https://www.linkedin.com/company/maxxiseurope/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "MDA Space",
+    "company": "",
+    "location": "",
+    "text": "MDA Space",
+    "url": "https://www.linkedin.com/company/mdaspace/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "MathWorks",
+    "company": "",
+    "location": "",
+    "text": "MathWorks",
+    "url": "https://www.linkedin.com/company/the-mathworks_2/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Mer et Marine",
+    "company": "",
+    "location": "",
+    "text": "Mer et Marine",
+    "url": "https://www.linkedin.com/company/meretmarine/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "OceanWings",
+    "company": "",
+    "location": "",
+    "text": "OceanWings",
+    "url": "https://www.linkedin.com/company/oceanwings/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Open Ocean Robotics",
+    "company": "",
+    "location": "",
+    "text": "Open Ocean Robotics",
+    "url": "https://www.linkedin.com/company/open-ocean-robotics/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Pacific Economic Development Canada | Développement économique Canada pour le Pacifique",
+    "company": "",
+    "location": "",
+    "text": "Pacific Economic Development Canada | Développement économique Canada pour le Pacifique",
+    "url": "https://www.linkedin.com/company/pacifican/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Relativity Space",
+    "company": "",
+    "location": "",
+    "text": "Relativity Space",
+    "url": "https://www.linkedin.com/company/relativity/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Rocket Lab",
+    "company": "",
+    "location": "",
+    "text": "Rocket Lab",
+    "url": "https://www.linkedin.com/company/rocket-lab-corp/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Space Development Agency",
+    "company": "",
+    "location": "",
+    "text": "Space Development Agency",
+    "url": "https://www.linkedin.com/company/space-development-agency/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Tetakawi (formerly The Offshore Group)",
+    "company": "",
+    "location": "",
+    "text": "Tetakawi (formerly The Offshore Group)",
+    "url": "https://www.linkedin.com/company/tetakawi/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "company",
+    "title": "Zenika",
+    "company": "",
+    "location": "",
+    "text": "Zenika",
+    "url": "https://www.linkedin.com/company/zenika/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Alex Rueben",
+    "company": "",
+    "location": "",
+    "text": "Alex Rueben",
+    "url": "https://www.linkedin.com/in/alex-rueben-083a8323/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Burak Çetin",
+    "company": "",
+    "location": "",
+    "text": "Burak Çetin",
+    "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Cinco Murchison",
+    "company": "",
+    "location": "",
+    "text": "Cinco Murchison",
+    "url": "https://www.linkedin.com/in/cinco-murchison/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Darya Zaytseva Recruitment Stream Lead (QA) Banco Plata 🧡 Career advisor Отслеживается 2 общими контактами Отслеживать",
+    "company": "",
+    "location": "",
+    "text": "Darya Zaytseva Recruitment Stream Lead (QA) Banco Plata 🧡 Career advisor Отслеживается 2 общими контактами Отслеживать",
+    "url": "https://www.linkedin.com/in/daryzaytseva/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Davide Iafrate • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Davide Iafrate • 3-й+",
+    "url": "https://www.linkedin.com/in/davide-iafrate-b1a4011bb/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Elvira Yafimenka IT Recruiter 🕵️‍♂️ Looking for: Head of Marketing | Fullstack Developer | Python Backend Developer | Business Analyst | iOS Developer Отслеживается 2 общими контактами Отслеживать",
+    "company": "",
+    "location": "",
+    "text": "Elvira Yafimenka IT Recruiter 🕵️‍♂️ Looking for: Head of Marketing | Fullstack Developer | Python Backend Developer | Business Analyst | iOS Developer Отслеживается 2 общими контактами Отслеживать",
+    "url": "https://www.linkedin.com/in/eelvira/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Francis Arokia Swamy",
+    "company": "",
+    "location": "",
+    "text": "Francis Arokia Swamy",
+    "url": "https://www.linkedin.com/in/francis-arokia-swamy-2b448238a/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Jean-Philippe Baconnais • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Jean-Philippe Baconnais • 3-й+",
+    "url": "https://www.linkedin.com/in/jean-philippe-baconnais-931544116/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Loy Sabson Fernandes",
+    "company": "",
+    "location": "",
+    "text": "Loy Sabson Fernandes",
+    "url": "https://www.linkedin.com/in/loysabson/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Naresh Babu",
+    "company": "",
+    "location": "",
+    "text": "Naresh Babu",
+    "url": "https://www.linkedin.com/in/naresh-babu-77a37444/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "P Chandhana",
+    "company": "",
+    "location": "",
+    "text": "P Chandhana",
+    "url": "https://www.linkedin.com/in/p-chandhana/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Rudy Versteeg",
+    "company": "",
+    "location": "",
+    "text": "Rudy Versteeg",
+    "url": "https://www.linkedin.com/in/rudy-versteeg-463ba272/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва",
+    "company": "",
+    "location": "",
+    "text": "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва",
+    "url": "https://www.linkedin.com/in/devorvant/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Shaunessy Mobley • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Shaunessy Mobley • 3-й+",
+    "url": "https://www.linkedin.com/in/shaunessy-grant/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Tatsiana Davydzenka IT Recruiter Отслеживается 2 общими контактами Отслеживать",
+    "company": "",
+    "location": "",
+    "text": "Tatsiana Davydzenka IT Recruiter Отслеживается 2 общими контактами Отслеживать",
+    "url": "https://www.linkedin.com/in/tatsianadavydzenka/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Torrean Mozley • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Torrean Mozley • 3-й+",
+    "url": "https://www.linkedin.com/in/torreanmozley/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "malcolm barker, 3-й+ malcolm barker • 3-й+ VP&GM at Seaspan International victoria shipyards",
+    "company": "",
+    "location": "",
+    "text": "malcolm barker, 3-й+ malcolm barker • 3-й+ VP&GM at Seaspan International victoria shipyards",
+    "url": "https://www.linkedin.com/in/malcolm-barker-ba04403b/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "uday Kumar",
+    "company": "",
+    "location": "",
+    "text": "uday Kumar",
+    "url": "https://www.linkedin.com/in/uday-kumar-51b5a026/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "person",
+    "title": "Астроно",
+    "company": "",
+    "location": "",
+    "text": "Астроно",
+    "url": "https://www.linkedin.com/in/devorvant/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "BETA TECHNOLOGIES",
+    "company": "BETA TECHNOLOGIES",
+    "location": "",
+    "text": "By pilots, for pilots #NationalAviationDay",
+    "url": "https://www.linkedin.com/company/beta-air-llc/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "BETA TECHNOLOGIES",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/beta-air-llc/posts/",
+    "posted_time": "1 нед.",
+    "post_id": "7496017037065007106",
+    "hashtags": [
+      "#NationalAviationDay"
+    ],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 183,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Burak Çetin",
+    "company": "",
+    "location": "",
+    "text": "Excited to share that my PR for RotorPy support has been merged into PX4! RotorPy is a lightweight Python-based multirotor simulator with aerodynamic modeling and a Gymnasium interface, making it a useful option for simulation, research, and ML/AI workflows. The integration is now part of PX4 main and includes SITL support and documentation to get started. Docs: https://lnkd.in/eYjwYdyj PR: PX4 PR #27116 https://lnkd.in/eCRMaHZS Thanks to the PX4 community for the reviews and contributions! #PX4 #RotorPy #Robotics #Drones #Simulation #Autonomy #MachineLearning",
+    "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "Burak Çetin",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+    "posted_time": "5 дн.",
+    "post_id": "",
+    "hashtags": [
+      "#PX4",
+      "#RotorPy",
+      "#Robotics",
+      "#Drones",
+      "#Simulation",
+      "#Autonomy",
+      "#MachineLearning"
+    ],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 39,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "EDF",
+    "company": "EDF",
+    "location": "",
+    "text": "L'eau des barrages a bien plus qu'un rôle à jouer ! 💧 Elle répond à de nombreux besoins sur les territoires : alimentation en eau potable, irrigation des cultures, activités touristiques et de loisirs. Cette gestion repose sur un principe clé : le multi-usages de l’eau, qui consiste à répondre à plusieurs besoins, parfois au même moment. On vous explique tout dans cette vidéo 👇 #DLDMars",
+    "url": "https://www.linkedin.com/company/edf/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "EDF",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/edf/posts/",
+    "posted_time": "",
+    "post_id": "7497948683422863360",
+    "hashtags": [
+      "#DLDMars"
+    ],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 141,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Firefly Aerospace",
+    "company": "Firefly Aerospace",
+    "location": "",
+    "text": "Space is getting crowded and we’re doing something about it.🛰️ We secured a new contract with the Defense Innovation Unit (DIU) and the Space Development Agency to design a mission providing deorbit services with our Elytra spacecraft. Our proprietary system is equipped to deorbit end-of-life satellites of vastly different sizes to help mitigate the growing space debris challenge our industry is up against. https://lnkd.in/esbhUJGY",
+    "url": "https://www.linkedin.com/company/fireflyaerospace/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "Firefly Aerospace",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/fireflyaerospace/posts/",
+    "posted_time": "2 нед.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "Defense Innovation Unit (DIU)",
+        "url": "https://www.linkedin.com/company/diux/"
+      },
+      {
+        "name": "Space Development Agency",
+        "url": "https://www.linkedin.com/company/space-development-agency/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 398,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Frictape Ltd",
+    "company": "Frictape Ltd",
+    "location": "",
+    "text": "You may already detect drones—but can you guarantee they’ll never reach your assets? SpiderNet bridges that gap by turning vulnerable lines of sight into a physical capture zone. Our patented high performnce C-UAS safety netting system stops and contains hostile UAVs at speed, are quick to install, and easy to reconfigure as your risk profile changes. You gain real denial capability without adding operator workload.",
+    "url": "https://www.linkedin.com/company/frictape-net-ltd/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "Frictape Ltd",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/frictape-net-ltd/posts/",
+    "posted_time": "",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 12,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "It’s NATIONAL AVIATION DAY: What’s that? Who made it a “day? 8/19? RELEVANCE to 2026? https://lnkd.in/etN95umi",
+    "company": "",
+    "location": "",
+    "text": "It’s NATIONAL AVIATION DAY: What’s that? Who made it a “day? 8/19? RELEVANCE to 2026? https://lnkd.in/etN95umi",
+    "url": "",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "1 нед.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": null,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Lockheed Martin",
+    "company": "Lockheed Martin",
+    "location": "",
+    "text": "I’m grateful to have completed my Summer 2026 internship with Lockheed Martin Space in Huntsville, Alabama, as a Software Engineer Intern! This experience provided me with valuable exposure to software engineering within the aerospace and defense industry while allowing me to grow both technically and professionally. I’m incredibly thankful for everyone who supported and mentored me throughout my time at Lockheed Martin . I look forward to carrying the knowledge and experience I gained into the next steps of my journey in computer science and software engineering.",
+    "url": "https://www.linkedin.com/company/lockheed-martin/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "Lockheed Martin",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/lockheed-martin/posts/",
+    "posted_time": "4 дн.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "Lockheed Martin",
+        "url": "https://www.linkedin.com/company/lockheed-martin/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 212,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Lockheed Martin",
+    "company": "Lockheed Martin",
+    "location": "",
+    "text": "Congratulations on completing your internship, Torrean!",
+    "url": "https://www.linkedin.com/company/lockheed-martin/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "Lockheed Martin",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/lockheed-martin/posts/",
+    "posted_time": "4 дн.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 212,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "MAXXIS Europe",
+    "company": "MAXXIS Europe",
+    "location": "",
+    "text": "Building a great tire takes time. The MAXXPLORE took over a year. Not because it's complicated, but because getting the balance right is hard. Mileage, wet grip, stability. Three things adventure riders depend on, and three things that usually pull in different directions. The result is a 70/30 tire: confident on asphalt, capable off it. Precise enough to be selected as original equipment for the BMW F 450 GS. In the video, our Managing Director Rudy Versteeg walks through the thinking behind it. Worth a watch if you're in the motorcycle or OEM space. 👉 Full specs and details via https://lnkd.in/dY_vD9_G #MAXXISEurope #MAXXPLORE #ExploreWithoutLimits",
+    "url": "https://www.linkedin.com/company/maxxiseurope/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "MAXXIS Europe",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/maxxiseurope/posts/",
+    "posted_time": "",
+    "post_id": "7466007516150325248",
+    "hashtags": [
+      "#MAXXISEurope",
+      "#MAXXPLORE",
+      "#ExploreWithoutLimits"
+    ],
+    "mentions": [
+      {
+        "name": "Rudy Versteeg",
+        "url": "https://www.linkedin.com/in/rudy-versteeg-463ba272/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 14,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "MathWorks",
+    "company": "MathWorks",
+    "location": "",
+    "text": "🎓 MATLAB DAY at Anurag University - A Day of Learning, Innovation & Engineering Excellence! We are pleased to share that MATLAB DAY at Anurag University was successfully conducted by the ARKANCE Education Team, with an enthusiastic response from 200+ students and faculty members across core engineering disciplines. The full-day technical program provided participants with valuable insights into the MathWorks Campus-Wide License, MATLAB & Simulink, academic learning resources, and applications across engineering domains. ✨ Key highlights included: • Introduction to MATLAB, Simulink & Campus-Wide License • Live technical demonstrations across engineering applications • MATLAB Academic Online Training & self-learning resources • Software installation and access guidance • Interactive Q&A with students and faculty A special thanks to our ARKANCE team - P Chandhana , uday Kumar , Naresh Babu , and Francis Arokia Swamy - for successfully planning and delivering the program. We sincerely thank Ajay Talluri and Loy Sabson Fernandes from MathWorks for their continued support and guidance. Together, MathWorks, Anurag University & ARKANCE continue to empower the next generation of engineers with industry-relevant tools, knowledge, and learning opportunities. #MATLABDay #MATLAB #Simulink #MathWorks #AnuragUniversity #ARKANCE #EngineeringEducation #EngineeringStudents #TechnicalEducation #Innovation #AcademicTechnology #ARKANCEIndia",
+    "url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "MathWorks",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+    "posted_time": "1 нед.",
+    "post_id": "7496448164820869120",
+    "hashtags": [
+      "#MATLABDay",
+      "#MATLAB",
+      "#Simulink",
+      "#MathWorks",
+      "#AnuragUniversity",
+      "#ARKANCE",
+      "#EngineeringEducation",
+      "#EngineeringStudents",
+      "#TechnicalEducation",
+      "#Innovation",
+      "#AcademicTechnology",
+      "#ARKANCEIndia"
+    ],
+    "mentions": [
+      {
+        "name": "Anurag University",
+        "url": "https://www.linkedin.com/company/anurag-university-/"
+      },
+      {
+        "name": "MathWorks",
+        "url": "https://www.linkedin.com/company/the-mathworks_2/"
+      },
+      {
+        "name": "P Chandhana",
+        "url": "https://www.linkedin.com/in/p-chandhana/"
+      },
+      {
+        "name": "uday Kumar",
+        "url": "https://www.linkedin.com/in/uday-kumar-51b5a026/"
+      },
+      {
+        "name": "Naresh Babu",
+        "url": "https://www.linkedin.com/in/naresh-babu-77a37444/"
+      },
+      {
+        "name": "Francis Arokia Swamy",
+        "url": "https://www.linkedin.com/in/francis-arokia-swamy-2b448238a/"
+      },
+      {
+        "name": "Loy Sabson Fernandes",
+        "url": "https://www.linkedin.com/in/loysabson/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 17,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "OceanWings",
+    "company": "OceanWings",
+    "location": "",
+    "text": "⚓️ : Une aile rigide basculable OceanWings installée sur un vraquier dans le cadre d'un rétrofit Un système d'assistance vélique OceanWings a été installé pour la première fois dans le cadre d'un rétrofit. L'équipementier a intégré son aile rigide de nouvelle génération, fabriquée entre le France et la Chine, avant d’être assemblée directement au chantier, sur le vraquier Maria Topic. 👉 lire l'article : https://lnkd.in/eQErWErB 📷 : Oceanwings",
+    "url": "https://www.linkedin.com/company/oceanwings/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "OceanWings",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/oceanwings/posts/",
+    "posted_time": "4 дн.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "OceanWings",
+        "url": "https://www.linkedin.com/company/oceanwings/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 55,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Open Ocean Robotics",
+    "company": "Open Ocean Robotics",
+    "location": "",
+    "text": "💭 “British Columbia is uniquely positioned to play a larger role in supporting Canada's defence priorities.” This month, we’re pleased to feature Alex Rueben , CEO of the Association of British Columbia Defence and Marine Industries (ABCDMI) , which represents businesses across B.C.’s marine and defence sectors, and brings together industry, government, and academia to drive innovation and growth. Swipe through to hear Alex’s perspective on what makes #BC a leader in marine innovation and how ABCDMI is creating opportunities, strengthening the marine and defence sectors, and supporting Canada’s defence priorities, with investment from PacifiCan. --- 💭 « La Colombie-Britannique est dans une position unique pour jouer un rôle plus important en soutien aux priorités de défense du Canada. » Ce mois-ci, nous avons le plaisir de vous présenter en vedette Alex Rueben , directeur général de l’ Association of British Columbia Defence and Marine Industries (ABCDMI) , laquelle représente des entreprises des secteurs de la marine et de la défense de la Colombie-Britannique et réunit l’industrie, les gouvernements et le monde universitaire pour stimuler l’innovation et la croissance. Faites glisser pour découvrir le point de vue d’Alex sur ce qui fait de la #ColombieBritannique un chef de file en innovation maritime et la façon dont l’ABCDMI crée des possibilités, renforce les secteurs de la marine et de la défense et soutient les priorités du Canada en matière de défense, avec l’aide financière de PacifiCan.",
+    "url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "Open Ocean Robotics",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+    "posted_time": "1 нед.",
+    "post_id": "7488730652599787520",
+    "hashtags": [
+      "#BC",
+      "#ColombieBritannique"
+    ],
+    "mentions": [
+      {
+        "name": "Alex Rueben",
+        "url": "https://www.linkedin.com/in/alex-rueben-083a8323/"
+      },
+      {
+        "name": "Association of British Columbia Defence and Marine Industries (ABCDMI)",
+        "url": "https://www.linkedin.com/company/association-of-british-columbia-marine-industries/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 96,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Open Ocean Robotics",
+    "company": "Open Ocean Robotics",
+    "location": "",
+    "text": "When you look back at our small training centre in Esquimalt To the belief that the BC Marine industry should speak and act as one edity hence the formation ABCMI. looks like the Marine industry and its sub contractors are in a good place now Your leadership is readily accepted and your enthusiasm goes without saying Cheers",
+    "url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "Open Ocean Robotics",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+    "posted_time": "1 нед.",
+    "post_id": "7488730652599787520",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 96,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Relativity Space",
+    "company": "Relativity Space",
+    "location": "",
+    "text": "Last week in true Relativity Space fashion we said Good Luck, Have Fun to our Additive Development interns as they head back to school. This was my first time as a formal intern manager, and I was incredibly impressed with how big of an impact our interns made in such a short time. I learned a lot about the balance of leadership and technical work, making sure that we are achieving our milestones while building a team that works well together and plays to the strengths of each individual. Cinco Murchison I really enjoyed working with you this summer, thank you for your eagerness to learn and the lasting contributions you have made to our manufacturing processes. It always feels like our interns leave us before we are ready, and we hope this is not goodbye but see you later. Whether that’s here at Relativity next year or our paths crossing further down the road, we are proud of you and are cheering you on from the sidelines in all of your academic and professional endeavors!",
+    "url": "https://www.linkedin.com/company/relativity/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "Relativity Space",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/relativity/posts/",
+    "posted_time": "4 дн.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "Relativity Space",
+        "url": "https://www.linkedin.com/company/relativity/"
+      },
+      {
+        "name": "Cinco Murchison",
+        "url": "https://www.linkedin.com/in/cinco-murchison/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 107,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Rocket Lab",
+    "company": "Rocket Lab",
+    "location": "",
+    "text": "Eight advanced satellite platforms built by Rocket Lab for MDA Space are now in orbit. These 500kg Lightning spacecraft buses are incorporated into MDA Space satellites for Globalstar . Read more: https://bit.ly/4gCgNGP",
+    "url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "Rocket Lab",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+    "posted_time": "1 нед.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "MDA Space",
+        "url": "https://www.linkedin.com/company/mdaspace/"
+      },
+      {
+        "name": "Globalstar",
+        "url": "https://www.linkedin.com/company/globalstar/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 1197,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Rocket Lab",
+    "company": "Rocket Lab",
+    "location": "",
+    "text": "Calling all Manufacturing Technicians and Supply Chain Specialists! 🚀 Join us for an exclusive networking evening to unlock your next career move. Learn about our ambitious programs reshaping the space industry, connect with the people behind them, and learn what life is really like at Rocket Lab. Apply now if you want to: ✅ Work on real hardware and real missions from day one. ✅ Have a direct impact on national security, deep space exploration, and urgent defense capability. ✅ Solve brutally hard problems alongside teammates as relentlessly driven as you. ✅ Move faster than you ever have to achieve what others thought impossible. This won’t be the easiest job you’ve ever done. It’s not for everyone, but if you’re up for the challenge it will be the most impactful and fulfilling era of your career. Sign up now: https://lnkd.in/esrFaQBA",
+    "url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "Rocket Lab",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+    "posted_time": "1 нед.",
+    "post_id": "7495612599888338945",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 461,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Tetakawi (formerly The Offshore Group)",
+    "company": "Tetakawi (formerly The Offshore Group)",
+    "location": "",
+    "text": "Mexico isn't the risk. Execution is. Our executive guide covers the full path, from deciding on Mexico to launching production, and how Tetakawi's Manufacturing Campus model keeps every step predictable. Inside: the 30-day launch path, how manufacturers cut overhead 30-35%, and the 6-phase playbook from decision to scale.",
+    "url": "https://www.linkedin.com/company/tetakawi/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "Tetakawi (formerly The Offshore Group)",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/tetakawi/posts/",
+    "posted_time": "",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [
+      "https://go.tetakawi.com/ebook/manufacture-in-mexico-guide?utm_source=linkedin&utm_medium=paid&utm_campaign=TKW-LI_ExecGuideC1_MfgExec&utm_content=single-image-destination&utm_id=1173690003&hsa_acc=508024063&hsa_cam=1173690003&hsa_grp=810774893&hsa_ad=1496414333&hsa_net=linkedin&hsa_ver=3&li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029"
+    ],
+    "reactions": 2,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Traditional aerial firefighting is broken. Here is how I propose to fix it. Dropping water from ultra-low altitudes endangers flight crews and frequently loses efficiency due to fl",
+    "company": "",
+    "location": "",
+    "text": "Traditional aerial firefighting is broken. Here is how I propose to fix it. Dropping water from ultra-low altitudes endangers flight crews and frequently loses efficiency due to fluid evaporation before reaching the fire perimeter. I have developed a method for high-altitude structured water release from 150 meters, integrated with automatic navigation systems. Key Technical Advantages: 📍 High Precision: Phased, targeted agent distribution along active fire edges — even at night and under light smoke conditions. 🛡 Crew Safety: Flight operations occur at a safe altitude, well above extreme thermal updrafts and hazardous terrain. 🌲 Maximum Efficiency: Optimized drop physics maximize fluid volume reaching the ground. Physics works the same everywhere, making this technology universally applicable. Given the urgency of the global fire crisis, I am currently preparing this solution for deployment in North America (Canada & US) with a vision for global implementation. I'm looking for strategic R&D partners, grant co-applicants, and venture investors to help scale development. I also have a portfolio of over ten engineering solutions focused on enhancing fire suppression in wildland and complex urban environments. 📄 Full technical layout and details are in the attached document below. How is your region adapting aerial tactics for this year’s fire season? Let's discuss in the comments. #WildfireSuppression #AerialFirefighting #CanadaWildfires #USFirefighting #AviationSafety",
+    "url": "",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "1 нед.",
+    "post_id": "",
+    "hashtags": [
+      "#WildfireSuppression",
+      "#AerialFirefighting",
+      "#CanadaWildfires",
+      "#USFirefighting",
+      "#AviationSafety"
+    ],
+    "mentions": [],
+    "external_links": [],
+    "reactions": null,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  },
+  {
+    "type": "post",
+    "title": "Zenika",
+    "company": "Zenika",
+    "location": "",
+    "text": "Fin juillet, je suis parti en congé en mode « je coupe tout »… 🌴 Le lendemain, je me suis lancé dans la création d'une application pour générer des histoires custom pour mon fils et les transférer directement sur sa nouvelle boîte Lunii. 🧩 La stack : • Quarkus (avec l'extension Quarkus Quinoa) pour l'application • Gemini Flash & TTS pour de la création de l'histoire et de la synthèse vocale • Intégration du projet open source Studio pour le transfert sur la Lunii 👉 https://lnkd.in/e_ghC9U7 #Gemini #Quarkus #OpenSource Google Developer Experts #GDE",
+    "url": "https://www.linkedin.com/company/zenika/posts/",
+    "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+    "author": "Zenika",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/zenika/posts/",
+    "posted_time": "",
+    "post_id": "",
+    "hashtags": [
+      "#Gemini",
+      "#Quarkus",
+      "#OpenSource",
+      "#GDE"
+    ],
+    "mentions": [
+      {
+        "name": "Google Developer Experts",
+        "url": "https://www.linkedin.com/company/experts-program/"
+      }
+    ],
+    "external_links": [
+      "https://lnkd.in/e_ghC9U7?li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029"
+    ],
+    "reactions": 56,
+    "comments": null,
+    "collected_at": "2026-08-29T21:52:45"
+  }
+]
