@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-29T19:23:05.840761+00:00",
+  "generated_at": "2026-08-29T19:33:01.520611+00:00",
   "summary": {
     "posts_analyzed": 19,
     "high_priority": 3,
@@ -101,9 +101,9 @@
       "analysis_engine": "rules",
       "llm": {
         "used": false,
-        "provider": null,
-        "model": null,
-        "error": null
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       }
     },
     {
@@ -249,9 +249,9 @@
       "analysis_engine": "rules",
       "llm": {
         "used": false,
-        "provider": null,
-        "model": null,
-        "error": null
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       }
     },
     {
@@ -326,9 +326,9 @@
       "analysis_engine": "rules",
       "llm": {
         "used": false,
-        "provider": null,
-        "model": null,
-        "error": null
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       }
     },
     {
@@ -392,9 +392,9 @@
       "analysis_engine": "rules",
       "llm": {
         "used": false,
-        "provider": null,
-        "model": null,
-        "error": null
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       }
     },
     {
@@ -480,9 +480,9 @@
       "analysis_engine": "rules",
       "llm": {
         "used": false,
-        "provider": null,
-        "model": null,
-        "error": null
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       }
     },
     {
@@ -563,9 +563,9 @@
       "analysis_engine": "rules",
       "llm": {
         "used": false,
-        "provider": null,
-        "model": null,
-        "error": null
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       }
     },
     {
@@ -620,9 +620,9 @@
       "analysis_engine": "rules",
       "llm": {
         "used": false,
-        "provider": null,
-        "model": null,
-        "error": null
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": "HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
       }
     },
     {
@@ -1385,12 +1385,12 @@
     }
   ],
   "llm_summary": {
-    "provider": "none",
-    "model": null,
-    "scope": "none",
-    "attempted": 0,
+    "provider": "openai",
+    "model": "gpt-5.6-luna",
+    "scope": "medium-high",
+    "attempted": 7,
     "succeeded": 0,
-    "failed": 0,
-    "fallback_to_rules": 0
+    "failed": 7,
+    "fallback_to_rules": 7
   }
 }
