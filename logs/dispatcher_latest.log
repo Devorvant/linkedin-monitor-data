@@ -1,15 +1,17 @@
 === DISPATCHER ===
-[2026-08-28 18:27:23] Dispatcher запущен.
-[2026-08-28 18:27:24] control.json загружен с GitHub.
-[2026-08-28 18:27:24] Ожидание START: 2026-08-28 18:30
-[2026-08-28 18:28:24] Ожидание START: 2026-08-28 18:30
-[2026-08-28 18:29:24] Ожидание START: 2026-08-28 18:30
-[2026-08-28 18:30:00] START: время наступило.
-[2026-08-28 18:30:00] control.json загружен с GitHub.
-[2026-08-28 18:30:00] Скачиваю worker: https://raw.githubusercontent.com/Devorvant/linkedin-monitor-data/main/scripts/linkedin_worker_unified.py
-[2026-08-28 18:30:01] Worker сохранён: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\linkedin_worker_unified.py
-[2026-08-28 18:30:01] Запускаю worker через: H:\Users\kusc\AppData\Local\Programs\Python\Python311\python.exe
-[2026-08-28 18:33:07] Worker завершился с кодом: 0
+[2026-08-29 08:05:56] Dispatcher запущен.
+[2026-08-29 08:05:57] control.json загружен с GitHub.
+[2026-08-29 08:05:57] Ожидание START: 2026-08-29 08:10
+[2026-08-29 08:06:27] Ожидание START: 2026-08-29 08:10
+[2026-08-29 08:07:27] Ожидание START: 2026-08-29 08:10
+[2026-08-29 08:08:27] Ожидание START: 2026-08-29 08:10
+[2026-08-29 08:09:27] Ожидание START: 2026-08-29 08:10
+[2026-08-29 08:10:00] START: время наступило.
+[2026-08-29 08:10:00] control.json загружен с GitHub.
+[2026-08-29 08:10:00] Скачиваю worker: https://raw.githubusercontent.com/Devorvant/linkedin-monitor-data/main/scripts/linkedin_worker_unified.py
+[2026-08-29 08:10:01] Worker сохранён: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\linkedin_worker_unified.py
+[2026-08-29 08:10:01] Запускаю worker через: H:\Users\kusc\AppData\Local\Programs\Python\Python311\python.exe
+[2026-08-29 08:13:08] Worker завершился с кодом: 0
 
 
 === WORKER ===
@@ -46,19 +48,19 @@ GUI-�������: ��������� 1280x1024
 �������� ����������� ����: x=1200, y=499
 ������� '��������� ���...': x=1021, y=632
 ����������� ���������� Enter (��� Chrome ��������� ��� ���������)...
-��������� ����: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_feed_2026-08-28_18-30-42.mhtml
+��������� ����: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_feed_2026-08-29_08-10-41.mhtml
 �����: Chrome ������ ������������ ��� ����-��������, ���� ���� (*.mhtml)�. ��� ������ ������� ���� ���, ��������, ����� ������� �������.
 ��� ���������� ����������� ����...
-������������ ���� �������� �������: ����� _ LinkedIn.mhtml -> linkedin_feed_2026-08-28_18-30-49.mhtml
-���� �������� �������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_feed_2026-08-28_18-30-49.mhtml
-������� ������ �������� �����: linkedin_feed_2026-08-28_18-30-49.mhtml
-Excel: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_feed_report_2026-08-28_18-30-57.xlsx
-JSON: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_feed_report_2026-08-28_18-30-57.json
-CSV: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_feed_report_2026-08-28_18-30-57.csv
-������� �������� �����: 51
+������������ ���� �������� �������: ����� _ LinkedIn.mhtml -> linkedin_feed_2026-08-29_08-10-49.mhtml
+���� �������� �������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_feed_2026-08-29_08-10-49.mhtml
+������� ������ �������� �����: linkedin_feed_2026-08-29_08-10-49.mhtml
+Excel: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_feed_report_2026-08-29_08-10-57.xlsx
+JSON: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_feed_report_2026-08-29_08-10-57.json
+CSV: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_feed_report_2026-08-29_08-10-57.csv
+������� �������� �����: 45
 �������� ������� ������� LinkedIn �����...
-������. ��������� ����������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_feed_2026-08-28_18-30-49.mhtml
-����� ����� Feed: linkedin_feed_report_2026-08-28_18-30-57.csv
+������. ��������� ����������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_feed_2026-08-29_08-10-49.mhtml
+����� ����� Feed: linkedin_feed_report_2026-08-29_08-10-57.csv
 
 ����� 5 ���. ����� ��������� ������...
 
@@ -84,20 +86,20 @@ GUI-�������: ��������� 1280x1024
 �������� ����������� ����: x=1200, y=499
 ������� '��������� ���...': x=1021, y=632
 ����������� ���������� Enter (��� Chrome ��������� ��� ���������)...
-��������� ����: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_jobs_2026-08-28_18-31-43.mhtml
+��������� ����: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_jobs_2026-08-29_08-11-42.mhtml
 �����: Chrome ������ ������������ ��� ����-��������, ���� ���� (*.mhtml)�. ��� ������ ������� ���� ���, ��������, ����� ������� �������.
 ��� ���������� ����������� ����...
-������������ ���� �������� �������: �������� _ LinkedIn.mhtml -> linkedin_jobs_2026-08-28_18-31-50.mhtml
-���� �������� �������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_jobs_2026-08-28_18-31-50.mhtml
-������� ������ �������� �����: linkedin_jobs_2026-08-28_18-31-50.mhtml
-  Jobs: ������� �������� 13
-Excel: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_jobs_report_2026-08-28_18-31-58.xlsx
-JSON: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_jobs_report_2026-08-28_18-31-58.json
-CSV: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_jobs_report_2026-08-28_18-31-58.csv
-������� �������� �����: 13
+������������ ���� �������� �������: �������� _ LinkedIn.mhtml -> linkedin_jobs_2026-08-29_08-11-50.mhtml
+���� �������� �������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_jobs_2026-08-29_08-11-50.mhtml
+������� ������ �������� �����: linkedin_jobs_2026-08-29_08-11-50.mhtml
+  Jobs: ������� �������� 12
+Excel: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_jobs_report_2026-08-29_08-11-58.xlsx
+JSON: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_jobs_report_2026-08-29_08-11-58.json
+CSV: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_jobs_report_2026-08-29_08-11-58.csv
+������� �������� �����: 12
 �������� ������� ������� LinkedIn �����...
-������. ��������� ����������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_jobs_2026-08-28_18-31-50.mhtml
-����� ����� Jobs: linkedin_jobs_report_2026-08-28_18-31-58.csv
+������. ��������� ����������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_jobs_2026-08-29_08-11-50.mhtml
+����� ����� Jobs: linkedin_jobs_report_2026-08-29_08-11-58.csv
 
 ����� 5 ���. ����� ��������� ������...
 
@@ -123,33 +125,33 @@ GUI-�������: ��������� 1280x1024
 �������� ����������� ����: x=1200, y=499
 ������� '��������� ���...': x=1021, y=632
 ����������� ���������� Enter (��� Chrome ��������� ��� ���������)...
-��������� ����: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_notifications_2026-08-28_18-32-44.mhtml
+��������� ����: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_notifications_2026-08-29_08-12-43.mhtml
 �����: Chrome ������ ������������ ��� ����-��������, ���� ���� (*.mhtml)�. ��� ������ ������� ���� ���, ��������, ����� ������� �������.
 ��� ���������� ����������� ����...
-������������ ���� �������� �������: ����������� _ LinkedIn.mhtml -> linkedin_notifications_2026-08-28_18-32-52.mhtml
-���� �������� �������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_notifications_2026-08-28_18-32-52.mhtml
-������� ������ �������� �����: linkedin_notifications_2026-08-28_18-32-52.mhtml
-  Notifications: ������� �������� 78
-Excel: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_notifications_report_2026-08-28_18-33-00.xlsx
-JSON: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_notifications_report_2026-08-28_18-33-00.json
-CSV: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_notifications_report_2026-08-28_18-33-00.csv
-������� �������� �����: 78
+������������ ���� �������� �������: ����������� _ LinkedIn.mhtml -> linkedin_notifications_2026-08-29_08-12-51.mhtml
+���� �������� �������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_notifications_2026-08-29_08-12-51.mhtml
+������� ������ �������� �����: linkedin_notifications_2026-08-29_08-12-51.mhtml
+  Notifications: ������� �������� 77
+Excel: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_notifications_report_2026-08-29_08-12-59.xlsx
+JSON: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_notifications_report_2026-08-29_08-12-59.json
+CSV: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_notifications_report_2026-08-29_08-12-59.csv
+������� �������� �����: 77
 �������� ������� ������� LinkedIn �����...
-������. ��������� ����������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_notifications_2026-08-28_18-32-52.mhtml
-����� ����� Notifications: linkedin_notifications_report_2026-08-28_18-33-00.csv
+������. ��������� ����������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\saved_pages\linkedin_notifications_2026-08-29_08-12-51.mhtml
+����� ����� Notifications: linkedin_notifications_report_2026-08-29_08-12-59.csv
 
 ����� ����� ����������������� �������:
-  H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_combined_report_2026-08-28_18-33-04.xlsx
-  Feed: 51, Jobs: 13, Notifications: 78
+  H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\linkedin_combined_report_2026-08-29_08-13-03.xlsx
+  Feed: 45, Jobs: 12, Notifications: 77
 
-�������� ����� ����: linkedin_combined_report_2026-08-28_18-33-04.xlsx
+�������� ����� ����: linkedin_combined_report_2026-08-29_08-13-03.xlsx
 
 ==============================================================
  Excel -> latest.json -> GitHub
 ==============================================================
-��������: linkedin_combined_report_2026-08-28_18-33-04.xlsx
+��������: linkedin_combined_report_2026-08-29_08-13-03.xlsx
 JSON ������: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\reports\latest.json
-������ JSON: 265,708 ����
+������ JSON: 260,266 ����
 GitHub �������.
 �����������: Devorvant/linkedin-monitor-data
 ����: latest.json
