@@ -5,7 +5,7 @@ on:
     paths:
       - feed_latest.json
       - profile.json
-      - scripts/feed_signal_analyzer.py
+      - scripts/feed_signal_analyzer.py.gz.b64
   workflow_dispatch:
 
 permissions:
@@ -19,6 +19,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Unpack analyzer
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import base64, gzip
+          src = Path('scripts/feed_signal_analyzer.py.gz.b64').read_text(encoding='utf-8').strip()
+          data = gzip.decompress(base64.b64decode(src))
+          Path('scripts/feed_signal_analyzer.py').write_bytes(data)
+          compile(data.decode('utf-8'), 'scripts/feed_signal_analyzer.py', 'exec')
+          PY
       - name: Analyze Feed
         run: |
           python scripts/feed_signal_analyzer.py \
