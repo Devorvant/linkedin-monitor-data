@@ -113,7 +113,15 @@ def upsert(records, kind, name, signal, now):
 
     score = score_for(signal)
     best_score = max(as_int(old.get("score")), score)
-    priority_counts = dict(old.get("priority_counts") or {"high": 0, "medium": 0})
+
+    if "priority_counts" in old:
+        priority_counts = dict(old.get("priority_counts") or {"high": 0, "medium": 0})
+    else:
+        priority_counts = {"high": 0, "medium": 0}
+        legacy_priority = old.get("latest_priority")
+        if old.get("source_signal_ids") and legacy_priority in priority_counts:
+            priority_counts[legacy_priority] = max(1, as_int(old.get("times_seen")))
+
     if is_new_signal:
         p = signal.get("priority")
         if p in {"high", "medium"}:
@@ -140,7 +148,7 @@ def upsert(records, kind, name, signal, now):
         "last_processed_at": now,
     })
 
-    record = {
+    records[rid] = {
         "id": rid,
         "kind": kind,
         "name": name,
@@ -162,7 +170,6 @@ def upsert(records, kind, name, signal, now):
         "automation": automation,
         "updated_at": now,
     }
-    records[rid] = record
 
 
 def build(signals, existing):
