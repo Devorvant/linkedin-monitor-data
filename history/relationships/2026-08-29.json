@@ -1,6 +1,6 @@
 {
-  "schema_version": 2,
-  "generated_at": "2026-08-29T20:59:43.575683+00:00",
+  "schema_version": 4,
+  "generated_at": "2026-08-29T21:29:17.294091+00:00",
   "status_model": {
     "allowed": [
       "WATCH",
@@ -19,12 +19,13 @@
       "last_contacted_at",
       "next_follow_up_at"
     ],
-    "note": "Automation preserves manual fields. Outbound actions remain manual/approval-only."
+    "note": "Automation preserves manual fields. profile_url is distinct from source_url. Outbound remains approval-only."
   },
   "summary": {
     "total": 12,
     "people": 8,
     "companies": 4,
+    "people_with_profile_url": 7,
     "status_counts": {
       "WATCH": 12,
       "REVIEW": 0,
@@ -35,7 +36,8 @@
       "CLOSED": 0
     },
     "review_recommended": 1,
-    "do_not_contact": 0
+    "do_not_contact": 0,
+    "repeat_entities": 0
   },
   "items": [
     {
@@ -48,12 +50,13 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
       "last_seen": "2026-08-29T20:14:36.321316+00:00",
       "times_seen": 1,
       "score": 89,
       "latest_priority": "high",
-      "latest_confidence": 96,
+      "latest_confidence": 95,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -65,6 +68,19 @@
       ],
       "source_signal_ids": [
         "sig_50e52efecb3f028a"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-08-29T20:14:36.321316+00:00",
+          "signal_id": "sig_50e52efecb3f028a",
+          "priority": "high",
+          "confidence": 96,
+          "source_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+          "reason": "The post describes a merged PX4 integration for RotorPy, a Python-based multirotor simulator with aerodynamic modeling, Gymnasium support, SITL support and documentation. These topics closely match the profile's focus on UAVs, simulation, autonomy, flight dynamics and control systems. The author is a concrete technical contributor who may be relevant for knowledge exchange, but no employer or hiring activity is stated.",
+          "projects": [],
+          "technologies": [],
+          "source": "legacy_snapshot"
+        }
       ],
       "reasons": [
         "The post describes a direct integration of a Python-based multirotor simulator with aerodynamic modeling, Gymnasium support, and PX4 SITL. This strongly matches the profile's experience in UAV flight control, simulation, autonomy, MATLAB/Python workflows, and autopilot development. The author is a concrete, technically relevant person connected to the PX4 and RotorPy work, but the post does not indicate hiring.",
@@ -81,9 +97,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
+        "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T20:59:43.575683+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00"
     },
     {
       "id": "company:mathworks",
@@ -95,12 +111,13 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/company/the-mathworks_2/",
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
       "last_seen": "2026-08-29T20:14:36.321316+00:00",
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 95,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -112,6 +129,19 @@
       "roles": [],
       "source_signal_ids": [
         "sig_2b5d34d34e5e66cd"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-08-29T20:14:36.321316+00:00",
+          "signal_id": "sig_2b5d34d34e5e66cd",
+          "priority": "medium",
+          "confidence": 95,
+          "source_url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+          "reason": "The post is directly relevant to the profile's MATLAB/Simulink and engineering-simulation background. It describes a MathWorks-supported technical education program, demonstrations, training resources, and access to MATLAB and Simulink. The named MathWorks and ARKANCE participants provide concrete people to investigate, although the post contains no job or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "legacy_snapshot"
+        }
       ],
       "reasons": [
         "The post is authored by MathWorks and focuses on MATLAB and Simulink education, tools that align directly with the profile's flight-control, simulation, autopilot, and UAV engineering background. It also names MathWorks and ARKANCE participants who may be relevant ecosystem contacts, although no job or hiring information is provided.",
@@ -128,9 +158,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
+        "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T20:59:43.575683+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00"
     },
     {
       "id": "person:ajay talluri",
@@ -142,12 +172,13 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
+      "profile_url": null,
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
       "last_seen": "2026-08-29T20:14:36.321316+00:00",
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 95,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -159,6 +190,19 @@
       "roles": [],
       "source_signal_ids": [
         "sig_2b5d34d34e5e66cd"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-08-29T20:14:36.321316+00:00",
+          "signal_id": "sig_2b5d34d34e5e66cd",
+          "priority": "medium",
+          "confidence": 95,
+          "source_url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+          "reason": "The post is directly relevant to the profile's MATLAB/Simulink and engineering-simulation background. It describes a MathWorks-supported technical education program, demonstrations, training resources, and access to MATLAB and Simulink. The named MathWorks and ARKANCE participants provide concrete people to investigate, although the post contains no job or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "legacy_snapshot"
+        }
       ],
       "reasons": [
         "The post is authored by MathWorks and focuses on MATLAB and Simulink education, tools that align directly with the profile's flight-control, simulation, autopilot, and UAV engineering background. It also names MathWorks and ARKANCE participants who may be relevant ecosystem contacts, although no job or hiring information is provided.",
@@ -175,9 +219,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
+        "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T20:59:43.575683+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00"
     },
     {
       "id": "person:francis arokia swamy",
@@ -189,12 +233,13 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/francis-arokia-swamy-2b448238a/",
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
       "last_seen": "2026-08-29T20:14:36.321316+00:00",
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 95,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -206,6 +251,19 @@
       "roles": [],
       "source_signal_ids": [
         "sig_2b5d34d34e5e66cd"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-08-29T20:14:36.321316+00:00",
+          "signal_id": "sig_2b5d34d34e5e66cd",
+          "priority": "medium",
+          "confidence": 95,
+          "source_url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+          "reason": "The post is directly relevant to the profile's MATLAB/Simulink and engineering-simulation background. It describes a MathWorks-supported technical education program, demonstrations, training resources, and access to MATLAB and Simulink. The named MathWorks and ARKANCE participants provide concrete people to investigate, although the post contains no job or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "legacy_snapshot"
+        }
       ],
       "reasons": [
         "The post is authored by MathWorks and focuses on MATLAB and Simulink education, tools that align directly with the profile's flight-control, simulation, autopilot, and UAV engineering background. It also names MathWorks and ARKANCE participants who may be relevant ecosystem contacts, although no job or hiring information is provided.",
@@ -222,9 +280,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
+        "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T20:59:43.575683+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00"
     },
     {
       "id": "person:loy sabson fernandes",
@@ -236,12 +294,13 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/loysabson/",
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
       "last_seen": "2026-08-29T20:14:36.321316+00:00",
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 95,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -253,6 +312,19 @@
       "roles": [],
       "source_signal_ids": [
         "sig_2b5d34d34e5e66cd"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-08-29T20:14:36.321316+00:00",
+          "signal_id": "sig_2b5d34d34e5e66cd",
+          "priority": "medium",
+          "confidence": 95,
+          "source_url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+          "reason": "The post is directly relevant to the profile's MATLAB/Simulink and engineering-simulation background. It describes a MathWorks-supported technical education program, demonstrations, training resources, and access to MATLAB and Simulink. The named MathWorks and ARKANCE participants provide concrete people to investigate, although the post contains no job or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "legacy_snapshot"
+        }
       ],
       "reasons": [
         "The post is authored by MathWorks and focuses on MATLAB and Simulink education, tools that align directly with the profile's flight-control, simulation, autopilot, and UAV engineering background. It also names MathWorks and ARKANCE participants who may be relevant ecosystem contacts, although no job or hiring information is provided.",
@@ -269,9 +341,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
+        "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T20:59:43.575683+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00"
     },
     {
       "id": "person:naresh babu",
@@ -283,12 +355,13 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/naresh-babu-77a37444/",
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
       "last_seen": "2026-08-29T20:14:36.321316+00:00",
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 95,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -300,6 +373,19 @@
       "roles": [],
       "source_signal_ids": [
         "sig_2b5d34d34e5e66cd"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-08-29T20:14:36.321316+00:00",
+          "signal_id": "sig_2b5d34d34e5e66cd",
+          "priority": "medium",
+          "confidence": 95,
+          "source_url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+          "reason": "The post is directly relevant to the profile's MATLAB/Simulink and engineering-simulation background. It describes a MathWorks-supported technical education program, demonstrations, training resources, and access to MATLAB and Simulink. The named MathWorks and ARKANCE participants provide concrete people to investigate, although the post contains no job or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "legacy_snapshot"
+        }
       ],
       "reasons": [
         "The post is authored by MathWorks and focuses on MATLAB and Simulink education, tools that align directly with the profile's flight-control, simulation, autopilot, and UAV engineering background. It also names MathWorks and ARKANCE participants who may be relevant ecosystem contacts, although no job or hiring information is provided.",
@@ -316,9 +402,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
+        "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T20:59:43.575683+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00"
     },
     {
       "id": "person:p chandhana",
@@ -330,12 +416,13 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/p-chandhana/",
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
       "last_seen": "2026-08-29T20:14:36.321316+00:00",
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 95,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -347,6 +434,19 @@
       "roles": [],
       "source_signal_ids": [
         "sig_2b5d34d34e5e66cd"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-08-29T20:14:36.321316+00:00",
+          "signal_id": "sig_2b5d34d34e5e66cd",
+          "priority": "medium",
+          "confidence": 95,
+          "source_url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+          "reason": "The post is directly relevant to the profile's MATLAB/Simulink and engineering-simulation background. It describes a MathWorks-supported technical education program, demonstrations, training resources, and access to MATLAB and Simulink. The named MathWorks and ARKANCE participants provide concrete people to investigate, although the post contains no job or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "legacy_snapshot"
+        }
       ],
       "reasons": [
         "The post is authored by MathWorks and focuses on MATLAB and Simulink education, tools that align directly with the profile's flight-control, simulation, autopilot, and UAV engineering background. It also names MathWorks and ARKANCE participants who may be relevant ecosystem contacts, although no job or hiring information is provided.",
@@ -363,9 +463,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
+        "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T20:59:43.575683+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00"
     },
     {
       "id": "person:uday kumar",
@@ -377,12 +477,13 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/uday-kumar-51b5a026/",
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
       "last_seen": "2026-08-29T20:14:36.321316+00:00",
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 95,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -394,6 +495,19 @@
       "roles": [],
       "source_signal_ids": [
         "sig_2b5d34d34e5e66cd"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-08-29T20:14:36.321316+00:00",
+          "signal_id": "sig_2b5d34d34e5e66cd",
+          "priority": "medium",
+          "confidence": 95,
+          "source_url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+          "reason": "The post is directly relevant to the profile's MATLAB/Simulink and engineering-simulation background. It describes a MathWorks-supported technical education program, demonstrations, training resources, and access to MATLAB and Simulink. The named MathWorks and ARKANCE participants provide concrete people to investigate, although the post contains no job or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "legacy_snapshot"
+        }
       ],
       "reasons": [
         "The post is authored by MathWorks and focuses on MATLAB and Simulink education, tools that align directly with the profile's flight-control, simulation, autopilot, and UAV engineering background. It also names MathWorks and ARKANCE participants who may be relevant ecosystem contacts, although no job or hiring information is provided.",
@@ -410,9 +524,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
+        "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T20:59:43.575683+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00"
     },
     {
       "id": "company:open ocean robotics",
@@ -424,12 +538,13 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/company/open-ocean-robotics/",
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
       "last_seen": "2026-08-29T20:14:36.321316+00:00",
       "times_seen": 1,
       "score": 71,
       "latest_priority": "medium",
-      "latest_confidence": 91,
+      "latest_confidence": 87,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -441,6 +556,19 @@
       "roles": [],
       "source_signal_ids": [
         "sig_efacd14ea7014dbc"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-08-29T20:14:36.321316+00:00",
+          "signal_id": "sig_efacd14ea7014dbc",
+          "priority": "medium",
+          "confidence": 91,
+          "source_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+          "reason": "The post highlights British Columbia's marine and defence ecosystem and identifies Alex Rueben, CEO of ABCDMI, as a sector representative. This is relevant to the profile's interest in marine autonomy, autonomous vessels, robotics and defence-adjacent engineering, although no specific technical role, project or vacancy is described.",
+          "projects": [],
+          "technologies": [],
+          "source": "legacy_snapshot"
+        }
       ],
       "reasons": [
         "The post highlights British Columbia's marine and defence ecosystem and identifies Alex Rueben, CEO of ABCDMI, as a concrete industry contact. This is adjacent to the profile's stated interest in marine autonomy and autonomous vessel control, but the post does not describe a specific technical project, technology, vacancy, or hiring process.",
@@ -457,9 +585,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
+        "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T20:59:43.575683+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00"
     },
     {
       "id": "person:alex rueben",
@@ -471,12 +599,13 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/alex-rueben-083a8323/",
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
       "last_seen": "2026-08-29T20:14:36.321316+00:00",
       "times_seen": 1,
       "score": 71,
       "latest_priority": "medium",
-      "latest_confidence": 91,
+      "latest_confidence": 87,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -491,6 +620,19 @@
       "source_signal_ids": [
         "sig_efacd14ea7014dbc"
       ],
+      "signal_history": [
+        {
+          "at": "2026-08-29T20:14:36.321316+00:00",
+          "signal_id": "sig_efacd14ea7014dbc",
+          "priority": "medium",
+          "confidence": 91,
+          "source_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+          "reason": "The post highlights British Columbia's marine and defence ecosystem and identifies Alex Rueben, CEO of ABCDMI, as a sector representative. This is relevant to the profile's interest in marine autonomy, autonomous vessels, robotics and defence-adjacent engineering, although no specific technical role, project or vacancy is described.",
+          "projects": [],
+          "technologies": [],
+          "source": "legacy_snapshot"
+        }
+      ],
       "reasons": [
         "The post highlights British Columbia's marine and defence ecosystem and identifies Alex Rueben, CEO of ABCDMI, as a concrete industry contact. This is adjacent to the profile's stated interest in marine autonomy and autonomous vessel control, but the post does not describe a specific technical project, technology, vacancy, or hiring process.",
         "The post highlights British Columbia's marine and defence ecosystem and identifies Alex Rueben, CEO of ABCDMI, as a sector representative. This is relevant to the profile's interest in marine autonomy, autonomous vessels, robotics and defence-adjacent engineering, although no specific technical role, project or vacancy is described."
@@ -506,9 +648,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
+        "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T20:59:43.575683+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00"
     },
     {
       "id": "company:rocket lab",
@@ -520,12 +662,13 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/company/rocket-lab-corp/",
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
       "last_seen": "2026-08-29T20:14:36.321316+00:00",
       "times_seen": 1,
-      "score": 63,
+      "score": 64,
       "latest_priority": "medium",
-      "latest_confidence": 91,
+      "latest_confidence": 92,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -537,6 +680,19 @@
       "roles": [],
       "source_signal_ids": [
         "sig_5ed8f10e7c5bfe5f"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-08-29T20:14:36.321316+00:00",
+          "signal_id": "sig_5ed8f10e7c5bfe5f",
+          "priority": "medium",
+          "confidence": 91,
+          "source_url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+          "reason": "Rocket Lab is explicitly inviting Manufacturing Technicians and Supply Chain Specialists to a networking and career event involving real hardware, real missions, national security, deep space exploration and defense capability. The space and mission context is relevant to the profile, but the advertised roles do not directly match flight controls, GNC, UAV systems, simulation or autonomy.",
+          "projects": [],
+          "technologies": [],
+          "source": "legacy_snapshot"
+        }
       ],
       "reasons": [
         "Rocket Lab is explicitly promoting a career networking event and applications for Manufacturing Technician and Supply Chain Specialist roles connected to space, defense, national security and deep-space programs. These specific roles do not closely match the profile's senior flight-control, GNC, UAV and autonomy focus, but the company and event may provide a route to identify adjacent aerospace engineering contacts or future controls and autonomy opportunities.",
@@ -553,9 +709,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
+        "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T20:59:43.575683+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00"
     },
     {
       "id": "company:lockheed martin",

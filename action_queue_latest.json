@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-29T20:59:43.615610+00:00",
-  "source_generated_at": "2026-08-29T20:58:35.465734+00:00",
+  "generated_at": "2026-08-29T21:29:17.345860+00:00",
+  "source_generated_at": "2026-08-29T21:28:04.645934+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
     "outbound_actions": [
@@ -20,26 +20,26 @@
     ]
   },
   "summary": {
-    "items": 6,
+    "items": 5,
     "high": 1,
-    "medium": 5,
+    "medium": 4,
     "pending_approval": 2,
-    "research_needed": 3,
+    "research_needed": 2,
     "primary_action_counts": {
       "engage_with_post": 3,
-      "research_contact": 3
+      "research_contact": 2
     },
     "action_plan_counts": {
       "check_jobs": 1,
       "connect_person": 2,
       "engage_with_post": 3,
       "find_warm_path": 3,
-      "follow_company": 4,
-      "follow_person": 3,
-      "research_company": 2,
-      "research_contact": 3,
-      "review_technology": 3,
-      "save_for_content": 4
+      "follow_company": 3,
+      "follow_person": 2,
+      "research_company": 1,
+      "research_contact": 2,
+      "review_technology": 2,
+      "save_for_content": 3
     }
   },
   "items": [
@@ -47,11 +47,11 @@
       "signal_id": "sig_50e52efecb3f028a",
       "source_post_id": null,
       "priority": "high",
-      "confidence": 96,
+      "confidence": 95,
       "author": "Burak Çetin",
       "company": null,
       "primary_action": "engage_with_post",
-      "secondary_action": "follow_person",
+      "secondary_action": "connect_person",
       "approval_required": true,
       "execution_status": "PENDING_APPROVAL",
       "relationship_stage": "observe",
@@ -59,11 +59,6 @@
         {
           "action": "engage_with_post",
           "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
           "approval_required": false
         },
         {
@@ -106,233 +101,14 @@
         "name": "Burak Çetin",
         "role": null,
         "relation": "author",
-        "target_role": "PX4/RotorPy contributor",
-        "target_reason": "The author contributed a merged RotorPy support PR to PX4 and is relevant to UAV simulation, autonomy and robotics engineering interests.",
+        "target_role": "PX4/RotorPy technical contributor",
+        "target_reason": "The author directly contributed the RotorPy support PR merged into PX4 and is relevant to UAV simulation, autonomy, and robotics engineering.",
         "target_priority": "high",
         "company": null
       },
-      "reason": "The post describes RotorPy, a Python-based multirotor simulator with aerodynamic modeling and a Gymnasium interface, integrated into PX4 main with SITL support and documentation. This directly overlaps with the profile's UAV, flight dynamics, simulation, autonomy, Python and control-systems interests. The author is a confirmed contributor to this technically relevant integration, providing a concrete networking target, but the post contains no hiring signal.",
-      "content_angle": "Inference: Develop an original expert perspective on how lightweight aerodynamic simulation, Gymnasium interfaces and PX4 SITL can support control-law research, autonomy experimentation and sim-to-real validation, including practical limitations and validation considerations.",
+      "reason": "The post describes a PX4 integration of RotorPy, a Python-based multirotor simulator with aerodynamic modeling, Gymnasium support, SITL support, and applications in simulation, research, and ML/AI. These topics closely align with the profile's flight dynamics, autopilot, UAV, simulation, Python, and autonomy expertise. The author is a directly identifiable technical contributor in a highly relevant area.",
+      "content_angle": "Share an original perspective on how lightweight aerodynamic simulation, Gymnasium interfaces, and PX4 SITL can support control-law validation, autonomy research, and the transition from simulation to real UAV testing.",
       "source_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      }
-    },
-    {
-      "signal_id": "sig_bb16ecf7ba7fd200",
-      "source_post_id": null,
-      "priority": "medium",
-      "confidence": 96,
-      "author": "Lockheed Martin",
-      "company": "Lockheed Martin",
-      "primary_action": "research_contact",
-      "secondary_action": "research_company",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "research_contact",
-          "reason": "A concrete person should be identified before any connection or message.",
-          "approval_required": false
-        },
-        {
-          "action": "research_company",
-          "reason": "Check the relevant team, current projects and open roles.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_company",
-          "reason": "Keep company activity visible for future signals.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": true,
-        "tasks": [
-          "identify_concrete_person",
-          "check_company_and_relevant_team"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "company:lockheed martin",
-      "crm_status": "WATCH",
-      "do_not_contact": false,
-      "target": {
-        "name": null,
-        "role": null,
-        "relation": null,
-        "target_role": null,
-        "target_reason": null,
-        "target_priority": null,
-        "company": "Lockheed Martin"
-      },
-      "reason": "The post confirms Lockheed Martin Space's aerospace and defense context, which is adjacent to the profile's flight-control, UAV, simulation and autonomous-systems background. However, it describes a completed software engineering internship and contains no relevant technical details or hiring information.",
-      "content_angle": null,
-      "source_url": "https://www.linkedin.com/company/lockheed-martin/posts/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      }
-    },
-    {
-      "signal_id": "sig_2b5d34d34e5e66cd",
-      "source_post_id": "7496448164820869120",
-      "priority": "medium",
-      "confidence": 95,
-      "author": "MathWorks",
-      "company": "MathWorks",
-      "primary_action": "engage_with_post",
-      "secondary_action": "follow_person",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_company",
-          "reason": "Keep company activity visible for future signals.",
-          "approval_required": false
-        },
-        {
-          "action": "review_technology",
-          "reason": "Technical project or technology is relevant to the profile.",
-          "approval_required": false
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_company_and_relevant_team",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "company:mathworks",
-      "crm_status": "WATCH",
-      "do_not_contact": false,
-      "target": {
-        "name": "P Chandhana",
-        "role": null,
-        "relation": "mentioned",
-        "target_role": "MathWorks representatives involved in MATLAB/Simulink education",
-        "target_reason": "The post identifies Ajay Talluri and Loy Sabson Fernandes as MathWorks supporters of the program; their work may provide relevant technical and professional context.",
-        "target_priority": "medium",
-        "company": "MathWorks"
-      },
-      "reason": "The post is directly relevant to the profile's MATLAB/Simulink and engineering-simulation background. It describes MathWorks-supported technical education, demonstrations, training resources, and engineering applications, but provides no hiring or project opportunity. Named MathWorks and ARKANCE participants may be relevant professional contacts in the technical education ecosystem.",
-      "content_angle": "Share an original perspective on how MATLAB/Simulink education can connect model-based design, flight dynamics, control-system development, and simulation practice for engineering students.",
-      "source_url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      }
-    },
-    {
-      "signal_id": "sig_efacd14ea7014dbc",
-      "source_post_id": "7488730652599787520",
-      "priority": "medium",
-      "confidence": 91,
-      "author": "Open Ocean Robotics",
-      "company": "Open Ocean Robotics",
-      "primary_action": "engage_with_post",
-      "secondary_action": "follow_person",
-      "approval_required": true,
-      "execution_status": "PENDING_APPROVAL",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "connect_person",
-          "reason": "Concrete relevant person identified; connection can be considered.",
-          "approval_required": true
-        },
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_company",
-          "reason": "Keep company activity visible for future signals.",
-          "approval_required": false
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "check_company_and_relevant_team",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {
-        "connection_note": "Hi Alex, I came across your work on FEA/CAE, navigation. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
-      },
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "company:open ocean robotics",
-      "crm_status": "WATCH",
-      "do_not_contact": false,
-      "target": {
-        "name": "Alex Rueben",
-        "role": "CEO of the Association of British Columbia Defence and Marine Industries (ABCDMI)",
-        "relation": "mentioned",
-        "target_role": "CEO of ABCDMI",
-        "target_reason": "Alex Rueben is a named leader representing businesses across British Columbia's marine and defence sectors and connecting industry, government and academia; this is relevant to the profile's marine autonomy and autonomous systems interests.",
-        "target_priority": "high",
-        "company": "Open Ocean Robotics"
-      },
-      "reason": "The post concerns marine and defence-sector innovation in British Columbia, which aligns with the profile's stated interest in marine autonomy, autonomous vessels, navigation, control systems and robotics. It identifies a concrete industry leader, but provides no specific engineering role or vacancy.",
-      "content_angle": "Inference: Offer an original perspective on how guidance, navigation, stabilization, autonomy and control-system expertise can support innovation in marine and defence platforms, without implying that the post advertises a role.",
-      "source_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
       "analysis_engine": "rules+openai",
       "llm": {
         "used": true,
@@ -345,7 +121,7 @@
       "signal_id": "sig_5ed8f10e7c5bfe5f",
       "source_post_id": "7495612599888338945",
       "priority": "medium",
-      "confidence": 91,
+      "confidence": 92,
       "author": "Rocket Lab",
       "company": "Rocket Lab",
       "primary_action": "research_contact",
@@ -393,14 +169,87 @@
         "name": null,
         "role": null,
         "relation": null,
-        "target_role": "Rocket Lab technical leads in space hardware programs",
-        "target_reason": "The event is intended to connect attendees with people behind Rocket Lab's programs, although no specific individuals are named in the post.",
+        "target_role": "Rocket Lab recruiter or event representative",
+        "target_reason": "The post promotes an exclusive career networking evening and invites applicants to connect with people behind Rocket Lab's programs.",
         "target_priority": "medium",
         "company": "Rocket Lab"
       },
-      "reason": "Rocket Lab explicitly invites Manufacturing Technicians and Supply Chain Specialists to apply for a networking evening connected to space-industry programs, real hardware, missions, national security, deep space exploration and defense capability. The aerospace and space focus is relevant to the profile, but the named roles are not directly aligned with flight controls, GNC, simulation or autonomous systems.",
-      "content_angle": "Discuss how robust flight-control, simulation and multidisciplinary engineering practices support reliable real-hardware missions, without presenting the post's generic career claims as personal experience.",
+      "reason": "Rocket Lab explicitly invites Manufacturing Technicians and Supply Chain Specialists to apply for a networking evening connected to career opportunities in space, defense and real-hardware missions. The company and aerospace domains are relevant to the profile, but the named roles do not directly match flight controls, GNC, UAV systems or autonomous systems engineering.",
+      "content_angle": "Share an original perspective on how multidisciplinary control, simulation and hardware-integration expertise contributes to reliable aerospace missions and defense systems.",
       "source_url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_2b5d34d34e5e66cd",
+      "source_post_id": "7496448164820869120",
+      "priority": "medium",
+      "confidence": 91,
+      "author": "MathWorks",
+      "company": "MathWorks",
+      "primary_action": "engage_with_post",
+      "secondary_action": "follow_person",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_company",
+          "reason": "Keep company activity visible for future signals.",
+          "approval_required": false
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_company_and_relevant_team",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "company:mathworks",
+      "crm_status": "WATCH",
+      "do_not_contact": false,
+      "target": {
+        "name": "P Chandhana",
+        "role": null,
+        "relation": "mentioned",
+        "target_role": "MathWorks technical education or application engineering contact",
+        "target_reason": "Inference: Ajay Talluri and Loy Sabson Fernandes are identified as MathWorks supporters of the MATLAB and Simulink program; their exact roles are not stated.",
+        "target_priority": "medium",
+        "company": "MathWorks"
+      },
+      "reason": "The post is from MathWorks and focuses on MATLAB and Simulink education, tools that are directly aligned with the profile's flight-control, simulation, and model-based engineering experience. It names MathWorks and ARKANCE participants, creating possible but unconfirmed networking paths. No job opening or hiring intent is stated.",
+      "content_angle": "Share an original perspective on how MATLAB/Simulink education can connect academic modeling and simulation with real-world flight-control, autopilot, GNC, and autonomous-systems development, without reproducing the event's content.",
+      "source_url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
       "analysis_engine": "rules+openai",
       "llm": {
         "used": true,
@@ -413,7 +262,7 @@
       "signal_id": "sig_c47a61c7a61b5181",
       "source_post_id": null,
       "priority": "medium",
-      "confidence": 86,
+      "confidence": 89,
       "author": null,
       "company": null,
       "primary_action": "research_contact",
@@ -454,14 +303,88 @@
         "name": null,
         "role": null,
         "relation": null,
-        "target_role": "strategic R&D partner in aerial firefighting or autonomous aviation",
-        "target_reason": "The author explicitly seeks strategic R&D partners for the described fire-suppression technology; a relevant technical collaboration is an inference based on the post and profile overlap.",
+        "target_role": "author of the post",
+        "target_reason": "The author is seeking strategic R&D partners and grant co-applicants for an aerial firefighting system that involves automatic navigation and aviation safety, which is relevant to the profile's flight-control and autonomous-systems expertise.",
         "target_priority": "medium",
         "company": null
       },
-      "reason": "The post describes an aviation-based fire-suppression project using automatic navigation, altitude-aware operations, precision distribution and drop-physics optimization. These topics overlap with the profile's flight control, navigation, flight dynamics, simulation and autonomous-systems expertise. The author is seeking strategic R&D partners, grant co-applicants and venture investors, but no employment opportunity is stated.",
-      "content_angle": "Offer an original technical perspective on how altitude, wind, thermal updrafts, release timing, vehicle dynamics and closed-loop navigation could be evaluated in simulation and flight testing for aerial fire-suppression missions.",
+      "reason": "The post describes an aerial firefighting system using automatic navigation, flight operations at 150 meters, targeted agent distribution, and optimized drop physics. These topics align closely with the profile's experience in flight-control systems, flight dynamics, autopilot algorithms, UAVs, simulation, and autonomous systems. The author is seeking strategic R&D partners and grant co-applicants, creating a potential collaboration opportunity, but no employment vacancy or named organization is provided.",
+      "content_angle": "Offer an original expert perspective on the control and simulation challenges of high-altitude fire-agent release, including navigation accuracy, wind and thermal-updraft modeling, trajectory planning, telemetry validation, and safety assurance for autonomous aerial firefighting operations.",
       "source_url": "",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_efacd14ea7014dbc",
+      "source_post_id": "7488730652599787520",
+      "priority": "medium",
+      "confidence": 87,
+      "author": "Open Ocean Robotics",
+      "company": "Open Ocean Robotics",
+      "primary_action": "engage_with_post",
+      "secondary_action": "follow_person",
+      "approval_required": true,
+      "execution_status": "PENDING_APPROVAL",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "connect_person",
+          "reason": "Concrete relevant person identified; connection can be considered.",
+          "approval_required": true
+        },
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_company",
+          "reason": "Keep company activity visible for future signals.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "check_company_and_relevant_team",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {
+        "connection_note": "Hi Alex, I came across your work on FEA/CAE, navigation. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+      },
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "company:open ocean robotics",
+      "crm_status": "WATCH",
+      "do_not_contact": false,
+      "target": {
+        "name": "Alex Rueben",
+        "role": "CEO of the Association of British Columbia Defence and Marine Industries (ABCDMI)",
+        "relation": "mentioned",
+        "target_role": "CEO, Association of British Columbia Defence and Marine Industries (ABCDMI)",
+        "target_reason": "Alex Rueben is explicitly identified as the CEO of an organization representing British Columbia marine and defence businesses and connecting industry, government, and academia.",
+        "target_priority": "high",
+        "company": "Open Ocean Robotics"
+      },
+      "reason": "The post highlights British Columbia’s marine and defence ecosystem and names the CEO of an association connecting industry, government, and academia. This aligns with the profile’s interest in marine autonomy, autonomous vessels, control systems, and multidisciplinary engineering networks, but the post does not identify a specific engineering role or technical project.",
+      "content_angle": "Discuss how guidance, navigation, control, autonomy, and simulation expertise can contribute to innovation across marine and defence systems, while connecting the topic to multidisciplinary industry collaboration.",
+      "source_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
       "analysis_engine": "rules+openai",
       "llm": {
         "used": true,
