@@ -7,6 +7,7 @@ on:
       - profile.json
       - scripts/feed_signal_analyzer.py.gz.b64
       - scripts/action_planner.py
+      - scripts/relationship_watchlist.py
       - '.feed-signals-trigger*'
   workflow_dispatch:
 
@@ -58,19 +59,25 @@ jobs:
           python scripts/action_planner.py \
             --signals feed_signals_latest.json \
             --output action_queue_latest.json
+      - name: Update relationship watchlist
+        run: |
+          python scripts/relationship_watchlist.py \
+            --signals feed_signals_latest.json \
+            --watchlist relationship_watchlist.json
       - name: Save daily history
         run: |
-          mkdir -p history/feed_signals history/action_queue
+          mkdir -p history/feed_signals history/action_queue history/relationships
           cp feed_signals_latest.json "history/feed_signals/$(date -u +%F).json"
           cp action_queue_latest.json "history/action_queue/$(date -u +%F).json"
+          cp relationship_watchlist.json "history/relationships/$(date -u +%F).json"
       - name: Commit outputs
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feed_signals_latest.json action_queue_latest.json history/feed_signals history/action_queue
+          git add feed_signals_latest.json action_queue_latest.json relationship_watchlist.json history/feed_signals history/action_queue history/relationships
           if git diff --cached --quiet; then
-            echo 'No signal/action changes'
+            echo 'No Feed analysis changes'
             exit 0
           fi
-          git commit -m "Update Feed signals and action queue $(date -u +%F)"
+          git commit -m "Update Feed signals, actions and relationships $(date -u +%F)"
           git push
