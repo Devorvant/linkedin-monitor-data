@@ -101,6 +101,16 @@ def build(signals, existing):
     now = datetime.now(timezone.utc).isoformat()
     records = {r["id"]: r for r in existing.get("items", []) if r.get("id")}
 
+    # Remove legacy false entries where a company name was previously stored as a person.
+    company_names = {
+        norm(s.get("company")).casefold()
+        for s in signals.get("signals", [])
+        if norm(s.get("company"))
+    }
+    for rid, record in list(records.items()):
+        if record.get("kind") == "person" and norm(record.get("name")).casefold() in company_names:
+            records.pop(rid, None)
+
     for signal in signals.get("signals", []):
         if signal.get("priority") not in {"high", "medium"}:
             continue
@@ -111,6 +121,7 @@ def build(signals, existing):
             upsert(records, author_type, author, signal, now)
 
         company = norm(signal.get("company"))
+        company_cf = company.casefold()
         if company:
             upsert(records, "company", company, signal, now)
 
@@ -118,7 +129,9 @@ def build(signals, existing):
             name = norm(p.get("name"))
             relation = p.get("relation")
             confidence = p.get("confidence")
-            if name and (relation == "author" or confidence == "confirmed"):
+            if not name or name.casefold() == company_cf:
+                continue
+            if relation == "author" or confidence == "confirmed":
                 upsert(records, "person", name, signal, now)
 
     items = list(records.values())
