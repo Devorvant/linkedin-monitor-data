@@ -4,6 +4,7 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import unquote, urlparse
 
 STATUSES = ["WATCH", "REVIEW", "CONNECT", "CONNECTED", "CONTACTED", "REPLIED", "CLOSED"]
 MANUAL_FIELDS = ["status", "notes", "tags", "do_not_contact", "last_contacted_at", "next_follow_up_at"]
@@ -102,14 +103,74 @@ def compact_technologies(signal):
     return result[:10]
 
 
+def name_tokens(value):
+    return [x for x in re.findall(r"[a-z0-9]+", unquote(norm(value)).casefold()) if x]
+
+
+def person_profile_url(name, signal):
+    """Return a person /in/ URL only when it can be safely matched to this name."""
+    name_cf = norm(name).casefold()
+    author = norm(signal.get("author")).casefold()
+    source_url = norm(signal.get("source_url"))
+
+    # Author's own profile is unambiguous.
+    if name_cf and name_cf == author and "/in/" in source_url:
+        return source_url
+
+    # Future analyzer versions may attach a URL directly to the person object.
+    for person in signal.get("people") or []:
+        if norm(person.get("name")).casefold() == name_cf:
+            direct = norm(person.get("profile_url") or person.get("url"))
+            if "/in/" in direct:
+                return direct
+
+    candidates = []
+    for item in signal.get("links") or []:
+        url = norm(item.get("url"))
+        if item.get("link_type") == "person" and "/in/" in url:
+            candidates.append(url)
+
+    target_tokens = name_tokens(name)
+    if not target_tokens:
+        return None
+
+    best_url = None
+    best_score = 0
+    for url in candidates:
+        try:
+            slug = urlparse(url).path.split("/in/", 1)[1].strip("/")
+        except Exception:
+            continue
+        slug_tokens = name_tokens(slug)
+        overlap = sum(1 for token in target_tokens if any(token == s or token in s or s in token for s in slug_tokens))
+        # Require two matching tokens, except for an uncommon single-token exact author name.
+        if overlap >= 2 and overlap > best_score:
+            best_score = overlap
+            best_url = url
+    return best_url
+
+
+def company_profile_url(name, signal):
+    author = norm(signal.get("author")).casefold()
+    name_cf = norm(name).casefold()
+    for item in signal.get("links") or []:
+        url = norm(item.get("url"))
+        if item.get("link_type") != "company" or "/company/" not in url:
+            continue
+        if item.get("relation") == "author" and author == name_cf:
+            return re.sub(r"/posts/?(?:\?.*)?$", "/", url)
+    source = norm(signal.get("source_url"))
+    if author == name_cf and "/company/" in source:
+        return re.sub(r"/posts/?(?:\?.*)?$", "/", source)
+    return None
+
+
 def migrate_signal_history(old):
     history = list(old.get("signal_history") or [])
     if history:
         return history
     if not old:
         return []
-    # Existing CRM records predate explicit per-signal history. Preserve one
-    # best-effort legacy snapshot instead of pretending we know every old appearance.
     at = old.get("last_seen") or old.get("updated_at") or old.get("first_seen")
     if not at:
         return []
@@ -174,6 +235,12 @@ def upsert(records, kind, name, signal, now):
         if p in {"high", "medium"}:
             priority_counts[p] = as_int(priority_counts.get(p)) + 1
 
+    profile_url = old.get("profile_url")
+    if kind == "person":
+        profile_url = person_profile_url(name, signal) or profile_url
+    elif kind == "company":
+        profile_url = company_profile_url(name, signal) or profile_url
+
     signal_history = migrate_signal_history(old)
     if is_new_signal or (not old and not sid):
         signal_history.append({
@@ -182,6 +249,7 @@ def upsert(records, kind, name, signal, now):
             "priority": signal.get("priority"),
             "confidence": signal.get("confidence"),
             "source_url": signal.get("source_url"),
+            "profile_url": profile_url,
             "reason": reason or None,
             "projects": compact_projects(signal),
             "technologies": compact_technologies(signal),
@@ -215,6 +283,7 @@ def upsert(records, kind, name, signal, now):
         "kind": kind,
         "name": name,
         **manual,
+        "profile_url": profile_url,
         "first_seen": first_seen,
         "last_seen": last_seen,
         "times_seen": times_seen,
@@ -239,11 +308,7 @@ def build(signals, existing):
     now = datetime.now(timezone.utc).isoformat()
     records = {r["id"]: r for r in existing.get("items", []) if r.get("id")}
 
-    company_names = {
-        norm(s.get("company")).casefold()
-        for s in signals.get("signals", [])
-        if norm(s.get("company"))
-    }
+    company_names = {norm(s.get("company")).casefold() for s in signals.get("signals", []) if norm(s.get("company"))}
     for rid, record in list(records.items()):
         if record.get("kind") == "person" and norm(record.get("name")).casefold() in company_names:
             records.pop(rid, None)
@@ -273,20 +338,20 @@ def build(signals, existing):
 
     items = list(records.values())
     items.sort(key=lambda r: (r.get("status") == "CLOSED", -as_int(r.get("score")), r.get("kind", ""), r.get("name", "").casefold()))
-
     status_counts = {status: sum(1 for r in items if r.get("status") == status) for status in STATUSES}
     return {
-        "schema_version": 3,
+        "schema_version": 4,
         "generated_at": now,
         "status_model": {
             "allowed": STATUSES,
             "manual_fields": MANUAL_FIELDS,
-            "note": "Automation preserves manual fields. Outbound actions remain manual/approval-only. Signal history keeps recent distinct appearances."
+            "note": "Automation preserves manual fields. profile_url is distinct from source_url. Outbound remains approval-only."
         },
         "summary": {
             "total": len(items),
             "people": sum(1 for r in items if r.get("kind") == "person"),
             "companies": sum(1 for r in items if r.get("kind") == "company"),
+            "people_with_profile_url": sum(1 for r in items if r.get("kind") == "person" and r.get("profile_url")),
             "status_counts": status_counts,
             "review_recommended": sum(1 for r in items if (r.get("automation") or {}).get("recommended_status") == "REVIEW" and r.get("status") == "WATCH"),
             "do_not_contact": sum(1 for r in items if r.get("do_not_contact")),
@@ -301,15 +366,14 @@ def main():
     ap.add_argument("--signals", default="feed_signals_latest.json")
     ap.add_argument("--watchlist", default="relationship_watchlist.json")
     args = ap.parse_args()
-
     signals = load_json(Path(args.signals), {"signals": []})
     path = Path(args.watchlist)
     existing = load_json(path, {"items": []})
     result = build(signals, existing)
     path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
-        f"OK relationships={result['summary']['total']} "
-        f"people={result['summary']['people']} companies={result['summary']['companies']} "
+        f"OK relationships={result['summary']['total']} people={result['summary']['people']} "
+        f"companies={result['summary']['companies']} profiles={result['summary']['people_with_profile_url']} "
         f"review={result['summary']['review_recommended']} repeats={result['summary']['repeat_entities']} -> {path}"
     )
 
