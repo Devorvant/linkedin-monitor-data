@@ -31,13 +31,27 @@ jobs:
           compile(data.decode('utf-8'), 'scripts/feed_signal_analyzer.py', 'exec')
           PY
       - name: Analyze Feed
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python scripts/feed_signal_analyzer.py \
-            --feed feed_latest.json \
-            --profile profile.json \
-            --output feed_signals_latest.json \
-            --provider none \
-            --llm-scope none
+          if [ -n "$OPENAI_API_KEY" ]; then
+            echo 'OpenAI key detected: using gpt-5.6-luna for medium/high signals'
+            python scripts/feed_signal_analyzer.py \
+              --feed feed_latest.json \
+              --profile profile.json \
+              --output feed_signals_latest.json \
+              --provider openai \
+              --model gpt-5.6-luna \
+              --llm-scope medium-high
+          else
+            echo 'OPENAI_API_KEY is not configured: using rules-only fallback'
+            python scripts/feed_signal_analyzer.py \
+              --feed feed_latest.json \
+              --profile profile.json \
+              --output feed_signals_latest.json \
+              --provider none \
+              --llm-scope none
+          fi
       - name: Save daily history
         run: |
           mkdir -p history/feed_signals
