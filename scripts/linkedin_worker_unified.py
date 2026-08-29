@@ -982,6 +982,31 @@ def extract_jobs_records(html: str, source_file: str) -> list[dict]:
             job_link, title, company, location
         )
 
+        # Fallback для карточек, где LinkedIn кладёт в anchor весь текст:
+        # "Title Title Company • Location ...".
+        # В таком случае старый селектор может ошибочно принять весь anchor
+        # за title, оставив company/location пустыми.
+        if (not company or not location) and job_link is not None:
+            link_text = clean_text(job_link.get_text(" ", strip=True))
+            if "•" in link_text:
+                left, right = [clean_text(x) for x in link_text.split("•", 1)]
+                words = left.split()
+
+                # Ищем повторяющийся title в начале:
+                # [Marketing Manager] [Marketing Manager] [SKYWORTH]
+                for k in range(1, len(words) // 2 + 1):
+                    if words[:k] == words[k:2 * k]:
+                        recovered_title = clean_text(" ".join(words[:k]))
+                        recovered_company = clean_text(" ".join(words[2 * k:]))
+
+                        if recovered_title and recovered_company:
+                            title = recovered_title[:500]
+                            if not company:
+                                company = recovered_company[:500]
+                            if not location:
+                                location = right[:500]
+                            break
+
         if not title:
             # Последний fallback, но только из уже безопасного single-job node.
             title = full_text[:180]
@@ -1761,10 +1786,10 @@ def github_api_request(url: str, token: str, method: str = "GET", data: dict | N
         return json.loads(resp.read().decode("utf-8"))
 
 
-def get_existing_file_sha(token: str) -> str | None:
+def get_existing_file_sha(token: str, remote_path: str = GITHUB_PATH) -> str | None:
     url = (
         f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}/contents/"
-        f"{GITHUB_PATH}?ref={GITHUB_BRANCH}"
+        f"{remote_path}?ref={GITHUB_BRANCH}"
     )
     try:
         data = github_api_request(url, token, method="GET")
@@ -1775,21 +1800,21 @@ def get_existing_file_sha(token: str) -> str | None:
         raise
 
 
-def upload_file_to_github(local_path: Path) -> str:
+def upload_file_to_github(local_path: Path, remote_path: str = GITHUB_PATH) -> str:
     token = load_github_token()
 
     raw = local_path.read_bytes()
     content_b64 = base64.b64encode(raw).decode("ascii")
 
-    sha = get_existing_file_sha(token)
+    sha = get_existing_file_sha(token, remote_path)
 
     api_url = (
         f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}/contents/"
-        f"{GITHUB_PATH}"
+        f"{remote_path}"
     )
 
     message = (
-        f"Update {GITHUB_PATH} from {local_path.name} "
+        f"Update {remote_path} from {local_path.name} "
         f"at {datetime.now().isoformat(timespec='seconds')}"
     )
 
@@ -1806,7 +1831,7 @@ def upload_file_to_github(local_path: Path) -> str:
     content = response.get("content", {}) or {}
     download_url = content.get("download_url") or (
         f"https://raw.githubusercontent.com/"
-        f"{GITHUB_OWNER}/{GITHUB_REPO}/{GITHUB_BRANCH}/{GITHUB_PATH}"
+        f"{GITHUB_OWNER}/{GITHUB_REPO}/{GITHUB_BRANCH}/{remote_path}"
     )
     return download_url
 
@@ -1833,10 +1858,17 @@ def publish_combined_to_github(combined_xlsx: Path) -> str:
 
     raw_url = upload_file_to_github(result_json)
 
+    # Ежедневная история: один JSON на дату.
+    # Повторный запуск в тот же день обновляет файл этого дня.
+    history_path = f"history/{datetime.now().date().isoformat()}.json"
+    history_url = upload_file_to_github(result_json, history_path)
+
     print("GitHub обновлён.")
     print(f"Репозиторий: {GITHUB_OWNER}/{GITHUB_REPO}")
     print(f"Файл: {GITHUB_PATH}")
     print(f"RAW URL: {raw_url}")
+    print(f"История: {history_path}")
+    print(f"History RAW URL: {history_url}")
     return raw_url
 
 def automate_sequence() -> None:
@@ -1876,6 +1908,37 @@ def automate_sequence() -> None:
         if current_report is not None:
             report_files[target] = current_report
             print(f"Отчёт этапа {label}: {current_report.name}")
+
+            # Каждый этап уже создаёт JSON рядом с CSV.
+            # Публикуем его отдельным компактным файлом для анализаторов.
+            current_json = current_report.with_suffix(".json")
+            if current_json.exists():
+                remote_latest = f"{target}_latest.json"
+                try:
+                    section_url = upload_file_to_github(current_json, remote_latest)
+                    print(f"GitHub {label}: {remote_latest}")
+                    print(f"RAW URL: {section_url}")
+
+                    # Дневная история по каждому разделу.
+                    history_section_path = (
+                        f"history/{target}/{datetime.now().date().isoformat()}.json"
+                    )
+                    history_section_url = upload_file_to_github(
+                        current_json,
+                        history_section_path,
+                    )
+                    print(f"История {label}: {history_section_path}")
+                    print(f"History RAW URL: {history_section_url}")
+                except Exception as exc:
+                    print(
+                        f"ВНИМАНИЕ: не удалось обновить {remote_latest} "
+                        f"или его историю: {exc}"
+                    )
+            else:
+                print(
+                    f"ВНИМАНИЕ: JSON этапа {label} не найден: "
+                    f"{current_json.name}"
+                )
         else:
             print(f"Внимание: новый CSV-отчёт этапа {label} не найден.")
 
