@@ -1,13 +1,43 @@
 [
   {
     "type": "notification",
+    "title": "Bekzat Orynzhay просмотрел(а) ваш профиль. См. все просмотры.",
+    "company": "",
+    "location": "",
+    "text": "Bekzat Orynzhay просмотрел(а) ваш профиль. См. все просмотры.",
+    "url": "https://www.linkedin.com/in/bekzat-orynzhay-9216bb220/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Burak Çetin поделился(ась) публикацией участника Enzo Ghisoni : A lightweight Robotics simulation for Multi-UAV If you are working on multi-UAV system, you should give a check to FastSwarmSim, created by Peixuan Shu. It ",
+    "company": "",
+    "location": "",
+    "text": "Burak Çetin поделился(ась) публикацией участника Enzo Ghisoni : A lightweight Robotics simulation for Multi-UAV If you are working on multi-UAV system, you should give a check to FastSwarmSim, created by Peixuan Shu. It is a lightweight ROS 2 simulator for PX4-compatible multi-rotor vehicles, built specifically for swarm algorithm development and large-scale experiments. Some interesting points: ✅ ROS 2 Humble & Jazzy support ✅ PX4 + MAVROS-compatible interfaces ✅ Multi-drone simulation with RViz ✅ Local LiDAR point-cloud simulation ✅ Conservative lock-step simulation time for reproducible experiments ✅ Up to 100 simulated vehicles at 4× real time on a desktop machine A very promising tool for anyone working on multi-robot coordination, swarm algorithms, or UAV autonomy. Have you been working on multi-UAV simulation? What simulator are you using? Let's discuss and share Robotics projects 🔽 #ROS2 #Robotics #UAV",
+    "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Burak Çetin поделился(ась) публикацией участника Martin Bolmat : The best ground station is no ground station. Why has flying a drone become a logistics operation ? Every test flight meant packing a laptop, a power stati",
+    "company": "",
+    "location": "",
+    "text": "Burak Çetin поделился(ась) публикацией участника Martin Bolmat : The best ground station is no ground station. Why has flying a drone become a logistics operation ? Every test flight meant packing a laptop, a power station, telemetry radios and their cables. All to talk to a small aircraft. Now the aircraft carries one small module and connects itself to the internet. - 20 seconds from power on to connected. - Works wherever a phone works. - No accounts, no pairing, no setup. - Any device with a browser is enough (TLS + MAVLink v2 signing). - Mission Planner and QGC via a drop-in plugin. - Working prototype, 2 weeks old. My drone has a licensed phone number now :)",
+    "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
     "title": "Burak Çetin поделился(ась) публикацией участника Renad BinTaleb : While working through our HITL setup, I kept coming back to one thing, how can several parts of a system look fine while the behavior we expect from it is",
     "company": "",
     "location": "",
     "text": "Burak Çetin поделился(ась) публикацией участника Renad BinTaleb : While working through our HITL setup, I kept coming back to one thing, how can several parts of a system look fine while the behavior we expect from it is still missing? build target that wasn't there, Serial interface that wasn't available, ROS 2 graph without the expected data. None of these explained the whole picture on their own. What I found interesting was trying to understand how they were connected breaking the system down, looking at what I actually knew versus what I was assuming, testing different possibilities, and keeping track of what each result was telling me. I wrote about the investigation, what it changed in the way I look at complex systems, and what I want to take with me into the next one. PX4 → uORB → Micro XRCE-DDS → Agent → DDS → ROS 2 tracing the data path, isolating the failure boundary, validating assumptions, and understanding why the expected topics never reached ROS 2. #Robotics #AutonomousSystems #PX4 #ROS2 #UAV #SaudiArabia",
     "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
-    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
-    "collected_at": "2026-08-29T13:00:45"
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
   },
   {
     "type": "notification",
@@ -16,8 +46,8 @@
     "location": "",
     "text": "Neha S разместил(а) контент: #Hiring #AIMLEngineer #NLP #SpeechToText #Avionics #Defense #Aerospace #MachineLearning #ArtificialInteligence #ICAO Share your resume at communications@qubistsolutions.com",
     "url": "https://www.linkedin.com/in/neha-s-1155231b8/",
-    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
-    "collected_at": "2026-08-29T13:00:45"
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
   },
   {
     "type": "notification",
@@ -26,8 +56,58 @@
     "location": "",
     "text": "Sachin Jain, Ph.D. прокомментировал(а) публикацию участника Billy Thalheimer : Incredible momentum for maritime aerospace. Congrats, Billy—pioneering real transformation in regional transit.",
     "url": "https://www.linkedin.com/in/sachinjainphd/",
-    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
-    "collected_at": "2026-08-29T13:00:45"
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Sachin Jain, Ph.D. прокомментировал(а) публикацию участника Judy Guzzo : That's great Judy! Strengthening the future of clean energy requires strong collaboration, and it is great to see you and team leading the charge w",
+    "company": "",
+    "location": "",
+    "text": "Sachin Jain, Ph.D. прокомментировал(а) публикацию участника Judy Guzzo : That's great Judy! Strengthening the future of clean energy requires strong collaboration, and it is great to see you and team leading the charge with NYSERDA.",
+    "url": "https://www.linkedin.com/in/sachinjainphd/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Sachin Jain, Ph.D. разместил(а) контент: The new National Security Science & Technology Strategy names undersea, space, and AI/autonomous systems as its top three priorities. Read quickly, that looks like a flat list of ",
+    "company": "",
+    "location": "",
+    "text": "Sachin Jain, Ph.D. разместил(а) контент: The new National Security Science & Technology Strategy names undersea, space, and AI/autonomous systems as its top three priorities. Read quickly, that looks like a flat list of three coequal domains. It isn't. Undersea and space are physical domains. AI and autonomous systems are a technology category. Pairing them isn't redundant; it's the strategy explicitly stating which capability dictates our ability to operate in those specific environments. Both domains share a critical constraint: you cannot assume a reliable link back to a human. A UUV can't surface for a GPS fix, or burst-transmit a position report, without giving away exactly where it is. A satellite, light-seconds from ground control, cannot wait for a human in the loop to execute a dynamic defensive maneuver. In both cases, AI isn't a third priority alongside them — it's the fundamental precondition for the other two working at all. This points to a concrete positioning strategy. If your technical bet is a decision architecture built to operate without a link home — how it resolves conflicting sensor input, operates under uncertainty, and decides when to hold versus act — that architecture doesn't care whether the external physics involve water pressure or orbital mechanics. It's the same class of problem wearing two different sets of physics. Building and selling that decision layer as portable, domain-agnostic IP is what allows a company to sell into both halves of this strategy's hardest domains, rather than getting boxed into a single platform. #DoW #Defense #Autonomy",
+    "url": "https://www.linkedin.com/in/sachinjainphd/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Sachin Jain, Ph.D. разместил(а) контент: You can't verify a neural network the way you can verify a PID controller — decades of control theory give you closed-form stability guarantees over the whole operating envelope; ",
+    "company": "",
+    "location": "",
+    "text": "Sachin Jain, Ph.D. разместил(а) контент: You can't verify a neural network the way you can verify a PID controller — decades of control theory give you closed-form stability guarantees over the whole operating envelope; NN verification tools exist, but they scale poorly and only cover narrow, pre-specified properties over bounded inputs, not the real world your vehicle actually flies through. The pattern (often called Simplex, after Lui Sha's original work at Illinois) is simple to state and hard to build correctly: run your high-performance ML controller as the primary. Run a much simpler, formally verifiable baseline controller in parallel — one that can't do the mission well, but can be proven never to violate the safety envelope. A decision module — the actual hard engineering problem — watches system state and switches to the baseline before the envelope is breached, not after. Get the switching logic wrong and you get two failure modes, both bad: switch too conservatively and your ML controller never gets to do anything interesting; switch too late and the baseline can't recover in time. The switching threshold has to be derived from your vehicle's actual dynamics and worst-case latency, not picked as a round number. This is also why RTA architecture keeps showing up in DoW flight test programs pairing aggressive ML controllers with certified safety systems and automatic recovery — the government isn't asking \"is your AI good,\" it's asking \"what happens in the 0.1% case, and can you prove it.\" If your pitch deck shows an ML controller with no separately-verified safety layer next to it, that's the first thing a government test team asks about — long before they ask about your accuracy numbers. #DoW #Defense #Autonomy",
+    "url": "https://www.linkedin.com/in/sachinjainphd/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Simulink: новые карьерные возможности в регионе Европа, Ближний Восток и Африка",
+    "company": "",
+    "location": "",
+    "text": "Simulink: новые карьерные возможности в регионе Европа, Ближний Восток и Африка",
+    "url": "https://www.linkedin.com/jobs/search-results/?keywords=Simulink+%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0&f_TPR=a1787733674-&geoId=91000007&origin=SEMANTIC_SEARCH_JOB_ALERT_IN_APP_NOTIFICATION&alertAction=viewjobs&currentJobId=4446636859&originToLandingJobPostings=4446636859,4446648555,4446638732,4446643668,4446647534,4446637842",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "WING FlYING разместил(а) контент: Precision Starts Before the First Flight. 🚁📊 For mini and micro UAV power systems, every gram of thrust matters. WingFlying LY-MICRO High Precision Thrust Stand supports 0–30V and 0–50A ",
+    "company": "",
+    "location": "",
+    "text": "WING FlYING разместил(а) контент: Precision Starts Before the First Flight. 🚁📊 For mini and micro UAV power systems, every gram of thrust matters. WingFlying LY-MICRO High Precision Thrust Stand supports 0–30V and 0–50A testing with 100Hz, 6-DOF synchronous data acquisition. With 200m wireless transmission and MET-V6 real-time software, it captures dynamic data, generates propulsion curves and reports, and helps R&D teams turn precise measurements into smarter propulsion decisions. 💬 How precise is precise enough for your UAV R&D? #WingFlying #UAVTesting #ThrustStand #DronePropulsion #UAVRND #PrecisionTesting #DroneTechnology",
+    "url": "https://www.linkedin.com/in/dronethrusttest/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
   },
   {
     "type": "notification",
@@ -36,8 +116,98 @@
     "location": "",
     "text": "matlab: новые карьерные возможности в регионе Европа, Ближний Восток и Африка",
     "url": "https://www.linkedin.com/jobs/search-results/?keywords=matlab+%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0&f_TPR=a1787848977-&geoId=91000007&origin=SEMANTIC_SEARCH_JOB_ALERT_IN_APP_NOTIFICATION&alertAction=viewjobs&currentJobId=4386506176&originToLandingJobPostings=4386506176,4441483573,4441497130,4441493253",
-    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
-    "collected_at": "2026-08-29T13:00:45"
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Вакансия «Business Development Manager» в компании BLS International и другие вакансии (10+) оптимально соответствуют вашему опыту и навыкам.",
+    "company": "",
+    "location": "",
+    "text": "Вакансия «Business Development Manager» в компании BLS International и другие вакансии (10+) оптимально соответствуют вашему опыту и навыкам.",
+    "url": "https://www.linkedin.com/jobs/collections/top-applicant/?currentJobId=4454102157&origin=FREEMIUM_TAJ_IN_APP_NOTIFICATION",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Возможно, вы знаете участника Pavel Tovt . Добавьте его(ее) в свою сеть контактов.",
+    "company": "",
+    "location": "",
+    "text": "Возможно, вы знаете участника Pavel Tovt . Добавьте его(ее) в свою сеть контактов.",
+    "url": "https://www.linkedin.com/in/paul-tovt/ru/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Вы недавно взаимодействовали с организацией FxPro . Начните отслеживать ее, чтобы просматривать открытые вакансии и статистику по компании.",
+    "company": "",
+    "location": "",
+    "text": "Вы недавно взаимодействовали с организацией FxPro . Начните отслеживать ее, чтобы просматривать открытые вакансии и статистику по компании.",
+    "url": "https://www.linkedin.com/company/fxpro/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Люди с похожими интересами отслеживают участника Yaroslava Chebo . Начните отслеживать этого участника, чтобы видеть его публикации.",
+    "company": "",
+    "location": "",
+    "text": "Люди с похожими интересами отслеживают участника Yaroslava Chebo . Начните отслеживать этого участника, чтобы видеть его публикации.",
+    "url": "https://www.linkedin.com/in/yaroslava-chebo-398b3a232/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "На прошлой неделе ваши публикации получили 32 показа . Просмотрите свою аналитику.",
+    "company": "",
+    "location": "",
+    "text": "На прошлой неделе ваши публикации получили 32 показа . Просмотрите свою аналитику.",
+    "url": "https://www.linkedin.com/analytics/creator/content/?startDate=2026-08-17&endDate=2026-08-23&impressionsCount=32",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "На этой неделе ваш профиль появлялся в результатах поиска 8 раз",
+    "company": "",
+    "location": "",
+    "text": "На этой неделе ваш профиль появлялся в результатах поиска 8 раз",
+    "url": "https://www.linkedin.com/company/collabera/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Новая статья участника Jooble в серии статей «Job insider by Jooble»: Candidates Decide in 3 Seconds. Here's How to Win Them",
+    "company": "",
+    "location": "",
+    "text": "Новая статья участника Jooble в серии статей «Job insider by Jooble»: Candidates Decide in 3 Seconds. Here's How to Win Them",
+    "url": "https://www.linkedin.com/company/jooble/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Новая статья участника Lockheed Martin в серии статей «Vector Star»: Built for Speed. Ready for What's Next.",
+    "company": "",
+    "location": "",
+    "text": "Новая статья участника Lockheed Martin в серии статей «Vector Star»: Built for Speed. Ready for What's Next.",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Dassault Falcon разместила контент: Elegance grounded in golden stone and light 📷 by Falcon pilot Pierre Hugues #iFlyFalcon https://bit.ly/4ijCx8a.",
+    "company": "",
+    "location": "",
+    "text": "Организация Dassault Falcon разместила контент: Elegance grounded in golden stone and light 📷 by Falcon pilot Pierre Hugues #iFlyFalcon https://bit.ly/4ijCx8a.",
+    "url": "https://www.linkedin.com/feed/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7497291670682693632&highlightedUpdateType=SHARED_BY_YOUR_PAGE&showCommentBox=true",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
   },
   {
     "type": "notification",
@@ -46,8 +216,28 @@
     "location": "",
     "text": "Организация Department of Aerospace Science and Technology - Politecnico di Milano поделилась обновлением: Il corso di Sperimentazione in Volo del Corso Magistrale in Ingegneria Aeronautica del Politecnico di Milano è stato citato dalla Society of Flight Test Engineers - tra le più importanti organizzazioni a livello mondiale che si occupano di prove di volo - come \"Recommended Practices\". Il corso offre agli studenti e studentesse una serie di attività pratiche di prove di volo preparate, coordinate ed eseguite con il supporto di professionisti esperti provenienti da enti e aziende del settore. In ogni missione, uno studente o studentessa ha svolto il ruolo di Flight Test Engineer (FTE), guidando l'attività in cabina di pilotaggio affiancato da personale altamente qualificato dell'azienda. - The Flight Testing course of the M.Sc. in Aeronautical Engineering at Politecnico di Milano was mentioned by the Society of Flight Test Engineers (SFTE) - one of the world’s leading organizations dedicated to flight testing - as a \"Recommended Practice.\" The course offers enrolled students a range of practical flight test activities, prepared, coordinated and carried out with the support of expert professionals from external organizations and companies in the sector. During each mission, a student takes on the role of Flight Test Engineer (FTE), leading the activity in the cockpit alongside highly qualified company personnel. Department of Aerospace Science and Technology - Politecnico di Milano #PolimiStudents.",
     "url": "https://www.linkedin.com/company/department-daer-polimi/",
-    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
-    "collected_at": "2026-08-29T13:00:45"
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Embraer разместила контент: Momentum continues to build for the Medium Transport Aircraft (MTA) Program. This week, Embraer welcomed Team Mahindra to its headquarters in Brazil to further strengthen collabora",
+    "company": "",
+    "location": "",
+    "text": "Организация Embraer разместила контент: Momentum continues to build for the Medium Transport Aircraft (MTA) Program. This week, Embraer welcomed Team Mahindra to its headquarters in Brazil to further strengthen collaboration and advance this strategic opportunity for India. The Embraer-Mahindra proposal brings together the C-390 Millennium, the most advanced medium tactical airlifter available in the global market, with an unparalleled localization package that includes manufacturing in India and technology transfer. A true partnership designed to support the ambitions of Make in India and Atmanirbhar Bharat while delivering exceptional capability to the Indian Air Force. . O Programa de Aeronaves de Transporte Médio (MTA) segue ganhando impulso. Nesta semana, a Embraer recebeu a equipe da Mahindra em sua sede no Brasil para fortalecer ainda mais a colaboração e avançar nessa oportunidade estratégica para a Índia. A proposta Embraer-Mahindra reúne o C-390 Millennium, a aeronave de transporte tático médio mais avançada disponível no mercado global, com um pacote de localização sem precedentes, que inclui fabricação na Índia e transferência de tecnologia. Uma verdadeira parceria, desenvolvida para apoiar as ambições do programa Make in India e da iniciativa Atmanirbhar Bharat, ao mesmo tempo em que oferece capacidades excepcionais para a Força Aérea Indiana. #C390MTA #MahindraRise Mahindra Group.",
+    "url": "https://www.linkedin.com/company/embraer/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Joby Aviation поделилась обновлением: How do you make an aircraft blend into the sound of a city? It's the question behind a new NASA University Leadership Initiative Center led by Stanford AeroAstro, and we'",
+    "company": "",
+    "location": "",
+    "text": "Организация Joby Aviation поделилась обновлением: How do you make an aircraft blend into the sound of a city? It's the question behind a new NASA University Leadership Initiative Center led by Stanford AeroAstro, and we're proud to be a partner alongside Georgia Institute of Technology, University of California, Berkeley, California Polytechnic State University-San Luis Obispo, and Blue Ridge Research and Consulting, LLC. The team will develop a near-real-time simulation framework for planning urban air mobility flight paths that minimize noise, including using existing ambient sound to help aircraft fade into the background. Hear the difference for yourself with our interactive sound experience: jobyaviation.com/sound.",
+    "url": "https://www.linkedin.com/company/jobyaviation/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
   },
   {
     "type": "notification",
@@ -56,8 +246,78 @@
     "location": "",
     "text": "Организация Lockheed Martin разместила контент: Our on-orbit demonstrations put integrated capabilities to the test under real space conditions, generating data that can’t be replicated in a lab or simulation. Those insights help us learn faster, reduce risk and mature technologies based on real mission needs for our customers. We’re accelerating the path to mission-ready capabilities: https://lmt.co/4gAmrZ6.",
     "url": "https://www.linkedin.com/company/lockheed-martin/",
-    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
-    "collected_at": "2026-08-29T13:00:45"
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Quiet confidence at altitude. ☁️ Behind the capability is a shared purpose: helping pilots stay connected, understand the mission and work together to safeguard allied airs",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Quiet confidence at altitude. ☁️ Behind the capability is a shared purpose: helping pilots stay connected, understand the mission and work together to safeguard allied airspace and protect what matters most..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Some of the most powerful moments before a mission are never spoken. A salute. A final look. A shared understanding. It means the aircraft is ready. It reflects the trust e",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Some of the most powerful moments before a mission are never spoken. A salute. A final look. A shared understanding. It means the aircraft is ready. It reflects the trust earned through every inspection, every repair and every hour spent keeping fleets mission ready. And it carries one simple message: We'll see you when you get back..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: The future of small satellites is moving fast. So are we. At our SmallSat Processing & Delivery Center, digital engineering, automation and high-rate production are changin",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: The future of small satellites is moving fast. So are we. At our SmallSat Processing & Delivery Center, digital engineering, automation and high-rate production are changing how we build and test spacecraft, allowing us to deliver small satellites at the speed and scale today's missions demand. Take a look inside the facility built to accelerate what's next: https://lmt.co/4zBQBno.",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: The rock stars behind Artemis II. Earlier this month, NASA's Artemis II crew took the stage at the iconic music venue, Red Rocks Park and Amphitheatre in Colorado, to share",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: The rock stars behind Artemis II. Earlier this month, NASA's Artemis II crew took the stage at the iconic music venue, Red Rocks Park and Amphitheatre in Colorado, to share highlights from their historic journey and celebrate the thousands of people who helped make the mission possible. We're proud of our Colorado teams whose expertise, dedication and innovation helped power Artemis II and continue to shape the future of space exploration..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Организация MathWorks разместила контент: Hear how engineers at some of the largest automotive companies are using MATLAB & Simulink in their workflows 📽️.",
+    "company": "",
+    "location": "",
+    "text": "Организация MathWorks разместила контент: Hear how engineers at some of the largest automotive companies are using MATLAB & Simulink in their workflows 📽️.",
+    "url": "https://www.linkedin.com/company/the-mathworks_2/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Организация MathWorks разместила контент: 🌒 Haven't had a chance to see an eclipse in person? Take another look through MATLAB. This animation demonstrates how time-sensitive visualizations can bring scientific events to",
+    "company": "",
+    "location": "",
+    "text": "Организация MathWorks разместила контент: 🌒 Haven't had a chance to see an eclipse in person? Take another look through MATLAB. This animation demonstrates how time-sensitive visualizations can bring scientific events to life and make complex concepts easier to explore and communicate..",
+    "url": "https://www.linkedin.com/company/the-mathworks_2/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Организация MathWorks разместила контент: 🤔 Why does a PID controller need all three gains? This hands-on tutorial builds a PID controller from scratch using MATLAB and Simulink, showing exactly what each term contribute",
+    "company": "",
+    "location": "",
+    "text": "Организация MathWorks разместила контент: 🤔 Why does a PID controller need all three gains? This hands-on tutorial builds a PID controller from scratch using MATLAB and Simulink, showing exactly what each term contributes to system performance. → Proportional: improves response, but leaves steady-state error → Integral: eliminates error, but can slow the system → Derivative: improves speed and robustness Watch poles, zeros, Bode plots, and step responses update in real time as each term is added using Control System Designer ⤵️.",
+    "url": "https://www.linkedin.com/company/the-mathworks_2/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
   },
   {
     "type": "notification",
@@ -66,8 +326,78 @@
     "location": "",
     "text": "Организация Saildrone разместила контент: The Chukchi Sea is one of the most demanding maritime environments in the world: Freezing temperatures, rough seas, ice, and extreme remoteness make sustained operations difficult and expensive—particularly when crews and ships have to remain on station for extended periods. Saildrone is operating there now, extending observation into areas where persistent presence is otherwise difficult to maintain. And occasionally, the onboard cameras capture something unexpected. These walruses were filmed recently during operations offshore of Alaska—at a respectful distance, of course. A fun reminder of what persistent maritime awareness can reveal when you are watching places that are otherwise very difficult to reach..",
     "url": "https://www.linkedin.com/company/saildrone-inc/",
-    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
-    "collected_at": "2026-08-29T13:00:45"
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Saildrone разместила контент: We were pleased to host Vice Adm. Michael Vernazza, Commander, Naval Information Forces, alongside our partners from Lockheed Martin earlier this month at Saildrone headquarters.",
+    "company": "",
+    "location": "",
+    "text": "Организация Saildrone разместила контент: We were pleased to host Vice Adm. Michael Vernazza, Commander, Naval Information Forces, alongside our partners from Lockheed Martin earlier this month at Saildrone headquarters. During the visit, Saildrone CEO and Founder Richard Jenkins briefed the admiral about Saildrone’s operational history with the US Navy supporting maritime domain awareness and ocean mapping missions, progress developing and building Saildrone Spectre, and integrating Lockheed Martin’s combat-tested payloads on our operationally proven unmanned surface vehicles. Autonomous maritime systems like Saildrone provide the intelligence, surveillance, and reconnaissance capabilities necessary to stay ahead of an adversary at sea and ashore. To outlast the threat requires range, endurance, and persistence—Saildrone is proving it has all three, 24/7/365, operations around the world. Thank you to Vice Adm. Vernazza and team for coming out to Saildrone HQ. The US Navy never stops standing the watch and neither will we..",
+    "url": "https://www.linkedin.com/company/saildrone-inc/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Просмотрите обновления компании Boeing и еще 1 компании, к которым вы проявили интерес.",
+    "company": "",
+    "location": "",
+    "text": "Просмотрите обновления компании Boeing и еще 1 компании, к которым вы проявили интерес.",
+    "url": "https://www.linkedin.com/company/boeing/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Публикация участника в должности «Chief Product Officer» из организации Astana Hub пользуется популярностью: 128 заявок в первые дни на получение Гранта 🔥 Отрыв от 2ого места среди продуктовых курсов показывает, какую ко",
+    "company": "",
+    "location": "",
+    "text": "Публикация участника в должности «Chief Product Officer» из организации Astana Hub пользуется популярностью: 128 заявок в первые дни на получение Гранта 🔥 Отрыв от 2ого места среди продуктовых курсов показывает, какую колоссальную работу мы с командой проделали в последние годы трудоустройства, чем очень гордимся 😍 Недавние несколько трудоустройств в Kaspi, Higgsfield, Astana Hub и другие крупные ИТ компании показывает насколько Product Bee Inc. все еще работает с Career Network. Это не просто про сухой силлабус и теории, это про закрытые и эксклюзивные офферы и вакансии. Как получить грант и всю информацию расскажем уже в 📍Понедельник 24 августа, 20:00 Вся инфа в чате, там и увидимся) https://lnkd.in/e4-r9i6i",
+    "url": "https://www.linkedin.com/company/astanahub/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "Узнайте подробнее об организации WINGCOPTER и найдите страницы других организаций, которые, возможно, вам будет интересно отслеживать.",
+    "company": "",
+    "location": "",
+    "text": "Узнайте подробнее об организации WINGCOPTER и найдите страницы других организаций, которые, возможно, вам будет интересно отслеживать.",
+    "url": "https://www.linkedin.com/company/wingcopter/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: https://lnkd.in/dPv-PkfN ✨ Готовы заглянуть за грань привычной реальности?Что делать, если привычный мир рушится, а на его обломках проступает истинная магия — сложная, опасная и ",
+    "company": "",
+    "location": "",
+    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: https://lnkd.in/dPv-PkfN ✨ Готовы заглянуть за грань привычной реальности?Что делать, если привычный мир рушится, а на его обломках проступает истинная магия — сложная, опасная и завораживающая?«Вызывая Тенетронику: Архивы Ведьмы» — это не просто приключенческое фэнтези. Это глубокая, метафоричная история о поиске себя, скрытых силах и тайнах, которые веками хранились в древних архивах. Вероника Шатило приглашает вас в путешествие, где каждый шаг меняет судьбу, а магия подчиняется лишь тем, кто готов пройти трансформацию до конца. 🔮 Вас ждут: Проработанный мистический мир и законы ТенетроникиСильные герои, проходящие через внутренние измененияТайны, которые хочется разгадывать страница за страницей позвольте себе погрузиться в эту историю прямо сейчас! 📖 Читать книгу на Альдебаране: Вызывая Тенетронику: Архивы Ведьмы.",
+    "url": "https://www.linkedin.com/in/veronekoshat/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: https://lnkd.in/dTzMrNyF 🔥 Музыка, где нейросети обретают душу: добро пожаловать в мир ИИ-рок-опер! 🎭⚡ Что происходит, когда технологии встречаются с поэзией, драмой и атмосферой ",
+    "company": "",
+    "location": "",
+    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: https://lnkd.in/dTzMrNyF 🔥 Музыка, где нейросети обретают душу: добро пожаловать в мир ИИ-рок-опер! 🎭⚡ Что происходит, когда технологии встречаются с поэзией, драмой и атмосферой грандиозных французских мюзиклов? Рождается музыка, от которой бегут мурашки! На этой странице я делюсь своими авторскими музыкальными экспериментами, созданными на стыке искусственного интеллекта, авторских текстов и визуального сторителлинга. ✨ Что вас ждёт на этой странице: Эпические рок-оперы: Драматический симфонический рок в духе Mozart, l’Opéra Rock. Глубокая лирика: Музыкальные истории о бунте, свободе, сгорающих масках и главной истине — «Перед любовью падают короны». Визуальные клипы и дуэты: Атмосферные видео с эмоциональным вокальным противостоянием и разрывной динамикой. Если вы цените масштабы, кинематографичный звук и хотите увидеть, на что способен ИИ в руках вдохновлённого автора — добро пожаловать в сообщество! 👇 Присоединяйтесь к проекту: Переходите к последним видеоклипам на странице и включайте звук на максимум. Оставляйте реакции и пишите в комментариях, какой трек зацепил больше всего! Делитесь записями с теми, кто скучал по настоящему рок-оперному драйву! #AIMusic #RockOpera #SunoAI #MozartOperaRock #МузыкальныйКлип #ПередЛюбовьюПадаютКороны #ИИИскусство #НоваяМузыка #ПремьераКлипа #SymphonicRock",
+    "url": "https://www.linkedin.com/in/veronekoshat/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Всем привет! Если вы работаете в IT или только планируете ворваться в эту сферу, этот пост для вас. Знаю, как утомляет мониторить десятки сайтов и отсеивать неактуальные предложен",
+    "company": "",
+    "location": "",
+    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Всем привет! Если вы работаете в IT или только планируете ворваться в эту сферу, этот пост для вас. Знаю, как утомляет мониторить десятки сайтов и отсеивать неактуальные предложения. Поэтому делюсь отличным рабочим инструментом — Телеграм-каналом Вакансии IT (СНГ, ЕС, Весь Мир). Это не просто паблик с мемами, а полноценная и строгая биржа труда прямо в вашем мессенджере. Ребята работают по модели классического HH, где во главе угла стоит порядок. Главные фишки канала: * География без границ. Ищете ли вы удаленку из дома, проект в СНГ или контракт в Европе — предложения найдутся под любой запрос. * Экономия времени. Отклики структурированы: кандидаты сразу указывают свою локацию, возраст и ID вакансии. Никакой лишней переписки, все четко и по делу. * Только работа. В ленте нет бесконечного спама и сомнительной партнерской рекламы, только реальные позиции от проверенных работодателей. Для связи по всем вопросам и размещения вакансий можно писать напрямую создателю: @veroneko. Переходите, подписывайтесь и держите руку на пульсе рынка: https://t.me/jobsearchhhhh Кстати, если канал вам зайдет, вы можете поддержать его, проголосовав по официальной ссылке: https://lnkd.in/djU-NFqH. Удачи в поисках и классных вам проектов!🚀",
+    "url": "https://www.linkedin.com/in/veronekoshat/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
   },
   {
     "type": "notification",
@@ -76,8 +406,8 @@
     "location": "",
     "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Всем привет! Ловите инсайд: за каждым успешным проектом в Телеграме всегда стоит живой человек со своими странностями, амбициями и скрытыми талантами. Если вы хотите увидеть, кто крутит шестеренки в канале Вакансии IT и одновременно пишет мистические романы, добро пожаловать в мой Facebook. Здесь я снимаю маску официальности и показываю все как есть. Зачем вам подписываться на мой профиль: * Узнать, откуда берутся идеи для книг и как устроен писательский тайм-менеджмент. * Посмеяться над жизненными постами про работу, людей и быт. * Пообщаться лично в комментариях, ведь Фейсбук для меня — это территория свободного общения. Никакого душного контента и успешного успеха. Только реальная жизнь, творчество и капелька магии. Переходите и подписывайтесь на Facebook: https://lnkd.in/dpizQqbH Ищите работу или сотрудников? Залетайте в мой Telegram-канал: https://t.me/jobsearchhhhh А по этой ссылке можно найти мою книгу Вызывая Тенетронику: Архивы Ведьмы: https://lnkd.in/dPv-PkfN Жду всех, давайте дружить профилями! 🚀",
     "url": "https://www.linkedin.com/in/veronekoshat/",
-    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
-    "collected_at": "2026-08-29T13:00:45"
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
   },
   {
     "type": "notification",
@@ -86,8 +416,38 @@
     "location": "",
     "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Коллеги, привет! Устали скроллить десятки сайтов ради одной адекватной вакансии? Нашел решение, которое экономит время. Рекомендую канал Вакансии IT (СНГ, ЕС, Весь Мир). Это не просто агрегатор, а структурированная площадка с жесткими правилами, где во главе угла стоит порядок. Что внутри: * Вакансии от СНГ до Европы и США, включая полноценный remote. * Прозрачность: кандидаты откликаются по форме (локация, возраст, ID вакансии), поэтому рекрутеры отвечают быстрее. * Чистый контент: только актуальная работа без мусорного контента. Если открыты к предложениям или собираете команду, вам сюда: https://t.me/jobsearchhhhh По всем вопросам: @veroneko. Проголосовать за канал можно тут: https://lnkd.in/djU-NFqH. Сохраняйте себе!",
     "url": "https://www.linkedin.com/in/veronekoshat/",
-    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
-    "collected_at": "2026-08-29T13:00:45"
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Привет всем, кто заглянул! Если вам надоели одинаковые, вылизанные профили в соцсетях с рассказами про успешный успех, то давайте дружить в Facebook. Свой аккаунт я веду без масок",
+    "company": "",
+    "location": "",
+    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Привет всем, кто заглянул! Если вам надоели одинаковые, вылизанные профили в соцсетях с рассказами про успешный успех, то давайте дружить в Facebook. Свой аккаунт я веду без масок, честно и с юмором. Моя жизнь — это безумный коктейль из самых разных миров. Днем я управляю жестким IT-проектом и помогаю людям находить работу без прохождения трех кругов ада на собесах. Вечером — монтирую новые видео для своего блога. А по ночам — открываю древние архивы и пишу мистическое фэнтези. Зачем вам подписываться на мой профиль: * Чтобы увидеть изнанку жизни мультипотенциала, который умудряется совмещать несовместимое. * Почитать честные мысли о блогинге, книгах, людях и работе. * Посмеяться над жизненными постами и мемами про IT-будни. Добавляйтесь в друзья, подписывайтесь и давайте общаться: https://lnkd.in/dpizQqbH Мой YouTube-канал, где можно посмотреть мои ролики: https://lnkd.in/dkZf-RQf Тот самый четкий Telegram-канал Вакансии IT (СНГ, ЕС, Весь Мир): https://t.me/jobsearchhhhh Моя книга Вызывая Тенетронику: Архивы Ведьмы на Альдебаране: https://lnkd.in/dPv-PkfN Жду вас в комментариях, расскажите под любым постом, чем занимаетесь вы!🚀",
+    "url": "https://www.linkedin.com/in/veronekoshat/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Привет, друзья и коллеги! 👋 Если вы здесь впервые или мы еще не знакомы близко, давайте исправлять это недоразумение. Добро пожаловать на мою страницу в Facebook! Здесь нет душног",
+    "company": "",
+    "location": "",
+    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Привет, друзья и коллеги! 👋 Если вы здесь впервые или мы еще не знакомы близко, давайте исправлять это недоразумение. Добро пожаловать на мою страницу в Facebook! Здесь нет душного контента и бесконечной идеальной картинки из фотостоков. Зато есть реальная жизнь, много юмора и крутые проекты, которыми я горю. Что вы найдете у меня на странице: * Профессиональный взгляд на IT-индустрию (и мой личный проект — канал с вакансиями со всего мира без трех кругов ада на собесах). * Творческую изнанку: я пишу книги, создаю миры, и здесь можно первыми заглянуть в закулисье создания романа «Вызывая Тенетронику». * Жизненные заметки, честные мысли обо всем на свете и просто ламповую атмосферу для своих. Если вы любите умные разговоры, хорошую литературу, юмор про созвоны в зуме и искренность без масок — вы по адресу. Подписывайтесь, добавляйтесь в друзья и давайте общаться в комментариях: https://lnkd.in/dpizQqbH Рада каждому! Расскажите в двух словах, чем занимаетесь вы? 🚀",
+    "url": "https://www.linkedin.com/in/veronekoshat/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Привет, сеть! На связи создатель того самого канала с вакансиями без кругов ада. Если вы думали, что моя жизнь состоит только из кодинга, ТЗ и ревью резюме, то самое время загляну",
+    "company": "",
+    "location": "",
+    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Привет, сеть! На связи создатель того самого канала с вакансиями без кругов ада. Если вы думали, что моя жизнь состоит только из кодинга, ТЗ и ревью резюме, то самое время заглянуть ко мне на огонек в Facebook. Оказывается, в одном человеку могут спокойно уживаться жесткий IT-менеджмент и создание фэнтези-миров. На своей странице я делюсь тем, как балансировать между суровой реальностью дедлайнов, ведением проектов и написанием книг. Что вас ждет на моей странице: * Вся изнанка создания контента и управления проектами. * Писательские будни, спойлеры к новым главам и секреты создания книжных миров. * Много жизненного юмора, самоиронии и честных мыслей обо всем, что происходит вокруг. Если вам интересны нестандартные люди, качественная литература и живое общение без душных корпоративных масок — добавляйтесь в друзья. Ссылка на профиль в Facebook: https://lnkd.in/dpizQqbH Мой Telegram-канал с вакансиями со всего мира: https://t.me/jobsearchhhhh Почитать мою книгу Вызывая Тенетронику: Архивы Ведьмы можно здесь: https://lnkd.in/dPv-PkfN Заходите, у меня уютно. Расскажите в комментариях к любому посту, как вы совмещаете работу и свои безумные хобби!",
+    "url": "https://www.linkedin.com/in/veronekoshat/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
   },
   {
     "type": "notification",
@@ -96,7 +456,17 @@
     "location": "",
     "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: 👀 Хорошие IT-вакансии обычно заканчиваются быстрее, чем кандидаты успевают обновить резюме. Поэтому я собираю свежие позиции в одном месте — без бесконечного скролла по чатам и сайтам. В канале: — Go / Java / .NET / Python — Data / ML / AI — DevOps / SRE — Mobile — Architect / Analyst — Middle / Senior / Lead — удалёнка и гибрид Новые вакансии появляются регулярно. 👉 https://t.me/jobsearchhhhh Даже если сейчас не ищете — подпишитесь. Возможно, ваш следующий проект появится там раньше, чем вы начнёте его искать. #ITJobs #Hiring #OpenToWork #RemoteJobs #TechJobs",
     "url": "https://www.linkedin.com/in/veronekoshat/",
-    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
-    "collected_at": "2026-08-29T13:00:45"
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
+  },
+  {
+    "type": "notification",
+    "title": "📍 Сергей, участники из региона Агломерация Москвы только что подняли планку: 0:39.",
+    "company": "",
+    "location": "",
+    "text": "📍 Сергей, участники из региона Агломерация Москвы только что подняли планку: 0:39.",
+    "url": "https://www.linkedin.com/games/zip/",
+    "source_file": "linkedin_notifications_2026-08-29_13-22-10.mhtml",
+    "collected_at": "2026-08-29T13:22:18"
   }
 ]
