@@ -1,0 +1,102 @@
+[
+  {
+    "type": "notification",
+    "title": "Burak Çetin поделился(ась) публикацией участника Renad BinTaleb : While working through our HITL setup, I kept coming back to one thing, how can several parts of a system look fine while the behavior we expect from it is",
+    "company": "",
+    "location": "",
+    "text": "Burak Çetin поделился(ась) публикацией участника Renad BinTaleb : While working through our HITL setup, I kept coming back to one thing, how can several parts of a system look fine while the behavior we expect from it is still missing? build target that wasn't there, Serial interface that wasn't available, ROS 2 graph without the expected data. None of these explained the whole picture on their own. What I found interesting was trying to understand how they were connected breaking the system down, looking at what I actually knew versus what I was assuming, testing different possibilities, and keeping track of what each result was telling me. I wrote about the investigation, what it changed in the way I look at complex systems, and what I want to take with me into the next one. PX4 → uORB → Micro XRCE-DDS → Agent → DDS → ROS 2 tracing the data path, isolating the failure boundary, validating assumptions, and understanding why the expected topics never reached ROS 2. #Robotics #AutonomousSystems #PX4 #ROS2 #UAV #SaudiArabia",
+    "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
+    "collected_at": "2026-08-29T13:00:45"
+  },
+  {
+    "type": "notification",
+    "title": "Neha S разместил(а) контент: #Hiring #AIMLEngineer #NLP #SpeechToText #Avionics #Defense #Aerospace #MachineLearning #ArtificialInteligence #ICAO Share your resume at communications@qubistsolutions.com",
+    "company": "",
+    "location": "",
+    "text": "Neha S разместил(а) контент: #Hiring #AIMLEngineer #NLP #SpeechToText #Avionics #Defense #Aerospace #MachineLearning #ArtificialInteligence #ICAO Share your resume at communications@qubistsolutions.com",
+    "url": "https://www.linkedin.com/in/neha-s-1155231b8/",
+    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
+    "collected_at": "2026-08-29T13:00:45"
+  },
+  {
+    "type": "notification",
+    "title": "Sachin Jain, Ph.D. прокомментировал(а) публикацию участника Billy Thalheimer : Incredible momentum for maritime aerospace. Congrats, Billy—pioneering real transformation in regional transit.",
+    "company": "",
+    "location": "",
+    "text": "Sachin Jain, Ph.D. прокомментировал(а) публикацию участника Billy Thalheimer : Incredible momentum for maritime aerospace. Congrats, Billy—pioneering real transformation in regional transit.",
+    "url": "https://www.linkedin.com/in/sachinjainphd/",
+    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
+    "collected_at": "2026-08-29T13:00:45"
+  },
+  {
+    "type": "notification",
+    "title": "matlab: новые карьерные возможности в регионе Европа, Ближний Восток и Африка",
+    "company": "",
+    "location": "",
+    "text": "matlab: новые карьерные возможности в регионе Европа, Ближний Восток и Африка",
+    "url": "https://www.linkedin.com/jobs/search-results/?keywords=matlab+%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0&f_TPR=a1787848977-&geoId=91000007&origin=SEMANTIC_SEARCH_JOB_ALERT_IN_APP_NOTIFICATION&alertAction=viewjobs&currentJobId=4386506176&originToLandingJobPostings=4386506176,4441483573,4441497130,4441493253",
+    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
+    "collected_at": "2026-08-29T13:00:45"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Department of Aerospace Science and Technology - Politecnico di Milano поделилась обновлением: Il corso di Sperimentazione in Volo del Corso Magistrale in Ingegneria Aeronautica del Politecnico di Milano è st",
+    "company": "",
+    "location": "",
+    "text": "Организация Department of Aerospace Science and Technology - Politecnico di Milano поделилась обновлением: Il corso di Sperimentazione in Volo del Corso Magistrale in Ingegneria Aeronautica del Politecnico di Milano è stato citato dalla Society of Flight Test Engineers - tra le più importanti organizzazioni a livello mondiale che si occupano di prove di volo - come \"Recommended Practices\". Il corso offre agli studenti e studentesse una serie di attività pratiche di prove di volo preparate, coordinate ed eseguite con il supporto di professionisti esperti provenienti da enti e aziende del settore. In ogni missione, uno studente o studentessa ha svolto il ruolo di Flight Test Engineer (FTE), guidando l'attività in cabina di pilotaggio affiancato da personale altamente qualificato dell'azienda. - The Flight Testing course of the M.Sc. in Aeronautical Engineering at Politecnico di Milano was mentioned by the Society of Flight Test Engineers (SFTE) - one of the world’s leading organizations dedicated to flight testing - as a \"Recommended Practice.\" The course offers enrolled students a range of practical flight test activities, prepared, coordinated and carried out with the support of expert professionals from external organizations and companies in the sector. During each mission, a student takes on the role of Flight Test Engineer (FTE), leading the activity in the cockpit alongside highly qualified company personnel. Department of Aerospace Science and Technology - Politecnico di Milano #PolimiStudents.",
+    "url": "https://www.linkedin.com/company/department-daer-polimi/",
+    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
+    "collected_at": "2026-08-29T13:00:45"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Our on-orbit demonstrations put integrated capabilities to the test under real space conditions, generating data that can’t be replicated in a lab or simulation. Those insi",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Our on-orbit demonstrations put integrated capabilities to the test under real space conditions, generating data that can’t be replicated in a lab or simulation. Those insights help us learn faster, reduce risk and mature technologies based on real mission needs for our customers. We’re accelerating the path to mission-ready capabilities: https://lmt.co/4gAmrZ6.",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
+    "collected_at": "2026-08-29T13:00:45"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Saildrone разместила контент: The Chukchi Sea is one of the most demanding maritime environments in the world: Freezing temperatures, rough seas, ice, and extreme remoteness make sustained operations difficul",
+    "company": "",
+    "location": "",
+    "text": "Организация Saildrone разместила контент: The Chukchi Sea is one of the most demanding maritime environments in the world: Freezing temperatures, rough seas, ice, and extreme remoteness make sustained operations difficult and expensive—particularly when crews and ships have to remain on station for extended periods. Saildrone is operating there now, extending observation into areas where persistent presence is otherwise difficult to maintain. And occasionally, the onboard cameras capture something unexpected. These walruses were filmed recently during operations offshore of Alaska—at a respectful distance, of course. A fun reminder of what persistent maritime awareness can reveal when you are watching places that are otherwise very difficult to reach..",
+    "url": "https://www.linkedin.com/company/saildrone-inc/",
+    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
+    "collected_at": "2026-08-29T13:00:45"
+  },
+  {
+    "type": "notification",
+    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Всем привет! Ловите инсайд: за каждым успешным проектом в Телеграме всегда стоит живой человек со своими странностями, амбициями и скрытыми талантами. Если вы хотите увидеть, кто ",
+    "company": "",
+    "location": "",
+    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Всем привет! Ловите инсайд: за каждым успешным проектом в Телеграме всегда стоит живой человек со своими странностями, амбициями и скрытыми талантами. Если вы хотите увидеть, кто крутит шестеренки в канале Вакансии IT и одновременно пишет мистические романы, добро пожаловать в мой Facebook. Здесь я снимаю маску официальности и показываю все как есть. Зачем вам подписываться на мой профиль: * Узнать, откуда берутся идеи для книг и как устроен писательский тайм-менеджмент. * Посмеяться над жизненными постами про работу, людей и быт. * Пообщаться лично в комментариях, ведь Фейсбук для меня — это территория свободного общения. Никакого душного контента и успешного успеха. Только реальная жизнь, творчество и капелька магии. Переходите и подписывайтесь на Facebook: https://lnkd.in/dpizQqbH Ищите работу или сотрудников? Залетайте в мой Telegram-канал: https://t.me/jobsearchhhhh А по этой ссылке можно найти мою книгу Вызывая Тенетронику: Архивы Ведьмы: https://lnkd.in/dPv-PkfN Жду всех, давайте дружить профилями! 🚀",
+    "url": "https://www.linkedin.com/in/veronekoshat/",
+    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
+    "collected_at": "2026-08-29T13:00:45"
+  },
+  {
+    "type": "notification",
+    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Коллеги, привет! Устали скроллить десятки сайтов ради одной адекватной вакансии? Нашел решение, которое экономит время. Рекомендую канал Вакансии IT (СНГ, ЕС, Весь Мир). Это не пр",
+    "company": "",
+    "location": "",
+    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Коллеги, привет! Устали скроллить десятки сайтов ради одной адекватной вакансии? Нашел решение, которое экономит время. Рекомендую канал Вакансии IT (СНГ, ЕС, Весь Мир). Это не просто агрегатор, а структурированная площадка с жесткими правилами, где во главе угла стоит порядок. Что внутри: * Вакансии от СНГ до Европы и США, включая полноценный remote. * Прозрачность: кандидаты откликаются по форме (локация, возраст, ID вакансии), поэтому рекрутеры отвечают быстрее. * Чистый контент: только актуальная работа без мусорного контента. Если открыты к предложениям или собираете команду, вам сюда: https://t.me/jobsearchhhhh По всем вопросам: @veroneko. Проголосовать за канал можно тут: https://lnkd.in/djU-NFqH. Сохраняйте себе!",
+    "url": "https://www.linkedin.com/in/veronekoshat/",
+    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
+    "collected_at": "2026-08-29T13:00:45"
+  },
+  {
+    "type": "notification",
+    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: 👀 Хорошие IT-вакансии обычно заканчиваются быстрее, чем кандидаты успевают обновить резюме. Поэтому я собираю свежие позиции в одном месте — без бесконечного скролла по чатам и са",
+    "company": "",
+    "location": "",
+    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: 👀 Хорошие IT-вакансии обычно заканчиваются быстрее, чем кандидаты успевают обновить резюме. Поэтому я собираю свежие позиции в одном месте — без бесконечного скролла по чатам и сайтам. В канале: — Go / Java / .NET / Python — Data / ML / AI — DevOps / SRE — Mobile — Architect / Analyst — Middle / Senior / Lead — удалёнка и гибрид Новые вакансии появляются регулярно. 👉 https://t.me/jobsearchhhhh Даже если сейчас не ищете — подпишитесь. Возможно, ваш следующий проект появится там раньше, чем вы начнёте его искать. #ITJobs #Hiring #OpenToWork #RemoteJobs #TechJobs",
+    "url": "https://www.linkedin.com/in/veronekoshat/",
+    "source_file": "linkedin_notifications_2026-08-29_13-00-37.mhtml",
+    "collected_at": "2026-08-29T13:00:45"
+  }
+]
