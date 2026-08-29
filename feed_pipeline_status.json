@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-29T20:22:22.883844+00:00",
+  "status": "OK",
+  "feed_signals": {
+    "posts_analyzed": 19,
+    "high_priority": 1,
+    "medium_priority": 4,
+    "low_priority": 14,
+    "signal_type_counts": {
+      "TECH_SIGNAL": 5,
+      "PROJECT_SIGNAL": 6,
+      "PEOPLE_SIGNAL": 5,
+      "NETWORK_SIGNAL": 6,
+      "COMPANY_SIGNAL": 11,
+      "OPPORTUNITY_SIGNAL": 3,
+      "MARKET_SIGNAL": 4,
+      "HIRING_SIGNAL": 2
+    }
+  },
+  "action_queue": {
+    "items": 5,
+    "high": 1,
+    "medium": 4,
+    "pending_approval": 0,
+    "primary_action_counts": {
+      "check_jobs": 1,
+      "engage_with_post": 4
+    }
+  },
+  "relationships": {
+    "total": 11,
+    "people": 8,
+    "companies": 3,
+    "status_counts": {
+      "WATCH": 11,
+      "REVIEW": 0,
+      "CONNECT": 0,
+      "CONNECTED": 0,
+      "CONTACTED": 0,
+      "REPLIED": 0,
+      "CLOSED": 0
+    },
+    "review_recommended": 1,
+    "do_not_contact": 0
+  },
+  "llm_provider": "openai"
+}
