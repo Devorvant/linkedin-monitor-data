@@ -6,6 +6,7 @@ on:
       - feed_latest.json
       - profile.json
       - scripts/feed_signal_analyzer.py.gz.b64
+      - .feed-signals-trigger
   workflow_dispatch:
 
 permissions:
