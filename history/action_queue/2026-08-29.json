@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-29T20:07:17.886073+00:00",
+  "source_generated_at": "2026-08-29T20:06:11.371725+00:00",
+  "summary": {
+    "items": 5,
+    "high": 1,
+    "medium": 4,
+    "primary_action_counts": {
+      "check_jobs": 1,
+      "connect_person": 2,
+      "engage_with_post": 2
+    }
+  },
+  "items": [
+    {
+      "signal_id": "sig_50e52efecb3f028a",
+      "source_post_id": null,
+      "priority": "high",
+      "confidence": 98,
+      "author": "Burak Çetin",
+      "company": null,
+      "primary_action": "connect_person",
+      "secondary_action": "engage_with_post",
+      "target": {
+        "target_role": "PX4/RotorPy technical contributor",
+        "reason": "The author contributed a merged RotorPy support PR to PX4, making them a relevant person for UAV simulation, autopilot integration, and autonomy engineering discussions.",
+        "priority": "high"
+      },
+      "reason": "The post describes a concrete PX4 integration of a Python-based multirotor simulator with aerodynamic modeling, a Gymnasium interface, SITL support, and ML/AI workflows. These topics closely match the profile's UAV, flight-control, simulation, autonomy, and Python experience. The author is a confirmed technical contributor to a directly relevant project.",
+      "content_angle": "Discuss how combining aerodynamic multirotor simulation, Gymnasium-compatible interfaces, and PX4 SITL can support control-law validation, autonomy research, and sim-to-real experimentation.",
+      "source_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_5ed8f10e7c5bfe5f",
+      "source_post_id": "7495612599888338945",
+      "priority": "medium",
+      "confidence": 94,
+      "author": "Rocket Lab",
+      "company": "Rocket Lab",
+      "primary_action": "check_jobs",
+      "secondary_action": "engage_with_post",
+      "target": {
+        "target_role": "Rocket Lab recruiter or networking-event contact",
+        "reason": "The post explicitly invites applicants to a career networking event, making recruiting or event contacts relevant for checking whether flight-control, GNC or autonomous-systems opportunities also exist.",
+        "priority": "medium"
+      },
+      "reason": "Rocket Lab is recruiting Manufacturing Technicians and Supply Chain Specialists for work involving real hardware, missions, national security, deep space exploration and defense. The space and defense context is adjacent to the profile, but the advertised roles do not directly match flight controls, GNC, autonomy or simulation expertise.",
+      "content_angle": "An original expert post could discuss the practical challenges of validating control and autonomy systems on real hardware and missions, connecting engineering rigor with the space and defense outcomes highlighted by Rocket Lab.",
+      "source_url": "https://www.linkedin.com/company/rocket-lab-corp/posts/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_2b5d34d34e5e66cd",
+      "source_post_id": "7496448164820869120",
+      "priority": "medium",
+      "confidence": 91,
+      "author": "MathWorks",
+      "company": "MathWorks",
+      "primary_action": "engage_with_post",
+      "secondary_action": "follow_person",
+      "target": {
+        "target_role": "MathWorks representatives mentioned in the post; role unspecified",
+        "reason": "They are explicitly thanked for supporting the MATLAB and Simulink technical education program, making them potentially relevant contacts for the professional ecosystem around these tools.",
+        "priority": "medium"
+      },
+      "reason": "The post is directly relevant to the profile's MATLAB and Simulink experience and highlights technical education, engineering applications, and academic access to tools used in flight control, simulation, and autonomous-systems work. It also names MathWorks and ARKANCE participants, but provides no hiring information or job-specific opportunity.",
+      "content_angle": "Share an original perspective on how MATLAB and Simulink education can progress from foundational engineering training to practical flight-dynamics modeling, control-law validation, and hardware-in-the-loop workflows.",
+      "source_url": "https://www.linkedin.com/company/the-mathworks_2/posts/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_efacd14ea7014dbc",
+      "source_post_id": "7488730652599787520",
+      "priority": "medium",
+      "confidence": 91,
+      "author": "Open Ocean Robotics",
+      "company": "Open Ocean Robotics",
+      "primary_action": "connect_person",
+      "secondary_action": "engage_with_post",
+      "target": {
+        "target_role": "CEO of ABCDMI",
+        "reason": "Inference: Alex Rueben may be a valuable connection for understanding marine and defence industry opportunities and organizations in British Columbia.",
+        "priority": "high"
+      },
+      "reason": "Inference: The post is relevant to the profile because it highlights marine and defence innovation, areas adjacent to the profile's autonomous vessel, marine control, robotics and defence interests. Alex Rueben is a concrete industry-network contact through ABCDMI. The post does not identify a specific engineering vacancy.",
+      "content_angle": "Inference: Share an original perspective on how guidance, navigation, control and autonomy engineering can contribute to innovation in marine and defence systems, without repeating the post's wording.",
+      "source_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_c47a61c7a61b5181",
+      "source_post_id": null,
+      "priority": "medium",
+      "confidence": 91,
+      "author": null,
+      "company": null,
+      "primary_action": "engage_with_post",
+      "secondary_action": "save_for_content",
+      "target": {
+        "target_role": "Strategic R&D partner",
+        "reason": "The author is explicitly seeking R&D partners for development and North American deployment of the aerial firefighting solution.",
+        "priority": "high"
+      },
+      "reason": "The post describes an aerial firefighting system using automatic navigation, high-altitude release, targeted distribution, and optimized drop physics. These topics overlap with the profile's flight dynamics, autonomous systems, navigation, control, simulation, and UAV expertise. The author is seeking strategic R&D partners, grant co-applicants, and venture investors, but no specific hiring opportunity or company is identified.",
+      "content_angle": "Offer an original technical perspective on validating automatic navigation, release timing, dispersion modeling, telemetry, and flight-safety margins for high-altitude aerial firefighting, while noting that effectiveness claims require flight-test and environmental validation.",
+      "source_url": "",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      }
+    }
+  ]
+}
