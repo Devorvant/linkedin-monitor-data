@@ -626,11 +626,15 @@ def decode_html_bytes(payload: bytes, declared_charset: str = "") -> str:
             best_score = score
             best_text = decoded
 
-        if enc.lower().replace("_", "-") == "utf-8" and replacements == 0:
-            return decoded
+        # Chrome LinkedIn MHTML почти всегда UTF-8. В большом документе могут
+        # встретиться единичные повреждённые байты из встроенных ресурсов.
+        # Не переключаем из-за них весь документ на windows-1251.
+        if enc.lower().replace("_", "-") == "utf-8":
+            replacement_ratio = replacements / max(len(decoded), 1)
+            if replacement_ratio < 0.001:
+                return decoded
 
     return best_text or payload.decode("utf-8", errors="replace")
-
 
 def read_html_or_mhtml(path: Path) -> str:
     if path.suffix.lower() in {".mhtml", ".mht"}:
@@ -638,20 +642,45 @@ def read_html_or_mhtml(path: Path) -> str:
             message = BytesParser(policy=policy.default).parse(fh)
 
         parts = []
+        feed_parts = []
+
         if message.is_multipart():
             for part in message.walk():
-                if part.get_content_type() == "text/html":
-                    payload = part.get_payload(decode=True) or b""
-                    parts.append(
-                        decode_html_bytes(payload, part.get_content_charset() or "")
-                    )
+                if part.get_content_type() != "text/html":
+                    continue
+
+                payload = part.get_payload(decode=True) or b""
+                decoded = decode_html_bytes(
+                    payload,
+                    part.get_content_charset() or "",
+                )
+                parts.append(decoded)
+
+                content_location = (part.get("Content-Location") or "").strip()
+                if re.match(
+                    r"https://(?:www\\.)?linkedin\\.com/feed/?(?:[?#].*)?$",
+                    content_location,
+                    flags=re.IGNORECASE,
+                ):
+                    feed_parts.append(decoded)
         else:
             payload = message.get_payload(decode=True) or b""
-            parts.append(
-                decode_html_bytes(payload, message.get_content_charset() or "")
+            decoded = decode_html_bytes(
+                payload,
+                message.get_content_charset() or "",
             )
+            parts.append(decoded)
 
-        return "\n".join(parts)
+        # Для Feed MHTML явно выбираем основной документ по Content-Location.
+        # Это исключает LinkedIn preload/iframe/служебные HTML.
+        if feed_parts:
+            return max(feed_parts, key=len)
+
+        if not parts:
+            return ""
+
+        # Для Jobs/Notifications и прочих страниц сохраняем безопасный fallback.
+        return max(parts, key=len)
 
     return decode_html_bytes(path.read_bytes())
 
@@ -680,6 +709,7 @@ def classify(url: str) -> str:
 
 
 def extract_records(html: str, source_file: str) -> list[dict]:
+    """Feed parser: сначала реальные публикации, затем полезные entity-ссылки."""
     if BeautifulSoup is None:
         raise RuntimeError("Не установлен beautifulsoup4.")
 
@@ -687,65 +717,223 @@ def extract_records(html: str, source_file: str) -> list[dict]:
     records = []
     seen = set()
 
-    for node in soup.select(
-        "article, [data-urn], .feed-shared-update-v2, "
-        ".jobs-search-results__list-item, .job-view-layout"
-    ):
-        text = clean_text(node.get_text(" ", strip=True))
-        if len(text) < 80:
+    def strip_ui_tail(value: str) -> str:
+        value = clean_text(value)
+        for suffix in ("… развернуть", "Показать перевод"):
+            value = value.replace(suffix, " ")
+        return clean_text(value)
+
+    def first_author_link(container):
+        # Company post links обычно выглядят /company/<slug>/posts/.
+        for a in container.find_all("a", href=True):
+            url = normalize_url(a.get("href"))
+            if not url:
+                continue
+            if "/company/" in url and "/posts/" in url:
+                title = clean_text(a.get_text(" ", strip=True))
+                if title:
+                    return title, url, "company"
+
+        # Для публикаций людей берём первый содержательный /in/ link.
+        for a in container.find_all("a", href=True):
+            url = normalize_url(a.get("href"))
+            if not url or "/in/" not in url:
+                continue
+            title = clean_text(a.get_text(" ", strip=True))
+            if title:
+                return title, url, "person"
+
+        return "", "", ""
+
+    # ------------------------------------------------------------------
+    # 1. Реальные посты нового LinkedIn Feed.
+    # У актуального DOM текст публикации находится в expandable-text-box,
+    # а карточка поста — ближайший role=listitem.
+    # ------------------------------------------------------------------
+    post_nodes = soup.select('[data-testid="expandable-text-box"]')
+
+    for body in post_nodes:
+        post_text = strip_ui_tail(body.get_text(" ", strip=True))
+        if len(post_text) < 20:
             continue
 
-        links = [normalize_url(a.get("href")) for a in node.find_all("a", href=True)]
-        links = [x for x in links if x]
-        url = next(
-            (x for x in links if "/jobs/view/" in x or "/posts/" in x or "/activity-" in x),
-            links[0] if links else "",
+        container = body.find_parent(attrs={"role": "listitem"})
+        if container is None:
+            container = body.find_parent("article")
+        if container is None:
+            container = body.parent
+
+        author, author_url, author_type = first_author_link(container)
+
+        # Хэштеги.
+        hashtags = []
+        for a in body.find_all("a", href=True):
+            label = clean_text(a.get_text(" ", strip=True))
+            href = a.get("href") or ""
+            if label.startswith("#") or "HASH_TAG_FROM_FEED" in href:
+                if label and label not in hashtags:
+                    hashtags.append(label)
+
+        # Упомянутые LinkedIn-компании/люди внутри текста поста.
+        mentions = []
+        for a in body.find_all("a", href=True):
+            label = clean_text(a.get_text(" ", strip=True))
+            url = normalize_url(a.get("href"))
+            if not label or not url:
+                continue
+            if "/company/" in url or "/in/" in url:
+                item = {"name": label[:300], "url": url}
+                if item not in mentions:
+                    mentions.append(item)
+
+        # Внешние/редирект-ссылки, присутствующие в карточке.
+        external_links = []
+        for a in container.find_all("a", href=True):
+            url = normalize_url(a.get("href"))
+            if not url:
+                continue
+            if (
+                "linkedin.com/" not in url
+                or "lnkd.in/" in url
+            ):
+                if url not in external_links:
+                    external_links.append(url)
+
+        # Время публикации обычно находится рядом с автором в верхней
+        # части карточки: "2 дн.", "4 ч.", "2 нед." и т.п.
+        header_text = clean_text(container.get_text(" ", strip=True))[:700]
+        time_match = re.search(
+            r"(?<!\d)(\d+\s*(?:мин\.?|ч\.?|дн\.?|нед\.?|мес\.?|г\.?))(?:\s*[•·])?",
+            header_text,
+            flags=re.IGNORECASE,
         )
-        key = (url.split("?")[0], text[:500])
+        posted_time = time_match.group(1) if time_match else ""
+
+        # Реакции и комментарии — если LinkedIn успел их загрузить.
+        # Считываем отдельный UI-элемент, чтобы цифры из даты/видео/текста
+        # не склеивались с метрикой.
+        reactions = None
+        comments = None
+
+        for metric_node in container.find_all(["a", "button"]):
+            metric_text = clean_text(metric_node.get_text(" ", strip=True))
+            if not metric_text:
+                continue
+
+            if reactions is None and re.search(r"\bреакц", metric_text, re.IGNORECASE):
+                m = re.search(r"([\d\s\u00a0.,]+)\s+реакц", metric_text, re.IGNORECASE)
+                if m:
+                    raw = re.sub(r"[^\d]", "", m.group(1))
+                    if raw:
+                        reactions = int(raw)
+
+            if comments is None and re.search(r"\bкомментар", metric_text, re.IGNORECASE):
+                m = re.search(r"([\d\s\u00a0.,]+)\s+комментар", metric_text, re.IGNORECASE)
+                if m:
+                    raw = re.sub(r"[^\d]", "", m.group(1))
+                    if raw:
+                        comments = int(raw)
+
+            if reactions is not None and comments is not None:
+                break
+
+        # Сохраняем внутренний идентификатор UGC, если он есть в DOM.
+        post_id = ""
+        component_blob = " ".join(
+            str(x.get("componentkey", ""))
+            for x in container.find_all(attrs={"componentkey": True})
+        )
+        id_match = re.search(r"userGeneratedContentId=(\d+)", component_blob)
+        if id_match:
+            post_id = id_match.group(1)
+
+        # Если отдельного permalink в DOM нет, author posts/profile URL лучше,
+        # чем случайная ссылка из карточки.
+        post_url = ""
+        for a in container.find_all("a", href=True):
+            url = normalize_url(a.get("href"))
+            if not url:
+                continue
+            if "/feed/update/" in url or "/posts/" in url and "activity-" in url:
+                post_url = url
+                break
+        if not post_url:
+            post_url = author_url
+
+        key = (
+            post_id or post_url.split("?")[0],
+            post_text[:500],
+        )
         if key in seen:
             continue
         seen.add(key)
 
         records.append({
-            "type": classify(url) if url else "text",
-            "title": text[:180],
-            "company": "",
+            "type": "post",
+            "title": (author or post_text[:180])[:500],
+            "company": author if author_type == "company" else "",
             "location": "",
-            "text": text[:15000],
-            "url": url,
+            "text": post_text[:30000],
+            "url": post_url,
             "source_file": source_file,
+            "author": author,
+            "author_type": author_type,
+            "author_url": author_url,
+            "posted_time": posted_time,
+            "post_id": post_id,
+            "hashtags": hashtags,
+            "mentions": mentions,
+            "external_links": external_links,
+            "reactions": reactions,
+            "comments": comments,
         })
 
+    # ------------------------------------------------------------------
+    # 2. Полезные company/person entity-ссылки.
+    # Они нужны будущему networking/company intelligence, но не выдаём
+    # company-post links повторно как отдельные "post" записи.
+    # ------------------------------------------------------------------
     for a in soup.find_all("a", href=True):
         url = normalize_url(a.get("href"))
         title = clean_text(a.get_text(" ", strip=True))
         if not url or len(title) < 4:
             continue
-        if not (
-            "linkedin.com/jobs/view/" in url
-            or "/company/" in url
-            or "/in/" in url
-            or "/posts/" in url
-            or "/activity-" in url
-        ):
+
+        entity_type = None
+        canonical_url = url
+
+        if "/company/" in url:
+            entity_type = "company"
+            # /company/x/posts/ -> canonical company page
+            canonical_url = re.sub(r"/posts/?(?:\?.*)?$", "/", url)
+        elif "/in/" in url:
+            entity_type = "person"
+        else:
             continue
-        key = (url.split("?")[0], title[:300])
+
+        # Убираем очевидные UI-подписи.
+        if title.lower() in {
+            "отслеживать", "подписаться", "подробнее",
+            "показать перевод", "см. все"
+        }:
+            continue
+
+        key = (canonical_url.split("?")[0], title[:300])
         if key in seen:
             continue
         seen.add(key)
+
         records.append({
-            "type": classify(url),
+            "type": entity_type,
             "title": title[:500],
             "company": "",
             "location": "",
-            "text": title,
-            "url": url,
+            "text": title[:2000],
+            "url": canonical_url,
             "source_file": source_file,
         })
 
     return records
-
-
 
 def extract_jobs_records(html: str, source_file: str) -> list[dict]:
     """
