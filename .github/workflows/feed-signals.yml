@@ -22,6 +22,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Validate pipeline scripts
+        run: |
+          python -m py_compile scripts/action_planner.py scripts/relationship_watchlist.py
+
       - name: Unpack analyzer
         run: |
           python - <<'PY'
@@ -32,6 +37,7 @@ jobs:
           Path('scripts/feed_signal_analyzer.py').write_bytes(data)
           compile(data.decode('utf-8'), 'scripts/feed_signal_analyzer.py', 'exec')
           PY
+
       - name: Analyze Feed
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -54,30 +60,56 @@ jobs:
               --provider none \
               --llm-scope none
           fi
-      - name: Build action queue
-        run: |
-          python scripts/action_planner.py \
-            --signals feed_signals_latest.json \
-            --output action_queue_latest.json
-      - name: Update relationship watchlist
+
+      - name: Update relationship CRM
         run: |
           python scripts/relationship_watchlist.py \
             --signals feed_signals_latest.json \
             --watchlist relationship_watchlist.json
+
+      - name: Build CRM-aware action queue
+        run: |
+          python scripts/action_planner.py \
+            --signals feed_signals_latest.json \
+            --crm relationship_watchlist.json \
+            --output action_queue_latest.json
+
       - name: Save daily history
         run: |
           mkdir -p history/feed_signals history/action_queue history/relationships
           cp feed_signals_latest.json "history/feed_signals/$(date -u +%F).json"
           cp action_queue_latest.json "history/action_queue/$(date -u +%F).json"
           cp relationship_watchlist.json "history/relationships/$(date -u +%F).json"
+
+      - name: Build pipeline status
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          signals = json.loads(Path('feed_signals_latest.json').read_text(encoding='utf-8'))
+          actions = json.loads(Path('action_queue_latest.json').read_text(encoding='utf-8'))
+          crm = json.loads(Path('relationship_watchlist.json').read_text(encoding='utf-8'))
+          status = {
+              'schema_version': 1,
+              'generated_at': datetime.now(timezone.utc).isoformat(),
+              'status': 'OK',
+              'feed_signals': signals.get('summary', {}),
+              'action_queue': actions.get('summary', {}),
+              'relationships': crm.get('summary', {}),
+              'llm_provider': 'openai' if any((s.get('llm') or {}).get('used') for s in signals.get('signals', [])) else 'rules-only',
+          }
+          Path('feed_pipeline_status.json').write_text(json.dumps(status, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
       - name: Commit outputs
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feed_signals_latest.json action_queue_latest.json relationship_watchlist.json history/feed_signals history/action_queue history/relationships
+          git add feed_signals_latest.json action_queue_latest.json relationship_watchlist.json feed_pipeline_status.json history/feed_signals history/action_queue history/relationships
           if git diff --cached --quiet; then
             echo 'No Feed analysis changes'
             exit 0
           fi
-          git commit -m "Update Feed signals, actions and relationships $(date -u +%F)"
+          git commit -m "Update Feed CRM pipeline $(date -u +%F)"
           git push
