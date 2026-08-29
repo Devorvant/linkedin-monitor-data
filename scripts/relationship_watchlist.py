@@ -79,6 +79,53 @@ def preserve_manual(old):
     }
 
 
+def compact_projects(signal):
+    result = []
+    for value in signal.get("projects") or []:
+        if isinstance(value, str):
+            text = norm(value)
+        elif isinstance(value, dict):
+            text = norm(value.get("name") or value.get("title"))
+        else:
+            text = norm(str(value))
+        if text and text not in result:
+            result.append(text)
+    return result[:8]
+
+
+def compact_technologies(signal):
+    result = []
+    for value in signal.get("technologies") or []:
+        text = norm(str(value))
+        if text and text not in result:
+            result.append(text)
+    return result[:10]
+
+
+def migrate_signal_history(old):
+    history = list(old.get("signal_history") or [])
+    if history:
+        return history
+    if not old:
+        return []
+    # Existing CRM records predate explicit per-signal history. Preserve one
+    # best-effort legacy snapshot instead of pretending we know every old appearance.
+    at = old.get("last_seen") or old.get("updated_at") or old.get("first_seen")
+    if not at:
+        return []
+    return [{
+        "at": at,
+        "signal_id": (old.get("source_signal_ids") or [None])[-1],
+        "priority": old.get("latest_priority"),
+        "confidence": old.get("latest_confidence"),
+        "source_url": old.get("latest_source_url"),
+        "reason": (old.get("reasons") or [None])[-1],
+        "projects": [],
+        "technologies": [],
+        "source": "legacy_snapshot",
+    }]
+
+
 def upsert(records, kind, name, signal, now):
     name = norm(name)
     if not name:
@@ -127,6 +174,21 @@ def upsert(records, kind, name, signal, now):
         if p in {"high", "medium"}:
             priority_counts[p] = as_int(priority_counts.get(p)) + 1
 
+    signal_history = migrate_signal_history(old)
+    if is_new_signal or (not old and not sid):
+        signal_history.append({
+            "at": now,
+            "signal_id": sid,
+            "priority": signal.get("priority"),
+            "confidence": signal.get("confidence"),
+            "source_url": signal.get("source_url"),
+            "reason": reason or None,
+            "projects": compact_projects(signal),
+            "technologies": compact_technologies(signal),
+            "source": "feed_signal",
+        })
+    signal_history = signal_history[-25:]
+
     status_history = list(old.get("status_history") or [])
     automation = dict(old.get("automation") or {})
     previously_observed = automation.get("last_observed_status")
@@ -164,6 +226,7 @@ def upsert(records, kind, name, signal, now):
         "companies": companies,
         "roles": roles,
         "source_signal_ids": source_ids[-50:],
+        "signal_history": signal_history,
         "reasons": reasons,
         "latest_source_url": signal.get("source_url"),
         "status_history": status_history,
@@ -213,12 +276,12 @@ def build(signals, existing):
 
     status_counts = {status: sum(1 for r in items if r.get("status") == status) for status in STATUSES}
     return {
-        "schema_version": 2,
+        "schema_version": 3,
         "generated_at": now,
         "status_model": {
             "allowed": STATUSES,
             "manual_fields": MANUAL_FIELDS,
-            "note": "Automation preserves manual fields. Outbound actions remain manual/approval-only."
+            "note": "Automation preserves manual fields. Outbound actions remain manual/approval-only. Signal history keeps recent distinct appearances."
         },
         "summary": {
             "total": len(items),
@@ -227,6 +290,7 @@ def build(signals, existing):
             "status_counts": status_counts,
             "review_recommended": sum(1 for r in items if (r.get("automation") or {}).get("recommended_status") == "REVIEW" and r.get("status") == "WATCH"),
             "do_not_contact": sum(1 for r in items if r.get("do_not_contact")),
+            "repeat_entities": sum(1 for r in items if as_int(r.get("times_seen")) > 1),
         },
         "items": items,
     }
@@ -246,7 +310,7 @@ def main():
     print(
         f"OK relationships={result['summary']['total']} "
         f"people={result['summary']['people']} companies={result['summary']['companies']} "
-        f"review={result['summary']['review_recommended']} -> {path}"
+        f"review={result['summary']['review_recommended']} repeats={result['summary']['repeat_entities']} -> {path}"
     )
 
 
