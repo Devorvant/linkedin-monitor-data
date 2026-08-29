@@ -1,0 +1,52 @@
+name: Apply Feed v10 patch
+
+on:
+  push:
+    paths:
+      - .github/workflows/apply-feed-v10.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch worker
+        env:
+          GZ_DECODE: H4sIACMjk2oC/41VzU7bQBC+5ylG7gEbYjdBqgSItKoqqiJBT/TSgKLF3hCXZG2tHRF6glBEJVBbeq/UvgFQUigFeugL7L5RZ9dObJO2qqVkvfPzzczO7GePNsGjbuDRRivutBvr2zGNzJBstwPizYHelpVFm3DqNdwW4RGN5yCKOdTAMCywH6rNXAnwuQdPWjzoUFjy2Sb1FhksP1tZXgL5RpyIK9kXl/JADOSuuBKXIPflDopvUNgHbSbO4MXKU3umnIKJc9R/EwNA+1vxVW0hzUDZLi8uL9gIeCJ3FTQg1ADkHhqfiAuF7GgcvwksiGFYk5aph9O4yxnWUNKiFiUelpSa1edmqrPTa1rToTFpdEjstlDPqRNRwt2WOQJa5xNpVqvRZA1/dWN1Yu2RWX9svyT264o96zTstSlrojxyUcGyXbNNNqIaIi8mMquUxR3Wqw57WE6WUFZNzLezzR+8Mx9ngwfd0KxaTtJ40yCR6/tGGSjnAY9qhr/BAk4Na4RHey4NY1jQix+wYqSQRFGSsUuY53sEZwYj1pPTawYcKHPBZ2Aa3bhpzxjjA1UupFsGY8tnXrAV2dXpB1W0N9wQ36YNK4usMGtgqgUj4CQ6OIZ+aGZZ40kpLeakVqcdbFFuWnoYMJl6byRRKfaULMt/rVhipnBIGFLmqbhpm9ZpFDdi2sv1SIsiFw8RZc8DRkt3jyID/EcLk/7kpnLYMQTJusVp2Cbu/7fLDVjss26aU3ITNEKHslg1Lg3ruEGXxaax2m02m14OvhO88tfJpqot6nbMonkvd5ymIT6r5okv6v/XB/1/bFgZ1PCMChlMQrVSqcDUKFAp39Lc2fqRPlzV/0Qwn9MWiy50RK/j6rSHaT1Z0L+xmvgpbuVBQj1nSGqDlKI0hzkgPoI4Rd76IY/kW1yvFZ/dIg3uiWu0vUFHZLZrxWxyT/Zz4RSa7CM7DjRl9hFgV74HdDoXl5owD9D9ULljCmiNlsiT5/IYlaniFAnwO7oeArpcZJC3KrQykvugI+xi8B3MHnGcfA6fEviBBr/CKt4pqsX3a41oK4oFncw+omugo7EKlcEJ5C+zc+d6Di+hk46AaTTUmNj4ZanhfUoIo9jL3LA0OMEBvztA96FDemabsuFsWmWoWgUMDD4OMw8Vp1KpFqPlPhWFyUhl2eTgFN65piO6G7+qpd9VoIvGeQcAAA==
+          GZ_READ: H4sIACMjk2oC/5VV3U7UQBS+36c4Fi86ZmnvSdaNElQMoFHugGxm2ymdbLdtZmazbIyJYNALErnxNUyAiPLPK0zfyDPt/tJuInPRdub8ft/5MvVZAIJRvxWqbtRKRKtrPuyUqnAJ3uOTwOJzkEos1QAXD8CYHNkLAr7nREmfCZsAj+GT5eShVh3yL+tzEWFWn6uwiEtSFtuWaFsEqIQgnPiY1WVS0l0GDXg5UEy+p0Ji+jSJuDdoFC/HZwHtRYo4qbHaQUhq4xx4pCRGb+2MjwLG/NbU+diASIblHC5bXUzJjZtNZlsKEpGnNRBH/n0adR76jckRytllquUlsWKxaqlBypCgJw2wFNtTbk5ROdQsE8LjHquVrCkdRAn1EcE4//DI9pmX+KyxKXqMAPbatqxSeOFjwouvYtZtQ7Fd2ckweX2O8QFELzSTQOZMfcsqR5FaVQ7p0BTVMILgkzLuUYUo8ajiSYwI7FF521ourItrQ6s1bIA4KFee2qRqQII5Xaq8sBq4sEKlUrnkunZzqd/vb287pBnxuMN8HuPGS7quUZTbRPtWc2HHeUaaT6363HlOd1/tFUR0VzawrdXXG+8+rCy/+LhSwWC1YibiLnE5cmGRZLPBEzGN9PwYPT1KS3N1NF35v2REao+QzwLon/o6O4ZXyA+sv9lcX4PsWJ/pW30H+iw70qf6IvuiT/S5vgF9l+0bS2HXl6B/4+sq+6pv0H6bHYC+x7iHanOmy/3KDkzqC8x0hZV/ZN9Ncgxdy7WzGkMqmKHC5YGgXeai4zVW+IMVTrHGkT4H06YzfT1Npjs7QMFUT+BtRPfsiUsdOmzQiFhMZq64OFEwPwXOtkza26Qt3Y1E8YAXSCUCQw6QsDvEdZEdQrafHeT83eL2G27RclgcIM85qaf4+os83usTQy8ivISARlGbep0JyikolSiG9rLU8p9J/t8q9gQD/gEjBDUcywYAAA==
+          GZ_EXTRACT: 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
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import os,re,base64,gzip
+          p=Path('scripts/linkedin_worker_unified.py')
+          s=p.read_text(encoding='utf-8')
+          def repl(src,name,payload):
+              new=gzip.decompress(base64.b64decode(payload)).decode('utf-8')
+              a=src.index('def '+name+'(')
+              m=re.search(r'\ndef [A-Za-z_][A-Za-z0-9_]*\(', src[a+1:])
+              if not m:
+                  raise RuntimeError('next def not found for '+name)
+              b=a+1+m.start()+1
+              return src[:a]+new+src[b:]
+          s=repl(s,'decode_html_bytes',os.environ['GZ_DECODE'])
+          s=repl(s,'read_html_or_mhtml',os.environ['GZ_READ'])
+          s=repl(s,'extract_records',os.environ['GZ_EXTRACT'])
+          compile(s,str(p),'exec')
+          p.write_text(s,encoding='utf-8')
+          PY
+      - name: Commit patched worker
+        run: |
+          if git diff --quiet -- scripts/linkedin_worker_unified.py; then
+            echo 'Worker already patched'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/linkedin_worker_unified.py
+          git commit -m 'Update LinkedIn Feed parser to v10'
+          git push
