@@ -642,7 +642,6 @@ def read_html_or_mhtml(path: Path) -> str:
             message = BytesParser(policy=policy.default).parse(fh)
 
         parts = []
-        feed_parts = []
 
         if message.is_multipart():
             for part in message.walk():
@@ -654,35 +653,63 @@ def read_html_or_mhtml(path: Path) -> str:
                     payload,
                     part.get_content_charset() or "",
                 )
-                parts.append(decoded)
-
                 content_location = (part.get("Content-Location") or "").strip()
-                if re.match(
-                    r"https://(?:www\\.)?linkedin\\.com/feed/?(?:[?#].*)?$",
-                    content_location,
-                    flags=re.IGNORECASE,
-                ):
-                    feed_parts.append(decoded)
+                parts.append((content_location, decoded))
         else:
             payload = message.get_payload(decode=True) or b""
             decoded = decode_html_bytes(
                 payload,
                 message.get_content_charset() or "",
             )
-            parts.append(decoded)
-
-        # Для Feed MHTML явно выбираем основной документ по Content-Location.
-        # Это исключает LinkedIn preload/iframe/служебные HTML.
-        if feed_parts:
-            return max(feed_parts, key=len)
+            content_location = (message.get("Content-Location") or "").strip()
+            parts.append((content_location, decoded))
 
         if not parts:
             return ""
 
-        # Для Jobs/Notifications и прочих страниц сохраняем безопасный fallback.
-        return max(parts, key=len)
+        # Chrome MHTML LinkedIn содержит большой служебный документ
+        # /preload/?_bprMode=vanilla, который часто больше реальной страницы.
+        # Выбираем основной HTML по типу сохранённой страницы, а не по размеру.
+        low_name = path.name.lower()
+        expected_path = None
+        if "feed" in low_name:
+            expected_path = "/feed/"
+        elif "jobs" in low_name or "ваканс" in low_name:
+            expected_path = "/jobs/"
+        elif "notification" in low_name or "уведом" in low_name:
+            expected_path = "/notifications/"
+
+        if expected_path:
+            matched = []
+            for content_location, decoded in parts:
+                try:
+                    parsed = urlparse(content_location)
+                    host = (parsed.hostname or "").lower()
+                    page_path = parsed.path or ""
+                except Exception:
+                    host = ""
+                    page_path = ""
+
+                if host in {"linkedin.com", "www.linkedin.com"} and page_path == expected_path:
+                    matched.append(decoded)
+
+            if matched:
+                return max(matched, key=len)
+
+        # Безопасный fallback для неизвестных LinkedIn-страниц:
+        # исключаем preload и берём крупнейший оставшийся HTML.
+        non_preload = [
+            decoded
+            for content_location, decoded in parts
+            if "/preload/" not in content_location.lower()
+        ]
+        if non_preload:
+            return max(non_preload, key=len)
+
+        return max((decoded for _, decoded in parts), key=len)
 
     return decode_html_bytes(path.read_bytes())
+
 
 def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", value or "").strip()
