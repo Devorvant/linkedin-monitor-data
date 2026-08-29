@@ -1,0 +1,44 @@
+name: Build Feed Signals
+
+on:
+  push:
+    paths:
+      - feed_latest.json
+      - profile.json
+      - scripts/feed_signal_analyzer.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Analyze Feed
+        run: |
+          python scripts/feed_signal_analyzer.py \
+            --feed feed_latest.json \
+            --profile profile.json \
+            --output feed_signals_latest.json \
+            --provider none \
+            --llm-scope none
+      - name: Save daily history
+        run: |
+          mkdir -p history/feed_signals
+          cp feed_signals_latest.json "history/feed_signals/$(date -u +%F).json"
+      - name: Commit outputs
+        run: |
+          if git diff --quiet -- feed_signals_latest.json history/feed_signals; then
+            echo 'No signal changes'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add feed_signals_latest.json history/feed_signals
+          git commit -m "Update Feed signals $(date -u +%F)"
+          git push
