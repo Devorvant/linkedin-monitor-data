@@ -1,39 +1,52 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T20:24:39.578227+00:00",
+  "generated_at": "2026-08-29T20:59:43.667953+00:00",
   "status": "OK",
   "feed_signals": {
     "posts_analyzed": 19,
     "high_priority": 1,
-    "medium_priority": 4,
-    "low_priority": 14,
+    "medium_priority": 5,
+    "low_priority": 13,
     "signal_type_counts": {
-      "TECH_SIGNAL": 5,
-      "PROJECT_SIGNAL": 5,
+      "TECH_SIGNAL": 6,
+      "PROJECT_SIGNAL": 7,
       "PEOPLE_SIGNAL": 5,
       "NETWORK_SIGNAL": 6,
       "COMPANY_SIGNAL": 11,
-      "MARKET_SIGNAL": 5,
+      "MARKET_SIGNAL": 4,
       "OPPORTUNITY_SIGNAL": 3,
       "HIRING_SIGNAL": 2
     }
   },
   "action_queue": {
-    "items": 5,
+    "items": 6,
     "high": 1,
-    "medium": 4,
-    "pending_approval": 4,
+    "medium": 5,
+    "pending_approval": 2,
+    "research_needed": 3,
     "primary_action_counts": {
+      "engage_with_post": 3,
+      "research_contact": 3
+    },
+    "action_plan_counts": {
       "check_jobs": 1,
-      "connect_person": 4
+      "connect_person": 2,
+      "engage_with_post": 3,
+      "find_warm_path": 3,
+      "follow_company": 4,
+      "follow_person": 3,
+      "research_company": 2,
+      "research_contact": 3,
+      "review_technology": 3,
+      "save_for_content": 4
     }
   },
   "relationships": {
-    "total": 11,
+    "total": 12,
     "people": 8,
-    "companies": 3,
+    "companies": 4,
     "status_counts": {
-      "WATCH": 11,
+      "WATCH": 12,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -41,7 +54,7 @@
       "REPLIED": 0,
       "CLOSED": 0
     },
-    "review_recommended": 7,
+    "review_recommended": 1,
     "do_not_contact": 0
   },
   "llm_provider": "openai"

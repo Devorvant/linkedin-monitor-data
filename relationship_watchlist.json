@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-29T20:24:39.502878+00:00",
+  "generated_at": "2026-08-29T20:59:43.575683+00:00",
   "status_model": {
     "allowed": [
       "WATCH",
@@ -22,11 +22,11 @@
     "note": "Automation preserves manual fields. Outbound actions remain manual/approval-only."
   },
   "summary": {
-    "total": 11,
+    "total": 12,
     "people": 8,
-    "companies": 3,
+    "companies": 4,
     "status_counts": {
-      "WATCH": 11,
+      "WATCH": 12,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -34,7 +34,7 @@
       "REPLIED": 0,
       "CLOSED": 0
     },
-    "review_recommended": 7,
+    "review_recommended": 1,
     "do_not_contact": 0
   },
   "items": [
@@ -53,7 +53,7 @@
       "times_seen": 1,
       "score": 89,
       "latest_priority": "high",
-      "latest_confidence": 97,
+      "latest_confidence": 96,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -81,9 +81,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-08-29T20:24:39.502878+00:00"
+        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
       },
-      "updated_at": "2026-08-29T20:24:39.502878+00:00"
+      "updated_at": "2026-08-29T20:59:43.575683+00:00"
     },
     {
       "id": "company:mathworks",
@@ -100,7 +100,7 @@
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 95,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -128,9 +128,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:24:39.502878+00:00"
+        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
       },
-      "updated_at": "2026-08-29T20:24:39.502878+00:00"
+      "updated_at": "2026-08-29T20:59:43.575683+00:00"
     },
     {
       "id": "person:ajay talluri",
@@ -147,12 +147,12 @@
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 95,
       "priority_counts": {
         "high": 0,
         "medium": 0
       },
-      "suggested_action": "connect_person",
+      "suggested_action": "follow_person",
       "companies": [
         "MathWorks"
       ],
@@ -174,10 +174,10 @@
       ],
       "automation": {
         "last_observed_status": "WATCH",
-        "recommended_status": "REVIEW",
-        "last_processed_at": "2026-08-29T20:24:39.502878+00:00"
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
       },
-      "updated_at": "2026-08-29T20:24:39.502878+00:00"
+      "updated_at": "2026-08-29T20:59:43.575683+00:00"
     },
     {
       "id": "person:francis arokia swamy",
@@ -194,12 +194,12 @@
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 95,
       "priority_counts": {
         "high": 0,
         "medium": 0
       },
-      "suggested_action": "connect_person",
+      "suggested_action": "follow_person",
       "companies": [
         "MathWorks"
       ],
@@ -221,10 +221,10 @@
       ],
       "automation": {
         "last_observed_status": "WATCH",
-        "recommended_status": "REVIEW",
-        "last_processed_at": "2026-08-29T20:24:39.502878+00:00"
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
       },
-      "updated_at": "2026-08-29T20:24:39.502878+00:00"
+      "updated_at": "2026-08-29T20:59:43.575683+00:00"
     },
     {
       "id": "person:loy sabson fernandes",
@@ -241,12 +241,12 @@
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 95,
       "priority_counts": {
         "high": 0,
         "medium": 0
       },
-      "suggested_action": "connect_person",
+      "suggested_action": "follow_person",
       "companies": [
         "MathWorks"
       ],
@@ -268,10 +268,10 @@
       ],
       "automation": {
         "last_observed_status": "WATCH",
-        "recommended_status": "REVIEW",
-        "last_processed_at": "2026-08-29T20:24:39.502878+00:00"
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
       },
-      "updated_at": "2026-08-29T20:24:39.502878+00:00"
+      "updated_at": "2026-08-29T20:59:43.575683+00:00"
     },
     {
       "id": "person:naresh babu",
@@ -288,12 +288,12 @@
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 95,
       "priority_counts": {
         "high": 0,
         "medium": 0
       },
-      "suggested_action": "connect_person",
+      "suggested_action": "follow_person",
       "companies": [
         "MathWorks"
       ],
@@ -315,10 +315,10 @@
       ],
       "automation": {
         "last_observed_status": "WATCH",
-        "recommended_status": "REVIEW",
-        "last_processed_at": "2026-08-29T20:24:39.502878+00:00"
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
       },
-      "updated_at": "2026-08-29T20:24:39.502878+00:00"
+      "updated_at": "2026-08-29T20:59:43.575683+00:00"
     },
     {
       "id": "person:p chandhana",
@@ -335,12 +335,12 @@
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 95,
       "priority_counts": {
         "high": 0,
         "medium": 0
       },
-      "suggested_action": "connect_person",
+      "suggested_action": "follow_person",
       "companies": [
         "MathWorks"
       ],
@@ -362,10 +362,10 @@
       ],
       "automation": {
         "last_observed_status": "WATCH",
-        "recommended_status": "REVIEW",
-        "last_processed_at": "2026-08-29T20:24:39.502878+00:00"
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
       },
-      "updated_at": "2026-08-29T20:24:39.502878+00:00"
+      "updated_at": "2026-08-29T20:59:43.575683+00:00"
     },
     {
       "id": "person:uday kumar",
@@ -382,12 +382,12 @@
       "times_seen": 1,
       "score": 75,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 95,
       "priority_counts": {
         "high": 0,
         "medium": 0
       },
-      "suggested_action": "connect_person",
+      "suggested_action": "follow_person",
       "companies": [
         "MathWorks"
       ],
@@ -409,10 +409,10 @@
       ],
       "automation": {
         "last_observed_status": "WATCH",
-        "recommended_status": "REVIEW",
-        "last_processed_at": "2026-08-29T20:24:39.502878+00:00"
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
       },
-      "updated_at": "2026-08-29T20:24:39.502878+00:00"
+      "updated_at": "2026-08-29T20:59:43.575683+00:00"
     },
     {
       "id": "company:open ocean robotics",
@@ -429,7 +429,7 @@
       "times_seen": 1,
       "score": 71,
       "latest_priority": "medium",
-      "latest_confidence": 89,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -457,9 +457,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:24:39.502878+00:00"
+        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
       },
-      "updated_at": "2026-08-29T20:24:39.502878+00:00"
+      "updated_at": "2026-08-29T20:59:43.575683+00:00"
     },
     {
       "id": "person:alex rueben",
@@ -476,7 +476,7 @@
       "times_seen": 1,
       "score": 71,
       "latest_priority": "medium",
-      "latest_confidence": 89,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 0
@@ -506,9 +506,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:24:39.502878+00:00"
+        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
       },
-      "updated_at": "2026-08-29T20:24:39.502878+00:00"
+      "updated_at": "2026-08-29T20:59:43.575683+00:00"
     },
     {
       "id": "company:rocket lab",
@@ -553,9 +553,55 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-08-29T20:24:39.502878+00:00"
+        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
       },
-      "updated_at": "2026-08-29T20:24:39.502878+00:00"
+      "updated_at": "2026-08-29T20:59:43.575683+00:00"
+    },
+    {
+      "id": "company:lockheed martin",
+      "kind": "company",
+      "name": "Lockheed Martin",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "first_seen": "2026-08-29T20:59:43.575683+00:00",
+      "last_seen": "2026-08-29T20:59:43.575683+00:00",
+      "times_seen": 1,
+      "score": 60,
+      "latest_priority": "medium",
+      "latest_confidence": 96,
+      "priority_counts": {
+        "high": 0,
+        "medium": 1
+      },
+      "suggested_action": "follow_company",
+      "companies": [
+        "Lockheed Martin"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_bb16ecf7ba7fd200"
+      ],
+      "reasons": [
+        "The post confirms Lockheed Martin Space's aerospace and defense context, which is adjacent to the profile's flight-control, UAV, simulation and autonomous-systems background. However, it describes a completed software engineering internship and contains no relevant technical details or hiring information."
+      ],
+      "latest_source_url": "https://www.linkedin.com/company/lockheed-martin/posts/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-08-29T20:59:43.575683+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-08-29T20:59:43.575683+00:00"
+      },
+      "updated_at": "2026-08-29T20:59:43.575683+00:00"
     }
   ]
 }

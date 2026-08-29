@@ -1,18 +1,18 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-29T20:23:31.470322+00:00",
+  "generated_at": "2026-08-29T20:58:35.465734+00:00",
   "summary": {
     "posts_analyzed": 19,
     "high_priority": 1,
-    "medium_priority": 4,
-    "low_priority": 14,
+    "medium_priority": 5,
+    "low_priority": 13,
     "signal_type_counts": {
-      "TECH_SIGNAL": 5,
-      "PROJECT_SIGNAL": 5,
+      "TECH_SIGNAL": 6,
+      "PROJECT_SIGNAL": 7,
       "PEOPLE_SIGNAL": 5,
       "NETWORK_SIGNAL": 6,
       "COMPANY_SIGNAL": 11,
-      "MARKET_SIGNAL": 5,
+      "MARKET_SIGNAL": 4,
       "OPPORTUNITY_SIGNAL": 3,
       "HIRING_SIGNAL": 2
     }
@@ -41,6 +41,7 @@
       "domains": [
         "robotics",
         "drones",
+        "UAV/UAS",
         "simulation",
         "autonomy",
         "machine learning"
@@ -59,10 +60,10 @@
         "intent": "none",
         "roles": []
       },
-      "career_relevance": 92,
-      "technical_relevance": 100,
-      "networking_relevance": 68,
-      "content_relevance": 88,
+      "career_relevance": 88,
+      "technical_relevance": 99,
+      "networking_relevance": 58,
+      "content_relevance": 78,
       "profile_matches": [
         "UAV/UAS",
         "autonomy",
@@ -71,11 +72,12 @@
         "simulation"
       ],
       "priority": "high",
-      "why_relevant": "The post describes RotorPy, a Python-based multirotor simulator with aerodynamic modeling and a Gymnasium interface, integrated into PX4 main with SITL support. This closely matches the profile's experience in UAV flight dynamics, simulation, autopilot development, autonomy, Python, and machine-learning workflows. The author is a concrete technical contact connected to a relevant PX4/RotorPy contribution, although no formal role or organizational affiliation is stated.",
+      "why_relevant": "The post describes RotorPy, a Python-based multirotor simulator with aerodynamic modeling and a Gymnasium interface, integrated into PX4 main with SITL support and documentation. This directly overlaps with the profile's UAV, flight dynamics, simulation, autonomy, Python and control-systems interests. The author is a confirmed contributor to this technically relevant integration, providing a concrete networking target, but the post contains no hiring signal.",
       "recommended_actions": [
         "review_technology",
-        "engage_with_post",
         "save_for_content",
+        "engage_with_post",
+        "follow_person",
         "connect_person"
       ],
       "links": [
@@ -116,18 +118,18 @@
       },
       "roles": [],
       "projects": [
-        "RotorPy support merged into PX4",
+        "RotorPy support merged into PX4 main",
         "PX4 PR #27116"
       ],
       "relationship_targets": [
         {
           "target_role": "PX4/RotorPy contributor",
-          "reason": "The author contributed RotorPy support that was merged into PX4, making them a relevant person to follow or connect with for UAV simulation, SITL, and autonomy topics.",
+          "reason": "The author contributed a merged RotorPy support PR to PX4 and is relevant to UAV simulation, autonomy and robotics engineering interests.",
           "priority": "high"
         }
       ],
-      "content_angle": "Inference: Share an original expert perspective on how aerodynamic multirotor simulation and SITL can support control-law validation, autonomy research, and the transition from simulation to flight testing, drawing on the profile's flight-dynamics and autopilot experience.",
-      "confidence": 97
+      "content_angle": "Inference: Develop an original expert perspective on how lightweight aerodynamic simulation, Gymnasium interfaces and PX4 SITL can support control-law research, autonomy experimentation and sim-to-real validation, including practical limitations and validation considerations.",
+      "confidence": 96
     },
     {
       "signal_id": "sig_efacd14ea7014dbc",
@@ -152,8 +154,7 @@
       "domains": [
         "marine",
         "defence",
-        "marine innovation",
-        "autonomous systems"
+        "marine innovation"
       ],
       "technologies": [
         "FEA/CAE",
@@ -161,24 +162,25 @@
       ],
       "hiring": {
         "detected": false,
-        "intent": "weak",
+        "intent": "none",
         "roles": []
       },
       "career_relevance": 64,
-      "technical_relevance": 30,
-      "networking_relevance": 78,
-      "content_relevance": 48,
+      "technical_relevance": 38,
+      "networking_relevance": 82,
+      "content_relevance": 60,
       "profile_matches": [
         "marine",
         "navigation"
       ],
       "priority": "medium",
-      "why_relevant": "The post concerns British Columbia's marine and defence sectors, innovation, and opportunities supported through collaboration among industry, government, and academia. This aligns with the profile's interest in marine autonomy, autonomous vessels, robotics, and control systems. The post does not identify a specific vacancy or hiring process.",
+      "why_relevant": "The post concerns marine and defence-sector innovation in British Columbia, which aligns with the profile's stated interest in marine autonomy, autonomous vessels, navigation, control systems and robotics. It identifies a concrete industry leader, but provides no specific engineering role or vacancy.",
       "recommended_actions": [
         "follow_company",
         "follow_person",
         "connect_person",
-        "engage_with_post"
+        "engage_with_post",
+        "save_for_content"
       ],
       "links": [
         {
@@ -229,101 +231,13 @@
       "projects": [],
       "relationship_targets": [
         {
-          "target_role": "CEO of the Association of British Columbia Defence and Marine Industries (ABCDMI)",
-          "reason": "Alex Rueben is a confirmed leader of an organization representing businesses across British Columbia's marine and defence sectors, making him a relevant ecosystem contact for marine autonomy and control-system opportunities.",
+          "target_role": "CEO of ABCDMI",
+          "reason": "Alex Rueben is a named leader representing businesses across British Columbia's marine and defence sectors and connecting industry, government and academia; this is relevant to the profile's marine autonomy and autonomous systems interests.",
           "priority": "high"
         }
       ],
-      "content_angle": "Inference: Share an original perspective on how guidance, navigation, stabilization, autonomy, and control-system engineering can support innovation in marine and defence platforms.",
-      "confidence": 89
-    },
-    {
-      "signal_id": "sig_c47a61c7a61b5181",
-      "source_post_id": null,
-      "author": null,
-      "author_type": null,
-      "company": null,
-      "people": [],
-      "signal_types": [
-        "PROJECT_SIGNAL",
-        "TECH_SIGNAL",
-        "OPPORTUNITY_SIGNAL",
-        "NETWORK_SIGNAL",
-        "MARKET_SIGNAL"
-      ],
-      "domains": [
-        "aerial firefighting",
-        "aviation",
-        "wildfire suppression",
-        "autonomous systems",
-        "aviation safety"
-      ],
-      "technologies": [
-        "automatic navigation systems",
-        "high-altitude structured water release",
-        "phased targeted agent distribution",
-        "drop physics optimization"
-      ],
-      "hiring": {
-        "detected": false,
-        "intent": "none",
-        "roles": []
-      },
-      "career_relevance": 68,
-      "technical_relevance": 78,
-      "networking_relevance": 48,
-      "content_relevance": 76,
-      "profile_matches": [
-        "aerospace",
-        "navigation"
-      ],
-      "priority": "medium",
-      "why_relevant": "Inference: The post's automatic navigation, aviation safety, flight-operation, and drop-physics focus overlaps with the profile's flight control, flight dynamics, simulation, autopilot, and autonomous-systems expertise. The author is seeking strategic R&D partners, grant co-applicants, and venture investors rather than advertising employment.",
-      "recommended_actions": [
-        "engage_with_post",
-        "save_for_content",
-        "review_technology",
-        "connect_person"
-      ],
-      "links": [],
-      "posted_time": "1 нед.",
-      "reactions": null,
-      "comments": null,
-      "hashtags": [
-        "#WildfireSuppression",
-        "#AerialFirefighting",
-        "#CanadaWildfires",
-        "#USFirefighting",
-        "#AviationSafety"
-      ],
-      "source_text": "Traditional aerial firefighting is broken. Here is how I propose to fix it. Dropping water from ultra-low altitudes endangers flight crews and frequently loses efficiency due to fluid evaporation before reaching the fire perimeter. I have developed a method for high-altitude structured water release from 150 meters, integrated with automatic navigation systems. Key Technical Advantages: 📍 High Precision: Phased, targeted agent distribution along active fire edges — even at night and under light smoke conditions. 🛡 Crew Safety: Flight operations occur at a safe altitude, well above extreme thermal updrafts and hazardous terrain. 🌲 Maximum Efficiency: Optimized drop physics maximize fluid volume reaching the ground. Physics works the same everywhere, making this technology universally applicable. Given the urgency of the global fire crisis, I am currently preparing this solution for deployment in North America (Canada & US) with a vision for global implementation. I'm looking for strategic R&D partners, grant co-applicants, and venture investors to help scale development. I also have a portfolio of over ten engineering solutions focused on enhancing fire suppression in wildland and complex urban environments. 📄 Full technical layout and details are in the attached document below. How is your region adapting aerial tactics for this year’s fire season? Let's discuss in the comments. #WildfireSuppression #AerialFirefighting #CanadaWildfires #USFirefighting #AviationSafety",
-      "source_url": "",
-      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "roles": [
-        "strategic R&D partner",
-        "grant co-applicant",
-        "venture investor"
-      ],
-      "projects": [
-        "High-altitude aerial wildfire suppression solution",
-        "Portfolio of engineering solutions for wildland and complex urban fire suppression"
-      ],
-      "relationship_targets": [
-        {
-          "target_role": "author of the aerial firefighting solution",
-          "reason": "The author is developing an aviation and automatic-navigation solution, is preparing it for North American deployment, and is explicitly seeking strategic R&D partners.",
-          "priority": "medium"
-        }
-      ],
-      "content_angle": "Offer an original perspective on validating high-altitude aerial suppression through flight-dynamics modeling, release-trajectory simulation, navigation accuracy, thermal-updraft modeling, and hardware-in-the-loop or flight-test safety analysis.",
-      "confidence": 86
+      "content_angle": "Inference: Offer an original perspective on how guidance, navigation, stabilization, autonomy and control-system expertise can support innovation in marine and defence platforms, without implying that the post advertises a role.",
+      "confidence": 91
     },
     {
       "signal_id": "sig_2b5d34d34e5e66cd",
@@ -371,6 +285,7 @@
       ],
       "signal_types": [
         "TECH_SIGNAL",
+        "PROJECT_SIGNAL",
         "COMPANY_SIGNAL",
         "PEOPLE_SIGNAL",
         "NETWORK_SIGNAL"
@@ -383,7 +298,7 @@
       "technologies": [
         "MATLAB",
         "Simulink",
-        "MathWorks Campus-Wide License",
+        "MATLAB Campus-Wide License",
         "MATLAB Academic Online Training"
       ],
       "hiring": {
@@ -391,21 +306,21 @@
         "intent": "none",
         "roles": []
       },
-      "career_relevance": 42,
-      "technical_relevance": 58,
-      "networking_relevance": 70,
-      "content_relevance": 44,
+      "career_relevance": 48,
+      "technical_relevance": 78,
+      "networking_relevance": 62,
+      "content_relevance": 56,
       "profile_matches": [
         "MATLAB/Simulink",
         "navigation"
       ],
       "priority": "medium",
-      "why_relevant": "The post is from MathWorks and focuses on MATLAB and Simulink education, tools directly aligned with the profile's flight dynamics, control-system, autopilot, and simulation expertise. It also names MathWorks and ARKANCE participants, creating potential but role-unspecified networking targets. No hiring or vacancy is indicated.",
+      "why_relevant": "The post is directly relevant to the profile's MATLAB/Simulink and engineering-simulation background. It describes MathWorks-supported technical education, demonstrations, training resources, and engineering applications, but provides no hiring or project opportunity. Named MathWorks and ARKANCE participants may be relevant professional contacts in the technical education ecosystem.",
       "recommended_actions": [
         "follow_company",
         "follow_person",
-        "connect_person",
         "engage_with_post",
+        "review_technology",
         "save_for_content"
       ],
       "links": [
@@ -491,24 +406,119 @@
         "model": "gpt-5.6-luna",
         "error": null
       },
-      "roles": [],
+      "roles": [
+        "Education Team",
+        "engineering students",
+        "faculty members"
+      ],
       "projects": [
-        "MATLAB DAY at Anurag University"
+        "MATLAB DAY at Anurag University",
+        "full-day technical program"
       ],
       "relationship_targets": [
         {
-          "target_role": "MathWorks representative mentioned in the post",
-          "reason": "Ajay Talluri and Loy Sabson Fernandes are explicitly identified as being from MathWorks and provided support and guidance for the MATLAB and Simulink program.",
+          "target_role": "MathWorks representatives involved in MATLAB/Simulink education",
+          "reason": "The post identifies Ajay Talluri and Loy Sabson Fernandes as MathWorks supporters of the program; their work may provide relevant technical and professional context.",
           "priority": "medium"
         },
         {
-          "target_role": "ARKANCE Education Team member mentioned in the post",
-          "reason": "P Chandhana, uday Kumar, Naresh Babu, and Francis Arokia Swamy are explicitly credited with delivering a MATLAB and Simulink technical education program.",
+          "target_role": "ARKANCE Education Team members involved in MATLAB/Simulink programs",
+          "reason": "The post credits P Chandhana, uday Kumar, Naresh Babu, and Francis Arokia Swamy with planning and delivering the technical program.",
+          "priority": "medium"
+        }
+      ],
+      "content_angle": "Share an original perspective on how MATLAB/Simulink education can connect model-based design, flight dynamics, control-system development, and simulation practice for engineering students.",
+      "confidence": 95
+    },
+    {
+      "signal_id": "sig_c47a61c7a61b5181",
+      "source_post_id": null,
+      "author": null,
+      "author_type": null,
+      "company": null,
+      "people": [],
+      "signal_types": [
+        "PROJECT_SIGNAL",
+        "TECH_SIGNAL",
+        "OPPORTUNITY_SIGNAL",
+        "NETWORK_SIGNAL"
+      ],
+      "domains": [
+        "aerial firefighting",
+        "wildfire suppression",
+        "aviation safety",
+        "autonomous aviation"
+      ],
+      "technologies": [
+        "automatic navigation systems",
+        "high-altitude structured water release",
+        "phased targeted agent distribution",
+        "drop-physics optimization"
+      ],
+      "hiring": {
+        "detected": false,
+        "intent": "none",
+        "roles": []
+      },
+      "career_relevance": 61,
+      "technical_relevance": 67,
+      "networking_relevance": 31,
+      "content_relevance": 62,
+      "profile_matches": [
+        "aerospace",
+        "navigation"
+      ],
+      "priority": "medium",
+      "why_relevant": "The post describes an aviation-based fire-suppression project using automatic navigation, altitude-aware operations, precision distribution and drop-physics optimization. These topics overlap with the profile's flight control, navigation, flight dynamics, simulation and autonomous-systems expertise. The author is seeking strategic R&D partners, grant co-applicants and venture investors, but no employment opportunity is stated.",
+      "recommended_actions": [
+        "engage_with_post",
+        "review_technology",
+        "save_for_content"
+      ],
+      "links": [],
+      "posted_time": "1 нед.",
+      "reactions": null,
+      "comments": null,
+      "hashtags": [
+        "#WildfireSuppression",
+        "#AerialFirefighting",
+        "#CanadaWildfires",
+        "#USFirefighting",
+        "#AviationSafety"
+      ],
+      "source_text": "Traditional aerial firefighting is broken. Here is how I propose to fix it. Dropping water from ultra-low altitudes endangers flight crews and frequently loses efficiency due to fluid evaporation before reaching the fire perimeter. I have developed a method for high-altitude structured water release from 150 meters, integrated with automatic navigation systems. Key Technical Advantages: 📍 High Precision: Phased, targeted agent distribution along active fire edges — even at night and under light smoke conditions. 🛡 Crew Safety: Flight operations occur at a safe altitude, well above extreme thermal updrafts and hazardous terrain. 🌲 Maximum Efficiency: Optimized drop physics maximize fluid volume reaching the ground. Physics works the same everywhere, making this technology universally applicable. Given the urgency of the global fire crisis, I am currently preparing this solution for deployment in North America (Canada & US) with a vision for global implementation. I'm looking for strategic R&D partners, grant co-applicants, and venture investors to help scale development. I also have a portfolio of over ten engineering solutions focused on enhancing fire suppression in wildland and complex urban environments. 📄 Full technical layout and details are in the attached document below. How is your region adapting aerial tactics for this year’s fire season? Let's discuss in the comments. #WildfireSuppression #AerialFirefighting #CanadaWildfires #USFirefighting #AviationSafety",
+      "source_url": "",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "roles": [
+        "strategic R&D partner",
+        "grant co-applicant",
+        "venture investor"
+      ],
+      "projects": [
+        "high-altitude aerial fire-suppression system for deployment in Canada and the US",
+        "portfolio of more than ten engineering solutions for wildland and complex urban fire suppression"
+      ],
+      "relationship_targets": [
+        {
+          "target_role": "strategic R&D partner in aerial firefighting or autonomous aviation",
+          "reason": "The author explicitly seeks strategic R&D partners for the described fire-suppression technology; a relevant technical collaboration is an inference based on the post and profile overlap.",
+          "priority": "medium"
+        },
+        {
+          "target_role": "technical lead in aerial firefighting navigation and control",
+          "reason": "The project involves automatic navigation and aviation safety, which may justify identifying relevant technical leads; this is an inferred networking target, not a person identified in the post.",
           "priority": "low"
         }
       ],
-      "content_angle": "Share an original practitioner perspective on how MATLAB and Simulink support flight-dynamics modeling, control-law development, autopilot simulation, and hands-on engineering education.",
-      "confidence": 93
+      "content_angle": "Offer an original technical perspective on how altitude, wind, thermal updrafts, release timing, vehicle dynamics and closed-loop navigation could be evaluated in simulation and flight testing for aerial fire-suppression missions.",
+      "confidence": 86
     },
     {
       "signal_id": "sig_5ed8f10e7c5bfe5f",
@@ -520,13 +530,14 @@
       "signal_types": [
         "HIRING_SIGNAL",
         "COMPANY_SIGNAL",
-        "OPPORTUNITY_SIGNAL"
+        "OPPORTUNITY_SIGNAL",
+        "MARKET_SIGNAL"
       ],
       "domains": [
-        "space industry",
+        "space",
         "national security",
-        "deep space exploration",
         "defense",
+        "deep space exploration",
         "manufacturing",
         "supply chain"
       ],
@@ -535,19 +546,19 @@
         "detected": true,
         "intent": "explicit",
         "roles": [
-          "Manufacturing Technician",
-          "Supply Chain Specialist"
+          "Manufacturing Technicians",
+          "Supply Chain Specialists"
         ]
       },
-      "career_relevance": 45,
-      "technical_relevance": 18,
-      "networking_relevance": 42,
-      "content_relevance": 22,
+      "career_relevance": 44,
+      "technical_relevance": 22,
+      "networking_relevance": 58,
+      "content_relevance": 27,
       "profile_matches": [
         "space"
       ],
       "priority": "medium",
-      "why_relevant": "Rocket Lab explicitly invites Manufacturing Technicians and Supply Chain Specialists to a career-focused networking event and describes work involving space programs, real hardware, missions, national security, deep space exploration and defense. The opportunity is adjacent to the profile's aerospace and autonomous-systems background, but the named roles do not directly match flight controls, GNC, simulation or UAV engineering.",
+      "why_relevant": "Rocket Lab explicitly invites Manufacturing Technicians and Supply Chain Specialists to apply for a networking evening connected to space-industry programs, real hardware, missions, national security, deep space exploration and defense capability. The aerospace and space focus is relevant to the profile, but the named roles are not directly aligned with flight controls, GNC, simulation or autonomous systems.",
       "recommended_actions": [
         "check_jobs",
         "follow_company"
@@ -581,103 +592,84 @@
         "error": null
       },
       "roles": [
-        "Manufacturing Technician",
-        "Supply Chain Specialist"
+        "Manufacturing Technicians",
+        "Supply Chain Specialists"
       ],
-      "projects": [
-        "ambitious space-industry programs",
-        "real hardware and real missions",
-        "deep space exploration",
-        "defense capability"
-      ],
+      "projects": [],
       "relationship_targets": [
         {
-          "target_role": "Rocket Lab technical lead in flight systems, guidance, navigation and control, or autonomy",
-          "reason": "Inference: Rocket Lab's stated work on space programs, hardware, missions and defense may justify identifying technical leaders whose domains could align more closely with the profile than the advertised manufacturing and supply-chain roles.",
+          "target_role": "Rocket Lab technical leads in space hardware programs",
+          "reason": "The event is intended to connect attendees with people behind Rocket Lab's programs, although no specific individuals are named in the post.",
           "priority": "medium"
         }
       ],
-      "content_angle": null,
+      "content_angle": "Discuss how robust flight-control, simulation and multidisciplinary engineering practices support reliable real-hardware missions, without presenting the post's generic career claims as personal experience.",
       "confidence": 91
     },
     {
-      "signal_id": "sig_1d178dd344b84665",
+      "signal_id": "sig_bb16ecf7ba7fd200",
       "source_post_id": null,
-      "author": "Relativity Space",
+      "author": "Lockheed Martin",
       "author_type": "company",
-      "company": "Relativity Space",
-      "people": [
-        {
-          "name": "Cinco Murchison",
-          "role": "Additive Development intern",
-          "relation": "mentioned",
-          "confidence": "confirmed"
-        }
-      ],
+      "company": "Lockheed Martin",
+      "people": [],
       "signal_types": [
         "COMPANY_SIGNAL",
-        "PEOPLE_SIGNAL",
         "TECH_SIGNAL"
       ],
       "domains": [
-        "space",
-        "aerospace manufacturing"
+        "aerospace",
+        "defense",
+        "space"
       ],
       "technologies": [
-        "additive manufacturing"
+        "simulation"
       ],
       "hiring": {
         "detected": false,
         "intent": "none",
         "roles": []
       },
-      "career_relevance": 32,
-      "technical_relevance": 24,
+      "career_relevance": 48,
+      "technical_relevance": 32,
       "networking_relevance": 18,
-      "content_relevance": 54,
+      "content_relevance": 15,
       "profile_matches": [
+        "aerospace",
         "simulation",
         "space"
       ],
-      "priority": "low",
-      "why_relevant": "Relativity Space operates in the aerospace and space sector, which is adjacent to the profile's UAV, eVTOL and autonomous-systems focus. The post discusses additive manufacturing, intern contributions and balancing technical work with team leadership, offering a modest leadership and engineering-culture connection. It does not identify a relevant vacancy or a clearly relevant technical contact.",
+      "priority": "medium",
+      "why_relevant": "The post confirms Lockheed Martin Space's aerospace and defense context, which is adjacent to the profile's flight-control, UAV, simulation and autonomous-systems background. However, it describes a completed software engineering internship and contains no relevant technical details or hiring information.",
       "recommended_actions": [
-        "follow_company",
-        "engage_with_post",
-        "save_for_content"
+        "follow_company"
       ],
       "links": [
         {
-          "url": "https://www.linkedin.com/company/relativity/posts/",
+          "url": "https://www.linkedin.com/company/lockheed-martin/posts/",
           "link_type": "post",
           "relation": "source",
           "priority": "high"
         },
         {
-          "url": "https://www.linkedin.com/company/relativity/posts/",
+          "url": "https://www.linkedin.com/company/lockheed-martin/posts/",
           "link_type": "company",
           "relation": "author",
           "priority": "high"
         },
         {
-          "url": "https://www.linkedin.com/company/relativity/",
+          "url": "https://www.linkedin.com/company/lockheed-martin/",
           "link_type": "company",
-          "relation": "mentioned",
-          "priority": "medium"
-        },
-        {
-          "url": "https://www.linkedin.com/in/cinco-murchison/",
-          "link_type": "person",
           "relation": "mentioned",
           "priority": "medium"
         }
       ],
       "posted_time": "4 дн.",
-      "reactions": 107,
+      "reactions": 212,
       "comments": null,
       "hashtags": [],
-      "source_text": "Last week in true Relativity Space fashion we said Good Luck, Have Fun to our Additive Development interns as they head back to school. This was my first time as a formal intern manager, and I was incredibly impressed with how big of an impact our interns made in such a short time. I learned a lot about the balance of leadership and technical work, making sure that we are achieving our milestones while building a team that works well together and plays to the strengths of each individual. Cinco Murchison I really enjoyed working with you this summer, thank you for your eagerness to learn and the lasting contributions you have made to our manufacturing processes. It always feels like our interns leave us before we are ready, and we hope this is not goodbye but see you later. Whether that’s here at Relativity next year or our paths crossing further down the road, we are proud of you and are cheering you on from the sidelines in all of your academic and professional endeavors!",
-      "source_url": "https://www.linkedin.com/company/relativity/posts/",
+      "source_text": "I’m grateful to have completed my Summer 2026 internship with Lockheed Martin Space in Huntsville, Alabama, as a Software Engineer Intern! This experience provided me with valuable exposure to software engineering within the aerospace and defense industry while allowing me to grow both technically and professionally. I’m incredibly thankful for everyone who supported and mentored me throughout my time at Lockheed Martin . I look forward to carrying the knowledge and experience I gained into the next steps of my journey in computer science and software engineering.",
+      "source_url": "https://www.linkedin.com/company/lockheed-martin/posts/",
       "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
       "analysis_engine": "rules+openai",
       "llm": {
@@ -687,16 +679,12 @@
         "error": null
       },
       "roles": [
-        "formal intern manager",
-        "Additive Development intern"
+        "Software Engineer Intern"
       ],
-      "projects": [
-        "Additive Development",
-        "manufacturing processes"
-      ],
+      "projects": [],
       "relationship_targets": [],
-      "content_angle": "Share an original perspective on balancing hands-on technical leadership with mentorship, milestone delivery and multidisciplinary team development in aerospace R&D.",
-      "confidence": 91
+      "content_angle": null,
+      "confidence": 96
     },
     {
       "signal_id": "sig_2549b9ec9b7c293f",
@@ -902,6 +890,109 @@
         "model": null,
         "error": null
       }
+    },
+    {
+      "signal_id": "sig_1d178dd344b84665",
+      "source_post_id": null,
+      "author": "Relativity Space",
+      "author_type": "company",
+      "company": "Relativity Space",
+      "people": [
+        {
+          "name": "Cinco Murchison",
+          "role": "Additive Development intern",
+          "relation": "mentioned",
+          "confidence": "confirmed"
+        }
+      ],
+      "signal_types": [
+        "COMPANY_SIGNAL",
+        "PEOPLE_SIGNAL",
+        "PROJECT_SIGNAL",
+        "TECH_SIGNAL"
+      ],
+      "domains": [
+        "additive development",
+        "manufacturing"
+      ],
+      "technologies": [
+        "simulation"
+      ],
+      "hiring": {
+        "detected": false,
+        "intent": "none",
+        "roles": []
+      },
+      "career_relevance": 35,
+      "technical_relevance": 28,
+      "networking_relevance": 24,
+      "content_relevance": 45,
+      "profile_matches": [
+        "simulation",
+        "space"
+      ],
+      "priority": "low",
+      "why_relevant": "The post highlights additive development, manufacturing-process contributions, and the balance between technical work, milestone delivery, and team leadership. This is adjacent to the profile's aerospace and multidisciplinary engineering background, but it does not mention flight controls, autonomy, UAVs, or an opportunity.",
+      "recommended_actions": [
+        "follow_company",
+        "engage_with_post"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/company/relativity/posts/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/relativity/posts/",
+          "link_type": "company",
+          "relation": "author",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/company/relativity/",
+          "link_type": "company",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/in/cinco-murchison/",
+          "link_type": "person",
+          "relation": "mentioned",
+          "priority": "medium"
+        }
+      ],
+      "posted_time": "4 дн.",
+      "reactions": 107,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "Last week in true Relativity Space fashion we said Good Luck, Have Fun to our Additive Development interns as they head back to school. This was my first time as a formal intern manager, and I was incredibly impressed with how big of an impact our interns made in such a short time. I learned a lot about the balance of leadership and technical work, making sure that we are achieving our milestones while building a team that works well together and plays to the strengths of each individual. Cinco Murchison I really enjoyed working with you this summer, thank you for your eagerness to learn and the lasting contributions you have made to our manufacturing processes. It always feels like our interns leave us before we are ready, and we hope this is not goodbye but see you later. Whether that’s here at Relativity next year or our paths crossing further down the road, we are proud of you and are cheering you on from the sidelines in all of your academic and professional endeavors!",
+      "source_url": "https://www.linkedin.com/company/relativity/posts/",
+      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "roles": [
+        "Additive Development intern"
+      ],
+      "projects": [
+        "Additive Development internship work",
+        "manufacturing process contributions"
+      ],
+      "relationship_targets": [
+        {
+          "target_role": "Engineering or technical leader at Relativity Space",
+          "reason": "The post describes balancing technical responsibilities, milestones, and team development; such leadership themes are adjacent to the profile's multidisciplinary engineering experience.",
+          "priority": "low"
+        }
+      ],
+      "content_angle": "Share an original perspective on balancing technical milestone delivery with team development, individual strengths, and effective engineering leadership.",
+      "confidence": 88
     },
     {
       "signal_id": "sig_8daa332d8e74f710",
@@ -1265,86 +1356,6 @@
         "model": null,
         "error": null
       }
-    },
-    {
-      "signal_id": "sig_bb16ecf7ba7fd200",
-      "source_post_id": null,
-      "author": "Lockheed Martin",
-      "author_type": "company",
-      "company": "Lockheed Martin",
-      "people": [],
-      "signal_types": [
-        "COMPANY_SIGNAL",
-        "MARKET_SIGNAL"
-      ],
-      "domains": [
-        "aerospace",
-        "defense",
-        "space"
-      ],
-      "technologies": [
-        "simulation"
-      ],
-      "hiring": {
-        "detected": false,
-        "intent": "none",
-        "roles": []
-      },
-      "career_relevance": 32,
-      "technical_relevance": 24,
-      "networking_relevance": 10,
-      "content_relevance": 18,
-      "profile_matches": [
-        "aerospace",
-        "simulation",
-        "space"
-      ],
-      "priority": "low",
-      "why_relevant": "The post identifies Lockheed Martin Space and software engineering work in the aerospace and defense industry, which is adjacent to the profile's aerospace engineering background. However, it describes a completed internship and provides no senior controls, GNC, UAV, autonomy, or simulation role and no hiring information.",
-      "recommended_actions": [
-        "follow_company"
-      ],
-      "links": [
-        {
-          "url": "https://www.linkedin.com/company/lockheed-martin/posts/",
-          "link_type": "post",
-          "relation": "source",
-          "priority": "high"
-        },
-        {
-          "url": "https://www.linkedin.com/company/lockheed-martin/posts/",
-          "link_type": "company",
-          "relation": "author",
-          "priority": "high"
-        },
-        {
-          "url": "https://www.linkedin.com/company/lockheed-martin/",
-          "link_type": "company",
-          "relation": "mentioned",
-          "priority": "medium"
-        }
-      ],
-      "posted_time": "4 дн.",
-      "reactions": 212,
-      "comments": null,
-      "hashtags": [],
-      "source_text": "I’m grateful to have completed my Summer 2026 internship with Lockheed Martin Space in Huntsville, Alabama, as a Software Engineer Intern! This experience provided me with valuable exposure to software engineering within the aerospace and defense industry while allowing me to grow both technically and professionally. I’m incredibly thankful for everyone who supported and mentored me throughout my time at Lockheed Martin . I look forward to carrying the knowledge and experience I gained into the next steps of my journey in computer science and software engineering.",
-      "source_url": "https://www.linkedin.com/company/lockheed-martin/posts/",
-      "source_file": "linkedin_feed_2026-08-29_21-52-37.mhtml",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "roles": [
-        "Software Engineer Intern"
-      ],
-      "projects": [],
-      "relationship_targets": [],
-      "content_angle": null,
-      "confidence": 95
     },
     {
       "signal_id": "sig_4684fddef4e5267e",
