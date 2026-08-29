@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "source": {
+    "filename": "linkedin_combined_report_2026-08-29_21-35-44.xlsx",
+    "full_path": "C:\\Users\\kusc\\AppData\\Local\\Programs\\Python\\Python311\\linkedin_desktop_automation\\reports\\linkedin_combined_report_2026-08-29_21-35-44.xlsx",
+    "modified_at": "2026-08-29T21:35:44",
+    "converted_at": "2026-08-29T21:35:44"
+  },
+  "sheet_order": [
+    "Summary",
+    "Feed",
+    "Jobs",
+    "Notifications"
+  ],
+  "sheets": {
+    "Summary": {
+      "title": "Summary",
+      "max_row": 4,
+      "max_column": 4,
+      "columns": [
+        "section",
+        "records",
+        "source_report",
+        "status"
+      ],
+      "records": [
+        {
+          "section": "Feed",
+          "records": 0,
+          "source_report": "linkedin_feed_report_2026-08-29_21-33-16.csv",
+          "status": "OK"
+        },
+        {
+          "section": "Jobs",
+          "records": 0,
+          "source_report": "linkedin_jobs_report_2026-08-29_21-34-22.csv",
+          "status": "OK"
+        },
+        {
+          "section": "Notifications",
+          "records": 0,
+          "source_report": "linkedin_notifications_report_2026-08-29_21-35-29.csv",
+          "status": "OK"
+        }
+      ],
+      "raw_values": [
+        [
+          "section",
+          "records",
+          "source_report",
+          "status"
+        ],
+        [
+          "Feed",
+          0,
+          "linkedin_feed_report_2026-08-29_21-33-16.csv",
+          "OK"
+        ],
+        [
+          "Jobs",
+          0,
+          "linkedin_jobs_report_2026-08-29_21-34-22.csv",
+          "OK"
+        ],
+        [
+          "Notifications",
+          0,
+          "linkedin_notifications_report_2026-08-29_21-35-29.csv",
+          "OK"
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    },
+    "Feed": {
+      "title": "Feed",
+      "max_row": 1,
+      "max_column": 9,
+      "columns": [
+        "type",
+        "job_id",
+        "title",
+        "company",
+        "location",
+        "url",
+        "source_file",
+        "collected_at",
+        "text"
+      ],
+      "records": [],
+      "raw_values": [
+        [
+          "type",
+          "job_id",
+          "title",
+          "company",
+          "location",
+          "url",
+          "source_file",
+          "collected_at",
+          "text"
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    },
+    "Jobs": {
+      "title": "Jobs",
+      "max_row": 1,
+      "max_column": 9,
+      "columns": [
+        "type",
+        "job_id",
+        "title",
+        "company",
+        "location",
+        "url",
+        "source_file",
+        "collected_at",
+        "text"
+      ],
+      "records": [],
+      "raw_values": [
+        [
+          "type",
+          "job_id",
+          "title",
+          "company",
+          "location",
+          "url",
+          "source_file",
+          "collected_at",
+          "text"
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    },
+    "Notifications": {
+      "title": "Notifications",
+      "max_row": 1,
+      "max_column": 9,
+      "columns": [
+        "type",
+        "job_id",
+        "title",
+        "company",
+        "location",
+        "url",
+        "source_file",
+        "collected_at",
+        "text"
+      ],
+      "records": [],
+      "raw_values": [
+        [
+          "type",
+          "job_id",
+          "title",
+          "company",
+          "location",
+          "url",
+          "source_file",
+          "collected_at",
+          "text"
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    }
+  }
+}
