@@ -5,8 +5,8 @@
     "finish_time": "8:20"
   },
   "run_if_started_late": true,
-  "script_name": "linkedin_worker_unified.py",
-  "script_url": "https://raw.githubusercontent.com/Devorvant/linkedin-monitor-data/main/scripts/linkedin_worker_unified.py",
+  "script_name": "linkedin_worker_entry.py",
+  "script_url": "https://raw.githubusercontent.com/Devorvant/linkedin-monitor-data/main/scripts/linkedin_worker_entry.py",
   "shutdown_after_finish": true,
   "shutdown_when_disabled": true,
   "github_repo": "Devorvant/linkedin-monitor-data",
