@@ -29,8 +29,8 @@ DEVICE_CONFIGS = {
         "save_menu_y_offset": 0.155,
         "close_tab_x": 0.343,
         "close_tab_y": 0.022,
-        "follow_button_x": 0.151,
-        "follow_button_y": 0.451,
+        "follow_button_x": 0.387,
+        "follow_button_y": 0.435,
     },
     "2": {
         "name": "pc2",
