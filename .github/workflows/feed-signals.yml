@@ -112,4 +112,15 @@ jobs:
             exit 0
           fi
           git commit -m "Update Feed CRM pipeline $(date -u +%F)"
-          git push
+
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push attempt ${attempt} failed; rebasing onto latest origin/main..."
+            git fetch origin main
+            git rebase origin/main
+          done
+
+          echo 'Failed to push Feed CRM outputs after 3 attempts.'
+          exit 1
