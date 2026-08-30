@@ -10,6 +10,16 @@ on:
       - scripts/relationship_watchlist.py
       - '.feed-signals-trigger*'
   workflow_dispatch:
+    inputs:
+      analysis_mode:
+        description: 'Feed analysis mode: auto detects whether Luna is needed; reuse skips Luna; llm forces Luna'
+        required: true
+        default: auto
+        type: choice
+        options:
+          - auto
+          - reuse
+          - llm
 
 permissions:
   contents: write
@@ -19,6 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -38,7 +50,40 @@ jobs:
           compile(data.decode('utf-8'), 'scripts/feed_signal_analyzer.py', 'exec')
           PY
 
-      - name: Analyze Feed
+      - name: Decide Feed analysis mode
+        id: mode
+        shell: bash
+        run: |
+          requested='${{ github.event.inputs.analysis_mode }}'
+          if [ "${{ github.event_name }}" = 'workflow_dispatch' ] && [ -n "$requested" ] && [ "$requested" != 'auto' ]; then
+            mode="$requested"
+            reason="manual workflow_dispatch: $requested"
+          elif [ ! -f feed_signals_latest.json ]; then
+            mode='llm'
+            reason='feed_signals_latest.json is missing'
+          elif [ "${{ github.event_name }}" = 'push' ]; then
+            before='${{ github.event.before }}'
+            after='${{ github.sha }}'
+            changed="$(git diff --name-only "$before" "$after" 2>/dev/null || git diff --name-only HEAD^ HEAD)"
+            echo 'Changed files:'
+            echo "$changed"
+            if echo "$changed" | grep -Eq '^(feed_latest\.json|profile\.json|scripts/feed_signal_analyzer\.py\.gz\.b64)$'; then
+              mode='llm'
+              reason='Feed/profile/analyzer changed'
+            else
+              mode='reuse'
+              reason='Only downstream/test files changed'
+            fi
+          else
+            mode='llm'
+            reason='auto manual run defaults to fresh analysis'
+          fi
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "reason=$reason" >> "$GITHUB_OUTPUT"
+          echo "Feed analysis mode: $mode ($reason)"
+
+      - name: Analyze Feed with Luna when needed
+        if: steps.mode.outputs.mode == 'llm'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
@@ -61,6 +106,18 @@ jobs:
               --llm-scope none
           fi
 
+      - name: Reuse existing Feed analysis
+        if: steps.mode.outputs.mode == 'reuse'
+        run: |
+          test -s feed_signals_latest.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('feed_signals_latest.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          print(f"TEST/REUSE mode: Luna skipped; reusing {p} with {len(data.get('signals', []))} signals")
+          PY
+
       - name: Update relationship CRM
         run: |
           python scripts/relationship_watchlist.py \
@@ -82,18 +139,23 @@ jobs:
           cp relationship_watchlist.json "history/relationships/$(date -u +%F).json"
 
       - name: Build pipeline status
+        env:
+          ANALYSIS_MODE: ${{ steps.mode.outputs.mode }}
+          ANALYSIS_REASON: ${{ steps.mode.outputs.reason }}
         run: |
           python - <<'PY'
-          import json
+          import json, os
           from datetime import datetime, timezone
           from pathlib import Path
           signals = json.loads(Path('feed_signals_latest.json').read_text(encoding='utf-8'))
           actions = json.loads(Path('action_queue_latest.json').read_text(encoding='utf-8'))
           crm = json.loads(Path('relationship_watchlist.json').read_text(encoding='utf-8'))
           status = {
-              'schema_version': 1,
+              'schema_version': 2,
               'generated_at': datetime.now(timezone.utc).isoformat(),
               'status': 'OK',
+              'analysis_mode': os.environ.get('ANALYSIS_MODE', 'unknown'),
+              'analysis_reason': os.environ.get('ANALYSIS_REASON', ''),
               'feed_signals': signals.get('summary', {}),
               'action_queue': actions.get('summary', {}),
               'relationships': crm.get('summary', {}),
@@ -108,7 +170,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add feed_signals_latest.json action_queue_latest.json relationship_watchlist.json feed_pipeline_status.json history/feed_signals history/action_queue history/relationships
           if git diff --cached --quiet; then
-            echo 'No Feed analysis changes'
+            echo 'No Feed pipeline changes'
             exit 0
           fi
           git commit -m "Update Feed CRM pipeline $(date -u +%F)"
