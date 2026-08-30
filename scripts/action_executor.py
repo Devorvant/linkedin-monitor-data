@@ -29,6 +29,8 @@ DEVICE_CONFIGS = {
         "save_menu_y_offset": 0.155,
         "close_tab_x": 0.343,
         "close_tab_y": 0.022,
+        "follow_button_x": 0.151,
+        "follow_button_y": 0.451,
     },
     "2": {
         "name": "pc2",
@@ -40,6 +42,8 @@ DEVICE_CONFIGS = {
         "save_menu_y_offset": 0.130,
         "close_tab_x": 0.200,
         "close_tab_y": 0.020,
+        "follow_button_x": 0.151,
+        "follow_button_y": 0.451,
     },
 }
 
@@ -87,10 +91,7 @@ def fetch_queue(secret: str) -> dict:
 
 def approved_items(payload: dict) -> list[dict]:
     items = payload.get("items") or []
-    return [
-        x for x in items
-        if isinstance(x, dict) and str(x.get("state", "APPROVED")).upper() == "APPROVED"
-    ]
+    return [x for x in items if isinstance(x, dict) and str(x.get("state", "APPROVED")).upper() == "APPROVED"]
 
 
 def item_url(item: dict) -> str:
@@ -100,10 +101,7 @@ def item_url(item: dict) -> str:
 def item_label(item: dict) -> str:
     target = item.get("target") or {}
     name = target.get("name") or target.get("company") or "—"
-    return (
-        f"{name} | {item.get('action') or '—'} | "
-        f"source={item.get('source_date') or '—'} | approved={item.get('approved_at') or '—'}"
-    )
+    return f"{name} | {item.get('action') or '—'} | source={item.get('source_date') or '—'} | approved={item.get('approved_at') or '—'}"
 
 
 def print_queue(items: list[dict]) -> None:
@@ -151,7 +149,6 @@ def print_preview(item: dict) -> None:
 def focus_linkedin_chrome(maximize: bool = True) -> bool:
     if sys.platform != "win32":
         return False
-
     user32 = ctypes.windll.user32
     found: list[int] = []
     wndenumproc = ctypes.WINFUNCTYPE(ctypes.c_bool, ctypes.c_void_p, ctypes.c_void_p)
@@ -173,12 +170,11 @@ def focus_linkedin_chrome(maximize: bool = True) -> bool:
     user32.EnumWindows(enum_proc, 0)
     if not found:
         return False
-
     hwnd = found[-1]
-    user32.ShowWindow(hwnd, 9)  # SW_RESTORE
+    user32.ShowWindow(hwnd, 9)
     time.sleep(0.3)
     if maximize:
-        user32.ShowWindow(hwnd, 3)  # SW_MAXIMIZE
+        user32.ShowWindow(hwnd, 3)
         time.sleep(0.5)
     user32.BringWindowToTop(hwnd)
     user32.SetForegroundWindow(hwnd)
@@ -200,14 +196,9 @@ def snapshot_saved_pages(folder: Path) -> dict[str, tuple[float, int]]:
     return result
 
 
-def wait_for_saved_page_change(
-    folder: Path,
-    before: dict[str, tuple[float, int]],
-    timeout: float = 20.0,
-) -> Path | None:
+def wait_for_saved_page_change(folder: Path, before: dict[str, tuple[float, int]], timeout: float = 20.0) -> Path | None:
     deadline = time.time() + timeout
     candidate: Path | None = None
-
     while time.time() < deadline:
         changed: list[tuple[float, int, Path]] = []
         for path in folder.iterdir():
@@ -220,7 +211,6 @@ def wait_for_saved_page_change(
             old = before.get(str(path.resolve()))
             if old is None or old != (stat.st_mtime, stat.st_size):
                 changed.append((stat.st_mtime, stat.st_size, path))
-
         if changed:
             changed.sort(reverse=True, key=lambda x: (x[0], x[1]))
             newest = changed[0][2]
@@ -234,31 +224,25 @@ def wait_for_saved_page_change(
             except OSError:
                 pass
         time.sleep(0.5)
-
     return candidate
 
 
-def save_page_with_context_menu(device: dict) -> Path | None:
+def save_page_with_context_menu(device: dict, step_label: str = "3") -> Path | None:
     saved_pages = device["root"] / "saved_pages"
     before = snapshot_saved_pages(saved_pages)
-
     width, height = pyautogui.size()
     right_x = int(width * device["save_right_x"])
     right_y = int(height * device["save_right_y"])
     menu_x = int(width * device["save_menu_x"])
     menu_y = int(right_y + height * device["save_menu_y_offset"])
-
-    print("  3. Правый клик -> Сохранить как...")
+    print(f"  {step_label}. Правый клик -> Сохранить как...")
     pyautogui.moveTo(right_x, right_y, duration=0.35)
     pyautogui.rightClick()
     time.sleep(0.7)
     pyautogui.moveTo(menu_x, menu_y, duration=0.25)
     pyautogui.click()
-
-    # Как в основном collector: имя Chrome не меняем, просто подтверждаем.
     time.sleep(0.7)
     pyautogui.press("enter")
-
     print("     Жду появления нового файла в saved_pages...")
     return wait_for_saved_page_change(saved_pages, before)
 
@@ -284,7 +268,6 @@ def read_html_or_mhtml(path: Path) -> str:
             if isinstance(content, str):
                 chunks.append(content)
         return "\n".join(chunks)
-
     raw = path.read_bytes()
     for encoding in ("utf-8", "utf-16", "cp1251", "latin-1"):
         try:
@@ -296,9 +279,6 @@ def read_html_or_mhtml(path: Path) -> str:
 
 def detect_follow_state(text: str) -> str:
     low = text.lower()
-
-    # Сначала ищем состояние основной страницы. На странице компании справа могут
-    # одновременно присутствовать кнопки "+ Отслеживать" для других компаний.
     following_markers = (
         "отслеживаете эту страницу",
         "отслеживаете",
@@ -312,7 +292,6 @@ def detect_follow_state(text: str) -> str:
         ">follow<",
         'aria-label="follow"',
     )
-
     if any(marker in low for marker in following_markers):
         return "FOLLOWING"
     if any(marker in low for marker in follow_markers):
@@ -320,62 +299,74 @@ def detect_follow_state(text: str) -> str:
     return "UNKNOWN"
 
 
+def click_main_follow_button(device: dict) -> None:
+    width, height = pyautogui.size()
+    x = int(width * device["follow_button_x"])
+    y = int(height * device["follow_button_y"])
+    print(f"  5. Нажимаю основную кнопку Follow один раз: ({x}, {y})")
+    pyautogui.moveTo(x, y, duration=0.4)
+    pyautogui.click()
+    time.sleep(4)
+
+
 def close_opened_tab(device: dict) -> None:
     width, height = pyautogui.size()
     x = int(width * device["close_tab_x"])
     y = int(height * device["close_tab_y"])
-    print("  5. Закрываю открытую вкладку LinkedIn.")
+    print("  8. Закрываю открытую вкладку LinkedIn.")
     pyautogui.moveTo(x, y, duration=0.3)
     pyautogui.click()
     time.sleep(0.8)
 
 
-def safe_probe_follow_company(item: dict, device: dict) -> None:
+def execute_follow_company(item: dict, device: dict) -> None:
     url = item_url(item)
     if not url:
-        print("PROBE остановлен: у действия нет URL.")
+        print("EXECUTOR остановлен: у действия нет URL.")
         return
-
     chrome = device["chrome"]
     if not chrome.exists():
-        print(f"PROBE остановлен: Chrome не найден: {chrome}")
+        print(f"EXECUTOR остановлен: Chrome не найден: {chrome}")
         return
 
-    print("\nSAFE PROBE:")
+    print("\nFOLLOW_COMPANY EXECUTION:")
     print("  1. Открываю URL в обычном Chrome.")
     subprocess.Popen([str(chrome), url])
     print("  2. Жду 8 секунд и разворачиваю Chrome на полный экран.")
     time.sleep(8)
+    focus_linkedin_chrome(maximize=True)
 
-    if not focus_linkedin_chrome(maximize=True):
-        print("     Не удалось автоматически сфокусировать окно Chrome; продолжаю с текущим окном.")
-
-    saved: Path | None = None
     try:
-        saved = save_page_with_context_menu(device)
+        saved = save_page_with_context_menu(device, "3")
         if saved is None:
-            print("  4. STATE = UNKNOWN: новый файл не найден.")
-            print("Клик по Follow НЕ выполнялся.")
+            print("  4. STATE = UNKNOWN: новый файл не найден. Ничего не нажимаю.")
             return
-
-        try:
-            state = detect_follow_state(read_html_or_mhtml(saved))
-        except Exception as exc:
-            print(f"  4. STATE = UNKNOWN: ошибка разбора страницы: {exc}")
-            print("Клик по Follow НЕ выполнялся.")
-            return
+        state = detect_follow_state(read_html_or_mhtml(saved))
+        print(f"  4. STATE = {state}")
+        print(f"     source: {saved.name}")
 
         if state == "FOLLOWING":
-            print("  4. STATE = FOLLOWING — компания уже отслеживается. Ничего не нажимаю.")
-        elif state == "FOLLOW_AVAILABLE":
-            print("  4. STATE = FOLLOW_AVAILABLE — подписка доступна. Останавливаюсь ДО клика.")
-        else:
-            print("  4. STATE = UNKNOWN — состояние надёжно не определено. Ничего не нажимаю.")
+            print("     Уже подписаны -> SKIP.")
+            return
+        if state != "FOLLOW_AVAILABLE":
+            print("     Состояние не подтверждено -> никаких кликов.")
+            return
 
-        print(f"     source: {saved.name}")
-        print("Клик по Follow НЕ выполнялся.")
+        click_main_follow_button(device)
+        focus_linkedin_chrome(maximize=True)
+        print("  6. Повторно сохраняю страницу для проверки результата.")
+        saved_after = save_page_with_context_menu(device, "6")
+        if saved_after is None:
+            print("  7. VERIFY = UNKNOWN: повторный файл не найден.")
+            return
+        state_after = detect_follow_state(read_html_or_mhtml(saved_after))
+        print(f"  7. VERIFY = {state_after}")
+        print(f"     source: {saved_after.name}")
+        if state_after == "FOLLOWING":
+            print("     SUCCESS: компания теперь отслеживается.")
+        else:
+            print("     FAILED/UNCERTAIN: FOLLOWING после клика не подтверждён.")
     finally:
-        # Вкладку закрываем даже при UNKNOWN/ошибке сохранения, если Chrome открыт.
         try:
             focus_linkedin_chrome(maximize=True)
             close_opened_tab(device)
@@ -384,7 +375,7 @@ def safe_probe_follow_company(item: dict, device: dict) -> None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Safe LinkedIn approved-action executor prototype")
+    parser = argparse.ArgumentParser(description="LinkedIn approved-action executor")
     parser.add_argument("--device", choices=["1", "2"], help="1=laptop, 2=pc2")
     parser.add_argument("--list", action="store_true", help="Only list approved actions")
     args = parser.parse_args()
@@ -393,7 +384,7 @@ def main() -> int:
     root = device["root"]
     print(f"\nDevice: {device['name']}")
     print(f"Project root: {root}")
-    print("Mode: SAFE PROBE (проверенная Save As схема; Follow не нажимается)")
+    print("Mode: EXECUTE follow_company only; UNKNOWN never clicks")
 
     secret = load_secret(root)
     items = approved_items(fetch_queue(secret))
@@ -402,7 +393,6 @@ def main() -> int:
 
     if args.list or not items:
         return 0
-
     selected = choose_action(items)
     if selected is None:
         print("Выход без выполнения.")
@@ -410,9 +400,9 @@ def main() -> int:
 
     print_preview(selected)
     if str(selected.get("action") or "") == "follow_company":
-        safe_probe_follow_company(selected, device)
+        execute_follow_company(selected, device)
     else:
-        print("Для этого типа действия SAFE PROBE пока не включён.")
+        print("Реальное выполнение для этого типа действия пока не включено.")
     return 0
 
 
