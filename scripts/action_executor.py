@@ -3,7 +3,9 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import subprocess
 import sys
+import time
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -41,32 +43,16 @@ def load_secret(root: Path) -> str:
     env = os.environ.get("APPROVAL_SECRET", "").strip()
     if env:
         return env
-
-    candidates = [
-        root / "approval_secret.txt",
-        Path(__file__).resolve().parent / "approval_secret.txt",
-    ]
-    for path in candidates:
+    for path in [root / "approval_secret.txt", Path(__file__).resolve().parent / "approval_secret.txt"]:
         if path.exists():
             secret = path.read_text(encoding="utf-8").strip()
             if secret:
                 return secret
-
-    raise SystemExit(
-        "APPROVAL_SECRET не найден. Создай локальный approval_secret.txt в корне проекта "
-        "или задай переменную окружения APPROVAL_SECRET. Не добавляй этот файл в GitHub."
-    )
+    raise SystemExit("APPROVAL_SECRET не найден. Создай локальный approval_secret.txt или задай APPROVAL_SECRET.")
 
 
 def fetch_queue(secret: str) -> dict:
-    req = Request(
-        ACTION_API,
-        headers={
-            "User-Agent": "linkedin-monitor-action-executor",
-            "X-Approval-Key": secret,
-        },
-        method="GET",
-    )
+    req = Request(ACTION_API, headers={"User-Agent": "linkedin-monitor-action-executor", "X-Approval-Key": secret}, method="GET")
     try:
         with urlopen(req, timeout=30) as response:
             return json.loads(response.read().decode("utf-8"))
@@ -89,10 +75,7 @@ def item_url(item: dict) -> str:
 def item_label(item: dict) -> str:
     target = item.get("target") or {}
     name = target.get("name") or target.get("company") or "—"
-    action = item.get("action") or "—"
-    source_date = item.get("source_date") or "—"
-    approved_at = item.get("approved_at") or "—"
-    return f"{name} | {action} | source={source_date} | approved={approved_at}"
+    return f"{name} | {item.get('action') or '—'} | source={item.get('source_date') or '—'} | approved={item.get('approved_at') or '—'}"
 
 
 def print_queue(items: list[dict]) -> None:
@@ -102,18 +85,16 @@ def print_queue(items: list[dict]) -> None:
         return
     for i, item in enumerate(items, 1):
         print(f"  {i:>2}. {item_label(item)}")
-        url = item_url(item)
-        if url:
-            print(f"      URL: {url}")
-        reason = item.get("reason")
-        if reason:
-            print(f"      reason: {reason}")
+        if item_url(item):
+            print(f"      URL: {item_url(item)}")
+        if item.get("reason"):
+            print(f"      reason: {item['reason']}")
 
 
 def choose_action(items: list[dict]) -> dict | None:
     if not items:
         return None
-    raw = input("\nВыбери действие для PREVIEW [1..N], Enter = выход: ").strip()
+    raw = input("\nВыбери действие [1..N], Enter = выход: ").strip()
     if not raw:
         return None
     try:
@@ -121,48 +102,48 @@ def choose_action(items: list[dict]) -> dict | None:
     except ValueError:
         print("Нужно ввести номер действия.")
         return None
-    if index < 1 or index > len(items):
+    if not 1 <= index <= len(items):
         print("Такого номера нет.")
         return None
     return items[index - 1]
 
 
 def print_preview(item: dict) -> None:
-    action = str(item.get("action") or "—")
-    url = item_url(item) or "—"
     target = item.get("target") or {}
-    target_name = target.get("name") or target.get("company") or "—"
-
     print("\n=== PREVIEW ===")
-    print(f"action: {action}")
-    print(f"target: {target_name}")
-    print(f"url:    {url}")
+    print(f"action: {item.get('action') or '—'}")
+    print(f"target: {target.get('name') or target.get('company') or '—'}")
+    print(f"url:    {item_url(item) or '—'}")
     print(f"id:     {item.get('action_id') or '—'}")
 
-    print("\nПлан выполнения:")
-    if action == "follow_company":
-        print("  1. Открыть URL в обычном Chrome.")
-        print("  2. Дождаться загрузки страницы компании.")
-        print("  3. Проверить состояние Follow / Following.")
-        print("  4. Если уже Following — ничего не нажимать.")
-        print("  5. Если доступно Follow — нажать один раз.")
-        print("  6. Зафиксировать результат и завершить действие.")
-    elif action == "follow_person":
-        print("  1. Открыть профиль в обычном Chrome.")
-        print("  2. Проверить, подписаны ли уже на человека.")
-        print("  3. Если уже подписаны — ничего не делать.")
-        print("  4. Иначе выполнить Follow один раз.")
-        print("  5. Зафиксировать результат.")
-    elif action == "engage_with_post":
-        print("  1. Открыть URL публикации.")
-        print("  2. Найти целевую публикацию.")
-        print("  3. Пока только определить доступные действия; без кликов.")
-    else:
-        print("  1. Открыть URL действия.")
-        print("  2. Проверить текущую страницу и состояние цели.")
-        print("  3. Реальное выполнение для этого action пока НЕ включено.")
 
-    print("\nDRY-RUN: Chrome не открывается, мышь и клавиатура не используются.")
+def safe_probe_follow_company(item: dict, device: dict) -> None:
+    url = item_url(item)
+    if not url:
+        print("PROBE остановлен: у действия нет URL.")
+        return
+    chrome = device["chrome"]
+    if not chrome.exists():
+        print(f"PROBE остановлен: Chrome не найден: {chrome}")
+        return
+
+    print("\nSAFE PROBE до пункта 4:")
+    print("  1. Открываем URL в обычном Chrome.")
+    subprocess.Popen([str(chrome), url])
+    print("  2. Ждём 8 секунд загрузки страницы...")
+    time.sleep(8)
+    print("  3. Проверь состояние кнопки на странице.")
+    print("     1 = Following / Уже подписан")
+    print("     2 = Follow / Можно подписаться")
+    print("     Enter = не удалось определить")
+    state = input("Состояние: ").strip()
+    if state == "1":
+        print("  4. Уже Following -> НИЧЕГО не нажимаем. SAFE DONE.")
+    elif state == "2":
+        print("  4. Видна Follow -> останавливаемся ДО клика. SAFE DONE.")
+    else:
+        print("  4. Состояние не подтверждено -> останавливаемся. SAFE DONE.")
+    print("Никаких кликов по Follow executor не выполнял.")
 
 
 def main() -> int:
@@ -173,27 +154,31 @@ def main() -> int:
 
     device = choose_device(args.device)
     root = device["root"]
-
     print(f"\nDevice: {device['name']}")
     print(f"Project root: {root}")
-    print("Mode: DRY-RUN (никаких действий в LinkedIn не выполняется)")
+    print("Mode: SAFE PROBE (до проверки состояния; Follow не нажимается)")
 
     secret = load_secret(root)
-    payload = fetch_queue(secret)
-    items = approved_items(payload)
+    items = approved_items(fetch_queue(secret))
     print_queue(items)
-
     print("\nOK: GitHub executor -> Cloudflare queue read successfully.")
 
     if args.list or not items:
         return 0
-
     selected = choose_action(items)
     if selected is None:
         print("Выход без выполнения.")
         return 0
 
     print_preview(selected)
+    if str(selected.get("action") or "") == "follow_company":
+        go = input("\nОткрыть Chrome и выполнить SAFE PROBE до пункта 4? [y/N]: ").strip().lower()
+        if go in {"y", "yes", "д", "да"}:
+            safe_probe_follow_company(selected, device)
+        else:
+            print("PROBE отменён. Никаких действий.")
+    else:
+        print("Для этого типа действия SAFE PROBE пока не включён.")
     return 0
 
 
