@@ -82,6 +82,10 @@ def approved_items(payload: dict) -> list[dict]:
     return [x for x in items if isinstance(x, dict) and str(x.get("state", "APPROVED")).upper() == "APPROVED"]
 
 
+def item_url(item: dict) -> str:
+    return str(item.get("profile_url") or item.get("source_url") or "").strip()
+
+
 def item_label(item: dict) -> str:
     target = item.get("target") or {}
     name = target.get("name") or target.get("company") or "—"
@@ -98,12 +102,67 @@ def print_queue(items: list[dict]) -> None:
         return
     for i, item in enumerate(items, 1):
         print(f"  {i:>2}. {item_label(item)}")
-        url = item.get("profile_url") or item.get("source_url")
+        url = item_url(item)
         if url:
             print(f"      URL: {url}")
         reason = item.get("reason")
         if reason:
             print(f"      reason: {reason}")
+
+
+def choose_action(items: list[dict]) -> dict | None:
+    if not items:
+        return None
+    raw = input("\nВыбери действие для PREVIEW [1..N], Enter = выход: ").strip()
+    if not raw:
+        return None
+    try:
+        index = int(raw)
+    except ValueError:
+        print("Нужно ввести номер действия.")
+        return None
+    if index < 1 or index > len(items):
+        print("Такого номера нет.")
+        return None
+    return items[index - 1]
+
+
+def print_preview(item: dict) -> None:
+    action = str(item.get("action") or "—")
+    url = item_url(item) or "—"
+    target = item.get("target") or {}
+    target_name = target.get("name") or target.get("company") or "—"
+
+    print("\n=== PREVIEW ===")
+    print(f"action: {action}")
+    print(f"target: {target_name}")
+    print(f"url:    {url}")
+    print(f"id:     {item.get('action_id') or '—'}")
+
+    print("\nПлан выполнения:")
+    if action == "follow_company":
+        print("  1. Открыть URL в обычном Chrome.")
+        print("  2. Дождаться загрузки страницы компании.")
+        print("  3. Проверить состояние Follow / Following.")
+        print("  4. Если уже Following — ничего не нажимать.")
+        print("  5. Если доступно Follow — нажать один раз.")
+        print("  6. Зафиксировать результат и завершить действие.")
+    elif action == "follow_person":
+        print("  1. Открыть профиль в обычном Chrome.")
+        print("  2. Проверить, подписаны ли уже на человека.")
+        print("  3. Если уже подписаны — ничего не делать.")
+        print("  4. Иначе выполнить Follow один раз.")
+        print("  5. Зафиксировать результат.")
+    elif action == "engage_with_post":
+        print("  1. Открыть URL публикации.")
+        print("  2. Найти целевую публикацию.")
+        print("  3. Пока только определить доступные действия; без кликов.")
+    else:
+        print("  1. Открыть URL действия.")
+        print("  2. Проверить текущую страницу и состояние цели.")
+        print("  3. Реальное выполнение для этого action пока НЕ включено.")
+
+    print("\nDRY-RUN: Chrome не открывается, мышь и клавиатура не используются.")
 
 
 def main() -> int:
@@ -125,7 +184,16 @@ def main() -> int:
     print_queue(items)
 
     print("\nOK: GitHub executor -> Cloudflare queue read successfully.")
-    print("Следующий этап: добавить выполнение ровно одного выбранного действия через Chrome/pyautogui.")
+
+    if args.list or not items:
+        return 0
+
+    selected = choose_action(items)
+    if selected is None:
+        print("Выход без выполнения.")
+        return 0
+
+    print_preview(selected)
     return 0
 
 
