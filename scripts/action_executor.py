@@ -1,11 +1,14 @@
 from __future__ import annotations
 
 import argparse
+import ctypes
 import json
 import os
 import subprocess
 import sys
 import time
+from email import policy
+from email.parser import BytesParser
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -13,17 +16,30 @@ from urllib.request import Request, urlopen
 import pyautogui
 
 ACTION_API = "https://linkedin-actions.devorvant.workers.dev/actions"
+PAGE_EXTENSIONS = {".mhtml", ".mht", ".html", ".htm"}
 
 DEVICE_CONFIGS = {
     "1": {
         "name": "laptop",
         "root": Path(r"C:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation"),
         "chrome": Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe"),
+        "save_right_x": 0.88,
+        "save_right_y": 0.46,
+        "save_menu_x": 0.74,
+        "save_menu_y_offset": 0.155,
+        "close_tab_x": 0.343,
+        "close_tab_y": 0.022,
     },
     "2": {
         "name": "pc2",
         "root": Path(r"H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation"),
         "chrome": Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe"),
+        "save_right_x": 0.938,
+        "save_right_y": 0.488,
+        "save_menu_x": 0.798,
+        "save_menu_y_offset": 0.130,
+        "close_tab_x": 0.200,
+        "close_tab_y": 0.020,
     },
 }
 
@@ -132,7 +148,143 @@ def print_preview(item: dict) -> None:
     print(f"id:     {item.get('action_id') or '—'}")
 
 
-def read_saved_page(path: Path) -> str:
+def focus_linkedin_chrome(maximize: bool = True) -> bool:
+    if sys.platform != "win32":
+        return False
+
+    user32 = ctypes.windll.user32
+    found: list[int] = []
+    wndenumproc = ctypes.WINFUNCTYPE(ctypes.c_bool, ctypes.c_void_p, ctypes.c_void_p)
+
+    @wndenumproc
+    def enum_proc(hwnd, _lparam):
+        if not user32.IsWindowVisible(hwnd):
+            return True
+        length = user32.GetWindowTextLengthW(hwnd)
+        if length <= 0:
+            return True
+        buf = ctypes.create_unicode_buffer(length + 1)
+        user32.GetWindowTextW(hwnd, buf, length + 1)
+        title = buf.value.lower()
+        if "linkedin" in title and "chrome" in title:
+            found.append(hwnd)
+        return True
+
+    user32.EnumWindows(enum_proc, 0)
+    if not found:
+        return False
+
+    hwnd = found[-1]
+    user32.ShowWindow(hwnd, 9)  # SW_RESTORE
+    time.sleep(0.3)
+    if maximize:
+        user32.ShowWindow(hwnd, 3)  # SW_MAXIMIZE
+        time.sleep(0.5)
+    user32.BringWindowToTop(hwnd)
+    user32.SetForegroundWindow(hwnd)
+    time.sleep(0.8)
+    return True
+
+
+def snapshot_saved_pages(folder: Path) -> dict[str, tuple[float, int]]:
+    result: dict[str, tuple[float, int]] = {}
+    folder.mkdir(parents=True, exist_ok=True)
+    for path in folder.iterdir():
+        if not path.is_file() or path.suffix.lower() not in PAGE_EXTENSIONS:
+            continue
+        try:
+            stat = path.stat()
+            result[str(path.resolve())] = (stat.st_mtime, stat.st_size)
+        except OSError:
+            pass
+    return result
+
+
+def wait_for_saved_page_change(
+    folder: Path,
+    before: dict[str, tuple[float, int]],
+    timeout: float = 20.0,
+) -> Path | None:
+    deadline = time.time() + timeout
+    candidate: Path | None = None
+
+    while time.time() < deadline:
+        changed: list[tuple[float, int, Path]] = []
+        for path in folder.iterdir():
+            if not path.is_file() or path.suffix.lower() not in PAGE_EXTENSIONS:
+                continue
+            try:
+                stat = path.stat()
+            except OSError:
+                continue
+            old = before.get(str(path.resolve()))
+            if old is None or old != (stat.st_mtime, stat.st_size):
+                changed.append((stat.st_mtime, stat.st_size, path))
+
+        if changed:
+            changed.sort(reverse=True, key=lambda x: (x[0], x[1]))
+            newest = changed[0][2]
+            try:
+                size1 = newest.stat().st_size
+                time.sleep(0.8)
+                size2 = newest.stat().st_size
+                if size1 == size2 and size2 > 0:
+                    return newest
+                candidate = newest
+            except OSError:
+                pass
+        time.sleep(0.5)
+
+    return candidate
+
+
+def save_page_with_context_menu(device: dict) -> Path | None:
+    saved_pages = device["root"] / "saved_pages"
+    before = snapshot_saved_pages(saved_pages)
+
+    width, height = pyautogui.size()
+    right_x = int(width * device["save_right_x"])
+    right_y = int(height * device["save_right_y"])
+    menu_x = int(width * device["save_menu_x"])
+    menu_y = int(right_y + height * device["save_menu_y_offset"])
+
+    print("  3. Правый клик -> Сохранить как...")
+    pyautogui.moveTo(right_x, right_y, duration=0.35)
+    pyautogui.rightClick()
+    time.sleep(0.7)
+    pyautogui.moveTo(menu_x, menu_y, duration=0.25)
+    pyautogui.click()
+
+    # Как в основном collector: имя Chrome не меняем, просто подтверждаем.
+    time.sleep(0.7)
+    pyautogui.press("enter")
+
+    print("     Жду появления нового файла в saved_pages...")
+    return wait_for_saved_page_change(saved_pages, before)
+
+
+def read_html_or_mhtml(path: Path) -> str:
+    if path.suffix.lower() in {".mhtml", ".mht"}:
+        message = BytesParser(policy=policy.default).parsebytes(path.read_bytes())
+        chunks: list[str] = []
+        if message.is_multipart():
+            for part in message.walk():
+                if part.get_content_type() not in {"text/html", "text/plain"}:
+                    continue
+                try:
+                    content = part.get_content()
+                except Exception:
+                    payload = part.get_payload(decode=True) or b""
+                    charset = part.get_content_charset() or "utf-8"
+                    content = payload.decode(charset, errors="replace")
+                if isinstance(content, str):
+                    chunks.append(content)
+        else:
+            content = message.get_content()
+            if isinstance(content, str):
+                chunks.append(content)
+        return "\n".join(chunks)
+
     raw = path.read_bytes()
     for encoding in ("utf-8", "utf-16", "cp1251", "latin-1"):
         try:
@@ -145,9 +297,10 @@ def read_saved_page(path: Path) -> str:
 def detect_follow_state(text: str) -> str:
     low = text.lower()
 
-    # Priority is important: a company page can contain sidebar buttons
-    # "Отслеживать" even when the main company itself is already followed.
+    # Сначала ищем состояние основной страницы. На странице компании справа могут
+    # одновременно присутствовать кнопки "+ Отслеживать" для других компаний.
     following_markers = (
+        "отслеживаете эту страницу",
         "отслеживаете",
         ">following<",
         'aria-label="following"',
@@ -167,37 +320,14 @@ def detect_follow_state(text: str) -> str:
     return "UNKNOWN"
 
 
-def save_current_page(root: Path) -> Path | None:
-    probe = root / "action_probe.html"
-    resources = root / "action_probe_files"
-
-    try:
-        if probe.exists():
-            probe.unlink()
-    except OSError:
-        pass
-
-    print("  3. Сохраняю временную копию страницы для проверки состояния...")
-    pyautogui.hotkey("ctrl", "s")
-    time.sleep(1.5)
-    pyautogui.hotkey("ctrl", "a")
-    pyautogui.write(str(probe), interval=0.001)
-    pyautogui.press("enter")
-    time.sleep(4)
-
-    if probe.exists():
-        return probe
-
-    # Chrome may alter the extension depending on the selected save type.
-    candidates = sorted(
-        root.glob("action_probe.*"),
-        key=lambda p: p.stat().st_mtime if p.is_file() else 0,
-        reverse=True,
-    )
-    for candidate in candidates:
-        if candidate.is_file() and candidate.suffix.lower() in {".html", ".htm", ".mhtml", ".mht"}:
-            return candidate
-    return None
+def close_opened_tab(device: dict) -> None:
+    width, height = pyautogui.size()
+    x = int(width * device["close_tab_x"])
+    y = int(height * device["close_tab_y"])
+    print("  5. Закрываю открытую вкладку LinkedIn.")
+    pyautogui.moveTo(x, y, duration=0.3)
+    pyautogui.click()
+    time.sleep(0.8)
 
 
 def safe_probe_follow_company(item: dict, device: dict) -> None:
@@ -214,31 +344,43 @@ def safe_probe_follow_company(item: dict, device: dict) -> None:
     print("\nSAFE PROBE:")
     print("  1. Открываю URL в обычном Chrome.")
     subprocess.Popen([str(chrome), url])
-    print("  2. Жду 8 секунд загрузки страницы...")
+    print("  2. Жду 8 секунд и разворачиваю Chrome на полный экран.")
     time.sleep(8)
 
-    saved = save_current_page(device["root"])
-    if saved is None:
-        print("  4. STATE = UNKNOWN: временная страница не сохранилась.")
-        print("Клик по Follow НЕ выполнялся.")
-        return
+    if not focus_linkedin_chrome(maximize=True):
+        print("     Не удалось автоматически сфокусировать окно Chrome; продолжаю с текущим окном.")
 
+    saved: Path | None = None
     try:
-        state = detect_follow_state(read_saved_page(saved))
-    except Exception as exc:
-        print(f"  4. STATE = UNKNOWN: ошибка чтения страницы: {exc}")
+        saved = save_page_with_context_menu(device)
+        if saved is None:
+            print("  4. STATE = UNKNOWN: новый файл не найден.")
+            print("Клик по Follow НЕ выполнялся.")
+            return
+
+        try:
+            state = detect_follow_state(read_html_or_mhtml(saved))
+        except Exception as exc:
+            print(f"  4. STATE = UNKNOWN: ошибка разбора страницы: {exc}")
+            print("Клик по Follow НЕ выполнялся.")
+            return
+
+        if state == "FOLLOWING":
+            print("  4. STATE = FOLLOWING — компания уже отслеживается. Ничего не нажимаю.")
+        elif state == "FOLLOW_AVAILABLE":
+            print("  4. STATE = FOLLOW_AVAILABLE — подписка доступна. Останавливаюсь ДО клика.")
+        else:
+            print("  4. STATE = UNKNOWN — состояние надёжно не определено. Ничего не нажимаю.")
+
+        print(f"     source: {saved.name}")
         print("Клик по Follow НЕ выполнялся.")
-        return
-
-    if state == "FOLLOWING":
-        print("  4. STATE = FOLLOWING — компания уже отслеживается. Ничего не нажимаю.")
-    elif state == "FOLLOW_AVAILABLE":
-        print("  4. STATE = FOLLOW_AVAILABLE — подписка доступна. Останавливаюсь ДО клика.")
-    else:
-        print("  4. STATE = UNKNOWN — состояние надёжно не определено. Ничего не нажимаю.")
-
-    print(f"     source: {saved.name}")
-    print("Клик по Follow НЕ выполнялся.")
+    finally:
+        # Вкладку закрываем даже при UNKNOWN/ошибке сохранения, если Chrome открыт.
+        try:
+            focus_linkedin_chrome(maximize=True)
+            close_opened_tab(device)
+        except Exception as exc:
+            print(f"     Не удалось закрыть вкладку автоматически: {exc}")
 
 
 def main() -> int:
@@ -251,7 +393,7 @@ def main() -> int:
     root = device["root"]
     print(f"\nDevice: {device['name']}")
     print(f"Project root: {root}")
-    print("Mode: SAFE PROBE (состояние определяется автоматически; Follow не нажимается)")
+    print("Mode: SAFE PROBE (проверенная Save As схема; Follow не нажимается)")
 
     secret = load_secret(root)
     items = approved_items(fetch_queue(secret))
