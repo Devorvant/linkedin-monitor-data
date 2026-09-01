@@ -1,53 +1,48 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T05:12:40.573148+00:00",
+  "generated_at": "2026-09-01T05:11:50.996352+00:00",
   "status": "OK",
   "analysis_mode": "llm",
   "analysis_reason": "Feed/profile/analyzer changed",
   "feed_signals": {
-    "posts_analyzed": 18,
+    "posts_analyzed": 20,
     "high_priority": 0,
-    "medium_priority": 6,
-    "low_priority": 12,
+    "medium_priority": 1,
+    "low_priority": 19,
     "signal_type_counts": {
       "TECH_SIGNAL": 8,
-      "COMPANY_SIGNAL": 8,
-      "MARKET_SIGNAL": 6,
-      "HIRING_SIGNAL": 3,
-      "PEOPLE_SIGNAL": 5,
-      "NETWORK_SIGNAL": 6,
-      "PROJECT_SIGNAL": 4,
+      "PROJECT_SIGNAL": 3,
+      "MARKET_SIGNAL": 3,
+      "PEOPLE_SIGNAL": 3,
+      "NETWORK_SIGNAL": 4,
+      "COMPANY_SIGNAL": 10,
+      "HIRING_SIGNAL": 1,
       "OPPORTUNITY_SIGNAL": 1
     }
   },
   "action_queue": {
-    "items": 6,
+    "items": 1,
     "high": 0,
-    "medium": 6,
-    "pending_approval": 0,
-    "research_needed": 4,
+    "medium": 1,
+    "pending_approval": 1,
+    "research_needed": 0,
     "primary_action_counts": {
-      "engage_with_post": 2,
-      "research_contact": 4
+      "engage_with_post": 1
     },
     "action_plan_counts": {
-      "check_jobs": 1,
-      "engage_with_post": 2,
-      "find_warm_path": 2,
-      "follow_company": 6,
-      "research_company": 4,
-      "research_contact": 4,
-      "review_technology": 3,
-      "save_for_content": 3
+      "connect_person": 1,
+      "engage_with_post": 1,
+      "find_warm_path": 1,
+      "save_for_content": 1
     }
   },
   "relationships": {
-    "total": 23,
-    "people": 15,
-    "companies": 8,
-    "people_with_profile_url": 12,
+    "total": 26,
+    "people": 17,
+    "companies": 9,
+    "people_with_profile_url": 14,
     "status_counts": {
-      "WATCH": 23,
+      "WATCH": 26,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -55,7 +50,7 @@
       "REPLIED": 0,
       "CLOSED": 0
     },
-    "review_recommended": 1,
+    "review_recommended": 3,
     "do_not_contact": 0,
     "repeat_entities": 2
   },
