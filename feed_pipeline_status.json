@@ -1,48 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-01T05:11:50.996352+00:00",
+  "generated_at": "2026-09-02T05:12:36.012724+00:00",
   "status": "OK",
   "analysis_mode": "llm",
   "analysis_reason": "Feed/profile/analyzer changed",
   "feed_signals": {
     "posts_analyzed": 20,
-    "high_priority": 0,
-    "medium_priority": 1,
-    "low_priority": 19,
+    "high_priority": 2,
+    "medium_priority": 2,
+    "low_priority": 16,
     "signal_type_counts": {
-      "TECH_SIGNAL": 8,
-      "PROJECT_SIGNAL": 3,
-      "MARKET_SIGNAL": 3,
+      "TECH_SIGNAL": 7,
+      "PROJECT_SIGNAL": 8,
+      "COMPANY_SIGNAL": 11,
+      "MARKET_SIGNAL": 6,
       "PEOPLE_SIGNAL": 3,
       "NETWORK_SIGNAL": 4,
-      "COMPANY_SIGNAL": 10,
       "HIRING_SIGNAL": 1,
-      "OPPORTUNITY_SIGNAL": 1
+      "OPPORTUNITY_SIGNAL": 2
     }
   },
   "action_queue": {
-    "items": 1,
-    "high": 0,
-    "medium": 1,
+    "items": 4,
+    "high": 2,
+    "medium": 2,
     "pending_approval": 1,
-    "research_needed": 0,
+    "research_needed": 2,
     "primary_action_counts": {
-      "engage_with_post": 1
+      "engage_with_post": 2,
+      "research_contact": 2
     },
     "action_plan_counts": {
       "connect_person": 1,
-      "engage_with_post": 1,
-      "find_warm_path": 1,
-      "save_for_content": 1
+      "engage_with_post": 2,
+      "find_warm_path": 2,
+      "follow_company": 3,
+      "research_company": 2,
+      "research_contact": 2,
+      "review_technology": 1,
+      "save_for_content": 4
     }
   },
   "relationships": {
-    "total": 26,
-    "people": 17,
-    "companies": 9,
-    "people_with_profile_url": 14,
+    "total": 29,
+    "people": 18,
+    "companies": 11,
+    "people_with_profile_url": 15,
     "status_counts": {
-      "WATCH": 26,
+      "WATCH": 29,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -52,7 +57,7 @@
     },
     "review_recommended": 3,
     "do_not_contact": 0,
-    "repeat_entities": 2
+    "repeat_entities": 3
   },
   "llm_provider": "openai"
 }
