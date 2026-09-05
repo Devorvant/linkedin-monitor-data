@@ -1,0 +1,1333 @@
+{
+  "schema_version": 1,
+  "source": {
+    "filename": "linkedin_combined_report_2026-09-05_08-13-40.xlsx",
+    "full_path": "H:\\Users\\kusc\\AppData\\Local\\Programs\\Python\\Python311\\linkedin_desktop_automation\\reports\\linkedin_combined_report_2026-09-05_08-13-40.xlsx",
+    "modified_at": "2026-09-05T08:13:40",
+    "converted_at": "2026-09-05T08:13:40"
+  },
+  "sheet_order": [
+    "Summary",
+    "Feed",
+    "Jobs",
+    "Notifications"
+  ],
+  "sheets": {
+    "Summary": {
+      "title": "Summary",
+      "max_row": 4,
+      "max_column": 4,
+      "columns": [
+        "section",
+        "records",
+        "source_report",
+        "status"
+      ],
+      "records": [
+        {
+          "section": "Feed",
+          "records": 54,
+          "source_report": "linkedin_feed_report_2026-09-05_08-10-58.csv",
+          "status": "OK"
+        },
+        {
+          "section": "Jobs",
+          "records": 0,
+          "source_report": null,
+          "status": "не найден"
+        },
+        {
+          "section": "Notifications",
+          "records": 0,
+          "source_report": null,
+          "status": "не найден"
+        }
+      ],
+      "raw_values": [
+        [
+          "section",
+          "records",
+          "source_report",
+          "status"
+        ],
+        [
+          "Feed",
+          54,
+          "linkedin_feed_report_2026-09-05_08-10-58.csv",
+          "OK"
+        ],
+        [
+          "Jobs",
+          0,
+          null,
+          "не найден"
+        ],
+        [
+          "Notifications",
+          0,
+          null,
+          "не найден"
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    },
+    "Feed": {
+      "title": "Feed",
+      "max_row": 55,
+      "max_column": 9,
+      "columns": [
+        "type",
+        "job_id",
+        "title",
+        "company",
+        "location",
+        "url",
+        "source_file",
+        "collected_at",
+        "text"
+      ],
+      "records": [
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Anduril Industries",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/anduril/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Anduril Industries"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Cadence",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/cadence/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Cadence"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "ClassNK - Nippon Kaiji Kyokai",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/classnk/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "ClassNK - Nippon Kaiji Kyokai"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Firefly Aerospace",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/fireflyaerospace/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Firefly Aerospace"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Hermeus",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/hermeus/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Hermeus"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Joby Aviation",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/jobyaviation/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Joby Aviation"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Lockheed Martin",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/lockheed-martin/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Lockheed Martin"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Lockheed Martin Подтверждено Lockheed Martin 3 306 746 отслеживающих",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/lockheed-martin/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Lockheed Martin Подтверждено Lockheed Martin 3 306 746 отслеживающих"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "MathWorks",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/the-mathworks_2/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "MathWorks"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Mayman Aerospace",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/maymanaerospace/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Mayman Aerospace"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "OceanWings",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/oceanwings/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "OceanWings"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Parasoft",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/parasoft/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Parasoft"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Seraph.",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/seraph-consulting-inc/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Seraph."
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Sitecore",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/sitecore/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Sitecore"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Sky-Drones",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/sky-drones/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Sky-Drones"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "SubSea Craft Limited",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/subseacraft-limited/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "SubSea Craft Limited"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Unity",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/unity/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Unity"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Vessel Performance",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/vesselperformance/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Vessel Performance"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Aiden Packard • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/aiden-packard/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Aiden Packard • 3-й+"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Akshay Rajhans, Ph.D. • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/rajhans/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Akshay Rajhans, Ph.D. • 3-й+"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Alexander Shatunov",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Alexander Shatunov"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Emmanuel Schalit",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/emmanuelschalit/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Emmanuel Schalit"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Iram Zubair",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/iram-z-7633a727b/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Iram Zubair"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "J. Micah N. • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/j-micah-n-2552a2188/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "J. Micah N. • 3-й+"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Kira Kuzmenko Founder @NEWHR -​> Global tech market: hiring, research, salary @Hello New Job! -​> job search Отслеживается 2 общими контактами Отслеживать",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/kirakuzmenko/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Kira Kuzmenko Founder @NEWHR -​> Global tech market: hiring, research, salary @Hello New Job! -​> job search Отслеживается 2 общими контактами Отслеживать"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Lakshminarayan Viju Ravichandran",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/lravichandran/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Lakshminarayan Viju Ravichandran"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Rhodri Skyrme • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/rhodriskyrme/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Rhodri Skyrme • 3-й+"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Sachin Jain, Ph.D. • Отслеживаете",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/sachinjainphd/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Sachin Jain, Ph.D. • Отслеживаете"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/devorvant/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Souvick Chatterjee",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/souvick-chatterjee-1649b927/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Souvick Chatterjee"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Tatsiana Davydzenka IT Recruiter Отслеживается 2 общими контактами Отслеживать",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/tatsianadavydzenka/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Tatsiana Davydzenka IT Recruiter Отслеживается 2 общими контактами Отслеживать"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Travis Mathis, профиль Premium, 3-й+ Travis Mathis • 3-й+ Welding Instructor at Universal Technical Institute | AWS CWI/CWE | Welding Inspection & Quality | Robotic Welding & Automation | OT/ICS Cybersecurity",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/travismathis138/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Travis Mathis, профиль Premium, 3-й+ Travis Mathis • 3-й+ Welding Instructor at Universal Technical Institute | AWS CWI/CWE | Welding Inspection & Quality | Robotic Welding & Automation | OT/ICS Cybersecurity"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Yann LeCun Founder/Chair, AMI Labs - Prof, NYU - Partner, 224 Ventures Люди в отрасли «Разработка программного обеспечения» также отслеживают этих людей Отслеживать",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/yann-lecun/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Yann LeCun Founder/Chair, AMI Labs - Prof, NYU - Partner, 224 Ventures Люди в отрасли «Разработка программного обеспечения» также отслеживают этих людей Отслеживать"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Астроно",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/devorvant/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Астроно"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Aiden Packard • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/aiden-packard/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "I’m happy to share that I’m starting a new position as a F-35 Operations Center Analyst at Lockheed Martin !"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Aiden Packard • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/aiden-packard/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Congratulations, Aiden!"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Akshay Rajhans, Ph.D. • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/feed/update/urn:li:share:7500642344166113280/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Be sure to join us next month at MathWorks Research Summit to learn more about Engineered Systems in the age of AI 👇"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Akshay Rajhans, Ph.D. • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/feed/update/urn:li:share:7500642344166113280/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "MathWorks Research Summit is coming to India! After 17 editions of this flagship research and technology conference in Greater Boston and Tokyo, MathWorks is excited to host the inaugural India edition at our Bangalore office on October 27 and 28. The theme of this year's event will be Engineered System Design in the age of AI. What I’m personally most excited about isn’t just bringing the event to India. It’s the opportunity to build and grow a new research community. Many years ago, I started my career as an R&D engineer in India. A lot has changed since then. India’s research and innovation ecosystem has grown tremendously, as has the MathWorks footprint in the country. India has also become an increasingly important part of our research collaborations. The Summit gives us an opportunity to strengthen those existing relationships and build new ones. The goal of the gathering isn’t simply to present work. We want to learn from people across disciplines, have candid conversations about where research is headed, surface challenges that are both global and specific to India, and explore how a common technology platform and ecosystem can help move ideas from exploration to impact. Just as importantly, we hope to create connections that continue well beyond the two days of the Summit. That has been one of the most rewarding outcomes of previous editions, and I’m excited to see what comes from bringing this community together in India. Event registration is free, but by invitation. If you’re interested, you can nominate yourself or a colleague through the nomination form on our Research Summit series page: https://lnkd.in/eGKRTyRu #MathWorksResearchSummit #MathWorks #Research #Engineering #Innovation #India #Academia #MATLAB #Simulink Lakshminarayan Viju Ravichandran , Souvick Chatterjee"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Alexander Shatunov",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "With the introduction of Android XR, Google is taking Maps to the next level with immersive experiences. Discover Google Maps for Android XR"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "As Europe rebuilds its defence industrial base, the automotive industry is uniquely positioned to help fill critical capacity gaps—if they can navigate the operational, regulatory ",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "As Europe rebuilds its defence industrial base, the automotive industry is uniquely positioned to help fill critical capacity gaps—if they can navigate the operational, regulatory and commercial realities of the sector."
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Autonomy has reached high-speed flight. Hermeus selected Anduril to provide end-to-end mission autonomy for its Quarterhorse Mk 2, the first commercial partnership to fly our auton",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Autonomy has reached high-speed flight. Hermeus selected Anduril to provide end-to-end mission autonomy for its Quarterhorse Mk 2, the first commercial partnership to fly our autonomy software on a third-party large aircraft. This critical step pulls forward the next phase of flight: complex, coordinated, collaborative missions. Operators will use Lattice across the full mission cycle, from pre-mission planning to execution to debrief."
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Before every major flight test, our team performs a comprehensive engine performance check, validating key parameters across different power settings - from RPM and throttle respon",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Before every major flight test, our team performs a comprehensive engine performance check, validating key parameters across different power settings - from RPM and throttle response to temperatures, fuel flow and overall propulsion system behaviour. The objective is simple: confirm that everything is operating within the expected parameters before the aircraft leaves the ground. Validate on the ground. Prove it in the air. #SkyDrones #SkyLane480 #EngineTesting #GroundTesting #Propulsion #VTOL #UAV #FlightTesting #Aerospace"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Could a bag of marbles help estimate π? Using Claude Code and MATLAB, our researchers explored hundreds of \"what if?\" questions and ended up discovering a classroom-friendly random",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Could a bag of marbles help estimate π? Using Claude Code and MATLAB, our researchers explored hundreds of \"what if?\" questions and ended up discovering a classroom-friendly random process that converges to π 👉 https://spr.ly/6040BG6yFi"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Emmanuel Schalit",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/emmanuelschalit/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "OceanWings has secured ClassNK - Nippon Kaiji Kyokai Approval in Principle for its Rigid Fixed and Rigid Tiltable wingsail designs, widening the range of vessel applications that can be assessed for wind-assisted propulsion. The approval builds on a 2025 certification covering a 363m² wingsail with a 38-metre span. OceanWings already offers a 407m² model with a 42-metre span, while the latest approval supports consideration of even larger configurations. “The appropriate dimensions are determined by the technical and operational requirements of each vessel, rather than by a predefined size limitation,” said Emmanuel Schalit , CEO of OceanWings. For shipowners and shipyards, the significance is flexibility: wind propulsion can be assessed earlier against vessel type, deck arrangement and operating profile, whether for newbuilds or retrofits. Read the full story here: https://lnkd.in/een2gwgU #WindPropulsion #Maritime #ClassNK #Decarbonisation #Shipping"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Iram Zubair",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/iram-z-7633a727b/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "✈️ Why Flight Control Computing Is Becoming One of Germany’s Hottest Aerospace Markets ✈️ Germany's aerospace sector is entering a critical phase where Flight Control Computing (FCC) expertise is becoming more valuable than ever. As aircraft become increasingly software-defined, the FCC sits at the heart of safety-critical operations, managing everything from flight control laws and redundancy management to system monitoring and pilot interface functions. At the same time, Europe's defence ambitions are creating unprecedented demand for systems, software and certification experts. Programs such as the Eurofighter Typhoon capability upgrades, Airbus A400M modernisation activities, next-generation military avionics programs, and increasing investment in autonomous and connected air systems are driving the development of highly connected, safety-critical computing architectures. These initiatives rely heavily on advanced software, mission computing, avionics integration and robust certification processes to maintain Europe's technological and defence capabilities. For freelancers, this creates a unique opportunity. Companies are actively seeking specialists with backgrounds in: ✅ Flight Control Computing ✅ Avionics Systems Engineering ✅ Software Architecture ✅ System Architecture ✅ Certification & Airworthiness (DO-178C, ARP4754A, DO-254) ✅ Safety-Critical Electronics & Computing Platforms With increasing programme complexity, OEMs and Tier-1 suppliers often need experienced freelancers who can deliver immediately without lengthy onboarding, making freelance talent particularly attractive right now. Whether your experience comes from commercial aerospace, defence aviation, certification, embedded software or complex electronics systems, the demand for FCC expertise across Germany and Europe looks set to remain strong for years to come. It's a great time to be a freelancer in aerospace. Reach out to me at Rhodri.skyrme@vividresourcing.com for more details. #Aerospace #FlightControl #Avionics #SoftwareArchitecture #SystemsEngineering #Certification #DO178C #DO254 #Airbus #Eurofighter #A400M #Defence #Aviation #FreelanceJobs #ContractEngineering #EmbeddedSystems #SafetyCriticalSystems #AerospaceCareers #GermanyJobs #EngineeringConsulting #Airworthiness"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "J. Micah N. • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/j-micah-n-2552a2188/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Incredible visit with the Joby team! There are so many great things ahead! Even more than I had originally anticipated! Can’t wait to get this going!"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "MARS has successfully demonstrated its ability to integrate and launch an Anduril Industries Altius loitering munition from its payload cassette system. Compact, deployable and opt",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "MARS has successfully demonstrated its ability to integrate and launch an Anduril Industries Altius loitering munition from its payload cassette system. Compact, deployable and optimised for expeditionary operation, MARS is designed to deliver an integrated range of effects including electronic warfare effectors, loitering munitions and sonobuoys. A major milestone for MARS and a fantastic achievement by the team involved. #MARS #ALTIUS #Anduril #USV #Autonomy #DefenceInnovation"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Sachin Jain, Ph.D. • Отслеживаете",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/sachinjainphd/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "During a technical review, I asked to see the training data and validation methodology behind a company's \"AI-based multi-sensor classifier.\" What I got back was a fixed decision tree with manually tuned thresholds — no train/test split, no retraining pipeline, a \"confidence score\" that was really just a normalized distance metric with no calibration behind it. Here's the part people miss: that's not automatically a bad system. A deterministic, explainable rule-based classifier can be exactly the right architectural choice for a safety-critical decision path — arguably safer than a black-box model in a domain where you'll eventually have to explain your logic to a test pilot or an OT&E board. The actual problem was calling it \"AI.\" That label invites the wrong due-diligence questions — where's your training data, how do you retrain, what's your drift monitoring — and forfeits the credit you'd get for being deterministic and auditable in a domain where explainability is a selling point, not a weakness. How you characterize your own architecture changes which questions you get asked. Answer the right ones on your own terms. #DoW #Defense #Autonomy #AI"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Still think multibody dynamics simulation is just for motion analysis or early-stage design? That assumption could be slowing your entire engineering process. Learn how leading tea",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Still think multibody dynamics simulation is just for motion analysis or early-stage design? That assumption could be slowing your entire engineering process. Learn how leading teams use MBD to improve accuracy, reduce testing, and accelerate development. 👉 Get the white paper"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Travis Mathis, профиль Premium, 3-й+ Travis Mathis • 3-й+ Welding Instructor at Universal Technical Institute | AWS CWI/CWE | Welding Inspection & Quality | Robotic Welding & Automation | OT/ICS Cybersecurity",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/travismathis138/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "With the release of To the Black, a documentary that chronicles Firefly's early years, we're reminded of where our journey began—and even more importantly, how far we've come. Since then, Firefly has entered a new era of leadership and growth, with multiple launches, the first successful commercial Moon landing, an IPO, and an expanded portfolio that includes AI software capabilities. Our story is just getting started. With an unwavering focus on enhancing reliability, increasing production, and delivering on a growing mission manifest, the most exciting chapters are still to come. https://totheblack.com/"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Travis Mathis, профиль Premium, 3-й+ Travis Mathis • 3-й+ Welding Instructor at Universal Technical Institute | AWS CWI/CWE | Welding Inspection & Quality | Robotic Welding & Automation | OT/ICS Cybersecurity",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/travismathis138/",
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Well, this just made the “when I get home from work” list. Really cool seeing something being built right here in Central Texas grow into something with national—and now lunar—impact. I’m looking forward to seeing the early story behind it."
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Your Guide to ISO 26262 Compliance",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Your Guide to ISO 26262 Compliance"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Your average VTOL can’t move like this. But, the P100 isn’t your average VTOL. Turbine-powered, autonomous and built for speed. This is what tVTOL looks like in flight.",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Your average VTOL can’t move like this. But, the P100 isn’t your average VTOL. Turbine-powered, autonomous and built for speed. This is what tVTOL looks like in flight."
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Your brand is being described in AI answers right now, and you didn't write a word of it. Learn how to choose an enterprise DAM that makes your content the source AI finds, trusts,",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "collected_at": "2026-09-05T08:10:58",
+          "text": "Your brand is being described in AI answers right now, and you didn't write a word of it. Learn how to choose an enterprise DAM that makes your content the source AI finds, trusts, and recommends."
+        }
+      ],
+      "raw_values": [
+        [
+          "type",
+          "job_id",
+          "title",
+          "company",
+          "location",
+          "url",
+          "source_file",
+          "collected_at",
+          "text"
+        ],
+        [
+          "company",
+          null,
+          "Anduril Industries",
+          null,
+          null,
+          "https://www.linkedin.com/company/anduril/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Anduril Industries"
+        ],
+        [
+          "company",
+          null,
+          "Cadence",
+          null,
+          null,
+          "https://www.linkedin.com/company/cadence/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Cadence"
+        ],
+        [
+          "company",
+          null,
+          "ClassNK - Nippon Kaiji Kyokai",
+          null,
+          null,
+          "https://www.linkedin.com/company/classnk/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "ClassNK - Nippon Kaiji Kyokai"
+        ],
+        [
+          "company",
+          null,
+          "Firefly Aerospace",
+          null,
+          null,
+          "https://www.linkedin.com/company/fireflyaerospace/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Firefly Aerospace"
+        ],
+        [
+          "company",
+          null,
+          "Hermeus",
+          null,
+          null,
+          "https://www.linkedin.com/company/hermeus/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Hermeus"
+        ],
+        [
+          "company",
+          null,
+          "Joby Aviation",
+          null,
+          null,
+          "https://www.linkedin.com/company/jobyaviation/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Joby Aviation"
+        ],
+        [
+          "company",
+          null,
+          "Lockheed Martin",
+          null,
+          null,
+          "https://www.linkedin.com/company/lockheed-martin/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Lockheed Martin"
+        ],
+        [
+          "company",
+          null,
+          "Lockheed Martin Подтверждено Lockheed Martin 3 306 746 отслеживающих",
+          null,
+          null,
+          "https://www.linkedin.com/company/lockheed-martin/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Lockheed Martin Подтверждено Lockheed Martin 3 306 746 отслеживающих"
+        ],
+        [
+          "company",
+          null,
+          "MathWorks",
+          null,
+          null,
+          "https://www.linkedin.com/company/the-mathworks_2/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "MathWorks"
+        ],
+        [
+          "company",
+          null,
+          "Mayman Aerospace",
+          null,
+          null,
+          "https://www.linkedin.com/company/maymanaerospace/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Mayman Aerospace"
+        ],
+        [
+          "company",
+          null,
+          "OceanWings",
+          null,
+          null,
+          "https://www.linkedin.com/company/oceanwings/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "OceanWings"
+        ],
+        [
+          "company",
+          null,
+          "Parasoft",
+          null,
+          null,
+          "https://www.linkedin.com/company/parasoft/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Parasoft"
+        ],
+        [
+          "company",
+          null,
+          "Seraph.",
+          null,
+          null,
+          "https://www.linkedin.com/company/seraph-consulting-inc/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Seraph."
+        ],
+        [
+          "company",
+          null,
+          "Sitecore",
+          null,
+          null,
+          "https://www.linkedin.com/company/sitecore/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Sitecore"
+        ],
+        [
+          "company",
+          null,
+          "Sky-Drones",
+          null,
+          null,
+          "https://www.linkedin.com/company/sky-drones/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Sky-Drones"
+        ],
+        [
+          "company",
+          null,
+          "SubSea Craft Limited",
+          null,
+          null,
+          "https://www.linkedin.com/company/subseacraft-limited/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "SubSea Craft Limited"
+        ],
+        [
+          "company",
+          null,
+          "Unity",
+          null,
+          null,
+          "https://www.linkedin.com/company/unity/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Unity"
+        ],
+        [
+          "company",
+          null,
+          "Vessel Performance",
+          null,
+          null,
+          "https://www.linkedin.com/company/vesselperformance/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Vessel Performance"
+        ],
+        [
+          "person",
+          null,
+          "Aiden Packard • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/in/aiden-packard/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Aiden Packard • 3-й+"
+        ],
+        [
+          "person",
+          null,
+          "Akshay Rajhans, Ph.D. • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/in/rajhans/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Akshay Rajhans, Ph.D. • 3-й+"
+        ],
+        [
+          "person",
+          null,
+          "Alexander Shatunov",
+          null,
+          null,
+          "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Alexander Shatunov"
+        ],
+        [
+          "person",
+          null,
+          "Emmanuel Schalit",
+          null,
+          null,
+          "https://www.linkedin.com/in/emmanuelschalit/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Emmanuel Schalit"
+        ],
+        [
+          "person",
+          null,
+          "Iram Zubair",
+          null,
+          null,
+          "https://www.linkedin.com/in/iram-z-7633a727b/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Iram Zubair"
+        ],
+        [
+          "person",
+          null,
+          "J. Micah N. • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/in/j-micah-n-2552a2188/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "J. Micah N. • 3-й+"
+        ],
+        [
+          "person",
+          null,
+          "Kira Kuzmenko Founder @NEWHR -​> Global tech market: hiring, research, salary @Hello New Job! -​> job search Отслеживается 2 общими контактами Отслеживать",
+          null,
+          null,
+          "https://www.linkedin.com/in/kirakuzmenko/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Kira Kuzmenko Founder @NEWHR -​> Global tech market: hiring, research, salary @Hello New Job! -​> job search Отслеживается 2 общими контактами Отслеживать"
+        ],
+        [
+          "person",
+          null,
+          "Lakshminarayan Viju Ravichandran",
+          null,
+          null,
+          "https://www.linkedin.com/in/lravichandran/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Lakshminarayan Viju Ravichandran"
+        ],
+        [
+          "person",
+          null,
+          "Rhodri Skyrme • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/in/rhodriskyrme/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Rhodri Skyrme • 3-й+"
+        ],
+        [
+          "person",
+          null,
+          "Sachin Jain, Ph.D. • Отслеживаете",
+          null,
+          null,
+          "https://www.linkedin.com/in/sachinjainphd/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Sachin Jain, Ph.D. • Отслеживаете"
+        ],
+        [
+          "person",
+          null,
+          "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва",
+          null,
+          null,
+          "https://www.linkedin.com/in/devorvant/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва"
+        ],
+        [
+          "person",
+          null,
+          "Souvick Chatterjee",
+          null,
+          null,
+          "https://www.linkedin.com/in/souvick-chatterjee-1649b927/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Souvick Chatterjee"
+        ],
+        [
+          "person",
+          null,
+          "Tatsiana Davydzenka IT Recruiter Отслеживается 2 общими контактами Отслеживать",
+          null,
+          null,
+          "https://www.linkedin.com/in/tatsianadavydzenka/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Tatsiana Davydzenka IT Recruiter Отслеживается 2 общими контактами Отслеживать"
+        ],
+        [
+          "person",
+          null,
+          "Travis Mathis, профиль Premium, 3-й+ Travis Mathis • 3-й+ Welding Instructor at Universal Technical Institute | AWS CWI/CWE | Welding Inspection & Quality | Robotic Welding & Automation | OT/ICS Cybersecurity",
+          null,
+          null,
+          "https://www.linkedin.com/in/travismathis138/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Travis Mathis, профиль Premium, 3-й+ Travis Mathis • 3-й+ Welding Instructor at Universal Technical Institute | AWS CWI/CWE | Welding Inspection & Quality | Robotic Welding & Automation | OT/ICS Cybersecurity"
+        ],
+        [
+          "person",
+          null,
+          "Yann LeCun Founder/Chair, AMI Labs - Prof, NYU - Partner, 224 Ventures Люди в отрасли «Разработка программного обеспечения» также отслеживают этих людей Отслеживать",
+          null,
+          null,
+          "https://www.linkedin.com/in/yann-lecun/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Yann LeCun Founder/Chair, AMI Labs - Prof, NYU - Partner, 224 Ventures Люди в отрасли «Разработка программного обеспечения» также отслеживают этих людей Отслеживать"
+        ],
+        [
+          "person",
+          null,
+          "Астроно",
+          null,
+          null,
+          "https://www.linkedin.com/in/devorvant/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Астроно"
+        ],
+        [
+          "post",
+          null,
+          "Aiden Packard • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/in/aiden-packard/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "I’m happy to share that I’m starting a new position as a F-35 Operations Center Analyst at Lockheed Martin !"
+        ],
+        [
+          "post",
+          null,
+          "Aiden Packard • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/in/aiden-packard/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Congratulations, Aiden!"
+        ],
+        [
+          "post",
+          null,
+          "Akshay Rajhans, Ph.D. • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/feed/update/urn:li:share:7500642344166113280/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Be sure to join us next month at MathWorks Research Summit to learn more about Engineered Systems in the age of AI 👇"
+        ],
+        [
+          "post",
+          null,
+          "Akshay Rajhans, Ph.D. • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/feed/update/urn:li:share:7500642344166113280/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "MathWorks Research Summit is coming to India! After 17 editions of this flagship research and technology conference in Greater Boston and Tokyo, MathWorks is excited to host the inaugural India edition at our Bangalore office on October 27 and 28. The theme of this year's event will be Engineered System Design in the age of AI. What I’m personally most excited about isn’t just bringing the event to India. It’s the opportunity to build and grow a new research community. Many years ago, I started my career as an R&D engineer in India. A lot has changed since then. India’s research and innovation ecosystem has grown tremendously, as has the MathWorks footprint in the country. India has also become an increasingly important part of our research collaborations. The Summit gives us an opportunity to strengthen those existing relationships and build new ones. The goal of the gathering isn’t simply to present work. We want to learn from people across disciplines, have candid conversations about where research is headed, surface challenges that are both global and specific to India, and explore how a common technology platform and ecosystem can help move ideas from exploration to impact. Just as importantly, we hope to create connections that continue well beyond the two days of the Summit. That has been one of the most rewarding outcomes of previous editions, and I’m excited to see what comes from bringing this community together in India. Event registration is free, but by invitation. If you’re interested, you can nominate yourself or a colleague through the nomination form on our Research Summit series page: https://lnkd.in/eGKRTyRu #MathWorksResearchSummit #MathWorks #Research #Engineering #Innovation #India #Academia #MATLAB #Simulink Lakshminarayan Viju Ravichandran , Souvick Chatterjee"
+        ],
+        [
+          "post",
+          null,
+          "Alexander Shatunov",
+          null,
+          null,
+          "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "With the introduction of Android XR, Google is taking Maps to the next level with immersive experiences. Discover Google Maps for Android XR"
+        ],
+        [
+          "post",
+          null,
+          "As Europe rebuilds its defence industrial base, the automotive industry is uniquely positioned to help fill critical capacity gaps—if they can navigate the operational, regulatory ",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "As Europe rebuilds its defence industrial base, the automotive industry is uniquely positioned to help fill critical capacity gaps—if they can navigate the operational, regulatory and commercial realities of the sector."
+        ],
+        [
+          "post",
+          null,
+          "Autonomy has reached high-speed flight. Hermeus selected Anduril to provide end-to-end mission autonomy for its Quarterhorse Mk 2, the first commercial partnership to fly our auton",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Autonomy has reached high-speed flight. Hermeus selected Anduril to provide end-to-end mission autonomy for its Quarterhorse Mk 2, the first commercial partnership to fly our autonomy software on a third-party large aircraft. This critical step pulls forward the next phase of flight: complex, coordinated, collaborative missions. Operators will use Lattice across the full mission cycle, from pre-mission planning to execution to debrief."
+        ],
+        [
+          "post",
+          null,
+          "Before every major flight test, our team performs a comprehensive engine performance check, validating key parameters across different power settings - from RPM and throttle respon",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Before every major flight test, our team performs a comprehensive engine performance check, validating key parameters across different power settings - from RPM and throttle response to temperatures, fuel flow and overall propulsion system behaviour. The objective is simple: confirm that everything is operating within the expected parameters before the aircraft leaves the ground. Validate on the ground. Prove it in the air. #SkyDrones #SkyLane480 #EngineTesting #GroundTesting #Propulsion #VTOL #UAV #FlightTesting #Aerospace"
+        ],
+        [
+          "post",
+          null,
+          "Could a bag of marbles help estimate π? Using Claude Code and MATLAB, our researchers explored hundreds of \"what if?\" questions and ended up discovering a classroom-friendly random",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Could a bag of marbles help estimate π? Using Claude Code and MATLAB, our researchers explored hundreds of \"what if?\" questions and ended up discovering a classroom-friendly random process that converges to π 👉 https://spr.ly/6040BG6yFi"
+        ],
+        [
+          "post",
+          null,
+          "Emmanuel Schalit",
+          null,
+          null,
+          "https://www.linkedin.com/in/emmanuelschalit/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "OceanWings has secured ClassNK - Nippon Kaiji Kyokai Approval in Principle for its Rigid Fixed and Rigid Tiltable wingsail designs, widening the range of vessel applications that can be assessed for wind-assisted propulsion. The approval builds on a 2025 certification covering a 363m² wingsail with a 38-metre span. OceanWings already offers a 407m² model with a 42-metre span, while the latest approval supports consideration of even larger configurations. “The appropriate dimensions are determined by the technical and operational requirements of each vessel, rather than by a predefined size limitation,” said Emmanuel Schalit , CEO of OceanWings. For shipowners and shipyards, the significance is flexibility: wind propulsion can be assessed earlier against vessel type, deck arrangement and operating profile, whether for newbuilds or retrofits. Read the full story here: https://lnkd.in/een2gwgU #WindPropulsion #Maritime #ClassNK #Decarbonisation #Shipping"
+        ],
+        [
+          "post",
+          null,
+          "Iram Zubair",
+          null,
+          null,
+          "https://www.linkedin.com/in/iram-z-7633a727b/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "✈️ Why Flight Control Computing Is Becoming One of Germany’s Hottest Aerospace Markets ✈️ Germany's aerospace sector is entering a critical phase where Flight Control Computing (FCC) expertise is becoming more valuable than ever. As aircraft become increasingly software-defined, the FCC sits at the heart of safety-critical operations, managing everything from flight control laws and redundancy management to system monitoring and pilot interface functions. At the same time, Europe's defence ambitions are creating unprecedented demand for systems, software and certification experts. Programs such as the Eurofighter Typhoon capability upgrades, Airbus A400M modernisation activities, next-generation military avionics programs, and increasing investment in autonomous and connected air systems are driving the development of highly connected, safety-critical computing architectures. These initiatives rely heavily on advanced software, mission computing, avionics integration and robust certification processes to maintain Europe's technological and defence capabilities. For freelancers, this creates a unique opportunity. Companies are actively seeking specialists with backgrounds in: ✅ Flight Control Computing ✅ Avionics Systems Engineering ✅ Software Architecture ✅ System Architecture ✅ Certification & Airworthiness (DO-178C, ARP4754A, DO-254) ✅ Safety-Critical Electronics & Computing Platforms With increasing programme complexity, OEMs and Tier-1 suppliers often need experienced freelancers who can deliver immediately without lengthy onboarding, making freelance talent particularly attractive right now. Whether your experience comes from commercial aerospace, defence aviation, certification, embedded software or complex electronics systems, the demand for FCC expertise across Germany and Europe looks set to remain strong for years to come. It's a great time to be a freelancer in aerospace. Reach out to me at Rhodri.skyrme@vividresourcing.com for more details. #Aerospace #FlightControl #Avionics #SoftwareArchitecture #SystemsEngineering #Certification #DO178C #DO254 #Airbus #Eurofighter #A400M #Defence #Aviation #FreelanceJobs #ContractEngineering #EmbeddedSystems #SafetyCriticalSystems #AerospaceCareers #GermanyJobs #EngineeringConsulting #Airworthiness"
+        ],
+        [
+          "post",
+          null,
+          "J. Micah N. • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/in/j-micah-n-2552a2188/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Incredible visit with the Joby team! There are so many great things ahead! Even more than I had originally anticipated! Can’t wait to get this going!"
+        ],
+        [
+          "post",
+          null,
+          "MARS has successfully demonstrated its ability to integrate and launch an Anduril Industries Altius loitering munition from its payload cassette system. Compact, deployable and opt",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "MARS has successfully demonstrated its ability to integrate and launch an Anduril Industries Altius loitering munition from its payload cassette system. Compact, deployable and optimised for expeditionary operation, MARS is designed to deliver an integrated range of effects including electronic warfare effectors, loitering munitions and sonobuoys. A major milestone for MARS and a fantastic achievement by the team involved. #MARS #ALTIUS #Anduril #USV #Autonomy #DefenceInnovation"
+        ],
+        [
+          "post",
+          null,
+          "Sachin Jain, Ph.D. • Отслеживаете",
+          null,
+          null,
+          "https://www.linkedin.com/in/sachinjainphd/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "During a technical review, I asked to see the training data and validation methodology behind a company's \"AI-based multi-sensor classifier.\" What I got back was a fixed decision tree with manually tuned thresholds — no train/test split, no retraining pipeline, a \"confidence score\" that was really just a normalized distance metric with no calibration behind it. Here's the part people miss: that's not automatically a bad system. A deterministic, explainable rule-based classifier can be exactly the right architectural choice for a safety-critical decision path — arguably safer than a black-box model in a domain where you'll eventually have to explain your logic to a test pilot or an OT&E board. The actual problem was calling it \"AI.\" That label invites the wrong due-diligence questions — where's your training data, how do you retrain, what's your drift monitoring — and forfeits the credit you'd get for being deterministic and auditable in a domain where explainability is a selling point, not a weakness. How you characterize your own architecture changes which questions you get asked. Answer the right ones on your own terms. #DoW #Defense #Autonomy #AI"
+        ],
+        [
+          "post",
+          null,
+          "Still think multibody dynamics simulation is just for motion analysis or early-stage design? That assumption could be slowing your entire engineering process. Learn how leading tea",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Still think multibody dynamics simulation is just for motion analysis or early-stage design? That assumption could be slowing your entire engineering process. Learn how leading teams use MBD to improve accuracy, reduce testing, and accelerate development. 👉 Get the white paper"
+        ],
+        [
+          "post",
+          null,
+          "Travis Mathis, профиль Premium, 3-й+ Travis Mathis • 3-й+ Welding Instructor at Universal Technical Institute | AWS CWI/CWE | Welding Inspection & Quality | Robotic Welding & Automation | OT/ICS Cybersecurity",
+          null,
+          null,
+          "https://www.linkedin.com/in/travismathis138/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "With the release of To the Black, a documentary that chronicles Firefly's early years, we're reminded of where our journey began—and even more importantly, how far we've come. Since then, Firefly has entered a new era of leadership and growth, with multiple launches, the first successful commercial Moon landing, an IPO, and an expanded portfolio that includes AI software capabilities. Our story is just getting started. With an unwavering focus on enhancing reliability, increasing production, and delivering on a growing mission manifest, the most exciting chapters are still to come. https://totheblack.com/"
+        ],
+        [
+          "post",
+          null,
+          "Travis Mathis, профиль Premium, 3-й+ Travis Mathis • 3-й+ Welding Instructor at Universal Technical Institute | AWS CWI/CWE | Welding Inspection & Quality | Robotic Welding & Automation | OT/ICS Cybersecurity",
+          null,
+          null,
+          "https://www.linkedin.com/in/travismathis138/",
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Well, this just made the “when I get home from work” list. Really cool seeing something being built right here in Central Texas grow into something with national—and now lunar—impact. I’m looking forward to seeing the early story behind it."
+        ],
+        [
+          "post",
+          null,
+          "Your Guide to ISO 26262 Compliance",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Your Guide to ISO 26262 Compliance"
+        ],
+        [
+          "post",
+          null,
+          "Your average VTOL can’t move like this. But, the P100 isn’t your average VTOL. Turbine-powered, autonomous and built for speed. This is what tVTOL looks like in flight.",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Your average VTOL can’t move like this. But, the P100 isn’t your average VTOL. Turbine-powered, autonomous and built for speed. This is what tVTOL looks like in flight."
+        ],
+        [
+          "post",
+          null,
+          "Your brand is being described in AI answers right now, and you didn't write a word of it. Learn how to choose an enterprise DAM that makes your content the source AI finds, trusts,",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-05_08-10-50.mhtml",
+          "2026-09-05T08:10:58",
+          "Your brand is being described in AI answers right now, and you didn't write a word of it. Learn how to choose an enterprise DAM that makes your content the source AI finds, trusts, and recommends."
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    },
+    "Jobs": {
+      "title": "Jobs",
+      "max_row": 1,
+      "max_column": 1,
+      "columns": [
+        "column_1"
+      ],
+      "records": [],
+      "raw_values": [
+        [
+          null
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    },
+    "Notifications": {
+      "title": "Notifications",
+      "max_row": 1,
+      "max_column": 1,
+      "columns": [
+        "column_1"
+      ],
+      "records": [],
+      "raw_values": [
+        [
+          null
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    }
+  }
+}
