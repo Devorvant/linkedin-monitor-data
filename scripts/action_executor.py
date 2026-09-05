@@ -95,7 +95,12 @@ def approved_items(payload: dict) -> list[dict]:
 
 
 def item_url(item: dict) -> str:
-    return str(item.get("profile_url") or item.get("source_url") or "").strip()
+    return str(
+        item.get("execution_url")
+        or item.get("profile_url")
+        or item.get("source_url")
+        or ""
+    ).strip()
 
 
 def item_label(item: dict) -> str:
@@ -115,26 +120,6 @@ def print_queue(items: list[dict]) -> None:
             print(f"      URL: {item_url(item)}")
         if item.get("reason"):
             print(f"      reason: {item['reason']}")
-
-
-def choose_action(items: list[dict]) -> dict | None:
-    if not items:
-        return None
-    if len(items) == 1:
-        print("\nВ очереди одно действие — выбираю его автоматически.")
-        return items[0]
-    raw = input("\nВыбери действие [1..N], Enter = выход: ").strip()
-    if not raw:
-        return None
-    try:
-        index = int(raw)
-    except ValueError:
-        print("Нужно ввести номер действия.")
-        return None
-    if not 1 <= index <= len(items):
-        print("Такого номера нет.")
-        return None
-    return items[index - 1]
 
 
 def print_preview(item: dict) -> None:
@@ -374,6 +359,28 @@ def execute_follow_company(item: dict, device: dict) -> None:
             print(f"     Не удалось закрыть вкладку автоматически: {exc}")
 
 
+def unique_supported_actions(items: list[dict]) -> tuple[list[dict], list[dict]]:
+    supported: list[dict] = []
+    unsupported: list[dict] = []
+    seen_ids: set[str] = set()
+
+    for item in items:
+        action = str(item.get("action") or "")
+        if action != "follow_company":
+            unsupported.append(item)
+            continue
+
+        action_id = str(item.get("action_id") or "").strip()
+        if action_id and action_id in seen_ids:
+            print(f"SKIP duplicate action_id: {action_id}")
+            continue
+        if action_id:
+            seen_ids.add(action_id)
+        supported.append(item)
+
+    return supported, unsupported
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="LinkedIn approved-action executor")
     parser.add_argument("--device", choices=["1", "2"], help="1=laptop, 2=pc2")
@@ -384,7 +391,7 @@ def main() -> int:
     root = device["root"]
     print(f"\nDevice: {device['name']}")
     print(f"Project root: {root}")
-    print("Mode: EXECUTE follow_company only; UNKNOWN never clicks")
+    print("Mode: AUTONOMOUS follow_company only; UNKNOWN never clicks")
 
     secret = load_secret(root)
     items = approved_items(fetch_queue(secret))
@@ -393,16 +400,33 @@ def main() -> int:
 
     if args.list or not items:
         return 0
-    selected = choose_action(items)
-    if selected is None:
-        print("Выход без выполнения.")
+
+    supported, unsupported = unique_supported_actions(items)
+    print(f"\nAutonomous plan: follow_company={len(supported)}, unsupported_skip={len(unsupported)}")
+    for item in unsupported:
+        print(f"  SKIP unsupported: {item_label(item)}")
+
+    if not supported:
+        print("Нет поддерживаемых follow_company. Executor завершён без действий.")
         return 0
 
-    print_preview(selected)
-    if str(selected.get("action") or "") == "follow_company":
-        execute_follow_company(selected, device)
-    else:
-        print("Реальное выполнение для этого типа действия пока не включено.")
+    errors = 0
+    for index, item in enumerate(supported, 1):
+        print("\n" + "=" * 66)
+        print(f"AUTO ACTION {index}/{len(supported)}")
+        print("=" * 66)
+        print_preview(item)
+        try:
+            execute_follow_company(item, device)
+        except Exception as exc:
+            errors += 1
+            print(f"EXECUTOR ERROR for {item_label(item)}: {type(exc).__name__}: {exc}")
+            print("Продолжаю со следующим действием.")
+
+    print("\n" + "=" * 66)
+    print("AUTONOMOUS EXECUTOR FINISHED")
+    print(f"follow_company processed={len(supported)}, unsupported_skipped={len(unsupported)}, exceptions={errors}")
+    print("Возвращаю управление wrapper/dispatcher, чтобы цикл мог завершиться и компьютер выключился.")
     return 0
 
 
