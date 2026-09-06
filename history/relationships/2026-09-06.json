@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-06T08:28:06.926039+00:00",
+  "generated_at": "2026-09-06T08:32:23.136659+00:00",
   "status_model": {
     "allowed": [
       "WATCH",
@@ -22,12 +22,12 @@
     "note": "Automation preserves manual fields. profile_url is distinct from source_url. Outbound remains approval-only."
   },
   "summary": {
-    "total": 63,
-    "people": 44,
-    "companies": 19,
-    "people_with_profile_url": 30,
+    "total": 70,
+    "people": 50,
+    "companies": 20,
+    "people_with_profile_url": 35,
     "status_counts": {
-      "WATCH": 63,
+      "WATCH": 70,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -35,9 +35,9 @@
       "REPLIED": 0,
       "CLOSED": 0
     },
-    "review_recommended": 16,
+    "review_recommended": 14,
     "do_not_contact": 0,
-    "repeat_entities": 9
+    "repeat_entities": 11
   },
   "items": [
     {
@@ -52,16 +52,16 @@
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
-      "last_seen": "2026-09-03T05:12:41.718126+00:00",
-      "times_seen": 3,
+      "last_seen": "2026-09-06T08:32:23.136659+00:00",
+      "times_seen": 4,
       "score": 91,
-      "latest_priority": "high",
-      "latest_confidence": 96,
+      "latest_priority": "medium",
+      "latest_confidence": 88,
       "priority_counts": {
         "high": 2,
-        "medium": 0
+        "medium": 1
       },
-      "suggested_action": "connect_person",
+      "suggested_action": "follow_person",
       "companies": [],
       "roles": [
         "PX4 contributor"
@@ -69,7 +69,8 @@
       "source_signal_ids": [
         "sig_50e52efecb3f028a",
         "sig_b0b2c48fc5e8d2ab",
-        "sig_894f3ead3d1d7ae7"
+        "sig_894f3ead3d1d7ae7",
+        "sig_a79a8153d69ff5fc"
       ],
       "signal_history": [
         {
@@ -136,13 +137,39 @@
             "EMA filtering"
           ],
           "source": "feed_signal"
+        },
+        {
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "signal_id": "sig_a79a8153d69ff5fc",
+          "priority": "medium",
+          "confidence": 88,
+          "source_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+          "profile_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+          "reason": "The post describes a cross-platform C++ SDK for real-time computer vision and embedded video processing. This aligns with the profile's experience in C++, embedded systems, computer vision, CUDA, telemetry, and autonomous platforms. No job opening or hiring intent is stated.",
+          "projects": [
+            "RapidPixel SDK v1.22.0"
+          ],
+          "technologies": [
+            "C++17",
+            "Linux",
+            "Windows",
+            "NVIDIA Jetson",
+            "Raspberry Pi",
+            "NXP i.MX8/i.MX9",
+            "Video Capture",
+            "Video Encoding and Decoding",
+            "Real-Time Processing",
+            "Object Tracking"
+          ],
+          "source": "feed_signal"
         }
       ],
       "reasons": [
         "The post describes a direct integration of a Python-based multirotor simulator with aerodynamic modeling, Gymnasium support, and PX4 SITL. This strongly matches the profile's experience in UAV flight control, simulation, autonomy, MATLAB/Python workflows, and autopilot development. The author is a concrete, technically relevant person connected to the PX4 and RotorPy work, but the post does not indicate hiring.",
         "The post describes a merged PX4 integration for RotorPy, a Python-based multirotor simulator with aerodynamic modeling, Gymnasium support, SITL support and documentation. These topics closely match the profile's focus on UAVs, simulation, autonomy, flight dynamics and control systems. The author is a concrete technical contributor who may be relevant for knowledge exchange, but no employer or hiring activity is stated.",
         "The post describes a concrete embedded robotics and flight-telemetry project involving real-time sensor processing, IMU calibration, sensor fusion, orientation estimation, ROS 2, offline telemetry replay and 3D visualization. These areas closely match the profile's experience in flight dynamics, telemetry analysis, simulation, sensor fusion, embedded control, robotics and autonomous systems. The author is a concrete technically relevant person, although no employer, role or hiring activity is stated.",
-        "The post describes a technically substantial autonomous-drone project involving ROS 2, sim-to-real validation, computer vision, estimation, flight control, ArduPilot integration, embedded computing, latency optimization, and fail-safe behavior. These areas closely match the profile's focus on GNC, UAVs, autopilot algorithms, simulation, autonomy, telemetry, and control systems. The author also explicitly states that they are exploring Master's thesis and internship opportunities in GNC for Spring 2027, creating a concrete networking opportunity but not an employer hiring signal."
+        "The post describes a technically substantial autonomous-drone project involving ROS 2, sim-to-real validation, computer vision, estimation, flight control, ArduPilot integration, embedded computing, latency optimization, and fail-safe behavior. These areas closely match the profile's focus on GNC, UAVs, autopilot algorithms, simulation, autonomy, telemetry, and control systems. The author also explicitly states that they are exploring Master's thesis and internship opportunities in GNC for Spring 2027, creating a concrete networking opportunity but not an employer hiring signal.",
+        "The post describes a cross-platform C++ SDK for real-time computer vision and embedded video processing. This aligns with the profile's experience in C++, embedded systems, computer vision, CUDA, telemetry, and autonomous platforms. No job opening or hiring intent is stated."
       ],
       "latest_source_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
       "status_history": [
@@ -155,9 +182,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-09-03T05:12:41.718126+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-03T05:12:41.718126+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "person:iram zubair",
@@ -250,7 +277,7 @@
       "times_seen": 2,
       "score": 88,
       "latest_priority": "high",
-      "latest_confidence": 96,
+      "latest_confidence": 94,
       "priority_counts": {
         "high": 2,
         "medium": 0
@@ -321,9 +348,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "person:dale r. marks",
@@ -341,7 +368,7 @@
       "times_seen": 1,
       "score": 88,
       "latest_priority": "high",
-      "latest_confidence": 96,
+      "latest_confidence": 94,
       "priority_counts": {
         "high": 1,
         "medium": 0
@@ -350,7 +377,9 @@
       "companies": [
         "Saildrone"
       ],
-      "roles": [],
+      "roles": [
+        "The Honorable"
+      ],
       "source_signal_ids": [
         "sig_b53549c3e059425f"
       ],
@@ -388,9 +417,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "person:erik balck sørensen",
@@ -408,7 +437,7 @@
       "times_seen": 1,
       "score": 88,
       "latest_priority": "high",
-      "latest_confidence": 96,
+      "latest_confidence": 94,
       "priority_counts": {
         "high": 1,
         "medium": 0
@@ -455,9 +484,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "person:prince joachim of denmark",
@@ -475,7 +504,7 @@
       "times_seen": 1,
       "score": 88,
       "latest_priority": "high",
-      "latest_confidence": 96,
+      "latest_confidence": 94,
       "priority_counts": {
         "high": 1,
         "medium": 0
@@ -524,9 +553,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "person:richard jenkins",
@@ -544,7 +573,7 @@
       "times_seen": 1,
       "score": 88,
       "latest_priority": "high",
-      "latest_confidence": 96,
+      "latest_confidence": 94,
       "priority_counts": {
         "high": 1,
         "medium": 0
@@ -554,7 +583,8 @@
         "Saildrone"
       ],
       "roles": [
-        "Founder and CEO of Saildrone"
+        "Founder and CEO of Saildrone",
+        "Founder and CEO"
       ],
       "source_signal_ids": [
         "sig_b53549c3e059425f"
@@ -593,9 +623,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "person:robert kleist",
@@ -613,7 +643,7 @@
       "times_seen": 1,
       "score": 88,
       "latest_priority": "high",
-      "latest_confidence": 96,
+      "latest_confidence": 94,
       "priority_counts": {
         "high": 1,
         "medium": 0
@@ -662,9 +692,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "company:embention",
@@ -783,14 +813,14 @@
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/company/the-mathworks_2/",
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
-      "last_seen": "2026-09-05T05:12:45.953970+00:00",
-      "times_seen": 5,
+      "last_seen": "2026-09-06T08:32:23.136659+00:00",
+      "times_seen": 6,
       "score": 83,
-      "latest_priority": "high",
-      "latest_confidence": 91,
+      "latest_priority": "medium",
+      "latest_confidence": 93,
       "priority_counts": {
         "high": 2,
-        "medium": 2
+        "medium": 3
       },
       "suggested_action": "follow_company",
       "companies": [
@@ -802,7 +832,8 @@
         "sig_873e1c895736bd26",
         "sig_91bb93edb5faa6d2",
         "sig_b3d965723b423822",
-        "sig_3f83dafd640dcd51"
+        "sig_3f83dafd640dcd51",
+        "sig_6565118cced5d2a0"
       ],
       "signal_history": [
         {
@@ -891,16 +922,28 @@
             "Simulink"
           ],
           "source": "feed_signal"
+        },
+        {
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "signal_id": "sig_6565118cced5d2a0",
+          "priority": "medium",
+          "confidence": 93,
+          "source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+          "profile_url": "https://www.linkedin.com/company/the-mathworks_2/",
+          "reason": "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "feed_signal"
         }
       ],
       "reasons": [
-        "The post is directly relevant to the profile's MATLAB/Simulink and engineering-simulation background. It describes a MathWorks-supported technical education program, demonstrations, training resources, and access to MATLAB and Simulink. The named MathWorks and ARKANCE participants provide concrete people to investigate, although the post contains no job or hiring information.",
         "The post highlights MATLAB and Simulink in wireless communications and cross-discipline design. These tools are directly aligned with the profile, although the specific wireless-communications focus is adjacent rather than central to flight control, GNC, UAV and autonomous-systems work.",
         "The post confirms MathWorks is bringing an intern into a full-time position and describes work involving AI, usability evaluation, and human-centered research. MathWorks is potentially relevant to the profile because of its association with engineering software, but the post does not identify a flight-control, simulation, robotics, or engineering vacancy. The named manager, mentors, and sponsors are concrete people connected to MathWorks and may provide networking context, although their technical relevance is not established.",
         "The post highlights MathWorks research projects using MATLAB and Simulink across computer vision, robotics, physics-based optimization and sensor simulation, closely matching the profile's control, simulation, robotics and MATLAB/Simulink background. It contains no hiring indication.",
-        "The post announces MathWorks Research Summit India, focused on engineered system design in the age of AI, and explicitly features MATLAB and Simulink. This aligns with the profile's flight-control, simulation, modeling, and autonomous-systems expertise. The event also offers a concrete opportunity to identify and connect with relevant MathWorks research and engineering contacts, although it is invitation-based rather than a job opening."
+        "The post announces MathWorks Research Summit India, focused on engineered system design in the age of AI, and explicitly features MATLAB and Simulink. This aligns with the profile's flight-control, simulation, modeling, and autonomous-systems expertise. The event also offers a concrete opportunity to identify and connect with relevant MathWorks research and engineering contacts, although it is invitation-based rather than a job opening.",
+        "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information."
       ],
-      "latest_source_url": "https://www.linkedin.com/feed/update/urn:li:share:7500642344166113280/",
+      "latest_source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
       "status_history": [
         {
           "status": "WATCH",
@@ -911,9 +954,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-05T05:12:45.953970+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-05T05:12:45.953970+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "company:open ocean robotics",
@@ -1259,6 +1302,273 @@
       "updated_at": "2026-09-05T05:12:45.953970+00:00"
     },
     {
+      "id": "person:lt. gen. joseph jarrard",
+      "kind": "person",
+      "name": "Lt. Gen. Joseph Jarrard",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": null,
+      "first_seen": "2026-09-06T08:32:23.136659+00:00",
+      "last_seen": "2026-09-06T08:32:23.136659+00:00",
+      "times_seen": 1,
+      "score": 82,
+      "latest_priority": "high",
+      "latest_confidence": 91,
+      "priority_counts": {
+        "high": 1,
+        "medium": 0
+      },
+      "suggested_action": "follow_person",
+      "companies": [],
+      "roles": [
+        "deputy commander of NORTHCOM"
+      ],
+      "source_signal_ids": [
+        "sig_efb8fda979a4c527"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "signal_id": "sig_efb8fda979a4c527",
+          "priority": "high",
+          "confidence": 91,
+          "source_url": "https://www.linkedin.com/in/sachinjainphd/",
+          "profile_url": null,
+          "reason": "The post analyzes counter-UAS detection, multimodal sensor fusion, track correlation, latency, and false-positive suppression. These topics closely overlap the profile's sensor-fusion, autonomy, UAV, telemetry, and control-systems expertise, although no specific job or project engagement is announced.",
+          "projects": [
+            "layered counter-drone defense",
+            "counter-UAS detection and track-fusion systems"
+          ],
+          "technologies": [
+            "sensor fusion",
+            "RF detection",
+            "AI video classification",
+            "track correlation",
+            "fusion latency",
+            "false-positive suppression",
+            "kinetic effectors",
+            "non-kinetic effectors"
+          ],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The post analyzes counter-UAS detection, multimodal sensor fusion, track correlation, latency, and false-positive suppression. These topics closely overlap the profile's sensor-fusion, autonomy, UAV, telemetry, and control-systems expertise, although no specific job or project engagement is announced."
+      ],
+      "latest_source_url": "https://www.linkedin.com/in/sachinjainphd/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+      },
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+    },
+    {
+      "id": "person:sachin jain, ph.d.",
+      "kind": "person",
+      "name": "Sachin Jain, Ph.D.",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/sachinjainphd/",
+      "first_seen": "2026-09-01T05:11:50.873106+00:00",
+      "last_seen": "2026-09-06T08:32:23.136659+00:00",
+      "times_seen": 2,
+      "score": 82,
+      "latest_priority": "high",
+      "latest_confidence": 91,
+      "priority_counts": {
+        "high": 1,
+        "medium": 1
+      },
+      "suggested_action": "follow_person",
+      "companies": [
+        "NODA AI"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_7b169f939c1b2b76",
+        "sig_efb8fda979a4c527"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-09-01T05:11:50.873106+00:00",
+          "signal_id": "sig_7b169f939c1b2b76",
+          "priority": "medium",
+          "confidence": 91,
+          "source_url": "https://www.linkedin.com/in/sachinjainphd/",
+          "profile_url": "https://www.linkedin.com/in/sachinjainphd/",
+          "reason": "The post addresses scaling autonomy and drone-swarm orchestration across heterogeneous platforms, including extensible interfaces, integration boundaries, data models, and failure modes. These topics closely align with the profile's UAV, autonomous-systems, flight-control, and multidisciplinary engineering background. The author is a concrete person discussing autonomy-company architecture and defense program scaling, but the post contains no hiring or vacancy signal.",
+          "projects": [
+            "LUCAS",
+            "Joint Force enterprise-wide autonomy deployment"
+          ],
+          "technologies": [
+            "autonomy",
+            "drone-swarm orchestration",
+            "platform integration",
+            "versioned interfaces",
+            "data-model integration",
+            "failure-mode handling"
+          ],
+          "source": "feed_signal"
+        },
+        {
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "signal_id": "sig_efb8fda979a4c527",
+          "priority": "high",
+          "confidence": 91,
+          "source_url": "https://www.linkedin.com/in/sachinjainphd/",
+          "profile_url": "https://www.linkedin.com/in/sachinjainphd/",
+          "reason": "The post analyzes counter-UAS detection, multimodal sensor fusion, track correlation, latency, and false-positive suppression. These topics closely overlap the profile's sensor-fusion, autonomy, UAV, telemetry, and control-systems expertise, although no specific job or project engagement is announced.",
+          "projects": [
+            "layered counter-drone defense",
+            "counter-UAS detection and track-fusion systems"
+          ],
+          "technologies": [
+            "sensor fusion",
+            "RF detection",
+            "AI video classification",
+            "track correlation",
+            "fusion latency",
+            "false-positive suppression",
+            "kinetic effectors",
+            "non-kinetic effectors"
+          ],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The post addresses scaling autonomy and drone-swarm orchestration across heterogeneous platforms, including extensible interfaces, integration boundaries, data models, and failure modes. These topics closely align with the profile's UAV, autonomous-systems, flight-control, and multidisciplinary engineering background. The author is a concrete person discussing autonomy-company architecture and defense program scaling, but the post contains no hiring or vacancy signal.",
+        "The post analyzes counter-UAS detection, multimodal sensor fusion, track correlation, latency, and false-positive suppression. These topics closely overlap the profile's sensor-fusion, autonomy, UAV, telemetry, and control-systems expertise, although no specific job or project engagement is announced."
+      ],
+      "latest_source_url": "https://www.linkedin.com/in/sachinjainphd/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-09-01T05:11:50.873106+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+      },
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+    },
+    {
+      "id": "person:sachin jain, ph.d. • отслеживаете",
+      "kind": "person",
+      "name": "Sachin Jain, Ph.D. • Отслеживаете",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/sachinjainphd/",
+      "first_seen": "2026-09-01T05:11:50.873106+00:00",
+      "last_seen": "2026-09-06T08:32:23.136659+00:00",
+      "times_seen": 2,
+      "score": 82,
+      "latest_priority": "high",
+      "latest_confidence": 91,
+      "priority_counts": {
+        "high": 1,
+        "medium": 1
+      },
+      "suggested_action": "follow_person",
+      "companies": [
+        "NODA AI"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_7b169f939c1b2b76",
+        "sig_efb8fda979a4c527"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-09-01T05:11:50.873106+00:00",
+          "signal_id": "sig_7b169f939c1b2b76",
+          "priority": "medium",
+          "confidence": 91,
+          "source_url": "https://www.linkedin.com/in/sachinjainphd/",
+          "profile_url": "https://www.linkedin.com/in/sachinjainphd/",
+          "reason": "The post addresses scaling autonomy and drone-swarm orchestration across heterogeneous platforms, including extensible interfaces, integration boundaries, data models, and failure modes. These topics closely align with the profile's UAV, autonomous-systems, flight-control, and multidisciplinary engineering background. The author is a concrete person discussing autonomy-company architecture and defense program scaling, but the post contains no hiring or vacancy signal.",
+          "projects": [
+            "LUCAS",
+            "Joint Force enterprise-wide autonomy deployment"
+          ],
+          "technologies": [
+            "autonomy",
+            "drone-swarm orchestration",
+            "platform integration",
+            "versioned interfaces",
+            "data-model integration",
+            "failure-mode handling"
+          ],
+          "source": "feed_signal"
+        },
+        {
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "signal_id": "sig_efb8fda979a4c527",
+          "priority": "high",
+          "confidence": 91,
+          "source_url": "https://www.linkedin.com/in/sachinjainphd/",
+          "profile_url": "https://www.linkedin.com/in/sachinjainphd/",
+          "reason": "The post analyzes counter-UAS detection, multimodal sensor fusion, track correlation, latency, and false-positive suppression. These topics closely overlap the profile's sensor-fusion, autonomy, UAV, telemetry, and control-systems expertise, although no specific job or project engagement is announced.",
+          "projects": [
+            "layered counter-drone defense",
+            "counter-UAS detection and track-fusion systems"
+          ],
+          "technologies": [
+            "sensor fusion",
+            "RF detection",
+            "AI video classification",
+            "track correlation",
+            "fusion latency",
+            "false-positive suppression",
+            "kinetic effectors",
+            "non-kinetic effectors"
+          ],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The post addresses scaling autonomy and drone-swarm orchestration across heterogeneous platforms, including extensible interfaces, integration boundaries, data models, and failure modes. These topics closely align with the profile's UAV, autonomous-systems, flight-control, and multidisciplinary engineering background. The author is a concrete person discussing autonomy-company architecture and defense program scaling, but the post contains no hiring or vacancy signal.",
+        "The post analyzes counter-UAS detection, multimodal sensor fusion, track correlation, latency, and false-positive suppression. These topics closely overlap the profile's sensor-fusion, autonomy, UAV, telemetry, and control-systems expertise, although no specific job or project engagement is announced."
+      ],
+      "latest_source_url": "https://www.linkedin.com/in/sachinjainphd/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-09-01T05:11:50.873106+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+      },
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+    },
+    {
       "id": "company:anduril",
       "kind": "company",
       "name": "Anduril",
@@ -1493,146 +1803,142 @@
       "updated_at": "2026-09-02T05:12:35.884444+00:00"
     },
     {
-      "id": "person:sachin jain, ph.d.",
-      "kind": "person",
-      "name": "Sachin Jain, Ph.D.",
+      "id": "company:hermeus and anduril",
+      "kind": "company",
+      "name": "Hermeus and Anduril",
       "status": "WATCH",
       "notes": "",
       "tags": [],
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": "https://www.linkedin.com/in/sachinjainphd/",
-      "first_seen": "2026-09-01T05:11:50.873106+00:00",
-      "last_seen": "2026-09-01T05:11:50.873106+00:00",
+      "profile_url": null,
+      "first_seen": "2026-09-06T08:28:06.926039+00:00",
+      "last_seen": "2026-09-06T08:28:06.926039+00:00",
       "times_seen": 1,
-      "score": 81,
+      "score": 80,
       "latest_priority": "high",
-      "latest_confidence": 91,
+      "latest_confidence": 95,
       "priority_counts": {
-        "high": 0,
-        "medium": 1
+        "high": 1,
+        "medium": 0
       },
-      "suggested_action": "connect_person",
+      "suggested_action": "follow_company",
       "companies": [
-        "NODA AI"
+        "Hermeus and Anduril"
       ],
       "roles": [],
       "source_signal_ids": [
-        "sig_7b169f939c1b2b76"
+        "sig_69f17967e63e573e"
       ],
       "signal_history": [
         {
-          "at": "2026-09-01T05:11:50.873106+00:00",
-          "signal_id": "sig_7b169f939c1b2b76",
-          "priority": "medium",
-          "confidence": 91,
-          "source_url": "https://www.linkedin.com/in/sachinjainphd/",
-          "profile_url": "https://www.linkedin.com/in/sachinjainphd/",
-          "reason": "The post addresses scaling autonomy and drone-swarm orchestration across heterogeneous platforms, including extensible interfaces, integration boundaries, data models, and failure modes. These topics closely align with the profile's UAV, autonomous-systems, flight-control, and multidisciplinary engineering background. The author is a concrete person discussing autonomy-company architecture and defense program scaling, but the post contains no hiring or vacancy signal.",
+          "at": "2026-09-06T08:28:06.926039+00:00",
+          "signal_id": "sig_69f17967e63e573e",
+          "priority": "high",
+          "confidence": 94,
+          "source_url": "",
+          "profile_url": null,
+          "reason": "The post describes autonomous mission software operating on a large, high-speed aircraft across planning, execution and debrief. This is strongly aligned with the profile's experience in flight-control systems, UAV and eVTOL autonomy, guidance, simulation and mission optimization. No hiring opportunity is stated.",
           "projects": [
-            "LUCAS",
-            "Joint Force enterprise-wide autonomy deployment"
+            "Quarterhorse Mk 2",
+            "Lattice mission autonomy across planning, execution and debrief"
           ],
           "technologies": [
-            "autonomy",
-            "drone-swarm orchestration",
-            "platform integration",
-            "versioned interfaces",
-            "data-model integration",
-            "failure-mode handling"
+            "Lattice",
+            "autonomy software",
+            "end-to-end mission autonomy"
           ],
           "source": "feed_signal"
         }
       ],
       "reasons": [
-        "The post addresses scaling autonomy and drone-swarm orchestration across heterogeneous platforms, including extensible interfaces, integration boundaries, data models, and failure modes. These topics closely align with the profile's UAV, autonomous-systems, flight-control, and multidisciplinary engineering background. The author is a concrete person discussing autonomy-company architecture and defense program scaling, but the post contains no hiring or vacancy signal."
+        "The post describes autonomous mission software operating on a large, high-speed aircraft across planning, execution and debrief. This is strongly aligned with the profile's experience in flight-control systems, UAV and eVTOL autonomy, guidance, simulation and mission optimization. No hiring opportunity is stated."
       ],
-      "latest_source_url": "https://www.linkedin.com/in/sachinjainphd/",
+      "latest_source_url": "",
       "status_history": [
         {
           "status": "WATCH",
-          "at": "2026-09-01T05:11:50.873106+00:00",
+          "at": "2026-09-06T08:28:06.926039+00:00",
           "source": "created"
         }
       ],
       "automation": {
         "last_observed_status": "WATCH",
-        "recommended_status": "REVIEW",
-        "last_processed_at": "2026-09-02T05:12:35.884444+00:00"
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-02T05:12:35.884444+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
-      "id": "person:sachin jain, ph.d. • отслеживаете",
-      "kind": "person",
-      "name": "Sachin Jain, Ph.D. • Отслеживаете",
+      "id": "company:skydrones",
+      "kind": "company",
+      "name": "SkyDrones",
       "status": "WATCH",
       "notes": "",
       "tags": [],
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": "https://www.linkedin.com/in/sachinjainphd/",
-      "first_seen": "2026-09-01T05:11:50.873106+00:00",
-      "last_seen": "2026-09-01T05:11:50.873106+00:00",
+      "profile_url": null,
+      "first_seen": "2026-09-06T08:32:23.136659+00:00",
+      "last_seen": "2026-09-06T08:32:23.136659+00:00",
       "times_seen": 1,
-      "score": 81,
+      "score": 80,
       "latest_priority": "high",
-      "latest_confidence": 91,
+      "latest_confidence": 94,
       "priority_counts": {
-        "high": 0,
-        "medium": 1
+        "high": 1,
+        "medium": 0
       },
-      "suggested_action": "connect_person",
+      "suggested_action": "follow_company",
       "companies": [
-        "NODA AI"
+        "SkyDrones"
       ],
       "roles": [],
       "source_signal_ids": [
-        "sig_7b169f939c1b2b76"
+        "sig_d99a1e00ca74ab43"
       ],
       "signal_history": [
         {
-          "at": "2026-09-01T05:11:50.873106+00:00",
-          "signal_id": "sig_7b169f939c1b2b76",
-          "priority": "medium",
-          "confidence": 91,
-          "source_url": "https://www.linkedin.com/in/sachinjainphd/",
-          "profile_url": "https://www.linkedin.com/in/sachinjainphd/",
-          "reason": "The post addresses scaling autonomy and drone-swarm orchestration across heterogeneous platforms, including extensible interfaces, integration boundaries, data models, and failure modes. These topics closely align with the profile's UAV, autonomous-systems, flight-control, and multidisciplinary engineering background. The author is a concrete person discussing autonomy-company architecture and defense program scaling, but the post contains no hiring or vacancy signal.",
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "signal_id": "sig_d99a1e00ca74ab43",
+          "priority": "high",
+          "confidence": 94,
+          "source_url": "",
+          "profile_url": null,
+          "reason": "The post directly concerns VTOL hover stability, flight-control response, propulsion dynamics, sensors and validation of the complete control loop. These topics closely match the profile's experience in flight-control systems, eVTOL development, autopilot algorithms, flight dynamics and simulation. No hiring or specific person is identified.",
           "projects": [
-            "LUCAS",
-            "Joint Force enterprise-wide autonomy deployment"
+            "SkyLane-350 low-altitude VTOL stability and propulsion responsiveness testing"
           ],
           "technologies": [
-            "autonomy",
-            "drone-swarm orchestration",
-            "platform integration",
-            "versioned interfaces",
-            "data-model integration",
-            "failure-mode handling"
+            "flight control",
+            "hover stability",
+            "propulsion responsiveness",
+            "flight controller",
+            "sensors",
+            "control-loop validation"
           ],
           "source": "feed_signal"
         }
       ],
       "reasons": [
-        "The post addresses scaling autonomy and drone-swarm orchestration across heterogeneous platforms, including extensible interfaces, integration boundaries, data models, and failure modes. These topics closely align with the profile's UAV, autonomous-systems, flight-control, and multidisciplinary engineering background. The author is a concrete person discussing autonomy-company architecture and defense program scaling, but the post contains no hiring or vacancy signal."
+        "The post directly concerns VTOL hover stability, flight-control response, propulsion dynamics, sensors and validation of the complete control loop. These topics closely match the profile's experience in flight-control systems, eVTOL development, autopilot algorithms, flight dynamics and simulation. No hiring or specific person is identified."
       ],
-      "latest_source_url": "https://www.linkedin.com/in/sachinjainphd/",
+      "latest_source_url": "",
       "status_history": [
         {
           "status": "WATCH",
-          "at": "2026-09-01T05:11:50.873106+00:00",
+          "at": "2026-09-06T08:32:23.136659+00:00",
           "source": "created"
         }
       ],
       "automation": {
         "last_observed_status": "WATCH",
-        "recommended_status": "REVIEW",
-        "last_processed_at": "2026-09-02T05:12:35.884444+00:00"
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-02T05:12:35.884444+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "person:pierangelo masarati",
@@ -2256,74 +2562,6 @@
         "last_processed_at": "2026-09-04T05:12:32.591228+00:00"
       },
       "updated_at": "2026-09-04T05:12:32.591228+00:00"
-    },
-    {
-      "id": "company:hermeus and anduril",
-      "kind": "company",
-      "name": "Hermeus and Anduril",
-      "status": "WATCH",
-      "notes": "",
-      "tags": [],
-      "do_not_contact": false,
-      "last_contacted_at": null,
-      "next_follow_up_at": null,
-      "profile_url": null,
-      "first_seen": "2026-09-06T08:28:06.926039+00:00",
-      "last_seen": "2026-09-06T08:28:06.926039+00:00",
-      "times_seen": 1,
-      "score": 76,
-      "latest_priority": "high",
-      "latest_confidence": 94,
-      "priority_counts": {
-        "high": 1,
-        "medium": 0
-      },
-      "suggested_action": "follow_company",
-      "companies": [
-        "Hermeus and Anduril"
-      ],
-      "roles": [],
-      "source_signal_ids": [
-        "sig_69f17967e63e573e"
-      ],
-      "signal_history": [
-        {
-          "at": "2026-09-06T08:28:06.926039+00:00",
-          "signal_id": "sig_69f17967e63e573e",
-          "priority": "high",
-          "confidence": 94,
-          "source_url": "",
-          "profile_url": null,
-          "reason": "The post describes autonomous mission software operating on a large, high-speed aircraft across planning, execution and debrief. This is strongly aligned with the profile's experience in flight-control systems, UAV and eVTOL autonomy, guidance, simulation and mission optimization. No hiring opportunity is stated.",
-          "projects": [
-            "Quarterhorse Mk 2",
-            "Lattice mission autonomy across planning, execution and debrief"
-          ],
-          "technologies": [
-            "Lattice",
-            "autonomy software",
-            "end-to-end mission autonomy"
-          ],
-          "source": "feed_signal"
-        }
-      ],
-      "reasons": [
-        "The post describes autonomous mission software operating on a large, high-speed aircraft across planning, execution and debrief. This is strongly aligned with the profile's experience in flight-control systems, UAV and eVTOL autonomy, guidance, simulation and mission optimization. No hiring opportunity is stated."
-      ],
-      "latest_source_url": "",
-      "status_history": [
-        {
-          "status": "WATCH",
-          "at": "2026-09-06T08:28:06.926039+00:00",
-          "source": "created"
-        }
-      ],
-      "automation": {
-        "last_observed_status": "WATCH",
-        "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
-      },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
     },
     {
       "id": "person:ajay talluri",
@@ -3170,7 +3408,7 @@
       "times_seen": 1,
       "score": 66,
       "latest_priority": "medium",
-      "latest_confidence": 84,
+      "latest_confidence": 86,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -3178,7 +3416,8 @@
       "suggested_action": "connect_person",
       "companies": [],
       "roles": [
-        "Strategic Business Development Leader | Defense, Homeland Security & Advanced Technology | Government Growth | Critical Infrastructure | Partnerships"
+        "Strategic Business Development Leader | Defense, Homeland Security & Advanced Technology | Government Growth | Critical Infrastructure | Partnerships",
+        "Strategic Business Development Leader"
       ],
       "source_signal_ids": [
         "sig_3c4e90f3bfb83086"
@@ -3213,9 +3452,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "person:haitham alalem, профиль premium, 3-й+ haitham alalem • 3-й+ strategic business development leader | defense, homeland security & advanced technology | government growth | critical infrastructure | complex deal cycles | partnerships | gcc",
@@ -3233,7 +3472,7 @@
       "times_seen": 1,
       "score": 66,
       "latest_priority": "medium",
-      "latest_confidence": 84,
+      "latest_confidence": 86,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -3274,9 +3513,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "company:astana hub",
@@ -3294,12 +3533,12 @@
       "times_seen": 1,
       "score": 65,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 1
       },
-      "suggested_action": "engage_with_post",
+      "suggested_action": "follow_company",
       "companies": [
         "Astana Hub"
       ],
@@ -3342,9 +3581,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "company:eve air mobility",
@@ -3444,7 +3683,7 @@
       "times_seen": 1,
       "score": 65,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -3454,7 +3693,8 @@
         "Astana Hub"
       ],
       "roles": [
-        "Founder of Network School; former CTO of Coinbase"
+        "Founder of Network School; former CTO of Coinbase",
+        "Founder of Network School and former CTO of Coinbase"
       ],
       "source_signal_ids": [
         "sig_cdf9cc4dfb68511a"
@@ -3494,9 +3734,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "person:rinata ilyubayeva",
@@ -3514,7 +3754,7 @@
       "times_seen": 1,
       "score": 65,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -3564,9 +3804,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "person:thorsten gutmann",
@@ -3584,7 +3824,7 @@
       "times_seen": 1,
       "score": 65,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -3634,9 +3874,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "company:rocket lab",
@@ -4187,6 +4427,128 @@
       "updated_at": "2026-09-03T05:12:41.718126+00:00"
     },
     {
+      "id": "person:aditya aggarwal",
+      "kind": "person",
+      "name": "Aditya Aggarwal",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/adityaaggarwal07/",
+      "first_seen": "2026-09-06T08:32:23.136659+00:00",
+      "last_seen": "2026-09-06T08:32:23.136659+00:00",
+      "times_seen": 1,
+      "score": 63,
+      "latest_priority": "medium",
+      "latest_confidence": 93,
+      "priority_counts": {
+        "high": 0,
+        "medium": 1
+      },
+      "suggested_action": "connect_person",
+      "companies": [
+        "MathWorks"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_6565118cced5d2a0"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "signal_id": "sig_6565118cced5d2a0",
+          "priority": "medium",
+          "confidence": 93,
+          "source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+          "profile_url": "https://www.linkedin.com/in/adityaaggarwal07/",
+          "reason": "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information."
+      ],
+      "latest_source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+      },
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+    },
+    {
+      "id": "person:ayantika roy",
+      "kind": "person",
+      "name": "Ayantika Roy",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/ayantika-roy-3a372813b/",
+      "first_seen": "2026-09-06T08:32:23.136659+00:00",
+      "last_seen": "2026-09-06T08:32:23.136659+00:00",
+      "times_seen": 1,
+      "score": 63,
+      "latest_priority": "medium",
+      "latest_confidence": 93,
+      "priority_counts": {
+        "high": 0,
+        "medium": 1
+      },
+      "suggested_action": "connect_person",
+      "companies": [
+        "MathWorks"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_6565118cced5d2a0"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "signal_id": "sig_6565118cced5d2a0",
+          "priority": "medium",
+          "confidence": 93,
+          "source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+          "profile_url": "https://www.linkedin.com/in/ayantika-roy-3a372813b/",
+          "reason": "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information."
+      ],
+      "latest_source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+      },
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+    },
+    {
       "id": "person:max goldstein",
       "kind": "person",
       "name": "Max Goldstein",
@@ -4251,6 +4613,189 @@
         "last_processed_at": "2026-09-03T05:12:41.718126+00:00"
       },
       "updated_at": "2026-09-03T05:12:41.718126+00:00"
+    },
+    {
+      "id": "person:ritika jaiswal",
+      "kind": "person",
+      "name": "Ritika Jaiswal",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+      "first_seen": "2026-09-06T08:32:23.136659+00:00",
+      "last_seen": "2026-09-06T08:32:23.136659+00:00",
+      "times_seen": 1,
+      "score": 63,
+      "latest_priority": "medium",
+      "latest_confidence": 93,
+      "priority_counts": {
+        "high": 0,
+        "medium": 1
+      },
+      "suggested_action": "connect_person",
+      "companies": [
+        "MathWorks"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_6565118cced5d2a0"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "signal_id": "sig_6565118cced5d2a0",
+          "priority": "medium",
+          "confidence": 93,
+          "source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+          "profile_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+          "reason": "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information."
+      ],
+      "latest_source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+      },
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+    },
+    {
+      "id": "person:ritika jaiswal • 3-й+",
+      "kind": "person",
+      "name": "Ritika Jaiswal • 3-й+",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+      "first_seen": "2026-09-06T08:32:23.136659+00:00",
+      "last_seen": "2026-09-06T08:32:23.136659+00:00",
+      "times_seen": 1,
+      "score": 63,
+      "latest_priority": "medium",
+      "latest_confidence": 93,
+      "priority_counts": {
+        "high": 0,
+        "medium": 1
+      },
+      "suggested_action": "connect_person",
+      "companies": [
+        "MathWorks"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_6565118cced5d2a0"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "signal_id": "sig_6565118cced5d2a0",
+          "priority": "medium",
+          "confidence": 93,
+          "source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+          "profile_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+          "reason": "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information."
+      ],
+      "latest_source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+      },
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+    },
+    {
+      "id": "person:soumik dutta",
+      "kind": "person",
+      "name": "Soumik Dutta",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/soumikdutta13/",
+      "first_seen": "2026-09-06T08:32:23.136659+00:00",
+      "last_seen": "2026-09-06T08:32:23.136659+00:00",
+      "times_seen": 1,
+      "score": 63,
+      "latest_priority": "medium",
+      "latest_confidence": 93,
+      "priority_counts": {
+        "high": 0,
+        "medium": 1
+      },
+      "suggested_action": "connect_person",
+      "companies": [
+        "MathWorks"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_6565118cced5d2a0"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "signal_id": "sig_6565118cced5d2a0",
+          "priority": "medium",
+          "confidence": 93,
+          "source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+          "profile_url": "https://www.linkedin.com/in/soumikdutta13/",
+          "reason": "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information.",
+          "projects": [],
+          "technologies": [],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information."
+      ],
+      "latest_source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-09-06T08:32:23.136659+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+      },
+      "updated_at": "2026-09-06T08:32:23.136659+00:00"
     },
     {
       "id": "company:cadence",

@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-06T08:28:06.968449+00:00",
-  "source_generated_at": "2026-09-06T08:26:45.524782+00:00",
+  "generated_at": "2026-09-06T08:32:23.192658+00:00",
+  "source_generated_at": "2026-09-06T08:30:45.894253+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
     "outbound_actions": [
@@ -21,112 +21,33 @@
   },
   "summary": {
     "items": 9,
-    "high": 3,
-    "medium": 6,
+    "high": 4,
+    "medium": 5,
     "pending_approval": 3,
     "research_needed": 3,
     "primary_action_counts": {
-      "engage_with_post": 4,
-      "follow_person": 2,
+      "engage_with_post": 5,
+      "follow_person": 1,
       "research_contact": 3
     },
     "action_plan_counts": {
       "connect_person": 3,
-      "engage_with_post": 4,
+      "engage_with_post": 5,
       "find_warm_path": 6,
-      "follow_company": 2,
+      "follow_company": 5,
       "follow_person": 6,
-      "research_company": 1,
+      "research_company": 2,
       "research_contact": 3,
-      "review_technology": 2,
+      "review_technology": 6,
       "save_for_content": 2
     }
   },
   "items": [
     {
-      "signal_id": "sig_b53549c3e059425f",
-      "source_post_id": "7501208198314487809",
-      "priority": "high",
-      "confidence": 96,
-      "author": "Robert Kleist",
-      "company": "Saildrone",
-      "primary_action": "engage_with_post",
-      "secondary_action": "follow_person",
-      "approval_required": true,
-      "execution_status": "PENDING_APPROVAL",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "connect_person",
-          "reason": "Concrete relevant person identified; connection can be considered.",
-          "approval_required": true
-        },
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_company",
-          "reason": "Keep company activity visible for future signals.",
-          "approval_required": false
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "check_company_and_relevant_team",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {
-        "connection_note": "Hi Robert, I came across your work on Saildrone EU headquarters in Copenhagen. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
-      },
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "company:saildrone",
-      "crm_status": "WATCH",
-      "do_not_contact": false,
-      "target": {
-        "name": "Robert Kleist",
-        "role": "European Managing Director",
-        "relation": "author",
-        "target_role": "European Managing Director at Saildrone",
-        "target_reason": "Robert Kleist is the post author and is identified as Saildrone's European Managing Director; he is a relevant contact for European autonomous maritime operations and USV capability development.",
-        "target_priority": "high",
-        "company": "Saildrone"
-      },
-      "reason": "The post describes Saildrone's expansion of autonomous maritime operations and regional USV manufacturing, deployment and support capability. This aligns closely with the profile's interest in marine autonomy, autonomous vessels, navigation and control of mobile platforms. Robert Kleist is identified as Saildrone's European Managing Director, providing a concrete networking target, although the post does not indicate hiring.",
-      "content_angle": "Discuss how regional manufacturing and operational support can improve the reliability, maintainability and scalability of autonomous maritime systems, drawing on original expertise in guidance, navigation, control and autonomous-platform engineering.",
-      "source_url": "https://www.linkedin.com/in/robert-kleist-5643195/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      }
-    },
-    {
       "signal_id": "sig_69f17967e63e573e",
       "source_post_id": "7501354886714896384",
       "priority": "high",
-      "confidence": 94,
+      "confidence": 95,
       "author": null,
       "company": "Hermeus and Anduril",
       "primary_action": "research_contact",
@@ -178,13 +99,13 @@
         "name": null,
         "role": null,
         "relation": null,
-        "target_role": "mission autonomy technical lead",
-        "target_reason": "Potentially relevant technical stakeholder for identifying connections around aircraft autonomy, mission planning and coordinated autonomous flight; this role is inferred from the post.",
-        "target_priority": "low",
+        "target_role": "Technical lead in flight autonomy or mission systems at Hermeus",
+        "target_reason": "Inference: this role would likely be relevant for understanding technical work around Quarterhorse Mk 2 autonomy and high-speed flight.",
+        "target_priority": "high",
         "company": "Hermeus and Anduril"
       },
-      "reason": "The post describes autonomous mission software operating on a large, high-speed aircraft across planning, execution and debrief. This is strongly aligned with the profile's experience in flight-control systems, UAV and eVTOL autonomy, guidance, simulation and mission optimization. No hiring opportunity is stated.",
-      "content_angle": "Discuss how autonomy spanning pre-mission planning, execution and debrief requires consistent mission-state modeling, telemetry feedback and validation across simulation and real flight, drawing on original expertise in flight dynamics and autonomous control.",
+      "reason": "The post describes end-to-end autonomy for a high-speed aircraft, including mission planning, execution and debrief. This strongly aligns with the profile's experience in flight-control systems, autopilot algorithms, flight dynamics, UAV/eVTOL systems, autonomy and mission optimization. No hiring is stated, but the partnership is a relevant company and technology signal.",
+      "content_angle": "Offer an original expert perspective on the control, verification and systems-integration challenges of extending autonomy across the full mission lifecycle in high-speed aircraft, including coordination between planning, execution, telemetry and post-mission analysis.",
       "source_url": "",
       "analysis_engine": "rules+openai",
       "llm": {
@@ -195,12 +116,230 @@
       }
     },
     {
-      "signal_id": "sig_bb8fbc0347312809",
+      "signal_id": "sig_d99a1e00ca74ab43",
+      "source_post_id": "7493735060567683072",
+      "priority": "high",
+      "confidence": 94,
+      "author": null,
+      "company": "SkyDrones",
+      "primary_action": "research_contact",
+      "secondary_action": "research_company",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "research_contact",
+          "reason": "A concrete person should be identified before any connection or message.",
+          "approval_required": false
+        },
+        {
+          "action": "research_company",
+          "reason": "Check the relevant team, current projects and open roles.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_company",
+          "reason": "Keep company activity visible for future signals.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": true,
+        "tasks": [
+          "identify_concrete_person",
+          "check_company_and_relevant_team"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "company:skydrones",
+      "crm_status": "WATCH",
+      "do_not_contact": false,
+      "target": {
+        "name": null,
+        "role": null,
+        "relation": null,
+        "target_role": "VTOL flight-control or flight-test technical lead",
+        "target_reason": "The post provides a strong reason to identify a technical contact involved in SkyLane-350 flight-control validation and testing, although no individual is named.",
+        "target_priority": "low",
+        "company": "SkyDrones"
+      },
+      "reason": "The post directly concerns VTOL hover stability, flight-control response, propulsion dynamics, sensors and validation of the complete control loop. These topics closely match the profile's experience in flight-control systems, eVTOL development, autopilot algorithms, flight dynamics and simulation. No hiring or specific person is identified.",
+      "content_angle": "Possible original angle: discuss how low-altitude VTOL testing exposes the interaction between hover control, sensor behavior, controller-command latency and propulsion response, drawing on general flight-control and validation expertise rather than copying the post.",
+      "source_url": "",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_b53549c3e059425f",
+      "source_post_id": "7501208198314487809",
+      "priority": "high",
+      "confidence": 94,
+      "author": "Robert Kleist",
+      "company": "Saildrone",
+      "primary_action": "engage_with_post",
+      "secondary_action": "follow_person",
+      "approval_required": true,
+      "execution_status": "PENDING_APPROVAL",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "connect_person",
+          "reason": "Concrete relevant person identified; connection can be considered.",
+          "approval_required": true
+        },
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_company",
+          "reason": "Keep company activity visible for future signals.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "check_company_and_relevant_team",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {
+        "connection_note": "Hi Robert, I came across your work on Saildrone EU headquarters in Copenhagen. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+      },
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "company:saildrone",
+      "crm_status": "WATCH",
+      "do_not_contact": false,
+      "target": {
+        "name": "Robert Kleist",
+        "role": "European Managing Director",
+        "relation": "author",
+        "target_role": "European Managing Director",
+        "target_reason": "Author of the post and a concrete senior contact associated with Saildrone's European autonomous maritime expansion.",
+        "target_priority": "high",
+        "company": "Saildrone"
+      },
+      "reason": "The post describes Saildrone's expansion of autonomous maritime operations and regional USV manufacturing, deployment, operation, and support in Europe. This closely matches the profile's stated interest in marine autonomy, autonomous vessels, navigation, stabilization, control systems, and robotics. It also identifies the company's European Managing Director and Founder and CEO as concrete networking targets, although no vacancy is announced.",
+      "content_angle": "Inference: Discuss how flight-control, GNC, simulation, and autonomy expertise can transfer to USV navigation, stabilization, mission planning, and reliable maritime operations.",
+      "source_url": "https://www.linkedin.com/in/robert-kleist-5643195/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_efb8fda979a4c527",
       "source_post_id": null,
       "priority": "high",
-      "confidence": 88,
-      "author": "Pierangelo Masarati",
+      "confidence": 91,
+      "author": "Sachin Jain, Ph.D. • Отслеживаете",
       "company": null,
+      "primary_action": "engage_with_post",
+      "secondary_action": "follow_person",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "person:lt. gen. joseph jarrard",
+      "crm_status": "WATCH",
+      "do_not_contact": false,
+      "target": {
+        "name": "Sachin Jain, Ph.D. • Отслеживаете",
+        "role": null,
+        "relation": "author",
+        "target_role": "Technical professional in counter-UAS and autonomy",
+        "target_reason": "The author published a technically substantive analysis of sensor fusion and detection bottlenecks relevant to the profile's UAV and autonomous-systems background.",
+        "target_priority": "medium",
+        "company": null
+      },
+      "reason": "The post analyzes counter-UAS detection, multimodal sensor fusion, track correlation, latency, and false-positive suppression. These topics closely overlap the profile's sensor-fusion, autonomy, UAV, telemetry, and control-systems expertise, although no specific job or project engagement is announced.",
+      "content_angle": "Offer an original controls and autonomy perspective on how timestamp synchronization, track association, estimator confidence, and false-alarm management affect actionable decisions under swarm-tempo constraints.",
+      "source_url": "https://www.linkedin.com/in/sachinjainphd/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_6565118cced5d2a0",
+      "source_post_id": null,
+      "priority": "medium",
+      "confidence": 93,
+      "author": "Ritika Jaiswal • 3-й+",
+      "company": "MathWorks",
       "primary_action": "follow_person",
       "secondary_action": "connect_person",
       "approval_required": true,
@@ -221,35 +360,41 @@
           "action": "find_warm_path",
           "reason": "Check shared contacts or other contextual paths before outreach.",
           "approval_required": false
+        },
+        {
+          "action": "follow_company",
+          "reason": "Keep company activity visible for future signals.",
+          "approval_required": false
         }
       ],
       "research": {
         "needed": false,
         "tasks": [
           "verify_current_role",
+          "check_company_and_relevant_team",
           "check_shared_context_or_warm_path"
         ]
       },
       "drafts": {
-        "connection_note": "Hi Pierangelo, I came across your work on Pierangelo Masarati. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+        "connection_note": "Hi Ritika, I came across your work on MathWorks. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
       },
       "crm_guard_applied": false,
       "crm_guard_reason": null,
-      "crm_entity_id": "person:pierangelo masarati",
+      "crm_entity_id": "company:mathworks",
       "crm_status": "WATCH",
       "do_not_contact": false,
       "target": {
-        "name": "Pierangelo Masarati",
+        "name": "Ritika Jaiswal • 3-й+",
         "role": null,
         "relation": "author",
-        "target_role": "Post author",
-        "target_reason": "Pierangelo Masarati authored a post about ERF2026, rotorcraft, vertical flight and industry networking; connecting could support relevant aerospace-sector networking.",
-        "target_priority": "high",
-        "company": null
+        "target_role": "Author at MathWorks",
+        "target_reason": "Ritika Jaiswal is a concrete first-degree-of-network contact who recently joined MathWorks; her specific role is not stated.",
+        "target_priority": "medium",
+        "company": "MathWorks"
       },
-      "reason": "Inference: The post is connected to rotorcraft and vertical-flight industry networking through ERF2026 and ERF2027, which aligns with the profile's aerospace, flight-control and autonomous-systems background. It identifies the author and two named participants as potential networking targets, but provides no hiring or project information.",
+      "reason": "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information.",
       "content_angle": null,
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:share:7501204984072658944/",
+      "source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
       "analysis_engine": "rules+openai",
       "llm": {
         "used": true,
@@ -262,7 +407,7 @@
       "signal_id": "sig_cdf9cc4dfb68511a",
       "source_post_id": null,
       "priority": "medium",
-      "confidence": 93,
+      "confidence": 91,
       "author": "Rinata Ilyubayeva",
       "company": "Astana Hub",
       "primary_action": "engage_with_post",
@@ -285,6 +430,11 @@
           "action": "find_warm_path",
           "reason": "Check shared contacts or other contextual paths before outreach.",
           "approval_required": false
+        },
+        {
+          "action": "follow_company",
+          "reason": "Keep company activity visible for future signals.",
+          "approval_required": false
         }
       ],
       "research": {
@@ -305,12 +455,12 @@
         "role": "Managing Director at Astana Hub",
         "relation": "author",
         "target_role": "Managing Director at Astana Hub",
-        "target_reason": "Author is explicitly described as leading Astana Hub, an organization promoting international technology collaboration and talent connections.",
+        "target_reason": "Potential access point to Kazakhstan's technology ecosystem and connections among international engineers, founders, and emerging-technology companies.",
         "target_priority": "high",
         "company": "Astana Hub"
       },
-      "reason": "The post highlights Astana Hub and Network School as a developing international technology and remote-work ecosystem focused on connecting engineers, founders, investors, and local talent. It is not a specific engineering vacancy, but it may be relevant for identifying contacts in Kazakhstan's broader technology and autonomous-systems ecosystem.",
-      "content_angle": "Discuss how international technology hubs can attract and retain specialized engineering talent, and how remote communities could support collaboration in autonomous systems and other deep-tech fields.",
+      "reason": "The post identifies Astana Hub as a platform connecting international founders, engineers, creators, investors, and local talent. It is relevant as a potential networking and market-intelligence opportunity for a senior autonomous-systems engineer interested in global technology communities, remote work, AI, and emerging industries. No specific engineering role or hiring initiative is announced.",
+      "content_angle": "Discuss how international technology hubs and remote engineering communities can help multidisciplinary teams develop autonomous systems, robotics, and AI-enabled physical products across borders.",
       "source_url": "https://www.linkedin.com/in/rinata-ilyubayeva/",
       "analysis_engine": "rules+openai",
       "llm": {
@@ -324,7 +474,7 @@
       "signal_id": "sig_fd05cd2220d7230b",
       "source_post_id": null,
       "priority": "medium",
-      "confidence": 93,
+      "confidence": 91,
       "author": null,
       "company": null,
       "primary_action": "research_contact",
@@ -365,8 +515,8 @@
         "target_priority": null,
         "company": null
       },
-      "reason": "The post explicitly discusses embedded AI and autonomous systems, which align with the profile's interests in embedded control, autonomy, robotics, and AI for physical systems. It contains no job, project, company, or identifiable-person signal.",
-      "content_angle": "Inference: An original contribution could discuss the engineering trade-offs of deploying AI on embedded autonomous platforms, such as real-time constraints, reliability, and integration with control systems.",
+      "reason": "The post concerns embedded AI and autonomous systems, which overlap with the profile's experience in embedded control, UAV autonomy, onboard systems, machine learning, and autonomous-platform engineering. It contains no specific role, company, project, or hiring indication.",
+      "content_angle": "Inference: An original expert angle could discuss the practical validation, real-time constraints, and safety considerations of embedded AI in autonomous systems.",
       "source_url": "",
       "analysis_engine": "rules+openai",
       "llm": {
@@ -377,119 +527,12 @@
       }
     },
     {
-      "signal_id": "sig_7ea9be271f2c8767",
-      "source_post_id": "7501942206052622336",
-      "priority": "medium",
-      "confidence": 91,
-      "author": null,
-      "company": null,
-      "primary_action": "research_contact",
-      "secondary_action": null,
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "research_contact",
-          "reason": "A concrete person should be identified before any connection or message.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": true,
-        "tasks": [
-          "identify_concrete_person"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": null,
-      "crm_status": null,
-      "do_not_contact": false,
-      "target": {
-        "name": null,
-        "role": null,
-        "relation": null,
-        "target_role": null,
-        "target_reason": null,
-        "target_priority": null,
-        "company": null
-      },
-      "reason": "The post discusses using virtual simulations before building physical systems, directly aligning with the profile's flight-dynamics modeling, control-system simulation, autopilot development, and hardware-in-the-loop interests.",
-      "content_angle": "Share an original perspective on how simulation helps validate flight dynamics, control laws, transition behavior, and edge cases before hardware testing, while noting the importance of eventually validating models against telemetry and real-world tests.",
-      "source_url": "",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      }
-    },
-    {
-      "signal_id": "sig_41280ce78e713a18",
-      "source_post_id": null,
-      "priority": "medium",
-      "confidence": 89,
-      "author": "Pierangelo Masarati",
-      "company": null,
-      "primary_action": "follow_person",
-      "secondary_action": "find_warm_path",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "person:pierangelo masarati",
-      "crm_status": "WATCH",
-      "do_not_contact": false,
-      "target": {
-        "name": "Pierangelo Masarati",
-        "role": "Professor; member of the European Rotorcraft Forum International Committee",
-        "relation": "author",
-        "target_role": "Professor in aerospace and rotorcraft research",
-        "target_reason": "Pierangelo Masarati is identified as a professor representing the Italian research community on the European Rotorcraft Forum International Committee.",
-        "target_priority": "high",
-        "company": null
-      },
-      "reason": "The post concerns the European rotorcraft research and industry community, which is adjacent to the profile's flight-control, aircraft, UAV, and aerospace-engineering focus. It identifies a professor involved in the European Rotorcraft Forum International Committee and an industry representative from Leonardo Helicopters, creating relevant networking targets but no stated job or project opportunity.",
-      "content_angle": null,
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:share:7501204984072658944/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      }
-    },
-    {
-      "signal_id": "sig_5a142a83c3f0f639",
-      "source_post_id": null,
+      "signal_id": "sig_a79a8153d69ff5fc",
+      "source_post_id": "7501573825957105664",
       "priority": "medium",
       "confidence": 88,
-      "author": "Emmanuel Schalit",
-      "company": "OceanWings",
+      "author": "Burak Çetin",
+      "company": null,
       "primary_action": "engage_with_post",
       "secondary_action": "follow_person",
       "approval_required": false,
@@ -510,33 +553,38 @@
           "action": "find_warm_path",
           "reason": "Check shared contacts or other contextual paths before outreach.",
           "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
         }
       ],
       "research": {
         "needed": false,
         "tasks": [
-          "check_company_and_relevant_team",
+          "verify_current_role",
           "check_shared_context_or_warm_path"
         ]
       },
       "drafts": {},
       "crm_guard_applied": false,
       "crm_guard_reason": null,
-      "crm_entity_id": "company:oceanwings",
+      "crm_entity_id": "person:burak çetin",
       "crm_status": "WATCH",
       "do_not_contact": false,
       "target": {
-        "name": "Emmanuel Schalit",
-        "role": "CEO of OceanWings",
+        "name": "Burak Çetin",
+        "role": null,
         "relation": "author",
-        "target_role": "CEO of OceanWings",
-        "target_reason": "The author leads a company developing maritime propulsion technology, making him a potentially relevant person to follow for adjacent marine engineering and autonomous-vessel opportunities.",
-        "target_priority": "medium",
-        "company": "OceanWings"
+        "target_role": null,
+        "target_reason": null,
+        "target_priority": null,
+        "company": null
       },
-      "reason": "The post concerns maritime engineering, vessel applications, propulsion technology and decarbonisation. This is adjacent to the profile's stated interest in marine autonomy and control of mobile platforms, but it provides no evidence of a job opening or direct controls work.",
-      "content_angle": "Inference: discuss how vessel-specific wingsail dimensions, operating profiles and retrofit constraints could influence energy management, stabilization, guidance or autonomy integration in future marine platforms.",
-      "source_url": "https://www.linkedin.com/in/emmanuelschalit/",
+      "reason": "The post describes a cross-platform C++ SDK for real-time computer vision and embedded video processing. This aligns with the profile's experience in C++, embedded systems, computer vision, CUDA, telemetry, and autonomous platforms. No job opening or hiring intent is stated.",
+      "content_angle": "Discuss original engineering considerations for deploying real-time tracking, stabilization, and object-detection pipelines on constrained edge platforms used in autonomous or UAV systems, including latency, hardware acceleration, and portability trade-offs.",
+      "source_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
       "analysis_engine": "rules+openai",
       "llm": {
         "used": true,
@@ -549,7 +597,7 @@
       "signal_id": "sig_3c4e90f3bfb83086",
       "source_post_id": null,
       "priority": "medium",
-      "confidence": 84,
+      "confidence": 86,
       "author": "Haitham Alalem, профиль Premium, 3-й+ Haitham Alalem • 3-й+ Strategic Business Development Leader | Defense, Homeland Security & Advanced Technology | Government Growth | Critical Infrastructure | Complex Deal Cycles | Partnerships | GCC",
       "company": null,
       "primary_action": "engage_with_post",
@@ -598,13 +646,13 @@
         "name": "Haitham Alalem, профиль Premium, 3-й+ Haitham Alalem • 3-й+ Strategic Business Development Leader | Defense, Homeland Security & Advanced Technology | Government Growth | Critical Infrastructure | Complex Deal Cycles | Partnerships | GCC",
         "role": null,
         "relation": "author",
-        "target_role": "Defense and autonomy business-development leader",
-        "target_reason": "Potentially relevant contact for understanding partnerships and market access for autonomous systems in the GCC; this is an inferred networking opportunity, not an identified vacancy.",
+        "target_role": "Strategic Business Development Leader in defense and advanced technology",
+        "target_reason": "The author discusses autonomy applications, GCC needs, defense, homeland security and critical infrastructure; inference: this may provide a relevant ecosystem connection for autonomous-systems engineering opportunities.",
         "target_priority": "medium",
         "company": null
       },
-      "reason": "The post explicitly discusses autonomy, mission outcomes, readiness and resilience in the GCC. The author's stated focus on defense, advanced technology, government growth and partnerships may make him a relevant business-development contact for autonomous systems, although no specific company, project or opportunity is identified.",
-      "content_angle": "Discuss how autonomy engineering can translate into practical mission value through measurable readiness, safety, resilience and locally relevant operational requirements.",
+      "reason": "Inference: The post's focus on autonomy, mission outcomes, risk reduction and GCC defense-related needs overlaps with the profile's autonomous systems, UAV, flight-control and engineering background. The author is a concrete business-development contact in defense and advanced technology, but the post does not identify a specific technical project, company opportunity or vacancy.",
+      "content_angle": "Inference: Offer an original engineering perspective on translating autonomy from capability into mission-ready systems, emphasizing validation, safety, human risk reduction and locally relevant operational constraints.",
       "source_url": "https://www.linkedin.com/in/haitham-alalem-59976a126/",
       "analysis_engine": "rules+openai",
       "llm": {
