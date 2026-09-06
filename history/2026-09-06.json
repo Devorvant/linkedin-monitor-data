@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "source": {
+    "filename": "linkedin_combined_report_2026-09-06_08-13-52.xlsx",
+    "full_path": "H:\\Users\\kusc\\AppData\\Local\\Programs\\Python\\Python311\\linkedin_desktop_automation\\reports\\linkedin_combined_report_2026-09-06_08-13-52.xlsx",
+    "modified_at": "2026-09-06T08:13:52",
+    "converted_at": "2026-09-06T08:13:52"
+  },
+  "sheet_order": [
+    "Summary",
+    "Feed",
+    "Jobs",
+    "Notifications"
+  ],
+  "sheets": {
+    "Summary": {
+      "title": "Summary",
+      "max_row": 4,
+      "max_column": 4,
+      "columns": [
+        "section",
+        "records",
+        "source_report",
+        "status"
+      ],
+      "records": [
+        {
+          "section": "Feed",
+          "records": 0,
+          "source_report": null,
+          "status": "не найден"
+        },
+        {
+          "section": "Jobs",
+          "records": 0,
+          "source_report": null,
+          "status": "не найден"
+        },
+        {
+          "section": "Notifications",
+          "records": 0,
+          "source_report": null,
+          "status": "не найден"
+        }
+      ],
+      "raw_values": [
+        [
+          "section",
+          "records",
+          "source_report",
+          "status"
+        ],
+        [
+          "Feed",
+          0,
+          null,
+          "не найден"
+        ],
+        [
+          "Jobs",
+          0,
+          null,
+          "не найден"
+        ],
+        [
+          "Notifications",
+          0,
+          null,
+          "не найден"
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    },
+    "Feed": {
+      "title": "Feed",
+      "max_row": 1,
+      "max_column": 1,
+      "columns": [
+        "column_1"
+      ],
+      "records": [],
+      "raw_values": [
+        [
+          null
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    },
+    "Jobs": {
+      "title": "Jobs",
+      "max_row": 1,
+      "max_column": 1,
+      "columns": [
+        "column_1"
+      ],
+      "records": [],
+      "raw_values": [
+        [
+          null
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    },
+    "Notifications": {
+      "title": "Notifications",
+      "max_row": 1,
+      "max_column": 1,
+      "columns": [
+        "column_1"
+      ],
+      "records": [],
+      "raw_values": [
+        [
+          null
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    }
+  }
+}
