@@ -1,20 +1,19 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-06T08:30:45.894253+00:00",
+  "generated_at": "2026-09-06T08:51:57.402495+00:00",
   "summary": {
     "posts_analyzed": 19,
-    "high_priority": 4,
-    "medium_priority": 5,
-    "low_priority": 10,
+    "high_priority": 1,
+    "medium_priority": 3,
+    "low_priority": 15,
     "signal_type_counts": {
-      "TECH_SIGNAL": 11,
-      "PROJECT_SIGNAL": 6,
-      "COMPANY_SIGNAL": 9,
-      "PEOPLE_SIGNAL": 9,
-      "NETWORK_SIGNAL": 8,
-      "MARKET_SIGNAL": 6,
-      "HIRING_SIGNAL": 1,
-      "OPPORTUNITY_SIGNAL": 2
+      "TECH_SIGNAL": 5,
+      "PROJECT_SIGNAL": 4,
+      "COMPANY_SIGNAL": 5,
+      "PEOPLE_SIGNAL": 10,
+      "NETWORK_SIGNAL": 10,
+      "MARKET_SIGNAL": 7,
+      "OPPORTUNITY_SIGNAL": 1
     }
   },
   "signals": [
@@ -23,36 +22,36 @@
       "source_post_id": "7493735060567683072",
       "author": null,
       "author_type": null,
-      "company": "SkyDrones",
+      "company": null,
       "people": [],
       "signal_types": [
         "TECH_SIGNAL",
-        "PROJECT_SIGNAL",
-        "COMPANY_SIGNAL"
+        "PROJECT_SIGNAL"
       ],
       "domains": [
+        "aerospace",
+        "UAV/UAS",
         "VTOL",
-        "UAV",
-        "autonomous flight",
-        "flight testing"
+        "autonomous flight"
       ],
       "technologies": [
         "flight control",
+        "flight testing",
+        "propulsion response",
         "hover stability",
-        "propulsion responsiveness",
-        "flight controller",
+        "control loops",
         "sensors",
-        "control-loop validation"
+        "autonomous flight"
       ],
       "hiring": {
         "detected": false,
         "intent": "none",
         "roles": []
       },
-      "career_relevance": 90,
+      "career_relevance": 93,
       "technical_relevance": 97,
-      "networking_relevance": 22,
-      "content_relevance": 80,
+      "networking_relevance": 8,
+      "content_relevance": 89,
       "profile_matches": [
         "UAV/UAS",
         "aerospace",
@@ -61,12 +60,11 @@
         "simulation"
       ],
       "priority": "high",
-      "why_relevant": "The post directly concerns VTOL hover stability, flight-control response, propulsion dynamics, sensors and validation of the complete control loop. These topics closely match the profile's experience in flight-control systems, eVTOL development, autopilot algorithms, flight dynamics and simulation. No hiring or specific person is identified.",
+      "why_relevant": "The post directly concerns VTOL hover stability, flight-control response, propulsion dynamics, sensors, and validation of the complete control loop, closely matching the profile's flight-control, autopilot, UAV, eVTOL, simulation, and testing expertise.",
       "recommended_actions": [
-        "review_technology",
         "engage_with_post",
-        "follow_company",
-        "find_technical_leads"
+        "save_for_content",
+        "review_technology"
       ],
       "links": [],
       "posted_time": "3 дн.",
@@ -84,7 +82,7 @@
       ],
       "source_text": "Low-altitude stability and propulsion responsiveness testing with SkyLane-350. Operating close to the ground provides a demanding environment to evaluate the aircraft’s hover stability, control response and propulsion performance. During the test, we verify how quickly and precisely the propulsion system responds to flight controller commands while maintaining a stable position and altitude. These tests are an important part of validating the complete VTOL control loop - from sensors and flight control algorithms to motor response and propulsion dynamics. More info: https://lnkd.in/e_-wejbP #SkyDrones #SkyLane350 #VTOL #FlightTesting #FlightControl #Propulsion #UAV #AutonomousFlight",
       "source_url": "",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules+openai",
       "llm": {
         "used": true,
@@ -94,349 +92,108 @@
       },
       "roles": [],
       "projects": [
-        "SkyLane-350 low-altitude VTOL stability and propulsion responsiveness testing"
+        "SkyLane-350 low-altitude stability and propulsion responsiveness testing"
       ],
-      "relationship_targets": [
-        {
-          "target_role": "VTOL flight-control or flight-test technical lead",
-          "reason": "The post provides a strong reason to identify a technical contact involved in SkyLane-350 flight-control validation and testing, although no individual is named.",
-          "priority": "low"
-        }
-      ],
-      "content_angle": "Possible original angle: discuss how low-altitude VTOL testing exposes the interaction between hover control, sensor behavior, controller-command latency and propulsion response, drawing on general flight-control and validation expertise rather than copying the post.",
-      "confidence": 94
+      "relationship_targets": [],
+      "content_angle": "Share an original expert perspective on validating VTOL control loops through low-altitude testing, including the interaction between sensor behavior, controller commands, actuator or motor response, and stability margins.",
+      "confidence": 96
     },
     {
-      "signal_id": "sig_efb8fda979a4c527",
+      "signal_id": "sig_cdf9cc4dfb68511a",
       "source_post_id": null,
-      "author": "Sachin Jain, Ph.D. • Отслеживаете",
+      "author": "Rinata Ilyubayeva",
       "author_type": "person",
-      "company": null,
+      "company": "Astana Hub",
       "people": [
         {
-          "name": "Sachin Jain, Ph.D.",
-          "role": null,
+          "name": "Rinata Ilyubayeva",
+          "role": "Managing Director at Astana Hub",
           "relation": "author",
           "confidence": "confirmed"
         },
         {
-          "name": "Lt. Gen. Joseph Jarrard",
-          "role": "deputy commander of NORTHCOM",
-          "relation": "mentioned",
-          "confidence": "confirmed"
-        }
-      ],
-      "signal_types": [
-        "TECH_SIGNAL",
-        "PEOPLE_SIGNAL",
-        "NETWORK_SIGNAL",
-        "MARKET_SIGNAL"
-      ],
-      "domains": [
-        "defense",
-        "autonomy",
-        "counter-UAS",
-        "drone detection"
-      ],
-      "technologies": [
-        "sensor fusion",
-        "RF detection",
-        "AI video classification",
-        "track correlation",
-        "fusion latency",
-        "false-positive suppression",
-        "kinetic effectors",
-        "non-kinetic effectors"
-      ],
-      "hiring": {
-        "detected": false,
-        "intent": "none",
-        "roles": []
-      },
-      "career_relevance": 76,
-      "technical_relevance": 95,
-      "networking_relevance": 58,
-      "content_relevance": 87,
-      "profile_matches": [
-        "UAV/UAS",
-        "autonomy",
-        "simulation",
-        "space"
-      ],
-      "priority": "high",
-      "why_relevant": "The post analyzes counter-UAS detection, multimodal sensor fusion, track correlation, latency, and false-positive suppression. These topics closely overlap the profile's sensor-fusion, autonomy, UAV, telemetry, and control-systems expertise, although no specific job or project engagement is announced.",
-      "recommended_actions": [
-        "engage_with_post",
-        "save_for_content",
-        "follow_person",
-        "review_technology"
-      ],
-      "links": [
-        {
-          "url": "https://www.linkedin.com/in/sachinjainphd/",
-          "link_type": "post",
-          "relation": "source",
-          "priority": "high"
-        },
-        {
-          "url": "https://www.linkedin.com/in/sachinjainphd/",
-          "link_type": "person",
-          "relation": "author",
-          "priority": "high"
-        }
-      ],
-      "posted_time": "2 дн.",
-      "reactions": 24,
-      "comments": null,
-      "hashtags": [
-        "#DoW",
-        "#Defense",
-        "#Autonomy",
-        "#CUAS"
-      ],
-      "source_text": "Lt. Gen. Joseph Jarrard, deputy commander of NORTHCOM, said this month: \"We don't have the sensors... We are ill-equipped right now to handle something like that... We're seeing it used on a daily basis around the world, and we've got to figure out how to mitigate that threat. But we're not there yet.\" He also separately said: \"Detection is obviously the biggest issue, and so how we are able to detect is one of our biggest concerns right now.\" Meanwhile, the counter-drone vendor pitch for 2026 is almost uniformly \"layered defense\" — stack an RF detector, an AI-video classifier, a kinetic or non-kinetic effector, and call it depth. Several recent product launches lead with AI video fused to RF as the differentiator. Here's the disconnect. A three-star just told the public the bottleneck is sensors and detection, not effector diversity. And detection at swarm tempo isn't really a sensor-count problem — it's a track-correlation problem. Every additional modality is another stream that has to be time-aligned, classified, and reconciled with the others before anyone can act. Add a sensor without solving fusion latency and false-positive suppression, and you've made the decision harder, not easier, against a swarm that's inside your OODA loop in single-digit seconds. If you're building in this space, the question worth obsessing over isn't \"what's my next sensor modality.\" It's \"how fast and how reliably does my fusion engine resolve conflicting tracks into one actionable picture\" — because that's the gap NORTHCOM's own leadership is naming publicly, not a gap in sensor variety. Where do you think the real bottleneck is — sensor coverage, fusion latency, or engagement authority? #DoW #Defense #Autonomy #CUAS",
-      "source_url": "https://www.linkedin.com/in/sachinjainphd/",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "roles": [],
-      "projects": [
-        "layered counter-drone defense",
-        "counter-UAS detection and track-fusion systems"
-      ],
-      "relationship_targets": [
-        {
-          "target_role": "Technical professional in counter-UAS and autonomy",
-          "reason": "The author published a technically substantive analysis of sensor fusion and detection bottlenecks relevant to the profile's UAV and autonomous-systems background.",
-          "priority": "medium"
-        }
-      ],
-      "content_angle": "Offer an original controls and autonomy perspective on how timestamp synchronization, track association, estimator confidence, and false-alarm management affect actionable decisions under swarm-tempo constraints.",
-      "confidence": 91
-    },
-    {
-      "signal_id": "sig_b53549c3e059425f",
-      "source_post_id": "7501208198314487809",
-      "author": "Robert Kleist",
-      "author_type": "person",
-      "company": "Saildrone",
-      "people": [
-        {
-          "name": "Robert Kleist",
-          "role": "European Managing Director",
-          "relation": "author",
-          "confidence": "confirmed"
-        },
-        {
-          "name": "Prince Joachim of Denmark",
-          "role": "Defence Industry Attaché; Brigadier General",
+          "name": "Balaji Srinivasan",
+          "role": "Founder of Network School; former CTO of Coinbase",
           "relation": "mentioned",
           "confidence": "confirmed"
         },
         {
-          "name": "Dale R. Marks",
-          "role": "The Honorable",
-          "relation": "mentioned",
-          "confidence": "confirmed"
-        },
-        {
-          "name": "Erik Balck Sørensen",
-          "role": null,
-          "relation": "mentioned",
-          "confidence": "confirmed"
-        },
-        {
-          "name": "Richard Jenkins",
-          "role": "Founder and CEO",
+          "name": "Thorsten Gutmann",
+          "role": "Host",
           "relation": "mentioned",
           "confidence": "confirmed"
         }
       ],
       "signal_types": [
         "COMPANY_SIGNAL",
-        "PROJECT_SIGNAL",
-        "TECH_SIGNAL",
+        "PEOPLE_SIGNAL",
+        "NETWORK_SIGNAL",
         "MARKET_SIGNAL",
-        "PEOPLE_SIGNAL",
-        "NETWORK_SIGNAL",
-        "HIRING_SIGNAL"
+        "OPPORTUNITY_SIGNAL"
       ],
       "domains": [
-        "autonomous maritime operations",
-        "maritime security",
-        "defense",
-        "European industrial capacity"
+        "Technology ecosystems",
+        "Remote work",
+        "Entrepreneurship",
+        "AI",
+        "Emerging technologies",
+        "Technology education",
+        "Global talent communities"
       ],
       "technologies": [
-        "autonomous systems",
-        "uncrewed surface vehicles (USVs)"
-      ],
-      "hiring": {
-        "detected": false,
-        "intent": "weak",
-        "roles": []
-      },
-      "career_relevance": 91,
-      "technical_relevance": 88,
-      "networking_relevance": 79,
-      "content_relevance": 84,
-      "profile_matches": [
-        "UAV/UAS",
-        "autonomy",
-        "marine",
-        "marine robotics",
-        "robotics",
-        "simulation"
-      ],
-      "priority": "high",
-      "why_relevant": "The post describes Saildrone's expansion of autonomous maritime operations and regional USV manufacturing, deployment, operation, and support in Europe. This closely matches the profile's stated interest in marine autonomy, autonomous vessels, navigation, stabilization, control systems, and robotics. It also identifies the company's European Managing Director and Founder and CEO as concrete networking targets, although no vacancy is announced.",
-      "recommended_actions": [
-        "follow_company",
-        "follow_person",
-        "connect_person",
-        "engage_with_post",
-        "save_for_content",
-        "review_technology"
-      ],
-      "links": [
-        {
-          "url": "https://www.linkedin.com/in/robert-kleist-5643195/",
-          "link_type": "post",
-          "relation": "source",
-          "priority": "high"
-        },
-        {
-          "url": "https://www.linkedin.com/in/robert-kleist-5643195/",
-          "link_type": "person",
-          "relation": "author",
-          "priority": "high"
-        },
-        {
-          "url": "https://www.linkedin.com/company/eifo/",
-          "link_type": "company",
-          "relation": "mentioned",
-          "priority": "medium"
-        },
-        {
-          "url": "https://www.linkedin.com/company/saildrone-inc/",
-          "link_type": "company",
-          "relation": "mentioned",
-          "priority": "medium"
-        },
-        {
-          "url": "https://www.linkedin.com/in/robert-kleist-5643195/",
-          "link_type": "person",
-          "relation": "mentioned",
-          "priority": "medium"
-        }
-      ],
-      "posted_time": "2 дн.",
-      "reactions": 105,
-      "comments": null,
-      "hashtags": [],
-      "source_text": "The opening of Saildrone’s EU headquarters in Copenhagen represents much more than a new office. It is part of a long-term commitment to build the people, operations, partnerships, and industrial capacity needed to support autonomous maritime operations across Europe. At Quintus Bastion, we were honored to mark that next chapter alongside Defence Industry Attaché, His Royal Highness Brigadier General Prince Joachim of Denmark; The Honorable Dale R. Marks; Erik Balck Sørensen of EIFO ; Saildrone Founder and CEO Richard Jenkins; our European Managing Director Robert Kleist ; and customers, partners, and members of the Saildrone team. As the speakers reflected throughout the day, building sovereign European capability does not mean working in isolation. It means bringing together European manufacturing and technology, strong transatlantic relationships, public and private investment, and proven autonomous systems to strengthen maritime security and resilience. Our ambition is clear: to build the European capability to manufacture, deploy, operate, and support Saildrone USVs from the region, for the region.",
-      "source_url": "https://www.linkedin.com/in/robert-kleist-5643195/",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "roles": [
-        "European Managing Director",
-        "Defence Industry Attaché",
-        "Brigadier General",
-        "Founder and CEO"
-      ],
-      "projects": [
-        "Saildrone EU headquarters in Copenhagen",
-        "European capability to manufacture, deploy, operate, and support Saildrone USVs"
-      ],
-      "relationship_targets": [
-        {
-          "target_role": "European Managing Director",
-          "reason": "Author of the post and a concrete senior contact associated with Saildrone's European autonomous maritime expansion.",
-          "priority": "high"
-        },
-        {
-          "target_role": "Founder and CEO",
-          "reason": "Senior company leader named in connection with Saildrone's European USV and autonomous maritime capability-building initiative.",
-          "priority": "medium"
-        }
-      ],
-      "content_angle": "Inference: Discuss how flight-control, GNC, simulation, and autonomy expertise can transfer to USV navigation, stabilization, mission planning, and reliable maritime operations.",
-      "confidence": 94
-    },
-    {
-      "signal_id": "sig_69f17967e63e573e",
-      "source_post_id": "7501354886714896384",
-      "author": null,
-      "author_type": null,
-      "company": "Hermeus and Anduril",
-      "people": [],
-      "signal_types": [
-        "PROJECT_SIGNAL",
-        "COMPANY_SIGNAL",
-        "TECH_SIGNAL",
-        "MARKET_SIGNAL"
-      ],
-      "domains": [
-        "aerospace",
-        "high-speed flight",
-        "aircraft autonomy",
-        "mission systems"
-      ],
-      "technologies": [
-        "Lattice",
-        "mission autonomy software",
-        "pre-mission planning",
-        "mission execution",
-        "mission debrief"
+        "Artificial intelligence"
       ],
       "hiring": {
         "detected": false,
         "intent": "none",
         "roles": []
       },
-      "career_relevance": 86,
-      "technical_relevance": 90,
-      "networking_relevance": 28,
-      "content_relevance": 82,
-      "profile_matches": [
-        "aerospace",
-        "autonomy"
-      ],
-      "priority": "high",
-      "why_relevant": "The post describes end-to-end autonomy for a high-speed aircraft, including mission planning, execution and debrief. This strongly aligns with the profile's experience in flight-control systems, autopilot algorithms, flight dynamics, UAV/eVTOL systems, autonomy and mission optimization. No hiring is stated, but the partnership is a relevant company and technology signal.",
+      "career_relevance": 27,
+      "technical_relevance": 17,
+      "networking_relevance": 78,
+      "content_relevance": 39,
+      "profile_matches": [],
+      "priority": "medium",
+      "why_relevant": "Inference: The post is not a direct engineering or hiring opportunity, but it highlights Astana Hub, international technology communities, AI, and opportunities for engineers and founders to connect in Kazakhstan. The author is a confirmed senior technology-ecosystem contact, making the post more valuable for networking than for immediate job matching.",
       "recommended_actions": [
+        "follow_person",
         "follow_company",
-        "find_technical_leads",
-        "review_technology",
-        "engage_with_post",
-        "save_for_content"
+        "watch_person",
+        "engage_with_post"
       ],
       "links": [
         {
-          "url": "https://www.linkedin.com/company/hermeus/",
-          "link_type": "company",
+          "url": "https://www.linkedin.com/in/rinata-ilyubayeva/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/in/rinata-ilyubayeva/",
+          "link_type": "person",
+          "relation": "author",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/in/rinata-ilyubayeva/",
+          "link_type": "person",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/in/thorstengutmann/",
+          "link_type": "person",
           "relation": "mentioned",
           "priority": "medium"
         }
       ],
-      "posted_time": "2 дн.",
-      "reactions": 1452,
+      "posted_time": "3 дн.",
+      "reactions": 9,
       "comments": null,
       "hashtags": [],
-      "source_text": "Autonomy has reached high-speed flight. Hermeus selected Anduril to provide end-to-end mission autonomy for its Quarterhorse Mk 2, the first commercial partnership to fly our autonomy software on a third-party large aircraft. This critical step pulls forward the next phase of flight: complex, coordinated, collaborative missions. Operators will use Lattice across the full mission cycle, from pre-mission planning to execution to debrief.",
-      "source_url": "",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_text": "Why did Network School choose Kazakhstan over 10+ countries? A new conversation with Balaji Srinivasan has just premiered across Trusted Kazakhstan, Astana Hub, and Network State Podcast. Network School is building a global community for people who want to learn tech, work remotely, build companies, and live alongside other ambitious people. Kazakhstan is set to become one of the first major global hubs for this model. In the conversation, Balaji Srinivasan, founder of Network School and former CTO of Coinbase, joins Rinata Ilyubayeva , Managing Director at Astana Hub, and host Thorsten Gutmann to discuss why Kazakhstan stood out among more than 10 countries considered for Network School’s expansion. The discussion goes beyond the decision itself. It explores: • why Astana can become a destination for global tech talent • how digital nomads can contribute to Kazakhstan’s innovation ecosystem • new approaches to education and lifelong learning • how global and local talent can build companies together • Kazakhstan’s growing focus on AI, emerging technologies, and new industries • what the cities and communities of the future could look like One of the central ideas of the conversation is simple: Kazakhstan has the opportunity not only to attract global talent, but to create an environment where people can build, scale, and take tech to international markets. For us at Astana Hub, this is also part of a broader ambition: to make Kazakhstan a place where international founders, engineers, creators, and investors can connect with local talent and build globally competitive tech businesses. Watch the full conversation: https://lnkd.in/eCDdXhGU Join Network School: https://ns.com/ Join the opening of Network School in Astana on September 2: https://luma.com/nskz Meet the global tech community at AI & Digital Bridge, October 1-3 in Astana: https://lnkd.in/d8j2HPmf",
+      "source_url": "https://www.linkedin.com/in/rinata-ilyubayeva/",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules+openai",
       "llm": {
         "used": true,
@@ -445,26 +202,30 @@
         "error": null
       },
       "roles": [
-        "mission operators"
+        "Managing Director",
+        "Founder",
+        "Former CTO",
+        "Host"
       ],
       "projects": [
-        "Quarterhorse Mk 2",
-        "Hermeus-Anduril commercial autonomy partnership"
+        "Network School expansion in Kazakhstan",
+        "Opening of Network School in Astana",
+        "AI & Digital Bridge"
       ],
       "relationship_targets": [
         {
-          "target_role": "Technical lead in flight autonomy or mission systems at Hermeus",
-          "reason": "Inference: this role would likely be relevant for understanding technical work around Quarterhorse Mk 2 autonomy and high-speed flight.",
+          "target_role": "Managing Director at Astana Hub",
+          "reason": "The author is explicitly identified as Managing Director at Astana Hub and discusses connecting international engineers with Kazakhstan's technology ecosystem.",
           "priority": "high"
         },
         {
-          "target_role": "Technical lead in autonomy or aircraft systems at Anduril",
-          "reason": "Inference: this role would likely be relevant for Lattice integration, mission autonomy and aircraft operations.",
-          "priority": "high"
+          "target_role": "Founder of Network School",
+          "reason": "The post identifies Balaji Srinivasan as the founder of Network School, which is expanding a global technology and remote-work community in Kazakhstan.",
+          "priority": "medium"
         }
       ],
-      "content_angle": "Offer an original expert perspective on the control, verification and systems-integration challenges of extending autonomy across the full mission lifecycle in high-speed aircraft, including coordination between planning, execution, telemetry and post-mission analysis.",
-      "confidence": 95
+      "content_angle": "Inference: Share an original perspective on how international technology hubs can support multidisciplinary engineering communities working on autonomy, robotics, UAVs, and AI-enabled physical systems.",
+      "confidence": 88
     },
     {
       "signal_id": "sig_6565118cced5d2a0",
@@ -511,16 +272,16 @@
         "roles": []
       },
       "career_relevance": 32,
-      "technical_relevance": 8,
-      "networking_relevance": 78,
-      "content_relevance": 8,
+      "technical_relevance": 12,
+      "networking_relevance": 76,
+      "content_relevance": 10,
       "profile_matches": [],
       "priority": "medium",
-      "why_relevant": "The author reports joining MathWorks, creating a concrete networking touchpoint with a company potentially relevant to the profile's MATLAB/Simulink background. The post provides no job title, technical topic, project, or hiring information.",
+      "why_relevant": "The author explicitly states that she joined MathWorks. MathWorks is relevant to the profile because the professional profile uses MATLAB and Simulink, but the post does not specify the author's role, technical work, or any hiring activity. The author and three named contacts provide potential networking paths, although their relevance to engineering opportunities is unconfirmed.",
       "recommended_actions": [
+        "follow_company",
         "follow_person",
-        "connect_person",
-        "follow_company"
+        "connect_person"
       ],
       "links": [
         {
@@ -566,7 +327,7 @@
       "hashtags": [],
       "source_text": "It’s been a month since I joined MathWorks , and it has been a great start to this new chapter! ✨ I’m grateful for all the learning, new experiences, and wonderful people I’ve met along the way. A special thanks to Aditya Aggarwal for helping me settle in and making the transition smoother. Also grateful to have found some amazing friends, Ayantika Roy and Soumik Dutta , who have made this first month a lot more fun and memorable! ❤️ Looking forward to learning, growing, and making the most of this journey ahead! ✨",
       "source_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules+openai",
       "llm": {
         "used": true,
@@ -578,144 +339,17 @@
       "projects": [],
       "relationship_targets": [
         {
-          "target_role": "Author at MathWorks",
-          "reason": "Ritika Jaiswal is a concrete first-degree-of-network contact who recently joined MathWorks; her specific role is not stated.",
+          "target_role": "MathWorks contact",
+          "reason": "Ritika Jaiswal explicitly states that she joined MathWorks; her role is not stated, but she may provide a route to learn about the company or identify relevant technical contacts.",
+          "priority": "medium"
+        },
+        {
+          "target_role": "MathWorks technical or recruiting contact",
+          "reason": "The profile has strong MATLAB/Simulink alignment, so identifying a relevant technical or recruiting contact at MathWorks could be useful; no such role is identified in the post.",
           "priority": "medium"
         }
       ],
       "content_angle": null,
-      "confidence": 93
-    },
-    {
-      "signal_id": "sig_cdf9cc4dfb68511a",
-      "source_post_id": null,
-      "author": "Rinata Ilyubayeva",
-      "author_type": "person",
-      "company": "Astana Hub",
-      "people": [
-        {
-          "name": "Rinata Ilyubayeva",
-          "role": "Managing Director at Astana Hub",
-          "relation": "author",
-          "confidence": "confirmed"
-        },
-        {
-          "name": "Balaji Srinivasan",
-          "role": "Founder of Network School and former CTO of Coinbase",
-          "relation": "mentioned",
-          "confidence": "confirmed"
-        },
-        {
-          "name": "Thorsten Gutmann",
-          "role": "Host",
-          "relation": "mentioned",
-          "confidence": "confirmed"
-        }
-      ],
-      "signal_types": [
-        "COMPANY_SIGNAL",
-        "PEOPLE_SIGNAL",
-        "NETWORK_SIGNAL",
-        "OPPORTUNITY_SIGNAL",
-        "MARKET_SIGNAL"
-      ],
-      "domains": [
-        "Technology ecosystems",
-        "Remote work",
-        "Entrepreneurship",
-        "AI",
-        "Emerging technologies",
-        "Lifelong learning",
-        "Digital nomad communities",
-        "International technology business"
-      ],
-      "technologies": [
-        "AI",
-        "Emerging technologies"
-      ],
-      "hiring": {
-        "detected": false,
-        "intent": "none",
-        "roles": []
-      },
-      "career_relevance": 34,
-      "technical_relevance": 22,
-      "networking_relevance": 78,
-      "content_relevance": 38,
-      "profile_matches": [],
-      "priority": "medium",
-      "why_relevant": "The post identifies Astana Hub as a platform connecting international founders, engineers, creators, investors, and local talent. It is relevant as a potential networking and market-intelligence opportunity for a senior autonomous-systems engineer interested in global technology communities, remote work, AI, and emerging industries. No specific engineering role or hiring initiative is announced.",
-      "recommended_actions": [
-        "follow_person",
-        "watch_person",
-        "follow_company",
-        "engage_with_post",
-        "watch_company"
-      ],
-      "links": [
-        {
-          "url": "https://www.linkedin.com/in/rinata-ilyubayeva/",
-          "link_type": "post",
-          "relation": "source",
-          "priority": "high"
-        },
-        {
-          "url": "https://www.linkedin.com/in/rinata-ilyubayeva/",
-          "link_type": "person",
-          "relation": "author",
-          "priority": "high"
-        },
-        {
-          "url": "https://www.linkedin.com/in/rinata-ilyubayeva/",
-          "link_type": "person",
-          "relation": "mentioned",
-          "priority": "medium"
-        },
-        {
-          "url": "https://www.linkedin.com/in/thorstengutmann/",
-          "link_type": "person",
-          "relation": "mentioned",
-          "priority": "medium"
-        }
-      ],
-      "posted_time": "3 дн.",
-      "reactions": 9,
-      "comments": null,
-      "hashtags": [],
-      "source_text": "Why did Network School choose Kazakhstan over 10+ countries? A new conversation with Balaji Srinivasan has just premiered across Trusted Kazakhstan, Astana Hub, and Network State Podcast. Network School is building a global community for people who want to learn tech, work remotely, build companies, and live alongside other ambitious people. Kazakhstan is set to become one of the first major global hubs for this model. In the conversation, Balaji Srinivasan, founder of Network School and former CTO of Coinbase, joins Rinata Ilyubayeva , Managing Director at Astana Hub, and host Thorsten Gutmann to discuss why Kazakhstan stood out among more than 10 countries considered for Network School’s expansion. The discussion goes beyond the decision itself. It explores: • why Astana can become a destination for global tech talent • how digital nomads can contribute to Kazakhstan’s innovation ecosystem • new approaches to education and lifelong learning • how global and local talent can build companies together • Kazakhstan’s growing focus on AI, emerging technologies, and new industries • what the cities and communities of the future could look like One of the central ideas of the conversation is simple: Kazakhstan has the opportunity not only to attract global talent, but to create an environment where people can build, scale, and take tech to international markets. For us at Astana Hub, this is also part of a broader ambition: to make Kazakhstan a place where international founders, engineers, creators, and investors can connect with local talent and build globally competitive tech businesses. Watch the full conversation: https://lnkd.in/eCDdXhGU Join Network School: https://ns.com/ Join the opening of Network School in Astana on September 2: https://luma.com/nskz Meet the global tech community at AI & Digital Bridge, October 1-3 in Astana: https://lnkd.in/d8j2HPmf",
-      "source_url": "https://www.linkedin.com/in/rinata-ilyubayeva/",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "roles": [
-        "Managing Director",
-        "Founder",
-        "Former CTO",
-        "Host"
-      ],
-      "projects": [
-        "Network School expansion in Kazakhstan",
-        "Opening of Network School in Astana",
-        "AI & Digital Bridge"
-      ],
-      "relationship_targets": [
-        {
-          "target_role": "Managing Director at Astana Hub",
-          "reason": "Potential access point to Kazakhstan's technology ecosystem and connections among international engineers, founders, and emerging-technology companies.",
-          "priority": "high"
-        },
-        {
-          "target_role": "Founder of Network School",
-          "reason": "Relevant to global remote-work and technology-community developments, although the post does not establish a direct engineering or hiring connection.",
-          "priority": "medium"
-        }
-      ],
-      "content_angle": "Discuss how international technology hubs and remote engineering communities can help multidisciplinary teams develop autonomous systems, robotics, and AI-enabled physical products across borders.",
       "confidence": 91
     },
     {
@@ -734,50 +368,52 @@
       ],
       "signal_types": [
         "TECH_SIGNAL",
-        "PROJECT_SIGNAL",
-        "PEOPLE_SIGNAL"
+        "PEOPLE_SIGNAL",
+        "NETWORK_SIGNAL"
       ],
       "domains": [
-        "Computer Vision",
-        "Video Processing",
-        "Embedded Vision",
-        "Edge AI",
-        "Embedded Systems"
+        "computer vision",
+        "real-time video processing",
+        "embedded systems",
+        "edge AI"
       ],
       "technologies": [
         "C++17",
+        "video capture",
+        "video encoding and decoding",
+        "streaming",
+        "object tracking",
+        "video stabilization",
+        "object detection",
+        "video filtering",
+        "camera and lens control",
         "Linux",
         "Windows",
         "NVIDIA Jetson",
         "Raspberry Pi",
         "NXP i.MX8/i.MX9",
-        "Video Capture",
-        "Video Encoding and Decoding",
-        "Real-Time Processing",
-        "Object Tracking",
-        "Object Detection",
-        "Video Stabilization",
-        "Camera and Lens Control"
+        "embedded vision"
       ],
       "hiring": {
         "detected": false,
         "intent": "none",
         "roles": []
       },
-      "career_relevance": 45,
-      "technical_relevance": 78,
-      "networking_relevance": 30,
-      "content_relevance": 65,
+      "career_relevance": 48,
+      "technical_relevance": 72,
+      "networking_relevance": 38,
+      "content_relevance": 68,
       "profile_matches": [
         "computer vision",
         "embedded"
       ],
       "priority": "medium",
-      "why_relevant": "The post describes a cross-platform C++ SDK for real-time computer vision and embedded video processing. This aligns with the profile's experience in C++, embedded systems, computer vision, CUDA, telemetry, and autonomous platforms. No job opening or hiring intent is stated.",
+      "why_relevant": "The post describes a cross-platform C++ SDK for real-time computer vision, tracking, stabilization, object detection and embedded edge platforms. This is adjacent to the profile's computer vision, object tracking, CUDA, embedded systems and autonomous-platform interests, but the post does not mention a role, project engagement opportunity or hiring.",
       "recommended_actions": [
-        "review_technology",
         "engage_with_post",
-        "follow_person"
+        "review_technology",
+        "follow_person",
+        "save_for_content"
       ],
       "links": [
         {
@@ -807,7 +443,7 @@
       ],
       "source_text": "🚀 RapidPixel SDK v1.22.0 Update: Cross-Platform C++ SDK for Real-Time Video Processing Built with C++17, this toolkit provides ready-to-use components for developing real-time video processing and computer vision applications, including video capture, encoding and decoding, streaming, tracking, stabilization, object detection, video filtering, camera and lens control, communication, and other common video processing tasks. Instead of integrating many separate low-level libraries, developers can use larger, ready-made software building blocks and processing pipelines that are easy to integrate into their own applications. RapidPixel SDK supports Linux and Windows and runs on a wide range of platforms, including Intel, AMD, NVIDIA Jetson, Raspberry Pi, NXP i.MX8/i.MX9, Broadcom, Amlogic, and others. 🎥 Request a demo of RapidPixel SDK and see how it can accelerate your video processing development. #RapidPixel #ComputerVision #VideoProcessing #EmbeddedVision #CPlusPlus #EdgeAI #EmbeddedSystems",
       "source_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules+openai",
       "llm": {
         "used": true,
@@ -817,151 +453,121 @@
       },
       "roles": [],
       "projects": [
-        "RapidPixel SDK v1.22.0"
+        "RapidPixel SDK v1.22.0 update"
       ],
-      "relationship_targets": [],
-      "content_angle": "Discuss original engineering considerations for deploying real-time tracking, stabilization, and object-detection pipelines on constrained edge platforms used in autonomous or UAV systems, including latency, hardware acceleration, and portability trade-offs.",
-      "confidence": 88
-    },
-    {
-      "signal_id": "sig_fd05cd2220d7230b",
-      "source_post_id": null,
-      "author": null,
-      "author_type": null,
-      "company": null,
-      "people": [],
-      "signal_types": [
-        "TECH_SIGNAL"
-      ],
-      "domains": [
-        "embedded AI",
-        "autonomous systems"
-      ],
-      "technologies": [
-        "artificial intelligence",
-        "embedded systems",
-        "autonomy"
-      ],
-      "hiring": {
-        "detected": false,
-        "intent": "none",
-        "roles": []
-      },
-      "career_relevance": 63,
-      "technical_relevance": 76,
-      "networking_relevance": 15,
-      "content_relevance": 42,
-      "profile_matches": [
-        "autonomy",
-        "embedded",
-        "robotics"
-      ],
-      "priority": "medium",
-      "why_relevant": "The post concerns embedded AI and autonomous systems, which overlap with the profile's experience in embedded control, UAV autonomy, onboard systems, machine learning, and autonomous-platform engineering. It contains no specific role, company, project, or hiring indication.",
-      "recommended_actions": [
-        "review_technology",
-        "engage_with_post"
-      ],
-      "links": [
+      "relationship_targets": [
         {
-          "url": "https://fr.mathworks.com/campaigns/offers/next/embedded-ai-quiz.html?s_eid=PSB_1754330832",
-          "link_type": "external",
-          "relation": "source",
+          "target_role": "Author of the RapidPixel SDK update",
+          "reason": "The author is a concrete person associated with a technology relevant to the profile's computer vision, embedded systems and autonomous-platform interests; their specific role is not stated.",
           "priority": "medium"
         }
       ],
-      "posted_time": "",
-      "reactions": 54,
-      "comments": null,
-      "hashtags": [],
-      "source_text": "Embedded AI is powering everything from smart appliances to autonomous systems. Take our 7-question quiz to test your knowledge of techniques and tools shaping the future.",
-      "source_url": "",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "roles": [],
-      "projects": [],
-      "relationship_targets": [],
-      "content_angle": "Inference: An original expert angle could discuss the practical validation, real-time constraints, and safety considerations of embedded AI in autonomous systems.",
-      "confidence": 91
+      "content_angle": "Discuss how reusable C++17 video-processing pipelines on Jetson or Raspberry Pi can support perception, telemetry and object-tracking workloads in autonomous systems, including the trade-offs between integration speed, latency and hardware portability.",
+      "confidence": 88
     },
     {
-      "signal_id": "sig_3c4e90f3bfb83086",
+      "signal_id": "sig_170ca6cb507f9beb",
       "source_post_id": null,
-      "author": "Haitham Alalem, профиль Premium, 3-й+ Haitham Alalem • 3-й+ Strategic Business Development Leader | Defense, Homeland Security & Advanced Technology | Government Growth | Critical Infrastructure | Complex Deal Cycles | Partnerships | GCC",
+      "author": "Chris Broom • 3-й+",
       "author_type": "person",
-      "company": null,
+      "company": "Boeing",
       "people": [
         {
-          "name": "Haitham Alalem",
-          "role": "Strategic Business Development Leader",
+          "name": "Chris Broom",
+          "role": null,
           "relation": "author",
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Michelle Crawford",
+          "role": null,
+          "relation": "mentioned",
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Kirk Quongsing",
+          "role": null,
+          "relation": "mentioned",
+          "confidence": "confirmed"
+        },
+        {
+          "name": "Mark Nunn",
+          "role": null,
+          "relation": "mentioned",
           "confidence": "confirmed"
         }
       ],
       "signal_types": [
-        "TECH_SIGNAL",
-        "MARKET_SIGNAL",
+        "COMPANY_SIGNAL",
         "PEOPLE_SIGNAL",
+        "MARKET_SIGNAL",
         "NETWORK_SIGNAL"
       ],
       "domains": [
-        "autonomy",
-        "defense",
-        "homeland security",
-        "advanced technology",
-        "critical infrastructure",
-        "GCC"
+        "aviation training",
+        "airline operations",
+        "aerospace",
+        "workforce readiness"
       ],
       "technologies": [
-        "autonomy"
+        "CBTA Learning Library"
       ],
       "hiring": {
         "detected": false,
         "intent": "none",
         "roles": []
       },
-      "career_relevance": 48,
-      "technical_relevance": 43,
-      "networking_relevance": 68,
-      "content_relevance": 59,
+      "career_relevance": 35,
+      "technical_relevance": 20,
+      "networking_relevance": 55,
+      "content_relevance": 30,
       "profile_matches": [
-        "autonomy",
-        "simulation"
+        "aerospace"
       ],
-      "priority": "medium",
-      "why_relevant": "Inference: The post's focus on autonomy, mission outcomes, risk reduction and GCC defense-related needs overlaps with the profile's autonomous systems, UAV, flight-control and engineering background. The author is a concrete business-development contact in defense and advanced technology, but the post does not identify a specific technical project, company opportunity or vacancy.",
+      "priority": "low",
+      "why_relevant": "The post concerns Boeing, civil aviation, pilot training, and future aviation workforce demand. This is adjacent to the profile's aerospace background but does not discuss flight controls, GNC, UAVs, simulation, autonomy, or engineering roles.",
       "recommended_actions": [
-        "engage_with_post",
-        "connect_person",
-        "follow_person"
+        "follow_person",
+        "watch_person",
+        "follow_company"
       ],
       "links": [
         {
-          "url": "https://www.linkedin.com/in/haitham-alalem-59976a126/",
+          "url": "https://www.linkedin.com/in/chris-broom-3649712/",
           "link_type": "post",
           "relation": "source",
           "priority": "high"
         },
         {
-          "url": "https://www.linkedin.com/in/haitham-alalem-59976a126/",
+          "url": "https://www.linkedin.com/in/chris-broom-3649712/",
           "link_type": "person",
           "relation": "author",
           "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/in/michelle-crawford-aa75aab/",
+          "link_type": "person",
+          "relation": "mentioned",
+          "priority": "medium"
+        },
+        {
+          "url": "https://www.linkedin.com/in/mark-nunn-49b21745/",
+          "link_type": "person",
+          "relation": "mentioned",
+          "priority": "medium"
         }
       ],
-      "posted_time": "2 дн.",
-      "reactions": 369,
+      "posted_time": "4 дн.",
+      "reactions": 176,
       "comments": null,
-      "hashtags": [],
-      "source_text": "This is where autonomy really starts to make a difference — faster decisions, less risk to people, and better mission outcomes. With today’s geopolitical environment, the GCC has an even stronger need to turn these capabilities into practical, locally relevant solutions that strengthen readiness and resilience.",
-      "source_url": "https://www.linkedin.com/in/haitham-alalem-59976a126/",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "hashtags": [
+        "#CBTA",
+        "#TeamBoeing",
+        "#AviationTraining"
+      ],
+      "source_text": "Proud to announce a first-of-its-kind collaboration between Boeing and CAAT (The Civil Aviation Authority of Thailand) to deploy our CBTA Learning Library across Thailand’s flight training ecosystem. Grateful to CAAT for their leadership — this partnership will help strengthen pilot competencies, improve training quality, and prepare the next generation of aviators for modern airline operations. Together we’re supporting workforce readiness as Southeast Asia anticipates the need for 66,000 new pilots over the next 20 years. Thank you to the CAAT team and our Boeing colleagues, including Michelle Crawford , Kirk Quongsing, and Mark Nunn and team, for making this important step forward possible — we’re committed for the long term. #CBTA #TeamBoeing #AviationTraining",
+      "source_url": "https://www.linkedin.com/in/chris-broom-3649712/",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules+openai",
       "llm": {
         "used": true,
@@ -970,18 +576,94 @@
         "error": null
       },
       "roles": [
-        "Strategic Business Development Leader"
+        "pilot"
       ],
-      "projects": [],
+      "projects": [
+        "Boeing and CAAT collaboration to deploy the CBTA Learning Library across Thailand's flight training ecosystem"
+      ],
       "relationship_targets": [
         {
-          "target_role": "Strategic Business Development Leader in defense and advanced technology",
-          "reason": "The author discusses autonomy applications, GCC needs, defense, homeland security and critical infrastructure; inference: this may provide a relevant ecosystem connection for autonomous-systems engineering opportunities.",
-          "priority": "medium"
+          "target_role": "Boeing aviation training or workforce-readiness lead",
+          "reason": "Inference: this type of contact could be relevant for understanding aviation-sector opportunities connected to the announced training collaboration.",
+          "priority": "low"
+        },
+        {
+          "target_role": "CAAT flight-training program lead",
+          "reason": "Inference: this type of contact could provide insight into Thailand's aviation training ecosystem, though no specific role is identified in the post.",
+          "priority": "low"
         }
       ],
-      "content_angle": "Inference: Offer an original engineering perspective on translating autonomy from capability into mission-ready systems, emphasizing validation, safety, human risk reduction and locally relevant operational constraints.",
-      "confidence": 86
+      "content_angle": "An original expert perspective on how competency-based aviation training and workforce expansion may affect simulator validation, flight-control training, and the skills required for modern aircraft operations.",
+      "confidence": 88
+    },
+    {
+      "signal_id": "sig_a8936de8078d4922",
+      "source_post_id": "7500972097649659904",
+      "author": "Sachin Jain, Ph.D.",
+      "author_type": "person",
+      "company": null,
+      "people": [
+        {
+          "name": "Sachin Jain, Ph.D.",
+          "profile_url": "https://www.linkedin.com/in/sachinjainphd/",
+          "relation": "author"
+        }
+      ],
+      "signal_types": [
+        "MARKET_SIGNAL",
+        "PEOPLE_SIGNAL",
+        "NETWORK_SIGNAL"
+      ],
+      "domains": [
+        "aerospace",
+        "space"
+      ],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 52,
+      "technical_relevance": 46,
+      "networking_relevance": 49,
+      "content_relevance": 33,
+      "profile_matches": [
+        "aerospace",
+        "space"
+      ],
+      "priority": "low",
+      "why_relevant": "домены: aerospace, space; совпадение с профилем: aerospace, space.",
+      "recommended_actions": [
+        "no_action"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7500997445376606209/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/in/sachinjainphd/",
+          "link_type": "person",
+          "relation": "author",
+          "priority": "high"
+        }
+      ],
+      "posted_time": "3 дн.",
+      "reactions": 156,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "I’m excited to share that I’m starting a new role as Executive Technology Director, Advanced Research Office at GE Aerospace . As I make this transition, I’ve been reflecting on the past three years leading the Digital & Electrical Systems (DES) organization at the GE Aerospace Research Center. It has been a privilege to work with such a talented group of technology managers, researchers, and the broader research community across DES. I’m grateful to have been part of an organization that paired technical excellence with meaningful business outcomes. I’ve appreciated not only what the team accomplished, but how it was accomplished — through deep expertise, collaboration, innovation, and commitment. A special thank you to the DES management team — Kareem Aggour, Paul Ardis, David Esler, Denise Feirstein, John Garrity, Banu Gemici-Ozkan, Arun Gowda, Stacey Kennerly, and Eric Westervelt — for your leadership and partnership. I also want to recognize the broader research community that these leaders support every day; your contributions, creativity, and dedication have made a lasting impact. I’m proud of what we achieved together and excited for this next chapter in the Advanced Research Office.",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7500997445376606209/",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
     },
     {
       "signal_id": "sig_7e93d70c8ec68e2e",
@@ -1042,7 +724,7 @@
       "hashtags": [],
       "source_text": "I’m happy to share that I’m starting a new position as a F-35 Operations Center Analyst at Lockheed Martin !",
       "source_url": "https://www.linkedin.com/in/aiden-packard/",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules",
       "llm": {
         "used": false,
@@ -1104,7 +786,7 @@
       "hashtags": [],
       "source_text": "Congratulations, Aiden!",
       "source_url": "https://www.linkedin.com/in/aiden-packard/",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules",
       "llm": {
         "used": false,
@@ -1114,65 +796,60 @@
       }
     },
     {
-      "signal_id": "sig_d7437146c273a878",
+      "signal_id": "sig_8aa530821ba5276a",
       "source_post_id": null,
-      "author": "Haitham Alalem, профиль Premium, 3-й+ Haitham Alalem • 3-й+ Strategic Business Development Leader | Defense, Homeland Security & Advanced Technology | Government Growth | Critical Infrastructure | Complex Deal Cycles | Partnerships | GCC",
+      "author": "Chris Broom • 3-й+",
       "author_type": "person",
       "company": null,
       "people": [
         {
-          "name": "Haitham Alalem, профиль Premium, 3-й+ Haitham Alalem • 3-й+ Strategic Business Development Leader | Defense, Homeland Security & Advanced Technology | Government Growth | Critical Infrastructure | Complex Deal Cycles | Partnerships | GCC",
-          "profile_url": "https://www.linkedin.com/in/haitham-alalem-59976a126/",
+          "name": "Chris Broom • 3-й+",
+          "profile_url": "https://www.linkedin.com/in/chris-broom-3649712/",
           "relation": "author"
         }
       ],
       "signal_types": [
-        "TECH_SIGNAL",
-        "PROJECT_SIGNAL",
+        "MARKET_SIGNAL",
         "PEOPLE_SIGNAL",
         "NETWORK_SIGNAL"
       ],
       "domains": [],
-      "technologies": [
-        "autonomy"
-      ],
+      "technologies": [],
       "hiring": {
         "detected": false,
         "intent": "none"
       },
-      "career_relevance": 31,
-      "technical_relevance": 38,
+      "career_relevance": 20,
+      "technical_relevance": 18,
       "networking_relevance": 49,
-      "content_relevance": 47,
-      "profile_matches": [
-        "autonomy"
-      ],
+      "content_relevance": 23,
+      "profile_matches": [],
       "priority": "low",
-      "why_relevant": "технологии: autonomy; совпадение с профилем: autonomy.",
+      "why_relevant": "сигнал компании/рынка без сильного совпадения с профилем.",
       "recommended_actions": [
         "no_action"
       ],
       "links": [
         {
-          "url": "https://www.linkedin.com/in/haitham-alalem-59976a126/",
+          "url": "https://www.linkedin.com/in/chris-broom-3649712/",
           "link_type": "post",
           "relation": "source",
           "priority": "high"
         },
         {
-          "url": "https://www.linkedin.com/in/haitham-alalem-59976a126/",
+          "url": "https://www.linkedin.com/in/chris-broom-3649712/",
           "link_type": "person",
           "relation": "author",
           "priority": "high"
         }
       ],
-      "posted_time": "2 дн.",
-      "reactions": 369,
+      "posted_time": "4 дн.",
+      "reactions": 176,
       "comments": null,
       "hashtags": [],
-      "source_text": "Unmanned systems 🤝 intelligent autonomy Access to accurate data is critical for first responders in the field. To help them make informed decisions when it matters most, we’re developing autonomous solutions like MATRIX™ and investing in mission integration for wildfire prediction and protection through EMBERPOINT™. We’re also sponsoring the GoAERO competition, which is paving the way for autonomous first aid. Learn more about the future of autonomy and unmanned systems: https://lmt.co/4zTVurR",
-      "source_url": "https://www.linkedin.com/in/haitham-alalem-59976a126/",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_text": "Congratulations to the Commercial Training Solutions team! This first-of-its-kind partnership with a regulator marks an important step toward a standardized, competency-driven approach for pilot training across Thailand.",
+      "source_url": "https://www.linkedin.com/in/chris-broom-3649712/",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules",
       "llm": {
         "used": false,
@@ -1182,45 +859,59 @@
       }
     },
     {
-      "signal_id": "sig_498417ccd160c2ac",
+      "signal_id": "sig_8af3d382c0834722",
       "source_post_id": null,
-      "author": null,
-      "author_type": null,
+      "author": "Priyam K.",
+      "author_type": "person",
       "company": null,
-      "people": [],
+      "people": [
+        {
+          "name": "Priyam K.",
+          "profile_url": "https://www.linkedin.com/in/legal-priyam/",
+          "relation": "author"
+        }
+      ],
       "signal_types": [
-        "TECH_SIGNAL"
+        "PEOPLE_SIGNAL",
+        "NETWORK_SIGNAL"
       ],
-      "domains": [
-        "defense"
-      ],
-      "technologies": [
-        "UAV/UAS"
-      ],
+      "domains": [],
+      "technologies": [],
       "hiring": {
         "detected": false,
         "intent": "none"
       },
-      "career_relevance": 41,
-      "technical_relevance": 46,
-      "networking_relevance": 15,
-      "content_relevance": 30,
-      "profile_matches": [
-        "UAV/UAS"
-      ],
+      "career_relevance": 20,
+      "technical_relevance": 18,
+      "networking_relevance": 49,
+      "content_relevance": 18,
+      "profile_matches": [],
       "priority": "low",
-      "why_relevant": "технологии: UAV/UAS; домены: defense; совпадение с профилем: UAV/UAS.",
+      "why_relevant": "сигнал компании/рынка без сильного совпадения с профилем.",
       "recommended_actions": [
         "no_action"
       ],
-      "links": [],
-      "posted_time": "",
-      "reactions": 3,
+      "links": [
+        {
+          "url": "https://www.linkedin.com/in/legal-priyam/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/in/legal-priyam/",
+          "link_type": "person",
+          "relation": "author",
+          "priority": "high"
+        }
+      ],
+      "posted_time": "4 дн.",
+      "reactions": 40,
       "comments": null,
       "hashtags": [],
-      "source_text": "Detection and jamming aren’t enough when a hostile drone or UAV is seconds from impact. SpiderNet gives you a true last line of defense that doesn’t depend on software, signal conditions, active countermeasures or human reaction time. You get a reusable, low-maintenance net system that physically intercepts and contains UAVs, helping you secure airports, bases, and critical infrastructure with confidence. Advanced fibre technology. Extremely strong and light, fire retardant, RF neutral.",
-      "source_url": "",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_text": "The same conversation has come up more than once this year, and it always starts the same way, in my messages here. Someone in their early thirties who has taken over a family business. One version of them wants no part of what they inherited and is building something separate. Another is trying to take it to the moon. And a third doesnt know which way to turn. Different directions. Same question underneath. Which part of this is mine. They are usually moving quickly and have ambitious plans. What they have not checked is whose definition of winning they are running on. Most are a little annoyed when I ask. The idea is not to slow down. It is to make sure the direction is theirs before they spend another five years going that way at speed. If you recognised yourself somewhere in the last few weeks of posts, that is usually the signal. My messages are open.",
+      "source_url": "https://www.linkedin.com/in/legal-priyam/",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules",
       "llm": {
         "used": false,
@@ -1230,21 +921,83 @@
       }
     },
     {
-      "signal_id": "sig_a47aff007c128e52",
-      "source_post_id": "7501330556501032960",
+      "signal_id": "sig_f6b33d1b6dcb8411",
+      "source_post_id": null,
+      "author": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ • 1-й",
+      "author_type": "person",
+      "company": null,
+      "people": [
+        {
+          "name": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ • 1-й",
+          "profile_url": "https://www.linkedin.com/in/veronekoshat/",
+          "relation": "author"
+        }
+      ],
+      "signal_types": [
+        "PEOPLE_SIGNAL",
+        "NETWORK_SIGNAL"
+      ],
+      "domains": [],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 20,
+      "technical_relevance": 18,
+      "networking_relevance": 49,
+      "content_relevance": 18,
+      "profile_matches": [],
+      "priority": "low",
+      "why_relevant": "сигнал компании/рынка без сильного совпадения с профилем.",
+      "recommended_actions": [
+        "no_action"
+      ],
+      "links": [
+        {
+          "url": "https://www.linkedin.com/in/veronekoshat/",
+          "link_type": "post",
+          "relation": "source",
+          "priority": "high"
+        },
+        {
+          "url": "https://www.linkedin.com/in/veronekoshat/",
+          "link_type": "person",
+          "relation": "author",
+          "priority": "high"
+        }
+      ],
+      "posted_time": "3 дн.",
+      "reactions": null,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "https://lnkd.in/dDuUznBR Приручить ИИ и выжать из него не шаблонную романтику, а дикую, пьянящую страсть — задача со звездочкой. Этот вариант явно превзошел предыдущий: появилась та самая темная гипнотическая опасность. Не идеал, но мы уже совсем рядом. Слушать строго в наушниках",
+      "source_url": "https://www.linkedin.com/in/veronekoshat/",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_c615ae27ebc25353",
+      "source_post_id": "7495050293244592129",
       "author": null,
       "author_type": null,
       "company": null,
       "people": [],
       "signal_types": [
         "TECH_SIGNAL",
-        "OPPORTUNITY_SIGNAL"
+        "PROJECT_SIGNAL"
       ],
       "domains": [
-        "defense"
+        "aerospace"
       ],
       "technologies": [
-        "UAV/UAS"
+        "FEA/CAE"
       ],
       "hiring": {
         "detected": false,
@@ -1253,35 +1006,79 @@
       "career_relevance": 41,
       "technical_relevance": 46,
       "networking_relevance": 15,
-      "content_relevance": 30,
+      "content_relevance": 42,
       "profile_matches": [
-        "UAV/UAS"
+        "aerospace"
       ],
       "priority": "low",
-      "why_relevant": "технологии: UAV/UAS; домены: defense; совпадение с профилем: UAV/UAS.",
+      "why_relevant": "технологии: FEA/CAE; домены: aerospace; совпадение с профилем: aerospace.",
+      "recommended_actions": [
+        "no_action"
+      ],
+      "links": [],
+      "posted_time": "",
+      "reactions": 37,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "Choosing a flight data provider should not start with a feature list. It should start with your use case. Coverage, update frequency, latency, historical depth, available fields and delivery method can all determine whether a flight data feed is right for the product or platform you are building. Our **Aviation Data Requirements Checklist** helps product, engineering and data teams define what they actually need before evaluating a provider. Download the guide and build your flight data requirements with greater clarity.",
+      "source_url": "",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_73696511a2bf8dfc",
+      "source_post_id": null,
+      "author": null,
+      "author_type": null,
+      "company": null,
+      "people": [],
+      "signal_types": [
+        "PROJECT_SIGNAL"
+      ],
+      "domains": [
+        "aerospace"
+      ],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 41,
+      "technical_relevance": 36,
+      "networking_relevance": 15,
+      "content_relevance": 45,
+      "profile_matches": [
+        "aerospace"
+      ],
+      "priority": "low",
+      "why_relevant": "домены: aerospace; совпадение с профилем: aerospace.",
       "recommended_actions": [
         "no_action"
       ],
       "links": [
         {
-          "url": "mailto:sales@embention.com",
-          "link_type": "external",
-          "relation": "source",
+          "url": "https://www.linkedin.com/company/all-nippon-airways/",
+          "link_type": "company",
+          "relation": "mentioned",
           "priority": "medium"
         }
       ],
       "posted_time": "2 дн.",
-      "reactions": 16,
+      "reactions": 758,
       "comments": null,
       "hashtags": [
-        "#MSPO2026",
-        "#Defense",
-        "#Embention",
-        "#UAV"
+        "#NEWS",
+        "#NOTÍCIA"
       ],
-      "source_text": "You’ll find our team at Hall 11, Stand 11-A14 starting Tuesday at 10:00 AM for #MSPO2026 . If you want to discuss your platform requirements in detail, schedule a meeting in advance to secure your slot. Looking forward to see you: 🗓️ September 8–11, 2026 🕒 Tue–Thu: 10:00–17:00 | Fri: 10:00–15:00 📍 Hall 11, Stand 11-A14 ✉️ Book a meeting: sales@embention.com #Defense #Embention #UAV",
+      "source_text": "#NEWS | Embraer and ANA Holdings Inc. (ANA HD) today announced the signing of an agreement for eight E190-E2 aircraft, formalizing ANA HD's decision unveiled on July 29, 2026 to expand their fleet. This deal builds on the airline’s original purchase contract for 15 E190-E2 firm aircraft, announced in 2025, and will increase ANA HD’s total firm orders for E2 aircraft to 23. ANAHD still holds five additional options for E190-E2 aircraft. Read full news: https://lnkd.in/gZveCjpY . #NOTÍCIA | A Embraer e a ANA Holdings Inc. (ANA HD) anunciaram hoje a assinatura de um acordo para oito aeronaves E190-E2, formalizando a decisão da ANA HD, revelada em 29 de julho de 2026, de expandir sua frota. O acordo amplia o contrato original, de 2025, para a aquisição de 15 E190-E2, elevando o total de pedidos firmes da companhia aérea para 23 aeronaves. A ANA HD ainda possui cinco opções adicionais para o E190-E2. Leia notícia completa: https://lnkd.in/gH-yg7uN All Nippon Airways",
       "source_url": "",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules",
       "llm": {
         "used": false,
@@ -1340,7 +1137,7 @@
       ],
       "source_text": "Mission eVTOL 2026 united nearly 1,500 visionaries from Eve and Embraer . This annual gathering delivered important updates on the eVTOL program, spotlighting bold product advancements, market breakthroughs and the evolving ecosystem. Above all, it showcased the collaboration fueling Eve’s eVTOL journey, aligning teams, sparking ideas and propelling the program forward across the business. #EveAirMobility #MobilityReimagined #eVTOL",
       "source_url": "",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules",
       "llm": {
         "used": false,
@@ -1350,105 +1147,43 @@
       }
     },
     {
-      "signal_id": "sig_4c9b256ed258a811",
-      "source_post_id": null,
+      "signal_id": "sig_d9020b13af0b56ec",
+      "source_post_id": "7493710830849662976",
       "author": null,
       "author_type": null,
       "company": null,
       "people": [],
       "signal_types": [
-        "COMPANY_SIGNAL"
+        "TECH_SIGNAL"
       ],
-      "domains": [
-        "marine"
+      "domains": [],
+      "technologies": [
+        "UAV/UAS"
       ],
-      "technologies": [],
       "hiring": {
         "detected": false,
         "intent": "none"
       },
-      "career_relevance": 41,
-      "technical_relevance": 36,
+      "career_relevance": 31,
+      "technical_relevance": 38,
       "networking_relevance": 15,
-      "content_relevance": 23,
+      "content_relevance": 25,
       "profile_matches": [
-        "marine"
+        "UAV/UAS"
       ],
       "priority": "low",
-      "why_relevant": "домены: marine; совпадение с профилем: marine.",
-      "recommended_actions": [
-        "no_action"
-      ],
-      "links": [
-        {
-          "url": "https://www.linkedin.com/company/oceanwings/",
-          "link_type": "company",
-          "relation": "mentioned",
-          "priority": "medium"
-        },
-        {
-          "url": "https://www.linkedin.com/company/classnk/",
-          "link_type": "company",
-          "relation": "mentioned",
-          "priority": "medium"
-        }
-      ],
-      "posted_time": "1 дн.",
-      "reactions": 1,
-      "comments": null,
-      "hashtags": [
-        "#decarbonisation",
-        "#shipping",
-        "#maritime",
-        "#netzero"
-      ],
-      "source_text": "OceanWings has received approval in principle (AiP) from the classification society ClassNK - Nippon Kaiji Kyokai for its rigid fixed and rigid tiltable wingsails. https://lnkd.in/eyFkbBHb #decarbonisation #shipping #maritime #netzero",
-      "source_url": "",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
-      "analysis_engine": "rules",
-      "llm": {
-        "used": false,
-        "provider": null,
-        "model": null,
-        "error": null
-      }
-    },
-    {
-      "signal_id": "sig_19346af5392e8e73",
-      "source_post_id": "7474873857951105026",
-      "author": null,
-      "author_type": null,
-      "company": null,
-      "people": [],
-      "signal_types": [
-        "COMPANY_SIGNAL"
-      ],
-      "domains": [
-        "defense"
-      ],
-      "technologies": [],
-      "hiring": {
-        "detected": false,
-        "intent": "none"
-      },
-      "career_relevance": 30,
-      "technical_relevance": 26,
-      "networking_relevance": 15,
-      "content_relevance": 23,
-      "profile_matches": [],
-      "priority": "low",
-      "why_relevant": "домены: defense.",
+      "why_relevant": "технологии: UAV/UAS; совпадение с профилем: UAV/UAS.",
       "recommended_actions": [
         "no_action"
       ],
       "links": [],
       "posted_time": "",
-      "reactions": 26,
+      "reactions": 48,
       "comments": null,
       "hashtags": [],
-      "source_text": "Your cybersecurity platform shows everything. But it can’t act on anything. Security and IT teams are drowning in data with detailed dashboards and zero execution. Armis Centrix™ AI Assistant changes that. Ask a question in plain language. Get a ready-to-use cyber risk report, a change management checklist, a rollback procedure, an EOL replacement roadmap — instantly. No query syntax. No specialized training. See how security teams are moving from reactive cyber defense to proactive execution. Download Now.",
+      "source_text": "SPIRIT is built for teams evaluating rugged UAS platforms for ISR, inspection, mapping, public safety, and field operations.",
       "source_url": "",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules",
       "llm": {
         "used": false,
@@ -1458,7 +1193,49 @@
       }
     },
     {
-      "signal_id": "sig_849357f1792ed0c7",
+      "signal_id": "sig_908479767355611e",
+      "source_post_id": "7500945420131672064",
+      "author": null,
+      "author_type": null,
+      "company": null,
+      "people": [],
+      "signal_types": [
+        "COMPANY_SIGNAL"
+      ],
+      "domains": [],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 20,
+      "technical_relevance": 18,
+      "networking_relevance": 15,
+      "content_relevance": 33,
+      "profile_matches": [],
+      "priority": "low",
+      "why_relevant": "сигнал компании/рынка без сильного совпадения с профилем.",
+      "recommended_actions": [
+        "no_action"
+      ],
+      "links": [],
+      "posted_time": "3 дн.",
+      "reactions": 2461,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "Soon, Germany’s first F-35 will be unveiled, bringing Germany one step closer to introducing 5th Gen capability to the Luftwaffe. But for now, we’re keeping this one under wraps. 👀",
+      "source_url": "",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_6954cc8bc4d3d0a1",
       "source_post_id": null,
       "author": null,
       "author_type": null,
@@ -1485,19 +1262,19 @@
       ],
       "links": [
         {
-          "url": "https://www.zeekr.eu/fr-fr/offers/zeekr7gt-businessedition?https://www.zeekr.eu/fr-fr/offers/zeekr7gt-businessedition?utm_source=linkedin&utm_medium=paidsocial&utm_campaign=fr_awareness_7GT&utm_content=v3_static&li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029",
+          "url": "https://www.zeekr.eu/fr-fr/offers/zeekr7gt-businessedition?https://www.zeekr.eu/fr-fr/offers/zeekr7gt-businessedition?utm_source=linkedin&utm_medium=paidsocial&utm_campaign=fr_awareness_7GT&utm_content=v1_static&li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029",
           "link_type": "external",
           "relation": "source",
           "priority": "medium"
         }
       ],
       "posted_time": "",
-      "reactions": 67,
+      "reactions": 50,
       "comments": null,
       "hashtags": [],
-      "source_text": "Entrez dans l'avenir du grand tourisme.",
+      "source_text": "Découvrez la Zeekr 7GT. Design saisissant. Performances électrisantes.",
       "source_url": "",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules",
       "llm": {
         "used": false,
@@ -1507,14 +1284,14 @@
       }
     },
     {
-      "signal_id": "sig_af8134caee696847",
-      "source_post_id": "7351652448588988416",
+      "signal_id": "sig_ae963d81ef24011b",
+      "source_post_id": "7480216198312488960",
       "author": null,
       "author_type": null,
       "company": null,
       "people": [],
       "signal_types": [
-        "COMPANY_SIGNAL"
+        "MARKET_SIGNAL"
       ],
       "domains": [],
       "technologies": [],
@@ -1525,21 +1302,77 @@
       "career_relevance": 20,
       "technical_relevance": 18,
       "networking_relevance": 15,
-      "content_relevance": 23,
+      "content_relevance": 18,
       "profile_matches": [],
       "priority": "low",
       "why_relevant": "сигнал компании/рынка без сильного совпадения с профилем.",
       "recommended_actions": [
         "no_action"
       ],
-      "links": [],
+      "links": [
+        {
+          "url": "https://www.invest.qa/en/why-Qatar?utm_source=linkedin&utm_medium=paid-social-en-&utm_term=awareness-cpm_&utm_content=fr-broadtargeting-infeedvideo&utm_campaign=alwaysoncampaign-July2026&li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029",
+          "link_type": "external",
+          "relation": "source",
+          "priority": "medium"
+        }
+      ],
       "posted_time": "",
-      "reactions": 136,
+      "reactions": 42,
       "comments": null,
       "hashtags": [],
-      "source_text": "Level 4 MRO is more complex—and costly—than ever. Learn how advanced inspection tech is saving time and reducing unnecessary replacements. Get the whitepaper.",
+      "source_text": "Begin your next chapter in Qatar with seamless market access and a supportive ecosystem",
       "source_url": "",
-      "source_file": "linkedin_feed_2026-09-06_11-30-21.mhtml",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_6742267baccd5e50",
+      "source_post_id": null,
+      "author": null,
+      "author_type": null,
+      "company": null,
+      "people": [],
+      "signal_types": [
+        "MARKET_SIGNAL"
+      ],
+      "domains": [],
+      "technologies": [],
+      "hiring": {
+        "detected": false,
+        "intent": "none"
+      },
+      "career_relevance": 20,
+      "technical_relevance": 18,
+      "networking_relevance": 15,
+      "content_relevance": 18,
+      "profile_matches": [],
+      "priority": "low",
+      "why_relevant": "сигнал компании/рынка без сильного совпадения с профилем.",
+      "recommended_actions": [
+        "no_action"
+      ],
+      "links": [
+        {
+          "url": "https://cloud.go.se.com/WW_202607_GartnerPhysicalAIServices_MULTI_MULTI_SERVICES_EMOTH_ALLSEG_AWENG_OPR-LP?utm_source=linkedin&utm_medium=cpc&utm_campaign=2026_sept_fr_allbu_etech_linkedin_consideration_paid-social_global_france_gartner_energytech&utm_content=square_static_nocta&campaign_objective=consideration&mcl_name=etech&li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029",
+          "link_type": "external",
+          "relation": "source",
+          "priority": "medium"
+        }
+      ],
+      "posted_time": "",
+      "reactions": null,
+      "comments": null,
+      "hashtags": [],
+      "source_text": "Schneider Electric has been identified by Gartner® as a Market Shaper in the June 2026 Gartner Emerging Market Quadrant for Physical AI Services – Established Vendors",
+      "source_url": "",
+      "source_file": "linkedin_feed_2026-09-06_11-51-33.mhtml",
       "analysis_engine": "rules",
       "llm": {
         "used": false,
@@ -1553,8 +1386,8 @@
     "provider": "openai",
     "model": "gpt-5.6-luna",
     "scope": "medium-high",
-    "attempted": 9,
-    "succeeded": 9,
+    "attempted": 5,
+    "succeeded": 5,
     "failed": 0,
     "fallback_to_rules": 0
   }

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-06T08:32:23.136659+00:00",
+  "generated_at": "2026-09-06T08:52:43.251861+00:00",
   "status_model": {
     "allowed": [
       "WATCH",
@@ -182,9 +182,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+        "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00"
     },
     {
       "id": "person:iram zubair",
@@ -817,7 +817,7 @@
       "times_seen": 6,
       "score": 83,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 2,
         "medium": 3
@@ -954,9 +954,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+        "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00"
     },
     {
       "id": "company:open ocean robotics",
@@ -3533,7 +3533,7 @@
       "times_seen": 1,
       "score": 65,
       "latest_priority": "medium",
-      "latest_confidence": 91,
+      "latest_confidence": 88,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -3581,9 +3581,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+        "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00"
     },
     {
       "id": "company:eve air mobility",
@@ -3683,7 +3683,7 @@
       "times_seen": 1,
       "score": 65,
       "latest_priority": "medium",
-      "latest_confidence": 91,
+      "latest_confidence": 88,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -3734,9 +3734,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+        "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00"
     },
     {
       "id": "person:rinata ilyubayeva",
@@ -3754,7 +3754,7 @@
       "times_seen": 1,
       "score": 65,
       "latest_priority": "medium",
-      "latest_confidence": 91,
+      "latest_confidence": 88,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -3804,9 +3804,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+        "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00"
     },
     {
       "id": "person:thorsten gutmann",
@@ -3824,7 +3824,7 @@
       "times_seen": 1,
       "score": 65,
       "latest_priority": "medium",
-      "latest_confidence": 91,
+      "latest_confidence": 88,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -3874,9 +3874,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+        "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00"
     },
     {
       "id": "company:rocket lab",
@@ -4442,7 +4442,7 @@
       "times_seen": 1,
       "score": 63,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -4483,9 +4483,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+        "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00"
     },
     {
       "id": "person:ayantika roy",
@@ -4503,7 +4503,7 @@
       "times_seen": 1,
       "score": 63,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -4544,9 +4544,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+        "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00"
     },
     {
       "id": "person:max goldstein",
@@ -4630,7 +4630,7 @@
       "times_seen": 1,
       "score": 63,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -4671,9 +4671,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+        "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00"
     },
     {
       "id": "person:ritika jaiswal • 3-й+",
@@ -4691,7 +4691,7 @@
       "times_seen": 1,
       "score": 63,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -4732,9 +4732,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+        "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00"
     },
     {
       "id": "person:soumik dutta",
@@ -4752,7 +4752,7 @@
       "times_seen": 1,
       "score": 63,
       "latest_priority": "medium",
-      "latest_confidence": 93,
+      "latest_confidence": 91,
       "priority_counts": {
         "high": 0,
         "medium": 1
@@ -4793,9 +4793,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
+        "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00"
     },
     {
       "id": "company:cadence",
