@@ -17,6 +17,10 @@ import pyautogui
 
 ACTION_API = "https://linkedin-actions.devorvant.workers.dev/actions"
 PAGE_EXTENSIONS = {".mhtml", ".mht", ".html", ".htm"}
+CHROME_PATHS = [
+    Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe"),
+    Path(r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"),
+]
 
 DEVICE_CONFIGS = {
     "1": {
@@ -59,6 +63,13 @@ def choose_device(explicit: str | None) -> dict:
     if key not in DEVICE_CONFIGS:
         raise SystemExit("Неверный выбор устройства")
     return DEVICE_CONFIGS[key]
+
+
+def find_chrome() -> Path:
+    for path in CHROME_PATHS:
+        if path.exists():
+            return path
+    raise FileNotFoundError("Google Chrome не найден в стандартных папках.")
 
 
 def load_secret(root: Path) -> str:
@@ -309,9 +320,10 @@ def execute_follow_company(item: dict, device: dict) -> None:
     if not url:
         print("EXECUTOR остановлен: у действия нет URL.")
         return
-    chrome = device["chrome"]
-    if not chrome.exists():
-        print(f"EXECUTOR остановлен: Chrome не найден: {chrome}")
+    try:
+        chrome = find_chrome()
+    except FileNotFoundError as exc:
+        print(f"EXECUTOR остановлен: {exc}")
         return
 
     print("\nFOLLOW_COMPANY EXECUTION:")
