@@ -1,13 +1,33 @@
 [
   {
     "type": "company",
-    "title": "Archer",
+    "title": "Anduril Industries",
     "company": "",
     "location": "",
-    "text": "Archer",
-    "url": "https://www.linkedin.com/company/flyarcher/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "text": "Anduril Industries",
+    "url": "https://www.linkedin.com/company/anduril/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Boeing",
+    "company": "",
+    "location": "",
+    "text": "Boeing",
+    "url": "https://www.linkedin.com/company/boeing/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Business Insider",
+    "company": "",
+    "location": "",
+    "text": "Business Insider",
+    "url": "https://www.linkedin.com/company/businessinsider/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "company",
@@ -16,18 +36,8 @@
     "location": "",
     "text": "Cadence",
     "url": "https://www.linkedin.com/company/cadence/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
-  },
-  {
-    "type": "company",
-    "title": "EQUANS",
-    "company": "",
-    "location": "",
-    "text": "EQUANS",
-    "url": "https://www.linkedin.com/company/equans/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "company",
@@ -36,18 +46,38 @@
     "location": "",
     "text": "Embention",
     "url": "https://www.linkedin.com/company/embention/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "company",
-    "title": "Joby Aviation",
+    "title": "Galtea",
     "company": "",
     "location": "",
-    "text": "Joby Aviation",
-    "url": "https://www.linkedin.com/company/jobyaviation/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "text": "Galtea",
+    "url": "https://www.linkedin.com/company/galtea-ai/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Lockheed Martin",
+    "company": "",
+    "location": "",
+    "text": "Lockheed Martin",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Lockheed Martin Подтверждено Lockheed Martin 3 311 648 отслеживающих",
+    "company": "",
+    "location": "",
+    "text": "Lockheed Martin Подтверждено Lockheed Martin 3 311 648 отслеживающих",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "company",
@@ -56,118 +86,198 @@
     "location": "",
     "text": "MathWorks",
     "url": "https://www.linkedin.com/company/the-mathworks_2/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "company",
-    "title": "MathWorks Подтверждено MathWorks 509 746 отслеживающих",
+    "title": "NOAA: National Oceanic & Atmospheric Administration",
     "company": "",
     "location": "",
-    "text": "MathWorks Подтверждено MathWorks 509 746 отслеживающих",
-    "url": "https://www.linkedin.com/company/the-mathworks_2/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "text": "NOAA: National Oceanic & Atmospheric Administration",
+    "url": "https://www.linkedin.com/company/noaa/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Parasoft",
+    "company": "",
+    "location": "",
+    "text": "Parasoft",
+    "url": "https://www.linkedin.com/company/parasoft/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Rapid Fusion",
+    "company": "",
+    "location": "",
+    "text": "Rapid Fusion",
+    "url": "https://www.linkedin.com/company/rapid-fusion/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Saildrone",
+    "company": "",
+    "location": "",
+    "text": "Saildrone",
+    "url": "https://www.linkedin.com/company/saildrone-inc/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Southwest Airlines",
+    "company": "",
+    "location": "",
+    "text": "Southwest Airlines",
+    "url": "https://www.linkedin.com/company/southwest-airlines/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "US Army",
+    "company": "",
+    "location": "",
+    "text": "US Army",
+    "url": "https://www.linkedin.com/company/us-army/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Unity",
+    "company": "",
+    "location": "",
+    "text": "Unity",
+    "url": "https://www.linkedin.com/company/unity/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Vertical Aerospace",
+    "company": "",
+    "location": "",
+    "text": "Vertical Aerospace",
+    "url": "https://www.linkedin.com/company/vertical-aerospace-ltd/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "person",
-    "title": "Anastasia S. 🎧Talent Acquisition Specialist Отслеживается 2 общими контактами Отслеживать",
+    "title": "Alexander Shatunov",
     "company": "",
     "location": "",
-    "text": "Anastasia S. 🎧Talent Acquisition Specialist Отслеживается 2 общими контактами Отслеживать",
-    "url": "https://www.linkedin.com/in/anastasiya-recruiter/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "text": "Alexander Shatunov",
+    "url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "person",
-    "title": "Bjarne Stroustrup Computer Scientist and engineer Популярно в LinkedIn Отслеживать",
+    "title": "Daria Shulgina Founder&CEO at AgileFluent | Edtech | HRtech | ex-McKinsey Отслеживается 2 общими контактами Отслеживать",
     "company": "",
     "location": "",
-    "text": "Bjarne Stroustrup Computer Scientist and engineer Популярно в LinkedIn Отслеживать",
-    "url": "https://www.linkedin.com/in/bjarnestroustrup/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "text": "Daria Shulgina Founder&CEO at AgileFluent | Edtech | HRtech | ex-McKinsey Отслеживается 2 общими контактами Отслеживать",
+    "url": "https://www.linkedin.com/in/daria-shulgina/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "person",
-    "title": "Evgeniy Vovney • 2-й",
+    "title": "David King",
     "company": "",
     "location": "",
-    "text": "Evgeniy Vovney • 2-й",
-    "url": "https://www.linkedin.com/in/evgeniy-vovney/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "text": "David King",
+    "url": "https://www.linkedin.com/in/david-king-6818293/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "person",
-    "title": "Jensen Huang Founder and CEO, NVIDIA Люди, отслеживающие организацию MathWorks , также отслеживают Отслеживать",
+    "title": "Dmitry Sidelnikov • 2-й",
     "company": "",
     "location": "",
-    "text": "Jensen Huang Founder and CEO, NVIDIA Люди, отслеживающие организацию MathWorks , также отслеживают Отслеживать",
+    "text": "Dmitry Sidelnikov • 2-й",
+    "url": "https://www.linkedin.com/in/dmitry-sidelnikov/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Franco Perez Aragon • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Franco Perez Aragon • 3-й+",
+    "url": "https://www.linkedin.com/in/franco-perez-aragon-22309541a/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Guy Rouleau",
+    "company": "",
+    "location": "",
+    "text": "Guy Rouleau",
+    "url": "https://www.linkedin.com/in/guy-on-simulink/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Jason Ghidella",
+    "company": "",
+    "location": "",
+    "text": "Jason Ghidella",
+    "url": "https://www.linkedin.com/in/jason-ghidella/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Jensen Huang Founder and CEO, NVIDIA Люди с навыком «Встраиваемые системы» также отслеживают этих людей Отслеживать",
+    "company": "",
+    "location": "",
+    "text": "Jensen Huang Founder and CEO, NVIDIA Люди с навыком «Встраиваемые системы» также отслеживают этих людей Отслеживать",
     "url": "https://www.linkedin.com/in/jenhsunhuang/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "person",
-    "title": "Kanat Yes • 2-й",
+    "title": "Julieta Jazmín González Marasco • 3-й+",
     "company": "",
     "location": "",
-    "text": "Kanat Yes • 2-й",
-    "url": "https://www.linkedin.com/in/leningram/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "text": "Julieta Jazmín González Marasco • 3-й+",
+    "url": "https://www.linkedin.com/in/julietagonzalezmarasco/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "person",
-    "title": "Kevin Antcliff • 3-й+",
+    "title": "Laura Reimoser • 3-й+",
     "company": "",
     "location": "",
-    "text": "Kevin Antcliff • 3-й+",
-    "url": "https://www.linkedin.com/in/kevinantcliff/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "text": "Laura Reimoser • 3-й+",
+    "url": "https://www.linkedin.com/in/laura-reimoser-b087a1163/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "person",
-    "title": "Lukas M. Ziegler • 3-й+",
+    "title": "Nicole Andrews • 3-й+",
     "company": "",
     "location": "",
-    "text": "Lukas M. Ziegler • 3-й+",
-    "url": "https://www.linkedin.com/in/zieglerr/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
-  },
-  {
-    "type": "person",
-    "title": "Nikolay Sharakha",
-    "company": "",
-    "location": "",
-    "text": "Nikolay Sharakha",
-    "url": "https://www.linkedin.com/in/nikolay-sharakha-3a6150227/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
-  },
-  {
-    "type": "person",
-    "title": "Nikolay Sharakha, профиль Подтверждено, 1-й Nikolay Sharakha • 1-й Senior Software Engineer | Golang | C/C++",
-    "company": "",
-    "location": "",
-    "text": "Nikolay Sharakha, профиль Подтверждено, 1-й Nikolay Sharakha • 1-й Senior Software Engineer | Golang | C/C++",
-    "url": "https://www.linkedin.com/in/nikolay-sharakha-3a6150227/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
-  },
-  {
-    "type": "person",
-    "title": "Rachel Bane • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "Rachel Bane • 3-й+",
-    "url": "https://www.linkedin.com/in/rachel-bane-57645718a/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "text": "Nicole Andrews • 3-й+",
+    "url": "https://www.linkedin.com/in/nicole-andrews-688999b2/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "person",
@@ -176,28 +286,18 @@
     "location": "",
     "text": "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва",
     "url": "https://www.linkedin.com/in/devorvant/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "person",
-    "title": "Vadim Zaretskiy • 3-й+",
+    "title": "Yann LeCun Founder/Chair, AMI Labs - Prof, NYU - Partner, 224 Ventures Люди в отрасли «Разработка программного обеспечения» также отслеживают этих людей Отслеживать",
     "company": "",
     "location": "",
-    "text": "Vadim Zaretskiy • 3-й+",
-    "url": "https://www.linkedin.com/in/vadizars/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
-  },
-  {
-    "type": "person",
-    "title": "Varvara Putintseva • 2-й",
-    "company": "",
-    "location": "",
-    "text": "Varvara Putintseva • 2-й",
-    "url": "https://www.linkedin.com/in/waarentina/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "text": "Yann LeCun Founder/Chair, AMI Labs - Prof, NYU - Partner, 224 Ventures Люди в отрасли «Разработка программного обеспечения» также отслеживают этих людей Отслеживать",
+    "url": "https://www.linkedin.com/in/yann-lecun/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "person",
@@ -206,8 +306,28 @@
     "location": "",
     "text": "Аида Гайнутдинова",
     "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Аида Гайнутдинова • 1-й",
+    "company": "",
+    "location": "",
+    "text": "Аида Гайнутдинова • 1-й",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Александр Вербицкий • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Александр Вербицкий • 3-й+",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80-%D0%B2%D0%B5%D1%80%D0%B1%D0%B8%D1%86%D0%BA%D0%B8%D0%B9-3b3901124/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "person",
@@ -216,37 +336,57 @@
     "location": "",
     "text": "Астроно",
     "url": "https://www.linkedin.com/in/devorvant/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "collected_at": "2026-09-09T08:11:00"
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "post",
-    "title": "Day trippin’ Midnight flew its first \"No Roads\" tour route last Friday: a piloted roundtrip between Salinas and Hollister, CA. 12 min each way by air instead of ~40 min by car. 125",
+    "title": "Alexander Shatunov",
     "company": "",
     "location": "",
-    "text": "Day trippin’ Midnight flew its first \"No Roads\" tour route last Friday: a piloted roundtrip between Salinas and Hollister, CA. 12 min each way by air instead of ~40 min by car. 125 mph. 3,550 ft. 40+ miles roundtrip. Next stops: Monterey, San Martin, San Jose, Oakland, San Francisco, Los Angeles, Texas, and Florida. https://lnkd.in/gF3HMAFh",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "17 ч.",
-    "post_id": "7502986347364798464",
+    "text": "Hi Sergey, automate every step in converting CAD data into optimized 3D assets. Spend less time on repetitive tasks and more on creating real-time 3D.",
+    "url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "Alexander Shatunov",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
+    "posted_time": "",
+    "post_id": "",
     "hashtags": [],
     "mentions": [],
     "external_links": [],
-    "reactions": 469,
+    "reactions": 23,
     "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "post",
-    "title": "Explore Stateflow in a hands-on tutorial and learn how to model and simulate dynamic systems using state machines and flow charts.",
+    "title": "At just seven months old, Noah already has 29 flights under his belt. But this one was a special first. 🥹✈️ Noah got to be a Passenger on a flight piloted by his dad, First Officer",
     "company": "",
     "location": "",
-    "text": "Explore Stateflow in a hands-on tutorial and learn how to model and simulate dynamic systems using state machines and flow charts.",
+    "text": "At just seven months old, Noah already has 29 flights under his belt. But this one was a special first. 🥹✈️ Noah got to be a Passenger on a flight piloted by his dad, First Officer Sean. He enjoyed the view from the cabin alongside his mom, Hannah, who is also a Southwest Pilot! For Sean, getting to welcome his son onboard a flight he was piloting made for a career moment he won’t soon forget. And for Noah? It was just another day in the family business. 💙❤️💛",
     "url": "",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "1 дн.",
+    "post_id": "7503135064977735680",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 5914,
+    "comments": null,
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Blocking AI assistants for your employees is treating a symptom. The smartest CISOs have found a way to avoid employees bypassing company’s guidelines.",
+    "company": "",
+    "location": "",
+    "text": "Blocking AI assistants for your employees is treating a symptom. The smartest CISOs have found a way to avoid employees bypassing company’s guidelines.",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
     "author": "",
     "author_type": "",
     "author_url": "",
@@ -254,45 +394,91 @@
     "post_id": "",
     "hashtags": [],
     "mentions": [],
-    "external_links": [],
-    "reactions": 28,
+    "external_links": [
+      "https://galtea.ai/everyday-ai-reliability?utm_source=linkedin&utm_campaign=everyday_ai&utm_medium=paid_social&utm_content=reliability&li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029"
+    ],
+    "reactions": 4,
     "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "post",
-    "title": "Kevin Antcliff • 3-й+",
+    "title": "David King",
     "company": "",
     "location": "",
-    "text": "Cross-country autonomous flight. From the lakes of Salt Lake City to the hills of North Carolina. Across the plains of Texas… I’ll stop there to spare the butchering of an A++ song, but we’re super excited to showcase our autonomous aircraft, the J208, across the United States starting TODAY! We’ll be flying from our home base in California all the way across the country to where flight itself first took flight, in the Outer Banks of North Carolina, and back again. This is something I’ve been looking forward to doing for the past 5 years working on this aircraft and I’m so excited that it’s finally here and we’re able to showcase the incredible work that this team has put into developing what we believe is one of the most advanced gate-to-gate autonomous systems flying today!",
-    "url": "https://www.linkedin.com/in/kevinantcliff/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "author": "Kevin Antcliff • 3-й+",
+    "text": "\"Don't be afraid of the unknown.\" David King ’s advice to his 25 year old self. Business Insider caught up with our Chief Engineer recently and captured insight from his career so far and how the approach translates into developing a new electric aircraft. Full article 🔗 https://lnkd.in/eGVhunqB",
+    "url": "https://www.linkedin.com/in/david-king-6818293/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "David King",
     "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/kevinantcliff/",
-    "posted_time": "1 дн.",
-    "post_id": "7502772867483398144",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": 521,
-    "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
-  },
-  {
-    "type": "post",
-    "title": "Lukas M. Ziegler • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "Robotics beginners unite! 😎 Here's a free course on the basics of robotics, including sensors and autonomous mobile bots. Everyone who studied robotics or EE knows MATLAB and Simulink for Startups very well. I've been using it for designing motors and robots back in the day. MathWorks created a 17-video playlist teaching robotics using real robotic platforms, and other educational kits. Learn how to design, simulate, and control robots. They cover robot navigation with encoders, obstacle detection with IR sensors, vision-based autonomy, smart motor fine-tuning, virtual world simulation, and even modeling wheel-legged robots. Very good for someone just getting started and looking for a low entry-point course totally for free. Simulink modeling for control, Stateflow for state machines, hardware support packages, external mode debugging, virtual simulation before physical deployment. You can actually work on real robotics platforms! This is how you start in robotics! 🔗 Free YouTube vid library: https://lnkd.in/edtzzrFu ~~ ♻️ Join the weekly robotics newsletter, and never miss any news → ziegler.substack.com",
-    "url": "https://www.linkedin.com/in/zieglerr/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "author": "Lukas M. Ziegler • 3-й+",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/zieglerr/",
-    "posted_time": "3 дн.",
+    "author_url": "https://www.linkedin.com/in/david-king-6818293/",
+    "posted_time": "12 ч.",
     "post_id": "",
     "hashtags": [],
+    "mentions": [
+      {
+        "name": "David King",
+        "url": "https://www.linkedin.com/in/david-king-6818293/"
+      },
+      {
+        "name": "Business Insider",
+        "url": "https://www.linkedin.com/company/businessinsider/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 33,
+    "comments": null,
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "El Niño’s impacts can be felt globally—stunting maize harvests in Africa, prompting flooding in the United States, and causing droughts in Australia. The widespread disruption it c",
+    "company": "",
+    "location": "",
+    "text": "El Niño’s impacts can be felt globally—stunting maize harvests in Africa, prompting flooding in the United States, and causing droughts in Australia. The widespread disruption it causes makes monitoring and understanding this tropical Pacific climate phenomenon an imperative for national and economic security. Saildrone and the NOAA: National Oceanic & Atmospheric Administration ’s Pacific Marine Environmental Laboratory (PMEL) recently deployed four Saildrone Explorer unmanned surface vehicles to the tropical Pacific. Working in conjunction with the Tropical Pacific Observing System, Saildrone will support NOAA’s research measuring El Niño’s strength by filling in critical data gaps that buoys, floats, and satellites do not capture. “This long-standing partnership matches the unparalleled endurance and resilience of Saildrone's unmanned surface vehicles with NOAA’s world-renowned expertise to deliver accurate, real-time observations from the equatorial Pacific—allowing scientists to better understand El Niño and forecast its global impacts,” said Matt Womble, vice president of government relations at Saildrone. By filling gaps in the existing TPOS network, Saildrone USVs give researchers a more detailed view of the complex atmospheric conditions and changes happening across the tropical Pacific. Those observations improve forecasts of El Niño’s global effects, helping governments and industries better prepare for disruptions to agriculture, shipping, infrastructure, and severe weather—all of which carry significant national and economic security consequences. Read more about the mission: https://lnkd.in/ekcHK9re",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "13 ч.",
+    "post_id": "7503470332796723201",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "NOAA: National Oceanic & Atmospheric Administration",
+        "url": "https://www.linkedin.com/company/noaa/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 103,
+    "comments": null,
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Franco Perez Aragon • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "I recently developed a 3D Centroid Calculator in MATLAB as part of my Mechanical Engineering studies. The tool allows the calculation and 3D visualization of the centroid for different structural profiles, including T, I, E, J, and L sections . Through this project, I had the opportunity to strengthen my skills in MATLAB programming, engineering calculations, 3D visualization, and computational problem solving . It was a great experience turning a theoretical engineering concept into an interactive computational tool. MATLAB Training MathWorks #MATLAB #MATHWORKS #MechanicalEngineering #Engineering #3DModeling #Programming #EngineeringProjects #CAD #STEM",
+    "url": "https://www.linkedin.com/in/franco-perez-aragon-22309541a/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "Franco Perez Aragon • 3-й+",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/franco-perez-aragon-22309541a/",
+    "posted_time": "1 дн.",
+    "post_id": "7503277643295862784",
+    "hashtags": [
+      "#MATLAB",
+      "#MATHWORKS",
+      "#MechanicalEngineering",
+      "#Engineering",
+      "#3DModeling",
+      "#Programming",
+      "#EngineeringProjects",
+      "#CAD",
+      "#STEM"
+    ],
     "mentions": [
       {
         "name": "MathWorks",
@@ -300,29 +486,86 @@
       }
     ],
     "external_links": [],
-    "reactions": 1193,
+    "reactions": 23,
     "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "post",
-    "title": "Lukas M. Ziegler • 3-й+",
+    "title": "Julieta Jazmín González Marasco • 3-й+",
     "company": "",
     "location": "",
-    "text": "Thanks for sharing, Lukas!",
-    "url": "https://www.linkedin.com/in/zieglerr/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "author": "Lukas M. Ziegler • 3-й+",
+    "text": "🚀 Vienna, we’re cleared for takeoff. Embention is expanding its engineering footprint in Vienna, and we’re looking for a Flight Control & Simulation Engineer to be part of this new chapter from day one. If flight dynamics, control laws, MATLAB/Simulink, SIL/HIL, UAVs and eVTOLs are your territory, this one is for you. Build. Simulate. Validate. Fly it for real. ✈️ 📍 Vienna, Austria | Technologiezentrum Seestadt | On-site 🔗 Apply now: https://lnkd.in/epknc5r9 #Hiring #ViennaJobs #AerospaceEngineering #FlightControl #Simulation #MATLAB #Simulink #UAV #eVTOL #Avionics #ControlSystems #EngineeringJobs #Embention",
+    "url": "https://www.linkedin.com/in/julietagonzalezmarasco/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "Julieta Jazmín González Marasco • 3-й+",
     "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/zieglerr/",
-    "posted_time": "3 дн.",
+    "author_url": "https://www.linkedin.com/in/julietagonzalezmarasco/",
+    "posted_time": "19 ч.",
     "post_id": "",
-    "hashtags": [],
-    "mentions": [],
+    "hashtags": [
+      "#Hiring",
+      "#ViennaJobs",
+      "#AerospaceEngineering",
+      "#FlightControl",
+      "#Simulation",
+      "#MATLAB",
+      "#Simulink",
+      "#UAV",
+      "#eVTOL",
+      "#Avionics",
+      "#ControlSystems",
+      "#EngineeringJobs",
+      "#Embention"
+    ],
+    "mentions": [
+      {
+        "name": "Embention",
+        "url": "https://www.linkedin.com/company/embention/"
+      }
+    ],
     "external_links": [],
-    "reactions": 1193,
+    "reactions": 21,
     "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Laura Reimoser • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "With GPT-6 Astra just out, agentic AI is having a moment. 💡 Good time to share this one: Guy Rouleau and Jason Ghidella use MathWorks ’ Simulink Agentic Toolkit to show what AI agents look like in engineering practice; updating models, tracking the effects of change, and verifying a migration is complete, so teams can adopt new capabilities without disrupting active development. The article is fundamentally about adapting to change - something most of us are doing right now with agentic AI itself. Practical, not hypey. Worth a read. 🔗 https://lnkd.in/eA4RP9y7 #GPT6 #Simulink #ModelBasedDesign #AIinEngineering",
+    "url": "https://www.linkedin.com/in/laura-reimoser-b087a1163/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "Laura Reimoser • 3-й+",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/laura-reimoser-b087a1163/",
+    "posted_time": "1 дн.",
+    "post_id": "",
+    "hashtags": [
+      "#GPT6",
+      "#Simulink",
+      "#ModelBasedDesign",
+      "#AIinEngineering"
+    ],
+    "mentions": [
+      {
+        "name": "Guy Rouleau",
+        "url": "https://www.linkedin.com/in/guy-on-simulink/"
+      },
+      {
+        "name": "Jason Ghidella",
+        "url": "https://www.linkedin.com/in/jason-ghidella/"
+      },
+      {
+        "name": "MathWorks",
+        "url": "https://www.linkedin.com/company/the-mathworks_2/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 45,
+    "comments": null,
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "post",
@@ -331,11 +574,11 @@
     "location": "",
     "text": "MSPO 2026 is officially underway. We are live at Stand 11-A14 with the latest developments in our #Veronte #Autopilots for defense. Stop by to catch up with our team and explore what’s new. 📍 Targi Kielce — Hall 11, Stand 11-A14 See you there! #MSPO2026 #Embention #Avionics",
     "url": "",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
     "author": "",
     "author_type": "",
     "author_url": "",
-    "posted_time": "16 ч.",
+    "posted_time": "1 дн.",
     "post_id": "",
     "hashtags": [
       "#Veronte",
@@ -346,77 +589,74 @@
     ],
     "mentions": [],
     "external_links": [],
-    "reactions": 38,
+    "reactions": 44,
     "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "post",
-    "title": "Nikolay Sharakha",
+    "title": "Nicole Andrews • 3-й+",
     "company": "",
     "location": "",
-    "text": "Макс молодец [х] #clients #rofl",
-    "url": "https://www.linkedin.com/in/nikolay-sharakha-3a6150227/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "author": "Nikolay Sharakha",
+    "text": "I’m incredibly proud to share that I am starting a new position as F-35 Canada Program Senior Manager at Lockheed Martin . There is no greater privilege than supporting the global F-35 Lightning II program, and I look forward to continuing our work to deliver unmatched capabilities to the warfighter. ⚡️",
+    "url": "https://www.linkedin.com/in/nicole-andrews-688999b2/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "Nicole Andrews • 3-й+",
     "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/nikolay-sharakha-3a6150227/",
+    "author_url": "https://www.linkedin.com/in/nicole-andrews-688999b2/",
     "posted_time": "1 дн.",
-    "post_id": "",
-    "hashtags": [
-      "#clients",
-      "#rofl"
-    ],
-    "mentions": [],
-    "external_links": [],
-    "reactions": null,
-    "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
-  },
-  {
-    "type": "post",
-    "title": "Nikolay Sharakha",
-    "company": "",
-    "location": "",
-    "text": "Tesla запустила в Техасе беспилотный Cybercab, а в рекламе показала, как парень на инвалидной коляске встаёт и убирает её в багажник.",
-    "url": "https://www.linkedin.com/in/nikolay-sharakha-3a6150227/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "author": "Nikolay Sharakha",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/nikolay-sharakha-3a6150227/",
-    "posted_time": "4 дн.",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": null,
-    "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
-  },
-  {
-    "type": "post",
-    "title": "Rachel Bane • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "Back in California for week two of training with Joby Aviation , and while looking through some of the cards we share at workforce events, one message immediately caught my eye: Become a dreamer. Dream big.🌟 I smiled because that message has always resonated with me. I’ve spent much of my career encouraging others to see what’s possible, pursue new opportunities, and take meaningful steps toward their goals. I also know firsthand that dreams can change, evolve, and sometimes lead us in directions we never expected. That’s one of the things I appreciate about workforce development: helping people imagine new possibilities for themselves and connect those possibilities to real career pathways. I’m grateful to be learning alongside people who think boldly about the future and who believe big ideas are worth pursuing. Sometimes a simple card can say a lot.",
-    "url": "https://www.linkedin.com/in/rachel-bane-57645718a/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "author": "Rachel Bane • 3-й+",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/rachel-bane-57645718a/",
-    "posted_time": "17 ч.",
     "post_id": "",
     "hashtags": [],
     "mentions": [
       {
-        "name": "Joby Aviation",
-        "url": "https://www.linkedin.com/company/jobyaviation/"
+        "name": "Lockheed Martin",
+        "url": "https://www.linkedin.com/company/lockheed-martin/"
       }
     ],
     "external_links": [],
-    "reactions": 179,
+    "reactions": 139,
     "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Nicole Andrews • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Congratulations on your new role, Nicole!",
+    "url": "https://www.linkedin.com/in/nicole-andrews-688999b2/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "Nicole Andrews • 3-й+",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/nicole-andrews-688999b2/",
+    "posted_time": "1 дн.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 139,
+    "comments": null,
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Ready for take-off: Discover how additive manufacturing is transforming aerospace & defence. Download our whitepaper.",
+    "company": "",
+    "location": "",
+    "text": "Ready for take-off: Discover how additive manufacturing is transforming aerospace & defence. Download our whitepaper.",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 71,
+    "comments": null,
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "post",
@@ -425,7 +665,7 @@
     "location": "",
     "text": "The EV didn't make NVH easier. It pushed the noise higher. Motor whine past 5 kHz. Gear mesh. Inverter harmonics. Road noise now the loudest source in the cabin. The critical band runs 100 Hz to 5 kHz, and no single method covers it. The Engineer's Guide to Modern NVH Simulation shows how to work the full range in MSC Nastran and Actran: heavy-fluid coupling, Virtual SEA, and ODYSSEE ROMs. Preview the first pages, then download the full guide below 👇",
     "url": "",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
     "author": "",
     "author_type": "",
     "author_url": "",
@@ -436,16 +676,65 @@
     "external_links": [],
     "reactions": 53,
     "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
+    "collected_at": "2026-09-10T08:10:58"
   },
   {
     "type": "post",
-    "title": "Welcoming more passengers while lowering carbon emissions: an impossible challenge? Not anymore. 🌍 Over 150 airports across 70 countries already trust our solutions to combine oper",
+    "title": "The US Army has selected the Boeing and Anduril team to advance to the next phase of the Integrated Fires Protection Capability (IFPC) Increment 2 interceptor competition. The inte",
     "company": "",
     "location": "",
-    "text": "Welcoming more passengers while lowering carbon emissions: an impossible challenge? Not anymore. 🌍 Over 150 airports across 70 countries already trust our solutions to combine operational performance, maximum safety, and sustainability. Could yours be next?",
+    "text": "The US Army has selected the Boeing and Anduril team to advance to the next phase of the Integrated Fires Protection Capability (IFPC) Increment 2 interceptor competition. The interceptor pairs Boeing's seeker technology and compact airframe with an Anduril-built solid rocket motor, built to protect fixed and forward operating bases. The award moves the team into detailed design, system development, integration, and demonstration.",
     "url": "",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "11 ч.",
+    "post_id": "7503510111093530624",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "US Army",
+        "url": "https://www.linkedin.com/company/us-army/"
+      },
+      {
+        "name": "Boeing",
+        "url": "https://www.linkedin.com/company/boeing/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 837,
+    "comments": null,
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "This MATLAB animation brings a 2,000-year-old idea to life. Archimedes approximated π using a circle and polygons. By doubling the number of sides, he tightened the bounds on π and",
+    "company": "",
+    "location": "",
+    "text": "This MATLAB animation brings a 2,000-year-old idea to life. Archimedes approximated π using a circle and polygons. By doubling the number of sides, he tightened the bounds on π and got closer to its true value. While Archimedes expressed his results as fractions, this animation created in MATLAB shows the same geometric idea through decimal approximations converging toward π.",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "19 ч.",
+    "post_id": "7503391754721636352",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 32,
+    "comments": null,
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Your Guide to ISO 26262 Compliance",
+    "company": "",
+    "location": "",
+    "text": "Your Guide to ISO 26262 Compliance",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
     "author": "",
     "author_type": "",
     "author_url": "",
@@ -453,51 +742,71 @@
     "post_id": "",
     "hashtags": [],
     "mentions": [],
-    "external_links": [
-      "https://www.equans.com/our-specialties/airport?li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029&campaign_group_id=1140609724&utm_campaign=AIRPORT%2B-%2BFRANCE&campaign_id=827206204&creative_id=1462139804&utm_source=LinkedInAds"
+    "external_links": [],
+    "reactions": 1,
+    "comments": null,
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Аида Гайнутдинова",
+    "company": "",
+    "location": "",
+    "text": "Эйчары не имеют таланта Порой мне кажется, что эйчары живут в какой-то параллельной вселенной. Или нюх на таланты так и не восстановился после ковида. На днях обновил резюме на hh. Ради спортивного интереса: хотелось проверить, действительно ли всё так, как пишут в LinkedIn. Откликнулся на несколько вакансий. Добавил сопроводительное — с конкретикой, самоиронией и признаками жизни. Прошли сутки — лавина отказов. Даже там, где hh показывал: мои навыки подходят на 100%. Разумеется, этот процент годен разве что для Левада-центра. Приглашать не обязаны. Работа в известных компаниях звездой не делает. Хотя, судя по моим навыкам и опыту, можно было запросто попасть в киноленту Скорсезе. Из телефонной будки выхожу на C-level: дискавери, встречи, пилоты — всё, чтобы решить проблему клиента и заключить крупную сделку. Могу в обход эйчара напрямую набрать руководителя компании-нанимателя и продать себя дорого. А через отклик не получается дойти даже до разговора. Железный занавес, за которым сидит бдительная вахтёрша с журналом «Крестьянка». Впрочем, во всей этой ситуации есть большой плюс. Продавать с таким набором у конкурентов становится намного легче.",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "Аида Гайнутдинова",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "posted_time": "1 дн.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": null,
+    "comments": null,
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Аида Гайнутдинова • 1-й",
+    "company": "",
+    "location": "",
+    "text": "Рекомендую Дмитрия как сильного Lead / Senior C++ Developer с большим опытом. Как человек очень приятный, ответственный и надежный.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7503048437752315904/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "Аида Гайнутдинова • 1-й",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "posted_time": "1 дн.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 20,
+    "comments": null,
+    "collected_at": "2026-09-10T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Аида Гайнутдинова • 1-й",
+    "company": "",
+    "location": "",
+    "text": "💼 Ищу работу на позиции: Lead / Senior C++ Developer. 🌎 Интересуют регионы: Kazan и Russia (удалёнка, гибрид или офис). ⭐ Ранее работал: Amdocs, Luxoft, Telcore, X5 Group, Magnit, GeekBrains. 😇 Мой Telegram: @SpringDayInTheForest, WhatsApp: +7 905 020 99 86. Коллеги, приветствую! 😎 Нахожусь в поиске работы. Готов созвониться и ответить на любые вопросы. За ваш лайк или репост большое спасибо! Фото ниже: Кемер, Турция. #opentowork",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7503048437752315904/",
+    "source_file": "linkedin_feed_2026-09-10_08-10-50.mhtml",
+    "author": "Аида Гайнутдинова • 1-й",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "posted_time": "1 дн.",
+    "post_id": "",
+    "hashtags": [
+      "#opentowork"
     ],
-    "reactions": 98,
-    "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
-  },
-  {
-    "type": "post",
-    "title": "Аида Гайнутдинова",
-    "company": "",
-    "location": "",
-    "text": "💔 Рекрутеры, хелп. Хотя бы лайком. Хотя бы дизлайком. 🖥️ Frontend-разработчик в поиске работы. Свободен с октября. Выходит, что поиск срочный, а значит готов на всё, кроме сами знаете чего (тут уже раздолье для вашей фантазии).",
-    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "author": "Аида Гайнутдинова",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "posted_time": "4 дн.",
-    "post_id": "",
-    "hashtags": [],
     "mentions": [],
     "external_links": [],
-    "reactions": null,
+    "reactions": 20,
     "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
-  },
-  {
-    "type": "post",
-    "title": "Аида Гайнутдинова",
-    "company": "",
-    "location": "",
-    "text": "Как выглядит стол безработного джуна, пытающегося охватить разом и семестровую программу статистики, и не забывать языки Python и SQL, и еще английский 🤌🏻 (Ладно, шучу, это я все тетрадки для фотки чисто достала, а так-то у меня порядок на столе.) Кстати, да, я тот самый динозавр, который пишет конспекты ручками, мне так запоминается лучше",
-    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "source_file": "linkedin_feed_2026-09-09_08-10-52.mhtml",
-    "author": "Аида Гайнутдинова",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "posted_time": "20 ч.",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": null,
-    "comments": null,
-    "collected_at": "2026-09-09T08:11:00"
+    "collected_at": "2026-09-10T08:10:58"
   }
 ]
