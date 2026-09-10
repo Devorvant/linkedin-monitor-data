@@ -1,47 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-09T05:12:12.101436+00:00",
+  "generated_at": "2026-09-10T05:12:19.403135+00:00",
   "status": "OK",
   "analysis_mode": "llm",
   "analysis_reason": "Feed/profile/analyzer changed",
   "feed_signals": {
-    "posts_analyzed": 13,
-    "high_priority": 1,
+    "posts_analyzed": 19,
+    "high_priority": 3,
     "medium_priority": 1,
-    "low_priority": 11,
+    "low_priority": 15,
     "signal_type_counts": {
-      "PROJECT_SIGNAL": 1,
-      "TECH_SIGNAL": 5,
-      "PEOPLE_SIGNAL": 7,
-      "NETWORK_SIGNAL": 8,
-      "MARKET_SIGNAL": 1,
-      "COMPANY_SIGNAL": 2
+      "HIRING_SIGNAL": 1,
+      "COMPANY_SIGNAL": 7,
+      "TECH_SIGNAL": 7,
+      "PEOPLE_SIGNAL": 11,
+      "NETWORK_SIGNAL": 10,
+      "OPPORTUNITY_SIGNAL": 2,
+      "PROJECT_SIGNAL": 5,
+      "MARKET_SIGNAL": 1
     }
   },
   "action_queue": {
-    "items": 2,
-    "high": 1,
+    "items": 4,
+    "high": 3,
     "medium": 1,
-    "pending_approval": 0,
+    "pending_approval": 2,
     "research_needed": 0,
     "primary_action_counts": {
-      "engage_with_post": 2
+      "engage_with_post": 3,
+      "follow_person": 1
     },
     "action_plan_counts": {
-      "engage_with_post": 2,
-      "find_warm_path": 2,
+      "check_jobs": 1,
+      "connect_person": 2,
+      "engage_with_post": 3,
+      "find_warm_path": 4,
+      "follow_company": 2,
       "follow_person": 2,
-      "review_technology": 1,
+      "review_technology": 2,
       "save_for_content": 2
     }
   },
   "relationships": {
-    "total": 99,
-    "people": 76,
+    "total": 106,
+    "people": 83,
     "companies": 23,
-    "people_with_profile_url": 59,
+    "people_with_profile_url": 64,
     "status_counts": {
-      "WATCH": 99,
+      "WATCH": 106,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -49,9 +55,9 @@
       "REPLIED": 0,
       "CLOSED": 0
     },
-    "review_recommended": 34,
+    "review_recommended": 37,
     "do_not_contact": 0,
-    "repeat_entities": 17
+    "repeat_entities": 18
   },
   "llm_provider": "openai"
 }
