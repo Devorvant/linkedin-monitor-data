@@ -7,6 +7,7 @@ import os
 import subprocess
 import sys
 import time
+from datetime import datetime, timezone
 from email import policy
 from email.parser import BytesParser
 from pathlib import Path
@@ -100,9 +101,42 @@ def fetch_queue(secret: str) -> dict:
         raise SystemExit(f"Cloudflare connection error: {exc}") from exc
 
 
+def save_queue(secret: str, payload: dict) -> dict:
+    body = json.dumps(
+        {
+            "source_generated_at": payload.get("source_generated_at"),
+            "items": payload.get("items") or [],
+        },
+        ensure_ascii=False,
+    ).encode("utf-8")
+    req = Request(
+        ACTION_API,
+        data=body,
+        headers={
+            "User-Agent": "linkedin-monitor-action-executor",
+            "X-Approval-Key": secret,
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        with urlopen(req, timeout=30) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except HTTPError as exc:
+        response_body = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Cloudflare HTTP {exc.code}: {response_body}") from exc
+    except URLError as exc:
+        raise RuntimeError(f"Cloudflare connection error: {exc}") from exc
+
+
 def approved_items(payload: dict) -> list[dict]:
     items = payload.get("items") or []
-    return [x for x in items if isinstance(x, dict) and str(x.get("state", "APPROVED")).upper() == "APPROVED"]
+    return [
+        x
+        for x in items
+        if isinstance(x, dict)
+        and str(x.get("state", "APPROVED")).upper() == "APPROVED"
+    ]
 
 
 def item_url(item: dict) -> str:
@@ -112,6 +146,13 @@ def item_url(item: dict) -> str:
         or item.get("source_url")
         or ""
     ).strip()
+
+
+def normalized_action_url(item: dict) -> str:
+    url = item_url(item).strip()
+    if not url:
+        return ""
+    return url.split("#", 1)[0].split("?", 1)[0].rstrip("/").lower()
 
 
 def item_label(item: dict) -> str:
@@ -192,7 +233,11 @@ def snapshot_saved_pages(folder: Path) -> dict[str, tuple[float, int]]:
     return result
 
 
-def wait_for_saved_page_change(folder: Path, before: dict[str, tuple[float, int]], timeout: float = 20.0) -> Path | None:
+def wait_for_saved_page_change(
+    folder: Path,
+    before: dict[str, tuple[float, int]],
+    timeout: float = 20.0,
+) -> Path | None:
     deadline = time.time() + timeout
     candidate: Path | None = None
     while time.time() < deadline:
@@ -315,16 +360,16 @@ def close_opened_tab(device: dict) -> None:
     time.sleep(0.8)
 
 
-def execute_follow_company(item: dict, device: dict) -> None:
+def execute_follow_company(item: dict, device: dict) -> str:
     url = item_url(item)
     if not url:
         print("EXECUTOR остановлен: у действия нет URL.")
-        return
+        return "UNKNOWN"
     try:
         chrome = find_chrome()
     except FileNotFoundError as exc:
         print(f"EXECUTOR остановлен: {exc}")
-        return
+        return "UNKNOWN"
 
     print("\nFOLLOW_COMPANY EXECUTION:")
     print("  1. Открываю URL в обычном Chrome.")
@@ -337,17 +382,17 @@ def execute_follow_company(item: dict, device: dict) -> None:
         saved = save_page_with_context_menu(device, "3")
         if saved is None:
             print("  4. STATE = UNKNOWN: новый файл не найден. Ничего не нажимаю.")
-            return
+            return "UNKNOWN"
         state = detect_follow_state(read_html_or_mhtml(saved))
         print(f"  4. STATE = {state}")
         print(f"     source: {saved.name}")
 
         if state == "FOLLOWING":
-            print("     Уже подписаны -> SKIP.")
-            return
+            print("     Уже подписаны -> VERIFIED.")
+            return "ALREADY_FOLLOWING"
         if state != "FOLLOW_AVAILABLE":
             print("     Состояние не подтверждено -> никаких кликов.")
-            return
+            return "UNKNOWN"
 
         click_main_follow_button(device)
         focus_linkedin_chrome(maximize=True)
@@ -355,14 +400,16 @@ def execute_follow_company(item: dict, device: dict) -> None:
         saved_after = save_page_with_context_menu(device, "6")
         if saved_after is None:
             print("  7. VERIFY = UNKNOWN: повторный файл не найден.")
-            return
+            return "UNKNOWN"
         state_after = detect_follow_state(read_html_or_mhtml(saved_after))
         print(f"  7. VERIFY = {state_after}")
         print(f"     source: {saved_after.name}")
         if state_after == "FOLLOWING":
-            print("     SUCCESS: компания теперь отслеживается.")
-        else:
-            print("     FAILED/UNCERTAIN: FOLLOWING после клика не подтверждён.")
+            print("     SUCCESS: компания теперь отслеживается -> VERIFIED.")
+            return "FOLLOWED"
+
+        print("     FAILED/UNCERTAIN: FOLLOWING после клика не подтверждён.")
+        return "UNKNOWN"
     finally:
         try:
             focus_linkedin_chrome(maximize=True)
@@ -371,8 +418,10 @@ def execute_follow_company(item: dict, device: dict) -> None:
             print(f"     Не удалось закрыть вкладку автоматически: {exc}")
 
 
-def unique_supported_actions(items: list[dict]) -> tuple[list[dict], list[dict]]:
-    supported: list[dict] = []
+def grouped_supported_actions(
+    items: list[dict],
+) -> tuple[list[tuple[dict, list[dict]]], list[dict]]:
+    groups: dict[str, list[dict]] = {}
     unsupported: list[dict] = []
     seen_ids: set[str] = set()
 
@@ -388,9 +437,57 @@ def unique_supported_actions(items: list[dict]) -> tuple[list[dict], list[dict]]
             continue
         if action_id:
             seen_ids.add(action_id)
-        supported.append(item)
 
-    return supported, unsupported
+        url_key = normalized_action_url(item)
+        key = url_key or f"action_id:{action_id}" or f"object:{id(item)}"
+        groups.setdefault(key, []).append(item)
+
+    result: list[tuple[dict, list[dict]]] = []
+    for key, grouped in groups.items():
+        if len(grouped) > 1:
+            print(
+                f"DEDUP follow_company: {len(grouped)} APPROVED actions -> "
+                f"1 browser execution for {item_url(grouped[0]) or key}"
+            )
+        result.append((grouped[0], grouped))
+
+    return result, unsupported
+
+
+def mark_group_verified(payload: dict, group: list[dict], outcome: str) -> int:
+    ids = {
+        str(item.get("action_id") or "").strip()
+        for item in group
+        if str(item.get("action_id") or "").strip()
+    }
+    url_keys = {
+        normalized_action_url(item)
+        for item in group
+        if normalized_action_url(item)
+    }
+    verified_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    changed = 0
+
+    for item in payload.get("items") or []:
+        if not isinstance(item, dict):
+            continue
+        if str(item.get("action") or "") != "follow_company":
+            continue
+        if str(item.get("state", "APPROVED")).upper() != "APPROVED":
+            continue
+
+        action_id = str(item.get("action_id") or "").strip()
+        same_id = bool(action_id and action_id in ids)
+        same_url = bool(normalized_action_url(item) in url_keys) if url_keys else False
+        if not same_id and not same_url:
+            continue
+
+        item["state"] = "VERIFIED"
+        item["verified_at"] = verified_at
+        item["outcome"] = outcome
+        changed += 1
+
+    return changed
 
 
 def main() -> int:
@@ -406,38 +503,72 @@ def main() -> int:
     print("Mode: AUTONOMOUS follow_company only; UNKNOWN never clicks")
 
     secret = load_secret(root)
-    items = approved_items(fetch_queue(secret))
+    payload = fetch_queue(secret)
+    items = approved_items(payload)
     print_queue(items)
     print("\nOK: GitHub executor -> Cloudflare queue read successfully.")
 
     if args.list or not items:
         return 0
 
-    supported, unsupported = unique_supported_actions(items)
-    print(f"\nAutonomous plan: follow_company={len(supported)}, unsupported_skip={len(unsupported)}")
+    groups, unsupported = grouped_supported_actions(items)
+    print(
+        f"\nAutonomous plan: follow_company_unique={len(groups)}, "
+        f"unsupported_skip={len(unsupported)}"
+    )
     for item in unsupported:
         print(f"  SKIP unsupported: {item_label(item)}")
 
-    if not supported:
+    if not groups:
         print("Нет поддерживаемых follow_company. Executor завершён без действий.")
         return 0
 
     errors = 0
-    for index, item in enumerate(supported, 1):
+    verified_count = 0
+
+    for index, (item, group) in enumerate(groups, 1):
         print("\n" + "=" * 66)
-        print(f"AUTO ACTION {index}/{len(supported)}")
+        print(f"AUTO ACTION {index}/{len(groups)}")
         print("=" * 66)
         print_preview(item)
+        if len(group) > 1:
+            print(f"duplicates_for_same_url: {len(group)}")
+
         try:
-            execute_follow_company(item, device)
+            outcome = execute_follow_company(item, device)
+            if outcome in {"ALREADY_FOLLOWING", "FOLLOWED"}:
+                changed = mark_group_verified(payload, group, outcome)
+                verified_count += changed
+                print(
+                    f"QUEUE: помечено VERIFIED: {changed} action(s) "
+                    f"для этого company URL."
+                )
+            else:
+                print("QUEUE: состояние оставлено APPROVED для будущей проверки.")
         except Exception as exc:
             errors += 1
             print(f"EXECUTOR ERROR for {item_label(item)}: {type(exc).__name__}: {exc}")
-            print("Продолжаю со следующим действием.")
+            print("Очередь для этого действия не меняю. Продолжаю со следующим.")
+
+    if verified_count:
+        try:
+            result = save_queue(secret, payload)
+            print(
+                f"\nCloudflare queue updated: VERIFIED={verified_count}; "
+                f"saved={result.get('saved', len(payload.get('items') or []))}."
+            )
+        except Exception as exc:
+            errors += 1
+            print(f"QUEUE UPDATE ERROR: {type(exc).__name__}: {exc}")
+            print("Cloudflare очередь не подтверждена; действия могут повториться позже.")
 
     print("\n" + "=" * 66)
     print("AUTONOMOUS EXECUTOR FINISHED")
-    print(f"follow_company processed={len(supported)}, unsupported_skipped={len(unsupported)}, exceptions={errors}")
+    print(
+        f"follow_company unique_processed={len(groups)}, "
+        f"verified={verified_count}, unsupported_skipped={len(unsupported)}, "
+        f"exceptions={errors}"
+    )
     print("Возвращаю управление wrapper/dispatcher, чтобы цикл мог завершиться и компьютер выключился.")
     return 0
 
