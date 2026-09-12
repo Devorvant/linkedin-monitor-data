@@ -1,51 +1,47 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-11T05:12:33.007324+00:00",
+  "generated_at": "2026-09-12T05:11:56.185782+00:00",
   "status": "OK",
   "analysis_mode": "llm",
   "analysis_reason": "Feed/profile/analyzer changed",
   "feed_signals": {
-    "posts_analyzed": 19,
-    "high_priority": 2,
-    "medium_priority": 4,
-    "low_priority": 13,
+    "posts_analyzed": 7,
+    "high_priority": 0,
+    "medium_priority": 2,
+    "low_priority": 5,
     "signal_type_counts": {
-      "TECH_SIGNAL": 9,
-      "PROJECT_SIGNAL": 6,
-      "COMPANY_SIGNAL": 5,
-      "PEOPLE_SIGNAL": 12,
-      "NETWORK_SIGNAL": 12
+      "TECH_SIGNAL": 2,
+      "PROJECT_SIGNAL": 2,
+      "PEOPLE_SIGNAL": 4,
+      "NETWORK_SIGNAL": 5,
+      "COMPANY_SIGNAL": 2,
+      "MARKET_SIGNAL": 1
     }
   },
   "action_queue": {
-    "items": 6,
-    "high": 2,
-    "medium": 4,
+    "items": 2,
+    "high": 0,
+    "medium": 2,
     "pending_approval": 1,
-    "research_needed": 2,
+    "research_needed": 0,
     "primary_action_counts": {
-      "engage_with_post": 4,
-      "research_contact": 2
+      "engage_with_post": 2
     },
     "action_plan_counts": {
       "connect_person": 1,
-      "engage_with_post": 4,
-      "find_warm_path": 4,
-      "follow_company": 2,
-      "follow_person": 4,
-      "research_company": 1,
-      "research_contact": 2,
-      "review_technology": 6,
-      "save_for_content": 2
+      "engage_with_post": 2,
+      "find_warm_path": 2,
+      "follow_person": 2,
+      "review_technology": 1
     }
   },
   "relationships": {
-    "total": 112,
-    "people": 87,
+    "total": 121,
+    "people": 96,
     "companies": 25,
-    "people_with_profile_url": 68,
+    "people_with_profile_url": 77,
     "status_counts": {
-      "WATCH": 112,
+      "WATCH": 121,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -53,7 +49,7 @@
       "REPLIED": 0,
       "CLOSED": 0
     },
-    "review_recommended": 42,
+    "review_recommended": 51,
     "do_not_contact": 0,
     "repeat_entities": 19
   },
