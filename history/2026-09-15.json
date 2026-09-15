@@ -1,0 +1,1047 @@
+{
+  "schema_version": 1,
+  "source": {
+    "filename": "linkedin_combined_report_2026-09-15_08-13-41.xlsx",
+    "full_path": "H:\\Users\\kusc\\AppData\\Local\\Programs\\Python\\Python311\\linkedin_desktop_automation\\reports\\linkedin_combined_report_2026-09-15_08-13-41.xlsx",
+    "modified_at": "2026-09-15T08:13:41",
+    "converted_at": "2026-09-15T08:13:41"
+  },
+  "sheet_order": [
+    "Summary",
+    "Feed",
+    "Jobs",
+    "Notifications"
+  ],
+  "sheets": {
+    "Summary": {
+      "title": "Summary",
+      "max_row": 4,
+      "max_column": 4,
+      "columns": [
+        "section",
+        "records",
+        "source_report",
+        "status"
+      ],
+      "records": [
+        {
+          "section": "Feed",
+          "records": 41,
+          "source_report": "linkedin_feed_report_2026-09-15_08-10-59.csv",
+          "status": "OK"
+        },
+        {
+          "section": "Jobs",
+          "records": 0,
+          "source_report": null,
+          "status": "не найден"
+        },
+        {
+          "section": "Notifications",
+          "records": 0,
+          "source_report": null,
+          "status": "не найден"
+        }
+      ],
+      "raw_values": [
+        [
+          "section",
+          "records",
+          "source_report",
+          "status"
+        ],
+        [
+          "Feed",
+          41,
+          "linkedin_feed_report_2026-09-15_08-10-59.csv",
+          "OK"
+        ],
+        [
+          "Jobs",
+          0,
+          null,
+          "не найден"
+        ],
+        [
+          "Notifications",
+          0,
+          null,
+          "не найден"
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    },
+    "Feed": {
+      "title": "Feed",
+      "max_row": 42,
+      "max_column": 9,
+      "columns": [
+        "type",
+        "job_id",
+        "title",
+        "company",
+        "location",
+        "url",
+        "source_file",
+        "collected_at",
+        "text"
+      ],
+      "records": [
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "AIVONPCB",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/aivonpcb/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "AIVONPCB"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "City of Fort Worth",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/city-of-fort-worth/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "City of Fort Worth"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Defense News",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/defense-news/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Defense News"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Dimetor",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/dimetorconnectivity/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Dimetor"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "EQUANS",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/equans/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "EQUANS"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Hillwood",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/hillwood/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Hillwood"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Joby Aviation",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/jobyaviation/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Joby Aviation"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Lockheed Martin",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/lockheed-martin/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Lockheed Martin"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "MathWorks",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/the-mathworks_2/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "MathWorks"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "SciEngineer",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/sciengineer/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "SciEngineer"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "SkyGrid",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/skygrid/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "SkyGrid"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "Texas Department of Transportation",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/texas-department-of-transportation/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Texas Department of Transportation"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "U.S. Department of Transportation",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/usdot/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "U.S. Department of Transportation"
+        },
+        {
+          "type": "company",
+          "job_id": null,
+          "title": "VARIANT Project Consortium",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/company/variant-consortium/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "VARIANT Project Consortium"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Anastasia S. 🎧Talent Acquisition Specialist Отслеживается 2 общими контактами Отслеживать",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/anastasiya-recruiter/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Anastasia S. 🎧Talent Acquisition Specialist Отслеживается 2 общими контактами Отслеживать"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Burak Çetin",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Burak Çetin"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Damir Nazirov • 2-й",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/damir-nazirov-922740239/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Damir Nazirov • 2-й"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Darya Zaytseva Recruitment Stream Lead (QA) Banco Plata 🧡 Career advisor Отслеживается 2 общими контактами Отслеживать",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/daryzaytseva/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Darya Zaytseva Recruitment Stream Lead (QA) Banco Plata 🧡 Career advisor Отслеживается 2 общими контактами Отслеживать"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Ilir Aliu • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/ilir-aliu/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Ilir Aliu • 3-й+"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Jahan Bhoj • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/jahan-bhoj-5b8952200/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Jahan Bhoj • 3-й+"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Nikolay Sharakha",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/nikolay-sharakha-3a6150227/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Nikolay Sharakha"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Nikolay Sharakha, профиль Подтверждено, 1-й Nikolay Sharakha • 1-й Senior Software Engineer | Golang | C/C++",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/nikolay-sharakha-3a6150227/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Nikolay Sharakha, профиль Подтверждено, 1-й Nikolay Sharakha • 1-й Senior Software Engineer | Golang | C/C++"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Robert Francis • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/robert-francis-1762482/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Robert Francis • 3-й+"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Sachin Jain, Ph.D. • Отслеживаете",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/sachinjainphd/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Sachin Jain, Ph.D. • Отслеживаете"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/devorvant/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Vadim Zaretskiy • 2-й",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/vadizars/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Vadim Zaretskiy • 2-й"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Аида Гайнутдинова",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Аида Гайнутдинова"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Астроно",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/devorvant/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Астроно"
+        },
+        {
+          "type": "person",
+          "job_id": null,
+          "title": "Даяна Сексенбаева IT Recruitment Lead - Kaspi.kz | Карьерный консультант| TG - @dayana_seksenbayeva Отслеживается 1 общим контактом Отслеживать",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/%D0%B4%D0%B0%D1%8F%D0%BD%D0%B0%D1%81%D0%B5%D0%BA%D1%81%D0%B5%D0%BD%D0%B1%D0%B0%D0%B5%D0%B2%D0%B0/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Даяна Сексенбаева IT Recruitment Lead - Kaspi.kz | Карьерный консультант| TG - @dayana_seksenbayeva Отслеживается 1 общим контактом Отслеживать"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Burak Çetin",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "An open-source Python tool for running thousands of MuJoCo physics simulations in parallel directly on CPU: [📌 Save github for later] Mjbatch uses a C++ thread pool to bypass Python’s GIL, providing live batched access to states like qpos and controls for vectorized policies, with support for per-simulation parameters such as friction. The release includes self-contained examples like PPO training a quadruped to walk in under a minute on a laptop, MPC for humanoid backflips, system ID on a robot arm, and hardware co-design optimization. Thanks for sharing, Kevin Zakka (@kevin_zakka)! Github: https://lnkd.in/etx67KVd —— Weekly robotics and AI insights. Subscribe free: 22astronauts.com"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Burak Çetin",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "A small update to the drone project I shared a couple weeks ago. This time I’ve started bringing some physical hardware into the loop. I’ve built an esp32 and IMU setup, along with custom firmware to read and stream accelerometer and gyroscope data in real time. I kept the firmware relatively straightforward, handling the initial gyro calibration and streaming the sensor data while the application uses that data to drive the pitch, roll and yaw of the aircraft. Because of the IMU board’s pin layout, I had to mount it vertically on the breadboard rather than flat, That meant its native sensor axes did not directly line up with the drone's axes, so I had to account for the mounting orientation and calibration to make sure everything mapped correctly. The idea behind this setup is to represent how a UAV could send live onboard sensor and telemetry data back to the application, giving real-time updates on aircraft orientation, sensor information, telemetry and flight state. The 3D visualizer shown here is a custom web application I've built using Three.js/WebGL, with the aircraft model created in Blender and Fusion 360. #EmbeddedSystems #UAV"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Embedded AI is powering everything from smart appliances to autonomous systems. Take our 7-question quiz to test your knowledge of techniques and tools shaping the future.",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Embedded AI is powering everything from smart appliances to autonomous systems. Take our 7-question quiz to test your knowledge of techniques and tools shaping the future."
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "High PCB prototyping costs slowing down your hardware development? Get your PCB prototype with AIVON's direct factory manufacturing: 🔵$60 Welcome Credits ($30 Manufacturing + $30 S",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "High PCB prototyping costs slowing down your hardware development? Get your PCB prototype with AIVON's direct factory manufacturing: 🔵$60 Welcome Credits ($30 Manufacturing + $30 Shipping) 🔵 Free Engineering Review to check manufacturability before production 🔵 24-Hour Fast Turnaround with instant online quotes Create a free account today to claim your credits and streamline your sourcing 👇"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Lockheed Martin announced they will build more of their prototype collaborative combat aircraft, increasing the number from one to five. #LockheedMartin #Vectis #cca",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Lockheed Martin announced they will build more of their prototype collaborative combat aircraft, increasing the number from one to five. #LockheedMartin #Vectis #cca"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Nikolay Sharakha",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/nikolay-sharakha-3a6150227/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Коротко про инновации Apple"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Robert Francis • 3-й+",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/robert-francis-1762482/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "City of Fort Worth flies into the future as center of new air taxi testing program. Hillwood AllianceTexas Joby Aviation Texas Department of Transportation U.S. Department of Transportation https://lnkd.in/g7B-fhRS"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Sachin Jain, Ph.D. • Отслеживаете",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/sachinjainphd/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "On September 8, DIU and Honeywell Aerospace flight-tested a quantum magnetic navigation (MagNav) system on an Embraer 170, flying GPS-off between Puget Sound and southern Alaska for 4 hours and 23 minutes. Result: 89% better position accuracy than legacy backup navigation. The more interesting fact is why that number holds instead of degrading. Inertial navigation — the usual GPS backup — accumulates error over time; every second without a fix adds to the drift, because it's dead reckoning from a last-known position. MagNav doesn't dead-reckon. It reads the Earth's crustal magnetic field, a fixed, unjammable feature layer, and matches against it the way terrain-relative navigation matches against elevation maps. Error doesn't compound with flight time — it resets with every good magnetic fix. That's a fundamentally different failure mode than the inertial and RF-based alt-PNT approaches most solicitations have funded, and it's why DIU moved this fast: problem-to-prototype in a matter of months, out of 72 companies that responded to the original solicitation. Next stop is a C-17 test later this year. If you're in the PNT space, the lesson isn't \"add a magnetometer.\" It's that DIU will fund an entirely different error model — not just another sensor bolted onto the same inertial-drift architecture — when the physics genuinely changes the problem. #DoW #Defense #Autonomy #GPS -deniedNav"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Welcoming more passengers while lowering carbon emissions: an impossible challenge? Not anymore. 🌍 Over 150 airports across 70 countries already trust our solutions to combine oper",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Welcoming more passengers while lowering carbon emissions: an impossible challenge? Not anymore. 🌍 Over 150 airports across 70 countries already trust our solutions to combine operational performance, maximum safety, and sustainability. Could yours be next?"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "What happens when AI agents meet engineering workflows? Explore how Agentic AI with MATLAB can help engineers automate tasks, run code and tests, analyze results, and accelerate de",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "What happens when AI agents meet engineering workflows? Explore how Agentic AI with MATLAB can help engineers automate tasks, run code and tests, analyze results, and accelerate development—while keeping engineering expertise and validation at the center. 📅 September 17 | Online webinar by MathWorks Register here: https://lnkd.in/dvjk_2pd"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Why is GNSS signal integrity one of the biggest safety hurdles for Advanced Air Mobility? Autonomous aircraft operate at low altitudes in dense urban environments and depend on sat",
+          "company": null,
+          "location": null,
+          "url": null,
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "Why is GNSS signal integrity one of the biggest safety hurdles for Advanced Air Mobility? Autonomous aircraft operate at low altitudes in dense urban environments and depend on satellite positioning, making them vulnerable to two signal threats: 1️⃣ Jamming: Floods the signal with noise, forcing a complete loss of positioning. 2️⃣ Spoofing: Broadcasts false location data, which spreads across automated flight systems without a pilot to catch the error. As part of the VARIANT Project Consortium , Dimetor explores how we can solve this by leveraging existing telecom networks to monitor interference in real time. By integrating this detection data directly into SkyGrid's airspace management systems, we can connect the full chain from threat alerting to flight planning and contingency management, ensuring safe operations even when GNSS signals are degraded. 👉 Read more: https://lnkd.in/eu7peVqc #SkyGrid #VARIANT #AutonomousFlight"
+        },
+        {
+          "type": "post",
+          "job_id": null,
+          "title": "Аида Гайнутдинова",
+          "company": null,
+          "location": null,
+          "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+          "source_file": "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "collected_at": "2026-09-15T08:10:59",
+          "text": "🎂 Сегодня у меня день рождения и я ИЩУ РАБОТУ. Совсем недавно я с радостью обновил работодателя в LinkedIn, а неделю назад попал под сокращение вместе со всеми \"новенькими\". Поэтому сегодня я открыт к предложениям на позицию QA Engineer. Моя основная специализация - FinTech / Payments: тестирование платёжных систем и методов оплаты, Web & API testing, Postman, REST/GraphQL, DevTools, Jira, Allure TestOps. Более 3 лет в QA, из них 2 года - в платёжных продуктах. Нахожусь в Португалии, рассматриваю позиции в Португалии и remote по Европе. Если Вам или вашей компании нужен QA Engineer с опытом в платежах, буду очень благодарен за сообщение. А лучшим подарком сегодня будет лайк, комментарий или репост — это поможет посту попасть к людям, которым сейчас нужен такой специалист. Заранее спасибо! 🙏 #OpenToWork #QAEngineer #Payments #FinTech #SoftwareTesting #APItesting"
+        }
+      ],
+      "raw_values": [
+        [
+          "type",
+          "job_id",
+          "title",
+          "company",
+          "location",
+          "url",
+          "source_file",
+          "collected_at",
+          "text"
+        ],
+        [
+          "company",
+          null,
+          "AIVONPCB",
+          null,
+          null,
+          "https://www.linkedin.com/company/aivonpcb/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "AIVONPCB"
+        ],
+        [
+          "company",
+          null,
+          "City of Fort Worth",
+          null,
+          null,
+          "https://www.linkedin.com/company/city-of-fort-worth/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "City of Fort Worth"
+        ],
+        [
+          "company",
+          null,
+          "Defense News",
+          null,
+          null,
+          "https://www.linkedin.com/company/defense-news/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Defense News"
+        ],
+        [
+          "company",
+          null,
+          "Dimetor",
+          null,
+          null,
+          "https://www.linkedin.com/company/dimetorconnectivity/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Dimetor"
+        ],
+        [
+          "company",
+          null,
+          "EQUANS",
+          null,
+          null,
+          "https://www.linkedin.com/company/equans/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "EQUANS"
+        ],
+        [
+          "company",
+          null,
+          "Hillwood",
+          null,
+          null,
+          "https://www.linkedin.com/company/hillwood/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Hillwood"
+        ],
+        [
+          "company",
+          null,
+          "Joby Aviation",
+          null,
+          null,
+          "https://www.linkedin.com/company/jobyaviation/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Joby Aviation"
+        ],
+        [
+          "company",
+          null,
+          "Lockheed Martin",
+          null,
+          null,
+          "https://www.linkedin.com/company/lockheed-martin/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Lockheed Martin"
+        ],
+        [
+          "company",
+          null,
+          "MathWorks",
+          null,
+          null,
+          "https://www.linkedin.com/company/the-mathworks_2/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "MathWorks"
+        ],
+        [
+          "company",
+          null,
+          "SciEngineer",
+          null,
+          null,
+          "https://www.linkedin.com/company/sciengineer/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "SciEngineer"
+        ],
+        [
+          "company",
+          null,
+          "SkyGrid",
+          null,
+          null,
+          "https://www.linkedin.com/company/skygrid/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "SkyGrid"
+        ],
+        [
+          "company",
+          null,
+          "Texas Department of Transportation",
+          null,
+          null,
+          "https://www.linkedin.com/company/texas-department-of-transportation/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Texas Department of Transportation"
+        ],
+        [
+          "company",
+          null,
+          "U.S. Department of Transportation",
+          null,
+          null,
+          "https://www.linkedin.com/company/usdot/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "U.S. Department of Transportation"
+        ],
+        [
+          "company",
+          null,
+          "VARIANT Project Consortium",
+          null,
+          null,
+          "https://www.linkedin.com/company/variant-consortium/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "VARIANT Project Consortium"
+        ],
+        [
+          "person",
+          null,
+          "Anastasia S. 🎧Talent Acquisition Specialist Отслеживается 2 общими контактами Отслеживать",
+          null,
+          null,
+          "https://www.linkedin.com/in/anastasiya-recruiter/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Anastasia S. 🎧Talent Acquisition Specialist Отслеживается 2 общими контактами Отслеживать"
+        ],
+        [
+          "person",
+          null,
+          "Burak Çetin",
+          null,
+          null,
+          "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Burak Çetin"
+        ],
+        [
+          "person",
+          null,
+          "Damir Nazirov • 2-й",
+          null,
+          null,
+          "https://www.linkedin.com/in/damir-nazirov-922740239/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Damir Nazirov • 2-й"
+        ],
+        [
+          "person",
+          null,
+          "Darya Zaytseva Recruitment Stream Lead (QA) Banco Plata 🧡 Career advisor Отслеживается 2 общими контактами Отслеживать",
+          null,
+          null,
+          "https://www.linkedin.com/in/daryzaytseva/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Darya Zaytseva Recruitment Stream Lead (QA) Banco Plata 🧡 Career advisor Отслеживается 2 общими контактами Отслеживать"
+        ],
+        [
+          "person",
+          null,
+          "Ilir Aliu • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/in/ilir-aliu/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Ilir Aliu • 3-й+"
+        ],
+        [
+          "person",
+          null,
+          "Jahan Bhoj • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/in/jahan-bhoj-5b8952200/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Jahan Bhoj • 3-й+"
+        ],
+        [
+          "person",
+          null,
+          "Nikolay Sharakha",
+          null,
+          null,
+          "https://www.linkedin.com/in/nikolay-sharakha-3a6150227/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Nikolay Sharakha"
+        ],
+        [
+          "person",
+          null,
+          "Nikolay Sharakha, профиль Подтверждено, 1-й Nikolay Sharakha • 1-й Senior Software Engineer | Golang | C/C++",
+          null,
+          null,
+          "https://www.linkedin.com/in/nikolay-sharakha-3a6150227/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Nikolay Sharakha, профиль Подтверждено, 1-й Nikolay Sharakha • 1-й Senior Software Engineer | Golang | C/C++"
+        ],
+        [
+          "person",
+          null,
+          "Robert Francis • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/in/robert-francis-1762482/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Robert Francis • 3-й+"
+        ],
+        [
+          "person",
+          null,
+          "Sachin Jain, Ph.D. • Отслеживаете",
+          null,
+          null,
+          "https://www.linkedin.com/in/sachinjainphd/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Sachin Jain, Ph.D. • Отслеживаете"
+        ],
+        [
+          "person",
+          null,
+          "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва",
+          null,
+          null,
+          "https://www.linkedin.com/in/devorvant/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва"
+        ],
+        [
+          "person",
+          null,
+          "Vadim Zaretskiy • 2-й",
+          null,
+          null,
+          "https://www.linkedin.com/in/vadizars/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Vadim Zaretskiy • 2-й"
+        ],
+        [
+          "person",
+          null,
+          "Аида Гайнутдинова",
+          null,
+          null,
+          "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Аида Гайнутдинова"
+        ],
+        [
+          "person",
+          null,
+          "Астроно",
+          null,
+          null,
+          "https://www.linkedin.com/in/devorvant/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Астроно"
+        ],
+        [
+          "person",
+          null,
+          "Даяна Сексенбаева IT Recruitment Lead - Kaspi.kz | Карьерный консультант| TG - @dayana_seksenbayeva Отслеживается 1 общим контактом Отслеживать",
+          null,
+          null,
+          "https://www.linkedin.com/in/%D0%B4%D0%B0%D1%8F%D0%BD%D0%B0%D1%81%D0%B5%D0%BA%D1%81%D0%B5%D0%BD%D0%B1%D0%B0%D0%B5%D0%B2%D0%B0/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Даяна Сексенбаева IT Recruitment Lead - Kaspi.kz | Карьерный консультант| TG - @dayana_seksenbayeva Отслеживается 1 общим контактом Отслеживать"
+        ],
+        [
+          "post",
+          null,
+          "Burak Çetin",
+          null,
+          null,
+          "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "An open-source Python tool for running thousands of MuJoCo physics simulations in parallel directly on CPU: [📌 Save github for later] Mjbatch uses a C++ thread pool to bypass Python’s GIL, providing live batched access to states like qpos and controls for vectorized policies, with support for per-simulation parameters such as friction. The release includes self-contained examples like PPO training a quadruped to walk in under a minute on a laptop, MPC for humanoid backflips, system ID on a robot arm, and hardware co-design optimization. Thanks for sharing, Kevin Zakka (@kevin_zakka)! Github: https://lnkd.in/etx67KVd —— Weekly robotics and AI insights. Subscribe free: 22astronauts.com"
+        ],
+        [
+          "post",
+          null,
+          "Burak Çetin",
+          null,
+          null,
+          "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "A small update to the drone project I shared a couple weeks ago. This time I’ve started bringing some physical hardware into the loop. I’ve built an esp32 and IMU setup, along with custom firmware to read and stream accelerometer and gyroscope data in real time. I kept the firmware relatively straightforward, handling the initial gyro calibration and streaming the sensor data while the application uses that data to drive the pitch, roll and yaw of the aircraft. Because of the IMU board’s pin layout, I had to mount it vertically on the breadboard rather than flat, That meant its native sensor axes did not directly line up with the drone's axes, so I had to account for the mounting orientation and calibration to make sure everything mapped correctly. The idea behind this setup is to represent how a UAV could send live onboard sensor and telemetry data back to the application, giving real-time updates on aircraft orientation, sensor information, telemetry and flight state. The 3D visualizer shown here is a custom web application I've built using Three.js/WebGL, with the aircraft model created in Blender and Fusion 360. #EmbeddedSystems #UAV"
+        ],
+        [
+          "post",
+          null,
+          "Embedded AI is powering everything from smart appliances to autonomous systems. Take our 7-question quiz to test your knowledge of techniques and tools shaping the future.",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Embedded AI is powering everything from smart appliances to autonomous systems. Take our 7-question quiz to test your knowledge of techniques and tools shaping the future."
+        ],
+        [
+          "post",
+          null,
+          "High PCB prototyping costs slowing down your hardware development? Get your PCB prototype with AIVON's direct factory manufacturing: 🔵$60 Welcome Credits ($30 Manufacturing + $30 S",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "High PCB prototyping costs slowing down your hardware development? Get your PCB prototype with AIVON's direct factory manufacturing: 🔵$60 Welcome Credits ($30 Manufacturing + $30 Shipping) 🔵 Free Engineering Review to check manufacturability before production 🔵 24-Hour Fast Turnaround with instant online quotes Create a free account today to claim your credits and streamline your sourcing 👇"
+        ],
+        [
+          "post",
+          null,
+          "Lockheed Martin announced they will build more of their prototype collaborative combat aircraft, increasing the number from one to five. #LockheedMartin #Vectis #cca",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Lockheed Martin announced they will build more of their prototype collaborative combat aircraft, increasing the number from one to five. #LockheedMartin #Vectis #cca"
+        ],
+        [
+          "post",
+          null,
+          "Nikolay Sharakha",
+          null,
+          null,
+          "https://www.linkedin.com/in/nikolay-sharakha-3a6150227/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Коротко про инновации Apple"
+        ],
+        [
+          "post",
+          null,
+          "Robert Francis • 3-й+",
+          null,
+          null,
+          "https://www.linkedin.com/in/robert-francis-1762482/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "City of Fort Worth flies into the future as center of new air taxi testing program. Hillwood AllianceTexas Joby Aviation Texas Department of Transportation U.S. Department of Transportation https://lnkd.in/g7B-fhRS"
+        ],
+        [
+          "post",
+          null,
+          "Sachin Jain, Ph.D. • Отслеживаете",
+          null,
+          null,
+          "https://www.linkedin.com/in/sachinjainphd/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "On September 8, DIU and Honeywell Aerospace flight-tested a quantum magnetic navigation (MagNav) system on an Embraer 170, flying GPS-off between Puget Sound and southern Alaska for 4 hours and 23 minutes. Result: 89% better position accuracy than legacy backup navigation. The more interesting fact is why that number holds instead of degrading. Inertial navigation — the usual GPS backup — accumulates error over time; every second without a fix adds to the drift, because it's dead reckoning from a last-known position. MagNav doesn't dead-reckon. It reads the Earth's crustal magnetic field, a fixed, unjammable feature layer, and matches against it the way terrain-relative navigation matches against elevation maps. Error doesn't compound with flight time — it resets with every good magnetic fix. That's a fundamentally different failure mode than the inertial and RF-based alt-PNT approaches most solicitations have funded, and it's why DIU moved this fast: problem-to-prototype in a matter of months, out of 72 companies that responded to the original solicitation. Next stop is a C-17 test later this year. If you're in the PNT space, the lesson isn't \"add a magnetometer.\" It's that DIU will fund an entirely different error model — not just another sensor bolted onto the same inertial-drift architecture — when the physics genuinely changes the problem. #DoW #Defense #Autonomy #GPS -deniedNav"
+        ],
+        [
+          "post",
+          null,
+          "Welcoming more passengers while lowering carbon emissions: an impossible challenge? Not anymore. 🌍 Over 150 airports across 70 countries already trust our solutions to combine oper",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Welcoming more passengers while lowering carbon emissions: an impossible challenge? Not anymore. 🌍 Over 150 airports across 70 countries already trust our solutions to combine operational performance, maximum safety, and sustainability. Could yours be next?"
+        ],
+        [
+          "post",
+          null,
+          "What happens when AI agents meet engineering workflows? Explore how Agentic AI with MATLAB can help engineers automate tasks, run code and tests, analyze results, and accelerate de",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "What happens when AI agents meet engineering workflows? Explore how Agentic AI with MATLAB can help engineers automate tasks, run code and tests, analyze results, and accelerate development—while keeping engineering expertise and validation at the center. 📅 September 17 | Online webinar by MathWorks Register here: https://lnkd.in/dvjk_2pd"
+        ],
+        [
+          "post",
+          null,
+          "Why is GNSS signal integrity one of the biggest safety hurdles for Advanced Air Mobility? Autonomous aircraft operate at low altitudes in dense urban environments and depend on sat",
+          null,
+          null,
+          null,
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "Why is GNSS signal integrity one of the biggest safety hurdles for Advanced Air Mobility? Autonomous aircraft operate at low altitudes in dense urban environments and depend on satellite positioning, making them vulnerable to two signal threats: 1️⃣ Jamming: Floods the signal with noise, forcing a complete loss of positioning. 2️⃣ Spoofing: Broadcasts false location data, which spreads across automated flight systems without a pilot to catch the error. As part of the VARIANT Project Consortium , Dimetor explores how we can solve this by leveraging existing telecom networks to monitor interference in real time. By integrating this detection data directly into SkyGrid's airspace management systems, we can connect the full chain from threat alerting to flight planning and contingency management, ensuring safe operations even when GNSS signals are degraded. 👉 Read more: https://lnkd.in/eu7peVqc #SkyGrid #VARIANT #AutonomousFlight"
+        ],
+        [
+          "post",
+          null,
+          "Аида Гайнутдинова",
+          null,
+          null,
+          "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+          "linkedin_feed_2026-09-15_08-10-51.mhtml",
+          "2026-09-15T08:10:59",
+          "🎂 Сегодня у меня день рождения и я ИЩУ РАБОТУ. Совсем недавно я с радостью обновил работодателя в LinkedIn, а неделю назад попал под сокращение вместе со всеми \"новенькими\". Поэтому сегодня я открыт к предложениям на позицию QA Engineer. Моя основная специализация - FinTech / Payments: тестирование платёжных систем и методов оплаты, Web & API testing, Postman, REST/GraphQL, DevTools, Jira, Allure TestOps. Более 3 лет в QA, из них 2 года - в платёжных продуктах. Нахожусь в Португалии, рассматриваю позиции в Португалии и remote по Европе. Если Вам или вашей компании нужен QA Engineer с опытом в платежах, буду очень благодарен за сообщение. А лучшим подарком сегодня будет лайк, комментарий или репост — это поможет посту попасть к людям, которым сейчас нужен такой специалист. Заранее спасибо! 🙏 #OpenToWork #QAEngineer #Payments #FinTech #SoftwareTesting #APItesting"
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    },
+    "Jobs": {
+      "title": "Jobs",
+      "max_row": 1,
+      "max_column": 1,
+      "columns": [
+        "column_1"
+      ],
+      "records": [],
+      "raw_values": [
+        [
+          null
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    },
+    "Notifications": {
+      "title": "Notifications",
+      "max_row": 1,
+      "max_column": 1,
+      "columns": [
+        "column_1"
+      ],
+      "records": [],
+      "raw_values": [
+        [
+          null
+        ]
+      ],
+      "formulas": {},
+      "cached_formula_values": {},
+      "merged_ranges": []
+    }
+  }
+}
