@@ -1,54 +1,52 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-14T05:12:43.010253+00:00",
+  "generated_at": "2026-09-15T05:12:52.036437+00:00",
   "status": "OK",
   "analysis_mode": "llm",
   "analysis_reason": "Feed/profile/analyzer changed",
   "feed_signals": {
-    "posts_analyzed": 17,
+    "posts_analyzed": 12,
     "high_priority": 3,
-    "medium_priority": 1,
-    "low_priority": 13,
+    "medium_priority": 3,
+    "low_priority": 6,
     "signal_type_counts": {
-      "HIRING_SIGNAL": 3,
+      "TECH_SIGNAL": 6,
       "PROJECT_SIGNAL": 8,
-      "TECH_SIGNAL": 7,
-      "OPPORTUNITY_SIGNAL": 2,
-      "PEOPLE_SIGNAL": 6,
-      "NETWORK_SIGNAL": 8,
-      "COMPANY_SIGNAL": 5,
-      "MARKET_SIGNAL": 3
+      "PEOPLE_SIGNAL": 5,
+      "NETWORK_SIGNAL": 6,
+      "COMPANY_SIGNAL": 4,
+      "MARKET_SIGNAL": 4
     }
   },
   "action_queue": {
-    "items": 4,
+    "items": 6,
     "high": 3,
-    "medium": 1,
+    "medium": 3,
     "pending_approval": 1,
-    "research_needed": 1,
+    "research_needed": 2,
     "primary_action_counts": {
-      "engage_with_post": 3,
-      "research_contact": 1
+      "engage_with_post": 4,
+      "research_contact": 2
     },
     "action_plan_counts": {
-      "check_jobs": 1,
       "connect_person": 1,
-      "engage_with_post": 3,
-      "find_warm_path": 3,
-      "follow_company": 2,
-      "follow_person": 1,
-      "research_contact": 1,
-      "review_technology": 1,
-      "save_for_content": 2
+      "engage_with_post": 4,
+      "find_warm_path": 4,
+      "follow_company": 1,
+      "follow_person": 2,
+      "research_company": 2,
+      "research_contact": 2,
+      "review_technology": 5,
+      "save_for_content": 3
     }
   },
   "relationships": {
-    "total": 132,
-    "people": 107,
+    "total": 135,
+    "people": 110,
     "companies": 25,
-    "people_with_profile_url": 84,
+    "people_with_profile_url": 86,
     "status_counts": {
-      "WATCH": 132,
+      "WATCH": 135,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -58,7 +56,7 @@
     },
     "review_recommended": 60,
     "do_not_contact": 0,
-    "repeat_entities": 21
+    "repeat_entities": 22
   },
   "llm_provider": "openai"
 }
