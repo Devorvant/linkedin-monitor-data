@@ -1,0 +1,642 @@
+[
+  {
+    "type": "company",
+    "title": "AIVONPCB",
+    "company": "",
+    "location": "",
+    "text": "AIVONPCB",
+    "url": "https://www.linkedin.com/company/aivonpcb/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Alfa-Bank",
+    "company": "",
+    "location": "",
+    "text": "Alfa-Bank",
+    "url": "https://www.linkedin.com/company/alfa-bank/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Aviation International News",
+    "company": "",
+    "location": "",
+    "text": "Aviation International News",
+    "url": "https://www.linkedin.com/company/aviationinternationalnews/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Defense News",
+    "company": "",
+    "location": "",
+    "text": "Defense News",
+    "url": "https://www.linkedin.com/company/defense-news/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Embraer",
+    "company": "",
+    "location": "",
+    "text": "Embraer",
+    "url": "https://www.linkedin.com/company/embraer/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Eve Air Mobility",
+    "company": "",
+    "location": "",
+    "text": "Eve Air Mobility",
+    "url": "https://www.linkedin.com/company/eveairmobility/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Joby Aviation",
+    "company": "",
+    "location": "",
+    "text": "Joby Aviation",
+    "url": "https://www.linkedin.com/company/jobyaviation/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Lockheed Martin",
+    "company": "",
+    "location": "",
+    "text": "Lockheed Martin",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "MathWorks",
+    "company": "",
+    "location": "",
+    "text": "MathWorks",
+    "url": "https://www.linkedin.com/company/the-mathworks_2/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Mayman Aerospace",
+    "company": "",
+    "location": "",
+    "text": "Mayman Aerospace",
+    "url": "https://www.linkedin.com/company/maymanaerospace/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Rapid Fusion",
+    "company": "",
+    "location": "",
+    "text": "Rapid Fusion",
+    "url": "https://www.linkedin.com/company/rapid-fusion/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Toyota North America",
+    "company": "",
+    "location": "",
+    "text": "Toyota North America",
+    "url": "https://www.linkedin.com/company/toyota-north-america/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Unity",
+    "company": "",
+    "location": "",
+    "text": "Unity",
+    "url": "https://www.linkedin.com/company/unity/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Yandex",
+    "company": "",
+    "location": "",
+    "text": "Yandex",
+    "url": "https://www.linkedin.com/company/yandex/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "eVTOL Insights",
+    "company": "",
+    "location": "",
+    "text": "eVTOL Insights",
+    "url": "https://www.linkedin.com/company/evtolinsights/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Alexander Shatunov",
+    "company": "",
+    "location": "",
+    "text": "Alexander Shatunov",
+    "url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Anastasia Kuchay",
+    "company": "",
+    "location": "",
+    "text": "Anastasia Kuchay",
+    "url": "https://www.linkedin.com/in/anastasia-kuchay-231a3612/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Anastasia S. 🎧Talent Acquisition Specialist Отслеживается 2 общими контактами Отслеживать",
+    "company": "",
+    "location": "",
+    "text": "Anastasia S. 🎧Talent Acquisition Specialist Отслеживается 2 общими контактами Отслеживать",
+    "url": "https://www.linkedin.com/in/anastasiya-recruiter/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Avinash Nehemiah",
+    "company": "",
+    "location": "",
+    "text": "Avinash Nehemiah",
+    "url": "https://www.linkedin.com/in/avinash-nehemiah/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Charles Alcock",
+    "company": "",
+    "location": "",
+    "text": "Charles Alcock",
+    "url": "https://www.linkedin.com/in/charles-alcock-98b798197/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Elizaveta Ivanova • 2-й",
+    "company": "",
+    "location": "",
+    "text": "Elizaveta Ivanova • 2-й",
+    "url": "https://www.linkedin.com/in/lizarecruiter/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Isabel Lima • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Isabel Lima • 3-й+",
+    "url": "https://www.linkedin.com/in/isabel-lima-0b889912b/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Mahsa K. • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Mahsa K. • 3-й+",
+    "url": "https://www.linkedin.com/in/klammhsa/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Nataliia Akhmina • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Nataliia Akhmina • 3-й+",
+    "url": "https://www.linkedin.com/in/akhminata/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Nidhi Raj",
+    "company": "",
+    "location": "",
+    "text": "Nidhi Raj",
+    "url": "https://www.linkedin.com/in/nidhirajr/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Sachin Jain, Ph.D. • Отслеживаете",
+    "company": "",
+    "location": "",
+    "text": "Sachin Jain, Ph.D. • Отслеживаете",
+    "url": "https://www.linkedin.com/in/sachinjainphd/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва",
+    "company": "",
+    "location": "",
+    "text": "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва",
+    "url": "https://www.linkedin.com/in/devorvant/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Shiela Mae Reveche CPP™ - CPPM™ • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Shiela Mae Reveche CPP™ - CPPM™ • 3-й+",
+    "url": "https://www.linkedin.com/in/shiela-mae-reveche/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Yann LeCun Founder/Chair, AMI Labs - Prof, NYU - Partner, 224 Ventures Люди в отрасли «Разработка программного обеспечения» также отслеживают этих людей Отслеживать",
+    "company": "",
+    "location": "",
+    "text": "Yann LeCun Founder/Chair, AMI Labs - Prof, NYU - Partner, 224 Ventures Люди в отрасли «Разработка программного обеспечения» также отслеживают этих людей Отслеживать",
+    "url": "https://www.linkedin.com/in/yann-lecun/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Аида Гайнутдинова",
+    "company": "",
+    "location": "",
+    "text": "Аида Гайнутдинова",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Астроно",
+    "company": "",
+    "location": "",
+    "text": "Астроно",
+    "url": "https://www.linkedin.com/in/devorvant/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Даяна Сексенбаева IT Recruitment Lead - Kaspi.kz | Карьерный консультант| TG - @dayana_seksenbayeva Отслеживается 1 общим контактом Отслеживать",
+    "company": "",
+    "location": "",
+    "text": "Даяна Сексенбаева IT Recruitment Lead - Kaspi.kz | Карьерный консультант| TG - @dayana_seksenbayeva Отслеживается 1 общим контактом Отслеживать",
+    "url": "https://www.linkedin.com/in/%D0%B4%D0%B0%D1%8F%D0%BD%D0%B0%D1%81%D0%B5%D0%BA%D1%81%D0%B5%D0%BD%D0%B1%D0%B0%D0%B5%D0%B2%D0%B0/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Alexander Shatunov",
+    "company": "",
+    "location": "",
+    "text": "With the introduction of Android XR, Google is taking Maps to the next level with immersive experiences. Discover Google Maps for Android XR",
+    "url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "author": "Alexander Shatunov",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
+    "posted_time": "",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 254,
+    "comments": null,
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Charles Alcock",
+    "company": "",
+    "location": "",
+    "text": "A lot has changed since Charles Alcock from Aviation International News first covered the P100. At the time, the first in our family of aircraft was undergoing prototype flight testing in Southern California, with AIN highlighting its potential for contested cargo missions. Since then, the P100 has completed more than 100 flight tests, advancing its flight performance and autonomous capabilities across a broader mission set, from contested logistics, ISR and precision effects. Watch here: https://lnkd.in/ggHhrgSP",
+    "url": "https://www.linkedin.com/in/charles-alcock-98b798197/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "author": "Charles Alcock",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/charles-alcock-98b798197/",
+    "posted_time": "12 ч.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "Charles Alcock",
+        "url": "https://www.linkedin.com/in/charles-alcock-98b798197/"
+      },
+      {
+        "name": "Aviation International News",
+        "url": "https://www.linkedin.com/company/aviationinternationalnews/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 9,
+    "comments": null,
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "High PCB prototyping costs slowing down your hardware development? Get your PCB prototype with AIVON's direct factory manufacturing: 🔵$60 Welcome Credits ($30 Manufacturing + $30 S",
+    "company": "",
+    "location": "",
+    "text": "High PCB prototyping costs slowing down your hardware development? Get your PCB prototype with AIVON's direct factory manufacturing: 🔵$60 Welcome Credits ($30 Manufacturing + $30 Shipping) 🔵 Free Engineering Review to check manufacturability before production 🔵 24-Hour Fast Turnaround with instant online quotes Create a free account today to claim your credits and streamline your sourcing 👇",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "",
+    "post_id": "7503286954676084736",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [
+      "https://www.aivon.com/welcome-credits?li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029&utm_id=__CAMPAIGN_ID__&code=LI1&utm_medium=paid_linkedin"
+    ],
+    "reactions": 5,
+    "comments": null,
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Isabel Lima • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "I am honored and grateful to be recognized in eVTOL Insights ’ 2026 Women in AAM Special Report While individual recognition is meaningful, this achievement truly reflects the collective effort of so many talented people working every day to make Advanced Air Mobility a reality. I would like to thank the incredible engineering teams at Eve Air Mobility and Embraer , whose dedication, expertise, and passion continue to push the boundaries of aviation. I am proud to contribute alongside colleagues who believe in creating safer and more sustainable transportation solutions. To the women in engineering and those considering this path: believe in your potential, be intentional about your development, and have confidence in the value you bring. Your voice, your perspective, and your expertise matter. Thank you to my colleagues, mentors, leaders, and teams who have been part of this journey. Thank you very much to eVTOL Insights team for this recognition. Congratulations to all the remarkable women featured in this year’s report Together, we are building the future of Advanced Air Mobility. Check out the full report here: https://lnkd.in/gSW2mKK3 #EveAirMobility #eVTOLInsights #WomeninAAM",
+    "url": "https://www.linkedin.com/in/isabel-lima-0b889912b/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "author": "Isabel Lima • 3-й+",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/isabel-lima-0b889912b/",
+    "posted_time": "5 дн.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "eVTOL Insights",
+        "url": "https://www.linkedin.com/company/evtolinsights/"
+      },
+      {
+        "name": "Eve Air Mobility",
+        "url": "https://www.linkedin.com/company/eveairmobility/"
+      },
+      {
+        "name": "Embraer",
+        "url": "https://www.linkedin.com/company/embraer/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 159,
+    "comments": null,
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Lockheed Martin announced they will build more of their prototype collaborative combat aircraft, increasing the number from one to five. #LockheedMartin #Vectis #cca",
+    "company": "",
+    "location": "",
+    "text": "Lockheed Martin announced they will build more of their prototype collaborative combat aircraft, increasing the number from one to five. #LockheedMartin #Vectis #cca",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "1 дн.",
+    "post_id": "7505379403603009536",
+    "hashtags": [
+      "#LockheedMartin",
+      "#Vectis",
+      "#cca"
+    ],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 859,
+    "comments": null,
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Mahsa K. • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Recently, I came across an insightful talk on Model-Based Design and GenAI by Avinash Nehemiah from MathWorks . The talk explored how GenAI is rapidly transforming engineering workflows and how the shift from AI tools to AI Agents could significantly improve engineering productivity. However, automotive engineering comes with unique challenges. A vehicle is not simply a software product; it is a complex, safety-critical, multi-domain system that interacts with the physical world. Therefore, challenges such as black-box behavior, non-deterministic outputs, traceability gaps, inconsistent quality, and scalability remain important considerations. One of the key themes of the talk was finding the right balance between automotive engineering discipline and the opportunities offered by GenAI. Combining Trusted Tools + GenAI across different stages of the V-cycle can help accelerate design, improve production readiness, and support system validation, while maintaining the reliability, traceability, and quality required for automotive systems. Another interesting aspect was the changing role of engineers in the age of GenAI. Rather than replacing engineers, AI can help them move up the value chain by automating well-defined implementation tasks and reducing repetitive work, allowing engineers to focus more on system thinking, design decisions, and solving complex engineering problems. The future is not AI replacing engineering, it is AI enhancing engineering. #GenAI #AutomotiveEngineering #ModelBasedDesign #MATLAB #Simulink https://lnkd.in/ekxrD6Fx",
+    "url": "https://www.linkedin.com/in/klammhsa/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "author": "Mahsa K. • 3-й+",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/klammhsa/",
+    "posted_time": "1 дн.",
+    "post_id": "",
+    "hashtags": [
+      "#GenAI",
+      "#AutomotiveEngineering",
+      "#ModelBasedDesign",
+      "#MATLAB",
+      "#Simulink"
+    ],
+    "mentions": [
+      {
+        "name": "Avinash Nehemiah",
+        "url": "https://www.linkedin.com/in/avinash-nehemiah/"
+      },
+      {
+        "name": "MathWorks",
+        "url": "https://www.linkedin.com/company/the-mathworks_2/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 19,
+    "comments": null,
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Nidhi Raj",
+    "company": "",
+    "location": "",
+    "text": "We’re growing our team at ADASI 🚀 We’re currently looking for a UAV Pilot to join us and be part of the next generation of autonomous aviation. If your background is in aviation, UAV operations, or a related field and you’re ready to work on advanced autonomous systems, this could be a great opportunity to take your career to the next level. 📍 UAE 📲 Scan the QR code on the poster to apply directly. Come build what’s next with us. #Hiring #UAVPilot #AviationJobs #ADASI #EDGEGroup #AutonomousSystems #UAEJobs #AviationCareers #NowHiring",
+    "url": "https://www.linkedin.com/in/nidhirajr/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "author": "Nidhi Raj",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/nidhirajr/",
+    "posted_time": "1 дн.",
+    "post_id": "",
+    "hashtags": [
+      "#Hiring",
+      "#UAVPilot",
+      "#AviationJobs",
+      "#ADASI",
+      "#EDGEGroup",
+      "#AutonomousSystems",
+      "#UAEJobs",
+      "#AviationCareers",
+      "#NowHiring"
+    ],
+    "mentions": [],
+    "external_links": [],
+    "reactions": null,
+    "comments": null,
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Ready for take-off: Discover how additive manufacturing is transforming aerospace & defence. Download our whitepaper.",
+    "company": "",
+    "location": "",
+    "text": "Ready for take-off: Discover how additive manufacturing is transforming aerospace & defence. Download our whitepaper.",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 72,
+    "comments": null,
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Sachin Jain, Ph.D. • Отслеживаете",
+    "company": "",
+    "location": "",
+    "text": "On September 8, DIU and Honeywell Aerospace flight-tested a quantum magnetic navigation (MagNav) system on an Embraer 170, flying GPS-off between Puget Sound and southern Alaska for 4 hours and 23 minutes. Result: 89% better position accuracy than legacy backup navigation. The more interesting fact is why that number holds instead of degrading. Inertial navigation — the usual GPS backup — accumulates error over time; every second without a fix adds to the drift, because it's dead reckoning from a last-known position. MagNav doesn't dead-reckon. It reads the Earth's crustal magnetic field, a fixed, unjammable feature layer, and matches against it the way terrain-relative navigation matches against elevation maps. Error doesn't compound with flight time — it resets with every good magnetic fix. That's a fundamentally different failure mode than the inertial and RF-based alt-PNT approaches most solicitations have funded, and it's why DIU moved this fast: problem-to-prototype in a matter of months, out of 72 companies that responded to the original solicitation. Next stop is a C-17 test later this year. If you're in the PNT space, the lesson isn't \"add a magnetometer.\" It's that DIU will fund an entirely different error model — not just another sensor bolted onto the same inertial-drift architecture — when the physics genuinely changes the problem. #DoW #Defense #Autonomy #GPS -deniedNav",
+    "url": "https://www.linkedin.com/in/sachinjainphd/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "author": "Sachin Jain, Ph.D. • Отслеживаете",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/sachinjainphd/",
+    "posted_time": "1 дн.",
+    "post_id": "",
+    "hashtags": [
+      "#DoW",
+      "#Defense",
+      "#Autonomy",
+      "#GPS"
+    ],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 11,
+    "comments": null,
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Visiting family 🤝 Our electric air taxi touched down at Toyota's North American headquarters in Plano, part of our week of demonstration flights across the Dallas-Fort Worth metrop",
+    "company": "",
+    "location": "",
+    "text": "Visiting family 🤝 Our electric air taxi touched down at Toyota's North American headquarters in Plano, part of our week of demonstration flights across the Dallas-Fort Worth metroplex. Toyota has been with us for nearly a decade, from early investment to helping us design our manufacturing processes. As we scale production, that collaboration will deepen. Thank you, Toyota North America . This one was for you.",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "5 ч.",
+    "post_id": "7505774045607653376",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "Toyota North America",
+        "url": "https://www.linkedin.com/company/toyota-north-america/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 252,
+    "comments": null,
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Аида Гайнутдинова",
+    "company": "",
+    "location": "",
+    "text": "LINKEDIN ВЫРОС В 2,5 РАЗА ЗА 7 ДНЕЙ. А ПОТОМ, ОФФЕР В КРУПНЕЙШЕМ БАНКЕ РФ 🔥 Александр пришёл ко мне с очень сильным опытом: SRE, DevOps, Platform Engineering, Performance Testing. Но рынок смотрел на этот набор и не понимал: «Так кто он вообще?» Мы начали с «Резюме + LinkedIn». За первую неделю, +250% к просмотрам профиля. А дальше Александр решил идти со мной уже до оффера: стратегия поиска, интервью, переговоры, корректировка каждого этапа. И сейчас самое приятное: оффер согласно цели уже получен, в крупнейшем банке. 🔥 Вот почему я постоянно говорю: LinkedIn и резюме - это не «бумажки для галочки». Это первая точка контакта с рынком. Если рынок не понял вашу ценность, до интервью вы можете вообще не дойти. Полный разбор кейса Александра и того, как мы пришли от «HR меня отсеивают» до оффера, в ТГК (ссылка в комментах) 👇🏻 За мной уже 130+ сопровождений до оффера, 350+ отзывов и 83+ рекомендаций в LinkedIn. Клиенты проходили в Meta, Microsoft, Visa, PayPal, Canva и другие сильные компании. Если у вас сильный опыт, а рынок отвечает вам слишком слабо, не понимает кто вы и вашу ценность, пишите @liza_recruiter. Разберём, где вы теряете интервью, деньги и сильные предложения)",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "author": "Аида Гайнутдинова",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "posted_time": "21 ч.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": null,
+    "comments": null,
+    "collected_at": "2026-09-16T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Аида Гайнутдинова",
+    "company": "",
+    "location": "",
+    "text": "Хотите узнать, как HR директора лидирующих компаний России видят будущее своей функции? У вас есть такая возможность! Уже в эту пятницу, 18 сентября, поговорим об этом с настоящими гуру профессии: Дашей Золотухиной из Yandex , Асей Кучай ( Anastasia Kuchay ) из VK и Маратом Исмагуловым из Alfa-Bank в рамках первого очного People Tech Camp (ссылка на мероприятие в комменте). О чем будет разговор? Попробуем не только зафиксировать текущее положение дел, но и порассуждать, что принесет нам ближайшее будущее: - Какие изменения уже происходят в вашей компании, как перестраивается организация работы? - Какие задачи выходят на первый план и станут абсолютным фокусом HR в ближайшие пару лет? - Какой должна стать операционная модель HR, чтобы эффективно встретить новые вызовы? А какой вопрос больше всего волнует вас? Задайте его в комментарии! Я озвучу самые интересные и обязательно вернусь с ответами в конце сентября.",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "source_file": "linkedin_feed_2026-09-16_08-10-50.mhtml",
+    "author": "Аида Гайнутдинова",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "posted_time": "22 ч.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "Yandex",
+        "url": "https://www.linkedin.com/company/yandex/"
+      },
+      {
+        "name": "Anastasia Kuchay",
+        "url": "https://www.linkedin.com/in/anastasia-kuchay-231a3612/"
+      },
+      {
+        "name": "VK",
+        "url": "https://www.linkedin.com/company/vkcompany/"
+      },
+      {
+        "name": "Alfa-Bank",
+        "url": "https://www.linkedin.com/company/alfa-bank/"
+      }
+    ],
+    "external_links": [],
+    "reactions": null,
+    "comments": null,
+    "collected_at": "2026-09-16T08:10:58"
+  }
+]
