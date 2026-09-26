@@ -1,0 +1,742 @@
+[
+  {
+    "type": "notification",
+    "title": "1 человек просмотрел ваш профиль. Узнайте, кто он(и), с помощью Premium.",
+    "company": "",
+    "location": "",
+    "text": "1 человек просмотрел ваш профиль. Узнайте, кто он(и), с помощью Premium.",
+    "url": "https://www.linkedin.com/analytics/profile-views/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "3 человека просмотрели ваш профиль. См. полный список с помощью Premium.",
+    "company": "",
+    "location": "",
+    "text": "3 человека просмотрели ваш профиль. См. полный список с помощью Premium.",
+    "url": "https://www.linkedin.com/analytics/profile-views/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Burak Çetin поделился(ась) публикацией участника Kiwi Hsieh : Can AI learn to land a VTOL aircraft the way a human pilot does? ✈️ Recently, I've been developing an AI Pilot prototype using Imitation Learning / Behavior C",
+    "company": "",
+    "location": "",
+    "text": "Burak Çetin поделился(ась) публикацией участника Kiwi Hsieh : Can AI learn to land a VTOL aircraft the way a human pilot does? ✈️ Recently, I've been developing an AI Pilot prototype using Imitation Learning / Behavior Cloning to learn VTOL flight-control behavior from human pilot demonstrations. The current model is a GRU-based Behavior Cloning model, trained using aircraft flight states and human pilot demonstrations. In this simulation, the AI Pilot takes over in QHOVER and successfully completes the landing. Because of the camera perspective, it may not be obvious in the video, but the AI actually takes over from around 15 m altitude and 30 m away from the landing point, then controls the aircraft through the full approach and landing. The complete pipeline is now connected: Human Flight Data → Model Training → Real-time AI Inference → ArduPilot Integration → Aircraft Response This is still an early-stage proof of concept, but the long-term goal is to explore more challenging VTOL operations such as ship landing, moving-platform landing, and non-GPS environments. UAV Flight Control × ArduPilot × Simulation × Machine Learning #UAV #ArduPilot #AI #MachineLearning #ImitationLearning #BehaviorCloning #GRU #VTOL #FlightControl #Robotics #Drone",
+    "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Robotics Researcher (Remote) в компании Hire Feed и еще 1 рекомендация для вас.",
+    "company": "",
+    "location": "",
+    "text": "Robotics Researcher (Remote) в компании Hire Feed и еще 1 рекомендация для вас.",
+    "url": "https://www.linkedin.com/jobs/search-results/?keywords=matlab+%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0&distance=25%2E0&f_TPR=r2592000&f_SAL=f_SA_id_230001%3A280005&geoId=91000007&refId=K1Iqjs44TLkrXbHmPW%2FQSA%3D%3D&origin=FACET_SUGGESTIONS_COMMS_EMAIL&originToLandingJobPostings=4466446174,4456774459",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Sachin Jain, Ph.D. разместил(а) контент: A founder pitch I hear constantly: \"our model runs at X frames per second and Y% accuracy.\" Almost nobody opens with how much bandwidth they actually have to work with — and that ",
+    "company": "",
+    "location": "",
+    "text": "Sachin Jain, Ph.D. разместил(а) контент: A founder pitch I hear constantly: \"our model runs at X frames per second and Y% accuracy.\" Almost nobody opens with how much bandwidth they actually have to work with — and that number decides more about the architecture than the model does. The chain most people skip: the comms link available to your vehicle — kbps over a contested beyond-line-of-sight SATCOM path versus Mbps over a clean line-of-sight mesh — sets how much you can offload to a human or ground station versus how much has to run onboard. That sets your onboard compute budget. That sets your SWaP class, which determines which sensor packages and vehicle sizes are even physically possible. And SWaP class is what actually determines which program you're a realistic fit for, long before anyone reads your capability statement. A perception stack designed assuming a fat, reliable downlink doesn't just perform worse when the link degrades — it's often not architecturally capable of running any other way, because the onboard/offboard split was never really a design decision, just a default. Here's the trap: the vehicles that lean hardest on that assumption look the most capable in a clean demo. Big model, high frame rate, rich sensor fusion — because none of it had to survive on a starved link. Then the link degrades, contested or just congested, and the gap between \"worked in the demo\" and \"works in the tasking\" shows up all at once, in front of the customer. If you haven't written your bandwidth budget down as an explicit number — not \"assume good comms,\" an actual kbps figure for the worst case you're willing to be tested against — you've made an architecture decision by accident. Better to make it on purpose. #DoW #Defense #Autonomy",
+    "url": "https://www.linkedin.com/in/sachinjainphd/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Sachin Jain, Ph.D. разместил(а) контент: A team I worked with chased a perception fusion bug for two weeks. The lidar returned a clean point cloud. The camera returned a clean detection. Individually, both sensors perfor",
+    "company": "",
+    "location": "",
+    "text": "Sachin Jain, Ph.D. разместил(а) контент: A team I worked with chased a perception fusion bug for two weeks. The lidar returned a clean point cloud. The camera returned a clean detection. Individually, both sensors performed exactly to spec. Fused together, the vehicle's obstacle map kept ghosting — objects appearing, shifting eleven centimeters, then reappearing a few feet away. The bug wasn't in either sensor. It was in the extrinsic calibration — the rigid transform describing where each sensor sits relative to the vehicle's reference frame. That transform had been measured once, on a bench, before the vehicle ever left the shop. After a week of field testing — vibration, a few hard stops, one rougher-than-planned landing — one mount had rotated by a fraction of a degree. Invisible to the eye. Invisible on a close-range bench check. But rotational error doesn't behave like translational error. A pure positional shift between two sensors stays roughly constant no matter how far away the target is. A rotational shift scales directly with range — a fifth of a degree of tilt is nothing at arm's length and eleven centimeters of disagreement at thirty meters. That's exactly the kind of drift a bench calibration at close range will never catch, and a mid-range operational test will always find. Individually-passing sensors don't buy you a passing fusion stack. The fix wasn't algorithmic — it was adding an online extrinsic self-check that flags when the sensors' overlapping field of view stops agreeing, before it becomes an obstacle-avoidance decision. Small businesses building perception stacks should treat that self-check as a requirement, not a nice-to-have. It's usually the difference between a DT&E finding you catch yourself and one the government catches for you. #DoW #Defense #Autonomy",
+    "url": "https://www.linkedin.com/in/sachinjainphd/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Senior AI Automation Engineer Ghufran Barcha может стать вашим новым клиентом. Просмотрите сегодняшние рекомендации потенциальных клиентов.",
+    "company": "",
+    "location": "",
+    "text": "Senior AI Automation Engineer Ghufran Barcha может стать вашим новым клиентом. Просмотрите сегодняшние рекомендации потенциальных клиентов.",
+    "url": "https://www.linkedin.com/in/ghufranbarcha/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Senior Automation Engineer Manuel-Ioan Corneanu может стать вашим новым клиентом. Просмотрите сегодняшние рекомендации потенциальных клиентов.",
+    "company": "",
+    "location": "",
+    "text": "Senior Automation Engineer Manuel-Ioan Corneanu может стать вашим новым клиентом. Просмотрите сегодняшние рекомендации потенциальных клиентов.",
+    "url": "https://www.linkedin.com/in/manuel-ioan-corneanu/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Simulink: новые карьерные возможности в регионе Европа, Ближний Восток и Африка",
+    "company": "",
+    "location": "",
+    "text": "Simulink: новые карьерные возможности в регионе Европа, Ближний Восток и Африка",
+    "url": "https://www.linkedin.com/jobs/search-results/?keywords=Simulink+%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0&f_TPR=a1789981070-&geoId=91000007&origin=SEMANTIC_SEARCH_JOB_ALERT_IN_APP_NOTIFICATION&alertAction=viewjobs&currentJobId=4456774459&originToLandingJobPostings=4456774459,4469934244",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Sr. Staff Bttery Control System Engineer Mayank Josan может стать вашим новым клиентом. Просмотрите сегодняшние рекомендации потенциальных клиентов.",
+    "company": "",
+    "location": "",
+    "text": "Sr. Staff Bttery Control System Engineer Mayank Josan может стать вашим новым клиентом. Просмотрите сегодняшние рекомендации потенциальных клиентов.",
+    "url": "https://www.linkedin.com/in/mayankjosan/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Tatyana Kapustina разместил(а) контент: Пост - крик души! Процесс найма сошел с ума! 😔 Сегодня узнала, что компания, в которую я хотела отправить свое резюме, хочет, чтобы сотрудник ходил в офис (Москва) 4 ДНЯ в неделю п",
+    "company": "",
+    "location": "",
+    "text": "Tatyana Kapustina разместил(а) контент: Пост - крик души! Процесс найма сошел с ума! 😔 Сегодня узнала, что компания, в которую я хотела отправить свое резюме, хочет, чтобы сотрудник ходил в офис (Москва) 4 ДНЯ в неделю при условии, что формат сотрудничества - ГПХ, оплата за результат! Т.е. получается, что ты ища работу имеешь финансовую возможность ездить в офис (проезд, обед, топливный кризис) и очень надеешься, что в скором времени кто-то из твоих кандидатов выйдет на работу. В нашей ОГРОМНОЙ стране есть не только Москва, но и множество других городов, поселков, деревень. Люди там тоже умеют работать и умеют работать удаленно. И да, чаще у этих людей зарплатные ожидания ниже, чем в Москве.",
+    "url": "https://www.linkedin.com/in/tatyana-kapustina-1b175620a/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "WING FlYING разместил(а) контент: FPV Motor Not Responding to Throttle? Check These First! 🚁⚙️ The motor is installed, but nothing happens when you pull the throttle? Don’t assume the motor is faulty. In WingFlying’s Pow",
+    "company": "",
+    "location": "",
+    "text": "WING FlYING разместил(а) контент: FPV Motor Not Responding to Throttle? Check These First! 🚁⚙️ The motor is installed, but nothing happens when you pull the throttle? Don’t assume the motor is faulty. In WingFlying’s Power Laboratory, a common after-sales issue is broken down into a simple troubleshooting process. Start by listening to the ESC: an alarm sound usually means it has powered on, while a mismatched PWM throttle range can prevent normal response. Many issues can be identified within just a few minutes. 🔧 Have you ever encountered a “no throttle response” problem? What was the cause? #FPVDrone #DroneMotor #ESC #FPVTroubleshooting #DroneRepair #FPVTips #WingFlying",
+    "url": "https://www.linkedin.com/in/dronethrusttest/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "matlab: новые карьерные возможности в регионе Европа, Ближний Восток и Африка",
+    "company": "",
+    "location": "",
+    "text": "matlab: новые карьерные возможности в регионе Европа, Ближний Восток и Африка",
+    "url": "https://www.linkedin.com/jobs/search-results/?keywords=matlab+%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0&f_TPR=a1790353525-&geoId=91000007&origin=SEMANTIC_SEARCH_JOB_ALERT_IN_APP_NOTIFICATION&alertAction=viewjobs&currentJobId=4461176994&originToLandingJobPostings=4461176994,4459845546",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Аида Гайнутдинова поделился(ась) публикацией участника Doni Attokurovich : 7 лет в IT. А потом ты открываешь LinkedIn и снова видишь: «К сожалению, мы решили продолжить с другими кандидатами». Когда я начинал программиро",
+    "company": "",
+    "location": "",
+    "text": "Аида Гайнутдинова поделился(ась) публикацией участника Doni Attokurovich : 7 лет в IT. А потом ты открываешь LinkedIn и снова видишь: «К сожалению, мы решили продолжить с другими кандидатами». Когда я начинал программировать, казалось, что главное — набраться опыта. Станешь Middle — будет легче. Станешь Senior — вообще красота. Будет 5+ лет опыта — компании сами начнут писать. Ну да. Конечно.) Сегодня у тебя может быть 7 лет коммерческого опыта, реальные проекты, React, Next.js, Node.js, NestJS… А завтра ты сидишь без работы и думаешь: «Может, Go выучить?» Через два дня: «А C# сейчас востребован?» Ещё через день: «Так… а что там с 1С?» )) Рынок IT действительно изменился. Раньше: «Нужен React-разработчик». Сейчас иногда ощущение, что нужен React, Next.js, TypeScript, Node.js, PostgreSQL, Docker, AWS, CI/CD, немного Go и Python… И желательно уметь чинить принтер. А потом: «Мы решили двигаться с кандидатом, чей опыт точнее соответствует требованиям». И ты такой: «Понял. Пойду ещё точнее соответствовать». Но если серьёзно, после многих лет постоянной разработки остаться без работы — странное ощущение. Ты не перестал быть разработчиком. Ты всё ещё умеешь создавать продукты, разбираться в чужом коде, искать баги и переживать релизы. Просто теперь нужно снова проходить интервью, получать отказы и после каждого из них отправлять следующий отклик. Я сейчас именно в таком периоде. Ищу работу Frontend / Full-Stack JavaScript Developer. Продолжаю писать код, развивать свои проекты и изучать новые направления. А тем разработчикам, которые сейчас открывают LinkedIn чаще, чем IDE: Похоже, нас здесь много. ) Интересно услышать вас: как долго вы ищете работу и насколько сильно, по вашему мнению, изменился рынок IT? А мой главный production-проект пока называется: «Найти работу v2.0» Багов много. Документации нет. Дедлайн неизвестен. Но разработка продолжается. #OpenToWork #SoftwareDeveloper #FrontendDeveloper #FullStackDeveloper #ReactJS #NodeJS #JobSearch #IT",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Аида Гайнутдинова поделился(ась) публикацией участника Madina Kodirova : 🚀 Hiring: Senior Python Developer ( Part-Time, Remote) We’re looking for an experienced Senior Python Developer for a part-time role. If interested",
+    "company": "",
+    "location": "",
+    "text": "Аида Гайнутдинова поделился(ась) публикацией участника Madina Kodirova : 🚀 Hiring: Senior Python Developer ( Part-Time, Remote) We’re looking for an experienced Senior Python Developer for a part-time role. If interested, please DM me your CV, GitHub/portfolio, and availability. #PythonDeveloper #SeniorDeveloper #Hiring #PartTime #SoftwareEngineering",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Аида Гайнутдинова поделился(ась) публикацией участника Tatiana Rylkina : Frontend-разработчик (middle+) ставка: 1 350 RUB/час Локация: РФ. Удаленка Проект: финтех 📎 Задачи: — Вайбкод разработка таск трекера 💻 Требования:",
+    "company": "",
+    "location": "",
+    "text": "Аида Гайнутдинова поделился(ась) публикацией участника Tatiana Rylkina : Frontend-разработчик (middle+) ставка: 1 350 RUB/час Локация: РФ. Удаленка Проект: финтех 📎 Задачи: — Вайбкод разработка таск трекера 💻 Требования: — Next.js;, React Testing Library; Playwright; CI/CD; Docker — использовать AI как основной инструмент разработки — уметь формулировать качественные промпты — декомпозировать задачи для AI — самостоятельно проверять и валидировать сгенерированный код — понимать ограничения LLM — уметь быстро проводить итерации с помощью AI — не зависеть от ручного написания типового кода Условия: Оформление по ИП или СЗ #вакансия #работа #разработчик #Senior #frontend #JS #TS #JavaScript #AI #LLM #Россия #удалёнка #РФ #Middle #React #Next",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Аида Гайнутдинова поделился(ась) публикацией участника Елена Воробьева : #CEO #Москва #офис #вакансия Ищем СЕО в российскую компанию с опытом работы в сегменте премиум услуг (премиальная медицина, частное образование, ус",
+    "company": "",
+    "location": "",
+    "text": "Аида Гайнутдинова поделился(ась) публикацией участника Елена Воробьева : #CEO #Москва #офис #вакансия Ищем СЕО в российскую компанию с опытом работы в сегменте премиум услуг (премиальная медицина, частное образование, услуги HoReCa, сфера услуг с франчайзинговыми сетями). · Полная занятость · Офисный формат в Москве Задачи: · Стратегическое управление развитием компании с горизонтом 3–5 лет · Управление финансами: P&L, Cash Flow, баланс, бюджетирование и контроль затрат · Разработка коммерческой стратегии, рост выручки и оптимизация ценообразования · Повышение операционной эффективности, внедрение прозрачных бизнес-процессов и стандартов · Антикризисное управление и принятие решений в условиях неопределенности · Формирование и развитие сильной управленческой команды, внедрение системы обучения и наставничества · Выстраивание эффективного взаимодействия с партнерами, инвесторами и государственными органами Опыт и требования · Опыт работы на аналогичной позиции в заданном сегменте от 3-5 лет · Стабильный карьерный путь · Подтвержденные результаты с измеримыми бизнес-показателями · Опыт управления коммерческой и/или финансовой функцией от 3 лет · Сильные компетенции в финансах, коммерции, операционном и антикризисном управлении · Высокий уровень ответственности, стратегическое мышление и развитые лидерские качества. Просьба указывать ваши финансовые ожидания при отклике. Откликнуться можно сюда: @DinaGet d.odinokova@getit.agency",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Аида Гайнутдинова поделился(ась) публикацией участника Татьяна Иванова : ЭКОНОМИСТ-БУХГАЛТЕР (первичная документация) 🧭 Вакансия: экономист-бухгалтер Экспедиционный центр «Морская практика» Живой продукт: экспедиции, в к",
+    "company": "",
+    "location": "",
+    "text": "Аида Гайнутдинова поделился(ась) публикацией участника Татьяна Иванова : ЭКОНОМИСТ-БУХГАЛТЕР (первичная документация) 🧭 Вакансия: экономист-бухгалтер Экспедиционный центр «Морская практика» Живой продукт: экспедиции, в которые хочется поехать самому Организуем морские экспедиции в Арктику и Антарктиду, работаем в нескольких странах. Отчётность, кадровый учёт и зарплату ведёт внешняя бухгалтерия — ваша зона: первичные документы и порядок в 1С. Финансовая дисциплина у нас — не мелочь. 💰 От 120 000 ₽ на руки, бонусы 📍 Офис: Москва, ул. Покрышкина, м. «Юго-Западная», полный день. Дорога до офиса не более часа; удобно с юго-запада и запада Москвы, Сокольнической линии, из Новой Москвы и Одинцова 📋 Оформление по ТК РФ 🎓 Опыт 1–3 года, рассмотрим сильного начинающего Что делать: — сбор, проверка и занесение первичных документов в 1С — документы для внешней бухгалтерии, ЭДО — кассовые документы и авансовые отчёты — сверки с контрагентами, архив документов — помощь старшему экономисту Важно: — знание 1С и первичной документации, аккуратность — умение работать с ИИ — мощный плюс — ценим скорость — английский B2, не ниже B1: деловая переписка и сверки с иностранными контрагентами — обязательно 📩 Пишите: Тереза Магар, проректор по развитию @TerezaGMagar · +7 929 904-88-94 · prorector@sea-practice.ru 🌊 О нас: https://lnkd.in/eAXqQXT9 · https://sea-practice.com · https://mp-university.ru",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Аида Гайнутдинова прокомментировал(а) публикацию участника Alexander Abramov : Желаю удачи и пусть работа сама вас найдет!",
+    "company": "",
+    "location": "",
+    "text": "Аида Гайнутдинова прокомментировал(а) публикацию участника Alexander Abramov : Желаю удачи и пусть работа сама вас найдет!",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Аида Гайнутдинова прокомментировал(а) публикацию участника Stanislav Sheshenin : Желаю вам удачи в поиске работы!",
+    "company": "",
+    "location": "",
+    "text": "Аида Гайнутдинова прокомментировал(а) публикацию участника Stanislav Sheshenin : Желаю вам удачи в поиске работы!",
+    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Вакансия «Production Director (Pharmaceutical Manufacturing)» в компании Ventra HR holding и другие вакансии (10+) оптимально соответствуют вашему опыту и навыкам.",
+    "company": "",
+    "location": "",
+    "text": "Вакансия «Production Director (Pharmaceutical Manufacturing)» в компании Ventra HR holding и другие вакансии (10+) оптимально соответствуют вашему опыту и навыкам.",
+    "url": "https://www.linkedin.com/jobs/collections/top-applicant/?currentJobId=4470916050&origin=FREEMIUM_TAJ_IN_APP_NOTIFICATION",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Возможно, вы знаете участника Ruslan Lysenka . Добавьте его(ее) в свою сеть контактов.",
+    "company": "",
+    "location": "",
+    "text": "Возможно, вы знаете участника Ruslan Lysenka . Добавьте его(ее) в свою сеть контактов.",
+    "url": "https://www.linkedin.com/in/ruslan-lysenka-6abb96169/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Люди взаимодействуют с публикацией участника ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ : id 7107 🔥 Senior React / Micro-Frontend Engineer (Authentication Team) #вакансия #react #senior #remote #frontend Ищем двух сильных Senior Frontend-инжене",
+    "company": "",
+    "location": "",
+    "text": "Люди взаимодействуют с публикацией участника ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ : id 7107 🔥 Senior React / Micro-Frontend Engineer (Authentication Team) #вакансия #react #senior #remote #frontend Ищем двух сильных Senior Frontend-инженеров в команду Authentication (Customer Experience & Data Department). Проект — критически важная миграция в рамках New Digital Channels для крупного европейского enterprise/banking сектора. 📍 Локация:Литва / Эстония, ЕС.❗️❗️❗️❗️❗️ 🛠 Что критически важно (Must-Have): • Опыт: от 5 лет в коммерческой Frontend-разработке (опыт в Banking / FinTech / Enterprise будет огромным плюсом). • React Deep Dive: Hooks, Context, State Management, TypeScript (ES6+). • Real Micro-Frontends: Практический опыт настройки и работы с Webpack Module Federation и/или Single-SPA (нужен реальный runtime host-remote опыт, а не просто вынос утилит в общую библиотеку). • Monorepo Management & Governance: Опыт работы и управления монорепозиториями через Nx, Turborepo, Lerna или pnpm workspaces (docker-compose с разными папками не подойдет). • Node.js Context: Понимание серверного JS/TS (Express / NestJS / BFF-слои). • Styling: CSS, SASS/SCSS, CSS Modules. ➕ Будет плюсом: • Глубокое понимаhttps://lnkd.in/dtBURCK8",
+    "url": "https://www.linkedin.com/in/veronekoshat/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "На прошлой неделе ваши публикации получили 18 показов . Просмотрите свою аналитику.",
+    "company": "",
+    "location": "",
+    "text": "На прошлой неделе ваши публикации получили 18 показов . Просмотрите свою аналитику.",
+    "url": "https://www.linkedin.com/analytics/creator/content/?startDate=2026-09-14&endDate=2026-09-20&impressionsCount=18",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "На прошлой неделе ваши публикации получили 38 показов . Просмотрите свою аналитику.",
+    "company": "",
+    "location": "",
+    "text": "На прошлой неделе ваши публикации получили 38 показов . Просмотрите свою аналитику.",
+    "url": "https://www.linkedin.com/analytics/creator/content/?startDate=2026-09-07&endDate=2026-09-13&impressionsCount=38",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "На прошлой неделе ваши публикации получили 8 показов . Просмотрите свою аналитику.",
+    "company": "",
+    "location": "",
+    "text": "На прошлой неделе ваши публикации получили 8 показов . Просмотрите свою аналитику.",
+    "url": "https://www.linkedin.com/analytics/creator/content/?startDate=2026-08-31&endDate=2026-09-06&impressionsCount=8",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Airbus разместила контент: Off to Shanghai! Alexis and Daniel are set to showcase Airbus Helicopters excellence at the #WorldSkills global competition (22–27 Sept)! Alexis tests his skill against 11 elite con",
+    "company": "",
+    "location": "",
+    "text": "Организация Airbus разместила контент: Off to Shanghai! Alexis and Daniel are set to showcase Airbus Helicopters excellence at the #WorldSkills global competition (22–27 Sept)! Alexis tests his skill against 11 elite contenders, mentored by former WorldSkills silver medalist Raphaël Criado. Daniel challenges top international talent in Computerised Numerical Control turning under Gerhard Vogl’s mentorship. Their drive and technical precision reflect our dedication to aviation excellence. Leave a 👏 to support their journey! 🚁✨.",
+    "url": "https://www.linkedin.com/company/airbusgroup/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Anduril Industries разместила контент: The AI Grand Prix takes flight with $500k and a job at Anduril on the line. This week, we hosted the Physical Qualifier at Anduril HQ with competitors from 8 countries t",
+    "company": "",
+    "location": "",
+    "text": "Организация Anduril Industries разместила контент: The AI Grand Prix takes flight with $500k and a job at Anduril on the line. This week, we hosted the Physical Qualifier at Anduril HQ with competitors from 8 countries testing their code live under pressure. USA 🇺🇸, Japan 🇯🇵, South Korea 🇰🇷, Taiwan 🇹🇼, the Netherlands 🇳🇱, Estonia 🇪🇪, Kazakhstan 🇰🇿, and China 🇨🇳. The event doubled as a recruiting event for eligible global talent. Over 3,000 teams registered. 10 teams remain. Find out who wins on Dec 11th. The first-ever AI–GP takes place at Arsenal-1 in Ohio..",
+    "url": "https://www.linkedin.com/company/anduril/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Anduril Industries разместила контент: The Air Force Research Laboratory validated Barracuda is the first weapon in production that is Weapons Open System Architecture (WOSA) compliant. The Air Force Research",
+    "company": "",
+    "location": "",
+    "text": "Организация Anduril Industries разместила контент: The Air Force Research Laboratory validated Barracuda is the first weapon in production that is Weapons Open System Architecture (WOSA) compliant. The Air Force Research Laboratory (AFRL) verification ensures that the thousands of Barracudas produced over the coming years can evolve alongside the missions they are built to perform. “This shows open architecture can scale beyond prototypes.” - Jonathan Shaver, Program Manager and creator of Weapons Open Systems Architecture at AFRL’s Air Warfare Directorate..",
+    "url": "https://www.linkedin.com/company/anduril/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Archer поделилась обновлением: Air traffic control (ATC) still runs on one of the oldest live communication mediums: bandwidth-limited AM radio, spoken in rapid, dense phraseology, where every instruction van",
+    "company": "",
+    "location": "",
+    "text": "Организация Archer поделилась обновлением: Air traffic control (ATC) still runs on one of the oldest live communication mediums: bandwidth-limited AM radio, spoken in rapid, dense phraseology, where every instruction vanishes the moment it is heard. As a pilot, I witness the operational challenges that come with ATC communications firsthand. Today we're publishing a deep dive into the speech capability of ZEE, Archer's proprietary aviation foundation model. General-purpose models struggle with harsh radio acoustics and restricted jargon, and are unable to understand the nuances of aviation navigational terminology. For example the word \"stick\" near San Francisco is the SSTIK departure, while \"stick\" in North Carolina is spelled as STIKK. That nuance is not in the audio, and decoding that signal requires more than just good speech recognition. So we built ZEE differently: — A single speech engine that collapses voice activity detection, speaker diarization, and transcription into one model, emitting one speaker-attributed token stream. — Spatial grounding that injects location context so the model correctly transcribes local waypoints and procedures in any airspace. — A language model that decomposes each dense transmission into discrete, structured, verifiable commands. The result: 84% better accuracy than general-purpose speech models on aviation audio, and a 58% reduction in entity transcription errors from spatial grounding. All of it running in real time, offline, and on-device; so that pilots and controllers alike can benefit from this layer of intelligence. Every radio call becomes a permanent, scrollable, time-indexed record. And it lays the foundation for what comes next: catching readback errors and communication breakdowns in real time, before a misheard clearance becomes an incident. The next era of aviation safety should begin where it matters most: in cockpits and air traffic control towers. Preventing tragic, avoidable accidents starts by making communication clear and effortless in the sky. This is one of the missions behind ZEE, and behind everything my extraordinary team builds: a world where every single flight reaches its destination safely. Full post: https://lnkd.in/dvauVg2E.",
+    "url": "https://www.linkedin.com/company/flyarcher/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация BETA TECHNOLOGIES разместила контент: Marine firefighters with BETA's ALIA CTOL, Camp Pendleton, California..",
+    "company": "",
+    "location": "",
+    "text": "Организация BETA TECHNOLOGIES разместила контент: Marine firefighters with BETA's ALIA CTOL, Camp Pendleton, California..",
+    "url": "https://www.linkedin.com/company/beta-air-llc/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Boeing разместила контент: An encore for Biman Bangladesh Airlines and #TeamBoeing. ✈️ Biman is back for more with an order for 11 787 #Dreamliner and 737 MAX jets. Combined with its largest-ever purchase ear",
+    "company": "",
+    "location": "",
+    "text": "Организация Boeing разместила контент: An encore for Biman Bangladesh Airlines and #TeamBoeing. ✈️ Biman is back for more with an order for 11 787 #Dreamliner and 737 MAX jets. Combined with its largest-ever purchase earlier this year, the airline now has 25 Boeing jets on order. We're honored to support Biman's growth with airplanes that will strengthen fleet strategy, boost efficiency and expand global connectivity. Release: https://lnkd.in/gXKgiF32.",
+    "url": "https://www.linkedin.com/company/boeing/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Boeing разместила контент: Congratulations to TAROM on the delivery of its first 737-8! ✈️ The airplane will bring greater efficiency and range to TAROM's operations, marking a key step in the airline's fleet",
+    "company": "",
+    "location": "",
+    "text": "Организация Boeing разместила контент: Congratulations to TAROM on the delivery of its first 737-8! ✈️ The airplane will bring greater efficiency and range to TAROM's operations, marking a key step in the airline's fleet modernization and network growth. Welcome to the 737 MAX family, TAROM! More: https://lnkd.in/eRDxidnm.",
+    "url": "https://www.linkedin.com/company/boeing/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Dassault Falcon разместила контент: Jet-setting. Framed to perfection. 📷 by Falcon pilot JM Lecoq #iFlyFalcon https://bit.ly/4ijCx8a.",
+    "company": "",
+    "location": "",
+    "text": "Организация Dassault Falcon разместила контент: Jet-setting. Framed to perfection. 📷 by Falcon pilot JM Lecoq #iFlyFalcon https://bit.ly/4ijCx8a.",
+    "url": "https://www.linkedin.com/feed/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7507438407204315136&highlightedUpdateType=SHARED_BY_YOUR_PAGE&showCommentBox=true",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Dassault Falcon разместила контент: Sunset. Runway. Repeat 📷 by Falcon pilot Esteban Lopez #iFlyFalcon https://bit.ly/4ijCx8a.",
+    "company": "",
+    "location": "",
+    "text": "Организация Dassault Falcon разместила контент: Sunset. Runway. Repeat 📷 by Falcon pilot Esteban Lopez #iFlyFalcon https://bit.ly/4ijCx8a.",
+    "url": "https://www.linkedin.com/feed/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7504901774009602048&highlightedUpdateType=SHARED_BY_YOUR_PAGE&showCommentBox=true",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Department of Aerospace Science and Technology - Politecnico di Milano разместила контент: How closely do particles follow rotor-induced flow before reaching a blade? New research by Francesco Caccia and Albe",
+    "company": "",
+    "location": "",
+    "text": "Организация Department of Aerospace Science and Technology - Politecnico di Milano разместила контент: How closely do particles follow rotor-induced flow before reaching a blade? New research by Francesco Caccia and Alberto Guardone investigates the dynamics of inertial particles in rotor-induced flows, considering both a wind turbine and a small-scale propeller. The study shows that the key lies in how the particle response time compares with the characteristic time scale of the induced flow. The authors introduce an induction Stokes number to identify the transition between particles that follow the induced velocity field and those that are essentially unaffected by it. A reduced-order analytical model is then developed to capture this delayed particle response, providing corrected conditions for 2-D sectional simulations and reproducing the transition observed in full 3-D simulations. The results have implications for modelling multiphase rotor flows, including applications involving icing and particle-induced erosion. Read On particle dynamics in steady axial rotor flows, published in the Journal of Fluid Mechanics: https://lnkd.in/eys6i2qJ #AerospaceEngineering #Polimi.",
+    "url": "https://www.linkedin.com/company/department-daer-polimi/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Department of Aerospace Science and Technology - Politecnico di Milano разместила контент: The Department of Aerospace Science and Technology - Politecnico di Milano will host the #PhDAER Seminar “A Flight Sy",
+    "company": "",
+    "location": "",
+    "text": "Организация Department of Aerospace Science and Technology - Politecnico di Milano разместила контент: The Department of Aerospace Science and Technology - Politecnico di Milano will host the #PhDAER Seminar “A Flight System Perspective on Unmanned Aircraft Research at #DLR”. 🗓 15 September 2026 · 11:00-12:00 📍 Sala Consiglio #DAER, Building B12, 2nd floor · Bovisa Campus, Via La Masa 34, Milan Speaker: Johann Dauer, Head of the Unmanned Aircraft Department at the German Aerospace Center (DLR) Institute of Flight Systems. Unmanned aircraft are expected to carry cargo across regions, operate offshore in demanding weather and share the airspace with crewed traffic. A key challenge is how safe automated flight can be designed and how that safety can be demonstrated to those responsible for granting permission to fly. The seminar will present current research at DLR with a focus on the modelling and control of unmanned aircraft. Topics will include safe autonomy, counter-UAS technologies, all-weather operations, unmanned transportation, assurance and certification. Free admission, open to the university community and the public, subject to availability. More info: https://lnkd.in/exkpwKuN #Polimi #DAER #AerospacePolimi.",
+    "url": "https://www.linkedin.com/company/department-daer-polimi/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Embraer разместила контент: #NEWS | Embraer and Japan Airlines (JAL) have extended their long-standing partnership through a multi-year agreement under Embraer's Pool Program, providing comprehensive maintena",
+    "company": "",
+    "location": "",
+    "text": "Организация Embraer разместила контент: #NEWS | Embraer and Japan Airlines (JAL) have extended their long-standing partnership through a multi-year agreement under Embraer's Pool Program, providing comprehensive maintenance, repair and spare-parts support for the airline's fleet of 32 E170 and E190 aircraft. The agreement will provide support for a wide range of repairable components for Japan Airlines' E-Jets fleet, helping to enhance aircraft reliability. Read full news: https://lnkd.in/gUZF8r5z . #NOTÍCIA | A Embraer e a Japan Airlines (JAL) ampliaram sua parceria de longo prazo com a renovação do contrato do Programa Pool da Embraer. O acordo oferece suporte amplo de manutenção, reparo e fornecimento de peças para a frota de 32 aeronaves E170 e E190 da companhia aérea japonesa. O contrato prevê cobertura para uma ampla gama de componentes reparáveis da frota de E-Jets da Japan Airlines, contribuindo para aumentar a confiabilidade operacional das aeronaves. Leia notícia completa: https://lnkd.in/gzQzCfVe.",
+    "url": "https://www.linkedin.com/company/embraer/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Embraer разместила контент: ECIP (Embraer Collaborative Inventory Planning) has helped airlines and MROs take a more strategic approach to inventory planning. By combining operational data, inventory visibili",
+    "company": "",
+    "location": "",
+    "text": "Организация Embraer разместила контент: ECIP (Embraer Collaborative Inventory Planning) has helped airlines and MROs take a more strategic approach to inventory planning. By combining operational data, inventory visibility, and Embraer's supply chain expertise, the program supports better purchasing decisions and a more predictable flow of materials. The result is a proven model that improves parts availability, reduces inventory investment, and minimizes urgent AOG (Aircraft on ground) demands, supporting operators focus on what matters most: keeping their fleets ready to perform. . ECIP (Embraer Collaborative Inventory Planning) ajuda companhias aéreas e MROs a adotarem uma abordagem mais estratégica para o planejamento de materiais. Ao combinar dados operacionais, visibilidade de estoque e a expertise da Embraer em cadeia de suprimentos, o programa contribui para decisões de compra mais assertivas e um fluxo de materiais mais previsível. O resultado é um modelo comprovado que aumenta a disponibilidade de peças, reduz investimentos em estoque e minimiza demandas urgentes de aeronave em solo (AOG na sigla em inglês), permitindo que os operadores mantenham o foco no que realmente importa: a disponibilidade de suas frotas..",
+    "url": "https://www.linkedin.com/company/embraer/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Eve Air Mobility разместила контент: Designing Advanced Air Mobility with Climate Goals in Mind.",
+    "company": "",
+    "location": "",
+    "text": "Организация Eve Air Mobility разместила контент: Designing Advanced Air Mobility with Climate Goals in Mind.",
+    "url": "https://www.linkedin.com/company/eveairmobility/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Eve Air Mobility разместила контент: In the air. That’s how we like it. 💚 #EveAirMobility #MobilityReimagined #eVTOL.",
+    "company": "",
+    "location": "",
+    "text": "Организация Eve Air Mobility разместила контент: In the air. That’s how we like it. 💚 #EveAirMobility #MobilityReimagined #eVTOL.",
+    "url": "https://www.linkedin.com/company/eveairmobility/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Joby Aviation поделилась обновлением: Today, the J208 is traveling across America. I just got back from a demo day with the plane in Texas, and am back home to remotely pilot it to South Carolina shortly. You",
+    "company": "",
+    "location": "",
+    "text": "Организация Joby Aviation поделилась обновлением: Today, the J208 is traveling across America. I just got back from a demo day with the plane in Texas, and am back home to remotely pilot it to South Carolina shortly. You have seen me post about military exercises we’ve done before; I’m stoked to now be able to bring this out to a civil audience too. The military has a baked-in network of amazing opportunities for experimentation venues; the eIPP is the first time the dual-use tech has had a civil venue for wide area demonstrations and evaluations, pre-certification. The momentum this program, technology, and team have right now is unfathomable to the version of me that existed even last year. To keep that momentum going, we need you, your network, and that one (solid) colleague you hear miiight be looking for a new role. I’m dropping a list of openings in the comments. There's a mix of J208 direct roles as well as other Advanced Development programs..",
+    "url": "https://www.linkedin.com/company/jobyaviation/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Joby Aviation разместила контент: Something special is happening in Texas. Thank you Secretary Sean Duffy, Senator Ted Cruz, Federal Aviation Administration, Texas Department of Transportation, Hillwood and e",
+    "company": "",
+    "location": "",
+    "text": "Организация Joby Aviation разместила контент: Something special is happening in Texas. Thank you Secretary Sean Duffy, Senator Ted Cruz, Federal Aviation Administration, Texas Department of Transportation, Hillwood and everyone who joined us at Alliance Airport, where our aircraft previewed a new era of American aviation: taking off vertically like a helicopter then fully transitioning to fixed-wing flight. It was an honor to present Secretary Duffy with the first American flag flown aboard our eVTOL aircraft, celebrating leadership and cooperation across federal, state and local agencies. The future of flight is here, and it will be assembled, certified, and flown in America. 🇺🇸.",
+    "url": "https://www.linkedin.com/company/jobyaviation/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Across every domain, we are advancing technology that gives our warfighters the advantage — outpacing evolving threats, strengthening deterrence and delivering mission domi",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Across every domain, we are advancing technology that gives our warfighters the advantage — outpacing evolving threats, strengthening deterrence and delivering mission dominance..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Finland’s F-35s are officially in country for the first time, marking an important step as the Finnish Air Force prepares to bring advanced 5th Gen capability into operatio",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Finland’s F-35s are officially in country for the first time, marking an important step as the Finnish Air Force prepares to bring advanced 5th Gen capability into operations. From Fort Worth to Finland, we’re proud to celebrate this moment alongside our Finnish partners..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Germany's first F-35 took flight! 🇩🇪✈️ Germany’s first F-35 has completed its first flight, marking a major step forward for the program and another important milestone on ",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Germany's first F-35 took flight! 🇩🇪✈️ Germany’s first F-35 has completed its first flight, marking a major step forward for the program and another important milestone on the path to bringing 5th Gen capability to the Luftwaffe..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Javelin is taking another step toward greater integration on the battlefield. The Javelin Joint Venture (JJV) recently completed a simulation demo in Norway using a KONGSBE",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Javelin is taking another step toward greater integration on the battlefield. The Javelin Joint Venture (JJV) recently completed a simulation demo in Norway using a KONGSBERG Medium‑Caliber Turret (MCT) with a prototype dual launcher assembly. The demonstration marks the first phase of ongoing efforts to integrate Javelin into the turret, and the next phase will include qualification efforts and an eventual future live-fire demo..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Lockheed Martin Vectis™ is built to meet the urgent need for a survivable, autonomous, multi-mission platform, with four more vehicles planned for production and first flig",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Lockheed Martin Vectis™ is built to meet the urgent need for a survivable, autonomous, multi-mission platform, with four more vehicles planned for production and first flight set for 2027..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Mexico is expanding its C-130J fleet with a second aircraft. The decision reflects the continued global trust in the Super Hercules to deliver critical air mobility capabil",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Mexico is expanding its C-130J fleet with a second aircraft. The decision reflects the continued global trust in the Super Hercules to deliver critical air mobility capabilities. Built to deliver what no other tactical airlifter can, the C-130J provides certified multi-mission versatility, combat-proven performance and trusted reliability across 20+ mission sets. With a growing global fleet and proven support network, the Super Hercules strengthens readiness and interoperability for operators around the world..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Promises look good in presentations. Proven performance is what warfighters can count on. The C-130J Super Hercules is producing at scale and delivering proven results worl",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Promises look good in presentations. Proven performance is what warfighters can count on. The C-130J Super Hercules is producing at scale and delivering proven results worldwide across 20+ mission sets, every day..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Speed is only part of the equation when it comes to the future of hypersonics. We’re advancing the technology and manufacturing needed to sustain hypersonic speeds, maneuve",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Speed is only part of the equation when it comes to the future of hypersonics. We’re advancing the technology and manufacturing needed to sustain hypersonic speeds, maneuver through extreme conditions and deliver operational capability at scale..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Stand by... Leveling up. 🦨 More coming soon!.",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Stand by... Leveling up. 🦨 More coming soon!.",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Swiss delegates visited Fort Worth to sign the bulkhead of Switzerland’s first F-35 as the aircraft continues through production. 🇨🇭 The milestone reflects continued progre",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Swiss delegates visited Fort Worth to sign the bulkhead of Switzerland’s first F-35 as the aircraft continues through production. 🇨🇭 The milestone reflects continued progress and partnership, bringing the Swiss Air Force closer to advanced 5th Gen capability designed to strengthen air defense and protect Swiss sovereignty well into the future..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: The battlespace doesn't wait and neither do we. Four more Lockheed Martin Vectis™ aircraft are coming with first flight tracking for 2027! 🦨 Vectis™ is designed to deliver ",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: The battlespace doesn't wait and neither do we. Four more Lockheed Martin Vectis™ aircraft are coming with first flight tracking for 2027! 🦨 Vectis™ is designed to deliver a new level of autonomous lethality, survivability, adaptability and operational flexibility for America and its allies. Learn more: https://lmt.co/3TuFagX.",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: We said Lockheed Martin Vectis™ was kind of a big deal. We meant it. The Lockheed Martin Vectis™ full-scale model made its debut at #AFANational, giving attendees their fir",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: We said Lockheed Martin Vectis™ was kind of a big deal. We meant it. The Lockheed Martin Vectis™ full-scale model made its debut at #AFANational, giving attendees their first up-close look at the magnitude of what’s taking shape at Skunk Works®. The numbers: 34' long. 38' wingspan.🦨.",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Lockheed Martin разместила контент: Wendy Ploger is the daughter of Bob Ploger, our former teammate who lost his life on September 11, 2001. Twenty-five years later, she reflects on her father, his life and t",
+    "company": "",
+    "location": "",
+    "text": "Организация Lockheed Martin разместила контент: Wendy Ploger is the daughter of Bob Ploger, our former teammate who lost his life on September 11, 2001. Twenty-five years later, she reflects on her father, his life and the legacy he left behind..",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация MathWorks разместила контент: MathWorks India and the IEEE CAS Bangalore Chapter recently hosted a Community Day on accelerating system design with HDL automation. Educators explored semiconductor design and ",
+    "company": "",
+    "location": "",
+    "text": "Организация MathWorks разместила контент: MathWorks India and the IEEE CAS Bangalore Chapter recently hosted a Community Day on accelerating system design with HDL automation. Educators explored semiconductor design and verification workflows with MATLAB and Simulink, including a hands-on session on FPGA design and verification. Thank you to everyone who joined us on Teacher's Day for a day of learning and collaboration!.",
+    "url": "https://www.linkedin.com/company/the-mathworks_2/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация MathWorks разместила контент: Use AI coding agents within MATLAB and Simulink. With the Terminal Window, you can use a CLI-based coding agent directly inside MATLAB and Simulink..",
+    "company": "",
+    "location": "",
+    "text": "Организация MathWorks разместила контент: Use AI coding agents within MATLAB and Simulink. With the Terminal Window, you can use a CLI-based coding agent directly inside MATLAB and Simulink..",
+    "url": "https://www.linkedin.com/company/the-mathworks_2/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация MathWorks разместила контент: Who had one of these sitting on their desk? 😎 🗓️ MATLAB mouse pad circa 1994.",
+    "company": "",
+    "location": "",
+    "text": "Организация MathWorks разместила контент: Who had one of these sitting on their desk? 😎 🗓️ MATLAB mouse pad circa 1994.",
+    "url": "https://www.linkedin.com/company/the-mathworks_2/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Mayman Aerospace разместила контент: Another flight test is in the books. Next target: 250 knots. Our upcoming testing will further expand our family of aircraft’s flight envelope and advance its autonomous c",
+    "company": "",
+    "location": "",
+    "text": "Организация Mayman Aerospace разместила контент: Another flight test is in the books. Next target: 250 knots. Our upcoming testing will further expand our family of aircraft’s flight envelope and advance its autonomous capabilities. More to come..",
+    "url": "https://www.linkedin.com/company/maymanaerospace/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Open Ocean Robotics разместила контент: We are looking for a Senior Electrical Engineer to join our engineering team in Victoria, BC! This is a hands-on senior engineering role with significant technical owne",
+    "company": "",
+    "location": "",
+    "text": "Организация Open Ocean Robotics разместила контент: We are looking for a Senior Electrical Engineer to join our engineering team in Victoria, BC! This is a hands-on senior engineering role with significant technical ownership, including design leadership, technical decision making, and mentorship across the development lifecycle. Apply now: https://hubs.ly/Q04wZLdz0.",
+    "url": "https://www.linkedin.com/company/open-ocean-robotics/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Rocket Lab разместила контент: For the last three decades, conventional, multi-junction solar cells have largely relied on germanium wafers. Today, Rocket Lab announced the production release of IMM Apex, our",
+    "company": "",
+    "location": "",
+    "text": "Организация Rocket Lab разместила контент: For the last three decades, conventional, multi-junction solar cells have largely relied on germanium wafers. Today, Rocket Lab announced the production release of IMM Apex, our germanium-free new high-efficiency solar cell to reduce reliance on the supply-constrained critical metals. Read more here. https://lnkd.in/earuWUVB.",
+    "url": "https://www.linkedin.com/company/rocket-lab-corp/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Rocket Lab разместила контент: Kickoff complete! Our team recently wrapped up a successful program kickoff for the Space-Based Airborne Moving Target Indicator (SB-AMTI) demonstrations in support of U.S. Spac",
+    "company": "",
+    "location": "",
+    "text": "Организация Rocket Lab разместила контент: Kickoff complete! Our team recently wrapped up a successful program kickoff for the Space-Based Airborne Moving Target Indicator (SB-AMTI) demonstrations in support of U.S. Space Force. We’re delivering Flatellites with innovative space-based sensing technologies to help mature resilient capabilities for the Joint Force..",
+    "url": "https://www.linkedin.com/company/rocket-lab-corp/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Rocket Lab разместила контент: Think Rocket Lab only operates in low Earth orbit? Think again. When a spacecraft orbits the Moon, touches down on the lunar surface, or charts a course across deep space to Mar",
+    "company": "",
+    "location": "",
+    "text": "Организация Rocket Lab разместила контент: Think Rocket Lab only operates in low Earth orbit? Think again. When a spacecraft orbits the Moon, touches down on the lunar surface, or charts a course across deep space to Mars, there's a strong chance Rocket Lab technology helped it get there and deliver mission success. Through our launch, spacecraft, solar power, separation systems, software, operations, and robotics solutions, we’re proud to support historic planetary exploration missions across the solar system. https://lnkd.in/eeSj5ThY.",
+    "url": "https://www.linkedin.com/company/rocket-lab-corp/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Rocket Lab разместила контент: We're opening our doors at Wallops Island for an exclusive hiring event at Launch Complexes 2 and 3 in late September! We're searching for engineers and technicians who thrive o",
+    "company": "",
+    "location": "",
+    "text": "Организация Rocket Lab разместила контент: We're opening our doors at Wallops Island for an exclusive hiring event at Launch Complexes 2 and 3 in late September! We're searching for engineers and technicians who thrive on solving complex problems and want to build the future of space. Accepted candidates will get the rare opportunity to tour our launch pads and facilities, meet with our engineering teams, and interview one-on-one with department leaders If you want to do meaningful work you'll be talking about for the rest of your life, apply for this invite-only event here: https://lnkd.in/edumtMqC Open to talented candidates across the U.S. Travel accommodations may be provided for non-local candidates who are selected. Open Positions: 🔧 Testing Engineers – Vehicle, Avionics, Launch Pad 🔧 Ground Systems Engineers 🔧 Vehicle Integration Engineers 🔧 Mechanical Technicians 🔧 Senior Vehicle Integration and Test Technicians 🔧 Fluids Engineers 🔧 Propulsion Engineers.",
+    "url": "https://www.linkedin.com/company/rocket-lab-corp/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Saildrone разместила контент: Saildrone is expanding our teams around the world, from our engineering staff at headquarters in California, to our customer-facing teams based in Washington, DC. Come help us bu",
+    "company": "",
+    "location": "",
+    "text": "Организация Saildrone разместила контент: Saildrone is expanding our teams around the world, from our engineering staff at headquarters in California, to our customer-facing teams based in Washington, DC. Come help us build the world’s most operationally proven unmanned surface vehicle. • Account Manager, Ocean Mapping (DC) • Director of Contracting (DC) • Technical Operations Engineer • Manufacturing Systems Integration & Test Engineer Explore our latest opportunities at saildrone.com/careers.",
+    "url": "https://www.linkedin.com/company/saildrone-inc/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Организация Vast разместила контент: French President Emmanuel Macron and Greek Prime Minister Kyriakos Mitsotakis announced Adrianos Golemis will join Vast-PAM-1 astronauts Thomas Pesquet and Aleš Svoboda. The mission i",
+    "company": "",
+    "location": "",
+    "text": "Организация Vast разместила контент: French President Emmanuel Macron and Greek Prime Minister Kyriakos Mitsotakis announced Adrianos Golemis will join Vast-PAM-1 astronauts Thomas Pesquet and Aleš Svoboda. The mission is scheduled for 2027 to the International Space Station in partnership with NASA - National Aeronautics and Space Administration. vast.news/46NBolT.",
+    "url": "https://www.linkedin.com/company/vastspace/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Поздравьте участника Игорь Скиданов с прошедшим днем рождения – 11 сент.. Изучите другие возможности оставаться в курсе событий в сети контактов.",
+    "company": "",
+    "location": "",
+    "text": "Поздравьте участника Игорь Скиданов с прошедшим днем рождения – 11 сент.. Изучите другие возможности оставаться в курсе событий в сети контактов.",
+    "url": "https://www.linkedin.com/messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAAsKYB8B5gJLpFFMB9aRI73HvkVpIkpZ3Jo&recipient=ACoAAAsKYB8B5gJLpFFMB9aRI73HvkVpIkpZ3Jo&propUrn=urn%3Ali%3Aprop%3A%28BIRTHDAY%2C_01RRMxZZSB2sfQZbcG-rr6ffcGIwOld_hWLX6fIWZS0QE%3D%29&body=%D0%A1+%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B8%D0%BC+%D0%B4%D0%BD%D0%B5%D0%BC+%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%21&workflowId=msg-sent-workflow-auto-binding-9af2ed7f-f9e7-437e-af7a-9003f02b6b0a&interop=msgOverlay",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Просмотрите обновления компании Embraer и еще 2 компаний, к которым вы проявили интерес.",
+    "company": "",
+    "location": "",
+    "text": "Просмотрите обновления компании Embraer и еще 2 компаний, к которым вы проявили интерес.",
+    "url": "https://www.linkedin.com/company/embraer/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Публикация участника в должности «Chief Product Officer» из организации Astana Hub пользуется популярностью: Один из редких и крутых кейсов 🔥 Zimran IT School — бесплатная 4-недельная программа от Zimran для сильных спец",
+    "company": "",
+    "location": "",
+    "text": "Публикация участника в должности «Chief Product Officer» из организации Astana Hub пользуется популярностью: Один из редких и крутых кейсов 🔥 Zimran IT School — бесплатная 4-недельная программа от Zimran для сильных специалистов, которые хотят глубже разобраться, как строятся и масштабируются технологические продукты. Это по сути mini MBA по продуктовому IT: за 4 недели участники проходят весь путь — Market Research → Marketing → Product → Analytics → Operations → AI → Capstone. Ведут программу фаундеры Zimran, CEO наших продуктовых бизнесов и функциональные лидеры — на реальных кейсах и подходах, которые мы используем внутри компании. 20–25 участников, отбор через заявку, кейс и интервью. Участие полностью бесплатное, технический бэкграунд не требуется. 📍 Старт — 10 октября 📍 Заявки — до 27 сентября 📍 Онлайн + открытие и выпускной офлайн в Алматы 🔗 https://shorturl.at/mcVEp",
+    "url": "https://www.linkedin.com/company/astanahub/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "Узнайте подробнее об организации Tyto Robotics и найдите страницы других организаций, которые, возможно, вам будет интересно отслеживать.",
+    "company": "",
+    "location": "",
+    "text": "Узнайте подробнее об организации Tyto Robotics и найдите страницы других организаций, которые, возможно, вам будет интересно отслеживать.",
+    "url": "https://www.linkedin.com/company/tytorobotics/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Всем привет! Ловите лайфхак, как не пройти три круга ада на собесах и не согласиться на позицию «гребца на галере» за три копейки. Рынок IT сейчас такой суровый, что на собеседова",
+    "company": "",
+    "location": "",
+    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Всем привет! Ловите лайфхак, как не пройти три круга ада на собесах и не согласиться на позицию «гребца на галере» за три копейки. Рынок IT сейчас такой суровый, что на собеседованиях скоро начнут просить анализы крови и справку от бабушки. Если вам надоел этот треш, залетайте в канал Вакансии IT (СНГ, ЕС, Весь Мир). Тут все по-взрослому: предложения со всего мира (СНГ, Европа, remote), строгий порядок откликов по ID вакансии и полное отсутствие партнерского спама. Вы находите работу, работодатель — вас, и никто не делает друг другу мозг душными вопросами «кем вы видите себя через 5 лет» (спойлер: спящим). Подписывайтесь и меняйте работу без седых волос: https://t.me/jobsearchhhhh Для связи: @veroneko. Поддержать канал голосом: https://lnkd.in/djU-NFqH. Всем легких собесов и адекватного руководства!🚀",
+    "url": "https://www.linkedin.com/in/veronekoshat/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Коллеги, если вы ищете работу в IT или присматриваетесь к новым возможностям — приглашаю в мой Telegram-канал 👋 По работе я постоянно общаюсь с IT-специалистами и подбираю кандида",
+    "company": "",
+    "location": "",
+    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ разместил(а) контент: Коллеги, если вы ищете работу в IT или присматриваетесь к новым возможностям — приглашаю в мой Telegram-канал 👋 По работе я постоянно общаюсь с IT-специалистами и подбираю кандидатов на проекты. Чтобы вам было проще следить за вакансиями, делюсь ими в одном месте. Канал пригодится и тем, кто активно ищет работу, и тем, кто хочет понимать, какие специалисты и навыки сейчас востребованы. 👉 Подписывайтесь: https://t.me/jobsearchhhhh А если среди ваших знакомых есть те, кто ищет новый проект, — поделитесь с ними ссылкой. Возможно, следующая вакансия окажется именно их ✨ #ITвакансии #РаботаВIT #Карьера #ПоискРаботы",
+    "url": "https://www.linkedin.com/in/veronekoshat/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  },
+  {
+    "type": "notification",
+    "title": "💌 Вы получили приглашение. Angelo Gubkina завершил(а) игру Zip .",
+    "company": "",
+    "location": "",
+    "text": "💌 Вы получили приглашение. Angelo Gubkina завершил(а) игру Zip .",
+    "url": "https://www.linkedin.com/games/zip/",
+    "source_file": "linkedin_notifications_2026-09-26_23-02-15.mhtml",
+    "collected_at": "2026-09-26T23:02:23"
+  }
+]
