@@ -1,55 +1,56 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-26T20:02:17.116215+00:00",
+  "generated_at": "2026-09-27T05:11:55.826107+00:00",
   "status": "OK",
   "analysis_mode": "llm",
   "analysis_reason": "Feed/profile/analyzer changed",
   "feed_signals": {
-    "posts_analyzed": 18,
+    "posts_analyzed": 20,
     "high_priority": 2,
-    "medium_priority": 7,
-    "low_priority": 9,
+    "medium_priority": 2,
+    "low_priority": 16,
     "signal_type_counts": {
-      "TECH_SIGNAL": 9,
-      "COMPANY_SIGNAL": 7,
-      "PEOPLE_SIGNAL": 10,
-      "NETWORK_SIGNAL": 9,
-      "HIRING_SIGNAL": 3,
-      "OPPORTUNITY_SIGNAL": 4,
+      "HIRING_SIGNAL": 2,
+      "TECH_SIGNAL": 4,
+      "COMPANY_SIGNAL": 6,
+      "PEOPLE_SIGNAL": 13,
+      "NETWORK_SIGNAL": 14,
+      "OPPORTUNITY_SIGNAL": 3,
       "PROJECT_SIGNAL": 4,
-      "MARKET_SIGNAL": 1
+      "MARKET_SIGNAL": 3
     }
   },
   "action_queue": {
-    "items": 9,
+    "items": 4,
     "high": 2,
-    "medium": 7,
-    "pending_approval": 3,
-    "research_needed": 3,
+    "medium": 2,
+    "pending_approval": 1,
+    "research_needed": 1,
     "primary_action_counts": {
-      "engage_with_post": 6,
-      "research_contact": 3
+      "engage_with_post": 2,
+      "find_warm_path": 1,
+      "research_contact": 1
     },
     "action_plan_counts": {
-      "check_jobs": 2,
-      "connect_person": 3,
-      "engage_with_post": 6,
-      "find_warm_path": 6,
-      "follow_company": 4,
-      "follow_person": 2,
+      "check_jobs": 1,
+      "connect_person": 1,
+      "engage_with_post": 2,
+      "find_warm_path": 3,
+      "follow_company": 1,
+      "follow_person": 1,
       "research_company": 1,
-      "research_contact": 3,
-      "review_technology": 2,
-      "save_for_content": 6
+      "research_contact": 1,
+      "review_technology": 1,
+      "save_for_content": 1
     }
   },
   "relationships": {
-    "total": 181,
-    "people": 148,
+    "total": 185,
+    "people": 152,
     "companies": 33,
-    "people_with_profile_url": 113,
+    "people_with_profile_url": 115,
     "status_counts": {
-      "WATCH": 181,
+      "WATCH": 185,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
