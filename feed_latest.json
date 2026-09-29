@@ -1,53 +1,13 @@
 [
   {
     "type": "company",
-    "title": "Anduril Industries",
+    "title": "Cadence",
     "company": "",
     "location": "",
-    "text": "Anduril Industries",
-    "url": "https://www.linkedin.com/company/anduril/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "company",
-    "title": "Archer",
-    "company": "",
-    "location": "",
-    "text": "Archer",
-    "url": "https://www.linkedin.com/company/flyarcher/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "company",
-    "title": "EIOM",
-    "company": "",
-    "location": "",
-    "text": "EIOM",
-    "url": "https://www.linkedin.com/company/eiom/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "company",
-    "title": "EUROCONTROL",
-    "company": "",
-    "location": "",
-    "text": "EUROCONTROL",
-    "url": "https://www.linkedin.com/company/eurocontrol/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "company",
-    "title": "Eve Air Mobility",
-    "company": "",
-    "location": "",
-    "text": "Eve Air Mobility",
-    "url": "https://www.linkedin.com/company/eveairmobility/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "text": "Cadence",
+    "url": "https://www.linkedin.com/company/cadence/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "company",
@@ -56,8 +16,18 @@
     "location": "",
     "text": "Joby Aviation",
     "url": "https://www.linkedin.com/company/jobyaviation/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Kentuckians for Better Transportation",
+    "company": "",
+    "location": "",
+    "text": "Kentuckians for Better Transportation",
+    "url": "https://www.linkedin.com/company/kentuckians-for-better-transportation-kbt-/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "company",
@@ -66,18 +36,28 @@
     "location": "",
     "text": "Lockheed Martin",
     "url": "https://www.linkedin.com/company/lockheed-martin/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "company",
-    "title": "Lockheed Martin Подтверждено Lockheed Martin 3 331 484 отслеживающих",
+    "title": "Lockheed Martin Подтверждено Lockheed Martin 3 332 606 отслеживающих",
     "company": "",
     "location": "",
-    "text": "Lockheed Martin Подтверждено Lockheed Martin 3 331 484 отслеживающих",
+    "text": "Lockheed Martin Подтверждено Lockheed Martin 3 332 606 отслеживающих",
     "url": "https://www.linkedin.com/company/lockheed-martin/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Louisville Regional Airport Authority",
+    "company": "",
+    "location": "",
+    "text": "Louisville Regional Airport Authority",
+    "url": "https://www.linkedin.com/company/flylouisville/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "company",
@@ -86,18 +66,28 @@
     "location": "",
     "text": "MathWorks",
     "url": "https://www.linkedin.com/company/the-mathworks_2/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "company",
-    "title": "PNY Technologies Europe & MEA",
+    "title": "NYSE",
     "company": "",
     "location": "",
-    "text": "PNY Technologies Europe & MEA",
-    "url": "https://www.linkedin.com/company/pny-technologies-europe/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "text": "NYSE",
+    "url": "https://www.linkedin.com/company/nyse/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "OPSWAT",
+    "company": "",
+    "location": "",
+    "text": "OPSWAT",
+    "url": "https://www.linkedin.com/company/opswat/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "company",
@@ -106,8 +96,8 @@
     "location": "",
     "text": "Quanser",
     "url": "https://www.linkedin.com/company/quanser/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "company",
@@ -116,8 +106,18 @@
     "location": "",
     "text": "SkyGrid",
     "url": "https://www.linkedin.com/company/skygrid/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Supernal",
+    "company": "",
+    "location": "",
+    "text": "Supernal",
+    "url": "https://www.linkedin.com/company/supernalaero/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "company",
@@ -126,28 +126,28 @@
     "location": "",
     "text": "Unity",
     "url": "https://www.linkedin.com/company/unity/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "company",
-    "title": "Wellspring Worldwide",
+    "title": "Vertical Aerospace",
     "company": "",
     "location": "",
-    "text": "Wellspring Worldwide",
-    "url": "https://www.linkedin.com/company/wellspring-worldwide/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "text": "Vertical Aerospace",
+    "url": "https://www.linkedin.com/company/vertical-aerospace-ltd/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "company",
-    "title": "XPRIZE",
+    "title": "Wisk",
     "company": "",
     "location": "",
-    "text": "XPRIZE",
-    "url": "https://www.linkedin.com/company/x-prize-foundation/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "text": "Wisk",
+    "url": "https://www.linkedin.com/company/wisk-aero/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "company",
@@ -156,8 +156,8 @@
     "location": "",
     "text": "Zollner Group",
     "url": "https://www.linkedin.com/company/zollner/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
@@ -166,58 +166,28 @@
     "location": "",
     "text": "Alexander Shatunov",
     "url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
-    "title": "Arife Aycan Mutlu • 3-й+",
+    "title": "Ashley Mastronardi",
     "company": "",
     "location": "",
-    "text": "Arife Aycan Mutlu • 3-й+",
-    "url": "https://www.linkedin.com/in/arife-aycan-mutlu/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "text": "Ashley Mastronardi",
+    "url": "https://www.linkedin.com/in/ashleymastronardi/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
-    "title": "Brennen T. Hocenic • 3-й+",
+    "title": "Brenden Hedblom",
     "company": "",
     "location": "",
-    "text": "Brennen T. Hocenic • 3-й+",
-    "url": "https://www.linkedin.com/in/brennen-hocenic-ae/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "person",
-    "title": "Brian Romanczyk • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "Brian Romanczyk • 3-й+",
-    "url": "https://www.linkedin.com/in/brianromanczyk/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "person",
-    "title": "Craig M. • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "Craig M. • 3-й+",
-    "url": "https://www.linkedin.com/in/craigmilliard/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "person",
-    "title": "Deepinder Goyal Curious child. Люди в вашем сообществе отслеживают Отслеживать",
-    "company": "",
-    "location": "",
-    "text": "Deepinder Goyal Curious child. Люди в вашем сообществе отслеживают Отслеживать",
-    "url": "https://www.linkedin.com/in/deepigoyal/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "text": "Brenden Hedblom",
+    "url": "https://www.linkedin.com/in/brenden-hedblom/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
@@ -226,38 +196,88 @@
     "location": "",
     "text": "Emmanouil Tzorakoleftherakis",
     "url": "https://www.linkedin.com/in/emmanouil-tzorakoleftherakis-a417468b/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
-    "title": "Jean Hugues Koziolek, профиль Подтверждено, 3-й+ Jean Hugues Koziolek • 3-й+ Chargé de projet chez ENAC-Ecole Nationale de l'Aviation Civile",
+    "title": "Eric Allison",
     "company": "",
     "location": "",
-    "text": "Jean Hugues Koziolek, профиль Подтверждено, 3-й+ Jean Hugues Koziolek • 3-й+ Chargé de projet chez ENAC-Ecole Nationale de l'Aviation Civile",
-    "url": "https://www.linkedin.com/in/jean-hugues-koziolek-936bb5151/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "text": "Eric Allison",
+    "url": "https://www.linkedin.com/in/eric-m-allison/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
-    "title": "Jeff Miller • 3-й+",
+    "title": "Gregory Bowles",
     "company": "",
     "location": "",
-    "text": "Jeff Miller • 3-й+",
-    "url": "https://www.linkedin.com/in/jeffmillertime/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "text": "Gregory Bowles",
+    "url": "https://www.linkedin.com/in/gregory-bowles-97a51b90/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
-    "title": "Maria Ivanova • 2-й",
+    "title": "Ife O.",
     "company": "",
     "location": "",
-    "text": "Maria Ivanova • 2-й",
-    "url": "https://www.linkedin.com/in/maria-ivanova-9122711a4/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "text": "Ife O.",
+    "url": "https://www.linkedin.com/in/ife-o-92b563148/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Jim Sherman • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Jim Sherman • 3-й+",
+    "url": "https://www.linkedin.com/in/jamesasherman/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "JoeBen Bevirt",
+    "company": "",
+    "location": "",
+    "text": "JoeBen Bevirt",
+    "url": "https://www.linkedin.com/in/joeben-bevirt-639451/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Kevin Antcliff",
+    "company": "",
+    "location": "",
+    "text": "Kevin Antcliff",
+    "url": "https://www.linkedin.com/in/kevinantcliff/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Kevin Durant Partner & Co-founder at 35V and Boardroom Люди в вашем сообществе отслеживают Отслеживать",
+    "company": "",
+    "location": "",
+    "text": "Kevin Durant Partner & Co-founder at 35V and Boardroom Люди в вашем сообществе отслеживают Отслеживать",
+    "url": "https://www.linkedin.com/in/easymoneysniper/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Maxime Gariel",
+    "company": "",
+    "location": "",
+    "text": "Maxime Gariel",
+    "url": "https://www.linkedin.com/in/maxime-gariel/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
@@ -266,8 +286,8 @@
     "location": "",
     "text": "Melda Ulusoy • 3-й+",
     "url": "https://www.linkedin.com/in/melda-ulusoy/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
@@ -276,38 +296,28 @@
     "location": "",
     "text": "Naren Srivaths Raman",
     "url": "https://www.linkedin.com/in/naren-srivaths-raman/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
-    "title": "Polly Gonomaru Talent Acquisition Senior Specialist| Recruitment Marketing | eVTOL | Coach | DE&I | Career Advisor - Let's connect! A leading Japanese developer of eVTOL На основе сведений в вашем профиле Отслеживать",
+    "title": "Ruslan Kyzmin • 2-й",
     "company": "",
     "location": "",
-    "text": "Polly Gonomaru Talent Acquisition Senior Specialist| Recruitment Marketing | eVTOL | Coach | DE&I | Career Advisor - Let's connect! A leading Japanese developer of eVTOL На основе сведений в вашем профиле Отслеживать",
-    "url": "https://www.linkedin.com/in/pollygonomaru/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "text": "Ruslan Kyzmin • 2-й",
+    "url": "https://www.linkedin.com/in/ruslan-kyzmin/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
-    "title": "Rakesh Gaonkar Building India’s Wings | Co-Founder & CTO, Sarla Aviation Отслеживается 2 контактами Отслеживать",
+    "title": "Ryan Naru",
     "company": "",
     "location": "",
-    "text": "Rakesh Gaonkar Building India’s Wings | Co-Founder & CTO, Sarla Aviation Отслеживается 2 контактами Отслеживать",
-    "url": "https://www.linkedin.com/in/rakesh-gaonkar/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "person",
-    "title": "Sandro Salgueiro",
-    "company": "",
-    "location": "",
-    "text": "Sandro Salgueiro",
-    "url": "https://www.linkedin.com/in/sandro-salgueiro/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "text": "Ryan Naru",
+    "url": "https://www.linkedin.com/in/ryannaru/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
@@ -316,8 +326,58 @@
     "location": "",
     "text": "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва",
     "url": "https://www.linkedin.com/in/devorvant/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Steven Molanders • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Steven Molanders • 3-й+",
+    "url": "https://www.linkedin.com/in/steven-molanders-aa1342168/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Stuart Simpson",
+    "company": "",
+    "location": "",
+    "text": "Stuart Simpson",
+    "url": "https://www.linkedin.com/in/stuart-simpson-18a3643/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Sundar Pichai CEO at Google Люди с навыком «Python» также отслеживают этих людей Отслеживать",
+    "company": "",
+    "location": "",
+    "text": "Sundar Pichai CEO at Google Люди с навыком «Python» также отслеживают этих людей Отслеживать",
+    "url": "https://www.linkedin.com/in/sundarpichai/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Tatyana Kapustina • 1-й",
+    "company": "",
+    "location": "",
+    "text": "Tatyana Kapustina • 1-й",
+    "url": "https://www.linkedin.com/in/tatyana-kapustina-1b175620a/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "person",
+    "title": "Ursula von der Leyen President of the European Commission Люди в вашем сообществе отслеживают Отслеживать",
+    "company": "",
+    "location": "",
+    "text": "Ursula von der Leyen President of the European Commission Люди в вашем сообществе отслеживают Отслеживать",
+    "url": "https://www.linkedin.com/in/ursula-von-der-leyen/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
@@ -326,8 +386,8 @@
     "location": "",
     "text": "Аида Гайнутдинова",
     "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "person",
@@ -336,18 +396,65 @@
     "location": "",
     "text": "Астроно",
     "url": "https://www.linkedin.com/in/devorvant/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
-    "type": "person",
-    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ • 1-й",
+    "type": "post",
+    "title": "2026-2035 Analysis Of Top Leading Companies in Cargo Drones (PDF Guide) #CargoDrones Market is entering a period of rapid expansion, with its value expected to rise from USD 2.10 b",
     "company": "",
     "location": "",
-    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ • 1-й",
-    "url": "https://www.linkedin.com/in/veronekoshat/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "collected_at": "2026-09-28T08:10:58"
+    "text": "2026-2035 Analysis Of Top Leading Companies in Cargo Drones (PDF Guide) #CargoDrones Market is entering a period of rapid expansion, with its value expected to rise from USD 2.10 billion in 2025 to USD 43.18 billion by 2035, reflecting a strong 36.95% CAGR. This growth highlights the increasing adoption of drones for faster, more flexible, and efficient cargo transportation across industries. Get More Insights: https://lnkd.in/gx87FHxV The project highlighted how cargo drones can support routine #offshore activities by streamlining #cargo handling, lowering reliance on vessels and cranes, and enabling technicians to work more efficiently. A strong collaborative effort across Operations, Logistics, Safety, Engineering, I&I, and Ampelmann Operations. This milestone highlights the potential of innovative technology to further transform #offshorewind operations. cargo drone industry is quietly rewriting the rules of global logistics, evolving from experimental prototypes into a commercial force projected to grow from roughly $2.10 billion in 2025 to over $43.18 billion by 2035. Leading this charge are pioneers like Zipline and Wing, who have already logged millions of real-world deliveries, proving that autonomous aircraft can reliably move medicine, groceries, and packages across cities and continents. Meanwhile, companies like Dronamics, Natilus, and Elroy Air are pushing into the middle-mile space, designing heavy-lift cargo aircraft capable of carrying hundreds of kilograms across vast, underserved regions where traditional trucking and air freight fall short. What makes this market especially compelling is the diversity of players shaping it — from tech giants like Amazon and Alphabet's Wing, to specialized innovators like Sabrewing and Wingcopter, to defense-rooted firms like BAE Systems bringing military-grade reliability into commercial skies. Each company is carving out its own niche, whether it's last-mile speed, long-range endurance, or heavy-lift capacity, and together they're converging on a future where drones handle everything from urgent medical deliveries to large-scale freight logistics. As regulations catch up with the technology, this competitive, fast-moving ecosystem is set to redefine how goods move around the world. #DroneTechnology #OffshoreWind #WindEnergy #AutonomousDrones #OffshoreOperations #CleanEnergy #DroneInnovation #OffshoreWindEnergy #WindFarmOperations #AerialLogistics #DroneTech #OffshoreOps #WindEnergy",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "22 ч.",
+    "post_id": "",
+    "hashtags": [
+      "#CargoDrones",
+      "#offshore",
+      "#cargo",
+      "#offshorewind",
+      "#DroneTechnology",
+      "#OffshoreWind",
+      "#WindEnergy",
+      "#AutonomousDrones",
+      "#OffshoreOperations",
+      "#CleanEnergy",
+      "#DroneInnovation",
+      "#OffshoreWindEnergy",
+      "#WindFarmOperations",
+      "#AerialLogistics",
+      "#DroneTech",
+      "#OffshoreOps"
+    ],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 10,
+    "comments": null,
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "AI agents can generate code. Engineering requires a lot more. 🧠 Domain expertise ⚙️ Proven workflows 🔍 Validation and testing practices 📚 Lessons learned from experienced engineers",
+    "company": "",
+    "location": "",
+    "text": "AI agents can generate code. Engineering requires a lot more. 🧠 Domain expertise ⚙️ Proven workflows 🔍 Validation and testing practices 📚 Lessons learned from experienced engineers Learn how skill files can help agentic AI systems work with the knowledge engineers rely on every day ⤵️",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "14 ч.",
+    "post_id": "7510352623754104833",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 82,
+    "comments": null,
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "post",
@@ -356,7 +463,7 @@
     "location": "",
     "text": "Learn everything you need to work with Apple Vision Pro and visionOS in this free 120+ page guide created by innovative 3D artists and Unity developers.",
     "url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
     "author": "Alexander Shatunov",
     "author_type": "person",
     "author_url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
@@ -365,202 +472,52 @@
     "hashtags": [],
     "mentions": [],
     "external_links": [],
-    "reactions": 111,
+    "reactions": 115,
     "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "post",
-    "title": "Arife Aycan Mutlu • 3-й+",
+    "title": "Brenden Hedblom",
     "company": "",
     "location": "",
-    "text": "🤖✈️ Will VFR and IFR be enough for the next generation of aircraft? This is one of the questions that will be explored in the next session of The UAS Webinar Series – Inside the Enablers. Sandro Salgueiro , Airspace Integration Manager, from SkyGrid will introduce the concept of #Automated #Flight #Rules ( #AFR ) and share his perspective on how highly automated aircraft could be integrated into the airspace of the future. Together, we will have a look at: ❓ Are VFR and IFR sufficient for highly automated operations? ❓ What new capabilities could automation bring? ❓ How would highly automated aircraft behave in shared airspace? Join us for an engaging discussion on one possible vision for the future of airspace integration. 📅 12 October 2026 | 14:00 CET 🎓 Free participation ( EUROCONTROL work programme) Register link: https://lnkd.in/e6hzTyfm #UAS #USpace #ATM #Aviation #AAM #Drones #Automation #EUROCONTROL #Webinar #airspace #integration",
-    "url": "https://www.linkedin.com/in/arife-aycan-mutlu/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "Arife Aycan Mutlu • 3-й+",
+    "text": "As Advanced Air Mobility moves from concept to commercial viability, safe integration into shared airspace remains a critical industry hurdle. Brenden Hedblom , Head of Product at SkyGrid, sat down with Wisk to discuss how the two companies are collaborating to make safe and scalable autonomous flight a reality. Read more and watch the full conversation: https://lnkd.in/g3K_tWG3 #SkyGrid #Wisk #AAM #AutonomousFlight",
+    "url": "https://www.linkedin.com/in/brenden-hedblom/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "author": "Brenden Hedblom",
     "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/arife-aycan-mutlu/",
-    "posted_time": "4 дн.",
+    "author_url": "https://www.linkedin.com/in/brenden-hedblom/",
+    "posted_time": "14 ч.",
     "post_id": "",
     "hashtags": [
-      "#Automated",
-      "#Flight",
-      "#Rules",
-      "#AFR",
-      "#UAS",
-      "#USpace",
-      "#ATM",
-      "#Aviation",
+      "#SkyGrid",
+      "#Wisk",
       "#AAM",
-      "#Drones",
-      "#Automation",
-      "#EUROCONTROL",
-      "#Webinar",
-      "#airspace",
-      "#integration"
+      "#AutonomousFlight"
     ],
     "mentions": [
       {
-        "name": "Sandro Salgueiro",
-        "url": "https://www.linkedin.com/in/sandro-salgueiro/"
+        "name": "Brenden Hedblom",
+        "url": "https://www.linkedin.com/in/brenden-hedblom/"
       },
       {
-        "name": "SkyGrid",
-        "url": "https://www.linkedin.com/company/skygrid/"
-      },
-      {
-        "name": "EUROCONTROL",
-        "url": "https://www.linkedin.com/company/eurocontrol/"
+        "name": "Wisk",
+        "url": "https://www.linkedin.com/company/wisk-aero/"
       }
     ],
     "external_links": [],
-    "reactions": 76,
+    "reactions": 3,
     "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "post",
-    "title": "Arife Aycan Mutlu • 3-й+",
+    "title": "Cybersecurity has spent decades trusting the perimeter. Into the Breach puts that trust under fire. Episode 1 of OPSWAT’s new docuseries, hosted by Kari Byron, is now live. Watch n",
     "company": "",
     "location": "",
-    "text": "Interesting perspective, at AW26 there was a presentation about AFR https://www.skygrid.com/afr-conops-how-automated-flight-rules-will-transform-aviation/",
-    "url": "https://www.linkedin.com/in/arife-aycan-mutlu/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "Arife Aycan Mutlu • 3-й+",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/arife-aycan-mutlu/",
-    "posted_time": "4 дн.",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": 76,
-    "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "post",
-    "title": "Brennen T. Hocenic • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "I am very excited to announce that I accepted an offer to intern at Lockheed Martin for their CWEP program out of University of Central Florida !! I will be working as a Mechanical Design Engineer. I am looking forward to what experiences this will bring. Thank you to my friends and family that have motivated me through this process!",
-    "url": "https://www.linkedin.com/in/brennen-hocenic-ae/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "Brennen T. Hocenic • 3-й+",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/brennen-hocenic-ae/",
-    "posted_time": "4 дн.",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [
-      {
-        "name": "Lockheed Martin",
-        "url": "https://www.linkedin.com/company/lockheed-martin/"
-      }
-    ],
-    "external_links": [],
-    "reactions": 18,
-    "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "post",
-    "title": "Brennen T. Hocenic • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "Congratulations on your internship, Brennen!",
-    "url": "https://www.linkedin.com/in/brennen-hocenic-ae/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "Brennen T. Hocenic • 3-й+",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/brennen-hocenic-ae/",
-    "posted_time": "4 дн.",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": 18,
-    "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "post",
-    "title": "Brian Romanczyk • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "Today we're announcing that MONDE Wireless has joined Anduril Industries ! We started this company because we thought there was a better way to deliver RF GaN solutions. Our mission hasn't changed. What's changed is our ability to execute on it. Anduril gives us the manufacturing scale and engineering resources to build the systems we've spent years designing, and to build them faster. Our team stays in place. Our customers keep working with the same people who've supported them from day one. The difference is what we can now deliver. More to come.",
-    "url": "https://www.linkedin.com/in/brianromanczyk/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "Brian Romanczyk • 3-й+",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/brianromanczyk/",
-    "posted_time": "1 нед.",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [
-      {
-        "name": "Anduril Industries",
-        "url": "https://www.linkedin.com/company/anduril/"
-      }
-    ],
-    "external_links": [],
-    "reactions": 377,
-    "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "post",
-    "title": "Craig M. • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "The deepest looks we’ve provided to Superpilot and the J208 is in the comments. Two takeaways for people considering joining this dynamic and talented team 1. We are past the point of doubt, the system has reached a high degree of readiness, customers are bought in. 2. There’s still a lot of challenging, exciting, work to be done rapidly to get this system and product to its final form- we need new people to leave new fingerprints on the future of aviation; as requirements from those customers solidify we will add more capabilities and expand and refine what’s already there.",
-    "url": "https://www.linkedin.com/in/craigmilliard/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "Craig M. • 3-й+",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/craigmilliard/",
-    "posted_time": "1 нед.",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": 45,
-    "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "post",
-    "title": "Eight lift rotors. One pusher. Fixed wings. A clear purpose for each component. Eve’s lift + cruise configuration brings these components together through vertical flight, transiti",
-    "company": "",
-    "location": "",
-    "text": "Eight lift rotors. One pusher. Fixed wings. A clear purpose for each component. Eve’s lift + cruise configuration brings these components together through vertical flight, transition and cruise, with each performing a dedicated role. Swipe to discover how it works. #EveAirMobility #eVTOL #AdvancedAirMobility #ElectricAviation",
+    "text": "Cybersecurity has spent decades trusting the perimeter. Into the Breach puts that trust under fire. Episode 1 of OPSWAT’s new docuseries, hosted by Kari Byron, is now live. Watch now:",
     "url": "",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "3 дн.",
-    "post_id": "7508691171586695168",
-    "hashtags": [
-      "#EveAirMobility",
-      "#eVTOL",
-      "#AdvancedAirMobility",
-      "#ElectricAviation"
-    ],
-    "mentions": [],
-    "external_links": [],
-    "reactions": 110,
-    "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "post",
-    "title": "Il 7 e 8 ottobre SAVE torna a Veronafiere con soluzioni, tecnologie e casi applicativi dedicati ad automazione, strumentazione industriale, Industria 4.0 e intelligenza artificiale",
-    "company": "",
-    "location": "",
-    "text": "Il 7 e 8 ottobre SAVE torna a Veronafiere con soluzioni, tecnologie e casi applicativi dedicati ad automazione, strumentazione industriale, Industria 4.0 e intelligenza artificiale per l’industria. Due giornate di convegni, workshop e incontri con aziende specializzate, rivolte a responsabili automazione, produzione, stabilimento, ingegneria e innovazione. La partecipazione è gratuita per gli operatori professionali. Richiedi ora il tuo accredito.",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
     "author": "",
     "author_type": "",
     "author_url": "",
@@ -569,36 +526,66 @@
     "hashtags": [],
     "mentions": [],
     "external_links": [
-      "https://www.exposave.com/verona/preregistrazione.asp?f=l&li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029&utm_id=890593103&utm_medium=paid-social&utm_source=linkedin"
+      "https://www.cyberking.com/into-the-breach?utm_medium=paid_social&utm_source=linkedin&utm_campaign=FY26-EUR-Brand-ITB&utm_content=itb&li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029"
     ],
-    "reactions": 6,
+    "reactions": 11,
     "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "post",
-    "title": "Jeff Miller • 3-й+",
+    "title": "Jim Sherman • 3-й+",
     "company": "",
     "location": "",
-    "text": "Fight fire with fire. Anduril has earned first place in the XPRIZE Autonomous Wildfire Response Track. Our solution manages the entire wildfire lifecycle with minimal human intervention. Lattice coordinates assets across air, land, and space to detect and respond faster.",
-    "url": "https://www.linkedin.com/in/jeffmillertime/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "Jeff Miller • 3-й+",
+    "text": "Congratulations to Joby Aviation on completing an #autonomous coast-to-coast trip! Gregory Bowles Ryan Naru JoeBen Bevirt Eric Allison Ife O. Maxime Gariel Kevin Antcliff",
+    "url": "https://www.linkedin.com/in/jamesasherman/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "author": "Jim Sherman • 3-й+",
     "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/jeffmillertime/",
-    "posted_time": "4 дн.",
-    "post_id": "7508577828133851136",
-    "hashtags": [],
+    "author_url": "https://www.linkedin.com/in/jamesasherman/",
+    "posted_time": "3 дн.",
+    "post_id": "",
+    "hashtags": [
+      "#autonomous"
+    ],
     "mentions": [
       {
-        "name": "XPRIZE",
-        "url": "https://www.linkedin.com/company/x-prize-foundation/"
+        "name": "Joby Aviation",
+        "url": "https://www.linkedin.com/company/jobyaviation/"
+      },
+      {
+        "name": "Gregory Bowles",
+        "url": "https://www.linkedin.com/in/gregory-bowles-97a51b90/"
+      },
+      {
+        "name": "Ryan Naru",
+        "url": "https://www.linkedin.com/in/ryannaru/"
+      },
+      {
+        "name": "JoeBen Bevirt",
+        "url": "https://www.linkedin.com/in/joeben-bevirt-639451/"
+      },
+      {
+        "name": "Eric Allison",
+        "url": "https://www.linkedin.com/in/eric-m-allison/"
+      },
+      {
+        "name": "Ife O.",
+        "url": "https://www.linkedin.com/in/ife-o-92b563148/"
+      },
+      {
+        "name": "Maxime Gariel",
+        "url": "https://www.linkedin.com/in/maxime-gariel/"
+      },
+      {
+        "name": "Kevin Antcliff",
+        "url": "https://www.linkedin.com/in/kevinantcliff/"
       }
     ],
     "external_links": [],
-    "reactions": 1102,
+    "reactions": 23,
     "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "post",
@@ -607,7 +594,7 @@
     "location": "",
     "text": "A timely topic for control systems engineers exploring where agentic AI fits into real engineering workflows. Great to see MathWorks focusing on how AI agents can support Model-Based Design while keeping models, controllers, simulations, and test results inspectable and verifiable. Worth checking out if you’re working with control systems, embedded deployment, or AI-assisted engineering. #ControlSystems #AgenticAI #ModelBasedDesign #MATLAB #Simulink #Engineering",
     "url": "https://www.linkedin.com/feed/update/urn:li:share:7503449660238417921/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
     "author": "Melda Ulusoy • 3-й+",
     "author_type": "person",
     "author_url": "https://www.linkedin.com/in/melda-ulusoy/",
@@ -630,7 +617,7 @@
     "external_links": [],
     "reactions": 5,
     "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "post",
@@ -639,7 +626,7 @@
     "location": "",
     "text": "Control Systems Engineers: Are you looking to accelerate development with the latest AI technologies? Join my colleagues Emmanouil Tzorakoleftherakis and Naren Srivaths Raman on September 24 for a webinar on Design and Deploy Control Systems with Agentic AI and Model-Based Design 👉 Register here: https://spr.ly/61108B1aR74 #ControlSystems #AgenticAI #ArtificialIntelligence #ModelBasedDesign #Engineering #MATLAB #Simulink #Automation #SystemsEngineering",
     "url": "https://www.linkedin.com/feed/update/urn:li:share:7503449660238417921/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
     "author": "Melda Ulusoy • 3-й+",
     "author_type": "person",
     "author_url": "https://www.linkedin.com/in/melda-ulusoy/",
@@ -669,89 +656,130 @@
     "external_links": [],
     "reactions": 5,
     "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "post",
-    "title": "Power your AI infrastructure with NVIDIA AI Enterprise. Combine NVIDIA AI Enterprise software with NVIDIA RTX PRO Servers to develop, deploy and scale AI workloads across your ente",
+    "title": "Steven Molanders • 3-й+",
     "company": "",
     "location": "",
-    "text": "Power your AI infrastructure with NVIDIA AI Enterprise. Combine NVIDIA AI Enterprise software with NVIDIA RTX PRO Servers to develop, deploy and scale AI workloads across your enterprise. NVIDIA RTX PRO Servers support enterprise AI workloads including agentic AI, LLM inference, industrial AI and digital twins.",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "",
+    "text": "Accepted a new position with Lockheed Martin MFC in Lufkin Texas.",
+    "url": "https://www.linkedin.com/in/steven-molanders-aa1342168/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "author": "Steven Molanders • 3-й+",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/steven-molanders-aa1342168/",
+    "posted_time": "2 дн.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "Lockheed Martin",
+        "url": "https://www.linkedin.com/company/lockheed-martin/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 14,
+    "comments": null,
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Steven Molanders • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Congratulations, Steven!",
+    "url": "https://www.linkedin.com/in/steven-molanders-aa1342168/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "author": "Steven Molanders • 3-й+",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/steven-molanders-aa1342168/",
+    "posted_time": "2 дн.",
     "post_id": "",
     "hashtags": [],
     "mentions": [],
     "external_links": [],
-    "reactions": 10,
+    "reactions": 14,
     "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "post",
-    "title": "See you this weekend at the Salinas Airshow.",
+    "title": "Stuart Simpson",
     "company": "",
     "location": "",
-    "text": "See you this weekend at the Salinas Airshow.",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "2 дн.",
-    "post_id": "7509306741864484864",
+    "text": "Vertical CEO, Stuart Simpson joins Ashley Mastronardi at NYSE Floor Talk to discuss the journey of bringing eVTOL technology to life, the vision driving its development and Valo's potential to transform the future of travel. https://lnkd.in/eg2k5-NJ",
+    "url": "https://www.linkedin.com/in/stuart-simpson-18a3643/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "author": "Stuart Simpson",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/stuart-simpson-18a3643/",
+    "posted_time": "20 ч.",
+    "post_id": "",
     "hashtags": [],
-    "mentions": [],
+    "mentions": [
+      {
+        "name": "Stuart Simpson",
+        "url": "https://www.linkedin.com/in/stuart-simpson-18a3643/"
+      },
+      {
+        "name": "Ashley Mastronardi",
+        "url": "https://www.linkedin.com/in/ashleymastronardi/"
+      },
+      {
+        "name": "NYSE",
+        "url": "https://www.linkedin.com/company/nyse/"
+      }
+    ],
     "external_links": [],
-    "reactions": 322,
+    "reactions": 48,
     "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "post",
-    "title": "Too many projects, not enough progress? Discover how to identify and eliminate zombie initiatives stalling innovation.",
+    "title": "Tatyana Kapustina • 1-й",
     "company": "",
     "location": "",
-    "text": "Too many projects, not enough progress? Discover how to identify and eliminate zombie initiatives stalling innovation.",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "",
-    "post_id": "7392042141041979392",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": 162,
-    "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
-  },
-  {
-    "type": "post",
-    "title": "Vintage wheels, business jet dream. 📷 by Falcon pilot Frankie Colangelo #iFlyFalcon https://bit.ly/4ijCx8a",
-    "company": "",
-    "location": "",
-    "text": "Vintage wheels, business jet dream. 📷 by Falcon pilot Frankie Colangelo #iFlyFalcon https://bit.ly/4ijCx8a",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "15 ч.",
+    "text": "😀 Ищем системного и ответственного Senior Go Developer швейцарскую трейдинговую компанию (русскоязычная техническая команда) — развивать и приводить в порядок критически важную инфраструктуру бэк-офиса (reporting, reconciliations, integrations, data pipelines). Важно: Ваша локация вне РФ, РБ Что делать: - backend для внутренних финтех-процессов: payments, reporting, reconciliations - интеграции с банками и платежными провайдерами - работа с сырыми финансовыми данными и API - оптимизация внутренних процессов и инструментов Стек: Go, Fiber, Postgres, RabbitMQ Мы ищем: - от 3+ лет коммерческого Go (основной язык) - опыт в payments / crypto / fintech (обязательно) - опыт public API или data ingestion - опыт с ОТС деск и/или опыт с трежерис - опыт в малых/средних командах, где разработчик решает задачи end-to-end - активное использование AI в разработке - ownership mindset: самостоятельность, внимание к деталям, ответственность Предлагаем: - работа по CET timezone из любой точки мира - B2B контракт с отпускными и больничными - Конкурентная зп и годовой бонус - small senior team, без бюрократии - активно развивающийся продукт без легаси #вакансия #vacancy #работа #вакансии #go #seniorgo #opentowork #лучшиевакансии #лучшиекандидаты #подбор #кандидаты #ищуработу #ищукандидата Если вы в поиске или знаете того, кто в данный момент в поиске - пишите в ЛС Всем офферов! 💓",
+    "url": "https://www.linkedin.com/in/tatyana-kapustina-1b175620a/",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "author": "Tatyana Kapustina • 1-й",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/tatyana-kapustina-1b175620a/",
+    "posted_time": "19 ч.",
     "post_id": "",
     "hashtags": [
-      "#iFlyFalcon"
+      "#go",
+      "#seniorgo"
     ],
     "mentions": [],
     "external_links": [],
-    "reactions": 64,
+    "reactions": 32,
     "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "We're #hiring a new Lead Engineer, PLM Architecture & Digital Tools in Irvine, California. Apply today or share this post with your network. https://lnkd.in/eqmKtV3U",
+    "company": "",
+    "location": "",
+    "text": "We're #hiring a new Lead Engineer, PLM Architecture & Digital Tools in Irvine, California. Apply today or share this post with your network. https://lnkd.in/eqmKtV3U",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "1 ч.",
+    "post_id": "",
+    "hashtags": [
+      "#hiring"
+    ],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 3,
+    "comments": null,
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "post",
@@ -760,7 +788,7 @@
     "location": "",
     "text": "Where does your product stand today, and what does it need to take the next step? That’s exactly what we’d like to discuss with you at electronica 2026. Zollner supports you throughout the entire product life cycle, stepping in wherever you need support – with engineering, manufacturing, industrialization and customized solutions tailored to your requirements. Bring us your challenge. Together, we’ll determine what the next step could look like.",
     "url": "",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
     "author": "",
     "author_type": "",
     "author_url": "",
@@ -769,48 +797,105 @@
     "hashtags": [],
     "mentions": [],
     "external_links": [],
-    "reactions": 29,
+    "reactions": 33,
     "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "post",
     "title": "Аида Гайнутдинова",
     "company": "",
     "location": "",
-    "text": "Промежуточные итоги 5 лет регулярных занятий любительским спортом или, если угодно, фитнесом Недавно я брала консультацию у Люды Вергелис. С Людой мы знакомы с 2021 года, когда мой фитнес был еще даже не в нуле, а в минусе — у меня все время что-то болело, замыкало, трещало и щелкало. Но при этом я понимала, что мне нужен кор и вообще мышцы (потому что грыжа), нагрузка, которая съест мое напряжение от нейроотличности, ну и желательно какой-то прогресс, чтобы не было скучно. Вот прошло 5 лет и теперь Люда, отучившись в очередной раз на каких-то там умных программах, разбирала мой запрос на систему и указала мне на следующий факт. Я пытаюсь развивать у себя выносливость количеством разнообразной активности, и регулярно выпадаю из процесса, поэтому прогресс у меня довольно минимальный. То есть вместо того, чтобы сосредоточиться на развитии одной функции (силовая или кардиовыносливость), я пытаюсь увеличить количество часов нагрузки, делаю это довольно неумело и проваливаюсь. Продолжение - в карточках.",
+    "text": "Каждый раз, когда я говорю, что использую Node.js для highload-систем, кто-нибудь обязательно напоминает: \"он же однопоточный...\" 🫠 Технически - да. У Node.js один поток выполнения JS-кода. Но это не значит, что он не тянет нагрузку 😉 Вот что реально происходит под капотом: 🔸 Node.js работает на event loop и libuv 🔸Все I/O-операции (запросы к БД, сеть, файлы) уходят в отдельный пул потоков 🔸Ваш JS-код не блокируется, пока ждёт ответа от базы или внешнего API 🔸Один процесс Node.js способен обрабатывать тысячи одновременных соединений именно потому, что не тратит поток на ожидание 🧐 Для сравнения: в классической thread-per-request модели (Java Servlets, PHP-FPM, Ruby) каждое соединение - это отдельный поток ОС, ~1-8MB памяти на стек плюс context switching. При 10 000 соединений вы упираетесь не в бизнес-логику, а в память и переключение контекста. Go и Rust эту проблему решают иначе - горутины и async-рантаймы (tokio) тоже легковесны и не создают поток ОС на каждое соединение. Дело не в том, что Node уникален, а в том, что современные highload-системы вообще ушли от модели \"поток = соединение\". Node.js просто был одним из первых, кто сделал эту модель мейнстримом для веба 🤗 Память на соединение в Node - условные килобайты, а не мегабайты стека, а CPU тратится на реальную обработку данных, а не на управление потоками - отсюда и минимальный оверхед. Именно поэтому API-гейтвеи, real-time чаты, стриминг, микросервисы - типичные Node-кейсы, где 90% времени запроса это ожидание ответа, а не вычисления. Сталкивались с таким скепсисом❓ Как реагировали❓ #NodeJS #HighLoad #BackendDevelopment #SoftwareEngineering #SystemDesign",
     "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
     "author": "Аида Гайнутдинова",
     "author_type": "person",
     "author_url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "posted_time": "1 дн.",
+    "posted_time": "2 дн.",
     "post_id": "",
-    "hashtags": [],
+    "hashtags": [
+      "#NodeJS",
+      "#HighLoad",
+      "#BackendDevelopment",
+      "#SoftwareEngineering",
+      "#SystemDesign"
+    ],
     "mentions": [],
     "external_links": [],
     "reactions": null,
     "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
+    "collected_at": "2026-09-29T08:10:58"
   },
   {
     "type": "post",
-    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ • 1-й",
+    "title": "⚡️ Electric skies. Innovative technology. A look at what’s next. ✈️ Yesterday, Kentuckians for Better Transportation and SDF welcomed Joby Aviation ’s Electric Skies Tour, offering",
     "company": "",
     "location": "",
-    "text": "https://lnkd.in/dT-7Dfgj Квантовые ИИ 😅😅😅😅 Кто сможет понять - тому будет очень интересно 🧐 видео не для всех🤪 но очень интересное))",
-    "url": "https://www.linkedin.com/in/veronekoshat/",
-    "source_file": "linkedin_feed_2026-09-28_08-10-50.mhtml",
-    "author": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ • 1-й",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/veronekoshat/",
-    "posted_time": "18 ч.",
-    "post_id": "",
+    "text": "⚡️ Electric skies. Innovative technology. A look at what’s next. ✈️ Yesterday, Kentuckians for Better Transportation and SDF welcomed Joby Aviation ’s Electric Skies Tour, offering an up-close look at autonomous flight technology and the innovation helping shape the future of aviation. From seeing the technology firsthand to learning more about its possibilities, it was an exciting opportunity to experience the next generation of flight right here at SDF. We appreciate Kentucky Department of Aviation Commissioner Todd Case for joining us as well. Take a look at some of the highlights from the visit! 🎥 #flyLouisville",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "2 дн.",
+    "post_id": "7509674138056355841",
+    "hashtags": [
+      "#flyLouisville"
+    ],
+    "mentions": [
+      {
+        "name": "Kentuckians for Better Transportation",
+        "url": "https://www.linkedin.com/company/kentuckians-for-better-transportation-kbt-/"
+      },
+      {
+        "name": "Joby Aviation",
+        "url": "https://www.linkedin.com/company/jobyaviation/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 47,
+    "comments": null,
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "🇫🇷 From air defence and drones to space and cyber capabilities, see where France is investing and how suppliers can engage. Download the latest Market Navigator Teaser →",
+    "company": "",
+    "location": "",
+    "text": "🇫🇷 From air defence and drones to space and cyber capabilities, see where France is investing and how suppliers can engage. Download the latest Market Navigator Teaser →",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "",
+    "post_id": "7475143911322112000",
     "hashtags": [],
     "mentions": [],
     "external_links": [],
-    "reactions": null,
+    "reactions": 73,
     "comments": null,
-    "collected_at": "2026-09-28T08:10:58"
+    "collected_at": "2026-09-29T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "🚀 Designing high-speed PCBs? Signal integrity issues can quietly derail performance—before your board hits the lab. Download our FREE eBook: \"A Signal Integrity Guide to HSD PCB De",
+    "company": "",
+    "location": "",
+    "text": "🚀 Designing high-speed PCBs? Signal integrity issues can quietly derail performance—before your board hits the lab. Download our FREE eBook: \"A Signal Integrity Guide to HSD PCB Design\" and learn how to: ✔️ Avoid crosstalk and reflections ✔️ Improve BER and reduce jitter ✔️ Ensure compliance with PCIe, USB, DDR, and more 👉 Get your copy now and design with confidence",
+    "url": "",
+    "source_file": "linkedin_feed_2026-09-29_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "",
+    "post_id": "7381635707464880128",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 323,
+    "comments": null,
+    "collected_at": "2026-09-29T08:10:58"
   }
 ]
