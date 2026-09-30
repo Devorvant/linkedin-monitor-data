@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "partial": true,
-  "note": "Список неполный: сохранены только компании, явно видимые на присланном скриншоте.",
+  "note": "Список пока неполный: companies — компании со скриншота, groups — группы из сохраненной страницы LinkedIn.",
   "companies": [
     {
       "name": "Department of Aerospace Science and Technology - Politec…",
@@ -18,6 +18,20 @@
     {
       "name": "Embention",
       "status": "FOLLOWING"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Drone / UAV / UAS / RPAS / eVTOL Global Network",
+      "status": "MEMBER"
+    },
+    {
+      "name": "DRONES & EVTOL MARKETPLACE soon relaunching www.drones.aero",
+      "status": "MEMBER"
+    },
+    {
+      "name": "VertiUp [Advanced & Urban Air Mobility & eVTOLs]",
+      "status": "MEMBER"
     }
   ]
 }
