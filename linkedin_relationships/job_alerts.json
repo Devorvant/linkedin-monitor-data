@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "captured_on": "2026-10-01",
+  "source": "LinkedIn Jobs settings screenshots",
+  "count": 4,
+  "alerts": [
+    {
+      "query": "remote aviation",
+      "location": "Any country",
+      "filters": [
+        "Remote"
+      ],
+      "frequency": "Daily",
+      "delivery": [
+        "Email",
+        "LinkedIn notifications"
+      ]
+    },
+    {
+      "query": "Simulink",
+      "location": "Europe, Middle East and Africa",
+      "filters": [
+        "Remote"
+      ],
+      "frequency": "Daily",
+      "delivery": [
+        "Email",
+        "LinkedIn notifications"
+      ]
+    },
+    {
+      "query": "matlab",
+      "location": "Europe, Middle East and Africa",
+      "filters": [
+        "Remote"
+      ],
+      "frequency": "Daily",
+      "delivery": [
+        "Email",
+        "LinkedIn notifications"
+      ]
+    },
+    {
+      "query": "remote",
+      "location": "Any country",
+      "filters": [
+        "Joby Aviation"
+      ],
+      "frequency": "Daily",
+      "delivery": [
+        "Email",
+        "LinkedIn notifications"
+      ]
+    }
+  ]
+}
