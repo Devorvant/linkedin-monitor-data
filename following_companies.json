@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "partial": true,
+  "note": "Список неполный: сохранены только компании, явно видимые на присланном скриншоте.",
+  "companies": [
+    {
+      "name": "Department of Aerospace Science and Technology - Politec…",
+      "status": "FOLLOWING"
+    },
+    {
+      "name": "MathWorks",
+      "status": "FOLLOWING"
+    },
+    {
+      "name": "SkyGrid",
+      "status": "FOLLOWING"
+    },
+    {
+      "name": "Embention",
+      "status": "FOLLOWING"
+    }
+  ]
+}
