@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "captured_on": "2026-09-30",
+  "count": 6,
+  "newsletters": [
+    {
+      "name": "AI Insights for Business",
+      "publisher": "NVIDIA AI",
+      "url": "https://www.linkedin.com/newsletters/7249205976015253504/",
+      "status": "SUBSCRIBED"
+    },
+    {
+      "name": "Corporate Legal Wars",
+      "publisher": "Priyam K.",
+      "url": "https://www.linkedin.com/newsletters/7455192471422029824/",
+      "status": "SUBSCRIBED"
+    },
+    {
+      "name": "OOR Monthly Updates",
+      "publisher": "Open Ocean Robotics",
+      "url": "https://www.linkedin.com/newsletters/7391162368875073536/",
+      "status": "SUBSCRIBED"
+    },
+    {
+      "name": "The Airbus NOVA Newsletter",
+      "publisher": "Airbus",
+      "url": "https://www.linkedin.com/newsletters/7000824421267480577/",
+      "status": "SUBSCRIBED"
+    },
+    {
+      "name": "Vector Star",
+      "publisher": "Lockheed Martin",
+      "url": "https://www.linkedin.com/newsletters/7207350603075706880/",
+      "status": "SUBSCRIBED"
+    },
+    {
+      "name": "Job insider by Jooble",
+      "publisher": "Jooble",
+      "url": "https://www.linkedin.com/newsletters/7366053655432634369/",
+      "status": "SUBSCRIBED"
+    }
+  ]
+}
