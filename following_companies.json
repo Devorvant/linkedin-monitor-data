@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "partial": true,
-  "note": "Список пока неполный: companies — компании со скриншота, groups — группы из сохраненной страницы LinkedIn.",
+  "note": "Список пока неполный: companies — компании со скриншота; groups, newsletters и schools — извлечены из сохраненных страниц LinkedIn.",
   "companies": [
     {
       "name": "Department of Aerospace Science and Technology - Politec…",
@@ -32,6 +32,56 @@
     {
       "name": "VertiUp [Advanced & Urban Air Mobility & eVTOLs]",
       "status": "MEMBER"
+    }
+  ],
+  "newsletters": [
+    {
+      "name": "AI Insights for Business",
+      "publisher": "NVIDIA AI",
+      "url": "https://www.linkedin.com/newsletters/7249205976015253504/",
+      "status": "SUBSCRIBED"
+    },
+    {
+      "name": "Corporate Legal Wars",
+      "publisher": "Priyam K.",
+      "url": "https://www.linkedin.com/newsletters/7455192471422029824/",
+      "status": "SUBSCRIBED"
+    },
+    {
+      "name": "OOR Monthly Updates",
+      "publisher": "Open Ocean Robotics",
+      "url": "https://www.linkedin.com/newsletters/7391162368875073536/",
+      "status": "SUBSCRIBED"
+    },
+    {
+      "name": "The Airbus NOVA Newsletter",
+      "publisher": "Airbus",
+      "url": "https://www.linkedin.com/newsletters/7000824421267480577/",
+      "status": "SUBSCRIBED"
+    },
+    {
+      "name": "Vector Star",
+      "publisher": "Lockheed Martin",
+      "url": "https://www.linkedin.com/newsletters/7207350603075706880/",
+      "status": "SUBSCRIBED"
+    },
+    {
+      "name": "Job insider by Jooble",
+      "publisher": "Jooble",
+      "url": "https://www.linkedin.com/newsletters/7366053655432634369/",
+      "status": "SUBSCRIBED"
+    }
+  ],
+  "schools": [
+    {
+      "name": "Национальный исследовательский ядерный университет «МИФИ»",
+      "url": "https://www.linkedin.com/school/национальный-исследовательский-ядерный-университет-мифи-/",
+      "status": "FOLLOWING"
+    },
+    {
+      "name": "Московский авиационный институт (Национальный исследовательский университет)",
+      "url": "https://www.linkedin.com/school/московский-авиационный-институт-национальный-исследовательский-университет-/",
+      "status": "FOLLOWING"
     }
   ]
 }
