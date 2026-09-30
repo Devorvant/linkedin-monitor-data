@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "captured_on": "2026-09-30",
+  "count": 3,
+  "following_people": [
+    {
+      "linkedin_id": "ACoAACe9vrIBPg96NK9O_RJRWsJRqAGjnM2A3RY",
+      "status": "FOLLOWING_PERSON"
+    },
+    {
+      "linkedin_id": "ACoAAABD-gUBfp7b6mmEQQX3e-dj9mN1K7EHvJo",
+      "status": "FOLLOWING_PERSON"
+    },
+    {
+      "linkedin_id": "ACoAADWGmQkBpcklKrd4LnpBdxyUTKq9VU8-jg4",
+      "status": "FOLLOWING_PERSON"
+    }
+  ]
+}
