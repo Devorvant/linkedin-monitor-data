@@ -9,11 +9,20 @@
     },
     {
       "linkedin_id": "ACoAAABD-gUBfp7b6mmEQQX3e-dj9mN1K7EHvJo",
-      "status": "FOLLOWING_PERSON"
+      "status": "FOLLOWING_PERSON",
+      "linkedin_slug": "sachinjainphd"
     },
     {
       "linkedin_id": "ACoAADWGmQkBpcklKrd4LnpBdxyUTKq9VU8-jg4",
-      "status": "FOLLOWING_PERSON"
+      "status": "FOLLOWING_PERSON",
+      "linkedin_slug": "dronethrusttest"
     }
-  ]
+  ],
+  "matching": {
+    "preferred_keys": [
+      "linkedin_id",
+      "linkedin_slug"
+    ],
+    "note": "linkedin_slug aliases are added when the same person appears in Feed/Notifications with a public /in/ URL."
+  }
 }
