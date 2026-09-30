@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "captured_on": "2026-10-01",
+  "job_titles": [
+    "Senior Control System Engineer",
+    "Robotics Developer",
+    "Research And Development Engineer",
+    "Senior Machine Learning Engineer",
+    "Robotics Specialist"
+  ],
+  "workplace_types": [
+    "On-site",
+    "Hybrid",
+    "Remote"
+  ],
+  "on_site_regions": [
+    "Russia",
+    "Kazakhstan"
+  ],
+  "remote_regions": [
+    "Europe, Middle East and Africa",
+    "United States",
+    "Russia",
+    "Asia-Pacific and Japan",
+    "Latin America"
+  ],
+  "start_date": "No specific date; browsing from time to time",
+  "employment_types": [
+    "Full-time",
+    "Part-time",
+    "Contract",
+    "Temporary"
+  ],
+  "internship_selected": false,
+  "job_recommendation_personalization": true
+}
