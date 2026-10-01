@@ -1,23 +1,13 @@
 [
   {
     "type": "company",
-    "title": "AVIO",
+    "title": "Amca",
     "company": "",
     "location": "",
-    "text": "AVIO",
-    "url": "https://www.linkedin.com/company/avio-s-p-a/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
-  },
-  {
-    "type": "company",
-    "title": "Airbus Aircraft",
-    "company": "",
-    "location": "",
-    "text": "Airbus Aircraft",
-    "url": "https://www.linkedin.com/company/airbus/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Amca",
+    "url": "https://www.linkedin.com/company/amcainc/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
@@ -26,48 +16,78 @@
     "location": "",
     "text": "Anduril Industries",
     "url": "https://www.linkedin.com/company/anduril/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
-    "title": "Armis",
+    "title": "Antares",
     "company": "",
     "location": "",
-    "text": "Armis",
-    "url": "https://www.linkedin.com/company/armis-security/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Antares",
+    "url": "https://www.linkedin.com/company/antares-industries/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
-    "title": "BETA TECHNOLOGIES",
+    "title": "Apex",
     "company": "",
     "location": "",
-    "text": "BETA TECHNOLOGIES",
-    "url": "https://www.linkedin.com/company/beta-air-llc/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Apex",
+    "url": "https://www.linkedin.com/company/apex-spacecraft/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
-    "title": "Boeing",
+    "title": "Archer",
     "company": "",
     "location": "",
-    "text": "Boeing",
-    "url": "https://www.linkedin.com/company/boeing/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Archer",
+    "url": "https://www.linkedin.com/company/flyarcher/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
-    "title": "Boeing Подтверждено Boeing 4 216 606 отслеживающих",
+    "title": "Arkenstone Defense",
     "company": "",
     "location": "",
-    "text": "Boeing Подтверждено Boeing 4 216 606 отслеживающих",
-    "url": "https://www.linkedin.com/company/boeing/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Arkenstone Defense",
+    "url": "https://www.linkedin.com/company/arkenstonedefense/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Array Labs",
+    "company": "",
+    "location": "",
+    "text": "Array Labs",
+    "url": "https://www.linkedin.com/company/array-labs/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Bulwark Dynamics",
+    "company": "",
+    "location": "",
+    "text": "Bulwark Dynamics",
+    "url": "https://www.linkedin.com/company/bulwark-dynamics/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "COMPASS PoliMi",
+    "company": "",
+    "location": "",
+    "text": "COMPASS PoliMi",
+    "url": "https://www.linkedin.com/company/compass-polimi/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
@@ -76,8 +96,158 @@
     "location": "",
     "text": "Cadence",
     "url": "https://www.linkedin.com/company/cadence/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Cape",
+    "company": "",
+    "location": "",
+    "text": "Cape",
+    "url": "https://www.linkedin.com/company/capecellular/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Castelion",
+    "company": "",
+    "location": "",
+    "text": "Castelion",
+    "url": "https://www.linkedin.com/company/castelion/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Chariot Defense",
+    "company": "",
+    "location": "",
+    "text": "Chariot Defense",
+    "url": "https://www.linkedin.com/company/chariotdefense/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Clearview AI",
+    "company": "",
+    "location": "",
+    "text": "Clearview AI",
+    "url": "https://www.linkedin.com/company/clearviewai/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Codevintec",
+    "company": "",
+    "location": "",
+    "text": "Codevintec",
+    "url": "https://www.linkedin.com/company/codevintec---tecnologie-per-le-scienze-della-terra-e-del-mare/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "DART Lab - Polimi",
+    "company": "",
+    "location": "",
+    "text": "DART Lab - Polimi",
+    "url": "https://www.linkedin.com/company/dartpolimi/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Department of Aerospace Science and Technology - Politecnico di Milano",
+    "company": "",
+    "location": "",
+    "text": "Department of Aerospace Science and Technology - Politecnico di Milano",
+    "url": "https://www.linkedin.com/company/department-daer-polimi/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "DeployX",
+    "company": "",
+    "location": "",
+    "text": "DeployX",
+    "url": "https://www.linkedin.com/company/wearedeployx/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Foundry Robotics",
+    "company": "",
+    "location": "",
+    "text": "Foundry Robotics",
+    "url": "https://www.linkedin.com/company/foundry-robotics/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Gallatin AI, Inc.",
+    "company": "",
+    "location": "",
+    "text": "Gallatin AI, Inc.",
+    "url": "https://www.linkedin.com/company/gallatinai/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "General Matter",
+    "company": "",
+    "location": "",
+    "text": "General Matter",
+    "url": "https://www.linkedin.com/company/generalmatter/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "GitKraken",
+    "company": "",
+    "location": "",
+    "text": "GitKraken",
+    "url": "https://www.linkedin.com/company/gitkraken/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Helicon",
+    "company": "",
+    "location": "",
+    "text": "Helicon",
+    "url": "https://www.linkedin.com/company/heliconindustries/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Heven AeroTech",
+    "company": "",
+    "location": "",
+    "text": "Heven AeroTech",
+    "url": "https://www.linkedin.com/company/hevenaerotech/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Hoplynk",
+    "company": "",
+    "location": "",
+    "text": "Hoplynk",
+    "url": "https://www.linkedin.com/company/hoplynk/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
@@ -86,18 +256,28 @@
     "location": "",
     "text": "Joby Aviation",
     "url": "https://www.linkedin.com/company/jobyaviation/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
-    "title": "Kentuckians for Better Transportation",
+    "title": "KHARROS",
     "company": "",
     "location": "",
-    "text": "Kentuckians for Better Transportation",
-    "url": "https://www.linkedin.com/company/kentuckians-for-better-transportation-kbt-/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "KHARROS",
+    "url": "https://www.linkedin.com/company/kharros/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "L3Harris Technologies",
+    "company": "",
+    "location": "",
+    "text": "L3Harris Technologies",
+    "url": "https://www.linkedin.com/company/l3harris-technologies/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
@@ -106,18 +286,28 @@
     "location": "",
     "text": "Lockheed Martin",
     "url": "https://www.linkedin.com/company/lockheed-martin/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
-    "title": "Louisville Regional Airport Authority",
+    "title": "Lockheed Martin Подтверждено Lockheed Martin 3 335 251 отслеживающий",
     "company": "",
     "location": "",
-    "text": "Louisville Regional Airport Authority",
-    "url": "https://www.linkedin.com/company/flylouisville/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Lockheed Martin Подтверждено Lockheed Martin 3 335 251 отслеживающий",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Lumbra",
+    "company": "",
+    "location": "",
+    "text": "Lumbra",
+    "url": "https://www.linkedin.com/company/lumbra-ai/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
@@ -126,38 +316,168 @@
     "location": "",
     "text": "MathWorks",
     "url": "https://www.linkedin.com/company/the-mathworks_2/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
-    "title": "NYSE",
+    "title": "Matter Intelligence",
     "company": "",
     "location": "",
-    "text": "NYSE",
-    "url": "https://www.linkedin.com/company/nyse/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Matter Intelligence",
+    "url": "https://www.linkedin.com/company/matter-intelligence/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
-    "title": "Oklahoma Business Voice",
+    "title": "Navi AI",
     "company": "",
     "location": "",
-    "text": "Oklahoma Business Voice",
-    "url": "https://www.linkedin.com/company/oklahoma-business-voice/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Navi AI",
+    "url": "https://www.linkedin.com/company/fly-navi/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
-    "title": "PNY Technologies Europe & MEA",
+    "title": "Nominal",
     "company": "",
     "location": "",
-    "text": "PNY Technologies Europe & MEA",
-    "url": "https://www.linkedin.com/company/pny-technologies-europe/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Nominal",
+    "url": "https://www.linkedin.com/company/nominal-inc/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Norcal APEX Accelerator",
+    "company": "",
+    "location": "",
+    "text": "Norcal APEX Accelerator",
+    "url": "https://www.linkedin.com/company/norcalapex/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Overland AI",
+    "company": "",
+    "location": "",
+    "text": "Overland AI",
+    "url": "https://www.linkedin.com/company/overland-ai/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Picogrid",
+    "company": "",
+    "location": "",
+    "text": "Picogrid",
+    "url": "https://www.linkedin.com/company/picogrid/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Revere Defense Technologies",
+    "company": "",
+    "location": "",
+    "text": "Revere Defense Technologies",
+    "url": "https://www.linkedin.com/company/revere-defense/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Rivet Industries",
+    "company": "",
+    "location": "",
+    "text": "Rivet Industries",
+    "url": "https://www.linkedin.com/company/rivetindustries/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Saildrone",
+    "company": "",
+    "location": "",
+    "text": "Saildrone",
+    "url": "https://www.linkedin.com/company/saildrone-inc/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Sarla Aviation",
+    "company": "",
+    "location": "",
+    "text": "Sarla Aviation",
+    "url": "https://www.linkedin.com/company/sarla-aviation/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Scout AI",
+    "company": "",
+    "location": "",
+    "text": "Scout AI",
+    "url": "https://www.linkedin.com/company/scout-ai-official/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Stanford Gordian Knot Center for National Security Innovation",
+    "company": "",
+    "location": "",
+    "text": "Stanford Gordian Knot Center for National Security Innovation",
+    "url": "https://www.linkedin.com/company/stanfordgkc/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Swarm Aero",
+    "company": "",
+    "location": "",
+    "text": "Swarm Aero",
+    "url": "https://www.linkedin.com/company/swarm-aero/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Toyota North America",
+    "company": "",
+    "location": "",
+    "text": "Toyota North America",
+    "url": "https://www.linkedin.com/company/toyota-north-america/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Trinseo",
+    "company": "",
+    "location": "",
+    "text": "Trinseo",
+    "url": "https://www.linkedin.com/company/trinseo/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Ulysses",
+    "company": "",
+    "location": "",
+    "text": "Ulysses",
+    "url": "https://www.linkedin.com/company/ulysses-inc/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
@@ -166,18 +486,28 @@
     "location": "",
     "text": "Unity",
     "url": "https://www.linkedin.com/company/unity/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
-    "title": "Vertical Aerospace",
+    "title": "Usul",
     "company": "",
     "location": "",
-    "text": "Vertical Aerospace",
-    "url": "https://www.linkedin.com/company/vertical-aerospace-ltd/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Usul",
+    "url": "https://www.linkedin.com/company/usulmafia/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Virtualitics",
+    "company": "",
+    "location": "",
+    "text": "Virtualitics",
+    "url": "https://www.linkedin.com/company/virtualitics/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "company",
@@ -186,118 +516,328 @@
     "location": "",
     "text": "Voyager Technologies",
     "url": "https://www.linkedin.com/company/voyagertechnologies-inc/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Xcimer Energy",
+    "company": "",
+    "location": "",
+    "text": "Xcimer Energy",
+    "url": "https://www.linkedin.com/company/xcimer-energy-corporation/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Akshat Shrivastava Founder@Wisdom Hatch | Full time Investor Люди в вашем сообществе отслеживают Отслеживать",
+    "title": "Adrian Schmidt",
     "company": "",
     "location": "",
-    "text": "Akshat Shrivastava Founder@Wisdom Hatch | Full time Investor Люди в вашем сообществе отслеживают Отслеживать",
-    "url": "https://www.linkedin.com/in/akshatshrivastavainsead/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Adrian Schmidt",
+    "url": "https://www.linkedin.com/in/adrnschm/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Alexander Shatunov",
+    "title": "Alberto Savino",
     "company": "",
     "location": "",
-    "text": "Alexander Shatunov",
-    "url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Alberto Savino",
+    "url": "https://www.linkedin.com/in/alberto-savino-7b12a01a0/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Ashley Mastronardi",
+    "title": "Alberto Verga",
     "company": "",
     "location": "",
-    "text": "Ashley Mastronardi",
-    "url": "https://www.linkedin.com/in/ashleymastronardi/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Alberto Verga",
+    "url": "https://www.linkedin.com/in/alberto-verga/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Athanasios Digkas",
+    "title": "Alessandro Croce",
     "company": "",
     "location": "",
-    "text": "Athanasios Digkas",
-    "url": "https://www.linkedin.com/in/athanasios-digkas-10660722a/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Alessandro Croce",
+    "url": "https://www.linkedin.com/in/alessandrocroce/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Ben Francis MBE CEO & Founder of Gymshark Люди в вашем сообществе отслеживают Отслеживать",
+    "title": "Alex Zanotti",
     "company": "",
     "location": "",
-    "text": "Ben Francis MBE CEO & Founder of Gymshark Люди в вашем сообществе отслеживают Отслеживать",
-    "url": "https://www.linkedin.com/in/gymshark/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Alex Zanotti",
+    "url": "https://www.linkedin.com/in/alex-zanotti-a79a438/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Dimitrios Diakoloukas",
+    "title": "Anatoli Mitrou",
     "company": "",
     "location": "",
-    "text": "Dimitrios Diakoloukas",
-    "url": "https://www.linkedin.com/in/dimitrios-diakoloukas-a00564247/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Anatoli Mitrou",
+    "url": "https://www.linkedin.com/in/anatoli-mitrou/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Dimitrios Diakoloukas • 3-й+",
+    "title": "Andreas Hamilton",
     "company": "",
     "location": "",
-    "text": "Dimitrios Diakoloukas • 3-й+",
-    "url": "https://www.linkedin.com/in/dimitrios-diakoloukas-a00564247/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Andreas Hamilton",
+    "url": "https://www.linkedin.com/in/dre-hamilton/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Dimitrios Ioannidis",
+    "title": "Anthony Albanese Building Australia’s future. 🇦🇺 Prime Minister of Australia. Grayndler MP. Authorised by Anthony Albanese, ALP, Canberra. Люди в вашем сообществе отслеживают Отслеживать",
     "company": "",
     "location": "",
-    "text": "Dimitrios Ioannidis",
-    "url": "https://www.linkedin.com/in/dimitrios-ioannidis-534081294/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Anthony Albanese Building Australia’s future. 🇦🇺 Prime Minister of Australia. Grayndler MP. Authorised by Anthony Albanese, ALP, Canberra. Люди в вашем сообществе отслеживают Отслеживать",
+    "url": "https://www.linkedin.com/in/albomp/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Krishna Keerthana Chiruvolu",
+    "title": "Antonio Raimondo",
     "company": "",
     "location": "",
-    "text": "Krishna Keerthana Chiruvolu",
-    "url": "https://www.linkedin.com/in/krishna-keerthana-chiruvolu-981181223/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Antonio Raimondo",
+    "url": "https://www.linkedin.com/in/antonio-raimondo/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Manjunath R",
+    "title": "Bianca Omede'",
     "company": "",
     "location": "",
-    "text": "Manjunath R",
-    "url": "https://www.linkedin.com/in/manjunath-r-65ab9740/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Bianca Omede'",
+    "url": "https://www.linkedin.com/in/biancaomede/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Marios Antakis",
+    "title": "Camilla Colombo",
     "company": "",
     "location": "",
-    "text": "Marios Antakis",
-    "url": "https://www.linkedin.com/in/marios-antakis-004ba5249/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Camilla Colombo",
+    "url": "https://www.linkedin.com/in/camilla-colombo-8520407/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Donato Grassi",
+    "company": "",
+    "location": "",
+    "text": "Donato Grassi",
+    "url": "https://www.linkedin.com/in/donato-grassi-8135406/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Faezeh Amirteimoury",
+    "company": "",
+    "location": "",
+    "text": "Faezeh Amirteimoury",
+    "url": "https://www.linkedin.com/in/faezeh-amirteimoury-b98389107/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Federico Ghioldi",
+    "company": "",
+    "location": "",
+    "text": "Federico Ghioldi",
+    "url": "https://www.linkedin.com/in/federico-ghioldi/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Filippo Maggi",
+    "company": "",
+    "location": "",
+    "text": "Filippo Maggi",
+    "url": "https://www.linkedin.com/in/fmaggi/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Francesca Spini",
+    "company": "",
+    "location": "",
+    "text": "Francesca Spini",
+    "url": "https://www.linkedin.com/in/francesca-spini-104a98213/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Francesco Topputo",
+    "company": "",
+    "location": "",
+    "text": "Francesco Topputo",
+    "url": "https://www.linkedin.com/in/francesco-topputo-7667991/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Ivan Smirnov • 1-й",
+    "company": "",
+    "location": "",
+    "text": "Ivan Smirnov • 1-й",
+    "url": "https://www.linkedin.com/in/ivan-smirnov-/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Krishna Pal Rajput",
+    "company": "",
+    "location": "",
+    "text": "Krishna Pal Rajput",
+    "url": "https://www.linkedin.com/in/krishna-pal-rajput-a9a83689/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Luca Riccobene",
+    "company": "",
+    "location": "",
+    "text": "Luca Riccobene",
+    "url": "https://www.linkedin.com/in/lucariccobene/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Luca Scampini",
+    "company": "",
+    "location": "",
+    "text": "Luca Scampini",
+    "url": "https://www.linkedin.com/in/luca-scampini-970168227/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Lucrezia Calzoni",
+    "company": "",
+    "location": "",
+    "text": "Lucrezia Calzoni",
+    "url": "https://www.linkedin.com/in/lucreziacalzoni/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Mara Galliani",
+    "company": "",
+    "location": "",
+    "text": "Mara Galliani",
+    "url": "https://www.linkedin.com/in/mara-galliani-400030411/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Marco Anghileri",
+    "company": "",
+    "location": "",
+    "text": "Marco Anghileri",
+    "url": "https://www.linkedin.com/in/marco-anghileri-312a19/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Mathilda Bolis",
+    "company": "",
+    "location": "",
+    "text": "Mathilda Bolis",
+    "url": "https://www.linkedin.com/in/mathilda-bolis/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Michèle Lavagna",
+    "company": "",
+    "location": "",
+    "text": "Michèle Lavagna",
+    "url": "https://www.linkedin.com/in/mich%C3%A8le-lavagna-mickie/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Paolo Bettini",
+    "company": "",
+    "location": "",
+    "text": "Paolo Bettini",
+    "url": "https://www.linkedin.com/in/paolo-bettini-39ab582b9/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Payal Satish",
+    "company": "",
+    "location": "",
+    "text": "Payal Satish",
+    "url": "https://www.linkedin.com/in/payal-satish/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Rakesh Gaonkar",
+    "company": "",
+    "location": "",
+    "text": "Rakesh Gaonkar",
+    "url": "https://www.linkedin.com/in/rakesh-gaonkar/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Samantha Martin • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Samantha Martin • 3-й+",
+    "url": "https://www.linkedin.com/in/samantha-martin-476819182/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Sergey Imeryakov • 2-й",
+    "company": "",
+    "location": "",
+    "text": "Sergey Imeryakov • 2-й",
+    "url": "https://www.linkedin.com/in/imeryakovs/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
@@ -306,48 +846,78 @@
     "location": "",
     "text": "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва",
     "url": "https://www.linkedin.com/in/devorvant/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Shivam Chauhan (शिवम् चौहाण) Building Defence tech startup (stealth) | Avendus & Hurun U30 2025 | Sarla Aviation Co-Founder & Chief Innovation Officer Отслеживается 2 контактами Отслеживать",
+    "title": "Shubham Tiwari • 3-й+",
     "company": "",
     "location": "",
-    "text": "Shivam Chauhan (शिवम् चौहाण) Building Defence tech startup (stealth) | Avendus & Hurun U30 2025 | Sarla Aviation Co-Founder & Chief Innovation Officer Отслеживается 2 контактами Отслеживать",
-    "url": "https://www.linkedin.com/in/shivam-h-chauhan/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Shubham Tiwari • 3-й+",
+    "url": "https://www.linkedin.com/in/shubh33/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Stuart Simpson",
+    "title": "Stefania Carlotti",
     "company": "",
     "location": "",
-    "text": "Stuart Simpson",
-    "url": "https://www.linkedin.com/in/stuart-simpson-18a3643/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Stefania Carlotti",
+    "url": "https://www.linkedin.com/in/stefania-carlotti-2101/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Vasily Volishevskiy • 2-й",
+    "title": "Tatsiana Davydzenka IT Recruiter Отслеживается 2 контактами Отслеживать",
     "company": "",
     "location": "",
-    "text": "Vasily Volishevskiy • 2-й",
-    "url": "https://www.linkedin.com/in/volishevskiyvasily/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Tatsiana Davydzenka IT Recruiter Отслеживается 2 контактами Отслеживать",
+    "url": "https://www.linkedin.com/in/tatsianadavydzenka/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
-    "title": "Vassilis Diakoloukas • 3-й+",
+    "title": "Tatsiana Marochka IT Recruiter | Technical Sourcer Отслеживается 1 контактом Отслеживать",
     "company": "",
     "location": "",
-    "text": "Vassilis Diakoloukas • 3-й+",
-    "url": "https://www.linkedin.com/in/vassilis-diakoloukas-b581ba5/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "text": "Tatsiana Marochka IT Recruiter | Technical Sourcer Отслеживается 1 контактом Отслеживать",
+    "url": "https://www.linkedin.com/in/ta-mayskaya/ru/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Vittoria Mancinelli",
+    "company": "",
+    "location": "",
+    "text": "Vittoria Mancinelli",
+    "url": "https://www.linkedin.com/in/vittoria-mancinelli-701169363/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "Xi Li",
+    "company": "",
+    "location": "",
+    "text": "Xi Li",
+    "url": "https://www.linkedin.com/in/xi-li-756443195/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "person",
+    "title": "andrea milanese",
+    "company": "",
+    "location": "",
+    "text": "andrea milanese",
+    "url": "https://www.linkedin.com/in/andrea-milanese-02b48b58/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
@@ -356,8 +926,8 @@
     "location": "",
     "text": "Аида Гайнутдинова",
     "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "person",
@@ -366,58 +936,210 @@
     "location": "",
     "text": "Астроно",
     "url": "https://www.linkedin.com/in/devorvant/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ • 1-й",
-    "company": "",
-    "location": "",
-    "text": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ • 1-й",
-    "url": "https://www.linkedin.com/in/veronekoshat/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "collected_at": "2026-09-30T08:10:59"
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "post",
-    "title": "ALIA A250. A VTOL aircraft with 80% in common with our CTOL. Same foundation. Same manufacturing line. Different takeoff.",
+    "title": "Adrian Schmidt",
     "company": "",
     "location": "",
-    "text": "ALIA A250. A VTOL aircraft with 80% in common with our CTOL. Same foundation. Same manufacturing line. Different takeoff.",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "10 ч.",
-    "post_id": "7510775722244833280",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": 204,
-    "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Alexander Shatunov",
-    "company": "",
-    "location": "",
-    "text": "Hi Sergey, BMW Group replaced manual teardowns with centralized 3D data and AI-driven component analysis. Get the technical breakdown",
-    "url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "author": "Alexander Shatunov",
+    "text": "We're hiring at Sarla Aviation! At Sarla Aviation, we're inventing aircraft tech. Flight controls that don't have a playbook yet, avionics for a category that didn't exist five years ago, Firmware and simulators built from scratch for machines. We're hiring across Flight Controls, Flight Dynamics, Avionics, Software and Firmware, and Aircraft Design. If \"it's never been done before\" excites you more than it scares you, this is your kind of hard problem. Adrian Schmidt Rakesh Gaonkar Payal Satish Krishna Pal Rajput https://lnkd.in/egByX4jq",
+    "url": "https://www.linkedin.com/in/adrnschm/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "author": "Adrian Schmidt",
     "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
-    "posted_time": "",
+    "author_url": "https://www.linkedin.com/in/adrnschm/",
+    "posted_time": "16 ч.",
     "post_id": "",
     "hashtags": [],
-    "mentions": [],
+    "mentions": [
+      {
+        "name": "Adrian Schmidt",
+        "url": "https://www.linkedin.com/in/adrnschm/"
+      },
+      {
+        "name": "Rakesh Gaonkar",
+        "url": "https://www.linkedin.com/in/rakesh-gaonkar/"
+      },
+      {
+        "name": "Payal Satish",
+        "url": "https://www.linkedin.com/in/payal-satish/"
+      },
+      {
+        "name": "Krishna Pal Rajput",
+        "url": "https://www.linkedin.com/in/krishna-pal-rajput-a9a83689/"
+      }
+    ],
     "external_links": [],
-    "reactions": 66,
+    "reactions": 152,
     "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "post",
+    "title": "Andreas Hamilton",
+    "company": "",
+    "location": "",
+    "text": "On Tuesday, October 6, Stanford Gordian Knot Center for National Security Innovation is hosting the Stanford Advanced Technology Career Fair. These teams are building nuclear microreactors, fusion lasers, autonomous ships and aircraft, spacecraft, and AI for national security. They're hiring for full-time roles and summer internships across software and AI, hardware engineering, business and operations, and policy. All levels and backgrounds are welcome. Open to Stanford students: Link in the comments 📍 Encina Hall, 616 Jane Stanford Way 🕒 Tuesday, October 6th from 3:00 to 6:00 PM PT Who's coming: Foundry Robotics | Antares | Heven AeroTech | CX2 | General Matter | Scout AI | Swarm Aero | Amca | Xcimer Energy | Cape | Helicon | KHARROS | Gallatin AI, Inc. | Nominal | Chariot Defense | Revere Defense Technologies | Norcal APEX Accelerator | Array Labs | Picogrid | Virtualitics | Navi AI | DeployX | Overland AI | Matter Intelligence | Hoplynk | Bulwark Dynamics | Apex | Arkenstone Defense | Ulysses | Castelion | Clearview AI | Rivet Industries | Saildrone e | Usul | Lumbra and many others Questions: Andreas Hamilton",
+    "url": "https://www.linkedin.com/in/dre-hamilton/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "author": "Andreas Hamilton",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/dre-hamilton/",
+    "posted_time": "2 дн.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "Foundry Robotics",
+        "url": "https://www.linkedin.com/company/foundry-robotics/"
+      },
+      {
+        "name": "Antares",
+        "url": "https://www.linkedin.com/company/antares-industries/"
+      },
+      {
+        "name": "Heven AeroTech",
+        "url": "https://www.linkedin.com/company/hevenaerotech/"
+      },
+      {
+        "name": "CX2",
+        "url": "https://www.linkedin.com/company/cx2-industries/"
+      },
+      {
+        "name": "General Matter",
+        "url": "https://www.linkedin.com/company/generalmatter/"
+      },
+      {
+        "name": "Scout AI",
+        "url": "https://www.linkedin.com/company/scout-ai-official/"
+      },
+      {
+        "name": "Swarm Aero",
+        "url": "https://www.linkedin.com/company/swarm-aero/"
+      },
+      {
+        "name": "Amca",
+        "url": "https://www.linkedin.com/company/amcainc/"
+      },
+      {
+        "name": "Xcimer Energy",
+        "url": "https://www.linkedin.com/company/xcimer-energy-corporation/"
+      },
+      {
+        "name": "Cape",
+        "url": "https://www.linkedin.com/company/capecellular/"
+      },
+      {
+        "name": "Helicon",
+        "url": "https://www.linkedin.com/company/heliconindustries/"
+      },
+      {
+        "name": "KHARROS",
+        "url": "https://www.linkedin.com/company/kharros/"
+      },
+      {
+        "name": "Gallatin AI, Inc.",
+        "url": "https://www.linkedin.com/company/gallatinai/"
+      },
+      {
+        "name": "Nominal",
+        "url": "https://www.linkedin.com/company/nominal-inc/"
+      },
+      {
+        "name": "Chariot Defense",
+        "url": "https://www.linkedin.com/company/chariotdefense/"
+      },
+      {
+        "name": "Revere Defense Technologies",
+        "url": "https://www.linkedin.com/company/revere-defense/"
+      },
+      {
+        "name": "Norcal APEX Accelerator",
+        "url": "https://www.linkedin.com/company/norcalapex/"
+      },
+      {
+        "name": "Array Labs",
+        "url": "https://www.linkedin.com/company/array-labs/"
+      },
+      {
+        "name": "Picogrid",
+        "url": "https://www.linkedin.com/company/picogrid/"
+      },
+      {
+        "name": "Virtualitics",
+        "url": "https://www.linkedin.com/company/virtualitics/"
+      },
+      {
+        "name": "Navi AI",
+        "url": "https://www.linkedin.com/company/fly-navi/"
+      },
+      {
+        "name": "DeployX",
+        "url": "https://www.linkedin.com/company/wearedeployx/"
+      },
+      {
+        "name": "Overland AI",
+        "url": "https://www.linkedin.com/company/overland-ai/"
+      },
+      {
+        "name": "Matter Intelligence",
+        "url": "https://www.linkedin.com/company/matter-intelligence/"
+      },
+      {
+        "name": "Hoplynk",
+        "url": "https://www.linkedin.com/company/hoplynk/"
+      },
+      {
+        "name": "Bulwark Dynamics",
+        "url": "https://www.linkedin.com/company/bulwark-dynamics/"
+      },
+      {
+        "name": "Apex",
+        "url": "https://www.linkedin.com/company/apex-spacecraft/"
+      },
+      {
+        "name": "Arkenstone Defense",
+        "url": "https://www.linkedin.com/company/arkenstonedefense/"
+      },
+      {
+        "name": "Ulysses",
+        "url": "https://www.linkedin.com/company/ulysses-inc/"
+      },
+      {
+        "name": "Castelion",
+        "url": "https://www.linkedin.com/company/castelion/"
+      },
+      {
+        "name": "Clearview AI",
+        "url": "https://www.linkedin.com/company/clearviewai/"
+      },
+      {
+        "name": "Rivet Industries",
+        "url": "https://www.linkedin.com/company/rivetindustries/"
+      },
+      {
+        "name": "Saildrone",
+        "url": "https://www.linkedin.com/company/saildrone-inc/"
+      },
+      {
+        "name": "Usul",
+        "url": "https://www.linkedin.com/company/usulmafia/"
+      },
+      {
+        "name": "Lumbra",
+        "url": "https://www.linkedin.com/company/lumbra-ai/"
+      },
+      {
+        "name": "Andreas Hamilton",
+        "url": "https://www.linkedin.com/in/dre-hamilton/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 96,
+    "comments": null,
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "post",
@@ -426,11 +1148,11 @@
     "location": "",
     "text": "Anduril and Voyager Technologies are establishing a strategic partnership to develop, test, and mass-produce the propulsion and advanced technologies behind America's most critical weapons systems and missile defense programs. The focus is delivering systems at scale. Between the two companies, billions are being invested in testing and manufacturing infrastructure. \"Bringing together the best capabilities across the industrial base is what delivers a decisive advantage for our warfighters.\" Palmer Luckey, Founder of Anduril.",
     "url": "",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
     "author": "",
     "author_type": "",
     "author_url": "",
-    "posted_time": "17 ч.",
+    "posted_time": "1 дн.",
     "post_id": "7510669902911975425",
     "hashtags": [],
     "mentions": [
@@ -440,147 +1162,342 @@
       }
     ],
     "external_links": [],
-    "reactions": 981,
+    "reactions": 1232,
     "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "post",
-    "title": "Congratulations to the Airbus Aircraft team on your first flight. 🛫",
+    "title": "Ivan Smirnov • 1-й",
     "company": "",
     "location": "",
-    "text": "Congratulations to the Airbus Aircraft team on your first flight. 🛫",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "1 дн.",
-    "post_id": "7510309811067023360",
-    "hashtags": [],
-    "mentions": [
-      {
-        "name": "Airbus Aircraft",
-        "url": "https://www.linkedin.com/company/airbus/"
-      }
-    ],
-    "external_links": [],
-    "reactions": 2604,
-    "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Delivery nearly complete! 📦 Join us LIVE from Toulouse to witness the A350F returning from its maiden flight. Note: this event remains subject to essential operational requirements",
-    "company": "",
-    "location": "",
-    "text": "Delivery nearly complete! 📦 Join us LIVE from Toulouse to witness the A350F returning from its maiden flight. Note: this event remains subject to essential operational requirements, including weather conditions.",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "1 дн.",
-    "post_id": "7510309811067023360",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": 2604,
-    "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Engineering projects generate a lot of complexity. Managing that complexity shouldn't mean managing hundreds of configuration files. R2026b introduces a single, human-readable proj",
-    "company": "",
-    "location": "",
-    "text": "Engineering projects generate a lot of complexity. Managing that complexity shouldn't mean managing hundreds of configuration files. R2026b introduces a single, human-readable project definition file, making projects easier to understand, maintain, and work with, whether you're collaborating with teammates or using AI-assisted workflows. See what's new in MATLAB Projects ⤵️",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "18 ч.",
-    "post_id": "7510644294114975745",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": 148,
-    "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "France is increasing defence spending, but where are the opportunities for industry? 📥 Download the France Defence Market Navigator Teaser to find out.",
-    "company": "",
-    "location": "",
-    "text": "France is increasing defence spending, but where are the opportunities for industry? 📥 Download the France Defence Market Navigator Teaser to find out.",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "",
-    "post_id": "7475143241118425088",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": 26,
-    "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Power your AI infrastructure with NVIDIA AI Enterprise. Combine NVIDIA AI Enterprise software with NVIDIA RTX PRO Servers to develop, deploy and scale AI workloads across your ente",
-    "company": "",
-    "location": "",
-    "text": "Power your AI infrastructure with NVIDIA AI Enterprise. Combine NVIDIA AI Enterprise software with NVIDIA RTX PRO Servers to develop, deploy and scale AI workloads across your enterprise. NVIDIA RTX PRO Servers support enterprise AI workloads including agentic AI, LLM inference, industrial AI and digital twins.",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": 11,
-    "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Stuart Simpson",
-    "company": "",
-    "location": "",
-    "text": "Vertical CEO, Stuart Simpson joins Ashley Mastronardi at NYSE Floor Talk to discuss the journey of bringing eVTOL technology to life, the vision driving its development and Valo's potential to transform the future of travel. https://lnkd.in/eg2k5-NJ",
-    "url": "https://www.linkedin.com/in/stuart-simpson-18a3643/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "author": "Stuart Simpson",
+    "text": "Story points are becoming outdated for AI-driven development. When your team is made of AI agents, I think we need a different way to understand the work. Instead of asking only: “How many story points did we complete?” I want to see: → how many tokens were spent → how much machine time was used → what actually progressed → where agents are blocked → how much work is waiting for a human That is why I built a local Kanban into my Claude Code telemetry dashboard. I use it as a real-time operational view of my AI team. The Kanban itself is deliberately simple: BACKLOG → IN PROGRESS → BLOCKED → REVIEW → DONE Each task is connected to the existing telemetry, so I can see the agent, project, branch, duration, tokens, output, weighted usage and machine time without duplicating the data. But the real value for me is not the Kanban itself. It is the combination of two very different information layers. Confluence is the knowledge and decision layer. That is where I keep: → project goals and context → questions that require my input → decisions and decision tracking → results and findings → documentation produced by the agents Agents periodically write there, and I work with that information asynchronously. The dashboard is the operational layer. It gives me a real-time picture of what the AI team is doing right now: → which tasks are running → which agents are working → what is blocked → what is waiting for review → how much machine time and tokens are being consumed So I don’t need to constantly jump between Claude sessions to understand what is happening. I can work asynchronously through Confluence while keeping the real-time operational picture in the dashboard. And this is where I find the combination particularly useful. For example, a task might have been “IN PROGRESS” for three hours, but the actual machine time could be only 40 minutes. That shows me that the remaining time was spent waiting, for another agent, a dependency, or me. The key when working with an AI team is to pay close attention not just to agent activity, but to how efficiently the team produces a real, deliverable outcome. For example: • for customer pipeline optimization - the number and quality of ready-to-send recommendations that can be directly shared with the customer; • for an AI bug-fixer - the number of successfully fixed bugs relative to the number of tokens consumed; • for any other workflow - define a specific, measurable outcome and evaluate it against the AI resources consumed.",
+    "url": "https://www.linkedin.com/in/ivan-smirnov-/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "author": "Ivan Smirnov • 1-й",
     "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/stuart-simpson-18a3643/",
+    "author_url": "https://www.linkedin.com/in/ivan-smirnov-/",
+    "posted_time": "2 дн.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 12,
+    "comments": null,
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "post",
+    "title": "Michèle Lavagna",
+    "company": "",
+    "location": "",
+    "text": "Dal 18 al 20 settembre il Politecnico di Milano ha aperto le porte al pubblico per il Festival Internazionale dell’Ingegneria 2026, dedicato quest’anno al tema “Technology for Humanity”. Anche il Department of Aerospace Science and Technology - Politecnico di Milano ha partecipato al Festival portando ricerca e ingegneria aerospaziale fuori dai laboratori e a contatto con il pubblico. Tra open labs, lezioni divulgative e attività dedicate a bambini e teenager, i visitatori hanno potuto scoprire da vicino alcune delle sfide su cui lavorano ogni giorno i nostri ricercatori: dall’esplorazione e dalla sostenibilità nello spazio ai satelliti e ai detriti orbitali, dai materiali avanzati alle strutture aeronautiche del futuro, fino all’energia eolica, all’aeroacustica, alla sicurezza dei veicoli e alle nuove soluzioni per un’aviazione più efficiente. Un’occasione per aprire i nostri laboratori, mostrare tecnologie e prototipi e raccontare la ricerca attraverso esperimenti, dimostrazioni e attività interattive rivolte a pubblici di tutte le età. Grazie a tutte le persone del dipartimento che hanno contribuito alle attività e a chi è venuto a trovarci durante il Festival! Michèle Lavagna Filippo Maggi Federico Ghioldi Stefania Carlotti Alberto Verga Camilla Colombo Mathilda Bolis Alessandro Croce Lucrezia Calzoni Mara Galliani Faezeh Amirteimoury Xi Li Antonio Raimondo Anatoli Mitrou Vittoria Mancinelli Alex Zanotti Donato Grassi Luca Riccobene Alberto Savino Paolo Bettini Francesca Spini Bianca Omede' andrea milanese Luca Scampini Marco Anghileri Francesco Topputo DART Lab - Polimi COMPASS PoliMi Scopri i dettagli degli appuntamenti che ha tenuto il DAER al Festival: https://lnkd.in/eFXsRPUY #Polimi #FestivalIngegneria #AerospaceEngineering #TechnologyForHumanity",
+    "url": "https://www.linkedin.com/in/mich%C3%A8le-lavagna-mickie/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "author": "Michèle Lavagna",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/mich%C3%A8le-lavagna-mickie/",
+    "posted_time": "20 ч.",
+    "post_id": "7510982582574985217",
+    "hashtags": [
+      "#Polimi",
+      "#FestivalIngegneria",
+      "#AerospaceEngineering",
+      "#TechnologyForHumanity"
+    ],
+    "mentions": [
+      {
+        "name": "Department of Aerospace Science and Technology - Politecnico di Milano",
+        "url": "https://www.linkedin.com/company/department-daer-polimi/"
+      },
+      {
+        "name": "Michèle Lavagna",
+        "url": "https://www.linkedin.com/in/mich%C3%A8le-lavagna-mickie/"
+      },
+      {
+        "name": "Filippo Maggi",
+        "url": "https://www.linkedin.com/in/fmaggi/"
+      },
+      {
+        "name": "Federico Ghioldi",
+        "url": "https://www.linkedin.com/in/federico-ghioldi/"
+      },
+      {
+        "name": "Stefania Carlotti",
+        "url": "https://www.linkedin.com/in/stefania-carlotti-2101/"
+      },
+      {
+        "name": "Alberto Verga",
+        "url": "https://www.linkedin.com/in/alberto-verga/"
+      },
+      {
+        "name": "Camilla Colombo",
+        "url": "https://www.linkedin.com/in/camilla-colombo-8520407/"
+      },
+      {
+        "name": "Mathilda Bolis",
+        "url": "https://www.linkedin.com/in/mathilda-bolis/"
+      },
+      {
+        "name": "Alessandro Croce",
+        "url": "https://www.linkedin.com/in/alessandrocroce/"
+      },
+      {
+        "name": "Lucrezia Calzoni",
+        "url": "https://www.linkedin.com/in/lucreziacalzoni/"
+      },
+      {
+        "name": "Mara Galliani",
+        "url": "https://www.linkedin.com/in/mara-galliani-400030411/"
+      },
+      {
+        "name": "Faezeh Amirteimoury",
+        "url": "https://www.linkedin.com/in/faezeh-amirteimoury-b98389107/"
+      },
+      {
+        "name": "Xi Li",
+        "url": "https://www.linkedin.com/in/xi-li-756443195/"
+      },
+      {
+        "name": "Antonio Raimondo",
+        "url": "https://www.linkedin.com/in/antonio-raimondo/"
+      },
+      {
+        "name": "Anatoli Mitrou",
+        "url": "https://www.linkedin.com/in/anatoli-mitrou/"
+      },
+      {
+        "name": "Vittoria Mancinelli",
+        "url": "https://www.linkedin.com/in/vittoria-mancinelli-701169363/"
+      },
+      {
+        "name": "Alex Zanotti",
+        "url": "https://www.linkedin.com/in/alex-zanotti-a79a438/"
+      },
+      {
+        "name": "Donato Grassi",
+        "url": "https://www.linkedin.com/in/donato-grassi-8135406/"
+      },
+      {
+        "name": "Luca Riccobene",
+        "url": "https://www.linkedin.com/in/lucariccobene/"
+      },
+      {
+        "name": "Alberto Savino",
+        "url": "https://www.linkedin.com/in/alberto-savino-7b12a01a0/"
+      },
+      {
+        "name": "Paolo Bettini",
+        "url": "https://www.linkedin.com/in/paolo-bettini-39ab582b9/"
+      },
+      {
+        "name": "Francesca Spini",
+        "url": "https://www.linkedin.com/in/francesca-spini-104a98213/"
+      },
+      {
+        "name": "Bianca Omede'",
+        "url": "https://www.linkedin.com/in/biancaomede/"
+      },
+      {
+        "name": "andrea milanese",
+        "url": "https://www.linkedin.com/in/andrea-milanese-02b48b58/"
+      },
+      {
+        "name": "Luca Scampini",
+        "url": "https://www.linkedin.com/in/luca-scampini-970168227/"
+      },
+      {
+        "name": "Marco Anghileri",
+        "url": "https://www.linkedin.com/in/marco-anghileri-312a19/"
+      },
+      {
+        "name": "Francesco Topputo",
+        "url": "https://www.linkedin.com/in/francesco-topputo-7667991/"
+      },
+      {
+        "name": "DART Lab - Polimi",
+        "url": "https://www.linkedin.com/company/dartpolimi/"
+      },
+      {
+        "name": "COMPASS PoliMi",
+        "url": "https://www.linkedin.com/company/compass-polimi/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 38,
+    "comments": null,
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "post",
+    "title": "Our latest analysis of 211M lines of code shows AI is accelerating development, but it is also increasing duplication and delivery instability. The gap between top teams and everyo",
+    "company": "",
+    "location": "",
+    "text": "Our latest analysis of 211M lines of code shows AI is accelerating development, but it is also increasing duplication and delivery instability. The gap between top teams and everyone else is growing, and most leaders do not see it yet.",
+    "url": "",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 69,
+    "comments": null,
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "post",
+    "title": "Reliable drone performance depends on more than the airframe. Materials play a critical role in protecting sensitive electronics, supporting communication components and maintainin",
+    "company": "",
+    "location": "",
+    "text": "Reliable drone performance depends on more than the airframe. Materials play a critical role in protecting sensitive electronics, supporting communication components and maintaining performance in changing outdoor conditions. Trinseo material solutions can help manufacturers address key requirements across drone components, including: ✔ Signal transmission for communication components ✔ Impact resistance for protective housings ✔ Dimensional stability for precise component fit ✔ UV and weather resistance for outdoor operation ✔ Flame-retardant options for demanding applications From battery enclosures and upper covers to remote controllers and optical components, Trinseo helps manufacturers select materials designed to support reliable performance across critical drone systems.",
+    "url": "",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [
+      "https://www.trinseo.com/industries/consumer-goods/drones?utm_source=linkedin&utm_medium=cpc&utm_campaign=drones&utm_content=ad2&li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029"
+    ],
+    "reactions": 6,
+    "comments": null,
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "post",
+    "title": "Rilevare sott’acqua: dal suono al dato 3D 4 webinar gratuiti con Codevintec per capire davvero il rilievo con drone marino Vuoi capire come si ottiene un buon rilievo sott’acqua? Q",
+    "company": "",
+    "location": "",
+    "text": "Rilevare sott’acqua: dal suono al dato 3D 4 webinar gratuiti con Codevintec per capire davvero il rilievo con drone marino Vuoi capire come si ottiene un buon rilievo sott’acqua? Quattro lunedì di ottobre, alle 15.00, quattro webinar di soli 30 minuti. Non una presentazione commerciale: i nostri tecnici ti spiegano in modo semplice e concreto come si misura sott’acqua, dal sonar al rilievo con un USV (Unmanned Surface Vehicle). • 5 ottobre, Cos’è il sonar: come il suono ci permette di “vedere” ciò che è sott’acqua. • 12 ottobre, Il multibeam non basta: come posizione, assetto, velocità del suono e sincronizzazione trasformano un’eco in una misura corretta. • 19 ottobre, Non solo batimetria: geofisica e oceanografia con Side Scan Sonar, Sub Bottom Profiler, ADCP (Acoustic Doppler Current Profiler) e altri payload. • 26 ottobre, Come nasce un rilievo: dal piano di missione al dato finale, per pianificare, eseguire e controllare un rilievo con un USV. E dopo i webinar il CK-14e, il drone marino progettato e realizzato interamente da Codevintec, scende in acqua: dal 9 al 13 e dal 16 al 20 novembre, con dimostrazioni dal vivo in diverse città italiane. Le tappe sono ancora in fase di definizione: iscriviti ai webinar e indicaci dove vorresti vederlo in azione. Date, iscrizioni e locandina: https://ow.ly/l3qW50ZSX42 #Codevintec #Idrografia #Batimetria #Topografia #Geomatica #Dragaggi #DroneMarino #CK14e",
+    "url": "",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "",
+    "post_id": "7510948351190810624",
+    "hashtags": [
+      "#Codevintec",
+      "#Idrografia",
+      "#Batimetria",
+      "#Topografia",
+      "#Geomatica",
+      "#Dragaggi",
+      "#DroneMarino",
+      "#CK14e"
+    ],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 7,
+    "comments": null,
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "post",
+    "title": "Samantha Martin • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Grateful to Lockheed Martin and Sr. Management, to announce my promotion to IC4 Systems Tests IPT - Staff Engineer Role. Working with LM has been a great experience. To be valued for individual contribution, recognized, treated with respect, and working with a team that upholds integrity and technical competence has been humbling to say the least. I am happy to continue the good work!",
+    "url": "https://www.linkedin.com/in/samantha-martin-476819182/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "author": "Samantha Martin • 3-й+",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/samantha-martin-476819182/",
     "posted_time": "1 дн.",
     "post_id": "",
     "hashtags": [],
     "mentions": [
       {
-        "name": "Stuart Simpson",
-        "url": "https://www.linkedin.com/in/stuart-simpson-18a3643/"
-      },
-      {
-        "name": "Ashley Mastronardi",
-        "url": "https://www.linkedin.com/in/ashleymastronardi/"
-      },
-      {
-        "name": "NYSE",
-        "url": "https://www.linkedin.com/company/nyse/"
+        "name": "Lockheed Martin",
+        "url": "https://www.linkedin.com/company/lockheed-martin/"
       }
     ],
     "external_links": [],
-    "reactions": 56,
+    "reactions": 76,
     "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "post",
+    "title": "Samantha Martin • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "Congratulations on your promotion, Samantha!",
+    "url": "https://www.linkedin.com/in/samantha-martin-476819182/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "author": "Samantha Martin • 3-й+",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/samantha-martin-476819182/",
+    "posted_time": "1 дн.",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 76,
+    "comments": null,
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "post",
+    "title": "Shubham Tiwari • 3-й+",
+    "company": "",
+    "location": "",
+    "text": "I’m happy to share that I’m starting a new position as Senior Software Engineer at MathWorks ! #NewBeginnings #CareerGrowth",
+    "url": "https://www.linkedin.com/in/shubh33/",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "author": "Shubham Tiwari • 3-й+",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/shubh33/",
+    "posted_time": "13 ч.",
+    "post_id": "",
+    "hashtags": [
+      "#NewBeginnings",
+      "#CareerGrowth"
+    ],
+    "mentions": [
+      {
+        "name": "MathWorks",
+        "url": "https://www.linkedin.com/company/the-mathworks_2/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 101,
+    "comments": null,
+    "collected_at": "2026-10-01T08:10:59"
+  },
+  {
+    "type": "post",
+    "title": "Taking mobility to new heights at Toyota HQ. 👀✈️ Joby Aviation #LetsGoPlaces",
+    "company": "",
+    "location": "",
+    "text": "Taking mobility to new heights at Toyota HQ. 👀✈️ Joby Aviation #LetsGoPlaces",
+    "url": "",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
+    "author": "",
+    "author_type": "",
+    "author_url": "",
+    "posted_time": "12 ч.",
+    "post_id": "7511107597136011264",
+    "hashtags": [
+      "#LetsGoPlaces"
+    ],
+    "mentions": [
+      {
+        "name": "Joby Aviation",
+        "url": "https://www.linkedin.com/company/jobyaviation/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 146,
+    "comments": null,
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "post",
@@ -589,7 +1506,7 @@
     "location": "",
     "text": "The EV didn't make NVH easier. It pushed the noise higher. Motor whine past 5 kHz. Gear mesh. Inverter harmonics. Road noise now the loudest source in the cabin. The critical band runs 100 Hz to 5 kHz, and no single method covers it. The Engineer's Guide to Modern NVH Simulation shows how to work the full range in MSC Nastran and Actran: heavy-fluid coupling, Virtual SEA, and ODYSSEE ROMs. Preview the first pages, then download the full guide below 👇",
     "url": "",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
     "author": "",
     "author_type": "",
     "author_url": "",
@@ -600,176 +1517,61 @@
     "external_links": [],
     "reactions": 68,
     "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "post",
-    "title": "The next generation of aviation needs engineers, software developers, manufacturers, and maintenance technicians. Oklahoma wants those jobs here. Joby Aviation brought its autonomo",
+    "title": "The mission is clear: build at the speed and scale our nation’s missile defense demands. A new contract from Lockheed Martin , valued at more than $6 billion over seven years, adva",
     "company": "",
     "location": "",
-    "text": "The next generation of aviation needs engineers, software developers, manufacturers, and maintenance technicians. Oklahoma wants those jobs here. Joby Aviation brought its autonomous J208 aircraft to Oklahoma City Tuesday, highlighting the state’s aviation workforce and role in federal research. https://lnkd.in/gVj3VvW8",
+    "text": "The mission is clear: build at the speed and scale our nation’s missile defense demands. A new contract from Lockheed Martin , valued at more than $6 billion over seven years, advances our plan to quadruple THAAD propulsion production. We’re planning a new solid rocket boost motor facility and expanding capacity for the systems that help THAAD intercept threats. http://spklr.io/6040EpR7K",
     "url": "",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
     "author": "",
     "author_type": "",
     "author_url": "",
-    "posted_time": "10 ч.",
-    "post_id": "",
+    "posted_time": "1 дн.",
+    "post_id": "7510702603295514624",
     "hashtags": [],
     "mentions": [
       {
-        "name": "Joby Aviation",
-        "url": "https://www.linkedin.com/company/jobyaviation/"
+        "name": "Lockheed Martin",
+        "url": "https://www.linkedin.com/company/lockheed-martin/"
       }
     ],
     "external_links": [],
-    "reactions": 5,
+    "reactions": 422,
     "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "post",
-    "title": "Today, we celebrated a major milestone for the U.S. defense industrial base: the groundbreaking of AVIO USA's first solid rocket motor manufacturing facility. The facility will add",
+    "title": "With the introduction of Android XR, Google is taking Maps to the next level with immersive experiences. Discover Google Maps for Android XR",
     "company": "",
     "location": "",
-    "text": "Today, we celebrated a major milestone for the U.S. defense industrial base: the groundbreaking of AVIO USA's first solid rocket motor manufacturing facility. The facility will add thousands of solid rocket motors to the domestic supply chain each year and create over 1,000 jobs for Southern Virginia. We’re proud to work hand in hand with Avio to expand this critical capability for the entire defense industrial base. By expanding domestic propulsion capacity and diversifying the supply chain, we’re helping accelerate production and deliver reliable capabilities to the warfighter and our allies when they need them most.",
+    "text": "With the introduction of Android XR, Google is taking Maps to the next level with immersive experiences. Discover Google Maps for Android XR",
     "url": "",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "9 ч.",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [
-      {
-        "name": "AVIO",
-        "url": "https://www.linkedin.com/company/avio-s-p-a/"
-      }
-    ],
-    "external_links": [],
-    "reactions": 478,
-    "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Vassilis Diakoloukas • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "Incredibly proud moment! 🏆 Huge congratulations to my son, Dimitrios Diakoloukas , and his teammates, for taking 1st place in the MathWorks Minidrone Competition Europe in Cambridge! Competing against ~70 university teams and successfully bringing complex autonomous navigation and computer vision algorithms from simulation into real-world flight is a remarkable achievement. Bravo team, well deserved! 👏 Competition details: https://lnkd.in/d88unpQu #MathWorks #MiniDrone #Robotics #AutonomousSystems #ComputerVision #Engineering #ProudDad",
-    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7507809323184713728/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "author": "Vassilis Diakoloukas • 3-й+",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/vassilis-diakoloukas-b581ba5/",
-    "posted_time": "1 нед.",
-    "post_id": "7507923624499240961",
-    "hashtags": [
-      "#MathWorks",
-      "#MiniDrone",
-      "#Robotics",
-      "#AutonomousSystems",
-      "#ComputerVision",
-      "#Engineering",
-      "#ProudDad"
-    ],
-    "mentions": [
-      {
-        "name": "Dimitrios Diakoloukas",
-        "url": "https://www.linkedin.com/in/dimitrios-diakoloukas-a00564247/"
-      },
-      {
-        "name": "MathWorks",
-        "url": "https://www.linkedin.com/company/the-mathworks_2/"
-      }
-    ],
-    "external_links": [],
-    "reactions": 28,
-    "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Vassilis Diakoloukas • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "𝗪𝗲 𝗮𝗿𝗲 𝗘𝘂𝗿𝗼𝗽𝗲𝗮𝗻 𝗠𝗶𝗻𝗶𝗱𝗿𝗼𝗻𝗲 𝗖𝗵𝗮𝗺𝗽𝗶𝗼𝗻𝘀!! I'm incredibly proud to share that our team won the MathWorks Minidrone Competition Europe! Out of around 70 teams from leading universities across Europe, we made it to the top 5 finalists and earned our place in the grand final at the MathWorks offices in Cambridge, UK. After two days of intense competition, technical challenges, and real-world drone testing, we came home with 1st place! The challenge was to develop a fully autonomous drone capable of navigating an unknown track, making real-time decisions, and landing smoothly and accurately at its destination without relying on a predefined map. Our solution combined computer vision, path planning, and autonomous control. We developed a multi-ring search algorithm to identify the path ahead and determine the drone's direction and speed, along with a trajectory memory mechanism to prevent it from revisiting sections of the track it had already completed. Landing was a challenge of its own. We developed a vision-based algorithm to recognize the landing target, distinguish it from the track, and position the drone accurately above it. But getting everything to work in simulation was only half the job! For the final, we had to adapt our algorithms to run on a real drone with limited onboard processing power, memory, and strict real-time requirements. We redesigned our navigation system around a much lighter single-ring search, reduced the trajectory memory, and simplified the landing approach. The drone could identify the landing target, align itself with its center, lock its horizontal position, and perform a smooth, controlled descent. I've attached a video showing our work in action, from the initial simulation and our multi-ring path planning and trajectory memory algorithms to the final real-world flight. I would like to thank my teammates Athanasios Digkas , Dimitrios Ioannidis , and Marios Antakis for all the hard work and dedication in this incredible experience. I would also like to thank MathWorks and especially Krishna Keerthana Chiruvolu and Manjunath R for organizing the competition and hosting us in Cambridge. It was a fantastic experience and a great opportunity to meet talented students from across Europe! #MathWorks #MinidroneCompetition #Robotics #AutonomousSystems #ComputerVision #AI #Engineering",
-    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7507809323184713728/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "author": "Vassilis Diakoloukas • 3-й+",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/vassilis-diakoloukas-b581ba5/",
-    "posted_time": "1 нед.",
-    "post_id": "7507923624499240961",
-    "hashtags": [
-      "#MathWorks",
-      "#MinidroneCompetition",
-      "#Robotics",
-      "#AutonomousSystems",
-      "#ComputerVision",
-      "#AI",
-      "#Engineering"
-    ],
-    "mentions": [
-      {
-        "name": "MathWorks",
-        "url": "https://www.linkedin.com/company/the-mathworks_2/"
-      },
-      {
-        "name": "Athanasios Digkas",
-        "url": "https://www.linkedin.com/in/athanasios-digkas-10660722a/"
-      },
-      {
-        "name": "Dimitrios Ioannidis",
-        "url": "https://www.linkedin.com/in/dimitrios-ioannidis-534081294/"
-      },
-      {
-        "name": "Marios Antakis",
-        "url": "https://www.linkedin.com/in/marios-antakis-004ba5249/"
-      },
-      {
-        "name": "Krishna Keerthana Chiruvolu",
-        "url": "https://www.linkedin.com/in/krishna-keerthana-chiruvolu-981181223/"
-      },
-      {
-        "name": "Manjunath R",
-        "url": "https://www.linkedin.com/in/manjunath-r-65ab9740/"
-      }
-    ],
-    "external_links": [],
-    "reactions": 28,
-    "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Your cybersecurity platform shows everything. But it can’t act on anything. Security and IT teams are drowning in data with detailed dashboards and zero execution. Armis Centrix™ A",
-    "company": "",
-    "location": "",
-    "text": "Your cybersecurity platform shows everything. But it can’t act on anything. Security and IT teams are drowning in data with detailed dashboards and zero execution. Armis Centrix™ AI Assistant changes that. Ask a question in plain language. Get a ready-to-use cyber risk report, a change management checklist, a rollback procedure, an EOL replacement roadmap — instantly. No query syntax. No specialized training. See how security teams are moving from reactive cyber defense to proactive execution. Download Now.",
-    "url": "",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
     "author": "",
     "author_type": "",
     "author_url": "",
     "posted_time": "",
-    "post_id": "7474873857951105026",
+    "post_id": "",
     "hashtags": [],
     "mentions": [],
     "external_links": [],
-    "reactions": 35,
+    "reactions": 272,
     "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "post",
     "title": "Аида Гайнутдинова",
     "company": "",
     "location": "",
-    "text": "Ребята, вдруг у кого-то сейчас есть хорошие вакансии для Senior QA Engineer — буду очень признателен за контакт или репост ❤️ Рассматриваю удалёнку или релокацию. С английским пока честные A2 — работаю над этим. Зато как QA-специалист я пожар 😅🔥 6 лет в тестировании, финтех, backend/API/mobile, Java-автоматизация, микросервисы, SQL, CI/CD + активно использую AI в QA. Если знаете команды, которым такой человек может быть полезен — пишите 🙌",
+    "text": "Короткий совет дня: Даже если у вас всё хорошо на текущей работе - не забывайте обновлять LinkedIn профиль и отвечать на письма/сообщения нанимающих HR :) Знаю очень много специалистов, которые испытали внезапный стресс именно из-за того, что на текущей работе всё было хорошо и они не рассматривали смену Текущий рынок непредсказуем, поэтому ушки на макушке держим и резюме обновляем регулярно",
     "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
     "author": "Аида Гайнутдинова",
     "author_type": "person",
     "author_url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
@@ -780,57 +1582,26 @@
     "external_links": [],
     "reactions": null,
     "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
+    "collected_at": "2026-10-01T08:10:59"
   },
   {
     "type": "post",
-    "title": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ • 1-й",
+    "title": "🎥 Tour diary: Salinas. Every tour has a stop that just feels different. For Midnight, that was this past weekend flying for the crowd in Salinas - the airport that's played home to",
     "company": "",
     "location": "",
-    "text": "ID 128588AI EngineerSeniorquot;Customer location: BahrainCandidates locations: All except RussiaWork schedule: Sunday - ThursdayLanguage: English B2Estimated start date: 07.12.2026Duration: 6 monthsquot;Project ResponsibilitiesDesign and develop GenAI solutions using Azure AI Foundry and Azure OpenAI Service.Build Retrieval-Augmented Generation (RAG) platforms and AI copilots.Develop agentic AI workflows and autonomous AI assistants.Implement document intelligence and enterprise knowledge management solutions.Build and optimize vector search, embeddings, retrieval pipelines and re-ranking mechanisms.https:// t.me/jobsearchhhhh/3471",
-    "url": "https://www.linkedin.com/in/veronekoshat/",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
-    "author": "ღ𝓥𝓮𝓻𝓸𝓷𝓲𝓴𝓪 𝓢𝓱𝓪𝓽𝓲𝓵𝓸ღ • 1-й",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/veronekoshat/",
-    "posted_time": "14 ч.",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": null,
-    "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "⚡️ Electric skies. Innovative technology. A look at what’s next. ✈️ Yesterday, Kentuckians for Better Transportation and SDF welcomed Joby Aviation ’s Electric Skies Tour, offering",
-    "company": "",
-    "location": "",
-    "text": "⚡️ Electric skies. Innovative technology. A look at what’s next. ✈️ Yesterday, Kentuckians for Better Transportation and SDF welcomed Joby Aviation ’s Electric Skies Tour, offering an up-close look at autonomous flight technology and the innovation helping shape the future of aviation. From seeing the technology firsthand to learning more about its possibilities, it was an exciting opportunity to experience the next generation of flight right here at SDF. We appreciate Kentucky Department of Aviation Commissioner Todd Case for joining us as well. Take a look at some of the highlights from the visit! 🎥 #flyLouisville",
+    "text": "🎥 Tour diary: Salinas. Every tour has a stop that just feels different. For Midnight, that was this past weekend flying for the crowd in Salinas - the airport that's played home to our flight test program for the past several years. For the second year running, Midnight took to the sky at the California International Air Show, sharing the bill with the U.S. Air Force Thunderbirds, Goulian Aerosports, and a lineup of icons including the MiG-17, T-33, and A-37 Dragonfly. Hundreds of Archer team members turned out to enjoy the show with the community that's been with us from day one. The \"No Roads\" Flight Tour continues to San Jose, Oakland, San Francisco, Los Angeles and beyond.",
     "url": "",
-    "source_file": "linkedin_feed_2026-09-30_08-10-50.mhtml",
+    "source_file": "linkedin_feed_2026-10-01_08-10-50.mhtml",
     "author": "",
     "author_type": "",
     "author_url": "",
-    "posted_time": "3 дн.",
-    "post_id": "7509674138056355841",
-    "hashtags": [
-      "#flyLouisville"
-    ],
-    "mentions": [
-      {
-        "name": "Kentuckians for Better Transportation",
-        "url": "https://www.linkedin.com/company/kentuckians-for-better-transportation-kbt-/"
-      },
-      {
-        "name": "Joby Aviation",
-        "url": "https://www.linkedin.com/company/jobyaviation/"
-      }
-    ],
+    "posted_time": "16 ч.",
+    "post_id": "7510919219077701632",
+    "hashtags": [],
+    "mentions": [],
     "external_links": [],
-    "reactions": 63,
+    "reactions": 219,
     "comments": null,
-    "collected_at": "2026-09-30T08:10:59"
+    "collected_at": "2026-10-01T08:10:59"
   }
 ]
