@@ -1,56 +1,53 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-01T05:13:00.882073+00:00",
+  "generated_at": "2026-10-02T05:13:17.912847+00:00",
   "status": "OK",
   "analysis_mode": "llm",
   "analysis_reason": "Feed/profile/analyzer changed",
   "feed_signals": {
-    "posts_analyzed": 17,
+    "posts_analyzed": 18,
     "high_priority": 1,
-    "medium_priority": 4,
-    "low_priority": 12,
+    "medium_priority": 7,
+    "low_priority": 10,
     "signal_type_counts": {
-      "HIRING_SIGNAL": 2,
-      "COMPANY_SIGNAL": 7,
-      "TECH_SIGNAL": 8,
-      "PEOPLE_SIGNAL": 7,
-      "NETWORK_SIGNAL": 8,
-      "OPPORTUNITY_SIGNAL": 3,
-      "PROJECT_SIGNAL": 7,
-      "MARKET_SIGNAL": 3
+      "TECH_SIGNAL": 9,
+      "PROJECT_SIGNAL": 8,
+      "PEOPLE_SIGNAL": 10,
+      "NETWORK_SIGNAL": 9,
+      "MARKET_SIGNAL": 6,
+      "HIRING_SIGNAL": 1,
+      "COMPANY_SIGNAL": 7
     }
   },
   "action_queue": {
-    "items": 5,
+    "items": 8,
     "high": 1,
-    "medium": 4,
+    "medium": 7,
     "pending_approval": 2,
-    "research_needed": 1,
+    "research_needed": 3,
     "primary_action_counts": {
-      "engage_with_post": 3,
-      "follow_person": 1,
-      "research_contact": 1
+      "engage_with_post": 5,
+      "research_contact": 3
     },
     "action_plan_counts": {
-      "check_jobs": 2,
       "connect_person": 2,
-      "engage_with_post": 3,
-      "find_warm_path": 4,
-      "follow_company": 2,
-      "follow_person": 2,
+      "engage_with_post": 5,
+      "find_warm_path": 5,
+      "follow_company": 4,
+      "follow_person": 4,
       "research_company": 1,
-      "research_contact": 1,
+      "research_contact": 3,
       "review_technology": 3,
-      "save_for_content": 3
+      "save_for_content": 5
     }
   },
   "relationships": {
-    "total": 236,
-    "people": 199,
-    "companies": 37,
-    "people_with_profile_url": 162,
+    "total": 250,
+    "people": 212,
+    "companies": 38,
+    "people_with_profile_url": 173,
     "status_counts": {
-      "WATCH": 236,
+      "WATCH": 250,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -58,9 +55,9 @@
       "REPLIED": 0,
       "CLOSED": 0
     },
-    "review_recommended": 114,
+    "review_recommended": 120,
     "do_not_contact": 0,
-    "repeat_entities": 47
+    "repeat_entities": 48
   },
   "llm_provider": "openai"
 }
