@@ -351,6 +351,46 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
         )
     )
 
+    action_names = sorted({
+        action.get("action")
+        for item in queue.get("items", [])
+        for action in item.get("action_plan", [])
+        if action.get("action")
+    })
+    queue["summary"].update({
+        "pending_approval": sum(
+            1 for x in queue.get("items", [])
+            if x.get("execution_status") == "PENDING_APPROVAL"
+        ),
+        "actionable_now": sum(
+            1 for x in queue.get("items", [])
+            if x.get("recommendation_status") == "ACTIONABLE_NOW"
+        ),
+        "watchlist": sum(
+            1 for x in queue.get("items", [])
+            if x.get("recommendation_status") == "WATCHLIST"
+        ),
+        "archive": sum(
+            1 for x in queue.get("items", [])
+            if x.get("recommendation_status") == "ARCHIVE"
+        ),
+        "primary_action_counts": {
+            action: sum(1 for x in queue.get("items", []) if x.get("primary_action") == action)
+            for action in sorted({
+                x.get("primary_action")
+                for x in queue.get("items", [])
+                if x.get("primary_action")
+            })
+        },
+        "action_plan_counts": {
+            action: sum(
+                1 for x in queue.get("items", [])
+                if any(p.get("action") == action for p in x.get("action_plan", []))
+            )
+            for action in action_names
+        },
+    })
+
     queue["schema_version"] = 4
     queue["recommendation_mode"] = "accumulated_current_state"
     queue["history_scope"] = {
