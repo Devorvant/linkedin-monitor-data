@@ -23,6 +23,77 @@ def norm(value):
     return re.sub(r"\s+", " ", (value or "").strip())
 
 
+def norm_url(value):
+    text = norm(value)
+    if not text:
+        return ""
+    return text.split("#", 1)[0].split("?", 1)[0].rstrip("/").casefold()
+
+
+def profile_slug(value):
+    try:
+        path = urlparse(norm(value)).path
+    except Exception:
+        return ""
+    if "/in/" not in path:
+        return ""
+    return unquote(path.split("/in/", 1)[1].strip("/")).casefold()
+
+
+def load_relationship_reference(root: Path):
+    known = {
+        "following_company_names": set(),
+        "following_company_urls": set(),
+        "connection_slugs": set(),
+        "follower_slugs": set(),
+        "following_person_slugs": set(),
+    }
+
+    for item in load_json(root / "following_companies.json", {}).get("companies", []):
+        name = norm(item.get("name")).casefold()
+        url = norm_url(item.get("url"))
+        if name:
+            known["following_company_names"].add(name)
+        if url:
+            known["following_company_urls"].add(url)
+
+    for filename, key, target in [
+        ("connections.json", "connections", "connection_slugs"),
+        ("followers.json", "followers", "follower_slugs"),
+        ("following_people.json", "following_people", "following_person_slugs"),
+    ]:
+        for item in load_json(root / filename, {}).get(key, []):
+            slug = unquote(norm(item.get("linkedin_slug"))).casefold()
+            if slug:
+                known[target].add(slug)
+
+    return known
+
+
+def relationship_labels(record, known):
+    if not known:
+        return []
+    labels = []
+    if record.get("kind") == "company":
+        name = norm(record.get("name")).casefold()
+        url = norm_url(record.get("profile_url"))
+        if (
+            name in known["following_company_names"]
+            or (url and url in known["following_company_urls"])
+        ):
+            labels.append("FOLLOWING_COMPANY")
+    elif record.get("kind") == "person":
+        slug = profile_slug(record.get("profile_url"))
+        if slug:
+            if slug in known["connection_slugs"]:
+                labels.append("CONNECTION")
+            if slug in known["follower_slugs"]:
+                labels.append("FOLLOWER")
+            if slug in known["following_person_slugs"]:
+                labels.append("FOLLOWING_PERSON")
+    return labels
+
+
 def entity_id(kind, name):
     return f"{kind}:{norm(name).casefold()}"
 
@@ -304,7 +375,7 @@ def upsert(records, kind, name, signal, now):
     }
 
 
-def build(signals, existing):
+def build(signals, existing, known=None):
     now = datetime.now(timezone.utc).isoformat()
     records = {r["id"]: r for r in existing.get("items", []) if r.get("id")}
 
@@ -337,6 +408,17 @@ def build(signals, existing):
                 upsert(records, "person", name, signal, now)
 
     items = list(records.values())
+    for record in items:
+        labels = relationship_labels(record, known or {})
+        record["known_relationships"] = labels
+        record["linkedin_relationship"] = (
+            "CONNECTION" if "CONNECTION" in labels
+            else "FOLLOWING_PERSON" if "FOLLOWING_PERSON" in labels
+            else "FOLLOWING_COMPANY" if "FOLLOWING_COMPANY" in labels
+            else "FOLLOWER" if "FOLLOWER" in labels
+            else None
+        )
+
     items.sort(key=lambda r: (r.get("status") == "CLOSED", -as_int(r.get("score")), r.get("kind", ""), r.get("name", "").casefold()))
     status_counts = {status: sum(1 for r in items if r.get("status") == status) for status in STATUSES}
     return {
@@ -356,6 +438,9 @@ def build(signals, existing):
             "review_recommended": sum(1 for r in items if (r.get("automation") or {}).get("recommended_status") == "REVIEW" and r.get("status") == "WATCH"),
             "do_not_contact": sum(1 for r in items if r.get("do_not_contact")),
             "repeat_entities": sum(1 for r in items if as_int(r.get("times_seen")) > 1),
+            "known_connections": sum(1 for r in items if "CONNECTION" in (r.get("known_relationships") or [])),
+            "known_following_people": sum(1 for r in items if "FOLLOWING_PERSON" in (r.get("known_relationships") or [])),
+            "known_following_companies": sum(1 for r in items if "FOLLOWING_COMPANY" in (r.get("known_relationships") or [])),
         },
         "items": items,
     }
@@ -365,11 +450,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--signals", default="feed_signals_latest.json")
     ap.add_argument("--watchlist", default="relationship_watchlist.json")
+    ap.add_argument("--relationships-dir", default="linkedin_relationships")
     args = ap.parse_args()
     signals = load_json(Path(args.signals), {"signals": []})
     path = Path(args.watchlist)
     existing = load_json(path, {"items": []})
-    result = build(signals, existing)
+    known = load_relationship_reference(Path(args.relationships_dir))
+    result = build(signals, existing, known)
     path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
         f"OK relationships={result['summary']['total']} people={result['summary']['people']} "
