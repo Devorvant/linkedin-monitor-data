@@ -147,6 +147,27 @@ def representative_signals(signals):
     return representatives, stats_by_signal_id
 
 
+def direct_urls(signal, target):
+    person_url = ""
+    company_url = ""
+    target_name = norm_name((target or {}).get("name"))
+    target_company = norm_name((target or {}).get("company") or signal.get("company"))
+
+    for url in planner.signal_urls(signal):
+        if not person_url and planner.profile_slug(url):
+            person_url = planner.clean(url)
+        if not company_url and company_slug(url):
+            company_url = planner.clean(url)
+
+    source = planner.clean(signal.get("source_url"))
+    if target_name and "/in/" in source:
+        person_url = source
+    if target_company and "/company/" in source:
+        company_url = source
+
+    return person_url or None, company_url or None
+
+
 def action_scope_key(item, action):
     target = item.get("target") or {}
     if action in COMPANY_SCOPED_ACTIONS:
@@ -196,6 +217,13 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
         item["history_stats"] = stats_by_signal_id.get(sid, {
             "occurrences": 1, "first_seen": None, "last_seen": None, "high": 0, "medium": 0
         })
+        representative = representative_by_id.get(sid, {})
+        person_url, company_url = direct_urls(representative, item.get("target") or {})
+        item.setdefault("target", {})
+        if person_url:
+            item["target"]["profile_url"] = person_url
+        if company_url:
+            item["target"]["company_url"] = company_url
 
     queue["items"].sort(
         key=lambda x: (
