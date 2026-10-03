@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T18:11:30.713674+00:00",
-  "source_generated_at": "2026-10-03T18:11:30.713674+00:00",
+  "generated_at": "2026-10-03T18:12:58.126713+00:00",
+  "source_generated_at": "2026-10-03T18:12:58.126713+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
     "outbound_actions": [
@@ -132,6 +132,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-02",
         "last_seen": "2026-10-02",
+        "dates": [
+          "2026-10-02"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -259,6 +262,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-01",
         "last_seen": "2026-10-01",
+        "dates": [
+          "2026-10-01"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -384,6 +390,9 @@
         "occurrences": 2,
         "first_seen": "2026-09-29",
         "last_seen": "2026-09-29",
+        "dates": [
+          "2026-09-29"
+        ],
         "high": 1,
         "medium": 1
       },
@@ -501,6 +510,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-29",
         "last_seen": "2026-09-29",
+        "dates": [
+          "2026-09-29"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -603,6 +615,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-29",
         "last_seen": "2026-09-29",
+        "dates": [
+          "2026-09-29"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -703,6 +718,11 @@
         "occurrences": 3,
         "first_seen": "2026-09-13",
         "last_seen": "2026-09-28",
+        "dates": [
+          "2026-09-13",
+          "2026-09-22",
+          "2026-09-28"
+        ],
         "high": 1,
         "medium": 2
       },
@@ -795,6 +815,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-27",
         "last_seen": "2026-09-27",
+        "dates": [
+          "2026-09-27"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -894,6 +917,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26",
+        "dates": [
+          "2026-09-26"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -995,6 +1021,14 @@
         "occurrences": 6,
         "first_seen": "2026-09-07",
         "last_seen": "2026-10-03",
+        "dates": [
+          "2026-09-07",
+          "2026-09-08",
+          "2026-09-21",
+          "2026-09-26",
+          "2026-09-27",
+          "2026-10-03"
+        ],
         "high": 5,
         "medium": 1
       },
@@ -1101,6 +1135,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-03",
         "last_seen": "2026-10-03",
+        "dates": [
+          "2026-10-03"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -1214,6 +1251,11 @@
         "occurrences": 3,
         "first_seen": "2026-09-04",
         "last_seen": "2026-10-02",
+        "dates": [
+          "2026-09-04",
+          "2026-09-15",
+          "2026-10-02"
+        ],
         "high": 1,
         "medium": 2
       },
@@ -1315,6 +1357,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-02",
         "last_seen": "2026-10-02",
+        "dates": [
+          "2026-10-02"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -1429,6 +1474,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-02",
         "last_seen": "2026-10-02",
+        "dates": [
+          "2026-10-02"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -1539,6 +1587,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-02",
         "last_seen": "2026-10-02",
+        "dates": [
+          "2026-10-02"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -1631,6 +1682,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-02",
         "last_seen": "2026-10-02",
+        "dates": [
+          "2026-10-02"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -1734,6 +1788,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-02",
         "last_seen": "2026-10-02",
+        "dates": [
+          "2026-10-02"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -1840,6 +1897,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-02",
         "last_seen": "2026-10-02",
+        "dates": [
+          "2026-10-02"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -1944,6 +2004,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-01",
         "last_seen": "2026-10-01",
+        "dates": [
+          "2026-10-01"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -2057,6 +2120,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-01",
         "last_seen": "2026-10-01",
+        "dates": [
+          "2026-10-01"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -2175,6 +2241,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-01",
         "last_seen": "2026-10-01",
+        "dates": [
+          "2026-10-01"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -2294,6 +2363,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-01",
         "last_seen": "2026-10-01",
+        "dates": [
+          "2026-10-01"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -2413,6 +2485,9 @@
         "occurrences": 2,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30",
+        "dates": [
+          "2026-09-30"
+        ],
         "high": 1,
         "medium": 1
       },
@@ -2523,6 +2598,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30",
+        "dates": [
+          "2026-09-30"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -2629,6 +2707,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30",
+        "dates": [
+          "2026-09-30"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -2730,6 +2811,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-30",
         "last_seen": "2026-09-30",
+        "dates": [
+          "2026-09-30"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -2840,6 +2924,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-29",
         "last_seen": "2026-09-29",
+        "dates": [
+          "2026-09-29"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -2955,6 +3042,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-28",
         "last_seen": "2026-09-28",
+        "dates": [
+          "2026-09-28"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -3067,6 +3157,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-27",
         "last_seen": "2026-09-27",
+        "dates": [
+          "2026-09-27"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -3175,6 +3268,9 @@
         "occurrences": 2,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26",
+        "dates": [
+          "2026-09-26"
+        ],
         "high": 0,
         "medium": 2
       },
@@ -3272,6 +3368,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26",
+        "dates": [
+          "2026-09-26"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -3376,6 +3475,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26",
+        "dates": [
+          "2026-09-26"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -3478,6 +3580,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-26",
         "last_seen": "2026-09-26",
+        "dates": [
+          "2026-09-26"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -3580,6 +3685,9 @@
         "occurrences": 1,
         "first_seen": "2026-10-03",
         "last_seen": "2026-10-03",
+        "dates": [
+          "2026-10-03"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -3695,6 +3803,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-22",
         "last_seen": "2026-09-22",
+        "dates": [
+          "2026-09-22"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -3802,6 +3913,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-22",
         "last_seen": "2026-09-22",
+        "dates": [
+          "2026-09-22"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -3917,6 +4031,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-22",
         "last_seen": "2026-09-22",
+        "dates": [
+          "2026-09-22"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -4027,6 +4144,16 @@
         "occurrences": 10,
         "first_seen": "2026-08-29",
         "last_seen": "2026-09-21",
+        "dates": [
+          "2026-08-29",
+          "2026-09-03",
+          "2026-09-06",
+          "2026-09-12",
+          "2026-09-13",
+          "2026-09-15",
+          "2026-09-20",
+          "2026-09-21"
+        ],
         "high": 6,
         "medium": 4
       },
@@ -4144,6 +4271,10 @@
         "occurrences": 2,
         "first_seen": "2026-09-04",
         "last_seen": "2026-09-21",
+        "dates": [
+          "2026-09-04",
+          "2026-09-21"
+        ],
         "high": 1,
         "medium": 1
       },
@@ -4241,6 +4372,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-21",
         "last_seen": "2026-09-21",
+        "dates": [
+          "2026-09-21"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -4353,6 +4487,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-21",
         "last_seen": "2026-09-21",
+        "dates": [
+          "2026-09-21"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -4454,6 +4591,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-21",
         "last_seen": "2026-09-21",
+        "dates": [
+          "2026-09-21"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -4568,6 +4708,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-21",
         "last_seen": "2026-09-21",
+        "dates": [
+          "2026-09-21"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -4690,6 +4833,11 @@
         "occurrences": 3,
         "first_seen": "2026-08-30",
         "last_seen": "2026-09-20",
+        "dates": [
+          "2026-08-30",
+          "2026-09-02",
+          "2026-09-20"
+        ],
         "high": 3,
         "medium": 0
       },
@@ -4790,6 +4938,9 @@
         "occurrences": 2,
         "first_seen": "2026-09-22",
         "last_seen": "2026-09-22",
+        "dates": [
+          "2026-09-22"
+        ],
         "high": 1,
         "medium": 1
       },
@@ -4904,6 +5055,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-21",
         "last_seen": "2026-09-21",
+        "dates": [
+          "2026-09-21"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -5017,6 +5171,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-20",
         "last_seen": "2026-09-20",
+        "dates": [
+          "2026-09-20"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -5131,6 +5288,10 @@
         "occurrences": 2,
         "first_seen": "2026-09-02",
         "last_seen": "2026-09-16",
+        "dates": [
+          "2026-09-02",
+          "2026-09-16"
+        ],
         "high": 2,
         "medium": 0
       },
@@ -5249,6 +5410,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-16",
         "last_seen": "2026-09-16",
+        "dates": [
+          "2026-09-16"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -5358,6 +5522,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-15",
         "last_seen": "2026-09-15",
+        "dates": [
+          "2026-09-15"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -5450,6 +5617,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-14",
         "last_seen": "2026-09-14",
+        "dates": [
+          "2026-09-14"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -5546,6 +5716,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-14",
         "last_seen": "2026-09-14",
+        "dates": [
+          "2026-09-14"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -5652,6 +5825,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-14",
         "last_seen": "2026-09-14",
+        "dates": [
+          "2026-09-14"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -5765,6 +5941,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-13",
         "last_seen": "2026-09-13",
+        "dates": [
+          "2026-09-13"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -5888,6 +6067,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-11",
         "last_seen": "2026-09-11",
+        "dates": [
+          "2026-09-11"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -6013,6 +6195,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-10",
         "last_seen": "2026-09-10",
+        "dates": [
+          "2026-09-10"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -6130,6 +6315,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-10",
         "last_seen": "2026-09-10",
+        "dates": [
+          "2026-09-10"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -6232,6 +6420,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-10",
         "last_seen": "2026-09-10",
+        "dates": [
+          "2026-09-10"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -6342,6 +6533,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-09",
         "last_seen": "2026-09-09",
+        "dates": [
+          "2026-09-09"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -6448,6 +6642,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-08",
         "last_seen": "2026-09-08",
+        "dates": [
+          "2026-09-08"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -6550,6 +6747,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-08",
         "last_seen": "2026-09-08",
+        "dates": [
+          "2026-09-08"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -6647,6 +6847,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-08",
         "last_seen": "2026-09-08",
+        "dates": [
+          "2026-09-08"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -6739,6 +6942,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-07",
         "last_seen": "2026-09-07",
+        "dates": [
+          "2026-09-07"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -6842,6 +7048,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06",
+        "dates": [
+          "2026-09-06"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -6939,6 +7148,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-05",
         "last_seen": "2026-09-05",
+        "dates": [
+          "2026-09-05"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -7061,6 +7273,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-05",
         "last_seen": "2026-09-05",
+        "dates": [
+          "2026-09-05"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -7167,6 +7382,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-05",
         "last_seen": "2026-09-05",
+        "dates": [
+          "2026-09-05"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -7285,6 +7503,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-04",
         "last_seen": "2026-09-04",
+        "dates": [
+          "2026-09-04"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -7385,6 +7606,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-03",
         "last_seen": "2026-09-03",
+        "dates": [
+          "2026-09-03"
+        ],
         "high": 1,
         "medium": 0
       },
@@ -7483,6 +7707,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-16",
         "last_seen": "2026-09-16",
+        "dates": [
+          "2026-09-16"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -7594,6 +7821,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-16",
         "last_seen": "2026-09-16",
+        "dates": [
+          "2026-09-16"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -7710,6 +7940,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-16",
         "last_seen": "2026-09-16",
+        "dates": [
+          "2026-09-16"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -7815,6 +8048,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-15",
         "last_seen": "2026-09-15",
+        "dates": [
+          "2026-09-15"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -7911,6 +8147,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-14",
         "last_seen": "2026-09-14",
+        "dates": [
+          "2026-09-14"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -8011,6 +8250,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-13",
         "last_seen": "2026-09-13",
+        "dates": [
+          "2026-09-13"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -8107,6 +8349,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-12",
         "last_seen": "2026-09-12",
+        "dates": [
+          "2026-09-12"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -8211,6 +8456,11 @@
         "occurrences": 3,
         "first_seen": "2026-09-04",
         "last_seen": "2026-09-11",
+        "dates": [
+          "2026-09-04",
+          "2026-09-05",
+          "2026-09-11"
+        ],
         "high": 1,
         "medium": 2
       },
@@ -8313,6 +8563,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-11",
         "last_seen": "2026-09-11",
+        "dates": [
+          "2026-09-11"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -8423,6 +8676,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-11",
         "last_seen": "2026-09-11",
+        "dates": [
+          "2026-09-11"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -8530,6 +8786,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-09",
         "last_seen": "2026-09-09",
+        "dates": [
+          "2026-09-09"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -8637,6 +8896,10 @@
         "occurrences": 2,
         "first_seen": "2026-09-02",
         "last_seen": "2026-09-08",
+        "dates": [
+          "2026-09-02",
+          "2026-09-08"
+        ],
         "high": 0,
         "medium": 2
       },
@@ -8737,6 +9000,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-08",
         "last_seen": "2026-09-08",
+        "dates": [
+          "2026-09-08"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -8832,6 +9098,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-08",
         "last_seen": "2026-09-08",
+        "dates": [
+          "2026-09-08"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -8923,6 +9192,9 @@
         "occurrences": 2,
         "first_seen": "2026-09-07",
         "last_seen": "2026-09-07",
+        "dates": [
+          "2026-09-07"
+        ],
         "high": 0,
         "medium": 2
       },
@@ -9016,6 +9288,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-07",
         "last_seen": "2026-09-07",
+        "dates": [
+          "2026-09-07"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -9130,6 +9405,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-07",
         "last_seen": "2026-09-07",
+        "dates": [
+          "2026-09-07"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -9227,6 +9505,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06",
+        "dates": [
+          "2026-09-06"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -9328,6 +9609,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-06",
         "last_seen": "2026-09-06",
+        "dates": [
+          "2026-09-06"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -9433,6 +9717,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-05",
         "last_seen": "2026-09-05",
+        "dates": [
+          "2026-09-05"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -9546,6 +9833,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-05",
         "last_seen": "2026-09-05",
+        "dates": [
+          "2026-09-05"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -9637,6 +9927,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-05",
         "last_seen": "2026-09-05",
+        "dates": [
+          "2026-09-05"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -9733,6 +10026,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-04",
         "last_seen": "2026-09-04",
+        "dates": [
+          "2026-09-04"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -9850,6 +10146,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-03",
         "last_seen": "2026-09-03",
+        "dates": [
+          "2026-09-03"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -9957,6 +10256,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-03",
         "last_seen": "2026-09-03",
+        "dates": [
+          "2026-09-03"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -10061,6 +10363,9 @@
         "occurrences": 1,
         "first_seen": "2026-09-02",
         "last_seen": "2026-09-02",
+        "dates": [
+          "2026-09-02"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -10156,6 +10461,9 @@
         "occurrences": 2,
         "first_seen": "2026-08-31",
         "last_seen": "2026-08-31",
+        "dates": [
+          "2026-08-31"
+        ],
         "high": 0,
         "medium": 2
       },
@@ -10248,6 +10556,9 @@
         "occurrences": 1,
         "first_seen": "2026-08-31",
         "last_seen": "2026-08-31",
+        "dates": [
+          "2026-08-31"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -10360,6 +10671,9 @@
         "occurrences": 1,
         "first_seen": "2026-08-31",
         "last_seen": "2026-08-31",
+        "dates": [
+          "2026-08-31"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -10461,6 +10775,9 @@
         "occurrences": 1,
         "first_seen": "2026-08-31",
         "last_seen": "2026-08-31",
+        "dates": [
+          "2026-08-31"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -10556,6 +10873,9 @@
         "occurrences": 1,
         "first_seen": "2026-08-30",
         "last_seen": "2026-08-30",
+        "dates": [
+          "2026-08-30"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -10662,6 +10982,9 @@
         "occurrences": 1,
         "first_seen": "2026-08-29",
         "last_seen": "2026-08-29",
+        "dates": [
+          "2026-08-29"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -10767,6 +11090,9 @@
         "occurrences": 1,
         "first_seen": "2026-08-29",
         "last_seen": "2026-08-29",
+        "dates": [
+          "2026-08-29"
+        ],
         "high": 0,
         "medium": 1
       },
@@ -10863,6 +11189,9 @@
         "occurrences": 1,
         "first_seen": "2026-08-29",
         "last_seen": "2026-08-29",
+        "dates": [
+          "2026-08-29"
+        ],
         "high": 0,
         "medium": 1
       },
