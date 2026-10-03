@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T17:46:25.994085+00:00",
+  "generated_at": "2026-10-03T17:46:53.480719+00:00",
   "status": "OK",
   "analysis_mode": "reuse",
   "analysis_reason": "Only downstream/test files changed",
@@ -60,6 +60,44 @@
     "known_connections": 5,
     "known_following_people": 2,
     "known_following_companies": 20
+  },
+  "current_recommendations": {
+    "items": 102,
+    "high": 42,
+    "medium": 60,
+    "pending_approval": 6,
+    "research_needed": 34,
+    "actionable_now": 33,
+    "watchlist": 13,
+    "archive": 56,
+    "primary_action_counts": {
+      "check_jobs": 3,
+      "engage_with_post": 19,
+      "find_warm_path": 18,
+      "follow_person": 27,
+      "research_contact": 34,
+      "review_technology": 1
+    },
+    "action_plan_counts": {
+      "check_jobs": 12,
+      "connect_person": 6,
+      "engage_with_post": 19,
+      "find_warm_path": 64,
+      "follow_company": 9,
+      "follow_person": 40,
+      "research_company": 13,
+      "research_contact": 34,
+      "review_technology": 49,
+      "save_for_content": 61
+    },
+    "history_scope": {
+      "first_date": "2026-08-29",
+      "last_date": "2026-10-03",
+      "history_files": 30,
+      "unique_signals": 133,
+      "entities": 102
+    },
+    "recommendation_mode": "accumulated_current_state"
   },
   "llm_provider": "openai"
 }
