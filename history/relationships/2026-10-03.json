@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T15:25:44.401905+00:00",
+  "generated_at": "2026-10-03T17:44:23.385048+00:00",
   "status_model": {
     "allowed": [
       "WATCH",
@@ -37,7 +37,10 @@
     },
     "review_recommended": 122,
     "do_not_contact": 0,
-    "repeat_entities": 48
+    "repeat_entities": 48,
+    "known_connections": 5,
+    "known_following_people": 2,
+    "known_following_companies": 20
   },
   "items": [
     {
@@ -345,7 +348,12 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-21T05:13:06.125664+00:00"
       },
-      "updated_at": "2026-09-21T05:13:06.125664+00:00"
+      "updated_at": "2026-09-21T05:13:06.125664+00:00",
+      "known_relationships": [
+        "CONNECTION",
+        "FOLLOWER"
+      ],
+      "linkedin_relationship": "CONNECTION"
     },
     {
       "id": "company:skygrid",
@@ -504,7 +512,11 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:aryaman samyal",
@@ -576,7 +588,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-11T05:12:32.913619+00:00"
       },
-      "updated_at": "2026-09-11T05:12:32.913619+00:00"
+      "updated_at": "2026-09-11T05:12:32.913619+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:balram kandoria",
@@ -648,7 +662,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-11T05:12:32.913619+00:00"
       },
-      "updated_at": "2026-09-11T05:12:32.913619+00:00"
+      "updated_at": "2026-09-11T05:12:32.913619+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:mathworks",
@@ -951,7 +967,11 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "company:sarla aviation",
@@ -1100,7 +1120,11 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:adrian schmidt",
@@ -1189,7 +1213,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:athanasios digkas",
@@ -1260,7 +1286,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:dimitrios ioannidis",
@@ -1331,7 +1359,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:krishna keerthana chiruvolu",
@@ -1402,7 +1432,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:krishna pal rajput",
@@ -1470,7 +1502,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:manjunath r",
@@ -1541,7 +1575,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:marios antakis",
@@ -1612,7 +1648,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:payal satish",
@@ -1721,7 +1759,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:rakesh gaonkar",
@@ -1810,7 +1850,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:vassilis diakoloukas",
@@ -1904,7 +1946,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:vassilis diakoloukas • 3-й+",
@@ -1998,7 +2042,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:altovolo",
@@ -2061,7 +2107,11 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-21T05:13:06.125664+00:00"
       },
-      "updated_at": "2026-09-21T05:13:06.125664+00:00"
+      "updated_at": "2026-09-21T05:13:06.125664+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "company:embention",
@@ -2247,7 +2297,11 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-20T05:12:04.502515+00:00"
       },
-      "updated_at": "2026-09-20T05:12:04.502515+00:00"
+      "updated_at": "2026-09-20T05:12:04.502515+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "company:german aerospace center (dlr)",
@@ -2316,7 +2370,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-14T05:12:42.871235+00:00"
       },
-      "updated_at": "2026-09-14T05:12:42.871235+00:00"
+      "updated_at": "2026-09-14T05:12:42.871235+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:christopher ash, c.m., ace",
@@ -2391,7 +2447,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-13T05:12:09.600303+00:00"
       },
-      "updated_at": "2026-09-13T05:12:09.600303+00:00"
+      "updated_at": "2026-09-13T05:12:09.600303+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:dan elwell",
@@ -2468,7 +2526,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-13T05:12:09.600303+00:00"
       },
-      "updated_at": "2026-09-13T05:12:09.600303+00:00"
+      "updated_at": "2026-09-13T05:12:09.600303+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:dan harmon",
@@ -2559,7 +2619,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-13T05:12:09.600303+00:00"
       },
-      "updated_at": "2026-09-13T05:12:09.600303+00:00"
+      "updated_at": "2026-09-13T05:12:09.600303+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:iram zubair",
@@ -2634,7 +2696,12 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-05T05:12:45.953970+00:00"
       },
-      "updated_at": "2026-09-05T05:12:45.953970+00:00"
+      "updated_at": "2026-09-05T05:12:45.953970+00:00",
+      "known_relationships": [
+        "CONNECTION",
+        "FOLLOWER"
+      ],
+      "linkedin_relationship": "CONNECTION"
     },
     {
       "id": "person:johann dauer",
@@ -2706,7 +2773,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-14T05:12:42.871235+00:00"
       },
-      "updated_at": "2026-09-14T05:12:42.871235+00:00"
+      "updated_at": "2026-09-14T05:12:42.871235+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:julieta jazmín gonzález marasco",
@@ -2792,7 +2861,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-10T05:12:19.274264+00:00"
       },
-      "updated_at": "2026-09-10T05:12:19.274264+00:00"
+      "updated_at": "2026-09-10T05:12:19.274264+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:julieta jazmín gonzález marasco • 3-й+",
@@ -2861,7 +2932,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-10T05:12:19.274264+00:00"
       },
-      "updated_at": "2026-09-10T05:12:19.274264+00:00"
+      "updated_at": "2026-09-10T05:12:19.274264+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:mohamad omari",
@@ -2926,7 +2999,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-21T05:13:06.125664+00:00"
       },
-      "updated_at": "2026-09-21T05:13:06.125664+00:00"
+      "updated_at": "2026-09-21T05:13:06.125664+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:mohamad omari • 2-й",
@@ -2989,7 +3064,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-21T05:13:06.125664+00:00"
       },
-      "updated_at": "2026-09-21T05:13:06.125664+00:00"
+      "updated_at": "2026-09-21T05:13:06.125664+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:scott shtofman",
@@ -3064,7 +3141,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-13T05:12:09.600303+00:00"
       },
-      "updated_at": "2026-09-13T05:12:09.600303+00:00"
+      "updated_at": "2026-09-13T05:12:09.600303+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:scott shtofman • 3-й+",
@@ -3139,7 +3218,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-13T05:12:09.600303+00:00"
       },
-      "updated_at": "2026-09-13T05:12:09.600303+00:00"
+      "updated_at": "2026-09-13T05:12:09.600303+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:secretary duffy",
@@ -3216,7 +3297,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-13T05:12:09.600303+00:00"
       },
-      "updated_at": "2026-09-13T05:12:09.600303+00:00"
+      "updated_at": "2026-09-13T05:12:09.600303+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:senator cruz",
@@ -3293,7 +3376,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-13T05:12:09.600303+00:00"
       },
-      "updated_at": "2026-09-13T05:12:09.600303+00:00"
+      "updated_at": "2026-09-13T05:12:09.600303+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:sergio roman ii",
@@ -3368,7 +3453,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-13T05:12:09.600303+00:00"
       },
-      "updated_at": "2026-09-13T05:12:09.600303+00:00"
+      "updated_at": "2026-09-13T05:12:09.600303+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:saildrone",
@@ -3517,9 +3604,13 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T15:25:44.401905+00:00"
+        "last_processed_at": "2026-10-03T17:44:23.385048+00:00"
       },
-      "updated_at": "2026-10-03T15:25:44.401905+00:00"
+      "updated_at": "2026-10-03T17:44:23.385048+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:dale r. marks",
@@ -3588,7 +3679,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:erik balck sørensen",
@@ -3655,7 +3748,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:prince joachim of denmark",
@@ -3724,7 +3819,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:richard jenkins",
@@ -3794,7 +3891,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:robert kleist",
@@ -3863,7 +3962,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:vijay singh",
@@ -3934,7 +4035,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-21T05:13:06.125664+00:00"
       },
-      "updated_at": "2026-09-21T05:13:06.125664+00:00"
+      "updated_at": "2026-09-21T05:13:06.125664+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:regent craft",
@@ -4006,7 +4109,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-22T05:12:56.304314+00:00"
       },
-      "updated_at": "2026-09-22T05:12:56.304314+00:00"
+      "updated_at": "2026-09-22T05:12:56.304314+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:billy thalheimer",
@@ -4080,7 +4185,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-22T05:12:56.304314+00:00"
       },
-      "updated_at": "2026-09-22T05:12:56.304314+00:00"
+      "updated_at": "2026-09-22T05:12:56.304314+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:monica wang",
@@ -4152,7 +4259,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-22T05:12:56.304314+00:00"
       },
-      "updated_at": "2026-09-22T05:12:56.304314+00:00"
+      "updated_at": "2026-09-22T05:12:56.304314+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:samuel olubayo",
@@ -4224,7 +4333,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-22T05:12:56.304314+00:00"
       },
-      "updated_at": "2026-09-22T05:12:56.304314+00:00"
+      "updated_at": "2026-09-22T05:12:56.304314+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:samuel olubayo • 3-й+",
@@ -4296,7 +4407,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-22T05:12:56.304314+00:00"
       },
-      "updated_at": "2026-09-22T05:12:56.304314+00:00"
+      "updated_at": "2026-09-22T05:12:56.304314+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:joby aviation",
@@ -4493,7 +4606,11 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:brett mather",
@@ -4566,7 +4683,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-21T05:13:06.125664+00:00"
       },
-      "updated_at": "2026-09-21T05:13:06.125664+00:00"
+      "updated_at": "2026-09-21T05:13:06.125664+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:brett mather, профиль подтверждено, 3-й+ brett mather • 3-й+ software systems engineer, doordash labs | ex-joby aviation | integrating tech, aviation & autonomy",
@@ -4637,7 +4756,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-21T05:13:06.125664+00:00"
       },
-      "updated_at": "2026-09-21T05:13:06.125664+00:00"
+      "updated_at": "2026-09-21T05:13:06.125664+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:kevin antcliff",
@@ -4721,7 +4842,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:kevin antcliff • 3-й+",
@@ -4785,7 +4908,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-09T05:12:12.004399+00:00"
       },
-      "updated_at": "2026-09-09T05:12:12.004399+00:00"
+      "updated_at": "2026-09-09T05:12:12.004399+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:pablo ceacero escrig",
@@ -4854,7 +4979,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-14T05:12:42.871235+00:00"
       },
-      "updated_at": "2026-09-14T05:12:42.871235+00:00"
+      "updated_at": "2026-09-14T05:12:42.871235+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:pablo ceacero escrig • 3-й+",
@@ -4921,7 +5048,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-14T05:12:42.871235+00:00"
       },
-      "updated_at": "2026-09-14T05:12:42.871235+00:00"
+      "updated_at": "2026-09-14T05:12:42.871235+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:sachin jain, ph.d.",
@@ -5043,7 +5172,11 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-16T05:12:34.968432+00:00"
       },
-      "updated_at": "2026-09-16T05:12:34.968432+00:00"
+      "updated_at": "2026-09-16T05:12:34.968432+00:00",
+      "known_relationships": [
+        "FOLLOWING_PERSON"
+      ],
+      "linkedin_relationship": "FOLLOWING_PERSON"
     },
     {
       "id": "person:sachin jain, ph.d. • отслеживаете",
@@ -5165,7 +5298,11 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-16T05:12:34.968432+00:00"
       },
-      "updated_at": "2026-09-16T05:12:34.968432+00:00"
+      "updated_at": "2026-09-16T05:12:34.968432+00:00",
+      "known_relationships": [
+        "FOLLOWING_PERSON"
+      ],
+      "linkedin_relationship": "FOLLOWING_PERSON"
     },
     {
       "id": "company:qubist solutions",
@@ -5331,9 +5468,11 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T15:25:44.401905+00:00"
+        "last_processed_at": "2026-10-03T17:44:23.385048+00:00"
       },
-      "updated_at": "2026-10-03T15:25:44.401905+00:00"
+      "updated_at": "2026-10-03T17:44:23.385048+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:alessandro michelazzi",
@@ -5409,7 +5548,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:andrea muciaccia",
@@ -5483,7 +5624,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:brenden hedblom",
@@ -5551,7 +5694,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:camilla colombo",
@@ -5683,7 +5828,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:eduardo polli",
@@ -5759,7 +5906,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:gabriella gaias",
@@ -5833,7 +5982,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:juan luis gonzalo gómez",
@@ -5907,7 +6058,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:melda ulusoy",
@@ -5993,7 +6146,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:melda ulusoy • 3-й+",
@@ -6079,7 +6234,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:neha s",
@@ -6263,9 +6420,14 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T15:25:44.401905+00:00"
+        "last_processed_at": "2026-10-03T17:44:23.385048+00:00"
       },
-      "updated_at": "2026-10-03T15:25:44.401905+00:00"
+      "updated_at": "2026-10-03T17:44:23.385048+00:00",
+      "known_relationships": [
+        "CONNECTION",
+        "FOLLOWER"
+      ],
+      "linkedin_relationship": "CONNECTION"
     },
     {
       "id": "person:neha s • 1-й",
@@ -6449,9 +6611,14 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T15:25:44.401905+00:00"
+        "last_processed_at": "2026-10-03T17:44:23.385048+00:00"
       },
-      "updated_at": "2026-10-03T15:25:44.401905+00:00"
+      "updated_at": "2026-10-03T17:44:23.385048+00:00",
+      "known_relationships": [
+        "CONNECTION",
+        "FOLLOWER"
+      ],
+      "linkedin_relationship": "CONNECTION"
     },
     {
       "id": "person:wiebke retagne",
@@ -6527,7 +6694,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:skyrunner, llc",
@@ -6618,7 +6787,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-22T05:12:56.304314+00:00"
       },
-      "updated_at": "2026-09-22T05:12:56.304314+00:00"
+      "updated_at": "2026-09-22T05:12:56.304314+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:nate glasscock",
@@ -6709,7 +6880,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-22T05:12:56.304314+00:00"
       },
-      "updated_at": "2026-09-22T05:12:56.304314+00:00"
+      "updated_at": "2026-09-22T05:12:56.304314+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:nate glasscock • 3-й+",
@@ -6800,7 +6973,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-22T05:12:56.304314+00:00"
       },
-      "updated_at": "2026-09-22T05:12:56.304314+00:00"
+      "updated_at": "2026-09-22T05:12:56.304314+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:open ocean robotics",
@@ -6879,7 +7054,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-03T05:12:41.718126+00:00"
       },
-      "updated_at": "2026-09-03T05:12:41.718126+00:00"
+      "updated_at": "2026-09-03T05:12:41.718126+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:akshay rajhans, ph.d.",
@@ -6945,7 +7124,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-05T05:12:45.953970+00:00"
       },
-      "updated_at": "2026-09-05T05:12:45.953970+00:00"
+      "updated_at": "2026-09-05T05:12:45.953970+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:akshay rajhans, ph.d. • 3-й+",
@@ -7011,7 +7192,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-05T05:12:45.953970+00:00"
       },
-      "updated_at": "2026-09-05T05:12:45.953970+00:00"
+      "updated_at": "2026-09-05T05:12:45.953970+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:david king",
@@ -7074,7 +7257,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-10T05:12:19.274264+00:00"
       },
-      "updated_at": "2026-09-10T05:12:19.274264+00:00"
+      "updated_at": "2026-09-10T05:12:19.274264+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:isabel lima",
@@ -7135,7 +7320,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-16T05:12:34.968432+00:00"
       },
-      "updated_at": "2026-09-16T05:12:34.968432+00:00"
+      "updated_at": "2026-09-16T05:12:34.968432+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:isabel lima • 3-й+",
@@ -7196,7 +7383,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-16T05:12:34.968432+00:00"
       },
-      "updated_at": "2026-09-16T05:12:34.968432+00:00"
+      "updated_at": "2026-09-16T05:12:34.968432+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:lakshminarayan viju ravichandran",
@@ -7262,7 +7451,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-05T05:12:45.953970+00:00"
       },
-      "updated_at": "2026-09-05T05:12:45.953970+00:00"
+      "updated_at": "2026-09-05T05:12:45.953970+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:medha deshpande",
@@ -7329,7 +7520,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:nishtha sharma",
@@ -7396,7 +7589,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:pavana prabhu",
@@ -7463,7 +7658,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:roberto morollón ruiz",
@@ -7529,7 +7726,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-07T05:12:33.834468+00:00"
       },
-      "updated_at": "2026-09-07T05:12:33.834468+00:00"
+      "updated_at": "2026-09-07T05:12:33.834468+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:roberto morollón ruiz • 3-й+",
@@ -7593,7 +7792,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-07T05:12:33.834468+00:00"
       },
-      "updated_at": "2026-09-07T05:12:33.834468+00:00"
+      "updated_at": "2026-09-07T05:12:33.834468+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:saisurya anbazhagan vanniyar",
@@ -7660,7 +7861,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:sandra sánchez hernández",
@@ -7724,7 +7927,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-07T05:12:33.834468+00:00"
       },
-      "updated_at": "2026-09-07T05:12:33.834468+00:00"
+      "updated_at": "2026-09-07T05:12:33.834468+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:sarla thakral",
@@ -7791,7 +7996,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:souvick chatterjee",
@@ -7857,7 +8064,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-05T05:12:45.953970+00:00"
       },
-      "updated_at": "2026-09-05T05:12:45.953970+00:00"
+      "updated_at": "2026-09-05T05:12:45.953970+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:vijeta tantry",
@@ -7924,7 +8133,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:archer",
@@ -7998,7 +8209,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-22T05:12:56.304314+00:00"
       },
-      "updated_at": "2026-09-22T05:12:56.304314+00:00"
+      "updated_at": "2026-09-22T05:12:56.304314+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:lt. gen. joseph jarrard",
@@ -8071,7 +8286,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:mario srouji",
@@ -8145,7 +8362,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-22T05:12:56.304314+00:00"
       },
-      "updated_at": "2026-09-22T05:12:56.304314+00:00"
+      "updated_at": "2026-09-22T05:12:56.304314+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:mario srouji • 3-й+",
@@ -8219,7 +8438,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-22T05:12:56.304314+00:00"
       },
-      "updated_at": "2026-09-22T05:12:56.304314+00:00"
+      "updated_at": "2026-09-22T05:12:56.304314+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:anduril",
@@ -8332,7 +8553,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:anduril industries",
@@ -8426,7 +8649,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-05T05:12:45.953970+00:00"
       },
-      "updated_at": "2026-09-05T05:12:45.953970+00:00"
+      "updated_at": "2026-09-05T05:12:45.953970+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "company:noda ai",
@@ -8497,7 +8724,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-02T05:12:35.884444+00:00"
       },
-      "updated_at": "2026-09-02T05:12:35.884444+00:00"
+      "updated_at": "2026-09-02T05:12:35.884444+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:james wang",
@@ -8563,9 +8792,11 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T15:25:44.401905+00:00"
+        "last_processed_at": "2026-10-03T17:44:23.385048+00:00"
       },
-      "updated_at": "2026-10-03T15:25:44.401905+00:00"
+      "updated_at": "2026-10-03T17:44:23.385048+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:hermeus and anduril",
@@ -8633,7 +8864,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:sky-drones",
@@ -8729,7 +8962,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-21T05:13:06.125664+00:00"
       },
-      "updated_at": "2026-09-21T05:13:06.125664+00:00"
+      "updated_at": "2026-09-21T05:13:06.125664+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "company:skydrones",
@@ -8799,7 +9036,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:matt womble",
@@ -8870,7 +9109,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-10T05:12:19.274264+00:00"
       },
-      "updated_at": "2026-09-10T05:12:19.274264+00:00"
+      "updated_at": "2026-09-10T05:12:19.274264+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:relativity space",
@@ -8931,7 +9172,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-08T05:12:46.802051+00:00"
       },
-      "updated_at": "2026-09-08T05:12:46.802051+00:00"
+      "updated_at": "2026-09-08T05:12:46.802051+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:pierangelo masarati",
@@ -9006,7 +9251,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:28:06.926039+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:sebastian topczewski",
@@ -9065,7 +9312,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:28:06.926039+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:stefan van 't hoff",
@@ -9124,7 +9373,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:28:06.926039+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:venkata devalaraju",
@@ -9185,7 +9436,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-08T05:12:46.802051+00:00"
       },
-      "updated_at": "2026-09-08T05:12:46.802051+00:00"
+      "updated_at": "2026-09-08T05:12:46.802051+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:venkata devalaraju • 3-й+",
@@ -9246,7 +9499,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-08T05:12:46.802051+00:00"
       },
-      "updated_at": "2026-09-08T05:12:46.802051+00:00"
+      "updated_at": "2026-09-08T05:12:46.802051+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:dr. h. sudarshan ballal",
@@ -9316,7 +9571,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-04T05:12:32.591228+00:00"
       },
-      "updated_at": "2026-09-04T05:12:32.591228+00:00"
+      "updated_at": "2026-09-04T05:12:32.591228+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:kinjarapu ram mohan naidu",
@@ -9386,7 +9643,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-04T05:12:32.591228+00:00"
       },
-      "updated_at": "2026-09-04T05:12:32.591228+00:00"
+      "updated_at": "2026-09-04T05:12:32.591228+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:eve air mobility",
@@ -9548,7 +9807,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-28T05:12:19.673509+00:00"
       },
-      "updated_at": "2026-09-28T05:12:19.673509+00:00"
+      "updated_at": "2026-09-28T05:12:19.673509+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:guy rouleau",
@@ -9616,7 +9879,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-11T05:12:32.913619+00:00"
       },
-      "updated_at": "2026-09-11T05:12:32.913619+00:00"
+      "updated_at": "2026-09-11T05:12:32.913619+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:jason ghidella",
@@ -9684,7 +9949,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-11T05:12:32.913619+00:00"
       },
-      "updated_at": "2026-09-11T05:12:32.913619+00:00"
+      "updated_at": "2026-09-11T05:12:32.913619+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:laura reimoser",
@@ -9752,7 +10019,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-11T05:12:32.913619+00:00"
       },
-      "updated_at": "2026-09-11T05:12:32.913619+00:00"
+      "updated_at": "2026-09-11T05:12:32.913619+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:laura reimoser • 3-й+",
@@ -9820,7 +10089,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-11T05:12:32.913619+00:00"
       },
-      "updated_at": "2026-09-11T05:12:32.913619+00:00"
+      "updated_at": "2026-09-11T05:12:32.913619+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:ajay talluri",
@@ -9881,7 +10152,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T21:29:17.294091+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:alessandro croce",
@@ -9984,7 +10257,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:alex zanotti",
@@ -10087,7 +10362,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:andrea milanese",
@@ -10190,7 +10467,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:arife aycan mutlu",
@@ -10259,7 +10538,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-28T05:12:19.673509+00:00"
       },
-      "updated_at": "2026-09-28T05:12:19.673509+00:00"
+      "updated_at": "2026-09-28T05:12:19.673509+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:arife aycan mutlu • 3-й+",
@@ -10328,7 +10609,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-28T05:12:19.673509+00:00"
       },
-      "updated_at": "2026-09-28T05:12:19.673509+00:00"
+      "updated_at": "2026-09-28T05:12:19.673509+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:filippo maggi",
@@ -10431,7 +10714,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:francesco topputo",
@@ -10534,7 +10819,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:francis arokia swamy",
@@ -10595,7 +10882,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T21:29:17.294091+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:kevin zakka",
@@ -10670,7 +10959,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-15T05:12:51.932542+00:00"
       },
-      "updated_at": "2026-09-15T05:12:51.932542+00:00"
+      "updated_at": "2026-09-15T05:12:51.932542+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:loy sabson fernandes",
@@ -10731,7 +11022,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T21:29:17.294091+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:mathilda bolis",
@@ -10834,7 +11127,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:michèle lavagna",
@@ -10937,7 +11232,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:naresh babu",
@@ -10998,7 +11295,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T21:29:17.294091+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:p chandhana",
@@ -11059,7 +11358,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T21:29:17.294091+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:paolo bettini",
@@ -11162,7 +11463,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:sandro salgueiro",
@@ -11233,7 +11536,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-28T05:12:19.673509+00:00"
       },
-      "updated_at": "2026-09-28T05:12:19.673509+00:00"
+      "updated_at": "2026-09-28T05:12:19.673509+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:uday kumar",
@@ -11294,7 +11599,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T21:29:17.294091+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:xi li",
@@ -11397,7 +11704,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:sciengineer",
@@ -11465,7 +11774,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-21T05:13:06.125664+00:00"
       },
-      "updated_at": "2026-09-21T05:13:06.125664+00:00"
+      "updated_at": "2026-09-21T05:13:06.125664+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:vertical",
@@ -11530,7 +11841,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:andreas hamilton",
@@ -11594,7 +11907,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:ashley mastronardi",
@@ -11660,7 +11975,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:emmanouil tzorakoleftherakis",
@@ -11724,7 +12041,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:lukas m. ziegler",
@@ -11798,7 +12117,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-09T05:12:12.004399+00:00"
       },
-      "updated_at": "2026-09-09T05:12:12.004399+00:00"
+      "updated_at": "2026-09-09T05:12:12.004399+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:lukas m. ziegler • 3-й+",
@@ -11872,7 +12193,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-09T05:12:12.004399+00:00"
       },
-      "updated_at": "2026-09-09T05:12:12.004399+00:00"
+      "updated_at": "2026-09-09T05:12:12.004399+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:mukund bala",
@@ -11942,7 +12265,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-12T05:11:56.067343+00:00"
       },
-      "updated_at": "2026-09-12T05:11:56.067343+00:00"
+      "updated_at": "2026-09-12T05:11:56.067343+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:naren srivaths raman",
@@ -12006,7 +12331,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:robert bolesza",
@@ -12074,7 +12401,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-21T05:13:06.125664+00:00"
       },
-      "updated_at": "2026-09-21T05:13:06.125664+00:00"
+      "updated_at": "2026-09-21T05:13:06.125664+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:robert bolesza • 3-й+",
@@ -12142,7 +12471,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-21T05:13:06.125664+00:00"
       },
-      "updated_at": "2026-09-21T05:13:06.125664+00:00"
+      "updated_at": "2026-09-21T05:13:06.125664+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:stuart simpson",
@@ -12211,7 +12542,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:ultralytics",
@@ -12285,7 +12618,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-20T05:12:04.502515+00:00"
       },
-      "updated_at": "2026-09-20T05:12:04.502515+00:00"
+      "updated_at": "2026-09-20T05:12:04.502515+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:valo",
@@ -12350,7 +12685,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:alberto savino",
@@ -12421,7 +12758,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:alberto verga",
@@ -12492,7 +12831,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:anatoli mitrou",
@@ -12563,7 +12904,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:antonio raimondo",
@@ -12634,7 +12977,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:bianca omede'",
@@ -12705,7 +13050,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:chris rocheleau",
@@ -12766,7 +13113,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-12T05:11:56.067343+00:00"
       },
-      "updated_at": "2026-09-12T05:11:56.067343+00:00"
+      "updated_at": "2026-09-12T05:11:56.067343+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:dan edwards",
@@ -12827,7 +13176,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-12T05:11:56.067343+00:00"
       },
-      "updated_at": "2026-09-12T05:11:56.067343+00:00"
+      "updated_at": "2026-09-12T05:11:56.067343+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:dimitrios diakoloukas",
@@ -12895,7 +13246,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:donato grassi",
@@ -12966,7 +13319,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:dr. shelly lesikar dezevallos",
@@ -13027,7 +13382,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-12T05:11:56.067343+00:00"
       },
-      "updated_at": "2026-09-12T05:11:56.067343+00:00"
+      "updated_at": "2026-09-12T05:11:56.067343+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:dr. shelly lesikar dezevallos • 3-й+",
@@ -13088,7 +13445,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-12T05:11:56.067343+00:00"
       },
-      "updated_at": "2026-09-12T05:11:56.067343+00:00"
+      "updated_at": "2026-09-12T05:11:56.067343+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:elizabeth shadwick",
@@ -13155,9 +13514,11 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-10-03T15:25:44.401905+00:00"
+        "last_processed_at": "2026-10-03T17:44:23.385048+00:00"
       },
-      "updated_at": "2026-10-03T15:25:44.401905+00:00"
+      "updated_at": "2026-10-03T17:44:23.385048+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:faezeh amirteimoury",
@@ -13228,7 +13589,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:federico ghioldi",
@@ -13299,7 +13662,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:francesca spini",
@@ -13370,7 +13735,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:luca riccobene",
@@ -13441,7 +13808,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:luca scampini",
@@ -13512,7 +13881,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:lucrezia calzoni",
@@ -13583,7 +13954,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:mara galliani",
@@ -13654,7 +14027,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:marco anghileri",
@@ -13725,7 +14100,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:matt byrd",
@@ -13786,7 +14163,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-12T05:11:56.067343+00:00"
       },
-      "updated_at": "2026-09-12T05:11:56.067343+00:00"
+      "updated_at": "2026-09-12T05:11:56.067343+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:ross perot jr",
@@ -13847,7 +14226,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-12T05:11:56.067343+00:00"
       },
-      "updated_at": "2026-09-12T05:11:56.067343+00:00"
+      "updated_at": "2026-09-12T05:11:56.067343+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:sean duffy",
@@ -13908,7 +14289,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-12T05:11:56.067343+00:00"
       },
-      "updated_at": "2026-09-12T05:11:56.067343+00:00"
+      "updated_at": "2026-09-12T05:11:56.067343+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:stefania carlotti",
@@ -13979,7 +14362,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:ted cruz",
@@ -14040,7 +14425,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-09-12T05:11:56.067343+00:00"
       },
-      "updated_at": "2026-09-12T05:11:56.067343+00:00"
+      "updated_at": "2026-09-12T05:11:56.067343+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:vittoria mancinelli",
@@ -14111,7 +14498,9 @@
         "recommended_status": "REVIEW",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:lockheed martin",
@@ -14189,7 +14578,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "company:oceanwings",
@@ -14258,7 +14651,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:28:06.926039+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:alex rueben",
@@ -14321,7 +14718,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-29T21:29:17.294091+00:00"
       },
-      "updated_at": "2026-08-29T21:29:17.294091+00:00"
+      "updated_at": "2026-08-29T21:29:17.294091+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:avinash nehemiah",
@@ -14390,7 +14789,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-16T05:12:34.968432+00:00"
       },
-      "updated_at": "2026-09-16T05:12:34.968432+00:00"
+      "updated_at": "2026-09-16T05:12:34.968432+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:edward ludlow",
@@ -14455,7 +14856,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:emmanuel schalit",
@@ -14526,7 +14929,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:28:06.926039+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:jim taiclet",
@@ -14593,7 +14998,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:mahsa k.",
@@ -14662,7 +15069,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-16T05:12:34.968432+00:00"
       },
-      "updated_at": "2026-09-16T05:12:34.968432+00:00"
+      "updated_at": "2026-09-16T05:12:34.968432+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:mahsa k. • 3-й+",
@@ -14731,7 +15140,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-16T05:12:34.968432+00:00"
       },
-      "updated_at": "2026-09-16T05:12:34.968432+00:00"
+      "updated_at": "2026-09-16T05:12:34.968432+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:bonny simi",
@@ -14797,7 +15208,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:bonny simi • 3-й+",
@@ -14863,7 +15276,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-27T05:11:55.671845+00:00"
       },
-      "updated_at": "2026-09-27T05:11:55.671845+00:00"
+      "updated_at": "2026-09-27T05:11:55.671845+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:dave schowalter",
@@ -14932,7 +15347,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-27T05:11:55.671845+00:00"
       },
-      "updated_at": "2026-09-27T05:11:55.671845+00:00"
+      "updated_at": "2026-09-27T05:11:55.671845+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:dave schowalter • 3-й+",
@@ -15001,7 +15418,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-27T05:11:55.671845+00:00"
       },
-      "updated_at": "2026-09-27T05:11:55.671845+00:00"
+      "updated_at": "2026-09-27T05:11:55.671845+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:jonathan shaver",
@@ -15067,7 +15486,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:ouster",
@@ -15136,7 +15557,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-27T05:11:55.671845+00:00"
       },
-      "updated_at": "2026-09-27T05:11:55.671845+00:00"
+      "updated_at": "2026-09-27T05:11:55.671845+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:adasi",
@@ -15199,7 +15622,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-16T05:12:34.968432+00:00"
       },
-      "updated_at": "2026-09-16T05:12:34.968432+00:00"
+      "updated_at": "2026-09-16T05:12:34.968432+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:joby aviation and toyota",
@@ -15264,7 +15689,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-20T05:12:04.502515+00:00"
       },
-      "updated_at": "2026-09-20T05:12:04.502515+00:00"
+      "updated_at": "2026-09-20T05:12:04.502515+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:charles alcock",
@@ -15328,7 +15755,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-16T05:12:34.968432+00:00"
       },
-      "updated_at": "2026-09-16T05:12:34.968432+00:00"
+      "updated_at": "2026-09-16T05:12:34.968432+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:corey proffitt",
@@ -15393,7 +15822,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-20T05:12:04.502515+00:00"
       },
-      "updated_at": "2026-09-20T05:12:04.502515+00:00"
+      "updated_at": "2026-09-20T05:12:04.502515+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:corey proffitt • 3-й+",
@@ -15458,7 +15889,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-20T05:12:04.502515+00:00"
       },
-      "updated_at": "2026-09-20T05:12:04.502515+00:00"
+      "updated_at": "2026-09-20T05:12:04.502515+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:eric allison",
@@ -15523,7 +15956,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:gregory bowles",
@@ -15588,7 +16023,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:ife o.",
@@ -15653,7 +16090,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:jim sherman",
@@ -15718,7 +16157,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:jim sherman • 3-й+",
@@ -15783,7 +16224,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:joeben bevirt",
@@ -15848,7 +16291,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:jp nauseef",
@@ -15911,7 +16356,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:karthik avadhanula",
@@ -15974,7 +16421,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:luca medici",
@@ -16033,7 +16482,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:28:06.926039+00:00"
       },
-      "updated_at": "2026-09-06T08:28:06.926039+00:00"
+      "updated_at": "2026-09-06T08:28:06.926039+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:maxime gariel",
@@ -16098,7 +16549,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:nidhi raj",
@@ -16161,7 +16614,12 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-16T05:12:34.968432+00:00"
       },
-      "updated_at": "2026-09-16T05:12:34.968432+00:00"
+      "updated_at": "2026-09-16T05:12:34.968432+00:00",
+      "known_relationships": [
+        "CONNECTION",
+        "FOLLOWER"
+      ],
+      "linkedin_relationship": "CONNECTION"
     },
     {
       "id": "person:ryan augsburger",
@@ -16224,7 +16682,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:ryan naru",
@@ -16289,7 +16749,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-29T05:12:51.908529+00:00"
       },
-      "updated_at": "2026-09-29T05:12:51.908529+00:00"
+      "updated_at": "2026-09-29T05:12:51.908529+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:beta technologies",
@@ -16354,7 +16816,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-02T05:12:35.884444+00:00"
       },
-      "updated_at": "2026-09-02T05:12:35.884444+00:00"
+      "updated_at": "2026-09-02T05:12:35.884444+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:phil scott",
@@ -16437,7 +16903,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-08T05:12:46.802051+00:00"
       },
-      "updated_at": "2026-09-08T05:12:46.802051+00:00"
+      "updated_at": "2026-09-08T05:12:46.802051+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:todd case",
@@ -16506,7 +16974,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-30T05:12:28.488167+00:00"
       },
-      "updated_at": "2026-09-30T05:12:28.488167+00:00"
+      "updated_at": "2026-09-30T05:12:28.488167+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:codevintec",
@@ -16581,7 +17051,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:embraer",
@@ -16647,7 +17119,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:arjan meijer",
@@ -16715,7 +17191,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:bettina mrusek, ph.d.",
@@ -16778,7 +17256,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-07T05:12:33.834468+00:00"
       },
-      "updated_at": "2026-09-07T05:12:33.834468+00:00"
+      "updated_at": "2026-09-07T05:12:33.834468+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:carlos naufel",
@@ -16846,7 +17326,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:haitham alalem",
@@ -16910,7 +17392,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:haitham alalem, профиль premium, 3-й+ haitham alalem • 3-й+ strategic business development leader | defense, homeland security & advanced technology | government growth | critical infrastructure | complex deal cycles | partnerships | gcc",
@@ -16971,7 +17455,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:32:23.136659+00:00"
       },
-      "updated_at": "2026-09-06T08:32:23.136659+00:00"
+      "updated_at": "2026-09-06T08:32:23.136659+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:jeff miller",
@@ -17037,7 +17523,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:jeff miller • 3-й+",
@@ -17103,7 +17591,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-02T05:13:17.741838+00:00"
       },
-      "updated_at": "2026-10-02T05:13:17.741838+00:00"
+      "updated_at": "2026-10-02T05:13:17.741838+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:jennifer radtke",
@@ -17182,7 +17672,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-07T05:12:33.834468+00:00"
       },
-      "updated_at": "2026-09-07T05:12:33.834468+00:00"
+      "updated_at": "2026-09-07T05:12:33.834468+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:jennifer radtke • 3-й+",
@@ -17261,7 +17753,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-07T05:12:33.834468+00:00"
       },
-      "updated_at": "2026-09-07T05:12:33.834468+00:00"
+      "updated_at": "2026-09-07T05:12:33.834468+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:john r. watret",
@@ -17324,7 +17818,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-07T05:12:33.834468+00:00"
       },
-      "updated_at": "2026-09-07T05:12:33.834468+00:00"
+      "updated_at": "2026-09-07T05:12:33.834468+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:astana hub",
@@ -17392,7 +17888,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:52:43.251861+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:balaji srinivasan",
@@ -17463,7 +17963,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:52:43.251861+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:rinata ilyubayeva",
@@ -17533,7 +18035,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:52:43.251861+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:robert francis",
@@ -17596,7 +18100,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-15T05:12:51.932542+00:00"
       },
-      "updated_at": "2026-09-15T05:12:51.932542+00:00"
+      "updated_at": "2026-09-15T05:12:51.932542+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:robert francis • 3-й+",
@@ -17659,7 +18165,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-15T05:12:51.932542+00:00"
       },
-      "updated_at": "2026-09-15T05:12:51.932542+00:00"
+      "updated_at": "2026-09-15T05:12:51.932542+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:thorsten gutmann",
@@ -17729,7 +18237,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:52:43.251861+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:anduril and voyager technologies",
@@ -17796,7 +18306,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:cadence",
@@ -17886,7 +18398,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-08T05:12:46.802051+00:00"
       },
-      "updated_at": "2026-09-08T05:12:46.802051+00:00"
+      "updated_at": "2026-09-08T05:12:46.802051+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:rocket lab",
@@ -17947,7 +18461,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-31T05:12:40.449414+00:00"
       },
-      "updated_at": "2026-08-31T05:12:40.449414+00:00"
+      "updated_at": "2026-08-31T05:12:40.449414+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:adam cohen",
@@ -18018,7 +18536,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-31T05:12:40.449414+00:00"
       },
-      "updated_at": "2026-08-31T05:12:40.449414+00:00"
+      "updated_at": "2026-08-31T05:12:40.449414+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:lynsey urban",
@@ -18089,7 +18609,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-31T05:12:40.449414+00:00"
       },
-      "updated_at": "2026-08-31T05:12:40.449414+00:00"
+      "updated_at": "2026-08-31T05:12:40.449414+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:meghna chatterjee",
@@ -18160,7 +18682,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-31T05:12:40.449414+00:00"
       },
-      "updated_at": "2026-08-31T05:12:40.449414+00:00"
+      "updated_at": "2026-08-31T05:12:40.449414+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:palmer luckey",
@@ -18229,7 +18753,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-10-01T05:13:00.708480+00:00"
       },
-      "updated_at": "2026-10-01T05:13:00.708480+00:00"
+      "updated_at": "2026-10-01T05:13:00.708480+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:rahim ali",
@@ -18296,7 +18822,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-14T05:12:42.871235+00:00"
       },
-      "updated_at": "2026-09-14T05:12:42.871235+00:00"
+      "updated_at": "2026-09-14T05:12:42.871235+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:rahim ali • 3-й+",
@@ -18363,7 +18891,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-14T05:12:42.871235+00:00"
       },
-      "updated_at": "2026-09-14T05:12:42.871235+00:00"
+      "updated_at": "2026-09-14T05:12:42.871235+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:shruti sunil bhave",
@@ -18434,7 +18964,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-31T05:12:40.449414+00:00"
       },
-      "updated_at": "2026-08-31T05:12:40.449414+00:00"
+      "updated_at": "2026-08-31T05:12:40.449414+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:wen (michael) shi, phd",
@@ -18505,7 +19037,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-31T05:12:40.449414+00:00"
       },
-      "updated_at": "2026-08-31T05:12:40.449414+00:00"
+      "updated_at": "2026-08-31T05:12:40.449414+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:cadence fidelity cfd",
@@ -18571,7 +19105,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-31T05:12:40.449414+00:00"
       },
-      "updated_at": "2026-08-31T05:12:40.449414+00:00"
+      "updated_at": "2026-08-31T05:12:40.449414+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:aditya aggarwal",
@@ -18632,7 +19168,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:52:43.251861+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:airline captain",
@@ -18696,7 +19234,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:ayantika roy",
@@ -18757,7 +19297,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:52:43.251861+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:erika armstrong",
@@ -18837,7 +19379,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:erika armstrong • 3-й+",
@@ -18917,7 +19461,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:first officer",
@@ -18981,7 +19527,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:max goldstein",
@@ -19047,7 +19595,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-03T05:12:41.718126+00:00"
       },
-      "updated_at": "2026-09-03T05:12:41.718126+00:00"
+      "updated_at": "2026-09-03T05:12:41.718126+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:ritika jaiswal",
@@ -19108,7 +19658,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:52:43.251861+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:ritika jaiswal • 3-й+",
@@ -19169,7 +19721,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:52:43.251861+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:simulator instructor",
@@ -19233,7 +19787,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-26T20:02:16.933458+00:00"
       },
-      "updated_at": "2026-09-26T20:02:16.933458+00:00"
+      "updated_at": "2026-09-26T20:02:16.933458+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:soumik dutta",
@@ -19294,7 +19850,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-06T08:52:43.251861+00:00"
       },
-      "updated_at": "2026-09-06T08:52:43.251861+00:00"
+      "updated_at": "2026-09-06T08:52:43.251861+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "company:boeing",
@@ -19357,7 +19915,11 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-09-07T05:12:33.834468+00:00"
       },
-      "updated_at": "2026-09-07T05:12:33.834468+00:00"
+      "updated_at": "2026-09-07T05:12:33.834468+00:00",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "linkedin_relationship": "FOLLOWING_COMPANY"
     },
     {
       "id": "person:caterina rapisarda",
@@ -19421,7 +19983,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-30T05:44:29.468629+00:00"
       },
-      "updated_at": "2026-08-30T05:44:29.468629+00:00"
+      "updated_at": "2026-08-30T05:44:29.468629+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:salvo finocchario",
@@ -19485,7 +20049,9 @@
         "recommended_status": "WATCH",
         "last_processed_at": "2026-08-30T05:44:29.468629+00:00"
       },
-      "updated_at": "2026-08-30T05:44:29.468629+00:00"
+      "updated_at": "2026-08-30T05:44:29.468629+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T15:25:44.742464+00:00",
-  "source_generated_at": "2026-10-03T15:25:44.742464+00:00",
+  "generated_at": "2026-10-03T17:44:23.573740+00:00",
+  "source_generated_at": "2026-10-03T17:44:23.573740+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
     "outbound_actions": [

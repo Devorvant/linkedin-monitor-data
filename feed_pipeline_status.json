@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T15:25:44.793733+00:00",
+  "generated_at": "2026-10-03T17:44:23.623369+00:00",
   "status": "OK",
   "analysis_mode": "reuse",
   "analysis_reason": "Only downstream/test files changed",
@@ -56,7 +56,10 @@
     },
     "review_recommended": 122,
     "do_not_contact": 0,
-    "repeat_entities": 48
+    "repeat_entities": 48,
+    "known_connections": 5,
+    "known_following_people": 2,
+    "known_following_companies": 20
   },
   "llm_provider": "openai"
 }
