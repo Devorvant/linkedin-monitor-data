@@ -124,7 +124,8 @@ jobs:
         run: |
           python scripts/relationship_watchlist.py \
             --signals feed_signals_latest.json \
-            --watchlist relationship_watchlist.json
+            --watchlist relationship_watchlist.json \
+            --relationships-dir linkedin_relationships
 
       - name: Build CRM-aware action queue
         run: |
@@ -161,6 +162,7 @@ jobs:
           signals = json.loads(Path('feed_signals_latest.json').read_text(encoding='utf-8'))
           actions = json.loads(Path('action_queue_latest.json').read_text(encoding='utf-8'))
           crm = json.loads(Path('relationship_watchlist.json').read_text(encoding='utf-8'))
+          current = json.loads(Path('recommendations_current.json').read_text(encoding='utf-8'))
           status = {
               'schema_version': 2,
               'generated_at': datetime.now(timezone.utc).isoformat(),
@@ -170,6 +172,11 @@ jobs:
               'feed_signals': signals.get('summary', {}),
               'action_queue': actions.get('summary', {}),
               'relationships': crm.get('summary', {}),
+              'current_recommendations': {
+                  **current.get('summary', {}),
+                  'history_scope': current.get('history_scope', {}),
+                  'recommendation_mode': current.get('recommendation_mode'),
+              },
               'llm_provider': 'openai' if any((s.get('llm') or {}).get('used') for s in signals.get('signals', [])) else 'rules-only',
           }
           Path('feed_pipeline_status.json').write_text(json.dumps(status, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
