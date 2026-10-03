@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T18:16:02.400128+00:00",
+  "generated_at": "2026-10-03T18:28:35.376743+00:00",
   "status": "OK",
   "analysis_mode": "reuse",
   "analysis_reason": "Only downstream/test files changed",
@@ -71,12 +71,11 @@
     "watchlist": 13,
     "archive": 56,
     "primary_action_counts": {
-      "check_jobs": 2,
-      "engage_with_post": 22,
-      "find_warm_path": 17,
-      "follow_person": 26,
-      "research_contact": 34,
-      "review_technology": 1
+      "check_jobs": 12,
+      "find_warm_path": 59,
+      "research_company": 1,
+      "research_contact": 28,
+      "review_technology": 2
     },
     "action_plan_counts": {
       "check_jobs": 12,
@@ -85,7 +84,6 @@
       "find_warm_path": 64,
       "follow_company": 9,
       "follow_person": 40,
-      "job_outreach": 1,
       "message_person": 1,
       "research_company": 13,
       "research_contact": 34,
