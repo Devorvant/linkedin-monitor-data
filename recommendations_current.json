@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T18:46:53.676392+00:00",
-  "source_generated_at": "2026-10-03T18:46:53.676392+00:00",
+  "generated_at": "2026-10-03T18:48:30.894291+00:00",
+  "source_generated_at": "2026-10-03T18:48:30.894291+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
     "outbound_actions": [
@@ -99,7 +99,7 @@
         ]
       },
       "drafts": {
-        "connection_note": "Hi Adrian, I came across your work on flight controls, flight dynamics, avionics. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+        "connection_note": "Hi Adrian, I saw your post about hiring for Flight Controls, Flight Dynamics, Avionics. My background is in flight controls, flight dynamics, GNC, UAV systems and simulation, so the work looks closely aligned. I'd be glad to connect."
       },
       "crm_guard_applied": false,
       "crm_guard_reason": null,
@@ -208,7 +208,7 @@
         }
       ],
       "drafts_full": {
-        "connection_note": "Hi Adrian, I came across your work on flight controls, flight dynamics, avionics. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+        "connection_note": "Hi Adrian, I saw your post about hiring for Flight Controls, Flight Dynamics, Avionics. My background is in flight controls, flight dynamics, GNC, UAV systems and simulation, so the work looks closely aligned. I'd be glad to connect."
       },
       "execution_status_full": "PENDING_APPROVAL",
       "approval_required_full": true,
@@ -268,7 +268,7 @@
         ]
       },
       "drafts": {
-        "message": "Hi Neha, I noticed your recent work around DO-178C, RTOS, BSP. I work on flight controls, GNC, UAV/autonomous systems and simulation. I thought there may be useful overlap in our technical interests and would be interested in exchanging perspectives."
+        "message": "Hi Neha, I saw the recent Firmware Engineer opening at Qubist Solutions. My main focus is flight controls, GNC, flight dynamics and UAV/autonomous systems. The advertised role is somewhat adjacent to that focus, so I wanted to ask whether you know of any current or upcoming roles closer to flight controls, GNC, autonomy or simulation."
       },
       "crm_guard_applied": false,
       "crm_guard_reason": null,
@@ -363,7 +363,7 @@
         }
       ],
       "drafts_full": {
-        "message": "Hi Neha, I noticed your recent work around DO-178C, RTOS, BSP. I work on flight controls, GNC, UAV/autonomous systems and simulation. I thought there may be useful overlap in our technical interests and would be interested in exchanging perspectives.",
+        "message": "Hi Neha, I saw the recent Firmware Engineer opening at Qubist Solutions. My main focus is flight controls, GNC, flight dynamics and UAV/autonomous systems. The advertised role is somewhat adjacent to that focus, so I wanted to ask whether you know of any current or upcoming roles closer to flight controls, GNC, autonomy or simulation.",
         "job_outreach": "Hi Neha, I'm exploring senior/lead opportunities at Qubist Solutions related to flight controls, GNC, autonomy and simulation. My background includes UAV/autopilot development, flight dynamics and MATLAB/Simulink/Python. If there is a relevant team or role, I'd appreciate any direction on whom best to speak with."
       },
       "execution_status_full": "PENDING_APPROVAL",
@@ -7071,7 +7071,7 @@
         }
       ],
       "drafts_full": {
-        "message": "Hi Iram, I noticed your recent work around Eurofighter Typhoon capability upgrades. I work on flight controls, GNC, UAV/autonomous systems and simulation. I thought there may be useful overlap in our technical interests and would be interested in exchanging perspectives.",
+        "message": "Hi Iram, I saw the recent hiring signal for Flight Control Computing Specialist, Avionics Systems Engineer, Software Architect. My background is in flight controls, GNC, flight dynamics, UAV/autonomous systems and simulation. The roles look closely aligned with my experience. If useful, I'd be glad to share a short summary of my background.",
         "job_outreach": "Hi Iram, I'm exploring senior/lead opportunities related to flight controls, GNC, autonomy and simulation. My background includes UAV/autopilot development, flight dynamics and MATLAB/Simulink/Python. If there is a relevant team or role, I'd appreciate any direction on whom best to speak with."
       },
       "execution_status_full": "PENDING_APPROVAL",
@@ -7243,7 +7243,7 @@
         }
       ],
       "drafts_full": {
-        "connection_note": "Hi Julieta, I came across your work on flight dynamics, control laws, MATLAB. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+        "connection_note": "Hi Julieta, I saw your post about hiring for Flight Control & Simulation Engineer. My background is in flight controls, flight dynamics, GNC, UAV systems and simulation, so the work looks closely aligned. I'd be glad to connect."
       },
       "execution_status_full": "PENDING_APPROVAL",
       "approval_required_full": true,
@@ -7772,7 +7772,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
-      "known_relationship_company": "Archer",
+      "known_relationship_company": "BETA TECHNOLOGIES",
       "do_not_contact": false,
       "target": {
         "name": "Scott Shtofman • 3-й+",
@@ -9053,7 +9053,7 @@
         }
       ],
       "drafts_full": {
-        "message": "Hi Nidhi, I noticed your recent work around autonomous systems. I work on flight controls, GNC, UAV/autonomous systems and simulation. I thought there may be useful overlap in our technical interests and would be interested in exchanging perspectives."
+        "message": "Hi Nidhi, I saw the recent UAV Pilot opening at ADASI. My main focus is flight controls, GNC, flight dynamics and UAV/autonomous systems. The advertised role is somewhat adjacent to that focus, so I wanted to ask whether you know of any current or upcoming roles closer to flight controls, GNC, autonomy or simulation."
       },
       "execution_status_full": "PENDING_APPROVAL",
       "approval_required_full": true,
@@ -9124,7 +9124,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
-      "known_relationship_company": "Embraer",
+      "known_relationship_company": "Eve Air Mobility",
       "do_not_contact": false,
       "target": {
         "name": "Isabel Lima • 3-й+",
@@ -11307,7 +11307,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
-      "known_relationship_company": "Archer",
+      "known_relationship_company": "BETA TECHNOLOGIES",
       "do_not_contact": false,
       "target": {
         "name": "Dr. Shelly Lesikar deZevallos • 3-й+",

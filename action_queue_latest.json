@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-03T18:46:53.546383+00:00",
+  "generated_at": "2026-10-03T18:48:30.742015+00:00",
   "source_generated_at": "2026-10-03T05:11:28.187448+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
@@ -84,7 +84,7 @@
         ]
       },
       "drafts": {
-        "message": "Hi Neha, I noticed your recent work around DO-178C, RTOS, BSP. I work on flight controls, GNC, UAV/autonomous systems and simulation. I thought there may be useful overlap in our technical interests and would be interested in exchanging perspectives.",
+        "message": "Hi Neha, I saw the recent Firmware Engineer opening at Qubist Solutions. My main focus is flight controls, GNC, flight dynamics and UAV/autonomous systems. The advertised role is somewhat adjacent to that focus, so I wanted to ask whether you know of any current or upcoming roles closer to flight controls, GNC, autonomy or simulation.",
         "job_outreach": "Hi Neha, I'm exploring senior/lead opportunities at Qubist Solutions related to flight controls, GNC, autonomy and simulation. My background includes UAV/autopilot development, flight dynamics and MATLAB/Simulink/Python. If there is a relevant team or role, I'd appreciate any direction on whom best to speak with."
       },
       "crm_guard_applied": false,
