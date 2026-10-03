@@ -3,7 +3,7 @@ import argparse
 import copy
 import json
 import re
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import action_planner as planner
@@ -179,6 +179,55 @@ def action_scope_key(item, action):
     return None
 
 
+def freshness_for(last_seen, reference_date):
+    try:
+        seen = date.fromisoformat(str(last_seen))
+        age_days = max(0, (reference_date - seen).days)
+    except Exception:
+        age_days = 999
+
+    if age_days <= 3:
+        bucket = "fresh"
+    elif age_days <= 7:
+        bucket = "current"
+    elif age_days <= 14:
+        bucket = "aging"
+    else:
+        bucket = "stale"
+
+    return {
+        "age_days": age_days,
+        "bucket": bucket,
+        "actionable_now": age_days <= 7,
+    }
+
+
+def apply_freshness_guard(item):
+    freshness = item.get("freshness") or {}
+    age_days = int(freshness.get("age_days") or 999)
+    if age_days <= 7:
+        return
+
+    stale_actions = {
+        "engage_with_post",
+        "connect_person",
+        "message_person",
+        "job_outreach",
+    }
+    kept = []
+    removed = []
+    for action in item.get("action_plan") or []:
+        if action.get("action") in stale_actions:
+            removed.append(action.get("action"))
+            continue
+        kept.append(action)
+
+    if removed:
+        item["freshness_guard_applied"] = True
+        item["freshness_guard_removed"] = removed
+    item["action_plan"] = kept
+
+
 def recompute_item_fields(item, representative):
     plan = item.get("action_plan") or []
     if not plan:
@@ -225,14 +274,6 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
         if company_url:
             item["target"]["company_url"] = company_url
 
-    queue["items"].sort(
-        key=lambda x: (
-            PRIORITY_RANK.get(x.get("priority"), 9),
-            -int((x.get("history_stats") or {}).get("occurrences") or 0),
-            -int(x.get("confidence") or 0),
-        )
-    )
-
     seen = set()
     for item in queue.get("items", []):
         filtered = []
@@ -244,8 +285,6 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
                 seen.add(key)
             filtered.append(action)
         item["action_plan"] = filtered
-        representative = representative_by_id.get(planner.clean(item.get("signal_id")), {})
-        recompute_item_fields(item, representative)
 
     action_names = sorted({
         action.get("action")
@@ -265,6 +304,9 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
             1 for x in queue.get("items", [])
             if (x.get("research") or {}).get("needed")
         ),
+        "actionable_now": sum(1 for x in queue.get("items", []) if x.get("recommendation_status") == "ACTIONABLE_NOW"),
+        "watchlist": sum(1 for x in queue.get("items", []) if x.get("recommendation_status") == "WATCHLIST"),
+        "archive": sum(1 for x in queue.get("items", []) if x.get("recommendation_status") == "ARCHIVE"),
         "primary_action_counts": {
             action: sum(1 for x in queue.get("items", []) if x.get("primary_action") == action)
             for action in sorted({x.get("primary_action") for x in queue.get("items", []) if x.get("primary_action")})
@@ -281,6 +323,34 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
     dates = sorted({
         s.get("_history_date") for s in signals if s.get("_history_date")
     })
+    reference_date = (
+        date.fromisoformat(dates[-1]) if dates
+        else datetime.now(timezone.utc).date()
+    )
+
+    for item in queue.get("items", []):
+        stats = item.get("history_stats") or {}
+        item["freshness"] = freshness_for(stats.get("last_seen"), reference_date)
+        item["recommendation_status"] = (
+            "ACTIONABLE_NOW" if item["freshness"]["actionable_now"]
+            else "WATCHLIST" if item["freshness"]["age_days"] <= 14
+            else "ARCHIVE"
+        )
+        apply_freshness_guard(item)
+        representative = representative_by_id.get(planner.clean(item.get("signal_id")), {})
+        recompute_item_fields(item, representative)
+
+    queue["items"].sort(
+        key=lambda x: (
+            0 if x.get("recommendation_status") == "ACTIONABLE_NOW" else
+            1 if x.get("recommendation_status") == "WATCHLIST" else 2,
+            PRIORITY_RANK.get(x.get("priority"), 9),
+            int((x.get("freshness") or {}).get("age_days") or 999),
+            -int((x.get("history_stats") or {}).get("occurrences") or 0),
+            -int(x.get("confidence") or 0),
+        )
+    )
+
     queue["schema_version"] = 4
     queue["recommendation_mode"] = "accumulated_current_state"
     queue["history_scope"] = {
