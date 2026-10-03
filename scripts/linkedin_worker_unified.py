@@ -1142,6 +1142,59 @@ def extract_jobs_records(html: str, source_file: str) -> list[dict]:
 
         return title, company, location
 
+    def normalize_job_metadata(location_text: str, full_text: str) -> dict:
+        raw = clean_text(location_text)
+        text = clean_text(full_text)
+
+        workplace_type = ""
+        workplace_patterns = [
+            (r"\((?:Работа в офисе|On-site)\)", "on-site"),
+            (r"\((?:Гибридный формат работы|Hybrid)\)", "hybrid"),
+            (r"\((?:Удал[её]нная работа|Remote)\)", "remote"),
+        ]
+        for pattern, value in workplace_patterns:
+            if re.search(pattern, raw, flags=re.I) or re.search(pattern, text, flags=re.I):
+                workplace_type = value
+                break
+
+        cleaned_location = raw
+        cleaned_location = re.sub(
+            r"\s*\((?:Работа в офисе|Гибридный формат работы|Удал[её]нная работа|On-site|Hybrid|Remote)\)\s*",
+            " ",
+            cleaned_location,
+            flags=re.I,
+        )
+        cleaned_location = re.split(
+            r"\s+(?:Активное рассмотрение кандидатов|Вакансия размещена|Promoted|Продвигается|\d+\s+выпускник|\d+\s+выпускников|Станьте одним из первых кандидатов)",
+            cleaned_location,
+            maxsplit=1,
+            flags=re.I,
+        )[0]
+        cleaned_location = clean_text(cleaned_location)
+
+        posted_age = ""
+        age_patterns = [
+            r"Вакансия размещена\s+([^·]+?)(?=\s+\d+\s+(?:дн|день|дня|дней|недел|час|ч\.)|\s*·|$)",
+            r"размещена\s+((?:\d+|один|одна)\s+(?:день|дня|дней|неделю|недели|недель|час|часа|часов))\s+назад",
+            r"posted\s+([^·]+?ago)",
+        ]
+        for pattern in age_patterns:
+            m = re.search(pattern, text, flags=re.I)
+            if m:
+                posted_age = clean_text(m.group(1))
+                break
+
+        return {
+            "location": cleaned_location or raw,
+            "workplace_type": workplace_type,
+            "posted_age": posted_age,
+            "easy_apply": bool(re.search(r"Простая подача заявки|Easy Apply", text, flags=re.I)),
+            "actively_reviewing": bool(re.search(r"Активное рассмотрение кандидатов|Actively reviewing", text, flags=re.I)),
+            "promoted": bool(re.search(r"Продвигается|Promoted", text, flags=re.I)),
+            "verified": bool(re.search(r"подтвержденная вакансия|verified job", text, flags=re.I)),
+        }
+
+
     def add_job(node, url="", force_job_id=""):
         job_id = force_job_id or get_job_id(url)
 
@@ -1255,13 +1308,20 @@ def extract_jobs_records(html: str, source_file: str) -> list[dict]:
 
         # Стабильная canonical URL полезнее currentJobId-параметров.
         canonical_url = f"https://www.linkedin.com/jobs/view/{job_id}/"
+        metadata = normalize_job_metadata(location, full_text)
 
         records.append({
             "type": "job",
             "job_id": job_id,
             "title": title[:500],
             "company": company[:500],
-            "location": location[:500],
+            "location": metadata["location"][:500],
+            "workplace_type": metadata["workplace_type"],
+            "posted_age": metadata["posted_age"],
+            "easy_apply": metadata["easy_apply"],
+            "actively_reviewing": metadata["actively_reviewing"],
+            "promoted": metadata["promoted"],
+            "verified": metadata["verified"],
             "text": full_text[:15000],
             "url": canonical_url,
             "source_file": source_file,
