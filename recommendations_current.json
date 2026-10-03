@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T18:48:30.894291+00:00",
-  "source_generated_at": "2026-10-03T18:48:30.894291+00:00",
+  "generated_at": "2026-10-03T19:17:44.125021+00:00",
+  "source_generated_at": "2026-10-03T19:17:44.125021+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
     "outbound_actions": [
@@ -40,7 +40,7 @@
       "connect_person": 7,
       "engage_with_post": 22,
       "find_warm_path": 64,
-      "follow_company": 9,
+      "follow_company": 11,
       "follow_person": 40,
       "message_person": 1,
       "research_company": 13,
@@ -110,6 +110,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Sarla Aviation",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Adrian Schmidt",
@@ -280,6 +281,7 @@
         "FOLLOWER"
       ],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Neha S • 1-й",
@@ -433,10 +435,11 @@
       "crm_entity_id": "person:andreas hamilton",
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "Saildrone"
       ],
-      "known_relationship_company": "Saildrone",
       "do_not_contact": false,
       "target": {
         "name": "Andreas Hamilton",
@@ -530,14 +533,14 @@
       "execution_status_full": "READY",
       "approval_required_full": false,
       "recommendation_status": "ACTIONABLE_NOW",
-      "action_score": 74,
+      "action_score": 72,
       "action_score_components": {
         "career": 28.8,
         "technical": 12.2,
         "networking": 5.1,
         "confidence": 6.4,
         "freshness": 8,
-        "relationship": 2,
+        "relationship": 0,
         "repeat": 0,
         "hiring": 8,
         "exact_hiring_match": 0,
@@ -603,6 +606,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "MathWorks",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Melda Ulusoy • 3-й+",
@@ -758,7 +762,10 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
-      "known_relationship_company": "Wisk",
+      "known_relationship_company": "SkyGrid",
+      "known_related_companies": [
+        "Wisk"
+      ],
       "do_not_contact": false,
       "target": {
         "name": "Brenden Hedblom",
@@ -912,6 +919,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "James Wang",
@@ -1013,170 +1021,6 @@
       "reason_ru": "Публикация описывает достижение в лётных испытаниях eVTOL, связанное с автономным полётом и авионикой, что тесно соответствует опыту профиля в управлении полётом, eVTOL, автономности и междисциплинарных R&D. Professor James Wang, руководивший командой NTU, указан как конкретный человек и релевантная потенциальная цель для технического нетворкинга. О найме не сообщается."
     },
     {
-      "signal_id": "sig_8a00830809af67f7",
-      "source_post_id": null,
-      "priority": "high",
-      "confidence": 93,
-      "author": "Alessandro Michelazzi",
-      "company": null,
-      "primary_action": "find_warm_path",
-      "secondary_action": "follow_person",
-      "approval_required": true,
-      "execution_status": "PENDING_APPROVAL",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "connect_person",
-          "reason": "One relevant signal so far; check context first and consider connecting after that.",
-          "approval_required": true
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {
-        "connection_note": "Hi Alessandro, I came across your work on GREENSPECIES. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
-      },
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "person:alessandro michelazzi",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
-      ],
-      "known_relationship_company": "Department of Aerospace Science and Technology - Politecnico di Milano",
-      "do_not_contact": false,
-      "target": {
-        "name": "Alessandro Michelazzi",
-        "role": "PhD student",
-        "relation": "author",
-        "target_role": "PhD researcher in astrodynamics and relative navigation",
-        "target_reason": "Alessandro Michelazzi is the post author and presented work on GNSS-based relative navigation and close formation flying. Inference: his research may provide a relevant technical connection to the profile's navigation, control and autonomous-systems expertise.",
-        "target_priority": "high",
-        "company": null,
-        "profile_url": "https://www.linkedin.com/in/alessandro-michelazzi-270/",
-        "company_url": "https://www.linkedin.com/company/department-daer-polimi/"
-      },
-      "reason": "The post covers spacecraft guidance, navigation and control, relative navigation, trajectory optimisation, formation flying and collision avoidance. These topics strongly overlap with the profile's GNC, navigation, trajectory control, simulation and autonomous-systems background. The author and other named researchers are concrete potential technical contacts in an adjacent space-navigation domain. No hiring signal is stated.",
-      "content_angle": "Inference: discuss an original cross-domain comparison between spacecraft relative navigation and UAV formation control, focusing on how low-thrust or constrained-actuation manoeuvre planning concepts could inform autonomous aerial systems without copying the post's research content.",
-      "source_url": "https://www.linkedin.com/in/alessandro-michelazzi-270/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-10-02",
-        "last_seen": "2026-10-02",
-        "dates": [
-          "2026-10-02"
-        ],
-        "high": 1,
-        "medium": 0
-      },
-      "post_url": null,
-      "signal_context": {
-        "signal_types": [
-          "TECH_SIGNAL",
-          "PROJECT_SIGNAL",
-          "PEOPLE_SIGNAL",
-          "NETWORK_SIGNAL"
-        ],
-        "career_relevance": 68,
-        "technical_relevance": 84,
-        "networking_relevance": 88,
-        "content_relevance": 76,
-        "hiring_detected": false,
-        "hiring_intent": "none",
-        "hiring_roles": [],
-        "profile_matches": [
-          "aerospace",
-          "navigation",
-          "space"
-        ]
-      },
-      "freshness": {
-        "age_days": 1,
-        "bucket": "fresh",
-        "actionable_now": true
-      },
-      "action_plan_full": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "connect_person",
-          "reason": "One relevant signal so far; check context first and consider connecting after that.",
-          "approval_required": true
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {
-        "connection_note": "Hi Alessandro, I came across your work on GREENSPECIES. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
-      },
-      "execution_status_full": "PENDING_APPROVAL",
-      "approval_required_full": true,
-      "recommendation_status": "ACTIONABLE_NOW",
-      "action_score": 66,
-      "action_score_components": {
-        "career": 27.2,
-        "technical": 12.6,
-        "networking": 7.0,
-        "confidence": 6.5,
-        "freshness": 9,
-        "relationship": 2,
-        "repeat": 0,
-        "hiring": 0,
-        "exact_hiring_match": 0,
-        "opportunity": 0,
-        "priority": 2
-      },
-      "reason_ru": "Публикация посвящена наведению, навигации и управлению космическими аппаратами, относительной навигации, оптимизации траекторий, групповому полёту и предотвращению столкновений. Эти темы тесно пересекаются с опытом профиля в области GNC, навигации, управления траекторией, моделирования и автономных систем. Автор и другие упомянутые исследователи являются конкретными потенциальными техническими контактами в смежной области космической навигации. Признаков найма не указано."
-    },
-    {
       "signal_id": "sig_e5cef49289e26e8a",
       "source_post_id": null,
       "priority": "high",
@@ -1219,6 +1063,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -1314,6 +1159,171 @@
       "reason_ru": "Публикация посвящена росту рынка грузовых дронов, автономным летательным аппаратам, логистике с тяжёлыми грузами и операциям на морских ветряных электростанциях. Эти темы тесно соответствуют опыту профиля в UAV, автономных системах, управлении полётом, моделировании, планировании траекторий и логистике с использованием UAV. Вакансии или явной активности по найму не указано."
     },
     {
+      "signal_id": "sig_8a00830809af67f7",
+      "source_post_id": null,
+      "priority": "high",
+      "confidence": 93,
+      "author": "Alessandro Michelazzi",
+      "company": null,
+      "primary_action": "find_warm_path",
+      "secondary_action": "follow_person",
+      "approval_required": true,
+      "execution_status": "PENDING_APPROVAL",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "connect_person",
+          "reason": "One relevant signal so far; check context first and consider connecting after that.",
+          "approval_required": true
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {
+        "connection_note": "Hi Alessandro, I came across your work on GREENSPECIES. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+      },
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "person:alessandro michelazzi",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "Department of Aerospace Science and Technology - Politecnico di Milano"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Alessandro Michelazzi",
+        "role": "PhD student",
+        "relation": "author",
+        "target_role": "PhD researcher in astrodynamics and relative navigation",
+        "target_reason": "Alessandro Michelazzi is the post author and presented work on GNSS-based relative navigation and close formation flying. Inference: his research may provide a relevant technical connection to the profile's navigation, control and autonomous-systems expertise.",
+        "target_priority": "high",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/alessandro-michelazzi-270/",
+        "company_url": "https://www.linkedin.com/company/department-daer-polimi/"
+      },
+      "reason": "The post covers spacecraft guidance, navigation and control, relative navigation, trajectory optimisation, formation flying and collision avoidance. These topics strongly overlap with the profile's GNC, navigation, trajectory control, simulation and autonomous-systems background. The author and other named researchers are concrete potential technical contacts in an adjacent space-navigation domain. No hiring signal is stated.",
+      "content_angle": "Inference: discuss an original cross-domain comparison between spacecraft relative navigation and UAV formation control, focusing on how low-thrust or constrained-actuation manoeuvre planning concepts could inform autonomous aerial systems without copying the post's research content.",
+      "source_url": "https://www.linkedin.com/in/alessandro-michelazzi-270/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-10-02",
+        "last_seen": "2026-10-02",
+        "dates": [
+          "2026-10-02"
+        ],
+        "high": 1,
+        "medium": 0
+      },
+      "post_url": null,
+      "signal_context": {
+        "signal_types": [
+          "TECH_SIGNAL",
+          "PROJECT_SIGNAL",
+          "PEOPLE_SIGNAL",
+          "NETWORK_SIGNAL"
+        ],
+        "career_relevance": 68,
+        "technical_relevance": 84,
+        "networking_relevance": 88,
+        "content_relevance": 76,
+        "hiring_detected": false,
+        "hiring_intent": "none",
+        "hiring_roles": [],
+        "profile_matches": [
+          "aerospace",
+          "navigation",
+          "space"
+        ]
+      },
+      "freshness": {
+        "age_days": 1,
+        "bucket": "fresh",
+        "actionable_now": true
+      },
+      "action_plan_full": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "connect_person",
+          "reason": "One relevant signal so far; check context first and consider connecting after that.",
+          "approval_required": true
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {
+        "connection_note": "Hi Alessandro, I came across your work on GREENSPECIES. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+      },
+      "execution_status_full": "PENDING_APPROVAL",
+      "approval_required_full": true,
+      "recommendation_status": "ACTIONABLE_NOW",
+      "action_score": 64,
+      "action_score_components": {
+        "career": 27.2,
+        "technical": 12.6,
+        "networking": 7.0,
+        "confidence": 6.5,
+        "freshness": 9,
+        "relationship": 0,
+        "repeat": 0,
+        "hiring": 0,
+        "exact_hiring_match": 0,
+        "opportunity": 0,
+        "priority": 2
+      },
+      "reason_ru": "Публикация посвящена наведению, навигации и управлению космическими аппаратами, относительной навигации, оптимизации траекторий, групповому полёту и предотвращению столкновений. Эти темы тесно пересекаются с опытом профиля в области GNC, навигации, управления траекторией, моделирования и автономных систем. Автор и другие упомянутые исследователи являются конкретными потенциальными техническими контактами в смежной области космической навигации. Признаков найма не указано."
+    },
+    {
       "signal_id": "sig_9c6f08adc61e5410",
       "source_post_id": "7508691171586695168",
       "priority": "high",
@@ -1359,6 +1369,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Eve Air Mobility",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -1454,128 +1465,6 @@
       "reason_ru": "Публикация описывает конфигурацию eVTOL с вертикальным взлётом, переходным режимом и крейсерским полётом, что непосредственно соответствует экспертизе профиля в eVTOL, управлении полётом, динамике полёта, автопилотах и моделировании. Информация о найме отсутствует, автор или конкретный человек для контакта не указаны."
     },
     {
-      "signal_id": "sig_645b98bac4705df0",
-      "source_post_id": null,
-      "priority": "high",
-      "confidence": null,
-      "author": "Bonny Simi • 3-й+",
-      "company": null,
-      "primary_action": "find_warm_path",
-      "secondary_action": null,
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "person:bonny simi • 3-й+",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
-      ],
-      "known_relationship_company": "Joby Aviation",
-      "do_not_contact": false,
-      "target": {
-        "name": "Bonny Simi • 3-й+",
-        "role": null,
-        "relation": "author",
-        "target_role": null,
-        "target_reason": null,
-        "target_priority": null,
-        "company": null,
-        "profile_url": "https://www.linkedin.com/in/bonnysimi/",
-        "company_url": "https://www.linkedin.com/company/jobyaviation/"
-      },
-      "reason": "обнаружен hiring-сигнал; технологии: eVTOL; домены: aerospace, defense; совпадение с профилем: aerospace, eVTOL.",
-      "content_angle": null,
-      "source_url": "https://www.linkedin.com/in/bonnysimi/",
-      "analysis_engine": "rules",
-      "llm": {
-        "used": false,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": "Expecting value: line 1 column 1077 (char 1076)"
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-09-27",
-        "last_seen": "2026-09-27",
-        "dates": [
-          "2026-09-27"
-        ],
-        "high": 1,
-        "medium": 0
-      },
-      "post_url": null,
-      "signal_context": {
-        "signal_types": [
-          "HIRING_SIGNAL",
-          "TECH_SIGNAL",
-          "PROJECT_SIGNAL",
-          "PEOPLE_SIGNAL",
-          "NETWORK_SIGNAL",
-          "OPPORTUNITY_SIGNAL"
-        ],
-        "career_relevance": 82,
-        "technical_relevance": 56,
-        "networking_relevance": 57,
-        "content_relevance": 52,
-        "hiring_detected": true,
-        "hiring_intent": "explicit_or_probable",
-        "hiring_roles": [],
-        "profile_matches": [
-          "aerospace",
-          "eVTOL"
-        ]
-      },
-      "freshness": {
-        "age_days": 6,
-        "bucket": "current",
-        "actionable_now": true
-      },
-      "action_plan_full": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {},
-      "execution_status_full": "READY",
-      "approval_required_full": false,
-      "recommendation_status": "ACTIONABLE_NOW",
-      "action_score": 64,
-      "action_score_components": {
-        "career": 32.8,
-        "technical": 8.4,
-        "networking": 4.6,
-        "confidence": 0.0,
-        "freshness": 4,
-        "relationship": 2,
-        "repeat": 0,
-        "hiring": 8,
-        "exact_hiring_match": 0,
-        "opportunity": 2,
-        "priority": 2
-      },
-      "reason_ru": "обнаружен сигнал о найме; технологии: eVTOL; области: aerospace, defense; соответствие профилю: aerospace, eVTOL."
-    },
-    {
       "signal_id": "sig_2a8736a02a666fe1",
       "source_post_id": "7511926210394804226",
       "priority": "medium",
@@ -1626,6 +1515,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Saildrone",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Elizabeth Shadwick",
@@ -1728,6 +1618,129 @@
       "reason_ru": "Публикация описывает автономное судно на солнечной энергии с длительным временем работы, функционирующее в сложной морской среде, что тесно соответствует интересам профиля в морской автономности, управлении автономными судами, навигации, планировании миссий и энергоэффективных операциях. Открытая вакансия не указана."
     },
     {
+      "signal_id": "sig_645b98bac4705df0",
+      "source_post_id": null,
+      "priority": "high",
+      "confidence": null,
+      "author": "Bonny Simi • 3-й+",
+      "company": null,
+      "primary_action": "find_warm_path",
+      "secondary_action": null,
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "person:bonny simi • 3-й+",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "Joby Aviation"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Bonny Simi • 3-й+",
+        "role": null,
+        "relation": "author",
+        "target_role": null,
+        "target_reason": null,
+        "target_priority": null,
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/bonnysimi/",
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
+      },
+      "reason": "обнаружен hiring-сигнал; технологии: eVTOL; домены: aerospace, defense; совпадение с профилем: aerospace, eVTOL.",
+      "content_angle": null,
+      "source_url": "https://www.linkedin.com/in/bonnysimi/",
+      "analysis_engine": "rules",
+      "llm": {
+        "used": false,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": "Expecting value: line 1 column 1077 (char 1076)"
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-09-27",
+        "last_seen": "2026-09-27",
+        "dates": [
+          "2026-09-27"
+        ],
+        "high": 1,
+        "medium": 0
+      },
+      "post_url": null,
+      "signal_context": {
+        "signal_types": [
+          "HIRING_SIGNAL",
+          "TECH_SIGNAL",
+          "PROJECT_SIGNAL",
+          "PEOPLE_SIGNAL",
+          "NETWORK_SIGNAL",
+          "OPPORTUNITY_SIGNAL"
+        ],
+        "career_relevance": 82,
+        "technical_relevance": 56,
+        "networking_relevance": 57,
+        "content_relevance": 52,
+        "hiring_detected": true,
+        "hiring_intent": "explicit_or_probable",
+        "hiring_roles": [],
+        "profile_matches": [
+          "aerospace",
+          "eVTOL"
+        ]
+      },
+      "freshness": {
+        "age_days": 6,
+        "bucket": "current",
+        "actionable_now": true
+      },
+      "action_plan_full": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {},
+      "execution_status_full": "READY",
+      "approval_required_full": false,
+      "recommendation_status": "ACTIONABLE_NOW",
+      "action_score": 62,
+      "action_score_components": {
+        "career": 32.8,
+        "technical": 8.4,
+        "networking": 4.6,
+        "confidence": 0.0,
+        "freshness": 4,
+        "relationship": 0,
+        "repeat": 0,
+        "hiring": 8,
+        "exact_hiring_match": 0,
+        "opportunity": 2,
+        "priority": 2
+      },
+      "reason_ru": "обнаружен сигнал о найме; технологии: eVTOL; области: aerospace, defense; соответствие профилю: aerospace, eVTOL."
+    },
+    {
       "signal_id": "sig_f2d3343252394f19",
       "source_post_id": "7507923624499240961",
       "priority": "medium",
@@ -1774,10 +1787,11 @@
       "crm_entity_id": "person:vassilis diakoloukas",
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "MathWorks"
       ],
-      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Vassilis Diakoloukas • 3-й+",
@@ -1866,14 +1880,14 @@
       "execution_status_full": "READY",
       "approval_required_full": false,
       "recommendation_status": "ACTIONABLE_NOW",
-      "action_score": 63,
+      "action_score": 61,
       "action_score_components": {
         "career": 28.8,
         "technical": 13.7,
         "networking": 3.4,
         "confidence": 6.4,
         "freshness": 7,
-        "relationship": 2,
+        "relationship": 0,
         "repeat": 1,
         "hiring": 0,
         "exact_hiring_match": 0,
@@ -1936,6 +1950,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Sarla Aviation",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Vijeta Tantry",
@@ -2040,172 +2055,6 @@
       "reason_ru": "Публикация освещает электрическое аэротакси Sarla Aviation и упоминает женщин, участвовавших в проектировании и создании летательного аппарата eVTOL. Это в значительной степени соответствует опыту профиля в eVTOL, управлении полётом, разработке летательных аппаратов и междисциплинарной аэрокосмической деятельности, а также предоставляет конкретных людей и компанию для нетворкинга. Возможность найма не заявлена."
     },
     {
-      "signal_id": "sig_67d5a3786b315508",
-      "source_post_id": "7511530619932196864",
-      "priority": "medium",
-      "confidence": 91,
-      "author": "Ryan Augsburger",
-      "company": null,
-      "primary_action": "find_warm_path",
-      "secondary_action": "connect_person",
-      "approval_required": true,
-      "execution_status": "PENDING_APPROVAL",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "connect_person",
-          "reason": "Concrete relevant person identified; connection can be considered.",
-          "approval_required": true
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {
-        "connection_note": "Hi Ryan, I came across your work on Intel capital investment in Ohio. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
-      },
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "person:jp nauseef",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
-      ],
-      "known_relationship_company": "Anduril Industries",
-      "do_not_contact": false,
-      "target": {
-        "name": "Ryan Augsburger",
-        "role": null,
-        "relation": "author",
-        "target_role": "Ohio aerospace and defense leaders",
-        "target_reason": "The post identifies aerospace and defense as major growth areas in Ohio and references Anduril Industries and Joby Aviation projects, making relevant technical and organizational contacts worth identifying.",
-        "target_priority": "high",
-        "company": null,
-        "profile_url": "https://www.linkedin.com/in/ryan-augsburger-8697a914a/",
-        "company_url": "https://www.linkedin.com/company/intel-corporation/"
-      },
-      "reason": "The post describes Ohio's expanding manufacturing, aerospace, defense, aviation, automotive and mobility ecosystem, including projects associated with Anduril Industries and Joby Aviation. These markets overlap with the profile's UAV, eVTOL, flight-control, autonomy and aerospace interests. The reference to a large new-jobs project is an indirect hiring signal, but no specific vacancy, role, employer relationship or remote arrangement is stated.",
-      "content_angle": "Discuss how Ohio's manufacturing and aerospace ecosystem can connect flight-control simulation, autonomy, verification, production testing and operational feedback when scaling eVTOL and defense platforms.",
-      "source_url": "https://www.linkedin.com/in/ryan-augsburger-8697a914a/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-10-02",
-        "last_seen": "2026-10-02",
-        "dates": [
-          "2026-10-02"
-        ],
-        "high": 0,
-        "medium": 1
-      },
-      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511530619932196864/",
-      "signal_context": {
-        "signal_types": [
-          "HIRING_SIGNAL",
-          "COMPANY_SIGNAL",
-          "PROJECT_SIGNAL",
-          "PEOPLE_SIGNAL",
-          "NETWORK_SIGNAL",
-          "MARKET_SIGNAL"
-        ],
-        "career_relevance": 58,
-        "technical_relevance": 29,
-        "networking_relevance": 82,
-        "content_relevance": 68,
-        "hiring_detected": true,
-        "hiring_intent": "weak",
-        "hiring_roles": [],
-        "profile_matches": [
-          "aerospace",
-          "space"
-        ]
-      },
-      "freshness": {
-        "age_days": 1,
-        "bucket": "fresh",
-        "actionable_now": true
-      },
-      "action_plan_full": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "connect_person",
-          "reason": "Concrete relevant person identified; connection can be considered.",
-          "approval_required": true
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {
-        "connection_note": "Hi Ryan, I came across your work on Intel capital investment in Ohio. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
-      },
-      "execution_status_full": "PENDING_APPROVAL",
-      "approval_required_full": true,
-      "recommendation_status": "ACTIONABLE_NOW",
-      "action_score": 60,
-      "action_score_components": {
-        "career": 23.2,
-        "technical": 4.3,
-        "networking": 6.6,
-        "confidence": 6.4,
-        "freshness": 9,
-        "relationship": 2,
-        "repeat": 0,
-        "hiring": 8,
-        "exact_hiring_match": 0,
-        "opportunity": 0,
-        "priority": 1
-      },
-      "reason_ru": "Публикация описывает развивающуюся производственную, аэрокосмическую, оборонную, авиационную, автомобильную и транспортную экосистему Ohio, включая проекты, связанные с Anduril Industries и Joby Aviation. Эти рынки пересекаются с интересами профиля в UAV, eVTOL, управлении полётом, автономности и аэрокосмической отрасли. Упоминание крупного проекта по созданию новых рабочих мест является косвенным сигналом найма, но конкретная вакансия, должность, связь с работодателем или возможность удалённой работы не указаны."
-    },
-    {
       "signal_id": "sig_d58cc1f2235f849b",
       "source_post_id": "7306006458913951744",
       "priority": "medium",
@@ -2243,6 +2092,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -2382,6 +2232,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "SkyGrid",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Arife Aycan Mutlu • 3-й+",
@@ -2534,6 +2385,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Lockheed Martin",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Edward Ludlow",
@@ -2679,6 +2531,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Joby Aviation",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -2824,6 +2677,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "MathWorks",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -2920,6 +2774,174 @@
       "reason_ru": "Публикация описывает использование Marmara Racing MATLAB и Simulink для анализа характеристик автомобиля, системного моделирования, оценки данных и совершенствования инженерных процессов. Это тесно соответствует опыту профиля в MATLAB/Simulink, динамике полёта, моделировании систем управления, симуляции и анализе телеметрии, хотя публикация посвящена автоспорту, а не аэрокосмическим или UAV-системам. Возможность найма не заявлена."
     },
     {
+      "signal_id": "sig_67d5a3786b315508",
+      "source_post_id": "7511530619932196864",
+      "priority": "medium",
+      "confidence": 91,
+      "author": "Ryan Augsburger",
+      "company": null,
+      "primary_action": "find_warm_path",
+      "secondary_action": "connect_person",
+      "approval_required": true,
+      "execution_status": "PENDING_APPROVAL",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "connect_person",
+          "reason": "Concrete relevant person identified; connection can be considered.",
+          "approval_required": true
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {
+        "connection_note": "Hi Ryan, I came across your work on Intel capital investment in Ohio. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+      },
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "person:jp nauseef",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "Anduril Industries",
+        "Joby Aviation"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Ryan Augsburger",
+        "role": null,
+        "relation": "author",
+        "target_role": "Ohio aerospace and defense leaders",
+        "target_reason": "The post identifies aerospace and defense as major growth areas in Ohio and references Anduril Industries and Joby Aviation projects, making relevant technical and organizational contacts worth identifying.",
+        "target_priority": "high",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/ryan-augsburger-8697a914a/",
+        "company_url": "https://www.linkedin.com/company/intel-corporation/"
+      },
+      "reason": "The post describes Ohio's expanding manufacturing, aerospace, defense, aviation, automotive and mobility ecosystem, including projects associated with Anduril Industries and Joby Aviation. These markets overlap with the profile's UAV, eVTOL, flight-control, autonomy and aerospace interests. The reference to a large new-jobs project is an indirect hiring signal, but no specific vacancy, role, employer relationship or remote arrangement is stated.",
+      "content_angle": "Discuss how Ohio's manufacturing and aerospace ecosystem can connect flight-control simulation, autonomy, verification, production testing and operational feedback when scaling eVTOL and defense platforms.",
+      "source_url": "https://www.linkedin.com/in/ryan-augsburger-8697a914a/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-10-02",
+        "last_seen": "2026-10-02",
+        "dates": [
+          "2026-10-02"
+        ],
+        "high": 0,
+        "medium": 1
+      },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511530619932196864/",
+      "signal_context": {
+        "signal_types": [
+          "HIRING_SIGNAL",
+          "COMPANY_SIGNAL",
+          "PROJECT_SIGNAL",
+          "PEOPLE_SIGNAL",
+          "NETWORK_SIGNAL",
+          "MARKET_SIGNAL"
+        ],
+        "career_relevance": 58,
+        "technical_relevance": 29,
+        "networking_relevance": 82,
+        "content_relevance": 68,
+        "hiring_detected": true,
+        "hiring_intent": "weak",
+        "hiring_roles": [],
+        "profile_matches": [
+          "aerospace",
+          "space"
+        ]
+      },
+      "freshness": {
+        "age_days": 1,
+        "bucket": "fresh",
+        "actionable_now": true
+      },
+      "action_plan_full": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "connect_person",
+          "reason": "Concrete relevant person identified; connection can be considered.",
+          "approval_required": true
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {
+        "connection_note": "Hi Ryan, I came across your work on Intel capital investment in Ohio. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+      },
+      "execution_status_full": "PENDING_APPROVAL",
+      "approval_required_full": true,
+      "recommendation_status": "ACTIONABLE_NOW",
+      "action_score": 58,
+      "action_score_components": {
+        "career": 23.2,
+        "technical": 4.3,
+        "networking": 6.6,
+        "confidence": 6.4,
+        "freshness": 9,
+        "relationship": 0,
+        "repeat": 0,
+        "hiring": 8,
+        "exact_hiring_match": 0,
+        "opportunity": 0,
+        "priority": 1
+      },
+      "reason_ru": "Публикация описывает развивающуюся производственную, аэрокосмическую, оборонную, авиационную, автомобильную и транспортную экосистему Ohio, включая проекты, связанные с Anduril Industries и Joby Aviation. Эти рынки пересекаются с интересами профиля в UAV, eVTOL, управлении полётом, автономности и аэрокосмической отрасли. Упоминание крупного проекта по созданию новых рабочих мест является косвенным сигналом найма, но конкретная вакансия, должность, связь с работодателем или возможность удалённой работы не указаны."
+    },
+    {
       "signal_id": "sig_b48e4a5ed0d67682",
       "source_post_id": "7510982582574985217",
       "priority": "medium",
@@ -2973,10 +2995,11 @@
       "crm_entity_id": "person:camilla colombo",
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "Department of Aerospace Science and Technology - Politecnico di Milano"
       ],
-      "known_relationship_company": "Department of Aerospace Science and Technology - Politecnico di Milano",
       "do_not_contact": false,
       "target": {
         "name": "Michèle Lavagna",
@@ -3067,14 +3090,14 @@
       "execution_status_full": "PENDING_APPROVAL",
       "approval_required_full": true,
       "recommendation_status": "ACTIONABLE_NOW",
-      "action_score": 58,
+      "action_score": 56,
       "action_score_components": {
         "career": 25.6,
         "technical": 9.0,
         "networking": 6.2,
         "confidence": 6.0,
         "freshness": 8,
-        "relationship": 2,
+        "relationship": 0,
         "repeat": 0,
         "hiring": 0,
         "exact_hiring_match": 0,
@@ -3132,6 +3155,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Stuart Simpson",
@@ -3273,6 +3297,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -3410,6 +3435,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Jeff Miller • 3-й+",
@@ -3558,6 +3584,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -3661,157 +3688,6 @@
       "reason_ru": "Публикация описывает беспилотный надводный аппарат CK-14e компании Codevintec и технический процесс проведения подводных исследований, включая сонар, позиционирование аппарата, ориентацию, коррекцию скорости звука, синхронизацию, планирование миссий и подготовку итоговых данных. Эти темы являются смежными с интересами профиля в морской автономности, навигации, управлении, планировании миссий и автономных системах. Информация о найме или идентифицируемый автор не указаны."
     },
     {
-      "signal_id": "sig_97d696b35feaea51",
-      "source_post_id": null,
-      "priority": "medium",
-      "confidence": 90,
-      "author": "Dave Schowalter • 3-й+",
-      "company": null,
-      "primary_action": "find_warm_path",
-      "secondary_action": "follow_person",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "review_technology",
-          "reason": "Technical project or technology is relevant to the profile.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "company:mathworks",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
-      ],
-      "known_relationship_company": "MathWorks",
-      "do_not_contact": false,
-      "target": {
-        "name": "Dave Schowalter • 3-й+",
-        "role": null,
-        "relation": "author",
-        "target_role": "Relevant LiDAR and autonomy practitioner; role not stated",
-        "target_reason": "Dave Schowalter authored a post directly relevant to LiDAR, MATLAB, and autonomy, making him a reasonable person to follow or engage with.",
-        "target_priority": "medium",
-        "company": null,
-        "profile_url": "https://www.linkedin.com/in/dave-schowalter/",
-        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
-      },
-      "reason": "The post discusses LiDAR simulation, colorized point clouds, direct sensor-data streaming into MATLAB, and autonomy. These topics align with the profile's MATLAB/Simulink, simulation, autonomous-systems, sensor-fusion, and robotics interests. No hiring opportunity is stated.",
-      "content_angle": "Inference: Share an original expert perspective on how direct LiDAR streaming and colorized point clouds could affect autonomy simulation, perception validation, and camera-LiDAR fusion decisions in off-road systems.",
-      "source_url": "https://www.linkedin.com/in/dave-schowalter/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-09-27",
-        "last_seen": "2026-09-27",
-        "dates": [
-          "2026-09-27"
-        ],
-        "high": 0,
-        "medium": 1
-      },
-      "post_url": null,
-      "signal_context": {
-        "signal_types": [
-          "TECH_SIGNAL",
-          "COMPANY_SIGNAL",
-          "PEOPLE_SIGNAL",
-          "NETWORK_SIGNAL"
-        ],
-        "career_relevance": 58,
-        "technical_relevance": 82,
-        "networking_relevance": 52,
-        "content_relevance": 48,
-        "hiring_detected": false,
-        "hiring_intent": "none",
-        "hiring_roles": [],
-        "profile_matches": [
-          "MATLAB/Simulink",
-          "autonomy",
-          "navigation"
-        ]
-      },
-      "freshness": {
-        "age_days": 6,
-        "bucket": "current",
-        "actionable_now": true
-      },
-      "action_plan_full": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "review_technology",
-          "reason": "Technical project or technology is relevant to the profile.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {},
-      "execution_status_full": "READY",
-      "approval_required_full": false,
-      "recommendation_status": "ACTIONABLE_NOW",
-      "action_score": 53,
-      "action_score_components": {
-        "career": 23.2,
-        "technical": 12.3,
-        "networking": 4.2,
-        "confidence": 6.3,
-        "freshness": 4,
-        "relationship": 2,
-        "repeat": 0,
-        "hiring": 0,
-        "exact_hiring_match": 0,
-        "opportunity": 0,
-        "priority": 1
-      },
-      "reason_ru": "Публикация посвящена моделированию LiDAR, цветным облакам точек, прямой передаче данных с сенсоров в MATLAB и автономности. Эти темы соответствуют интересам профиля в MATLAB/Simulink, моделировании, автономных системах, sensor fusion и робототехнике. Возможность найма не заявлена."
-    },
-    {
       "signal_id": "sig_63b3001a7bc1e2e4",
       "source_post_id": "7509560906066837505",
       "priority": "medium",
@@ -3854,6 +3730,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -3990,6 +3867,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Joby Aviation",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Todd Case",
@@ -4136,6 +4014,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Joby Aviation",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Jim Sherman • 3-й+",
@@ -4239,6 +4118,158 @@
       "reason_ru": "Публикация посвящена завершению Joby Aviation автономного перелёта от побережья до побережья, что непосредственно соответствует интересам профиля в аэрокосмической отрасли, автономных системах и управлении полётом. Автор и несколько людей явно упомянуты, что создаёт потенциальные цели для нетворкинга, хотя их должности или активность по найму не указаны."
     },
     {
+      "signal_id": "sig_97d696b35feaea51",
+      "source_post_id": null,
+      "priority": "medium",
+      "confidence": 90,
+      "author": "Dave Schowalter • 3-й+",
+      "company": null,
+      "primary_action": "find_warm_path",
+      "secondary_action": "follow_person",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "company:mathworks",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "MathWorks"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Dave Schowalter • 3-й+",
+        "role": null,
+        "relation": "author",
+        "target_role": "Relevant LiDAR and autonomy practitioner; role not stated",
+        "target_reason": "Dave Schowalter authored a post directly relevant to LiDAR, MATLAB, and autonomy, making him a reasonable person to follow or engage with.",
+        "target_priority": "medium",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/dave-schowalter/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
+      },
+      "reason": "The post discusses LiDAR simulation, colorized point clouds, direct sensor-data streaming into MATLAB, and autonomy. These topics align with the profile's MATLAB/Simulink, simulation, autonomous-systems, sensor-fusion, and robotics interests. No hiring opportunity is stated.",
+      "content_angle": "Inference: Share an original expert perspective on how direct LiDAR streaming and colorized point clouds could affect autonomy simulation, perception validation, and camera-LiDAR fusion decisions in off-road systems.",
+      "source_url": "https://www.linkedin.com/in/dave-schowalter/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-09-27",
+        "last_seen": "2026-09-27",
+        "dates": [
+          "2026-09-27"
+        ],
+        "high": 0,
+        "medium": 1
+      },
+      "post_url": null,
+      "signal_context": {
+        "signal_types": [
+          "TECH_SIGNAL",
+          "COMPANY_SIGNAL",
+          "PEOPLE_SIGNAL",
+          "NETWORK_SIGNAL"
+        ],
+        "career_relevance": 58,
+        "technical_relevance": 82,
+        "networking_relevance": 52,
+        "content_relevance": 48,
+        "hiring_detected": false,
+        "hiring_intent": "none",
+        "hiring_roles": [],
+        "profile_matches": [
+          "MATLAB/Simulink",
+          "autonomy",
+          "navigation"
+        ]
+      },
+      "freshness": {
+        "age_days": 6,
+        "bucket": "current",
+        "actionable_now": true
+      },
+      "action_plan_full": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {},
+      "execution_status_full": "READY",
+      "approval_required_full": false,
+      "recommendation_status": "ACTIONABLE_NOW",
+      "action_score": 51,
+      "action_score_components": {
+        "career": 23.2,
+        "technical": 12.3,
+        "networking": 4.2,
+        "confidence": 6.3,
+        "freshness": 4,
+        "relationship": 0,
+        "repeat": 0,
+        "hiring": 0,
+        "exact_hiring_match": 0,
+        "opportunity": 0,
+        "priority": 1
+      },
+      "reason_ru": "Публикация посвящена моделированию LiDAR, цветным облакам точек, прямой передаче данных с сенсоров в MATLAB и автономности. Эти темы соответствуют интересам профиля в MATLAB/Simulink, моделировании, автономных системах, sensor fusion и робототехнике. Возможность найма не заявлена."
+    },
+    {
       "signal_id": "sig_7b53bb3d7134082f",
       "source_post_id": "7510669902911975425",
       "priority": "medium",
@@ -4287,6 +4318,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Palmer Luckey",
@@ -4427,6 +4459,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -4563,6 +4596,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Embraer",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Arjan Meijer",
@@ -4703,6 +4737,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Joby Aviation",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Erika Armstrong • 3-й+",
@@ -4845,6 +4880,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Jonathan Shaver",
@@ -4983,6 +5019,7 @@
         "FOLLOWER"
       ],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Burak Çetin",
@@ -5134,6 +5171,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "AltoVolo",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Mohamad Omari • 2-й",
@@ -5286,6 +5324,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Embention",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -5390,160 +5429,6 @@
       "reason_ru": "В публикации описывается 190-граммовый компьютер управления полётом Veronte KAI 2.0 компании Embention для одноразовых ударных дронов, с акцентом на надёжность автономности и навигации в условиях отсутствия GPS. Это тесно соответствует опыту профиля в области систем управления полётом, автопилотов, UAV, наведения, навигации, управления и автономных систем. Возможность трудоустройства или конкретный человек не указаны."
     },
     {
-      "signal_id": "sig_56dce301ca6046dd",
-      "source_post_id": null,
-      "priority": "high",
-      "confidence": 93,
-      "author": "Samuel Olubayo • 3-й+",
-      "company": "REGENT Craft",
-      "primary_action": "find_warm_path",
-      "secondary_action": "follow_person",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "review_technology",
-          "reason": "Technical project or technology is relevant to the profile.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_company_and_relevant_team",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "company:regent craft",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
-      ],
-      "known_relationship_company": "MathWorks",
-      "do_not_contact": false,
-      "target": {
-        "name": "Samuel Olubayo • 3-й+",
-        "role": null,
-        "relation": "author",
-        "target_role": "CEO",
-        "target_reason": "Billy Thalheimer is explicitly identified as REGENT Craft's CEO, a potentially relevant senior contact for marine vehicle and flight-control engineering topics.",
-        "target_priority": "high",
-        "company": "REGENT Craft",
-        "profile_url": "https://www.linkedin.com/in/olubayosam/",
-        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
-      },
-      "reason": "Inference: The post strongly aligns with the profile's flight controls, MATLAB/Simulink, simulation, digital-twin, and marine autonomy interests. It also identifies REGENT Craft and CEO Billy Thalheimer as relevant people or company contacts, although no hiring activity is stated.",
-      "content_angle": "Offer an original expert perspective on how model-based design and hardware-in-the-loop validation can de-risk transitions between hull-borne, hydrofoil, and ground-effect flight modes, including failure-case coverage and repeatability metrics.",
-      "source_url": "https://www.linkedin.com/in/olubayosam/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-09-22",
-        "last_seen": "2026-09-22",
-        "dates": [
-          "2026-09-22"
-        ],
-        "high": 1,
-        "medium": 0
-      },
-      "post_url": null,
-      "signal_context": {
-        "signal_types": [
-          "TECH_SIGNAL",
-          "PROJECT_SIGNAL",
-          "COMPANY_SIGNAL",
-          "PEOPLE_SIGNAL",
-          "NETWORK_SIGNAL"
-        ],
-        "career_relevance": 88,
-        "technical_relevance": 98,
-        "networking_relevance": 72,
-        "content_relevance": 91,
-        "hiring_detected": false,
-        "hiring_intent": "none",
-        "hiring_roles": [],
-        "profile_matches": [
-          "MATLAB/Simulink",
-          "aerospace",
-          "flight controls",
-          "marine",
-          "navigation"
-        ]
-      },
-      "freshness": {
-        "age_days": 11,
-        "bucket": "aging",
-        "actionable_now": false
-      },
-      "action_plan_full": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "review_technology",
-          "reason": "Technical project or technology is relevant to the profile.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {},
-      "execution_status_full": "READY",
-      "approval_required_full": false,
-      "recommendation_status": "WATCHLIST",
-      "freshness_guard_applied": true,
-      "freshness_guard_removed": [
-        "engage_with_post"
-      ],
-      "action_score": 66,
-      "action_score_components": {
-        "career": 35.2,
-        "technical": 14.7,
-        "networking": 5.8,
-        "confidence": 6.5,
-        "freshness": 0,
-        "relationship": 2,
-        "repeat": 0,
-        "hiring": 0,
-        "exact_hiring_match": 0,
-        "opportunity": 0,
-        "priority": 2
-      },
-      "reason_ru": "Вывод: публикация тесно соответствует интересам профиля в области управления полётом, MATLAB/Simulink, симуляции, цифровых двойников и морской автономности. В ней также указаны REGENT Craft и CEO Billy Thalheimer как релевантные люди или контакты компании, хотя информация о найме отсутствует."
-    },
-    {
       "signal_id": "sig_ca85c0572c3d6b72",
       "source_post_id": null,
       "priority": "high",
@@ -5595,6 +5480,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Saildrone",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -5700,6 +5586,171 @@
       "reason_ru": "Saildrone явно объявляет о нескольких вакансиях на фоне расширения команд по всему миру. Фокус компании на беспилотных надводных аппаратах и картографировании океана соответствует целевому расширению профиля в области морской автономности, управления автономными судами, робототехники, симуляции и междисциплинарной инженерии. Роли Technical Operations Engineer и Manufacturing Systems Integration & Test Engineer выглядят наиболее потенциально релевантными, хотя в публикации нет подробных требований или информации о возможности удалённой работы."
     },
     {
+      "signal_id": "sig_56dce301ca6046dd",
+      "source_post_id": null,
+      "priority": "high",
+      "confidence": 93,
+      "author": "Samuel Olubayo • 3-й+",
+      "company": "REGENT Craft",
+      "primary_action": "find_warm_path",
+      "secondary_action": "follow_person",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_company",
+          "reason": "Keep company activity visible for future signals.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_company_and_relevant_team",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "company:regent craft",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "MathWorks"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Samuel Olubayo • 3-й+",
+        "role": null,
+        "relation": "author",
+        "target_role": "CEO",
+        "target_reason": "Billy Thalheimer is explicitly identified as REGENT Craft's CEO, a potentially relevant senior contact for marine vehicle and flight-control engineering topics.",
+        "target_priority": "high",
+        "company": "REGENT Craft",
+        "profile_url": "https://www.linkedin.com/in/olubayosam/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
+      },
+      "reason": "Inference: The post strongly aligns with the profile's flight controls, MATLAB/Simulink, simulation, digital-twin, and marine autonomy interests. It also identifies REGENT Craft and CEO Billy Thalheimer as relevant people or company contacts, although no hiring activity is stated.",
+      "content_angle": "Offer an original expert perspective on how model-based design and hardware-in-the-loop validation can de-risk transitions between hull-borne, hydrofoil, and ground-effect flight modes, including failure-case coverage and repeatability metrics.",
+      "source_url": "https://www.linkedin.com/in/olubayosam/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-09-22",
+        "last_seen": "2026-09-22",
+        "dates": [
+          "2026-09-22"
+        ],
+        "high": 1,
+        "medium": 0
+      },
+      "post_url": null,
+      "signal_context": {
+        "signal_types": [
+          "TECH_SIGNAL",
+          "PROJECT_SIGNAL",
+          "COMPANY_SIGNAL",
+          "PEOPLE_SIGNAL",
+          "NETWORK_SIGNAL"
+        ],
+        "career_relevance": 88,
+        "technical_relevance": 98,
+        "networking_relevance": 72,
+        "content_relevance": 91,
+        "hiring_detected": false,
+        "hiring_intent": "none",
+        "hiring_roles": [],
+        "profile_matches": [
+          "MATLAB/Simulink",
+          "aerospace",
+          "flight controls",
+          "marine",
+          "navigation"
+        ]
+      },
+      "freshness": {
+        "age_days": 11,
+        "bucket": "aging",
+        "actionable_now": false
+      },
+      "action_plan_full": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_company",
+          "reason": "Keep company activity visible for future signals.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {},
+      "execution_status_full": "READY",
+      "approval_required_full": false,
+      "recommendation_status": "WATCHLIST",
+      "freshness_guard_applied": true,
+      "freshness_guard_removed": [
+        "engage_with_post"
+      ],
+      "action_score": 64,
+      "action_score_components": {
+        "career": 35.2,
+        "technical": 14.7,
+        "networking": 5.8,
+        "confidence": 6.5,
+        "freshness": 0,
+        "relationship": 0,
+        "repeat": 0,
+        "hiring": 0,
+        "exact_hiring_match": 0,
+        "opportunity": 0,
+        "priority": 2
+      },
+      "reason_ru": "Вывод: публикация тесно соответствует интересам профиля в области управления полётом, MATLAB/Simulink, симуляции, цифровых двойников и морской автономности. В ней также указаны REGENT Craft и CEO Billy Thalheimer как релевантные люди или контакты компании, хотя информация о найме отсутствует."
+    },
+    {
       "signal_id": "sig_44c74b2e736f87ad",
       "source_post_id": "7493745059578748928",
       "priority": "high",
@@ -5750,6 +5801,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Sky-Drones",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -5892,6 +5944,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Sarla Aviation",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Vijay Singh",
@@ -6046,6 +6099,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Joby Aviation",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Brett Mather, профиль Подтверждено, 3-й+ Brett Mather • 3-й+ Software Systems Engineer, DoorDash Labs | Ex-Joby Aviation | Integrating Tech, Aviation & Autonomy",
@@ -6212,6 +6266,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "SkyGrid",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -6364,6 +6419,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Archer",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Mario Srouji • 3-й+",
@@ -6501,6 +6557,11 @@
           "action": "review_technology",
           "reason": "Technical project or technology is relevant to the profile.",
           "approval_required": false
+        },
+        {
+          "action": "follow_company",
+          "reason": "Keep company activity visible for future signals.",
+          "approval_required": false
         }
       ],
       "research": {
@@ -6517,10 +6578,11 @@
       "crm_entity_id": "company:sciengineer",
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "MathWorks"
       ],
-      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Robert Bolesza • 3-й+",
@@ -6600,6 +6662,11 @@
           "action": "review_technology",
           "reason": "Technical project or technology is relevant to the profile.",
           "approval_required": false
+        },
+        {
+          "action": "follow_company",
+          "reason": "Keep company activity visible for future signals.",
+          "approval_required": false
         }
       ],
       "drafts_full": {},
@@ -6610,14 +6677,14 @@
       "freshness_guard_removed": [
         "engage_with_post"
       ],
-      "action_score": 57,
+      "action_score": 55,
       "action_score_components": {
         "career": 29.6,
         "technical": 14.4,
         "networking": 3.9,
         "confidence": 6.4,
         "freshness": 0,
-        "relationship": 2,
+        "relationship": 0,
         "repeat": 0,
         "hiring": 0,
         "exact_hiring_match": 0,
@@ -6666,6 +6733,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Nate Glasscock • 3-й+",
@@ -6824,6 +6892,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Corey Proffitt • 3-й+",
@@ -6974,6 +7043,7 @@
         "FOLLOWER"
       ],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Iram Zubair",
@@ -7147,6 +7217,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Embention",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Julieta Jazmín González Marasco • 3-й+",
@@ -7308,6 +7379,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -7449,6 +7521,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Saildrone",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -7606,6 +7679,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "SkyGrid",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Balram Kandoria",
@@ -7769,10 +7843,13 @@
       "crm_entity_id": "person:christopher ash, c.m., ace",
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "BETA TECHNOLOGIES",
+        "Joby Aviation",
+        "Archer"
       ],
-      "known_relationship_company": "BETA TECHNOLOGIES",
       "do_not_contact": false,
       "target": {
         "name": "Scott Shtofman • 3-й+",
@@ -7871,14 +7948,14 @@
         "engage_with_post",
         "connect_person"
       ],
-      "action_score": 69,
+      "action_score": 67,
       "action_score_components": {
         "career": 37.6,
         "technical": 13.9,
         "networking": 7.0,
         "confidence": 6.4,
         "freshness": 0,
-        "relationship": 2,
+        "relationship": 0,
         "repeat": 0,
         "hiring": 0,
         "exact_hiring_match": 0,
@@ -7886,158 +7963,6 @@
         "priority": 2
       },
       "reason_ru": "Публикация непосредственно касается eVTOL, летательных аппаратов с поддержкой автономности, авиационных датчиков, лётных операций и нормативной интеграции Advanced Air Mobility в действующую аэропортовую среду. Эти темы тесно соответствуют фокусу профиля на управлении полётом, UAV/eVTOL, автономности, симуляции и междисциплинарной аэрокосмической инженерии. Автор и указанные участники могут предоставить доступ к релевантной отраслевой сети, однако публикация не подтверждает их конкретные должности или полномочия по найму."
-    },
-    {
-      "signal_id": "sig_7e8ca48f43c40e94",
-      "source_post_id": "7503021157479149568",
-      "priority": "high",
-      "confidence": 96,
-      "author": "Johann Dauer",
-      "company": "German Aerospace Center (DLR)",
-      "primary_action": "find_warm_path",
-      "secondary_action": "follow_person",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "review_technology",
-          "reason": "Technical project or technology is relevant to the profile.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "check_company_and_relevant_team",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "company:german aerospace center (dlr)",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
-      ],
-      "known_relationship_company": "Department of Aerospace Science and Technology - Politecnico di Milano",
-      "do_not_contact": false,
-      "target": {
-        "name": "Johann Dauer",
-        "role": "Head of the Unmanned Aircraft Department at the DLR Institute of Flight Systems",
-        "relation": "author",
-        "target_role": "Head of the Unmanned Aircraft Department at the DLR Institute of Flight Systems",
-        "target_reason": "A confirmed senior technical leader whose department works on unmanned aircraft research, modelling, control, safe autonomy, and certification.",
-        "target_priority": "high",
-        "company": "German Aerospace Center (DLR)",
-        "profile_url": "https://www.linkedin.com/in/johann-dauer-702184317/",
-        "company_url": "https://www.linkedin.com/company/department-daer-polimi/"
-      },
-      "reason": "The post directly concerns unmanned aircraft modelling, control, safe autonomy, operations, and certification, closely matching the profile's flight-control, UAV, simulation, GNC, and autonomous-systems expertise. Johann Dauer is a concrete senior technical contact in a highly relevant aerospace research area.",
-      "content_angle": "Offer an original perspective on the engineering connection between flight-control design, model-based simulation, operational safety evidence, and certification of autonomous UAVs, drawing on the challenge of demonstrating safe behavior in changing weather and shared airspace.",
-      "source_url": "https://www.linkedin.com/in/johann-dauer-702184317/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-09-14",
-        "last_seen": "2026-09-14",
-        "dates": [
-          "2026-09-14"
-        ],
-        "high": 1,
-        "medium": 0
-      },
-      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503021157479149568/",
-      "signal_context": {
-        "signal_types": [
-          "TECH_SIGNAL",
-          "PROJECT_SIGNAL",
-          "PEOPLE_SIGNAL",
-          "NETWORK_SIGNAL",
-          "COMPANY_SIGNAL"
-        ],
-        "career_relevance": 86,
-        "technical_relevance": 92,
-        "networking_relevance": 82,
-        "content_relevance": 87,
-        "hiring_detected": false,
-        "hiring_intent": "none",
-        "hiring_roles": [],
-        "profile_matches": [
-          "UAV/UAS",
-          "aerospace",
-          "autonomy",
-          "space"
-        ]
-      },
-      "freshness": {
-        "age_days": 19,
-        "bucket": "stale",
-        "actionable_now": false
-      },
-      "action_plan_full": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "review_technology",
-          "reason": "Technical project or technology is relevant to the profile.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {},
-      "execution_status_full": "READY",
-      "approval_required_full": false,
-      "recommendation_status": "ARCHIVE",
-      "freshness_guard_applied": true,
-      "freshness_guard_removed": [
-        "engage_with_post"
-      ],
-      "action_score": 66,
-      "action_score_components": {
-        "career": 34.4,
-        "technical": 13.8,
-        "networking": 6.6,
-        "confidence": 6.7,
-        "freshness": 0,
-        "relationship": 2,
-        "repeat": 0,
-        "hiring": 0,
-        "exact_hiring_match": 0,
-        "opportunity": 0,
-        "priority": 2
-      },
-      "reason_ru": "Публикация непосредственно касается моделирования беспилотных летательных аппаратов, безопасной автономности, эксплуатации и сертификации, что тесно соответствует опыту профиля в области управления полётом, UAV, симуляции, GNC и автономных систем. Johann Dauer является конкретным senior technical contact в весьма релевантной области аэрокосмических исследований."
     },
     {
       "signal_id": "sig_f61689fcb1a3d6e2",
@@ -8085,6 +8010,7 @@
         "FOLLOWING_PERSON"
       ],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Sachin Jain, Ph.D. • Отслеживаете",
@@ -8200,6 +8126,159 @@
       "reason_ru": "Публикация непосредственно касается навигации, автономности, работы в условиях отсутствия GPS, позиционирования на основе датчиков и лётных испытаний в сфере аэрокосмической обороны. Эти темы тесно соответствуют опыту профиля в области управления полётом, GNC, навигации, объединения данных датчиков, UAV и автономных систем. В ней также указан релевантный технический специалист для взаимодействия, хотя возможность трудоустройства не заявлена."
     },
     {
+      "signal_id": "sig_7e8ca48f43c40e94",
+      "source_post_id": "7503021157479149568",
+      "priority": "high",
+      "confidence": 96,
+      "author": "Johann Dauer",
+      "company": "German Aerospace Center (DLR)",
+      "primary_action": "find_warm_path",
+      "secondary_action": "follow_person",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "check_company_and_relevant_team",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "company:german aerospace center (dlr)",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "Department of Aerospace Science and Technology - Politecnico di Milano"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Johann Dauer",
+        "role": "Head of the Unmanned Aircraft Department at the DLR Institute of Flight Systems",
+        "relation": "author",
+        "target_role": "Head of the Unmanned Aircraft Department at the DLR Institute of Flight Systems",
+        "target_reason": "A confirmed senior technical leader whose department works on unmanned aircraft research, modelling, control, safe autonomy, and certification.",
+        "target_priority": "high",
+        "company": "German Aerospace Center (DLR)",
+        "profile_url": "https://www.linkedin.com/in/johann-dauer-702184317/",
+        "company_url": "https://www.linkedin.com/company/department-daer-polimi/"
+      },
+      "reason": "The post directly concerns unmanned aircraft modelling, control, safe autonomy, operations, and certification, closely matching the profile's flight-control, UAV, simulation, GNC, and autonomous-systems expertise. Johann Dauer is a concrete senior technical contact in a highly relevant aerospace research area.",
+      "content_angle": "Offer an original perspective on the engineering connection between flight-control design, model-based simulation, operational safety evidence, and certification of autonomous UAVs, drawing on the challenge of demonstrating safe behavior in changing weather and shared airspace.",
+      "source_url": "https://www.linkedin.com/in/johann-dauer-702184317/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-09-14",
+        "last_seen": "2026-09-14",
+        "dates": [
+          "2026-09-14"
+        ],
+        "high": 1,
+        "medium": 0
+      },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503021157479149568/",
+      "signal_context": {
+        "signal_types": [
+          "TECH_SIGNAL",
+          "PROJECT_SIGNAL",
+          "PEOPLE_SIGNAL",
+          "NETWORK_SIGNAL",
+          "COMPANY_SIGNAL"
+        ],
+        "career_relevance": 86,
+        "technical_relevance": 92,
+        "networking_relevance": 82,
+        "content_relevance": 87,
+        "hiring_detected": false,
+        "hiring_intent": "none",
+        "hiring_roles": [],
+        "profile_matches": [
+          "UAV/UAS",
+          "aerospace",
+          "autonomy",
+          "space"
+        ]
+      },
+      "freshness": {
+        "age_days": 19,
+        "bucket": "stale",
+        "actionable_now": false
+      },
+      "action_plan_full": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {},
+      "execution_status_full": "READY",
+      "approval_required_full": false,
+      "recommendation_status": "ARCHIVE",
+      "freshness_guard_applied": true,
+      "freshness_guard_removed": [
+        "engage_with_post"
+      ],
+      "action_score": 64,
+      "action_score_components": {
+        "career": 34.4,
+        "technical": 13.8,
+        "networking": 6.6,
+        "confidence": 6.7,
+        "freshness": 0,
+        "relationship": 0,
+        "repeat": 0,
+        "hiring": 0,
+        "exact_hiring_match": 0,
+        "opportunity": 0,
+        "priority": 2
+      },
+      "reason_ru": "Публикация непосредственно касается моделирования беспилотных летательных аппаратов, безопасной автономности, эксплуатации и сертификации, что тесно соответствует опыту профиля в области управления полётом, UAV, симуляции, GNC и автономных систем. Johann Dauer является конкретным senior technical contact в весьма релевантной области аэрокосмических исследований."
+    },
+    {
       "signal_id": "sig_c4860243e2abdd75",
       "source_post_id": null,
       "priority": "high",
@@ -8241,6 +8320,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Embention",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Pablo Ceacero Escrig • 3-й+",
@@ -8394,6 +8474,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Kevin Antcliff • 3-й+",
@@ -8544,6 +8625,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Saildrone",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Matt Womble",
@@ -8694,6 +8776,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -8831,6 +8914,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -8968,6 +9052,7 @@
         "FOLLOWER"
       ],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Nidhi Raj",
@@ -9080,156 +9165,6 @@
       "reason_ru": "Публикация явно объявляет вакансию UAV Pilot в ADASI в ОАЭ и упоминает автономную авиацию и передовые автономные системы. Области UAV, авиации и автономности пересекаются с профилем, однако вакансия пилота не соответствует напрямую фокусу профиля на senior flight-control, GNC, симуляции и инженерном лидерстве. Расположение в ОАЭ также может быть менее совместимо с выраженным предпочтением профиля к удалённой работе."
     },
     {
-      "signal_id": "sig_d33c8bdffbf95dd7",
-      "source_post_id": null,
-      "priority": "high",
-      "confidence": 91,
-      "author": "Isabel Lima • 3-й+",
-      "company": null,
-      "primary_action": "find_warm_path",
-      "secondary_action": "follow_person",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "person:isabel lima",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
-      ],
-      "known_relationship_company": "Eve Air Mobility",
-      "do_not_contact": false,
-      "target": {
-        "name": "Isabel Lima • 3-й+",
-        "role": null,
-        "relation": "author",
-        "target_role": "Advanced Air Mobility engineering professional",
-        "target_reason": "The author discusses contributing to engineering efforts at Eve Air Mobility and Embraer, making her potentially relevant for domain networking; her exact role is not stated.",
-        "target_priority": "medium",
-        "company": null,
-        "profile_url": "https://www.linkedin.com/in/isabel-lima-0b889912b/",
-        "company_url": "https://www.linkedin.com/company/evtolinsights/"
-      },
-      "reason": "The post concerns eVTOL and Advanced Air Mobility engineering at Eve Air Mobility and Embraer, directly matching the profile's flight-control, eVTOL, aviation, and autonomous-systems focus. The author is a concrete professional contact associated with this domain, although her specific role is not stated.",
-      "content_angle": "Discuss how multidisciplinary engineering collaboration, safety, and sustainability influence the development of eVTOL control, autonomy, and flight-system architectures.",
-      "source_url": "https://www.linkedin.com/in/isabel-lima-0b889912b/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-09-16",
-        "last_seen": "2026-09-16",
-        "dates": [
-          "2026-09-16"
-        ],
-        "high": 1,
-        "medium": 0
-      },
-      "post_url": null,
-      "signal_context": {
-        "signal_types": [
-          "TECH_SIGNAL",
-          "COMPANY_SIGNAL",
-          "PEOPLE_SIGNAL",
-          "NETWORK_SIGNAL"
-        ],
-        "career_relevance": 82,
-        "technical_relevance": 76,
-        "networking_relevance": 68,
-        "content_relevance": 64,
-        "hiring_detected": false,
-        "hiring_intent": "none",
-        "hiring_roles": [],
-        "profile_matches": [
-          "aerospace",
-          "eVTOL",
-          "simulation"
-        ]
-      },
-      "freshness": {
-        "age_days": 17,
-        "bucket": "stale",
-        "actionable_now": false
-      },
-      "action_plan_full": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {},
-      "execution_status_full": "READY",
-      "approval_required_full": false,
-      "recommendation_status": "ARCHIVE",
-      "freshness_guard_applied": true,
-      "freshness_guard_removed": [
-        "engage_with_post"
-      ],
-      "action_score": 60,
-      "action_score_components": {
-        "career": 32.8,
-        "technical": 11.4,
-        "networking": 5.4,
-        "confidence": 6.4,
-        "freshness": 0,
-        "relationship": 2,
-        "repeat": 0,
-        "hiring": 0,
-        "exact_hiring_match": 0,
-        "opportunity": 0,
-        "priority": 2
-      },
-      "reason_ru": "Публикация посвящена инженерным разработкам eVTOL и Advanced Air Mobility в Eve Air Mobility и Embraer, что напрямую соответствует фокусу профиля на управлении полётом, eVTOL, авиации и автономных системах. Автор является конкретным профессиональным контактом в этой области, хотя его конкретная роль не указана."
-    },
-    {
       "signal_id": "sig_13cf272698e4a170",
       "source_post_id": null,
       "priority": "high",
@@ -9275,6 +9210,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Open Ocean Robotics",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -9416,6 +9352,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Sarla Aviation",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Dr. H. Sudarshan Ballal",
@@ -9523,6 +9460,158 @@
       "reason_ru": "Вывод: публикация описывает непосредственный проект eVTOL и advanced air mobility, связанный с разработкой летательного аппарата, интеграцией в эксплуатацию, проектированием медицинского отсека, процедурами передачи и сертификацией. Эти области тесно соответствуют опыту профиля в управлении полётом, динамике полёта, симуляции, автономности и eVTOL. Возможность трудоустройства не заявлена."
     },
     {
+      "signal_id": "sig_d33c8bdffbf95dd7",
+      "source_post_id": null,
+      "priority": "high",
+      "confidence": 91,
+      "author": "Isabel Lima • 3-й+",
+      "company": null,
+      "primary_action": "find_warm_path",
+      "secondary_action": "follow_person",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "person:isabel lima",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "Eve Air Mobility",
+        "Embraer"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Isabel Lima • 3-й+",
+        "role": null,
+        "relation": "author",
+        "target_role": "Advanced Air Mobility engineering professional",
+        "target_reason": "The author discusses contributing to engineering efforts at Eve Air Mobility and Embraer, making her potentially relevant for domain networking; her exact role is not stated.",
+        "target_priority": "medium",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/isabel-lima-0b889912b/",
+        "company_url": "https://www.linkedin.com/company/evtolinsights/"
+      },
+      "reason": "The post concerns eVTOL and Advanced Air Mobility engineering at Eve Air Mobility and Embraer, directly matching the profile's flight-control, eVTOL, aviation, and autonomous-systems focus. The author is a concrete professional contact associated with this domain, although her specific role is not stated.",
+      "content_angle": "Discuss how multidisciplinary engineering collaboration, safety, and sustainability influence the development of eVTOL control, autonomy, and flight-system architectures.",
+      "source_url": "https://www.linkedin.com/in/isabel-lima-0b889912b/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-09-16",
+        "last_seen": "2026-09-16",
+        "dates": [
+          "2026-09-16"
+        ],
+        "high": 1,
+        "medium": 0
+      },
+      "post_url": null,
+      "signal_context": {
+        "signal_types": [
+          "TECH_SIGNAL",
+          "COMPANY_SIGNAL",
+          "PEOPLE_SIGNAL",
+          "NETWORK_SIGNAL"
+        ],
+        "career_relevance": 82,
+        "technical_relevance": 76,
+        "networking_relevance": 68,
+        "content_relevance": 64,
+        "hiring_detected": false,
+        "hiring_intent": "none",
+        "hiring_roles": [],
+        "profile_matches": [
+          "aerospace",
+          "eVTOL",
+          "simulation"
+        ]
+      },
+      "freshness": {
+        "age_days": 17,
+        "bucket": "stale",
+        "actionable_now": false
+      },
+      "action_plan_full": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {},
+      "execution_status_full": "READY",
+      "approval_required_full": false,
+      "recommendation_status": "ARCHIVE",
+      "freshness_guard_applied": true,
+      "freshness_guard_removed": [
+        "engage_with_post"
+      ],
+      "action_score": 58,
+      "action_score_components": {
+        "career": 32.8,
+        "technical": 11.4,
+        "networking": 5.4,
+        "confidence": 6.4,
+        "freshness": 0,
+        "relationship": 0,
+        "repeat": 0,
+        "hiring": 0,
+        "exact_hiring_match": 0,
+        "opportunity": 0,
+        "priority": 2
+      },
+      "reason_ru": "Публикация посвящена инженерным разработкам eVTOL и Advanced Air Mobility в Eve Air Mobility и Embraer, что напрямую соответствует фокусу профиля на управлении полётом, eVTOL, авиации и автономных системах. Автор является конкретным профессиональным контактом в этой области, хотя его конкретная роль не указана."
+    },
+    {
       "signal_id": "sig_59f2c91fe0b2ea80",
       "source_post_id": null,
       "priority": "high",
@@ -9565,6 +9654,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Relativity Space",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Venkata Devalaraju • 3-й+",
@@ -9716,6 +9806,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -9861,6 +9952,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "MathWorks",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Akshay Rajhans, Ph.D. • 3-й+",
@@ -10025,6 +10117,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "MathWorks",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Lukas M. Ziegler • 3-й+",
@@ -10186,6 +10279,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "MathWorks",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Laura Reimoser • 3-й+",
@@ -10337,6 +10431,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -10480,6 +10575,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "SkyGrid",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -10614,6 +10710,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "David King",
@@ -10761,6 +10858,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -10891,6 +10989,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Embention",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Roberto Morollón Ruiz • 3-й+",
@@ -11036,6 +11135,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -11174,6 +11274,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Sarla Aviation",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -11268,153 +11369,6 @@
       "reason_ru": "Публикация описывает партнёрство Sarla Aviation и Tata Elxsi по разработке Shunya — летательного аппарата eVTOL для городской воздушной мобильности. Это напрямую соответствует опыту профиля в области eVTOL, управления полётом, авиационных систем, симуляции и автономной мобильности, однако публикация не содержит информации о найме или имён технических контактов."
     },
     {
-      "signal_id": "sig_856e126b21b8ea5e",
-      "source_post_id": "7503988204119969793",
-      "priority": "medium",
-      "confidence": 88,
-      "author": "Dr. Shelly Lesikar deZevallos • 3-й+",
-      "company": null,
-      "primary_action": "find_warm_path",
-      "secondary_action": "follow_person",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "person:dan harmon",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
-      ],
-      "known_relationship_company": "BETA TECHNOLOGIES",
-      "do_not_contact": false,
-      "target": {
-        "name": "Dr. Shelly Lesikar deZevallos • 3-й+",
-        "role": null,
-        "relation": "author",
-        "target_role": "eVTOL or advanced air mobility technical leader",
-        "target_reason": "Potentially relevant connection for the profile's flight-control, GNC, simulation, and eVTOL focus; the post identifies activity and named participants in this ecosystem.",
-        "target_priority": "high",
-        "company": null,
-        "profile_url": "https://www.linkedin.com/in/shellylesikardezevallos/",
-        "company_url": "https://www.linkedin.com/company/jobyaviation/"
-      },
-      "reason": "The post highlights advanced air mobility and eVTOL activity in Texas and mentions Joby Aviation, BETA Technologies, and Archer, which align with the profile's target domains. It provides networking and market-awareness value but contains no explicit hiring or project details.",
-      "content_angle": "Discuss the engineering challenges of bringing advanced air mobility concepts into operational aviation, such as flight-control validation, transition-mode simulation, safety assurance, and integration with existing airport infrastructure.",
-      "source_url": "https://www.linkedin.com/in/shellylesikardezevallos/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-09-12",
-        "last_seen": "2026-09-12",
-        "dates": [
-          "2026-09-12"
-        ],
-        "high": 0,
-        "medium": 1
-      },
-      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503988204119969793/",
-      "signal_context": {
-        "signal_types": [
-          "TECH_SIGNAL",
-          "COMPANY_SIGNAL",
-          "PEOPLE_SIGNAL",
-          "NETWORK_SIGNAL"
-        ],
-        "career_relevance": 68,
-        "technical_relevance": 58,
-        "networking_relevance": 78,
-        "content_relevance": 52,
-        "hiring_detected": false,
-        "hiring_intent": "none",
-        "hiring_roles": [],
-        "profile_matches": [
-          "aerospace",
-          "eVTOL"
-        ]
-      },
-      "freshness": {
-        "age_days": 21,
-        "bucket": "stale",
-        "actionable_now": false
-      },
-      "action_plan_full": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "connect_person",
-          "reason": "One relevant signal so far; check context first and consider connecting after that.",
-          "approval_required": true
-        }
-      ],
-      "drafts_full": {
-        "connection_note": "Hi Dr., I came across your work on eVTOL. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
-      },
-      "execution_status_full": "PENDING_APPROVAL",
-      "approval_required_full": true,
-      "recommendation_status": "ARCHIVE",
-      "freshness_guard_applied": true,
-      "freshness_guard_removed": [
-        "engage_with_post",
-        "connect_person"
-      ],
-      "action_score": 51,
-      "action_score_components": {
-        "career": 27.2,
-        "technical": 8.7,
-        "networking": 6.2,
-        "confidence": 6.2,
-        "freshness": 0,
-        "relationship": 2,
-        "repeat": 0,
-        "hiring": 0,
-        "exact_hiring_match": 0,
-        "opportunity": 0,
-        "priority": 1
-      },
-      "reason_ru": "Публикация освещает активность в сфере Advanced Air Mobility и eVTOL в Техасе и упоминает Joby Aviation, BETA Technologies и Archer, что соответствует целевым областям профиля. Она предоставляет ценность для нетворкинга и понимания рынка, но не содержит явной информации о найме или деталях проектов."
-    },
-    {
       "signal_id": "sig_efacd14ea7014dbc",
       "source_post_id": "7488730652599787520",
       "priority": "medium",
@@ -11455,6 +11409,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Open Ocean Robotics",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Alex Rueben",
@@ -11613,6 +11568,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "MathWorks",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Mahsa K. • 3-й+",
@@ -11766,6 +11722,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Charles Alcock",
@@ -11870,6 +11827,156 @@
       "reason_ru": "Публикация описывает выполнение летательным аппаратом P100 более 100 лётных испытаний и развитие его автономных возможностей для задач contested logistics, ISR и precision-effects. Это соответствует опыту профиля в области управления полётом, автономных летательных аппаратов, систем UAV, симуляции и поддержки лётных испытаний. Информация о найме или конкретном работодателе отсутствует."
     },
     {
+      "signal_id": "sig_856e126b21b8ea5e",
+      "source_post_id": "7503988204119969793",
+      "priority": "medium",
+      "confidence": 88,
+      "author": "Dr. Shelly Lesikar deZevallos • 3-й+",
+      "company": null,
+      "primary_action": "find_warm_path",
+      "secondary_action": "follow_person",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "person:dan harmon",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "BETA TECHNOLOGIES",
+        "Joby Aviation",
+        "Archer"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Dr. Shelly Lesikar deZevallos • 3-й+",
+        "role": null,
+        "relation": "author",
+        "target_role": "eVTOL or advanced air mobility technical leader",
+        "target_reason": "Potentially relevant connection for the profile's flight-control, GNC, simulation, and eVTOL focus; the post identifies activity and named participants in this ecosystem.",
+        "target_priority": "high",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/shellylesikardezevallos/",
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
+      },
+      "reason": "The post highlights advanced air mobility and eVTOL activity in Texas and mentions Joby Aviation, BETA Technologies, and Archer, which align with the profile's target domains. It provides networking and market-awareness value but contains no explicit hiring or project details.",
+      "content_angle": "Discuss the engineering challenges of bringing advanced air mobility concepts into operational aviation, such as flight-control validation, transition-mode simulation, safety assurance, and integration with existing airport infrastructure.",
+      "source_url": "https://www.linkedin.com/in/shellylesikardezevallos/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-09-12",
+        "last_seen": "2026-09-12",
+        "dates": [
+          "2026-09-12"
+        ],
+        "high": 0,
+        "medium": 1
+      },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503988204119969793/",
+      "signal_context": {
+        "signal_types": [
+          "TECH_SIGNAL",
+          "COMPANY_SIGNAL",
+          "PEOPLE_SIGNAL",
+          "NETWORK_SIGNAL"
+        ],
+        "career_relevance": 68,
+        "technical_relevance": 58,
+        "networking_relevance": 78,
+        "content_relevance": 52,
+        "hiring_detected": false,
+        "hiring_intent": "none",
+        "hiring_roles": [],
+        "profile_matches": [
+          "aerospace",
+          "eVTOL"
+        ]
+      },
+      "freshness": {
+        "age_days": 21,
+        "bucket": "stale",
+        "actionable_now": false
+      },
+      "action_plan_full": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "connect_person",
+          "reason": "One relevant signal so far; check context first and consider connecting after that.",
+          "approval_required": true
+        }
+      ],
+      "drafts_full": {
+        "connection_note": "Hi Dr., I came across your work on eVTOL. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+      },
+      "execution_status_full": "PENDING_APPROVAL",
+      "approval_required_full": true,
+      "recommendation_status": "ARCHIVE",
+      "freshness_guard_applied": true,
+      "freshness_guard_removed": [
+        "engage_with_post",
+        "connect_person"
+      ],
+      "action_score": 49,
+      "action_score_components": {
+        "career": 27.2,
+        "technical": 8.7,
+        "networking": 6.2,
+        "confidence": 6.2,
+        "freshness": 0,
+        "relationship": 0,
+        "repeat": 0,
+        "hiring": 0,
+        "exact_hiring_match": 0,
+        "opportunity": 0,
+        "priority": 1
+      },
+      "reason_ru": "Публикация освещает активность в сфере Advanced Air Mobility и eVTOL в Техасе и упоминает Joby Aviation, BETA Technologies и Archer, что соответствует целевым областям профиля. Она предоставляет ценность для нетворкинга и понимания рынка, но не содержит явной информации о найме или деталях проектов."
+    },
+    {
       "signal_id": "sig_1c3ca0b65672e47d",
       "source_post_id": "7500275444076822528",
       "priority": "medium",
@@ -11912,6 +12019,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -12004,134 +12112,6 @@
       "reason_ru": "Публикация описывает автономный Altius-700, запущенный с H-60M Black Hawk для поиска цели, обмена данными внутри группы и выполнения удара. Это тесно связано с опытом профиля в области автономности UAV, наведения, управления, миссионных систем, телеметрии и междисциплинарной аэрокосмической инженерии. Работодатель, личность автора, вакансия или намерение нанимать сотрудников не указаны."
     },
     {
-      "signal_id": "sig_c5916c5029ffa177",
-      "source_post_id": null,
-      "priority": "medium",
-      "confidence": 88,
-      "author": "Robert Francis • 3-й+",
-      "company": null,
-      "primary_action": "find_warm_path",
-      "secondary_action": null,
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "person:robert francis",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
-      ],
-      "known_relationship_company": "Joby Aviation",
-      "do_not_contact": false,
-      "target": {
-        "name": "Robert Francis • 3-й+",
-        "role": null,
-        "relation": "author",
-        "target_role": "eVTOL flight-controls or testing lead at Joby Aviation",
-        "target_reason": "Inference: Joby's involvement in the reported air taxi testing program makes relevant technical leads a reasonable networking target for the profile's eVTOL and flight-control background.",
-        "target_priority": "medium",
-        "company": null,
-        "profile_url": "https://www.linkedin.com/in/robert-francis-1762482/",
-        "company_url": "https://www.linkedin.com/company/city-of-fort-worth/"
-      },
-      "reason": "The post reports a new air taxi testing program involving Fort Worth, Hillwood AllianceTexas, Joby Aviation, the Texas Department of Transportation, and the U.S. Department of Transportation. Inference: the eVTOL testing context is closely aligned with the profile's flight-control, simulation, autopilot, and UAV/eVTOL expertise, but the post does not provide a specific vacancy or technical scope.",
-      "content_angle": "Inference: Offer an original expert perspective on how eVTOL testing programs can integrate flight-dynamics simulation, control-law validation, hardware-in-the-loop testing, and flight-test telemetry.",
-      "source_url": "https://www.linkedin.com/in/robert-francis-1762482/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-09-15",
-        "last_seen": "2026-09-15",
-        "dates": [
-          "2026-09-15"
-        ],
-        "high": 0,
-        "medium": 1
-      },
-      "post_url": null,
-      "signal_context": {
-        "signal_types": [
-          "PROJECT_SIGNAL",
-          "COMPANY_SIGNAL",
-          "MARKET_SIGNAL"
-        ],
-        "career_relevance": 72,
-        "technical_relevance": 48,
-        "networking_relevance": 30,
-        "content_relevance": 62,
-        "hiring_detected": false,
-        "hiring_intent": "none",
-        "hiring_roles": [],
-        "profile_matches": [
-          "aerospace",
-          "simulation"
-        ]
-      },
-      "freshness": {
-        "age_days": 18,
-        "bucket": "stale",
-        "actionable_now": false
-      },
-      "action_plan_full": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {},
-      "execution_status_full": "READY",
-      "approval_required_full": false,
-      "recommendation_status": "ARCHIVE",
-      "freshness_guard_applied": true,
-      "freshness_guard_removed": [
-        "engage_with_post"
-      ],
-      "action_score": 48,
-      "action_score_components": {
-        "career": 28.8,
-        "technical": 7.2,
-        "networking": 2.4,
-        "confidence": 6.2,
-        "freshness": 0,
-        "relationship": 2,
-        "repeat": 0,
-        "hiring": 0,
-        "exact_hiring_match": 0,
-        "opportunity": 0,
-        "priority": 1
-      },
-      "reason_ru": "Публикация сообщает о новой программе испытаний аэротакси с участием Fort Worth, Hillwood AllianceTexas, Joby Aviation, Texas Department of Transportation и U.S. Department of Transportation. Вывод: контекст испытаний eVTOL тесно соответствует опыту профиля в области управления полётом, симуляции, автопилотов и UAV/eVTOL, однако конкретная вакансия или технический охват не указаны."
-    },
-    {
       "signal_id": "sig_3a055f3c00be3f47",
       "source_post_id": null,
       "priority": "medium",
@@ -12175,6 +12155,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Camilla Colombo",
@@ -12327,6 +12308,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Eve Air Mobility",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -12452,6 +12434,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Phil Scott",
@@ -12596,6 +12579,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "OceanWings",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Emmanuel Schalit",
@@ -12709,6 +12693,135 @@
       "reason_ru": "Публикация посвящена технически оцениваемым системам ветровой тяги для морских судов, включая расчёты под конкретные суда, размещение на палубе, профили эксплуатации, новые суда и модернизацию существующих. Это смежно с интересом профиля к морской автономности и управлению мобильными платформами, но публикация не упоминает автономность, навигацию, симуляцию или работу с системами управления."
     },
     {
+      "signal_id": "sig_c5916c5029ffa177",
+      "source_post_id": null,
+      "priority": "medium",
+      "confidence": 88,
+      "author": "Robert Francis • 3-й+",
+      "company": null,
+      "primary_action": "find_warm_path",
+      "secondary_action": null,
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "person:robert francis",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "Joby Aviation"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Robert Francis • 3-й+",
+        "role": null,
+        "relation": "author",
+        "target_role": "eVTOL flight-controls or testing lead at Joby Aviation",
+        "target_reason": "Inference: Joby's involvement in the reported air taxi testing program makes relevant technical leads a reasonable networking target for the profile's eVTOL and flight-control background.",
+        "target_priority": "medium",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/robert-francis-1762482/",
+        "company_url": "https://www.linkedin.com/company/city-of-fort-worth/"
+      },
+      "reason": "The post reports a new air taxi testing program involving Fort Worth, Hillwood AllianceTexas, Joby Aviation, the Texas Department of Transportation, and the U.S. Department of Transportation. Inference: the eVTOL testing context is closely aligned with the profile's flight-control, simulation, autopilot, and UAV/eVTOL expertise, but the post does not provide a specific vacancy or technical scope.",
+      "content_angle": "Inference: Offer an original expert perspective on how eVTOL testing programs can integrate flight-dynamics simulation, control-law validation, hardware-in-the-loop testing, and flight-test telemetry.",
+      "source_url": "https://www.linkedin.com/in/robert-francis-1762482/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-09-15",
+        "last_seen": "2026-09-15",
+        "dates": [
+          "2026-09-15"
+        ],
+        "high": 0,
+        "medium": 1
+      },
+      "post_url": null,
+      "signal_context": {
+        "signal_types": [
+          "PROJECT_SIGNAL",
+          "COMPANY_SIGNAL",
+          "MARKET_SIGNAL"
+        ],
+        "career_relevance": 72,
+        "technical_relevance": 48,
+        "networking_relevance": 30,
+        "content_relevance": 62,
+        "hiring_detected": false,
+        "hiring_intent": "none",
+        "hiring_roles": [],
+        "profile_matches": [
+          "aerospace",
+          "simulation"
+        ]
+      },
+      "freshness": {
+        "age_days": 18,
+        "bucket": "stale",
+        "actionable_now": false
+      },
+      "action_plan_full": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {},
+      "execution_status_full": "READY",
+      "approval_required_full": false,
+      "recommendation_status": "ARCHIVE",
+      "freshness_guard_applied": true,
+      "freshness_guard_removed": [
+        "engage_with_post"
+      ],
+      "action_score": 46,
+      "action_score_components": {
+        "career": 28.8,
+        "technical": 7.2,
+        "networking": 2.4,
+        "confidence": 6.2,
+        "freshness": 0,
+        "relationship": 0,
+        "repeat": 0,
+        "hiring": 0,
+        "exact_hiring_match": 0,
+        "opportunity": 0,
+        "priority": 1
+      },
+      "reason_ru": "Публикация сообщает о новой программе испытаний аэротакси с участием Fort Worth, Hillwood AllianceTexas, Joby Aviation, Texas Department of Transportation и U.S. Department of Transportation. Вывод: контекст испытаний eVTOL тесно соответствует опыту профиля в области управления полётом, симуляции, автопилотов и UAV/eVTOL, однако конкретная вакансия или технический охват не указаны."
+    },
+    {
       "signal_id": "sig_dbf9b15db551da66",
       "source_post_id": "7501703591720701952",
       "priority": "medium",
@@ -12751,6 +12864,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -12888,6 +13002,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "MathWorks",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "P Chandhana",
@@ -13035,6 +13150,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Rocket Lab",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Rocket Lab",
@@ -13176,6 +13292,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Joby Aviation",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Rahim Ali • 3-й+",
@@ -13317,6 +13434,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -13447,6 +13565,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -13571,6 +13690,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "MathWorks",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Lynsey Urban",
@@ -13719,6 +13839,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -13861,6 +13982,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -13989,6 +14111,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Joby Aviation",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Max Goldstein",
@@ -14130,6 +14253,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Eve Air Mobility",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -14261,6 +14385,7 @@
       "crm_status_effective": null,
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -14351,133 +14476,6 @@
       "reason_ru": "Вывод: публикация релевантна опыту профиля в области динамики полёта, моделирования, симуляции и систем управления. Её фокус на повышении точности, сокращении объёма испытаний и ускорении инженерной разработки может поддержать экспертный взгляд на применение симуляции многотельной динамики для валидации управления полётом и разработки автономных систем."
     },
     {
-      "signal_id": "sig_c2204077657123ab",
-      "source_post_id": null,
-      "priority": "medium",
-      "confidence": 86,
-      "author": "Jennifer Radtke • 3-й+",
-      "company": null,
-      "primary_action": "find_warm_path",
-      "secondary_action": "follow_person",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "person:bettina mrusek, ph.d.",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
-      ],
-      "known_relationship_company": "Boeing",
-      "do_not_contact": false,
-      "target": {
-        "name": "Jennifer Radtke • 3-й+",
-        "role": null,
-        "relation": "author",
-        "target_role": "Dean",
-        "target_reason": "Mentioned as a partner in developing aviation and engineering curriculum pathways relevant to the aerospace domain.",
-        "target_priority": "medium",
-        "company": null,
-        "profile_url": "https://www.linkedin.com/in/jennifer-radtke-56bb29210/",
-        "company_url": "https://www.linkedin.com/company/boeing/"
-      },
-      "reason": "The post concerns aviation and engineering education, accredited engineering technology curriculum, and Product Support Engineering pathways connected with TeamBoeing. It is adjacent to the profile's aerospace engineering background but does not present a job or direct technical project opportunity.",
-      "content_angle": "Discuss how flight-control, simulation, and systems-engineering competencies can be translated into practical aviation engineering and product-support curricula.",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:share:7500238613432016896/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 2,
-        "first_seen": "2026-09-07",
-        "last_seen": "2026-09-07",
-        "dates": [
-          "2026-09-07"
-        ],
-        "high": 0,
-        "medium": 2
-      },
-      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7500238613432016896/",
-      "signal_context": {
-        "signal_types": [
-          "PEOPLE_SIGNAL",
-          "NETWORK_SIGNAL"
-        ],
-        "career_relevance": 41,
-        "technical_relevance": 36,
-        "networking_relevance": 77,
-        "content_relevance": 28,
-        "hiring_detected": false,
-        "hiring_intent": "none",
-        "hiring_roles": [],
-        "profile_matches": [
-          "aerospace"
-        ]
-      },
-      "freshness": {
-        "age_days": 26,
-        "bucket": "stale",
-        "actionable_now": false
-      },
-      "action_plan_full": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {},
-      "execution_status_full": "READY",
-      "approval_required_full": false,
-      "recommendation_status": "ARCHIVE",
-      "action_score": 38,
-      "action_score_components": {
-        "career": 16.4,
-        "technical": 5.4,
-        "networking": 6.2,
-        "confidence": 6.0,
-        "freshness": 0,
-        "relationship": 2,
-        "repeat": 1,
-        "hiring": 0,
-        "exact_hiring_match": 0,
-        "opportunity": 0,
-        "priority": 1
-      },
-      "reason_ru": "Публикация посвящена авиационному и инженерному образованию, аккредитованной учебной программе по инженерным технологиям и направлениям Product Support Engineering, связанным с TeamBoeing. Она смежна с аэрокосмическим инженерным опытом профиля, но не представляет вакансию или прямую возможность участия в техническом проекте."
-    },
-    {
       "signal_id": "sig_873e1c895736bd26",
       "source_post_id": "7495056835830333441",
       "priority": "medium",
@@ -14519,6 +14517,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "MathWorks",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Caterina Rapisarda",
@@ -14615,6 +14614,134 @@
       "reason_ru": "Публикация освещает применение MATLAB и Simulink в беспроводной связи и междисциплинарном проектировании. Эти инструменты напрямую соответствуют профилю, хотя конкретный фокус на беспроводных коммуникациях является смежным, а не центральным для работы в области управления полётом, GNC, UAV и автономных систем."
     },
     {
+      "signal_id": "sig_c2204077657123ab",
+      "source_post_id": null,
+      "priority": "medium",
+      "confidence": 86,
+      "author": "Jennifer Radtke • 3-й+",
+      "company": null,
+      "primary_action": "find_warm_path",
+      "secondary_action": "follow_person",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "person:bettina mrusek, ph.d.",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "Boeing"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Jennifer Radtke • 3-й+",
+        "role": null,
+        "relation": "author",
+        "target_role": "Dean",
+        "target_reason": "Mentioned as a partner in developing aviation and engineering curriculum pathways relevant to the aerospace domain.",
+        "target_priority": "medium",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/jennifer-radtke-56bb29210/",
+        "company_url": "https://www.linkedin.com/company/boeing/"
+      },
+      "reason": "The post concerns aviation and engineering education, accredited engineering technology curriculum, and Product Support Engineering pathways connected with TeamBoeing. It is adjacent to the profile's aerospace engineering background but does not present a job or direct technical project opportunity.",
+      "content_angle": "Discuss how flight-control, simulation, and systems-engineering competencies can be translated into practical aviation engineering and product-support curricula.",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:share:7500238613432016896/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 2,
+        "first_seen": "2026-09-07",
+        "last_seen": "2026-09-07",
+        "dates": [
+          "2026-09-07"
+        ],
+        "high": 0,
+        "medium": 2
+      },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7500238613432016896/",
+      "signal_context": {
+        "signal_types": [
+          "PEOPLE_SIGNAL",
+          "NETWORK_SIGNAL"
+        ],
+        "career_relevance": 41,
+        "technical_relevance": 36,
+        "networking_relevance": 77,
+        "content_relevance": 28,
+        "hiring_detected": false,
+        "hiring_intent": "none",
+        "hiring_roles": [],
+        "profile_matches": [
+          "aerospace"
+        ]
+      },
+      "freshness": {
+        "age_days": 26,
+        "bucket": "stale",
+        "actionable_now": false
+      },
+      "action_plan_full": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {},
+      "execution_status_full": "READY",
+      "approval_required_full": false,
+      "recommendation_status": "ARCHIVE",
+      "action_score": 36,
+      "action_score_components": {
+        "career": 16.4,
+        "technical": 5.4,
+        "networking": 6.2,
+        "confidence": 6.0,
+        "freshness": 0,
+        "relationship": 0,
+        "repeat": 1,
+        "hiring": 0,
+        "exact_hiring_match": 0,
+        "opportunity": 0,
+        "priority": 1
+      },
+      "reason_ru": "Публикация посвящена авиационному и инженерному образованию, аккредитованной учебной программе по инженерным технологиям и направлениям Product Support Engineering, связанным с TeamBoeing. Она смежна с аэрокосмическим инженерным опытом профиля, но не представляет вакансию или прямую возможность участия в техническом проекте."
+    },
+    {
       "signal_id": "sig_66e356f5e6ff4b4c",
       "source_post_id": "7485410214834339840",
       "priority": "medium",
@@ -14668,6 +14795,7 @@
       "crm_status_effective": "WATCH",
       "known_relationships": [],
       "known_relationship_company": null,
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -14810,6 +14938,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "Astana Hub",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Rinata Ilyubayeva",
@@ -14947,6 +15076,7 @@
         "FOLLOWING_COMPANY"
       ],
       "known_relationship_company": "MathWorks",
+      "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": "Ritika Jaiswal • 3-й+",
