@@ -8,6 +8,8 @@ on:
       - scripts/feed_signal_analyzer.py.gz.b64
       - scripts/action_planner.py
       - scripts/relationship_watchlist.py
+      - scripts/recommendation_rebuilder.py
+      - .github/workflows/feed-signals.yml
       - '.feed-signals-trigger*'
   workflow_dispatch:
     inputs:
@@ -37,7 +39,7 @@ jobs:
 
       - name: Validate pipeline scripts
         run: |
-          python -m py_compile scripts/action_planner.py scripts/relationship_watchlist.py
+          python -m py_compile scripts/action_planner.py scripts/relationship_watchlist.py scripts/recommendation_rebuilder.py
 
       - name: Unpack analyzer
         run: |
@@ -138,6 +140,15 @@ jobs:
           cp action_queue_latest.json "history/action_queue/$(date -u +%F).json"
           cp relationship_watchlist.json "history/relationships/$(date -u +%F).json"
 
+      - name: Rebuild current recommendations from accumulated history
+        run: |
+          python scripts/recommendation_rebuilder.py \
+            --history-dir history/feed_signals \
+            --latest-signals feed_signals_latest.json \
+            --crm relationship_watchlist.json \
+            --relationships-dir linkedin_relationships \
+            --output recommendations_current.json
+
       - name: Build pipeline status
         env:
           ANALYSIS_MODE: ${{ steps.mode.outputs.mode }}
@@ -168,7 +179,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feed_signals_latest.json action_queue_latest.json relationship_watchlist.json feed_pipeline_status.json history/feed_signals history/action_queue history/relationships
+          git add feed_signals_latest.json action_queue_latest.json recommendations_current.json relationship_watchlist.json feed_pipeline_status.json history/feed_signals history/action_queue history/relationships
           if git diff --cached --quiet; then
             echo 'No Feed pipeline changes'
             exit 0
