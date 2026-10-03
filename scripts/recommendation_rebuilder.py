@@ -230,6 +230,122 @@ def apply_freshness_guard(item):
     item["action_plan"] = kept
 
 
+def as_int(value):
+    try:
+        return int(value or 0)
+    except Exception:
+        return 0
+
+
+def signal_context(signal):
+    hiring = signal.get("hiring") or {}
+    return {
+        "signal_types": list(signal.get("signal_types") or []),
+        "career_relevance": as_int(signal.get("career_relevance")),
+        "technical_relevance": as_int(signal.get("technical_relevance")),
+        "networking_relevance": as_int(signal.get("networking_relevance")),
+        "content_relevance": as_int(signal.get("content_relevance")),
+        "hiring_detected": bool(hiring.get("detected")),
+        "hiring_intent": planner.clean(hiring.get("intent")),
+        "hiring_roles": list(hiring.get("roles") or []),
+        "profile_matches": list(signal.get("profile_matches") or []),
+    }
+
+
+def refine_action_plan(item, signal):
+    plan = [dict(x) for x in (item.get("action_plan") or [])]
+    if not plan:
+        return
+
+    ctx = signal_context(signal)
+    types = set(ctx["signal_types"])
+    hiring = ctx["hiring_detected"] or "HIRING_SIGNAL" in types
+    connected = "CONNECTION" in (item.get("known_relationships") or [])
+    occurrences = as_int((item.get("history_stats") or {}).get("occurrences"))
+
+    # Adjacent hiring should first be checked, not immediately turned into
+    # a second outbound job-outreach task.
+    if hiring and connected and ctx["career_relevance"] < 85:
+        plan = [x for x in plan if x.get("action") != "job_outreach"]
+
+    if hiring:
+        if connected:
+            order = {
+                "check_jobs": 10,
+                "message_person": 20,
+                "job_outreach": 30,
+                "find_warm_path": 40,
+                "engage_with_post": 50,
+                "research_company": 60,
+                "review_technology": 70,
+                "save_for_content": 80,
+            }
+        else:
+            order = {
+                "check_jobs": 10,
+                "find_warm_path": 20,
+                "connect_person": 30,
+                "engage_with_post": 40,
+                "follow_person": 50,
+                "research_company": 60,
+                "review_technology": 70,
+                "save_for_content": 80,
+            }
+    else:
+        order = {
+            "research_contact": 10,
+            "find_warm_path": 20,
+            "follow_person": 30,
+            "engage_with_post": 40,
+            "connect_person": 50,
+            "research_company": 60,
+            "review_technology": 70,
+            "save_for_content": 80,
+            "check_jobs": 90,
+        }
+        if occurrences <= 1:
+            for action in plan:
+                if action.get("action") == "connect_person":
+                    action["reason"] = (
+                        "One relevant signal so far; check context first and consider connecting after that."
+                    )
+
+    indexed = list(enumerate(plan))
+    indexed.sort(key=lambda pair: (order.get(pair[1].get("action"), 999), pair[0]))
+    item["action_plan"] = [x for _, x in indexed]
+
+
+def calculate_action_score(item, signal):
+    ctx = signal_context(signal)
+    types = set(ctx["signal_types"])
+    age = as_int((item.get("freshness") or {}).get("age_days"))
+    occurrences = as_int((item.get("history_stats") or {}).get("occurrences"))
+    relationships = set(item.get("known_relationships") or [])
+    hiring = ctx["hiring_detected"] or "HIRING_SIGNAL" in types
+
+    components = {
+        "career": round(ctx["career_relevance"] * 0.40, 1),
+        "technical": round(ctx["technical_relevance"] * 0.15, 1),
+        "networking": round(ctx["networking_relevance"] * 0.08, 1),
+        "confidence": round(as_int(item.get("confidence")) * 0.07, 1),
+        "freshness": max(0, 10 - age),
+        "relationship": min(
+            8,
+            (6 if "CONNECTION" in relationships else 0)
+            + (1 if "FOLLOWER" in relationships else 0)
+            + (2 if "FOLLOWING_PERSON" in relationships else 0)
+            + (2 if "FOLLOWING_COMPANY" in relationships else 0),
+        ),
+        "repeat": min(5, max(0, occurrences - 1)),
+        "hiring": 8 if hiring else 0,
+        "exact_hiring_match": 5 if hiring and ctx["career_relevance"] >= 90 else 0,
+        "opportunity": 2 if "OPPORTUNITY_SIGNAL" in types else 0,
+        "priority": 2 if item.get("priority") == "high" else 1,
+    }
+    score = min(100, round(sum(components.values())))
+    return score, components, ctx
+
+
 def recompute_item_fields(item, representative):
     plan = item.get("action_plan") or []
     if not plan:
@@ -275,6 +391,7 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
             item["target"]["profile_url"] = person_url
         if company_url:
             item["target"]["company_url"] = company_url
+        item["signal_context"] = signal_context(representative)
 
     seen = set()
     for item in queue.get("items", []):
@@ -287,6 +404,8 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
                 seen.add(key)
             filtered.append(action)
         item["action_plan"] = filtered
+        representative = representative_by_id.get(planner.clean(item.get("signal_id")), {})
+        refine_action_plan(item, representative)
 
     action_names = sorted({
         action.get("action")
@@ -344,12 +463,17 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
         )
         apply_freshness_guard(item)
         representative = representative_by_id.get(planner.clean(item.get("signal_id")), {})
+        score, components, ctx = calculate_action_score(item, representative)
+        item["action_score"] = score
+        item["action_score_components"] = components
+        item["signal_context"] = ctx
         recompute_item_fields(item, representative)
 
     queue["items"].sort(
         key=lambda x: (
             0 if x.get("recommendation_status") == "ACTIONABLE_NOW" else
             1 if x.get("recommendation_status") == "WATCHLIST" else 2,
+            -int(x.get("action_score") or 0),
             PRIORITY_RANK.get(x.get("priority"), 9),
             int(
                 (x.get("freshness") or {}).get("age_days")
