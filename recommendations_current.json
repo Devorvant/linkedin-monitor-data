@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T18:28:34.708198+00:00",
-  "source_generated_at": "2026-10-03T18:28:34.708198+00:00",
+  "generated_at": "2026-10-03T18:45:55.976688+00:00",
+  "source_generated_at": "2026-10-03T18:45:55.976688+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
     "outbound_actions": [
@@ -109,6 +109,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Sarla Aviation",
       "do_not_contact": false,
       "target": {
         "name": "Adrian Schmidt",
@@ -276,6 +277,7 @@
         "CONNECTION",
         "FOLLOWER"
       ],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Neha S • 1-й",
@@ -431,6 +433,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Saildrone",
       "do_not_contact": false,
       "target": {
         "name": "Andreas Hamilton",
@@ -595,6 +598,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Melda Ulusoy • 3-й+",
@@ -749,6 +753,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Wisk",
       "do_not_contact": false,
       "target": {
         "name": "Brenden Hedblom",
@@ -900,6 +905,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "James Wang",
@@ -1055,6 +1061,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Department of Aerospace Science and Technology - Politecnico di Milano",
       "do_not_contact": false,
       "target": {
         "name": "Alessandro Michelazzi",
@@ -1203,6 +1210,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -1341,6 +1349,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Eve Air Mobility",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -1468,6 +1477,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Joby Aviation",
       "do_not_contact": false,
       "target": {
         "name": "Bonny Simi • 3-й+",
@@ -1603,6 +1613,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Saildrone",
       "do_not_contact": false,
       "target": {
         "name": "Elizabeth Shadwick",
@@ -1753,6 +1764,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Vassilis Diakoloukas • 3-й+",
@@ -1909,6 +1921,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Sarla Aviation",
       "do_not_contact": false,
       "target": {
         "name": "Vijeta Tantry",
@@ -2067,6 +2080,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Anduril Industries",
       "do_not_contact": false,
       "target": {
         "name": "Ryan Augsburger",
@@ -2211,6 +2225,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -2348,6 +2363,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "SkyGrid",
       "do_not_contact": false,
       "target": {
         "name": "Arife Aycan Mutlu • 3-й+",
@@ -2498,6 +2514,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Lockheed Martin",
       "do_not_contact": false,
       "target": {
         "name": "Edward Ludlow",
@@ -2641,6 +2658,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Joby Aviation",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -2784,6 +2802,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -2935,6 +2954,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Department of Aerospace Science and Technology - Politecnico di Milano",
       "do_not_contact": false,
       "target": {
         "name": "Michèle Lavagna",
@@ -3088,6 +3108,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Stuart Simpson",
@@ -3227,6 +3248,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -3362,6 +3384,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Jeff Miller • 3-й+",
@@ -3508,6 +3531,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -3659,6 +3683,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Dave Schowalter • 3-й+",
@@ -3800,6 +3825,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -3934,6 +3960,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Joby Aviation",
       "do_not_contact": false,
       "target": {
         "name": "Todd Case",
@@ -4078,6 +4105,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Joby Aviation",
       "do_not_contact": false,
       "target": {
         "name": "Jim Sherman • 3-й+",
@@ -4227,6 +4255,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Palmer Luckey",
@@ -4365,6 +4394,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -4499,6 +4529,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Embraer",
       "do_not_contact": false,
       "target": {
         "name": "Arjan Meijer",
@@ -4637,6 +4668,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Joby Aviation",
       "do_not_contact": false,
       "target": {
         "name": "Erika Armstrong • 3-й+",
@@ -4777,6 +4809,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Jonathan Shaver",
@@ -4913,6 +4946,7 @@
         "CONNECTION",
         "FOLLOWER"
       ],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Burak Çetin",
@@ -5062,6 +5096,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "AltoVolo",
       "do_not_contact": false,
       "target": {
         "name": "Mohamad Omari • 2-й",
@@ -5212,6 +5247,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Embention",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -5360,6 +5396,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Samuel Olubayo • 3-й+",
@@ -5517,6 +5554,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Saildrone",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -5669,6 +5707,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Sky-Drones",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -5809,6 +5848,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Sarla Aviation",
       "do_not_contact": false,
       "target": {
         "name": "Vijay Singh",
@@ -5961,6 +6001,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Joby Aviation",
       "do_not_contact": false,
       "target": {
         "name": "Brett Mather, профиль Подтверждено, 3-й+ Brett Mather • 3-й+ Software Systems Engineer, DoorDash Labs | Ex-Joby Aviation | Integrating Tech, Aviation & Autonomy",
@@ -6125,6 +6166,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "SkyGrid",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -6275,6 +6317,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Archer",
       "do_not_contact": false,
       "target": {
         "name": "Mario Srouji • 3-й+",
@@ -6430,6 +6473,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Robert Bolesza • 3-й+",
@@ -6573,6 +6617,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Nate Glasscock • 3-й+",
@@ -6729,6 +6774,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Corey Proffitt • 3-й+",
@@ -6877,6 +6923,7 @@
         "CONNECTION",
         "FOLLOWER"
       ],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Iram Zubair",
@@ -7048,6 +7095,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Embention",
       "do_not_contact": false,
       "target": {
         "name": "Julieta Jazmín González Marasco • 3-й+",
@@ -7207,6 +7255,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -7346,6 +7395,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Saildrone",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -7501,6 +7551,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "SkyGrid",
       "do_not_contact": false,
       "target": {
         "name": "Balram Kandoria",
@@ -7666,6 +7717,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Archer",
       "do_not_contact": false,
       "target": {
         "name": "Scott Shtofman • 3-й+",
@@ -7824,6 +7876,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Department of Aerospace Science and Technology - Politecnico di Milano",
       "do_not_contact": false,
       "target": {
         "name": "Johann Dauer",
@@ -7974,6 +8027,7 @@
       "known_relationships": [
         "FOLLOWING_PERSON"
       ],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Sachin Jain, Ph.D. • Отслеживаете",
@@ -8128,6 +8182,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Embention",
       "do_not_contact": false,
       "target": {
         "name": "Pablo Ceacero Escrig • 3-й+",
@@ -8279,6 +8334,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Kevin Antcliff • 3-й+",
@@ -8427,6 +8483,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Saildrone",
       "do_not_contact": false,
       "target": {
         "name": "Matt Womble",
@@ -8575,6 +8632,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -8710,6 +8768,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -8845,6 +8904,7 @@
         "CONNECTION",
         "FOLLOWER"
       ],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Nidhi Raj",
@@ -9000,6 +9060,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Embraer",
       "do_not_contact": false,
       "target": {
         "name": "Isabel Lima • 3-й+",
@@ -9148,6 +9209,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Open Ocean Robotics",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -9287,6 +9349,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Sarla Aviation",
       "do_not_contact": false,
       "target": {
         "name": "Dr. H. Sudarshan Ballal",
@@ -9434,6 +9497,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Relativity Space",
       "do_not_contact": false,
       "target": {
         "name": "Venkata Devalaraju • 3-й+",
@@ -9583,6 +9647,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -9726,6 +9791,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Akshay Rajhans, Ph.D. • 3-й+",
@@ -9887,6 +9953,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Lukas M. Ziegler • 3-й+",
@@ -10046,6 +10113,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Laura Reimoser • 3-й+",
@@ -10195,6 +10263,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -10336,6 +10405,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "SkyGrid",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -10468,6 +10538,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "David King",
@@ -10613,6 +10684,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -10741,6 +10813,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Embention",
       "do_not_contact": false,
       "target": {
         "name": "Roberto Morollón Ruiz • 3-й+",
@@ -10884,6 +10957,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -11020,6 +11094,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Sarla Aviation",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -11152,6 +11227,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Archer",
       "do_not_contact": false,
       "target": {
         "name": "Dr. Shelly Lesikar deZevallos • 3-й+",
@@ -11297,6 +11373,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Open Ocean Robotics",
       "do_not_contact": false,
       "target": {
         "name": "Alex Rueben",
@@ -11453,6 +11530,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Mahsa K. • 3-й+",
@@ -11604,6 +11682,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Charles Alcock",
@@ -11748,6 +11827,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -11873,6 +11953,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Joby Aviation",
       "do_not_contact": false,
       "target": {
         "name": "Robert Francis • 3-й+",
@@ -12007,6 +12088,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Camilla Colombo",
@@ -12157,6 +12239,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Eve Air Mobility",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -12280,6 +12363,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Phil Scott",
@@ -12422,6 +12506,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "OceanWings",
       "do_not_contact": false,
       "target": {
         "name": "Emmanuel Schalit",
@@ -12575,6 +12660,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -12710,6 +12796,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "P Chandhana",
@@ -12855,6 +12942,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Rocket Lab",
       "do_not_contact": false,
       "target": {
         "name": "Rocket Lab",
@@ -12994,6 +13082,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Joby Aviation",
       "do_not_contact": false,
       "target": {
         "name": "Rahim Ali • 3-й+",
@@ -13133,6 +13222,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -13261,6 +13351,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -13383,6 +13474,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Lynsey Urban",
@@ -13529,6 +13621,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -13669,6 +13762,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -13795,6 +13889,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Joby Aviation",
       "do_not_contact": false,
       "target": {
         "name": "Max Goldstein",
@@ -13934,6 +14029,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Eve Air Mobility",
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -14063,6 +14159,7 @@
       "crm_status": null,
       "crm_status_effective": null,
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -14191,6 +14288,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Boeing",
       "do_not_contact": false,
       "target": {
         "name": "Jennifer Radtke • 3-й+",
@@ -14317,6 +14415,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Caterina Rapisarda",
@@ -14464,6 +14563,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": null,
@@ -14604,6 +14704,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Astana Hub",
       "do_not_contact": false,
       "target": {
         "name": "Rinata Ilyubayeva",
@@ -14739,6 +14840,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "MathWorks",
       "do_not_contact": false,
       "target": {
         "name": "Ritika Jaiswal • 3-й+",

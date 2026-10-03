@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-03T18:28:34.567925+00:00",
+  "generated_at": "2026-10-03T18:45:55.889856+00:00",
   "source_generated_at": "2026-10-03T05:11:28.187448+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
@@ -96,6 +96,7 @@
         "CONNECTION",
         "FOLLOWER"
       ],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "Neha S • 1-й",
@@ -166,6 +167,7 @@
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [],
+      "known_relationship_company": null,
       "do_not_contact": false,
       "target": {
         "name": "James Wang",
@@ -237,6 +239,7 @@
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
+      "known_relationship_company": "Saildrone",
       "do_not_contact": false,
       "target": {
         "name": "Elizabeth Shadwick",
