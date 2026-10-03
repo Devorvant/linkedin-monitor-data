@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-03T05:12:15.323103+00:00",
+  "generated_at": "2026-10-03T14:49:43.802231+00:00",
   "source_generated_at": "2026-10-03T05:11:28.187448+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
@@ -30,11 +30,12 @@
     },
     "action_plan_counts": {
       "check_jobs": 1,
-      "connect_person": 2,
+      "connect_person": 1,
       "engage_with_post": 3,
-      "find_warm_path": 3,
-      "follow_company": 1,
+      "find_warm_path": 2,
       "follow_person": 1,
+      "job_outreach": 1,
+      "message_person": 1,
       "review_technology": 2
     }
   },
@@ -47,10 +48,10 @@
       "author": "Neha S • 1-й",
       "company": "Qubist Solutions",
       "primary_action": "engage_with_post",
-      "secondary_action": "connect_person",
+      "secondary_action": "message_person",
       "approval_required": true,
       "execution_status": "PENDING_APPROVAL",
-      "relationship_stage": "observe",
+      "relationship_stage": "connected",
       "action_plan": [
         {
           "action": "engage_with_post",
@@ -58,19 +59,19 @@
           "approval_required": false
         },
         {
-          "action": "connect_person",
-          "reason": "Concrete relevant person identified; connection can be considered.",
+          "action": "message_person",
+          "reason": "The person is already connected; a contextual message can be prepared.",
           "approval_required": true
-        },
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
         },
         {
           "action": "check_jobs",
           "reason": "Hiring signal detected; verify whether relevant roles exist.",
           "approval_required": false
+        },
+        {
+          "action": "job_outreach",
+          "reason": "Relevant hiring context plus an established LinkedIn connection.",
+          "approval_required": true
         }
       ],
       "research": {
@@ -83,12 +84,18 @@
         ]
       },
       "drafts": {
-        "connection_note": "Hi Neha, I came across your work on DO-178C, RTOS, BSP. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+        "message": "Hi Neha, I noticed your recent work around DO-178C, RTOS, BSP. I work on flight controls, GNC, UAV/autonomous systems and simulation. I thought there may be useful overlap in our technical interests and would be interested in exchanging perspectives.",
+        "job_outreach": "Hi Neha, I'm exploring senior/lead opportunities at Qubist Solutions related to flight controls, GNC, autonomy and simulation. My background includes UAV/autopilot development, flight dynamics and MATLAB/Simulink/Python. If there is a relevant team or role, I'd appreciate any direction on whom best to speak with."
       },
       "crm_guard_applied": false,
       "crm_guard_reason": null,
       "crm_entity_id": "company:qubist solutions",
       "crm_status": "WATCH",
+      "crm_status_effective": "CONNECTED",
+      "known_relationships": [
+        "CONNECTION",
+        "FOLLOWER"
+      ],
       "do_not_contact": false,
       "target": {
         "name": "Neha S • 1-й",
@@ -157,6 +164,8 @@
       "crm_guard_reason": null,
       "crm_entity_id": "person:james wang",
       "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
       "do_not_contact": false,
       "target": {
         "name": "James Wang",
@@ -207,11 +216,6 @@
           "approval_required": false
         },
         {
-          "action": "follow_company",
-          "reason": "Keep company activity visible for future signals.",
-          "approval_required": false
-        },
-        {
           "action": "review_technology",
           "reason": "Technical project or technology is relevant to the profile.",
           "approval_required": false
@@ -229,6 +233,10 @@
       "crm_guard_reason": null,
       "crm_entity_id": "company:saildrone",
       "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
       "do_not_contact": false,
       "target": {
         "name": "Elizabeth Shadwick",

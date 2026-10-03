@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T05:12:15.409443+00:00",
+  "generated_at": "2026-10-03T14:49:43.892422+00:00",
   "status": "OK",
-  "analysis_mode": "llm",
-  "analysis_reason": "Feed/profile/analyzer changed",
+  "analysis_mode": "reuse",
+  "analysis_reason": "Only downstream/test files changed",
   "feed_signals": {
     "posts_analyzed": 16,
     "high_priority": 2,
@@ -31,11 +31,12 @@
     },
     "action_plan_counts": {
       "check_jobs": 1,
-      "connect_person": 2,
+      "connect_person": 1,
       "engage_with_post": 3,
-      "find_warm_path": 3,
-      "follow_company": 1,
+      "find_warm_path": 2,
       "follow_person": 1,
+      "job_outreach": 1,
+      "message_person": 1,
       "review_technology": 2
     }
   },
