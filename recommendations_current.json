@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T18:45:55.976688+00:00",
-  "source_generated_at": "2026-10-03T18:45:55.976688+00:00",
+  "generated_at": "2026-10-03T18:46:53.676392+00:00",
+  "source_generated_at": "2026-10-03T18:46:53.676392+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
     "outbound_actions": [
@@ -119,7 +119,8 @@
         "target_reason": "Sarla Aviation is explicitly hiring in areas closely aligned with the profile, but the post does not identify which named person handles hiring.",
         "target_priority": "high",
         "company": "Sarla Aviation",
-        "profile_url": "https://www.linkedin.com/in/adrnschm/"
+        "profile_url": "https://www.linkedin.com/in/adrnschm/",
+        "company_url": "https://www.linkedin.com/company/sarla-aviation/"
       },
       "reason": "The post explicitly announces hiring across Flight Controls and Flight Dynamics, directly matching the profile's primary expertise in flight-control systems, autopilots, flight dynamics, simulation and aircraft development. The author and three mentioned people are identifiable networking targets, although their roles are not stated.",
       "content_angle": "Share an original perspective on the engineering challenges of developing flight-control laws, flight-dynamics models and simulation infrastructure for novel aircraft categories.",
@@ -141,6 +142,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -314,6 +316,7 @@
         "high": 5,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -466,6 +469,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -631,6 +635,7 @@
         "high": 1,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7503449660238417921/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -786,6 +791,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -936,6 +942,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511755840958353409/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -1094,6 +1101,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -1241,6 +1249,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "MARKET_SIGNAL",
@@ -1358,7 +1367,8 @@
         "target_role": "Flight controls or GNC technical lead",
         "target_reason": "A relevant technical contact could provide context on control architecture, transition-flight validation and autonomy work at Eve Air Mobility.",
         "target_priority": "medium",
-        "company": "Eve Air Mobility"
+        "company": "Eve Air Mobility",
+        "company_url": "https://www.linkedin.com/company/eveairmobility/"
       },
       "reason": "The post describes an eVTOL lift-plus-cruise configuration involving vertical flight, transition and cruise, which directly aligns with the profile's eVTOL, flight-control, flight-dynamics, autopilot and simulation expertise. It contains no hiring information and does not identify an author or specific person to contact.",
       "content_angle": "Provide an original expert perspective on the control-system implications of lift-plus-cruise architectures, such as transition control-law scheduling, propulsion allocation, handling qualities and simulation-based validation.",
@@ -1382,6 +1392,7 @@
         "high": 1,
         "medium": 2
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508691171586695168/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -1510,6 +1521,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -1624,7 +1636,7 @@
         "target_priority": "medium",
         "company": "Saildrone",
         "profile_url": "https://www.linkedin.com/in/elizabeth-shadwick-6ba2a1252/",
-        "company_url": "https://www.linkedin.com/company/csiro/"
+        "company_url": "https://www.linkedin.com/company/saildrone-inc/"
       },
       "reason": "The post describes a long-duration solar-powered autonomous vessel operating in a difficult marine environment, closely matching the profile's interest in marine autonomy, autonomous vessel control, navigation, mission planning, and energy-aware operations. It does not indicate a job opening.",
       "content_angle": "Discuss how energy-aware trajectory planning, telemetry, fault management, and robust autonomy can support long-duration uncrewed missions in remote marine environments, drawing an original comparison with solar-powered UAV endurance challenges.",
@@ -1646,6 +1658,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508757252187705344/",
       "signal_context": {
         "signal_types": [
           "PROJECT_SIGNAL",
@@ -1797,6 +1810,7 @@
         "high": 1,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7507809323184713728/",
       "signal_context": {
         "signal_types": [
           "PROJECT_SIGNAL",
@@ -1931,7 +1945,8 @@
         "target_reason": "The post names women described as designing and building Sarla Aviation's electric aircraft; they may be relevant contacts for eVTOL engineering networking.",
         "target_priority": "high",
         "company": "Sarla Aviation",
-        "profile_url": "https://www.linkedin.com/in/vijeta-tantry/"
+        "profile_url": "https://www.linkedin.com/in/vijeta-tantry/",
+        "company_url": "https://www.linkedin.com/company/sarla-aviation/"
       },
       "reason": "The post highlights Sarla Aviation's electric air taxi and identifies women involved in designing and building the eVTOL aircraft. This aligns strongly with the profile's eVTOL, flight-control, aircraft-development and multidisciplinary aerospace background, while offering concrete people and company networking targets. No hiring opportunity is stated.",
       "content_angle": "Offer an original perspective on the multidisciplinary engineering challenges of eVTOL development, such as connecting aircraft architecture, flight controls, simulation, avionics and testing, while acknowledging the importance of expanding participation in core aerospace technology roles.",
@@ -1953,6 +1968,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7509214875160588288/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -2113,6 +2129,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511530619932196864/",
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -2256,6 +2273,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7306006458913951744/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -2396,6 +2414,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -2547,6 +2566,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511082152646696960/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -2690,6 +2710,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -2836,6 +2857,7 @@
         "high": 1,
         "medium": 2
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -2987,6 +3009,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7510982582574985217/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -3141,6 +3164,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -3280,6 +3304,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -3417,6 +3442,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508577828133851136/",
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -3562,6 +3588,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7510948351190810624/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -3716,6 +3743,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -3856,6 +3884,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7509560906066837505/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -3970,7 +3999,7 @@
         "target_reason": "Inference: Joby's focus on electric and autonomous flight is closely aligned with the profile's flight-control, GNC and eVTOL expertise.",
         "target_priority": "medium",
         "company": "Joby Aviation",
-        "company_url": "https://www.linkedin.com/company/kentuckians-for-better-transportation-kbt-/"
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
       },
       "reason": "The post highlights electric aviation and autonomous flight technology, which align with the profile's eVTOL, flight-control, autonomy and UAV interests. It contains no hiring announcement or specific engineering opportunity.",
       "content_angle": "Inference: Offer an original perspective on the flight-control, guidance, navigation and validation challenges involved in bringing autonomous electric aircraft from demonstration to reliable operations.",
@@ -3992,6 +4021,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7509674138056355841/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -4138,6 +4168,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -4287,6 +4318,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7510669902911975425/",
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -4425,6 +4457,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL"
@@ -4561,6 +4594,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511520708196212737/",
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -4701,6 +4735,7 @@
         "high": 0,
         "medium": 2
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -4842,6 +4877,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7509374996864122880/",
       "signal_context": {
         "signal_types": [
           "PROJECT_SIGNAL",
@@ -4985,6 +5021,7 @@
         "high": 6,
         "medium": 4
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -5129,6 +5166,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7506341815076339712/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -5281,6 +5319,7 @@
         "high": 3,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -5429,6 +5468,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -5563,7 +5603,8 @@
         "target_role": "Technical Operations Engineer hiring contact or technical lead",
         "target_reason": "Could clarify the technical scope, controls or autonomy content, and requirements for the Technical Operations Engineer opening.",
         "target_priority": "high",
-        "company": "Saildrone"
+        "company": "Saildrone",
+        "company_url": "https://www.linkedin.com/company/saildrone-inc/"
       },
       "reason": "Saildrone explicitly advertises multiple openings while expanding teams worldwide. Its unmanned surface vehicle and ocean-mapping focus aligns with the profile's target expansion into marine autonomy, autonomous vessel control, robotics, simulation and multidisciplinary engineering. The Technical Operations Engineer and Manufacturing Systems Integration & Test Engineer roles appear most potentially relevant, although the post does not provide detailed requirements or remote-work information.",
       "content_angle": "Share an original perspective on how flight-control, simulation and verification practices from UAV systems can inform reliable integration and testing of unmanned surface vehicles.",
@@ -5585,6 +5626,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -5740,6 +5782,7 @@
         "high": 1,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7493745059578748928/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -5881,6 +5924,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7506250465467203585/",
       "signal_context": {
         "signal_types": [
           "PROJECT_SIGNAL",
@@ -6034,6 +6078,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -6198,6 +6243,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -6349,6 +6395,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -6506,6 +6553,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -6650,6 +6698,7 @@
         "high": 1,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7507078739621613568/",
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -6806,6 +6855,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7506723482001416192/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -6955,6 +7005,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -7128,6 +7179,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -7286,6 +7338,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -7405,7 +7458,7 @@
         "target_reason": "Identify the appropriate contact for the unspecified engineering openings mentioned in the post and assess whether any involve autonomy, navigation, controls or simulation.",
         "target_priority": "high",
         "company": "Saildrone",
-        "company_url": "https://www.linkedin.com/company/saildrone-inc/posts/"
+        "company_url": "https://www.linkedin.com/company/saildrone-inc/"
       },
       "reason": "Saildrone explicitly states that it is hiring roughly two dozen people across engineering and other functions. The company’s work on autonomous maritime platforms, defense, ocean mapping and NOAA missions is strongly adjacent to the profile’s autonomous-systems, control, navigation, simulation and marine-autonomy interests. The post does not specify an open flight-controls, GNC or marine-controls role, so the exact technical fit requires job review.",
       "content_angle": "Inference: publish an original expert perspective on how flight-control, GNC, simulation and mission-assurance methods can transfer from UAVs and eVTOLs to autonomous USVs operating in defense, ocean-mapping and severe-weather missions.",
@@ -7427,6 +7480,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -7584,6 +7638,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -7750,6 +7805,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7504047483061157889/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -7909,6 +7965,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503021157479149568/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -8060,6 +8117,7 @@
         "high": 2,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -8215,6 +8273,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "PROJECT_SIGNAL",
@@ -8366,6 +8425,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7502772867483398144/",
       "signal_context": {
         "signal_types": [
           "PROJECT_SIGNAL",
@@ -8493,7 +8553,7 @@
         "target_reason": "Identify the engineering contact responsible for autonomous vessel control, navigation, mission planning or real-time observation systems behind the described mission.",
         "target_priority": "medium",
         "company": "Saildrone",
-        "company_url": "https://www.linkedin.com/company/noaa/"
+        "company_url": "https://www.linkedin.com/company/saildrone-inc/"
       },
       "reason": "The post describes a real-world marine autonomy mission using unmanned surface vehicles for persistent environmental observation. This closely aligns with the profile's stated expansion into marine autonomy, autonomous vessels, navigation and control of mobile platforms, while also offering relevant material for original commentary on endurance, telemetry, mission planning, sensor coverage and autonomous operations. No hiring opportunity is stated.",
       "content_angle": "Discuss how long-endurance autonomous surface vehicles can complement buoys, floats and satellites by closing spatial and temporal observation gaps, with an expert perspective on navigation reliability, mission planning, telemetry quality and control-system resilience in remote ocean operations.",
@@ -8515,6 +8575,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503470332796723201/",
       "signal_context": {
         "signal_types": [
           "PROJECT_SIGNAL",
@@ -8663,6 +8724,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -8799,6 +8861,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7493735060567683072/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -8936,6 +8999,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -9093,6 +9157,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -9219,7 +9284,7 @@
         "target_reason": "Identify technical decision-makers at Open Ocean Robotics or through SMM who work on autonomous vessel guidance, navigation, stabilization, or control systems.",
         "target_priority": "medium",
         "company": "Open Ocean Robotics",
-        "company_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/"
+        "company_url": "https://www.linkedin.com/company/open-ocean-robotics/"
       },
       "reason": "Open Ocean Robotics describes autonomous surface vessels for defence, security, and ocean operations. This closely matches the profile’s target expansion into marine autonomy, autonomous vessel control, navigation, stabilization, and robotics. The post also provides a direct opportunity to engage with the company at SMM Hamburg, but it contains no hiring announcement.",
       "content_angle": "Discuss how flight-control, GNC, simulation, and telemetry practices can transfer to autonomous surface vessels, including differences in marine dynamics, environmental disturbances, and navigation constraints.",
@@ -9241,6 +9306,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -9360,7 +9426,7 @@
         "target_priority": "high",
         "company": "Sarla Aviation",
         "profile_url": "https://www.linkedin.com/in/rakesh-gaonkar/",
-        "company_url": "https://www.linkedin.com/company/sarla-aviation/posts/"
+        "company_url": "https://www.linkedin.com/company/sarla-aviation/"
       },
       "reason": "Inference: The post describes a direct eVTOL and advanced-air-mobility project involving aircraft development, operational integration, medical-bay design, transfer procedures, and certification. These areas align strongly with the profile's flight controls, flight dynamics, simulation, autonomy, and eVTOL experience. No hiring opportunity is stated.",
       "content_angle": "Original angle: discuss the control, safety, simulation, and certification challenges of designing an eVTOL air-ambulance service around patient handover, medical-bay constraints, emergency routing, and reliable inter-hospital operations.",
@@ -9382,6 +9448,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7500864490910097408/",
       "signal_context": {
         "signal_types": [
           "PROJECT_SIGNAL",
@@ -9529,6 +9596,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -9679,6 +9747,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7501354886714896384/",
       "signal_context": {
         "signal_types": [
           "PROJECT_SIGNAL",
@@ -9801,7 +9870,8 @@
         "target_reason": "The summit is intended to build research collaborations and connections around engineered system design, MATLAB, Simulink, and AI.",
         "target_priority": "high",
         "company": "MathWorks",
-        "profile_url": "https://www.linkedin.com/in/rajhans/"
+        "profile_url": "https://www.linkedin.com/in/rajhans/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The post announces MathWorks Research Summit India, focused on engineered system design in the age of AI, and explicitly features MATLAB and Simulink. This aligns with the profile's flight-control, simulation, modeling, and autonomous-systems expertise. The event also offers a concrete opportunity to identify and connect with relevant MathWorks research and engineering contacts, although it is invitation-based rather than a job opening.",
       "content_angle": "Discuss how model-based design, simulation, and control-system validation can help move AI-enabled aerospace or autonomous-system research from exploration to deployable engineering impact.",
@@ -9823,6 +9893,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7500642344166113280/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -9986,6 +10057,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -10146,6 +10218,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -10294,6 +10367,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -10437,6 +10511,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -10571,6 +10646,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "PEOPLE_SIGNAL",
@@ -10715,6 +10791,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -10846,6 +10923,7 @@
         "high": 1,
         "medium": 0
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -10988,6 +11066,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -11104,7 +11183,7 @@
         "target_reason": null,
         "target_priority": null,
         "company": "Sarla Aviation",
-        "company_url": "https://www.linkedin.com/company/sarla-aviation/posts/"
+        "company_url": "https://www.linkedin.com/company/sarla-aviation/"
       },
       "reason": "The post describes a partnership between Sarla Aviation and Tata Elxsi to develop Shunya, an eVTOL aircraft for urban air mobility. This directly matches the profile's eVTOL, flight-control, aircraft-systems, simulation and autonomous-mobility background, but the post contains no hiring information or named technical contact.",
       "content_angle": "Offer an original expert perspective on the flight-control, simulation, verification and multidisciplinary integration challenges involved in developing eVTOL aircraft for urban air mobility, without assuming details about Shunya's architecture.",
@@ -11126,6 +11205,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -11260,6 +11340,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503988204119969793/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -11384,7 +11465,7 @@
         "target_priority": "high",
         "company": "Open Ocean Robotics",
         "profile_url": "https://www.linkedin.com/in/alex-rueben-083a8323/",
-        "company_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/"
+        "company_url": "https://www.linkedin.com/company/open-ocean-robotics/"
       },
       "reason": "The post highlights British Columbia’s marine and defence ecosystem and names the CEO of an association connecting industry, government, and academia. This aligns with the profile’s interest in marine autonomy, autonomous vessels, control systems, and multidisciplinary engineering networks, but the post does not identify a specific engineering role or technical project.",
       "content_angle": "Discuss how guidance, navigation, control, autonomy, and simulation expertise can contribute to innovation across marine and defence systems, while connecting the topic to multidisciplinary industry collaboration.",
@@ -11406,6 +11487,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7488730652599787520/",
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -11563,6 +11645,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -11715,6 +11798,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "PROJECT_SIGNAL",
@@ -11858,6 +11942,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7500275444076822528/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -11986,6 +12071,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "PROJECT_SIGNAL",
@@ -12120,6 +12206,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -12249,7 +12336,7 @@
         "target_reason": null,
         "target_priority": null,
         "company": "Eve Air Mobility",
-        "company_url": "https://www.linkedin.com/company/eveairmobility/posts/"
+        "company_url": "https://www.linkedin.com/company/eveairmobility/"
       },
       "reason": "The post discusses eVTOL urban mobility and the strategic importance of energy and charging infrastructure. This aligns with the profile's eVTOL development, flight-control architecture, simulation, autopilot and energy-aware trajectory-planning experience, but the post contains no hiring or specific role signal.",
       "content_angle": "Inference: Explain how charging infrastructure, energy constraints and turnaround requirements affect eVTOL mission planning, flight-control validation and operational availability.",
@@ -12271,6 +12358,7 @@
         "high": 0,
         "medium": 2
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7494495461429444608/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL"
@@ -12396,6 +12484,7 @@
         "high": 0,
         "medium": 2
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7500215770224902145/",
       "signal_context": {
         "signal_types": [
           "PROJECT_SIGNAL",
@@ -12539,6 +12628,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -12691,6 +12781,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7501703591720701952/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -12807,7 +12898,7 @@
         "target_priority": "medium",
         "company": "MathWorks",
         "profile_url": "https://www.linkedin.com/in/p-chandhana/",
-        "company_url": "https://www.linkedin.com/company/the-mathworks_2/posts/"
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The post is from MathWorks and focuses on MATLAB and Simulink education, tools that are directly aligned with the profile's flight-control, simulation, and model-based engineering experience. It names MathWorks and ARKANCE participants, creating possible but unconfirmed networking paths. No job opening or hiring intent is stated.",
       "content_angle": "Share an original perspective on how MATLAB/Simulink education can connect academic modeling and simulation with real-world flight-control, autopilot, GNC, and autonomous-systems development, without reproducing the event's content.",
@@ -12829,6 +12920,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7496448164820869120/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -12952,7 +13044,7 @@
         "target_reason": "The post invites connections with people behind Rocket Lab programs, and this role would align more closely with the profile's flight-control, autonomy and aerospace expertise.",
         "target_priority": "medium",
         "company": "Rocket Lab",
-        "company_url": "https://www.linkedin.com/company/rocket-lab-corp/posts/"
+        "company_url": "https://www.linkedin.com/company/rocket-lab-corp/"
       },
       "reason": "Rocket Lab is promoting an explicit career networking event and applications for Manufacturing Technicians and Supply Chain Specialists, with work involving real hardware, missions, national security, deep space exploration and defense. The aerospace and space context is relevant to the profile, but the advertised roles are not directly aligned with flight controls, GNC, UAV systems or simulation.",
       "content_angle": "Share an original perspective on the engineering challenges of moving autonomous or flight-control systems from simulation into real hardware and operational missions, without presenting it as a response to a confirmed Rocket Lab technical vacancy.",
@@ -12974,6 +13066,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7495612599888338945/",
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -13115,6 +13208,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -13253,6 +13347,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7504478922173173760/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -13384,6 +13479,7 @@
         "high": 1,
         "medium": 2
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503858040299991040/",
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -13485,7 +13581,7 @@
         "target_priority": "medium",
         "company": "MathWorks",
         "profile_url": "https://www.linkedin.com/in/lynseyurban/",
-        "company_url": "https://www.linkedin.com/company/the-mathworks_2/posts/"
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The post confirms MathWorks is bringing an intern into a full-time position and describes work involving AI, usability evaluation, and human-centered research. MathWorks is potentially relevant to the profile because of its association with engineering software, but the post does not identify a flight-control, simulation, robotics, or engineering vacancy. The named manager, mentors, and sponsors are concrete people connected to MathWorks and may provide networking context, although their technical relevance is not established.",
       "content_angle": "Discuss how human-centered evaluation and AI-assisted workflows could improve the usability and validation of engineering simulation or autonomy tools, while preserving expert oversight.",
@@ -13507,6 +13603,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "HIRING_SIGNAL",
@@ -13631,7 +13728,7 @@
         "target_reason": null,
         "target_priority": null,
         "company": "Cadence Fidelity CFD",
-        "company_url": "https://www.linkedin.com/company/cadence-cfd/posts/"
+        "company_url": "https://www.linkedin.com/company/cadence-cfd/"
       },
       "reason": "The post discusses aeroacoustics simulation, large eddy simulation, noise control, and aerospace applications. Inference: this overlaps with the profile's aerospace engineering, flight dynamics, simulation, and multidisciplinary design background, although aeroacoustics is not listed as a core specialization.",
       "content_angle": "Inference: discuss how aeroacoustic objectives can be incorporated into model-based aerospace design and simulation workflows, connecting noise, performance, regulatory constraints, and system-level trade-offs without duplicating the author's business-focused message.",
@@ -13653,6 +13750,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7306006458913951744/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -13793,6 +13891,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7493752796580659200/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -13900,7 +13999,7 @@
         "target_priority": "medium",
         "company": "Joby Aviation",
         "profile_url": "https://www.linkedin.com/in/maxgolds/",
-        "company_url": "https://www.linkedin.com/company/jobyaviation/posts/"
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
       },
       "reason": "The post confirms that Joby Aviation is developing electric air taxis and operating in the eVTOL aerospace sector, which aligns with the profile's target domain. However, the post focuses on digital marketing and storytelling rather than engineering work or an open role.",
       "content_angle": "Offer an original perspective on how engineers can explain eVTOL safety, control-system complexity and operational benefits in ways that build public trust without oversimplifying the technology.",
@@ -13922,6 +14021,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -14039,7 +14139,7 @@
         "target_reason": null,
         "target_priority": null,
         "company": "Eve Air Mobility",
-        "company_url": "https://www.linkedin.com/company/farnborough-international-ltd/"
+        "company_url": "https://www.linkedin.com/company/eveairmobility/"
       },
       "reason": "The post concerns Eve Air Mobility's urban air mobility approach and a full-scale eVTOL mock-up, which aligns with the profile's eVTOL, flight-control, aircraft-systems and autonomous-mobility interests. It is primarily a showcase and event-recap post, with no hiring or detailed technical opportunity stated.",
       "content_angle": "Discuss how passenger-experience requirements in eVTOL aircraft can influence handling qualities, transition control, guidance logic and validation priorities.",
@@ -14061,6 +14161,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7500282490700578818/",
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -14190,6 +14291,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7443246946171011073/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL"
@@ -14321,6 +14423,7 @@
         "high": 0,
         "medium": 2
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7500238613432016896/",
       "signal_context": {
         "signal_types": [
           "PEOPLE_SIGNAL",
@@ -14425,7 +14528,7 @@
         "target_reason": null,
         "target_priority": null,
         "company": "MathWorks",
-        "company_url": "https://www.linkedin.com/company/the-mathworks_2/posts/"
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The post highlights MATLAB and Simulink in wireless communications and cross-discipline design. These tools are directly aligned with the profile, although the specific wireless-communications focus is adjacent rather than central to flight control, GNC, UAV and autonomous-systems work.",
       "content_angle": "Share an original perspective on how model-based MATLAB/Simulink workflows can support cross-disciplinary development, verification and communication in flight-control or autonomous-system projects.",
@@ -14447,6 +14550,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7495056835830333441/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -14573,7 +14677,7 @@
         "target_reason": "Could provide relevant technical context on MSC Nastran, Actran and reduced-order modeling, although no specific person is identified in the post.",
         "target_priority": "low",
         "company": "Cadence",
-        "company_url": "https://www.linkedin.com/company/cadence/posts/"
+        "company_url": "https://www.linkedin.com/company/cadence/"
       },
       "reason": "The post concerns physics-based simulation of EV acoustics using specialized tools and reduced-order modeling. This is adjacent to the profile's modeling, simulation and multidisciplinary engineering background, but NVH and automotive acoustics are not core target domains.",
       "content_angle": "Discuss how model-based simulation and reduced-order models help manage coupled physical-system behavior, contrasting NVH workflows with simulation and control challenges in autonomous vehicles or aircraft.",
@@ -14595,6 +14699,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485410214834339840/",
       "signal_context": {
         "signal_types": [
           "TECH_SIGNAL",
@@ -14736,6 +14841,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
@@ -14873,6 +14979,7 @@
         "high": 0,
         "medium": 1
       },
+      "post_url": null,
       "signal_context": {
         "signal_types": [
           "COMPANY_SIGNAL",
