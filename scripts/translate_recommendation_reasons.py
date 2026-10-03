@@ -62,8 +62,6 @@ def main():
 
     missing = []
     for item in data.get("items") or []:
-        if item.get("recommendation_status") != "ACTIONABLE_NOW":
-            continue
         reason = str(item.get("reason") or "").strip()
         if reason and reason_id(reason) not in translations:
             missing.append(reason)
