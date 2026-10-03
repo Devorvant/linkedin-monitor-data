@@ -71,6 +71,8 @@ def load_known_relationships(root: Path):
     known = {
         "following_company_names": set(),
         "following_company_urls": set(),
+        "following_company_by_url": {},
+        "following_company_by_name": {},
         "connection_slugs": set(),
         "connection_ids": set(),
         "follower_slugs": set(),
@@ -90,8 +92,10 @@ def load_known_relationships(root: Path):
         url = norm_url(item.get("url"))
         if name:
             known["following_company_names"].add(name)
+            known["following_company_by_name"][name] = clean(item.get("name"))
         if url:
             known["following_company_urls"].add(url)
+            known["following_company_by_url"][url] = clean(item.get("name"))
 
     people_files = [
         ("connections.json", "connections", "connection"),
@@ -169,6 +173,17 @@ def known_relationship_state(signal, target, known):
         company_names & known["following_company_names"]
         or norm_urls & known["following_company_urls"]
     )
+    following_company_name = None
+    if following_company:
+        for url in norm_urls:
+            if url in known.get("following_company_by_url", {}):
+                following_company_name = known["following_company_by_url"][url]
+                break
+        if not following_company_name:
+            for name in company_names:
+                if name in known.get("following_company_by_name", {}):
+                    following_company_name = known["following_company_by_name"][name]
+                    break
     connection = bool(
         slugs & known["connection_slugs"]
         or ids & known["connection_ids"]
@@ -209,6 +224,7 @@ def known_relationship_state(signal, target, known):
 
     return {
         "following_company": following_company,
+        "following_company_name": following_company_name,
         "connection": connection,
         "follower": follower,
         "following_person": following_person,
@@ -485,6 +501,7 @@ def build_queue(data, crm, known_relationships=None):
             "crm_status": crm_record.get("status") if crm_record else None,
             "crm_status_effective": crm_status(crm_record) if crm_record else None,
             "known_relationships": relationship.get("labels", []),
+            "known_relationship_company": relationship.get("following_company_name"),
             "do_not_contact": bool(crm_record.get("do_not_contact")) if crm_record else False,
             "target": target,
             "reason": signal.get("why_relevant"),
