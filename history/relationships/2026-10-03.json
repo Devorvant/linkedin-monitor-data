@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T19:17:43.953681+00:00",
+  "generated_at": "2026-10-03T19:18:47.288176+00:00",
   "status_model": {
     "allowed": [
       "WATCH",
@@ -3604,9 +3604,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T19:17:43.953681+00:00"
+        "last_processed_at": "2026-10-03T19:18:47.288176+00:00"
       },
-      "updated_at": "2026-10-03T19:17:43.953681+00:00",
+      "updated_at": "2026-10-03T19:18:47.288176+00:00",
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
@@ -5468,9 +5468,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T19:17:43.953681+00:00"
+        "last_processed_at": "2026-10-03T19:18:47.288176+00:00"
       },
-      "updated_at": "2026-10-03T19:17:43.953681+00:00",
+      "updated_at": "2026-10-03T19:18:47.288176+00:00",
       "known_relationships": [],
       "linkedin_relationship": null
     },
@@ -6420,9 +6420,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T19:17:43.953681+00:00"
+        "last_processed_at": "2026-10-03T19:18:47.288176+00:00"
       },
-      "updated_at": "2026-10-03T19:17:43.953681+00:00",
+      "updated_at": "2026-10-03T19:18:47.288176+00:00",
       "known_relationships": [
         "CONNECTION",
         "FOLLOWER"
@@ -6611,9 +6611,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T19:17:43.953681+00:00"
+        "last_processed_at": "2026-10-03T19:18:47.288176+00:00"
       },
-      "updated_at": "2026-10-03T19:17:43.953681+00:00",
+      "updated_at": "2026-10-03T19:18:47.288176+00:00",
       "known_relationships": [
         "CONNECTION",
         "FOLLOWER"
@@ -8792,9 +8792,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T19:17:43.953681+00:00"
+        "last_processed_at": "2026-10-03T19:18:47.288176+00:00"
       },
-      "updated_at": "2026-10-03T19:17:43.953681+00:00",
+      "updated_at": "2026-10-03T19:18:47.288176+00:00",
       "known_relationships": [],
       "linkedin_relationship": null
     },
@@ -13514,9 +13514,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-10-03T19:17:43.953681+00:00"
+        "last_processed_at": "2026-10-03T19:18:47.288176+00:00"
       },
-      "updated_at": "2026-10-03T19:17:43.953681+00:00",
+      "updated_at": "2026-10-03T19:18:47.288176+00:00",
       "known_relationships": [],
       "linkedin_relationship": null
     },

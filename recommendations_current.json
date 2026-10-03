@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T19:17:44.125021+00:00",
-  "source_generated_at": "2026-10-03T19:17:44.125021+00:00",
+  "generated_at": "2026-10-03T19:18:47.537320+00:00",
+  "source_generated_at": "2026-10-03T19:18:47.537320+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
     "outbound_actions": [
@@ -174,7 +174,9 @@
           "flight dynamics",
           "navigation",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 2,
@@ -226,7 +228,8 @@
         "hiring": 8,
         "exact_hiring_match": 5,
         "opportunity": 2,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация прямо сообщает о найме специалистов в направлениях Flight Controls и Flight Dynamics, что непосредственно соответствует ключевой экспертизе профиля в системах управления полётом, автопилотах, динамике полёта, моделировании и разработке летательных аппаратов. Автор и три упомянутых человека являются идентифицируемыми целями для нетворкинга, хотя их должности не указаны."
     },
@@ -340,7 +343,9 @@
           "aerospace",
           "embedded",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 0,
@@ -383,171 +388,10 @@
         "hiring": 8,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация прямо рекламирует вакансию Firmware Engineer в аэрокосмической отрасли и авионике с требованиями к embedded-разработке, RTOS, верификации и разработке критически важных с точки зрения безопасности систем. Это соответствует опыту профиля в управлении летательными аппаратами, автопилотах, embedded control, C/C++ и междисциплинарной аэрокосмической деятельности, хотя публикация в большей степени акцентирует верификацию firmware, чем алгоритмы управления полётом."
-    },
-    {
-      "signal_id": "sig_1cef5dbf352d646f",
-      "source_post_id": null,
-      "priority": "medium",
-      "confidence": 91,
-      "author": "Andreas Hamilton",
-      "company": null,
-      "primary_action": "check_jobs",
-      "secondary_action": "find_warm_path",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "check_jobs",
-          "reason": "Hiring signal detected; verify whether relevant roles exist.",
-          "approval_required": false
-        },
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "review_technology",
-          "reason": "Technical project or technology is relevant to the profile.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_relevant_open_roles",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "person:andreas hamilton",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [],
-      "known_relationship_company": null,
-      "known_related_companies": [
-        "Saildrone"
-      ],
-      "do_not_contact": false,
-      "target": {
-        "name": "Andreas Hamilton",
-        "role": null,
-        "relation": "author",
-        "target_role": "Technical leads in autonomous ships, autonomous aircraft, spacecraft, or national-security AI",
-        "target_reason": "Participating organizations are described as building systems directly related to autonomy, aircraft, and AI, which align with the profile's technical background.",
-        "target_priority": "high",
-        "company": null,
-        "profile_url": "https://www.linkedin.com/in/dre-hamilton/",
-        "company_url": "https://www.linkedin.com/company/foundry-robotics/"
-      },
-      "reason": "The post explicitly announces hiring across organizations working on autonomous ships and aircraft, spacecraft, AI, and national security. These areas overlap strongly with the profile's UAV, autonomous-systems, flight-control, robotics, and AI experience. However, the event is stated to be open to Stanford students, and the post does not specify remote availability, exact positions, or individual hiring contacts.",
-      "content_angle": "Discuss how control systems, simulation, autonomy, and safety-critical engineering skills transfer across aircraft, maritime autonomy, spacecraft, and national-security applications.",
-      "source_url": "https://www.linkedin.com/in/dre-hamilton/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-10-01",
-        "last_seen": "2026-10-01",
-        "dates": [
-          "2026-10-01"
-        ],
-        "high": 0,
-        "medium": 1
-      },
-      "post_url": null,
-      "signal_context": {
-        "signal_types": [
-          "HIRING_SIGNAL",
-          "COMPANY_SIGNAL",
-          "TECH_SIGNAL",
-          "NETWORK_SIGNAL",
-          "OPPORTUNITY_SIGNAL"
-        ],
-        "career_relevance": 72,
-        "technical_relevance": 81,
-        "networking_relevance": 64,
-        "content_relevance": 61,
-        "hiring_detected": true,
-        "hiring_intent": "explicit",
-        "hiring_roles": [
-          "full-time software and AI roles",
-          "full-time hardware engineering roles",
-          "full-time business and operations roles",
-          "full-time policy roles",
-          "summer internships"
-        ],
-        "profile_matches": [
-          "UAV/UAS",
-          "aerospace",
-          "autonomy",
-          "robotics",
-          "space"
-        ]
-      },
-      "freshness": {
-        "age_days": 2,
-        "bucket": "fresh",
-        "actionable_now": true
-      },
-      "action_plan_full": [
-        {
-          "action": "check_jobs",
-          "reason": "Hiring signal detected; verify whether relevant roles exist.",
-          "approval_required": false
-        },
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "review_technology",
-          "reason": "Technical project or technology is relevant to the profile.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {},
-      "execution_status_full": "READY",
-      "approval_required_full": false,
-      "recommendation_status": "ACTIONABLE_NOW",
-      "action_score": 72,
-      "action_score_components": {
-        "career": 28.8,
-        "technical": 12.2,
-        "networking": 5.1,
-        "confidence": 6.4,
-        "freshness": 8,
-        "relationship": 0,
-        "repeat": 0,
-        "hiring": 8,
-        "exact_hiring_match": 0,
-        "opportunity": 2,
-        "priority": 1
-      },
-      "reason_ru": "Публикация прямо сообщает о найме в организациях, работающих над автономными судами и летательными аппаратами, космическими аппаратами, AI и национальной безопасностью. Эти области тесно пересекаются с опытом профиля в UAV, автономных системах, управлении полётом, робототехнике и AI. Однако указано, что мероприятие открыто для студентов Stanford, а удалённый формат, точные должности и конкретные контакты со стороны нанимающих организаций не обозначены."
     },
     {
       "signal_id": "sig_0b7df1b6fced3462",
@@ -658,7 +502,9 @@
           "embedded",
           "navigation",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 4,
@@ -708,7 +554,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно посвящена инженерии систем управления, MATLAB/Simulink, модельно-ориентированному проектированию, моделированию, внедрению во встраиваемые системы и проверяемым процессам верификации — всё это тесно связано с опытом профиля в управлении полётом, автопилотах, моделировании и симуляции. Она также даёт релевантный повод связаться с автором и следить за инженерными материалами, связанными с MathWorks, но не содержит указаний на найм."
     },
@@ -775,8 +622,7 @@
         "target_reason": "Brenden Hedblom is identified as the author and discusses SkyGrid's collaboration with Wisk on safe and scalable autonomous flight.",
         "target_priority": "high",
         "company": "SkyGrid",
-        "profile_url": "https://www.linkedin.com/in/brenden-hedblom/",
-        "company_url": "https://www.linkedin.com/company/wisk-aero/"
+        "profile_url": "https://www.linkedin.com/in/brenden-hedblom/"
       },
       "reason": "The post directly concerns advanced air mobility, autonomous flight, and safe integration into shared airspace, closely matching the profile's eVTOL, UAV, flight-control, autonomy, and aerospace focus. The author is identified as Head of Product at SkyGrid, providing a concrete relevant person for professional networking. No hiring opportunity is stated.",
       "content_angle": "Offer an original expert perspective on the flight-control, autonomy, simulation, and safety-validation challenges involved in scaling autonomous eVTOL operations within shared airspace.",
@@ -820,7 +666,9 @@
           "autonomy",
           "eVTOL",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 4,
@@ -865,7 +713,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно посвящена advanced air mobility, автономному полёту и безопасной интеграции в общее воздушное пространство, что тесно соответствует профилю в областях eVTOL, UAV, управления полётом, автономности и аэрокосмической техники. Автор указан как Head of Product в SkyGrid, что делает его конкретным релевантным человеком для профессионального нетворкинга. Возможность найма не заявлена."
     },
@@ -969,7 +818,9 @@
           "aerospace",
           "autonomy",
           "eVTOL"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 0,
@@ -1016,7 +867,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает достижение в лётных испытаниях eVTOL, связанное с автономным полётом и авионикой, что тесно соответствует опыту профиля в управлении полётом, eVTOL, автономности и междисциплинарных R&D. Professor James Wang, руководивший командой NTU, указан как конкретный человек и релевантная потенциальная цель для технического нетворкинга. О найме не сообщается."
     },
@@ -1114,7 +966,9 @@
           "autonomy",
           "simulation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 4,
@@ -1154,7 +1008,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена росту рынка грузовых дронов, автономным летательным аппаратам, логистике с тяжёлыми грузами и операциям на морских ветряных электростанциях. Эти темы тесно соответствуют опыту профиля в UAV, автономных системах, управлении полётом, моделировании, планировании траекторий и логистике с использованием UAV. Вакансии или явной активности по найму не указано."
     },
@@ -1225,8 +1080,7 @@
         "target_reason": "Alessandro Michelazzi is the post author and presented work on GNSS-based relative navigation and close formation flying. Inference: his research may provide a relevant technical connection to the profile's navigation, control and autonomous-systems expertise.",
         "target_priority": "high",
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/alessandro-michelazzi-270/",
-        "company_url": "https://www.linkedin.com/company/department-daer-polimi/"
+        "profile_url": "https://www.linkedin.com/in/alessandro-michelazzi-270/"
       },
       "reason": "The post covers spacecraft guidance, navigation and control, relative navigation, trajectory optimisation, formation flying and collision avoidance. These topics strongly overlap with the profile's GNC, navigation, trajectory control, simulation and autonomous-systems background. The author and other named researchers are concrete potential technical contacts in an adjacent space-navigation domain. No hiring signal is stated.",
       "content_angle": "Inference: discuss an original cross-domain comparison between spacecraft relative navigation and UAV formation control, focusing on how low-thrust or constrained-actuation manoeuvre planning concepts could inform autonomous aerial systems without copying the post's research content.",
@@ -1267,7 +1121,9 @@
           "aerospace",
           "navigation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 1,
@@ -1319,7 +1175,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена наведению, навигации и управлению космическими аппаратами, относительной навигации, оптимизации траекторий, групповому полёту и предотвращению столкновений. Эти темы тесно пересекаются с опытом профиля в области GNC, навигации, управления траекторией, моделирования и автономных систем. Автор и другие упомянутые исследователи являются конкретными потенциальными техническими контактами в смежной области космической навигации. Признаков найма не указано."
     },
@@ -1420,7 +1277,9 @@
         "profile_matches": [
           "aerospace",
           "eVTOL"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 5,
@@ -1460,7 +1319,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает конфигурацию eVTOL с вертикальным взлётом, переходным режимом и крейсерским полётом, что непосредственно соответствует экспертизе профиля в eVTOL, управлении полётом, динамике полёта, автопилотах и моделировании. Информация о найме отсутствует, автор или конкретный человек для контакта не указаны."
     },
@@ -1568,7 +1428,9 @@
           "UAV/UAS",
           "autonomy",
           "marine"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 0,
@@ -1613,7 +1475,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает автономное судно на солнечной энергии с длительным временем работы, функционирующее в сложной морской среде, что тесно соответствует интересам профиля в морской автономности, управлении автономными судами, навигации, планировании миссий и энергоэффективных операциях. Открытая вакансия не указана."
     },
@@ -1663,8 +1526,7 @@
         "target_reason": null,
         "target_priority": null,
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/bonnysimi/",
-        "company_url": "https://www.linkedin.com/company/jobyaviation/"
+        "profile_url": "https://www.linkedin.com/in/bonnysimi/"
       },
       "reason": "обнаружен hiring-сигнал; технологии: eVTOL; домены: aerospace, defense; совпадение с профилем: aerospace, eVTOL.",
       "content_angle": null,
@@ -1706,7 +1568,9 @@
         "profile_matches": [
           "aerospace",
           "eVTOL"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 6,
@@ -1736,7 +1600,8 @@
         "hiring": 8,
         "exact_hiring_match": 0,
         "opportunity": 2,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "обнаружен сигнал о найме; технологии: eVTOL; области: aerospace, defense; соответствие профилю: aerospace, eVTOL."
     },
@@ -1801,8 +1666,7 @@
         "target_reason": "The author posted about a concrete achievement in autonomous UAV navigation and computer vision, making them a potentially relevant person to monitor, but the post does not establish their technical or organizational role.",
         "target_priority": "low",
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/vassilis-diakoloukas-b581ba5/",
-        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
+        "profile_url": "https://www.linkedin.com/in/vassilis-diakoloukas-b581ba5/"
       },
       "reason": "The post describes a winning university minidrone project involving autonomous navigation, computer vision, simulation, and real-world flight. These areas closely match the profile's UAV, autonomy, flight-control, simulation, and computer-vision expertise. No job, hiring intent, or professional role is stated for the people mentioned.",
       "content_angle": "Share an original expert perspective on the engineering challenges of moving autonomous navigation and computer-vision algorithms from simulation into reliable real-world UAV flight, including validation, robustness, and flight-test considerations.",
@@ -1847,7 +1711,9 @@
           "navigation",
           "robotics",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 3,
@@ -1892,7 +1758,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает победивший университетский проект мини-дрона, включавший автономную навигацию, computer vision, моделирование и полёты в реальных условиях. Эти направления тесно соответствуют опыту профиля в UAV, автономности, управлении полётом, моделировании и computer vision. Для упомянутых людей не указаны вакансия, намерение нанимать или профессиональная должность."
     },
@@ -2003,7 +1870,9 @@
           "eVTOL",
           "simulation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 7,
@@ -2050,7 +1919,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация освещает электрическое аэротакси Sarla Aviation и упоминает женщин, участвовавших в проектировании и создании летательного аппарата eVTOL. Это в значительной степени соответствует опыту профиля в eVTOL, управлении полётом, разработке летательных аппаратов и междисциплинарной аэрокосмической деятельности, а также предоставляет конкретных людей и компанию для нетворкинга. Возможность найма не заявлена."
     },
@@ -2141,7 +2011,9 @@
           "navigation",
           "simulation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 1,
@@ -2176,7 +2048,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена моделированию в аэрокосмической сфере, контролю шума, нормативным аспектам и компромиссам в бизнесе. Это имеет смежную релевантность к опыту профиля в динамике полёта, моделировании, симуляции и аэрокосмической инженерии, но не указывает на конкретную должность, проектную возможность или потребность в найме."
     },
@@ -2242,8 +2115,7 @@
         "target_reason": "Sandro Salgueiro is explicitly identified in the post as an Airspace Integration Manager presenting on automated flight rules and highly automated aircraft integration.",
         "target_priority": "high",
         "company": "SkyGrid",
-        "profile_url": "https://www.linkedin.com/in/arife-aycan-mutlu/",
-        "company_url": "https://www.linkedin.com/company/skygrid/"
+        "profile_url": "https://www.linkedin.com/in/arife-aycan-mutlu/"
       },
       "reason": "Inference: The post covers highly automated aircraft, UAS operations, airspace integration and future flight rules, which align with the profile's focus on UAV systems, autopilots, autonomy, flight control and aviation engineering. It also identifies a concrete technical professional, Sandro Salgueiro, working on airspace integration at SkyGrid.",
       "content_angle": "Inference: Develop an original expert perspective on how automated flight rules could affect autonomy architecture, detect-and-avoid behavior, mission planning, and control-system requirements for UAS operating in shared airspace.",
@@ -2284,7 +2156,9 @@
           "UAV/UAS",
           "aerospace",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 5,
@@ -2329,7 +2203,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Вывод: публикация посвящена высокоавтоматизированным летательным аппаратам, эксплуатации UAS, интеграции воздушного пространства и будущим правилам полётов, что соответствует специализации профиля в системах UAV, автопилотах, автономности, управлении полётом и авиационной инженерии. Также указан конкретный технический специалист Sandro Salgueiro, работающий над интеграцией воздушного пространства в SkyGrid."
     },
@@ -2395,8 +2270,7 @@
         "target_reason": "Jim Taiclet is identified as Lockheed Martin's CEO and is discussing the company's autonomous combat aircraft initiative.",
         "target_priority": "medium",
         "company": "Lockheed Martin",
-        "profile_url": "https://www.linkedin.com/in/edward-ludlow-5a7b4280/",
-        "company_url": "https://www.linkedin.com/company/lockheed-martin/"
+        "profile_url": "https://www.linkedin.com/in/edward-ludlow-5a7b4280/"
       },
       "reason": "The post discusses Vectis, described as Lockheed Martin's next-generation autonomous combat aircraft. This aligns with the profile's background in flight controls, GNC, autopilot algorithms, UAV/eVTOL systems, simulation, and autonomous aerospace systems. The post also identifies a defense technology executive and a journalist covering the topic, creating relevant follow-up networking targets, but it contains no hiring information.",
       "content_angle": "Inference: Offer an original expert perspective on the flight-control, autonomy, simulation, and verification challenges involved in developing autonomous combat aircraft, without restating the post.",
@@ -2436,7 +2310,9 @@
         "profile_matches": [
           "aerospace",
           "autonomy"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 1,
@@ -2481,155 +2357,10 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена Vectis, описываемому как автономный боевой самолёт нового поколения Lockheed Martin. Это соответствует опыту профиля в управлении полётом, GNC, алгоритмах автопилота, системах UAV/eVTOL, моделировании и автономных аэрокосмических системах. В публикации также указаны руководитель в сфере оборонных технологий и журналист, освещающий эту тему, что создаёт релевантные цели для дальнейшего нетворкинга, однако информация о найме отсутствует."
-    },
-    {
-      "signal_id": "sig_109b13e5e8253271",
-      "source_post_id": null,
-      "priority": "medium",
-      "confidence": 88,
-      "author": null,
-      "company": "Joby Aviation",
-      "primary_action": "research_company",
-      "secondary_action": "save_for_content",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "research_company",
-          "reason": "Check the relevant team, current projects and open roles.",
-          "approval_required": false
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        },
-        {
-          "action": "research_contact",
-          "reason": "A concrete person should be identified before any connection or message.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": true,
-        "tasks": [
-          "identify_concrete_person",
-          "check_company_and_relevant_team"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "company:joby aviation",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
-      ],
-      "known_relationship_company": "Joby Aviation",
-      "known_related_companies": [],
-      "do_not_contact": false,
-      "target": {
-        "name": null,
-        "role": null,
-        "relation": null,
-        "target_role": null,
-        "target_reason": null,
-        "target_priority": null,
-        "company": "Joby Aviation",
-        "company_url": "https://www.linkedin.com/company/jobyaviation/"
-      },
-      "reason": "The post connects Joby Aviation, autonomous aircraft, and aviation workforce growth. The engineering and autonomy themes align with the profile's flight-control, UAV, autonomous-systems, and aerospace background. Hiring is only an indirect signal because the post discusses workforce needs and jobs in Oklahoma but does not advertise specific vacancies.",
-      "content_angle": "Discuss how autonomous-aircraft demonstrations can accelerate demand for flight-controls, simulation, autonomy, software, manufacturing, and maintenance expertise, while highlighting the engineering challenges of transitioning autonomous aircraft into operational service.",
-      "source_url": "",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-09-30",
-        "last_seen": "2026-09-30",
-        "dates": [
-          "2026-09-30"
-        ],
-        "high": 0,
-        "medium": 1
-      },
-      "post_url": null,
-      "signal_context": {
-        "signal_types": [
-          "HIRING_SIGNAL",
-          "COMPANY_SIGNAL",
-          "TECH_SIGNAL",
-          "PROJECT_SIGNAL",
-          "MARKET_SIGNAL"
-        ],
-        "career_relevance": 62,
-        "technical_relevance": 58,
-        "networking_relevance": 18,
-        "content_relevance": 52,
-        "hiring_detected": true,
-        "hiring_intent": "weak",
-        "hiring_roles": [
-          "engineers",
-          "software developers",
-          "manufacturers",
-          "maintenance technicians"
-        ],
-        "profile_matches": [
-          "aerospace",
-          "autonomy"
-        ]
-      },
-      "freshness": {
-        "age_days": 3,
-        "bucket": "fresh",
-        "actionable_now": true
-      },
-      "action_plan_full": [
-        {
-          "action": "research_company",
-          "reason": "Check the relevant team, current projects and open roles.",
-          "approval_required": false
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        },
-        {
-          "action": "research_contact",
-          "reason": "A concrete person should be identified before any connection or message.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {},
-      "execution_status_full": "READY",
-      "approval_required_full": false,
-      "recommendation_status": "ACTIONABLE_NOW",
-      "action_score": 59,
-      "action_score_components": {
-        "career": 24.8,
-        "technical": 8.7,
-        "networking": 1.4,
-        "confidence": 6.2,
-        "freshness": 7,
-        "relationship": 2,
-        "repeat": 0,
-        "hiring": 8,
-        "exact_hiring_match": 0,
-        "opportunity": 0,
-        "priority": 1
-      },
-      "reason_ru": "Публикация связывает Joby Aviation, автономные летательные аппараты и рост авиационной рабочей силы. Темы инженерии и автономности соответствуют опыту профиля в управлении полётом, UAV, автономных системах и аэрокосмической отрасли. Сигнал найма является лишь косвенным, поскольку публикация обсуждает потребности в кадрах и рабочие места в Oklahoma, но не рекламирует конкретные вакансии."
     },
     {
       "signal_id": "sig_e5b0d33a66fefd44",
@@ -2729,7 +2460,9 @@
           "MATLAB/Simulink",
           "navigation",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 1,
@@ -2769,177 +2502,10 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает использование Marmara Racing MATLAB и Simulink для анализа характеристик автомобиля, системного моделирования, оценки данных и совершенствования инженерных процессов. Это тесно соответствует опыту профиля в MATLAB/Simulink, динамике полёта, моделировании систем управления, симуляции и анализе телеметрии, хотя публикация посвящена автоспорту, а не аэрокосмическим или UAV-системам. Возможность найма не заявлена."
-    },
-    {
-      "signal_id": "sig_67d5a3786b315508",
-      "source_post_id": "7511530619932196864",
-      "priority": "medium",
-      "confidence": 91,
-      "author": "Ryan Augsburger",
-      "company": null,
-      "primary_action": "find_warm_path",
-      "secondary_action": "connect_person",
-      "approval_required": true,
-      "execution_status": "PENDING_APPROVAL",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "connect_person",
-          "reason": "Concrete relevant person identified; connection can be considered.",
-          "approval_required": true
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {
-        "connection_note": "Hi Ryan, I came across your work on Intel capital investment in Ohio. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
-      },
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "person:jp nauseef",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [],
-      "known_relationship_company": null,
-      "known_related_companies": [
-        "Anduril Industries",
-        "Joby Aviation"
-      ],
-      "do_not_contact": false,
-      "target": {
-        "name": "Ryan Augsburger",
-        "role": null,
-        "relation": "author",
-        "target_role": "Ohio aerospace and defense leaders",
-        "target_reason": "The post identifies aerospace and defense as major growth areas in Ohio and references Anduril Industries and Joby Aviation projects, making relevant technical and organizational contacts worth identifying.",
-        "target_priority": "high",
-        "company": null,
-        "profile_url": "https://www.linkedin.com/in/ryan-augsburger-8697a914a/",
-        "company_url": "https://www.linkedin.com/company/intel-corporation/"
-      },
-      "reason": "The post describes Ohio's expanding manufacturing, aerospace, defense, aviation, automotive and mobility ecosystem, including projects associated with Anduril Industries and Joby Aviation. These markets overlap with the profile's UAV, eVTOL, flight-control, autonomy and aerospace interests. The reference to a large new-jobs project is an indirect hiring signal, but no specific vacancy, role, employer relationship or remote arrangement is stated.",
-      "content_angle": "Discuss how Ohio's manufacturing and aerospace ecosystem can connect flight-control simulation, autonomy, verification, production testing and operational feedback when scaling eVTOL and defense platforms.",
-      "source_url": "https://www.linkedin.com/in/ryan-augsburger-8697a914a/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-10-02",
-        "last_seen": "2026-10-02",
-        "dates": [
-          "2026-10-02"
-        ],
-        "high": 0,
-        "medium": 1
-      },
-      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511530619932196864/",
-      "signal_context": {
-        "signal_types": [
-          "HIRING_SIGNAL",
-          "COMPANY_SIGNAL",
-          "PROJECT_SIGNAL",
-          "PEOPLE_SIGNAL",
-          "NETWORK_SIGNAL",
-          "MARKET_SIGNAL"
-        ],
-        "career_relevance": 58,
-        "technical_relevance": 29,
-        "networking_relevance": 82,
-        "content_relevance": 68,
-        "hiring_detected": true,
-        "hiring_intent": "weak",
-        "hiring_roles": [],
-        "profile_matches": [
-          "aerospace",
-          "space"
-        ]
-      },
-      "freshness": {
-        "age_days": 1,
-        "bucket": "fresh",
-        "actionable_now": true
-      },
-      "action_plan_full": [
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "connect_person",
-          "reason": "Concrete relevant person identified; connection can be considered.",
-          "approval_required": true
-        },
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {
-        "connection_note": "Hi Ryan, I came across your work on Intel capital investment in Ohio. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
-      },
-      "execution_status_full": "PENDING_APPROVAL",
-      "approval_required_full": true,
-      "recommendation_status": "ACTIONABLE_NOW",
-      "action_score": 58,
-      "action_score_components": {
-        "career": 23.2,
-        "technical": 4.3,
-        "networking": 6.6,
-        "confidence": 6.4,
-        "freshness": 9,
-        "relationship": 0,
-        "repeat": 0,
-        "hiring": 8,
-        "exact_hiring_match": 0,
-        "opportunity": 0,
-        "priority": 1
-      },
-      "reason_ru": "Публикация описывает развивающуюся производственную, аэрокосмическую, оборонную, авиационную, автомобильную и транспортную экосистему Ohio, включая проекты, связанные с Anduril Industries и Joby Aviation. Эти рынки пересекаются с интересами профиля в UAV, eVTOL, управлении полётом, автономности и аэрокосмической отрасли. Упоминание крупного проекта по созданию новых рабочих мест является косвенным сигналом найма, но конкретная вакансия, должность, связь с работодателем или возможность удалённой работы не указаны."
     },
     {
       "signal_id": "sig_b48e4a5ed0d67682",
@@ -3009,8 +2575,7 @@
         "target_reason": "Michèle Lavagna is the author of a post about aerospace research outreach and named contributors from the event could provide relevant academic or industry context.",
         "target_priority": "medium",
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/mich%C3%A8le-lavagna-mickie/",
-        "company_url": "https://www.linkedin.com/company/department-daer-polimi/"
+        "profile_url": "https://www.linkedin.com/in/mich%C3%A8le-lavagna-mickie/"
       },
       "reason": "The post concerns aerospace and space research activities, including vehicle safety, aeronautical structures, satellites and orbital debris. It names the author and multiple contributors involved in the event, creating a relevant aerospace networking context, but it contains no hiring or vacancy signal.",
       "content_angle": "Discuss how aerospace control, autonomy and safety research can be communicated to the public through interactive demonstrations, connecting technical engineering work with the broader theme of technology for humanity.",
@@ -3050,7 +2615,9 @@
           "aerospace",
           "simulation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 2,
@@ -3102,7 +2669,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена аэрокосмическим и космическим исследовательским мероприятиям, включая безопасность летательных аппаратов, авиационные конструкции, спутники и орбитальный мусор. В ней указаны автор и несколько участников мероприятия, что создаёт релевантный контекст для нетворкинга в аэрокосмической сфере, но признаков найма или вакансии нет."
     },
@@ -3165,8 +2733,7 @@
         "target_reason": "Stuart Simpson is identified in the post as Vertical's CEO, and Vertical's eVTOL focus is directly relevant to the profile's target domain.",
         "target_priority": "high",
         "company": "Vertical",
-        "profile_url": "https://www.linkedin.com/in/stuart-simpson-18a3643/",
-        "company_url": "https://www.linkedin.com/company/nyse/"
+        "profile_url": "https://www.linkedin.com/in/stuart-simpson-18a3643/"
       },
       "reason": "The post concerns Vertical's eVTOL technology and Valo's potential to transform travel. This aligns directly with the profile's eVTOL, flight-control, autopilot, flight-dynamics and autonomous-systems focus. Stuart Simpson is identified as Vertical's CEO, making him a concrete senior person relevant to potential industry networking. No hiring or vacancy is stated.",
       "content_angle": "Offer an original expert perspective on the engineering challenges behind bringing eVTOL technology to life, such as the interaction between flight dynamics, control-law validation, transition behavior and autonomous-system reliability.",
@@ -3205,7 +2772,9 @@
         "hiring_roles": [],
         "profile_matches": [
           "eVTOL"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 3,
@@ -3250,7 +2819,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена технологии eVTOL компании Vertical и потенциальной способности Valo преобразовать транспорт. Это непосредственно соответствует интересам профиля в eVTOL, управлении полётом, автопилотах, динамике полёта и автономных системах. Stuart Simpson указан как CEO компании Vertical, что делает его конкретным руководителем, релевантным для потенциального отраслевого нетворкинга. Найм или вакансия не заявлены."
     },
@@ -3306,8 +2876,7 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": null,
-        "company_url": "https://www.linkedin.com/company/us-army/"
+        "company": null
       },
       "reason": "The post concerns autonomous UAVs, payload-carrying missions, and logistics applications involving medical supplies, ammunition, and replacement parts. These topics align with the profile's UAV systems, autonomy, mission optimization, and control engineering background. No explicit job opening or identifiable person is provided.",
       "content_angle": "Discuss the engineering trade-offs in autonomous small-payload UAV logistics, such as payload capacity versus endurance, mission reliability, energy-aware route planning, and the validation requirements for time-critical deliveries.",
@@ -3346,7 +2915,9 @@
         "profile_matches": [
           "UAV/UAS",
           "autonomy"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 1,
@@ -3386,7 +2957,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена автономным UAV, миссиям с перевозкой грузов и логистическим применениям, связанным с медицинскими поставками, боеприпасами и запасными частями. Эти темы соответствуют опыту профиля в системах UAV, автономности, оптимизации миссий и инженерии управления. Конкретная вакансия или идентифицируемый человек не указаны."
     },
@@ -3445,8 +3017,7 @@
         "target_reason": "Could be relevant for understanding technical work involving autonomous coordination across air, land and space; no specific individual is identified in the post.",
         "target_priority": "medium",
         "company": "Anduril",
-        "profile_url": "https://www.linkedin.com/in/jeffmillertime/",
-        "company_url": "https://www.linkedin.com/company/x-prize-foundation/"
+        "profile_url": "https://www.linkedin.com/in/jeffmillertime/"
       },
       "reason": "The post describes an autonomous wildfire-response solution coordinating assets across air, land and space with minimal human intervention. This aligns with the profile's experience in UAVs, autonomous systems, flight control, mission coordination and multidisciplinary R&D, although no specific role or hiring opportunity is stated.",
       "content_angle": "Discuss how multi-domain autonomous coordination could be evaluated through control-system architecture, communications reliability, sensor fusion, human-supervision levels and mission-response metrics, using original expertise rather than repeating the post.",
@@ -3486,7 +3057,9 @@
         "profile_matches": [
           "autonomy",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 1,
@@ -3526,7 +3099,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает автономное решение для реагирования на лесные пожары, координирующее активы в воздухе, на суше и в космосе при минимальном участии человека. Это соответствует опыту профиля в UAV, автономных системах, управлении полётом, координации миссий и междисциплинарных R&D, хотя конкретная должность или возможность найма не указаны."
     },
@@ -3633,7 +3207,9 @@
           "UAV/UAS",
           "marine",
           "marine robotics"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 2,
@@ -3683,9 +3259,165 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает беспилотный надводный аппарат CK-14e компании Codevintec и технический процесс проведения подводных исследований, включая сонар, позиционирование аппарата, ориентацию, коррекцию скорости звука, синхронизацию, планирование миссий и подготовку итоговых данных. Эти темы являются смежными с интересами профиля в морской автономности, навигации, управлении, планировании миссий и автономных системах. Информация о найме или идентифицируемый автор не указаны."
+    },
+    {
+      "signal_id": "sig_109b13e5e8253271",
+      "source_post_id": null,
+      "priority": "medium",
+      "confidence": 88,
+      "author": null,
+      "company": "Joby Aviation",
+      "primary_action": "research_company",
+      "secondary_action": "save_for_content",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "research_company",
+          "reason": "Check the relevant team, current projects and open roles.",
+          "approval_required": false
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        },
+        {
+          "action": "research_contact",
+          "reason": "A concrete person should be identified before any connection or message.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": true,
+        "tasks": [
+          "identify_concrete_person",
+          "check_company_and_relevant_team"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "company:joby aviation",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
+      "known_relationship_company": "Joby Aviation",
+      "known_related_companies": [],
+      "do_not_contact": false,
+      "target": {
+        "name": null,
+        "role": null,
+        "relation": null,
+        "target_role": null,
+        "target_reason": null,
+        "target_priority": null,
+        "company": "Joby Aviation",
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
+      },
+      "reason": "The post connects Joby Aviation, autonomous aircraft, and aviation workforce growth. The engineering and autonomy themes align with the profile's flight-control, UAV, autonomous-systems, and aerospace background. Hiring is only an indirect signal because the post discusses workforce needs and jobs in Oklahoma but does not advertise specific vacancies.",
+      "content_angle": "Discuss how autonomous-aircraft demonstrations can accelerate demand for flight-controls, simulation, autonomy, software, manufacturing, and maintenance expertise, while highlighting the engineering challenges of transitioning autonomous aircraft into operational service.",
+      "source_url": "",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-09-30",
+        "last_seen": "2026-09-30",
+        "dates": [
+          "2026-09-30"
+        ],
+        "high": 0,
+        "medium": 1
+      },
+      "post_url": null,
+      "signal_context": {
+        "signal_types": [
+          "HIRING_SIGNAL",
+          "COMPANY_SIGNAL",
+          "TECH_SIGNAL",
+          "PROJECT_SIGNAL",
+          "MARKET_SIGNAL"
+        ],
+        "career_relevance": 62,
+        "technical_relevance": 58,
+        "networking_relevance": 18,
+        "content_relevance": 52,
+        "hiring_detected": true,
+        "hiring_intent": "weak",
+        "hiring_roles": [
+          "engineers",
+          "software developers",
+          "manufacturers",
+          "maintenance technicians"
+        ],
+        "profile_matches": [
+          "aerospace",
+          "autonomy"
+        ],
+        "constraints": [
+          {
+            "code": "indirect_hiring",
+            "label": "косвенный hiring-сигнал",
+            "penalty": 6
+          }
+        ],
+        "constraint_penalty": 6
+      },
+      "freshness": {
+        "age_days": 3,
+        "bucket": "fresh",
+        "actionable_now": true
+      },
+      "action_plan_full": [
+        {
+          "action": "research_company",
+          "reason": "Check the relevant team, current projects and open roles.",
+          "approval_required": false
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        },
+        {
+          "action": "research_contact",
+          "reason": "A concrete person should be identified before any connection or message.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {},
+      "execution_status_full": "READY",
+      "approval_required_full": false,
+      "recommendation_status": "ACTIONABLE_NOW",
+      "action_score": 53,
+      "action_score_components": {
+        "career": 24.8,
+        "technical": 8.7,
+        "networking": 1.4,
+        "confidence": 6.2,
+        "freshness": 7,
+        "relationship": 2,
+        "repeat": 0,
+        "hiring": 8,
+        "exact_hiring_match": 0,
+        "opportunity": 0,
+        "priority": 1,
+        "constraints": -6
+      },
+      "reason_ru": "Публикация связывает Joby Aviation, автономные летательные аппараты и рост авиационной рабочей силы. Темы инженерии и автономности соответствуют опыту профиля в управлении полётом, UAV, автономных системах и аэрокосмической отрасли. Сигнал найма является лишь косвенным, поскольку публикация обсуждает потребности в кадрах и рабочие места в Oklahoma, но не рекламирует конкретные вакансии."
     },
     {
       "signal_id": "sig_63b3001a7bc1e2e4",
@@ -3777,7 +3509,9 @@
         "profile_matches": [
           "navigation",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 7,
@@ -3817,9 +3551,186 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно посвящена разработке винтокрылых летательных аппаратов, взаимодействию аэродинамики и управления, Model-Based Design, моделированию и валидации. Вывод: эти темы тесно соответствуют экспертизе профиля в управлении полётом, динамике полёта, автопилотах и моделировании, однако публикация не содержит информации об идентифицируемом человеке, компании или найме."
+    },
+    {
+      "signal_id": "sig_67d5a3786b315508",
+      "source_post_id": "7511530619932196864",
+      "priority": "medium",
+      "confidence": 91,
+      "author": "Ryan Augsburger",
+      "company": null,
+      "primary_action": "find_warm_path",
+      "secondary_action": "connect_person",
+      "approval_required": true,
+      "execution_status": "PENDING_APPROVAL",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "connect_person",
+          "reason": "Concrete relevant person identified; connection can be considered.",
+          "approval_required": true
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {
+        "connection_note": "Hi Ryan, I came across your work on Intel capital investment in Ohio. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+      },
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "person:jp nauseef",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "Anduril Industries",
+        "Joby Aviation"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Ryan Augsburger",
+        "role": null,
+        "relation": "author",
+        "target_role": "Ohio aerospace and defense leaders",
+        "target_reason": "The post identifies aerospace and defense as major growth areas in Ohio and references Anduril Industries and Joby Aviation projects, making relevant technical and organizational contacts worth identifying.",
+        "target_priority": "high",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/ryan-augsburger-8697a914a/"
+      },
+      "reason": "The post describes Ohio's expanding manufacturing, aerospace, defense, aviation, automotive and mobility ecosystem, including projects associated with Anduril Industries and Joby Aviation. These markets overlap with the profile's UAV, eVTOL, flight-control, autonomy and aerospace interests. The reference to a large new-jobs project is an indirect hiring signal, but no specific vacancy, role, employer relationship or remote arrangement is stated.",
+      "content_angle": "Discuss how Ohio's manufacturing and aerospace ecosystem can connect flight-control simulation, autonomy, verification, production testing and operational feedback when scaling eVTOL and defense platforms.",
+      "source_url": "https://www.linkedin.com/in/ryan-augsburger-8697a914a/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-10-02",
+        "last_seen": "2026-10-02",
+        "dates": [
+          "2026-10-02"
+        ],
+        "high": 0,
+        "medium": 1
+      },
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511530619932196864/",
+      "signal_context": {
+        "signal_types": [
+          "HIRING_SIGNAL",
+          "COMPANY_SIGNAL",
+          "PROJECT_SIGNAL",
+          "PEOPLE_SIGNAL",
+          "NETWORK_SIGNAL",
+          "MARKET_SIGNAL"
+        ],
+        "career_relevance": 58,
+        "technical_relevance": 29,
+        "networking_relevance": 82,
+        "content_relevance": 68,
+        "hiring_detected": true,
+        "hiring_intent": "weak",
+        "hiring_roles": [],
+        "profile_matches": [
+          "aerospace",
+          "space"
+        ],
+        "constraints": [
+          {
+            "code": "indirect_hiring",
+            "label": "косвенный hiring-сигнал",
+            "penalty": 6
+          }
+        ],
+        "constraint_penalty": 6
+      },
+      "freshness": {
+        "age_days": 1,
+        "bucket": "fresh",
+        "actionable_now": true
+      },
+      "action_plan_full": [
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "connect_person",
+          "reason": "Concrete relevant person identified; connection can be considered.",
+          "approval_required": true
+        },
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {
+        "connection_note": "Hi Ryan, I came across your work on Intel capital investment in Ohio. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+      },
+      "execution_status_full": "PENDING_APPROVAL",
+      "approval_required_full": true,
+      "recommendation_status": "ACTIONABLE_NOW",
+      "action_score": 52,
+      "action_score_components": {
+        "career": 23.2,
+        "technical": 4.3,
+        "networking": 6.6,
+        "confidence": 6.4,
+        "freshness": 9,
+        "relationship": 0,
+        "repeat": 0,
+        "hiring": 8,
+        "exact_hiring_match": 0,
+        "opportunity": 0,
+        "priority": 1,
+        "constraints": -6
+      },
+      "reason_ru": "Публикация описывает развивающуюся производственную, аэрокосмическую, оборонную, авиационную, автомобильную и транспортную экосистему Ohio, включая проекты, связанные с Anduril Industries и Joby Aviation. Эти рынки пересекаются с интересами профиля в UAV, eVTOL, управлении полётом, автономности и аэрокосмической отрасли. Упоминание крупного проекта по созданию новых рабочих мест является косвенным сигналом найма, но конкретная вакансия, должность, связь с работодателем или возможность удалённой работы не указаны."
     },
     {
       "signal_id": "sig_88840407b7118299",
@@ -3916,7 +3827,9 @@
         "profile_matches": [
           "aerospace",
           "autonomy"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 3,
@@ -3956,7 +3869,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация освещает электрическую авиацию и технологии автономного полёта, которые соответствуют интересам профиля в eVTOL, управлении полётом, автономности и UAV. Объявления о найме или конкретной инженерной возможности нет."
     },
@@ -4066,7 +3980,9 @@
         "profile_matches": [
           "aerospace",
           "autonomy"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 4,
@@ -4113,7 +4029,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена завершению Joby Aviation автономного перелёта от побережья до побережья, что непосредственно соответствует интересам профиля в аэрокосмической отрасли, автономных системах и управлении полётом. Автор и несколько людей явно упомянуты, что создаёт потенциальные цели для нетворкинга, хотя их должности или активность по найму не указаны."
     },
@@ -4178,8 +4095,7 @@
         "target_reason": "Dave Schowalter authored a post directly relevant to LiDAR, MATLAB, and autonomy, making him a reasonable person to follow or engage with.",
         "target_priority": "medium",
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/dave-schowalter/",
-        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
+        "profile_url": "https://www.linkedin.com/in/dave-schowalter/"
       },
       "reason": "The post discusses LiDAR simulation, colorized point clouds, direct sensor-data streaming into MATLAB, and autonomy. These topics align with the profile's MATLAB/Simulink, simulation, autonomous-systems, sensor-fusion, and robotics interests. No hiring opportunity is stated.",
       "content_angle": "Inference: Share an original expert perspective on how direct LiDAR streaming and colorized point clouds could affect autonomy simulation, perception validation, and camera-LiDAR fusion decisions in off-road systems.",
@@ -4220,7 +4136,9 @@
           "MATLAB/Simulink",
           "autonomy",
           "navigation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 6,
@@ -4265,7 +4183,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена моделированию LiDAR, цветным облакам точек, прямой передаче данных с сенсоров в MATLAB и автономности. Эти темы соответствуют интересам профиля в MATLAB/Simulink, моделировании, автономных системах, sensor fusion и робототехнике. Возможность найма не заявлена."
     },
@@ -4327,8 +4246,7 @@
         "target_role": "Founder of Anduril",
         "target_reason": "Named in the post and associated with a company working on aerospace and defense systems; the post provides context for monitoring the company's technical direction.",
         "target_priority": "low",
-        "company": "Anduril and Voyager Technologies",
-        "company_url": "https://www.linkedin.com/company/voyagertechnologies-inc/"
+        "company": "Anduril and Voyager Technologies"
       },
       "reason": "The post describes a major aerospace and defense partnership focused on propulsion, testing, manufacturing scale, and missile defense systems. These areas are adjacent to the profile's aerospace, UAV, flight-control, simulation, and multidisciplinary R&D background, although no specific controls or engineering role is identified.",
       "content_angle": "Discuss the engineering tradeoffs involved in scaling aerospace and defense systems from development and testing into reliable mass production, including how simulation, verification, and infrastructure investment support that transition.",
@@ -4367,7 +4285,9 @@
         "hiring_roles": [],
         "profile_matches": [
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 2,
@@ -4412,7 +4332,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает крупное партнёрство в аэрокосмической и оборонной сфере, ориентированное на двигательные установки, испытания, масштабирование производства и системы противоракетной обороны. Эти направления являются смежными с опытом профиля в аэрокосмической отрасли, UAV, управлении полётом, моделировании и междисциплинарных R&D, хотя конкретная должность в области управления или инженерии не указана."
     },
@@ -4506,7 +4427,9 @@
           "autonomy",
           "embedded",
           "robotics"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 7,
@@ -4546,7 +4469,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация прямо упоминает embedded AI и автономные системы. Они пересекаются с интересами профиля в embedded control, машинном обучении и автономности, но конкретное применение, должность, компания или возможность не указаны."
     },
@@ -4646,7 +4570,9 @@
         "profile_matches": [
           "UAV/UAS",
           "aerospace"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 1,
@@ -4686,9 +4612,190 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена бизнесу Embraer в области коммерческой авиации и мировому достижению — поставке 2 000 самолётов E-Jet. Это в общих чертах соответствует опыту профиля в управлении полётом летательных аппаратов и авиации, но не содержит конкретных технических деталей, должности или информации о найме."
+    },
+    {
+      "signal_id": "sig_1cef5dbf352d646f",
+      "source_post_id": null,
+      "priority": "medium",
+      "confidence": 91,
+      "author": "Andreas Hamilton",
+      "company": null,
+      "primary_action": "check_jobs",
+      "secondary_action": "find_warm_path",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "check_jobs",
+          "reason": "Hiring signal detected; verify whether relevant roles exist.",
+          "approval_required": false
+        },
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_relevant_open_roles",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "person:andreas hamilton",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "Saildrone"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Andreas Hamilton",
+        "role": null,
+        "relation": "author",
+        "target_role": "Technical leads in autonomous ships, autonomous aircraft, spacecraft, or national-security AI",
+        "target_reason": "Participating organizations are described as building systems directly related to autonomy, aircraft, and AI, which align with the profile's technical background.",
+        "target_priority": "high",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/dre-hamilton/"
+      },
+      "reason": "The post explicitly announces hiring across organizations working on autonomous ships and aircraft, spacecraft, AI, and national security. These areas overlap strongly with the profile's UAV, autonomous-systems, flight-control, robotics, and AI experience. However, the event is stated to be open to Stanford students, and the post does not specify remote availability, exact positions, or individual hiring contacts.",
+      "content_angle": "Discuss how control systems, simulation, autonomy, and safety-critical engineering skills transfer across aircraft, maritime autonomy, spacecraft, and national-security applications.",
+      "source_url": "https://www.linkedin.com/in/dre-hamilton/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-10-01",
+        "last_seen": "2026-10-01",
+        "dates": [
+          "2026-10-01"
+        ],
+        "high": 0,
+        "medium": 1
+      },
+      "post_url": null,
+      "signal_context": {
+        "signal_types": [
+          "HIRING_SIGNAL",
+          "COMPANY_SIGNAL",
+          "TECH_SIGNAL",
+          "NETWORK_SIGNAL",
+          "OPPORTUNITY_SIGNAL"
+        ],
+        "career_relevance": 72,
+        "technical_relevance": 81,
+        "networking_relevance": 64,
+        "content_relevance": 61,
+        "hiring_detected": true,
+        "hiring_intent": "explicit",
+        "hiring_roles": [
+          "full-time software and AI roles",
+          "full-time hardware engineering roles",
+          "full-time business and operations roles",
+          "full-time policy roles",
+          "summer internships"
+        ],
+        "profile_matches": [
+          "UAV/UAS",
+          "aerospace",
+          "autonomy",
+          "robotics",
+          "space"
+        ],
+        "constraints": [
+          {
+            "code": "restricted_eligibility",
+            "label": "ограниченная доступность: мероприятие/возможность только для студентов",
+            "penalty": 18
+          },
+          {
+            "code": "remote_unspecified",
+            "label": "удалённый формат не подтверждён",
+            "penalty": 3
+          },
+          {
+            "code": "roles_unspecified",
+            "label": "конкретные вакансии/позиции не указаны",
+            "penalty": 4
+          }
+        ],
+        "constraint_penalty": 25
+      },
+      "freshness": {
+        "age_days": 2,
+        "bucket": "fresh",
+        "actionable_now": true
+      },
+      "action_plan_full": [
+        {
+          "action": "check_jobs",
+          "reason": "Hiring signal detected; verify whether relevant roles exist.",
+          "approval_required": false
+        },
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {},
+      "execution_status_full": "READY",
+      "approval_required_full": false,
+      "recommendation_status": "ACTIONABLE_NOW",
+      "action_score": 46,
+      "action_score_components": {
+        "career": 28.8,
+        "technical": 12.2,
+        "networking": 5.1,
+        "confidence": 6.4,
+        "freshness": 8,
+        "relationship": 0,
+        "repeat": 0,
+        "hiring": 8,
+        "exact_hiring_match": 0,
+        "opportunity": 2,
+        "priority": 1,
+        "constraints": -25
+      },
+      "reason_ru": "Публикация прямо сообщает о найме в организациях, работающих над автономными судами и летательными аппаратами, космическими аппаратами, AI и национальной безопасностью. Эти области тесно пересекаются с опытом профиля в UAV, автономных системах, управлении полётом, робототехнике и AI. Однако указано, что мероприятие открыто для студентов Stanford, а удалённый формат, точные должности и конкретные контакты со стороны нанимающих организаций не обозначены."
     },
     {
       "signal_id": "sig_e4bf1ac35541a421",
@@ -4788,7 +4895,9 @@
         "profile_matches": [
           "aerospace",
           "autonomy"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 7,
@@ -4828,7 +4937,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация обсуждает историческое сокращение численности экипажа в кабине и возможность появления беспилотных кабин, что связано с опытом профиля в управлении полётом летательных аппаратов, алгоритмах автопилота, динамике полёта и автономных системах. Это тема для обсуждения, а не источник вакансии или проектной возможности."
     },
@@ -4890,8 +5000,7 @@
         "target_reason": "Jonathan Shaver is identified as the author and as a technical/program leader associated with WOSA at AFRL's Air Warfare Directorate, making him a potentially relevant contact for aerospace systems architecture and defense technology topics.",
         "target_priority": "medium",
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/jonathan-shaver-21377573/",
-        "company_url": "https://www.linkedin.com/company/air-force-research-laboratory/"
+        "profile_url": "https://www.linkedin.com/in/jonathan-shaver-21377573/"
       },
       "reason": "The post concerns aerospace-defense systems, production-scale open architecture, and the ability of weapon systems to evolve with mission needs. These topics are adjacent to the profile's aerospace, autonomous-systems, flight-control, and multidisciplinary R&D background, although the post does not mention flight controls, GNC, UAVs, or a job opportunity.",
       "content_angle": "Discuss how open-system architecture principles can support modular, upgradeable autonomy, flight-control, and mission systems while preserving verification, integration, and safety discipline.",
@@ -4928,7 +5037,9 @@
         "hiring_detected": false,
         "hiring_intent": "none",
         "hiring_roles": [],
-        "profile_matches": []
+        "profile_matches": [],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 7,
@@ -4973,7 +5084,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена аэрокосмическим и оборонным системам, открытой архитектуре производственного масштаба и способности вооружённых систем развиваться в соответствии с требованиями миссии. Эти темы являются смежными с опытом профиля в аэрокосмической отрасли, автономных системах, управлении полётом и междисциплинарных R&D, хотя публикация не упоминает управление полётом, GNC, UAV или возможность трудоустройства."
     },
@@ -5078,7 +5190,9 @@
           "computer vision",
           "navigation",
           "robotics"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 12,
@@ -5130,7 +5244,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена SLAM, локализации, картографированию, данным датчиков, автономной робототехнике и навигации. Эти темы соответствуют интересам профиля в области робототехники, объединения данных датчиков, навигации, автономности и управления, а C++ и Python совпадают с указанным техническим набором инструментов. Информация о найме отсутствует."
     },
@@ -5181,8 +5296,7 @@
         "target_reason": "The author holds a senior role directly aligned with flight-control engineering and may be a relevant peer or technical contact.",
         "target_priority": "high",
         "company": "AltoVolo",
-        "profile_url": "https://www.linkedin.com/in/mohamad-omari-693a59202/",
-        "company_url": "https://www.linkedin.com/company/altovolo/"
+        "profile_url": "https://www.linkedin.com/in/mohamad-omari-693a59202/"
       },
       "reason": "The author has started a confirmed Lead flight control engineer position at AltoVolo, directly matching the profile's flight-control and senior engineering focus. The post identifies a relevant technical person and a company worth monitoring, but it does not announce a vacancy or hiring activity.",
       "content_angle": "Congratulate the author and add an original perspective on the importance of flight-control engineering leadership in advanced aerospace or autonomous systems.",
@@ -5222,7 +5336,9 @@
         "profile_matches": [
           "aerospace",
           "flight controls"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 12,
@@ -5269,7 +5385,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Автор начал подтверждённую работу в должности Lead flight control engineer в AltoVolo, что напрямую соответствует профилю в области управления полётом и senior engineering. В публикации указан релевантный технический специалист и компания, за которой стоит следить, однако вакансия или активность по найму не объявляются."
     },
@@ -5379,7 +5496,9 @@
           "flight controls",
           "navigation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 13,
@@ -5424,7 +5543,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "В публикации описывается 190-граммовый компьютер управления полётом Veronte KAI 2.0 компании Embention для одноразовых ударных дронов, с акцентом на надёжность автономности и навигации в условиях отсутствия GPS. Это тесно соответствует опыту профиля в области систем управления полётом, автопилотов, UAV, наведения, навигации, управления и автономных систем. Возможность трудоустройства или конкретный человек не указаны."
     },
@@ -5536,7 +5656,9 @@
         "profile_matches": [
           "UAV/UAS",
           "marine"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 12,
@@ -5581,7 +5703,8 @@
         "hiring": 8,
         "exact_hiring_match": 0,
         "opportunity": 2,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Saildrone явно объявляет о нескольких вакансиях на фоне расширения команд по всему миру. Фокус компании на беспилотных надводных аппаратах и картографировании океана соответствует целевому расширению профиля в области морской автономности, управления автономными судами, робототехники, симуляции и междисциплинарной инженерии. Роли Technical Operations Engineer и Manufacturing Systems Integration & Test Engineer выглядят наиболее потенциально релевантными, хотя в публикации нет подробных требований или информации о возможности удалённой работы."
     },
@@ -5647,8 +5770,7 @@
         "target_reason": "Billy Thalheimer is explicitly identified as REGENT Craft's CEO, a potentially relevant senior contact for marine vehicle and flight-control engineering topics.",
         "target_priority": "high",
         "company": "REGENT Craft",
-        "profile_url": "https://www.linkedin.com/in/olubayosam/",
-        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
+        "profile_url": "https://www.linkedin.com/in/olubayosam/"
       },
       "reason": "Inference: The post strongly aligns with the profile's flight controls, MATLAB/Simulink, simulation, digital-twin, and marine autonomy interests. It also identifies REGENT Craft and CEO Billy Thalheimer as relevant people or company contacts, although no hiring activity is stated.",
       "content_angle": "Offer an original expert perspective on how model-based design and hardware-in-the-loop validation can de-risk transitions between hull-borne, hydrofoil, and ground-effect flight modes, including failure-case coverage and repeatability metrics.",
@@ -5692,7 +5814,9 @@
           "flight controls",
           "marine",
           "navigation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 11,
@@ -5746,7 +5870,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Вывод: публикация тесно соответствует интересам профиля в области управления полётом, MATLAB/Simulink, симуляции, цифровых двойников и морской автономности. В ней также указаны REGENT Craft и CEO Billy Thalheimer как релевантные люди или контакты компании, хотя информация о найме отсутствует."
     },
@@ -5854,7 +5979,9 @@
           "autonomy",
           "flight controls",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 12,
@@ -5899,7 +6026,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "В публикации описывается платформа VTOL UAV с автономным взлётом, переходным режимом, дальним полётом по заданной миссии, посадкой, операциями BVLOS и интегрированными технологиями управления полётом, связи и облачных систем. Эти области тесно соответствуют опыту профиля в управлении полётом, UAV, VTOL, автопилотах, автономности, симуляции и междисциплинарных R&D. Информация о найме или конкретном контакте для нетворкинга отсутствует."
     },
@@ -5996,7 +6124,9 @@
         "profile_matches": [
           "aerospace",
           "embedded"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 12,
@@ -6048,7 +6178,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Вывод: публикация тесно соответствует опыту профиля в области систем управления полётом, автопилотов, авиационных систем, вертикального полёта, встроенного ПО, управления, связанного с силовой установкой, и управления энергией. Vijay Singh указан как конкретный технический руководитель в авиационной компании, что создаёт вескую причину следить за ним или установить контакт."
     },
@@ -6154,7 +6285,9 @@
           "autonomy",
           "simulation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 12,
@@ -6211,7 +6344,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно касается автономных летательных аппаратов, дооснащения автономными системами, удалённого надзора, навигации, перенаправления маршрутов из-за погодных условий и логистики грузов или оборонных задач. Эти темы тесно соответствуют опыту профиля в области управления полётом, алгоритмов автопилота, динамики полёта, систем UAV и eVTOL, симуляции, телеметрии и автономных платформ. Автор является конкретным релевантным контактом в сфере авиационной автономности, хотя публикация не содержит признаков найма."
     },
@@ -6275,8 +6409,7 @@
         "target_role": "SkyGrid flight-planning or autonomy technical lead",
         "target_reason": "Inference: the post's technical subject suggests a potentially relevant person to identify for future discussion of strategic flight planning, uncertainty modeling, and AAM systems.",
         "target_priority": "low",
-        "company": "SkyGrid",
-        "company_url": "https://www.linkedin.com/company/aiaa/"
+        "company": "SkyGrid"
       },
       "reason": "The post directly concerns flight planning, uncertainty modeling, navigation-related estimation, and simulation in advanced air mobility. These topics align closely with the profile's flight dynamics, GNC, autopilot, simulation, and autonomous aerial systems experience. No hiring or author identity is provided.",
       "content_angle": "Discuss how uncertainty models based on continuous FMS corrections can reduce conservatism in strategic flight planning, connecting the topic to flight-dynamics modeling, estimator design, and validation of autonomous aerial operations.",
@@ -6318,7 +6451,9 @@
           "sensor fusion",
           "simulation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 11,
@@ -6363,7 +6498,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно касается планирования полётов, моделирования неопределённости, оценивания, связанного с навигацией, и симуляции в сфере Advanced Air Mobility. Эти темы тесно соответствуют опыту профиля в области динамики полёта, GNC, автопилотов, симуляции и автономных летательных систем. Информация о найме или личности автора отсутствует."
     },
@@ -6472,7 +6608,9 @@
           "navigation",
           "simulation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 11,
@@ -6526,7 +6664,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "В публикации описывается авиационная AI-система реального времени, работающая офлайн и непосредственно на устройстве, для интерпретации сообщений ATC, привязки терминологии к географическому контексту и структурирования критически важных для безопасности команд. Это тесно пересекается с опытом профиля в авиационных системах, автономности, бортовых системах, симуляции, телеметрии и разработке критически важных для безопасности систем, хотя публикация сосредоточена на технологиях речи и языка, а не на управлении полётом или GNC."
     },
@@ -6592,8 +6731,7 @@
         "target_reason": "The author describes SciEngineer’s work with MathWorks technologies, technical consulting, training, and implementation for autonomous-system challenges.",
         "target_priority": "medium",
         "company": "SciEngineer",
-        "profile_url": "https://www.linkedin.com/in/robert-bolesza-a56477342/",
-        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
+        "profile_url": "https://www.linkedin.com/in/robert-bolesza-a56477342/"
       },
       "reason": "The post covers autonomous systems development, verification, deployment, MATLAB, Simulink, and model-based design, which closely match the profile's flight-control, simulation, autonomy, and MATLAB/Simulink expertise. SciEngineer also describes technical consulting, training, and implementation services for engineering teams in the Southeastern Europe region.",
       "content_angle": "Share an original perspective on how model-based design and simulation-based verification can reduce integration risk in autonomous flight-control systems, without repeating the webinar promotion.",
@@ -6635,7 +6773,9 @@
           "autonomy",
           "navigation",
           "robotics"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 12,
@@ -6689,7 +6829,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена разработке, верификации и внедрению автономных систем, MATLAB, Simulink и модельно-ориентированному проектированию, что тесно соответствует опыту профиля в области управления полётом, симуляции, автономности и MATLAB/Simulink. SciEngineer также описывает услуги технического консалтинга, обучения и внедрения для инженерных команд в регионе Юго-Восточной Европы."
     },
@@ -6743,8 +6884,7 @@
         "target_reason": "Nate Glasscock publicly supports SkyRunner, LLC and may provide a relevant path to information about the company's autonomous flight activities.",
         "target_priority": "medium",
         "company": "SkyRunner, LLC",
-        "profile_url": "https://www.linkedin.com/in/nathan-glasscock/",
-        "company_url": "https://www.linkedin.com/company/skyrunner-llc/"
+        "profile_url": "https://www.linkedin.com/in/nathan-glasscock/"
       },
       "reason": "The post directly concerns autonomous flight testing, uncrewed platforms, and defense applications, closely matching the profile's UAV, autonomy, flight-control, and simulation focus. It provides no explicit hiring information, but identifies SkyRunner, LLC and an author who publicly supports the company.",
       "content_angle": "Inference: Comment on the importance of rigorous autonomous flight-test validation, resilience, and adaptability for uncrewed systems operating in complex defense environments.",
@@ -6786,7 +6926,9 @@
           "aerospace",
           "autonomy",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 11,
@@ -6838,7 +6980,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно касается автономных лётных испытаний, беспилотных платформ и оборонных применений, что тесно соответствует фокусу профиля на UAV, автономности, управлении полётом и симуляции. Явная информация о найме отсутствует, однако указаны SkyRunner, LLC и автор, который публично поддерживает компанию."
     },
@@ -6942,7 +7085,9 @@
         "profile_matches": [
           "aerospace",
           "eVTOL"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 13,
@@ -6996,7 +7141,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "В публикации описывается сотрудничество Joby Aviation и Toyota, связанное с посадкой летательного аппарата eVTOL. Это тесно соответствует опыту профиля в области eVTOL, управления полётом, авиационных систем и междисциплинарных R&D, однако публикация не указывает на вакансию и не уточняет роль автора."
     },
@@ -7106,7 +7252,9 @@
           "embedded",
           "flight controls",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 28,
@@ -7165,7 +7313,8 @@
         "hiring": 8,
         "exact_hiring_match": 5,
         "opportunity": 2,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация явно описывает спрос на freelance aerospace specialists в области вычислений для управления полётом, авионики, встроенных систем и критически важных для безопасности архитектур. Эти области тесно соответствуют опыту профиля в управлении полётом, автопилотах, динамике полёта, симуляции, UAV, встроенном управлении и междисциплинарной аэрокосмической инженерии. Фокус на freelance и contract также соответствует предпочтению профиля к консалтингу, хотя конкретная вакансия, работодатель или удалённый формат не указаны."
     },
@@ -7279,7 +7428,9 @@
           "navigation",
           "simulation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 23,
@@ -7336,7 +7487,8 @@
         "hiring": 8,
         "exact_hiring_match": 5,
         "opportunity": 2,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "В публикации явно объявлена вакансия Flight Control & Simulation Engineer, связанная с динамикой полёта, законами управления, MATLAB/Simulink, SIL/HIL, UAV и eVTOL. Эти требования тесно соответствуют опыту профиля в области управления полётом, автопилотов, симуляции, UAV/eVTOL и MATLAB/Simulink. Работа предполагает присутствие на месте в Вене, что может быть ограничением, поскольку профиль уделяет высокий приоритет удалённой работе."
     },
@@ -7435,7 +7587,9 @@
         "profile_matches": [
           "GNC",
           "aerospace"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 19,
@@ -7470,7 +7624,8 @@
         "hiring": 8,
         "exact_hiring_match": 5,
         "opportunity": 2,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "В публикации явно объявлена вакансия Senior GNC Engineer и описывается работа с турбинными летательными аппаратами VTOL, что тесно соответствует опыту профиля в области управления полётом, GNC, автопилотов, VTOL, динамики полёта, симуляции и междисциплинарной аэрокосмической инженерии."
     },
@@ -7584,7 +7739,9 @@
           "marine",
           "marine robotics",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 29,
@@ -7624,7 +7781,8 @@
         "hiring": 8,
         "exact_hiring_match": 0,
         "opportunity": 2,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Saildrone прямо сообщает, что нанимает около двух десятков сотрудников в инженерные и другие подразделения. Работа компании с автономными морскими платформами, обороной, картографированием океана и миссиями NOAA тесно смежна с интересами профиля в области автономных систем, управления, навигации, симуляции и морской автономности. В публикации не указана открытая позиция в области управления полётом, GNC или управления морскими системами, поэтому точное техническое соответствие требует изучения вакансий."
     },
@@ -7689,8 +7847,7 @@
         "target_reason": "Balram Kandoria authored the technical post and works on Kalman-filter-based flight management modeling for AAM aircraft, closely matching the profile's flight-control, navigation, and autonomous-systems background.",
         "target_priority": "high",
         "company": "SkyGrid",
-        "profile_url": "https://www.linkedin.com/in/balram-kandoria1/",
-        "company_url": "https://www.linkedin.com/company/aiaa/"
+        "profile_url": "https://www.linkedin.com/in/balram-kandoria1/"
       },
       "reason": "The post directly concerns autonomous AAM aircraft, flight management modeling, Kalman filtering, route-error correction, arrival-time prediction, and automated flight-plan validation. These topics closely match the profile's experience in flight dynamics, guidance and navigation, control systems, simulation, autopilot algorithms, and autonomous aerial systems. It also identifies two relevant autonomy engineers at SkyGrid, creating a concrete networking opportunity.",
       "content_angle": "Share an original expert perspective on how waypoint progress and control-input-dependent filter trust can affect flight-control validation, arrival-time uncertainty, and the transition from simulation models to operational AAM systems.",
@@ -7735,7 +7892,9 @@
           "navigation",
           "sensor fusion",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 22,
@@ -7797,7 +7956,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно касается автономных воздушных аппаратов AAM, моделирования управления полётом, фильтра Калмана, коррекции ошибки маршрута, прогнозирования времени прибытия и автоматической проверки планов полёта. Эти темы тесно соответствуют опыту профиля в области динамики полёта, наведения и навигации, систем управления, симуляции, алгоритмов автопилота и автономных воздушных систем. Также указаны два релевантных инженера по автономности в SkyGrid, что создаёт конкретную возможность для нетворкинга."
     },
@@ -7846,9 +8006,9 @@
       "known_relationships": [],
       "known_relationship_company": null,
       "known_related_companies": [
-        "BETA TECHNOLOGIES",
         "Joby Aviation",
-        "Archer"
+        "Archer",
+        "BETA TECHNOLOGIES"
       ],
       "do_not_contact": false,
       "target": {
@@ -7859,8 +8019,7 @@
         "target_reason": "Inference: People involved in Project Nexus and Texas eIPP may be relevant contacts for eVTOL integration, autonomy, flight operations, and regulatory deployment.",
         "target_priority": "high",
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/shtofman/",
-        "company_url": "https://www.linkedin.com/company/jobyaviation/"
+        "profile_url": "https://www.linkedin.com/in/shtofman/"
       },
       "reason": "The post directly concerns eVTOL, autonomy-enabled aircraft, aircraft sensors, flight operations, and the regulatory integration of advanced air mobility into an active airport environment. These topics closely match the profile's flight-controls, UAV/eVTOL, autonomy, simulation, and multidisciplinary aerospace focus. The author and named participants may provide relevant industry-network access, but the post does not establish their specific job titles or hiring authority.",
       "content_angle": "Discuss how operating eVTOL aircraft in a busy airport environment provides a stronger systems-integration test than isolated demonstrations, focusing on autonomy, sensor integration, traffic coexistence, safety validation, and the role of flight-control engineering in scaling commercial operations.",
@@ -7903,7 +8062,9 @@
           "autonomy",
           "eVTOL",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 20,
@@ -7960,7 +8121,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно касается eVTOL, летательных аппаратов с поддержкой автономности, авиационных датчиков, лётных операций и нормативной интеграции Advanced Air Mobility в действующую аэропортовую среду. Эти темы тесно соответствуют фокусу профиля на управлении полётом, UAV/eVTOL, автономности, симуляции и междисциплинарной аэрокосмической инженерии. Автор и указанные участники могут предоставить доступ к релевантной отраслевой сети, однако публикация не подтверждает их конкретные должности или полномочия по найму."
     },
@@ -8064,7 +8226,9 @@
           "autonomy",
           "navigation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 17,
@@ -8121,7 +8285,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно касается навигации, автономности, работы в условиях отсутствия GPS, позиционирования на основе датчиков и лётных испытаний в сфере аэрокосмической обороны. Эти темы тесно соответствуют опыту профиля в области управления полётом, GNC, навигации, объединения данных датчиков, UAV и автономных систем. В ней также указан релевантный технический специалист для взаимодействия, хотя возможность трудоустройства не заявлена."
     },
@@ -8181,8 +8346,7 @@
         "target_reason": "A confirmed senior technical leader whose department works on unmanned aircraft research, modelling, control, safe autonomy, and certification.",
         "target_priority": "high",
         "company": "German Aerospace Center (DLR)",
-        "profile_url": "https://www.linkedin.com/in/johann-dauer-702184317/",
-        "company_url": "https://www.linkedin.com/company/department-daer-polimi/"
+        "profile_url": "https://www.linkedin.com/in/johann-dauer-702184317/"
       },
       "reason": "The post directly concerns unmanned aircraft modelling, control, safe autonomy, operations, and certification, closely matching the profile's flight-control, UAV, simulation, GNC, and autonomous-systems expertise. Johann Dauer is a concrete senior technical contact in a highly relevant aerospace research area.",
       "content_angle": "Offer an original perspective on the engineering connection between flight-control design, model-based simulation, operational safety evidence, and certification of autonomous UAVs, drawing on the challenge of demonstrating safe behavior in changing weather and shared airspace.",
@@ -8225,7 +8389,9 @@
           "aerospace",
           "autonomy",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 19,
@@ -8274,7 +8440,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно касается моделирования беспилотных летательных аппаратов, безопасной автономности, эксплуатации и сертификации, что тесно соответствует опыту профиля в области управления полётом, UAV, симуляции, GNC и автономных систем. Johann Dauer является конкретным senior technical contact в весьма релевантной области аэрокосмических исследований."
     },
@@ -8374,7 +8541,9 @@
           "autonomy",
           "eVTOL",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 19,
@@ -8426,7 +8595,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "В публикации описывается проект разработки и лётных испытаний eVTOL с участием автономного полёта, авионики, интеграции и инженерного решения задач. Эти области тесно соответствуют опыту профиля в динамике полёта eVTOL, системах управления, алгоритмах автопилота, симуляции и автономных системах. Автор является конкретным релевантным инженерным контактом, а Embention — компанией, за которой стоит следить, хотя информация о найме отсутствует."
     },
@@ -8526,7 +8696,9 @@
           "autonomy",
           "robotics",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 24,
@@ -8575,7 +8747,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает демонстрационный перелёт автономного летательного аппарата J208 через всю страну и автономную систему gate-to-gate, что напрямую соответствует опыту профиля в области управления полётом, UAV, автономных систем, динамики полёта и валидации. Также Kevin Antcliff указан как релевантный человек, связанный с этой работой, хотя его роль и компания не указаны."
     },
@@ -8679,7 +8852,9 @@
           "marine robotics",
           "simulation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 23,
@@ -8728,7 +8903,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "В публикации описывается реальная миссия в области морской автономности с использованием беспилотных надводных аппаратов для постоянного наблюдения за окружающей средой. Это тесно соответствует заявленному расширению профиля в сторону морской автономности, автономных судов, навигации и управления мобильными платформами, а также предоставляет материал для оригинального комментария о выносливости, телеметрии, планировании миссий, покрытии датчиками и автономных операциях. Возможность трудоустройства не заявлена."
     },
@@ -8827,7 +9003,9 @@
           "aerospace",
           "embedded",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 25,
@@ -8867,7 +9045,8 @@
         "hiring": 8,
         "exact_hiring_match": 0,
         "opportunity": 2,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация явно приглашает подавать заявки на должность Firmware Engineer в сфере аэрокосмической отрасли и авионики. Требования к встроенным системам, операционным системам реального времени, верификации ПО и сертификации безопасности пересекаются с опытом профиля в авиации, встроенном управлении, C/C++ и междисциплинарной инженерии, хотя управление полётом, GNC или симуляция в публикации не упоминаются."
     },
@@ -8964,7 +9143,9 @@
           "autonomy",
           "flight controls",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 27,
@@ -9004,7 +9185,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно касается устойчивости VTOL в режиме висения, реакции системы управления полётом, динамики силовой установки, датчиков и валидации полного контура управления, что тесно соответствует опыту профиля в области управления полётом, автопилотов, UAV, eVTOL, симуляции и испытаний."
     },
@@ -9108,7 +9290,9 @@
           "aerospace",
           "autonomy",
           "robotics"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 17,
@@ -9160,7 +9344,8 @@
         "hiring": 8,
         "exact_hiring_match": 0,
         "opportunity": 2,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация явно объявляет вакансию UAV Pilot в ADASI в ОАЭ и упоминает автономную авиацию и передовые автономные системы. Области UAV, авиации и автономности пересекаются с профилем, однако вакансия пилота не соответствует напрямую фокусу профиля на senior flight-control, GNC, симуляции и инженерном лидерстве. Расположение в ОАЭ также может быть менее совместимо с выраженным предпочтением профиля к удалённой работе."
     },
@@ -9262,7 +9447,9 @@
           "marine",
           "marine robotics",
           "robotics"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 30,
@@ -9302,7 +9489,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Open Ocean Robotics описывает автономные надводные суда для обороны, безопасности и океанских операций. Это тесно соответствует целевому расширению профиля в сторону морской автономности, управления автономными судами, навигации, стабилизации и робототехники. Публикация также предоставляет прямую возможность взаимодействия с компанией на SMM Hamburg, но не содержит объявления о найме."
     },
@@ -9406,7 +9594,9 @@
           "aerospace",
           "eVTOL",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 29,
@@ -9455,7 +9645,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Вывод: публикация описывает непосредственный проект eVTOL и advanced air mobility, связанный с разработкой летательного аппарата, интеграцией в эксплуатацию, проектированием медицинского отсека, процедурами передачи и сертификацией. Эти области тесно соответствуют опыту профиля в управлении полётом, динамике полёта, симуляции, автономности и eVTOL. Возможность трудоустройства не заявлена."
     },
@@ -9516,8 +9707,7 @@
         "target_reason": "The author discusses contributing to engineering efforts at Eve Air Mobility and Embraer, making her potentially relevant for domain networking; her exact role is not stated.",
         "target_priority": "medium",
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/isabel-lima-0b889912b/",
-        "company_url": "https://www.linkedin.com/company/evtolinsights/"
+        "profile_url": "https://www.linkedin.com/in/isabel-lima-0b889912b/"
       },
       "reason": "The post concerns eVTOL and Advanced Air Mobility engineering at Eve Air Mobility and Embraer, directly matching the profile's flight-control, eVTOL, aviation, and autonomous-systems focus. The author is a concrete professional contact associated with this domain, although her specific role is not stated.",
       "content_angle": "Discuss how multidisciplinary engineering collaboration, safety, and sustainability influence the development of eVTOL control, autonomy, and flight-system architectures.",
@@ -9558,7 +9748,9 @@
           "aerospace",
           "eVTOL",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 17,
@@ -9607,7 +9799,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена инженерным разработкам eVTOL и Advanced Air Mobility в Eve Air Mobility и Embraer, что напрямую соответствует фокусу профиля на управлении полётом, eVTOL, авиации и автономных системах. Автор является конкретным профессиональным контактом в этой области, хотя его конкретная роль не указана."
     },
@@ -9707,7 +9900,9 @@
         ],
         "profile_matches": [
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 25,
@@ -9753,7 +9948,8 @@
         "hiring": 8,
         "exact_hiring_match": 0,
         "opportunity": 2,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Автор явно сообщает, что Relativity Space нанимает сотрудников в команду Ignition Systems, и предоставляет ссылки для подачи заявок на уровни I и II. Аэрокосмический контекст и критически важные для миссий системы смежны с опытом профиля в области управления полётом, летательных аппаратов, UAV и автономных систем, хотя в публикации недостаточно деталей, чтобы подтвердить прямое соответствие управлению или GNC."
     },
@@ -9815,8 +10011,7 @@
         "target_role": "mission autonomy technical lead at Anduril or Hermeus",
         "target_reason": "Identify technical leaders responsible for integrating autonomy software with high-speed aircraft and coordinated missions, which is closely related to the profile's flight-control and autonomous-systems expertise.",
         "target_priority": "high",
-        "company": "Anduril",
-        "company_url": "https://www.linkedin.com/company/hermeus/"
+        "company": "Anduril"
       },
       "reason": "The post describes end-to-end mission autonomy for the Hermeus Quarterhorse Mk 2, including planning, execution and debriefing for high-speed aircraft. This closely matches the profile's experience in flight control, autopilot algorithms, flight dynamics, UAV/eVTOL systems, simulation and autonomous missions. No hiring opportunity is stated.",
       "content_angle": "An original expert perspective could discuss the engineering challenges of integrating mission-level autonomy with flight-control and vehicle-level systems across the full lifecycle: pre-mission planning, execution, coordination and post-mission debriefing.",
@@ -9856,7 +10051,9 @@
         "profile_matches": [
           "aerospace",
           "autonomy"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 28,
@@ -9901,7 +10098,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает автономность миссии полного цикла для Hermeus Quarterhorse Mk 2, включая планирование, выполнение и разбор полётов для высокоскоростных летательных аппаратов. Это тесно соответствует опыту профиля в области управления полётом, алгоритмов автопилота, динамики полёта, систем UAV/eVTOL, симуляции и автономных миссий. Возможность трудоустройства не заявлена."
     },
@@ -10004,7 +10202,9 @@
         "profile_matches": [
           "MATLAB/Simulink",
           "navigation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 28,
@@ -10061,7 +10261,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 2,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация анонсирует MathWorks Research Summit India, посвящённый проектированию инженерных систем в эпоху AI, и явно включает MATLAB и Simulink. Это соответствует опыту профиля в области управления полётом, симуляции, моделирования и автономных систем. Мероприятие также даёт конкретную возможность найти и установить контакт с релевантными исследовательскими и инженерными специалистами MathWorks, хотя оно проводится по приглашениям, а не является вакансией."
     },
@@ -10169,7 +10370,9 @@
           "navigation",
           "robotics",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 24,
@@ -10223,7 +10426,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена проектированию, симуляции и управлению автономными роботами с использованием MATLAB/Simulink, навигационных датчиков, компьютерного зрения, настройки двигателей и виртуальной симуляции. Эти темы тесно соответствуют опыту профиля в области систем управления, симуляции, робототехники, автономности и MATLAB/Simulink. Автор является потенциально релевантным контактом по робототехническому контенту, однако его профессиональная роль или связь с наймом не указаны."
     },
@@ -10329,7 +10533,9 @@
         "profile_matches": [
           "MATLAB/Simulink",
           "navigation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 22,
@@ -10383,7 +10589,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно связана с Simulink, модельно-ориентированной инженерией, инженерными рабочими процессами с поддержкой AI, обновлением моделей, отслеживанием влияния изменений и верификацией. Эти темы соответствуют обширному опыту профиля в MATLAB/Simulink, моделировании управления полётом, симуляции и прикладном AI. Автор и два явно упомянутых человека являются конкретными целями для технического нетворкинга, хотя информация о трудоустройстве или найме отсутствует."
     },
@@ -10485,7 +10692,9 @@
           "UAV/UAS",
           "aerospace",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 26,
@@ -10525,7 +10734,8 @@
         "hiring": 8,
         "exact_hiring_match": 0,
         "opportunity": 2,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация явно запрашивает резюме и отмечена тегами UAV, aerospace, avionics, HMI, UI, QA и Tech Lead. Аспекты UAV, аэрокосмической отрасли, авионики и технического лидерства пересекаются с профилем, однако конкретные обязанности и соответствие работе в области управления полётом или GNC не указаны."
     },
@@ -10584,8 +10794,7 @@
         "target_role": "Technical lead for GNSS integrity, navigation or autonomous flight",
         "target_reason": "The VARIANT project concerns real-time detection of jamming and spoofing and integration with autonomous-flight airspace management, creating a strong technical basis for identifying relevant specialists.",
         "target_priority": "medium",
-        "company": "SkyGrid",
-        "company_url": "https://www.linkedin.com/company/variant-consortium/"
+        "company": "SkyGrid"
       },
       "reason": "The post directly addresses GNSS degradation, autonomous aircraft, flight planning, contingency management and airspace safety in Advanced Air Mobility. These topics align closely with the profile's experience in eVTOL flight control, guidance and navigation, autopilot algorithms, autonomous systems and safety-oriented control development.",
       "content_angle": "Discuss how GNSS interference detection can feed navigation integrity monitoring, degraded-mode flight-control logic and contingency trajectory planning for autonomous eVTOL operations.",
@@ -10628,7 +10837,9 @@
           "eVTOL",
           "navigation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 18,
@@ -10668,7 +10879,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно касается ухудшения GNSS, автономных летательных аппаратов, планирования полётов, управления нештатными ситуациями и безопасности воздушного пространства в Advanced Air Mobility. Эти темы тесно соответствуют опыту профиля в области управления полётом eVTOL, наведения и навигации, алгоритмов автопилота, автономных систем и разработки систем управления с акцентом на безопасность."
     },
@@ -10720,8 +10932,7 @@
         "target_reason": "David King is the post author and is described as a Chief Engineer working on a new electric aircraft, making him a relevant senior aerospace engineering contact.",
         "target_priority": "high",
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/david-king-6818293/",
-        "company_url": "https://www.linkedin.com/company/businessinsider/"
+        "profile_url": "https://www.linkedin.com/in/david-king-6818293/"
       },
       "reason": "The author is identified as a Chief Engineer involved in developing a new electric aircraft, which aligns with the profile's aerospace, eVTOL, flight-control and autonomous-systems focus. The post also provides a concrete senior engineering person to follow or connect with.",
       "content_angle": "Inference: offer an original perspective on how engineers can manage uncertainty in electric-aircraft development, connecting the post's 'unknown' theme with disciplined modeling, simulation and validation practices.",
@@ -10759,7 +10970,9 @@
         "hiring_roles": [],
         "profile_matches": [
           "aerospace"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 23,
@@ -10811,7 +11024,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Автор указан как Chief Engineer, участвующий в разработке нового электрического летательного аппарата, что соответствует фокусу профиля на аэрокосмической отрасли, eVTOL, управлении полётом и автономных системах. Публикация также предоставляет конкретного senior engineering contact, за которым можно следить или с которым можно установить контакт."
     },
@@ -10908,7 +11122,9 @@
           "autonomy",
           "eVTOL",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 25,
@@ -10948,7 +11164,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Публикация непосредственно касается программ eVTOL, характеристик летательных аппаратов, сроков внедрения автономности, старения батарей, дальности миссий, погоды, коэффициента использования, инфраструктуры и масштабирования операций. Эти темы тесно соответствуют опыту профиля в области динамики полёта eVTOL, архитектуры систем управления, симуляции, автономности и междисциплинарных R&D. Подтверждённая личность автора, принадлежность к компании или информация о найме отсутствуют."
     },
@@ -11041,7 +11258,9 @@
         "profile_matches": [
           "UAV/UAS",
           "autonomy"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 26,
@@ -11088,7 +11307,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 2,
-        "priority": 2
+        "priority": 2,
+        "constraints": 0
       },
       "reason_ru": "Embention описывается как компания, разрабатывающая автопилоты и системы управления для беспилотных летательных аппаратов, что напрямую соответствует фокусу профиля на UAV, управлении полётом и автономных системах. Автор явно приглашает специалистов, работающих в аэрокосмических R&D, обороне или UAS, обсудить сотрудничество в рамках консорциума, что создаёт релевантную возможность для нетворкинга, однако вакансия не объявляется."
     },
@@ -11184,7 +11404,9 @@
         "profile_matches": [
           "aerospace",
           "navigation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 35,
@@ -11224,7 +11446,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 2,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает систему воздушного пожаротушения с автоматической навигацией, выполнением полётов на высоте 150 метров, целевой доставкой средства и оптимизированной физикой сброса. Эти темы тесно соответствуют опыту профиля в области систем управления полётом, динамики полёта, алгоритмов автопилота, UAV, симуляции и автономных систем. Автор ищет стратегических R&D-партнёров и со-заявителей на гранты, что создаёт потенциальную возможность сотрудничества, но вакансия или название организации не указаны."
     },
@@ -11324,7 +11547,9 @@
         "profile_matches": [
           "aerospace",
           "eVTOL"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 31,
@@ -11364,7 +11589,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает партнёрство Sarla Aviation и Tata Elxsi по разработке Shunya — летательного аппарата eVTOL для городской воздушной мобильности. Это напрямую соответствует опыту профиля в области eVTOL, управления полётом, авиационных систем, симуляции и автономной мобильности, однако публикация не содержит информации о найме или имён технических контактов."
     },
@@ -11460,7 +11686,9 @@
         "profile_matches": [
           "marine",
           "navigation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 35,
@@ -11512,7 +11740,8 @@
         "hiring": 8,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация освещает морскую и оборонную экосистему British Columbia и называет CEO ассоциации, объединяющей промышленность, государственные органы и академическое сообщество. Это соответствует интересам профиля в области морской автономности, автономных судов, систем управления и междисциплинарных инженерных сетей, но конкретная инженерная роль или технический проект не указаны."
     },
@@ -11620,7 +11849,9 @@
           "MATLAB/Simulink",
           "navigation",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 17,
@@ -11674,7 +11905,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена применению GenAI и AI agents к модельно-ориентированным, критически важным для безопасности инженерным рабочим процессам с использованием MATLAB и Simulink. Это соответствует опыту профиля в области управления полётом, симуляции, модельно-ориентированной разработки, MATLAB/Simulink и автономных систем, хотя публикация посвящена автомобильной инженерии, а не аэрокосмической отрасли."
     },
@@ -11732,8 +11964,7 @@
         "target_reason": "Charles Alcock is identified as the author and is referenced as having previously covered the P100, making him a potentially relevant source for aerospace and autonomous-aircraft developments.",
         "target_priority": "medium",
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/charles-alcock-98b798197/",
-        "company_url": "https://www.linkedin.com/company/aviationinternationalnews/"
+        "profile_url": "https://www.linkedin.com/in/charles-alcock-98b798197/"
       },
       "reason": "The post describes the P100 aircraft completing more than 100 flight tests and advancing its autonomous capabilities across contested logistics, ISR and precision-effects missions. This aligns with the profile's experience in flight controls, autonomous aircraft, UAV systems, simulation and flight-test support. No hiring or specific employer is identified.",
       "content_angle": "Inference: Discuss how repeated flight-test campaigns can validate and mature autonomy and flight-control capabilities as an aircraft expands from prototype testing to broader operational missions.",
@@ -11773,7 +12004,9 @@
         "profile_matches": [
           "aerospace",
           "autonomy"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 17,
@@ -11822,7 +12055,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает выполнение летательным аппаратом P100 более 100 лётных испытаний и развитие его автономных возможностей для задач contested logistics, ISR и precision-effects. Это соответствует опыту профиля в области управления полётом, автономных летательных аппаратов, систем UAV, симуляции и поддержки лётных испытаний. Информация о найме или конкретном работодателе отсутствует."
     },
@@ -11866,9 +12100,9 @@
       "known_relationships": [],
       "known_relationship_company": null,
       "known_related_companies": [
-        "BETA TECHNOLOGIES",
         "Joby Aviation",
-        "Archer"
+        "Archer",
+        "BETA TECHNOLOGIES"
       ],
       "do_not_contact": false,
       "target": {
@@ -11879,8 +12113,7 @@
         "target_reason": "Potentially relevant connection for the profile's flight-control, GNC, simulation, and eVTOL focus; the post identifies activity and named participants in this ecosystem.",
         "target_priority": "high",
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/shellylesikardezevallos/",
-        "company_url": "https://www.linkedin.com/company/jobyaviation/"
+        "profile_url": "https://www.linkedin.com/in/shellylesikardezevallos/"
       },
       "reason": "The post highlights advanced air mobility and eVTOL activity in Texas and mentions Joby Aviation, BETA Technologies, and Archer, which align with the profile's target domains. It provides networking and market-awareness value but contains no explicit hiring or project details.",
       "content_angle": "Discuss the engineering challenges of bringing advanced air mobility concepts into operational aviation, such as flight-control validation, transition-mode simulation, safety assurance, and integration with existing airport infrastructure.",
@@ -11920,7 +12153,9 @@
         "profile_matches": [
           "aerospace",
           "eVTOL"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 21,
@@ -11972,7 +12207,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация освещает активность в сфере Advanced Air Mobility и eVTOL в Техасе и упоминает Joby Aviation, BETA Technologies и Archer, что соответствует целевым областям профиля. Она предоставляет ценность для нетворкинга и понимания рынка, но не содержит явной информации о найме или деталях проектов."
     },
@@ -12067,7 +12303,9 @@
           "aerospace",
           "autonomy",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 25,
@@ -12107,7 +12345,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает автономный Altius-700, запущенный с H-60M Black Hawk для поиска цели, обмена данными внутри группы и выполнения удара. Это тесно связано с опытом профиля в области автономности UAV, наведения, управления, миссионных систем, телеметрии и междисциплинарной аэрокосмической инженерии. Работодатель, личность автора, вакансия или намерение нанимать сотрудников не указаны."
     },
@@ -12206,7 +12445,9 @@
           "aerospace",
           "simulation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 26,
@@ -12263,7 +12504,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает аэрокосмические и космические исследовательские проекты в DAER при Politecnico di Milano, включая спутники, космические миссии, авиационные технологии, испытания в аэродинамической трубе и экспериментальные исследования безопасности. Эти области пересекаются с опытом профиля в аэрокосмической инженерии и симуляции. Автор и несколько указанных участников являются конкретными целями для аэрокосмического нетворкинга, хотя их роли и активность по найму не указаны."
     },
@@ -12356,7 +12598,9 @@
           "aerospace",
           "eVTOL",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 33,
@@ -12391,7 +12635,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена городской мобильности eVTOL и стратегической важности энергетической и зарядной инфраструктуры. Это соответствует опыту профиля в разработке eVTOL, архитектуре управления полётом, симуляции, автопилотах и планировании траекторий с учётом энергии, однако публикация не содержит информации о найме или конкретной роли."
     },
@@ -12485,7 +12730,9 @@
         "profile_matches": [
           "aerospace",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 25,
@@ -12529,7 +12776,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает первый полёт с участием ALIA и электрической авиации, что соответствует фокусу профиля на аэрокосмической отрасли, eVTOL и управлении полётом. Информация о найме или конкретной технической роли отсутствует."
     },
@@ -12589,8 +12837,7 @@
         "target_reason": "Emmanuel Schalit is the identified company leader behind a maritime propulsion technology relevant to the profile's broader marine engineering interests.",
         "target_priority": "medium",
         "company": "OceanWings",
-        "profile_url": "https://www.linkedin.com/in/emmanuelschalit/",
-        "company_url": "https://www.linkedin.com/company/oceanwings/"
+        "profile_url": "https://www.linkedin.com/in/emmanuelschalit/"
       },
       "reason": "The post concerns technically assessed wind-propulsion systems for maritime vessels, including vessel-specific sizing, deck arrangements, operating profiles, newbuilds and retrofits. This is adjacent to the profile's interest in marine autonomy and control of mobile platforms, but the post does not mention autonomy, navigation, simulation or controls work.",
       "content_angle": "Discuss how vessel-specific wind-propulsion sizing could be evaluated through multidisciplinary modeling, stability, operational-profile and retrofit-constraint analysis, without duplicating the author's announcement.",
@@ -12631,7 +12878,9 @@
         "profile_matches": [
           "marine",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 28,
@@ -12688,7 +12937,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена технически оцениваемым системам ветровой тяги для морских судов, включая расчёты под конкретные суда, размещение на палубе, профили эксплуатации, новые суда и модернизацию существующих. Это смежно с интересом профиля к морской автономности и управлению мобильными платформами, но публикация не упоминает автономность, навигацию, симуляцию или работу с системами управления."
     },
@@ -12738,8 +12988,7 @@
         "target_reason": "Inference: Joby's involvement in the reported air taxi testing program makes relevant technical leads a reasonable networking target for the profile's eVTOL and flight-control background.",
         "target_priority": "medium",
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/robert-francis-1762482/",
-        "company_url": "https://www.linkedin.com/company/city-of-fort-worth/"
+        "profile_url": "https://www.linkedin.com/in/robert-francis-1762482/"
       },
       "reason": "The post reports a new air taxi testing program involving Fort Worth, Hillwood AllianceTexas, Joby Aviation, the Texas Department of Transportation, and the U.S. Department of Transportation. Inference: the eVTOL testing context is closely aligned with the profile's flight-control, simulation, autopilot, and UAV/eVTOL expertise, but the post does not provide a specific vacancy or technical scope.",
       "content_angle": "Inference: Offer an original expert perspective on how eVTOL testing programs can integrate flight-dynamics simulation, control-law validation, hardware-in-the-loop testing, and flight-test telemetry.",
@@ -12778,7 +13027,9 @@
         "profile_matches": [
           "aerospace",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 18,
@@ -12817,7 +13068,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация сообщает о новой программе испытаний аэротакси с участием Fort Worth, Hillwood AllianceTexas, Joby Aviation, Texas Department of Transportation и U.S. Department of Transportation. Вывод: контекст испытаний eVTOL тесно соответствует опыту профиля в области управления полётом, симуляции, автопилотов и UAV/eVTOL, однако конкретная вакансия или технический охват не указаны."
     },
@@ -12911,7 +13163,9 @@
         "profile_matches": [
           "aerospace",
           "autonomy"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 28,
@@ -12951,7 +13205,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает P100 как турбинный автономный VTOL, созданный для высокой скорости. Вывод: это релевантно фокусу профиля на VTOL, автономных летательных аппаратах, динамике полёта, автопилотах и системах управления, хотя конкретные инженерные детали или признаки трудоустройства отсутствуют."
     },
@@ -13054,7 +13309,9 @@
         "profile_matches": [
           "MATLAB/Simulink",
           "navigation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 35,
@@ -13103,7 +13360,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация опубликована MathWorks и посвящена обучению MATLAB и Simulink — инструментам, напрямую соответствующим опыту профиля в области управления полётом, симуляции и модельно-ориентированной инженерии. В ней названы участники MathWorks и ARKANCE, что создаёт возможные, но неподтверждённые пути для нетворкинга. Вакансия или намерение нанимать сотрудников не заявлены."
     },
@@ -13202,7 +13460,9 @@
         ],
         "profile_matches": [
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 33,
@@ -13246,7 +13506,8 @@
         "hiring": 8,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Rocket Lab продвигает специальное мероприятие для карьерного нетворкинга и приём заявок на должности Manufacturing Technicians и Supply Chain Specialists, связанные с реальным оборудованием, миссиями, национальной безопасностью, исследованием дальнего космоса и обороной. Аэрокосмический и космический контекст релевантен профилю, но объявленные роли напрямую не соответствуют управлению полётом, GNC, системам UAV или симуляции."
     },
@@ -13343,7 +13604,9 @@
         "profile_matches": [
           "aerospace",
           "eVTOL"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 19,
@@ -13387,7 +13650,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация сообщает о полётах Joby Aviation на электрических аэротакси в районе Dallas-Fort Worth в рамках федеральной пилотной программы, что напрямую соответствует интересам профиля в области eVTOL, управления полётом и автономных систем. Информация о найме отсутствует."
     },
@@ -13482,7 +13746,9 @@
           "MATLAB/Simulink",
           "navigation",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 20,
@@ -13522,7 +13788,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 2,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация продвигает профессиональный сертификат, посвящённый практическому моделированию и симуляции с использованием Simulink и Simscape, включая силовую электронику, электродвигатели и батарейные системы. Это тесно соответствует опыту профиля в MATLAB/Simulink и симуляции и смежно с работой профиля в области eVTOL, управления полётом и электрифицированных летательных аппаратов. Это возможность обучения, а не вакансия или объявление о найме."
     },
@@ -13615,7 +13882,9 @@
         "profile_matches": [
           "UAV/UAS",
           "aerospace"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 22,
@@ -13650,7 +13919,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает развёртывание Anduril пассивных систем, обнаруживающих малые дроны, крупные летательные аппараты и надводные суда без излучения сигналов. Технически это соответствует интересам профиля в области UAV/UAS, автономных систем, аэрокосмической обороны и сенсорных технологий, однако информация о найме или конкретном контакте для нетворкинга отсутствует."
     },
@@ -13742,7 +14012,9 @@
         "hiring_roles": [],
         "profile_matches": [
           "autonomy"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 33,
@@ -13781,7 +14053,8 @@
         "hiring": 8,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация подтверждает, что MathWorks переводит стажёра на постоянную должность, и описывает работу, связанную с AI, оценкой удобства использования и человеко-ориентированными исследованиями. MathWorks потенциально релевантна профилю благодаря связи с инженерным ПО, однако публикация не указывает на вакансию в области управления полётом, симуляции, робототехники или инженерии. Указанные менеджер, наставники и спонсоры являются конкретными людьми, связанными с MathWorks, и могут дать контекст для нетворкинга, хотя их техническая релевантность не установлена."
     },
@@ -13890,7 +14163,9 @@
           "navigation",
           "simulation",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 33,
@@ -13940,7 +14215,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена симуляции аэроакустики, моделированию крупных вихрей, управлению шумом и аэрокосмическим применениям. Вывод: это пересекается с опытом профиля в аэрокосмической инженерии, динамике полёта, симуляции и междисциплинарном проектировании, хотя аэроакустика не указана как основная специализация."
     },
@@ -14030,7 +14306,9 @@
           "UAV/UAS",
           "aerospace",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 28,
@@ -14065,7 +14343,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация описывает наземную валидацию характеристик двигателя и силовой установки для VTOL UAV перед лётными испытаниями. Это смежно с опытом профиля в области UAV, управления полётом, динамики полёта, симуляции и междисциплинарных испытаний летательных аппаратов, но конкретно алгоритмы управления или возможность трудоустройства не обсуждаются."
     },
@@ -14164,7 +14443,9 @@
           "aerospace",
           "eVTOL",
           "space"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 30,
@@ -14208,7 +14489,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация подтверждает, что Joby Aviation разрабатывает электрические аэротакси и работает в секторе аэрокосмической eVTOL, что соответствует целевой области профиля. Однако публикация посвящена цифровому маркетингу и сторителлингу, а не инженерной работе или открытой вакансии."
     },
@@ -14303,7 +14585,9 @@
         "profile_matches": [
           "aerospace",
           "eVTOL"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 25,
@@ -14338,7 +14622,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена подходу Eve Air Mobility к городской воздушной мобильности и полноразмерному макету eVTOL, что соответствует интересам профиля в области eVTOL, управления полётом, авиационных систем и автономной мобильности. В основном это публикация-презентация и отчёт о мероприятии, без информации о найме или подробной технической возможности."
     },
@@ -14431,7 +14716,9 @@
         "profile_matches": [
           "navigation",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 22,
@@ -14471,7 +14758,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Вывод: публикация релевантна опыту профиля в области динамики полёта, моделирования, симуляции и систем управления. Её фокус на повышении точности, сокращении объёма испытаний и ускорении инженерной разработки может поддержать экспертный взгляд на применение симуляции многотельной динамики для валидации управления полётом и разработки автономных систем."
     },
@@ -14565,7 +14853,9 @@
         "profile_matches": [
           "MATLAB/Simulink",
           "navigation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 34,
@@ -14609,7 +14899,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация освещает применение MATLAB и Simulink в беспроводной связи и междисциплинарном проектировании. Эти инструменты напрямую соответствуют профилю, хотя конкретный фокус на беспроводных коммуникациях является смежным, а не центральным для работы в области управления полётом, GNC, UAV и автономных систем."
     },
@@ -14664,8 +14955,7 @@
         "target_reason": "Mentioned as a partner in developing aviation and engineering curriculum pathways relevant to the aerospace domain.",
         "target_priority": "medium",
         "company": null,
-        "profile_url": "https://www.linkedin.com/in/jennifer-radtke-56bb29210/",
-        "company_url": "https://www.linkedin.com/company/boeing/"
+        "profile_url": "https://www.linkedin.com/in/jennifer-radtke-56bb29210/"
       },
       "reason": "The post concerns aviation and engineering education, accredited engineering technology curriculum, and Product Support Engineering pathways connected with TeamBoeing. It is adjacent to the profile's aerospace engineering background but does not present a job or direct technical project opportunity.",
       "content_angle": "Discuss how flight-control, simulation, and systems-engineering competencies can be translated into practical aviation engineering and product-support curricula.",
@@ -14702,7 +14992,9 @@
         "hiring_roles": [],
         "profile_matches": [
           "aerospace"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 26,
@@ -14737,7 +15029,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена авиационному и инженерному образованию, аккредитованной учебной программе по инженерным технологиям и направлениям Product Support Engineering, связанным с TeamBoeing. Она смежна с аэрокосмическим инженерным опытом профиля, но не представляет вакансию или прямую возможность участия в техническом проекте."
     },
@@ -14843,7 +15136,9 @@
         "profile_matches": [
           "navigation",
           "simulation"
-        ]
+        ],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 30,
@@ -14893,7 +15188,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Публикация посвящена физически обоснованной симуляции акустики электромобилей с использованием специализированных инструментов и моделей пониженного порядка. Это смежно с опытом профиля в моделировании, симуляции и междисциплинарной инженерии, однако NVH и автомобильная акустика не относятся к основным целевым областям."
     },
@@ -14986,7 +15282,9 @@
         "hiring_detected": false,
         "hiring_intent": "none",
         "hiring_roles": [],
-        "profile_matches": []
+        "profile_matches": [],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 27,
@@ -15030,7 +15328,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 2,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Вывод: публикация не является прямой инженерной возможностью или возможностью трудоустройства, но освещает Astana Hub, международные технологические сообщества, AI и возможности для взаимодействия инженеров и основателей в Казахстане. Автор является подтверждённым senior contact в технологической экосистеме, поэтому публикация более ценна для нетворкинга, чем для немедленного поиска подходящей работы."
     },
@@ -15123,7 +15422,9 @@
         "hiring_detected": false,
         "hiring_intent": "none",
         "hiring_roles": [],
-        "profile_matches": []
+        "profile_matches": [],
+        "constraints": [],
+        "constraint_penalty": 0
       },
       "freshness": {
         "age_days": 27,
@@ -15169,7 +15470,8 @@
         "hiring": 0,
         "exact_hiring_match": 0,
         "opportunity": 0,
-        "priority": 1
+        "priority": 1,
+        "constraints": 0
       },
       "reason_ru": "Автор явно сообщает, что присоединилась к MathWorks. MathWorks релевантна профилю, поскольку специалист использует MATLAB и Simulink, однако в публикации не указаны роль автора, техническая работа или активность по найму. Автор и три упомянутых контакта создают потенциальные пути для нетворкинга, хотя их связь с инженерными возможностями не подтверждена."
     }
