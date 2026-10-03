@@ -1,0 +1,42 @@
+name: Rebuild Current Recommendations
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate recommendation scripts
+        run: |
+          python -m py_compile scripts/action_planner.py scripts/recommendation_rebuilder.py
+
+      - name: Rebuild recommendations from accumulated history
+        run: |
+          python scripts/recommendation_rebuilder.py \
+            --history-dir history/feed_signals \
+            --latest-signals feed_signals_latest.json \
+            --crm relationship_watchlist.json \
+            --relationships-dir linkedin_relationships \
+            --output recommendations_current.json
+
+      - name: Commit rebuilt recommendations
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add recommendations_current.json
+          if git diff --cached --quiet; then
+            echo 'No recommendation changes'
+            exit 0
+          fi
+          git commit -m "Rebuild current recommendations $(date -u +%F)"
+          git push
