@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T15:24:11.151805+00:00",
-  "source_generated_at": "2026-10-03T15:24:11.151805+00:00",
+  "generated_at": "2026-10-03T15:25:44.742464+00:00",
+  "source_generated_at": "2026-10-03T15:25:44.742464+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
     "outbound_actions": [
@@ -109,7 +109,8 @@
         "target_role": "Robotics and autonomous-systems practitioner",
         "target_reason": "The author shared a technically relevant resource covering SLAM, ROS2, localization and robotic mapping; the author's specific professional role is not stated.",
         "target_priority": "medium",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/"
       },
       "reason": "The post focuses on SLAM, localization, mapping, sensor data, autonomous robotics and navigation. These topics align with the profile's robotics, sensor fusion, navigation, autonomy and control interests, while C++ and Python match the stated technical toolkit. The post contains no hiring information.",
       "content_angle": "Inference: Discuss how SLAM concepts such as localization, sensor fusion and graph-based optimization can complement aerospace navigation, UAV autonomy and flight-control systems, while noting the differences between ground-robot and aerial-platform sensing and dynamics.",
@@ -193,7 +194,8 @@
         "target_role": "Hiring contact at Qubist Solutions",
         "target_reason": "The post explicitly requests resumes for a Firmware Engineer opportunity and was published by a first-degree contact, making the author or another identified hiring contact relevant to approach.",
         "target_priority": "high",
-        "company": "Qubist Solutions"
+        "company": "Qubist Solutions",
+        "profile_url": "https://www.linkedin.com/in/neha-s-1155231b8/"
       },
       "reason": "The post explicitly advertises a Firmware Engineer hiring opportunity in aerospace and avionics, with embedded, RTOS, verification, and safety-critical development requirements. This aligns with the profile's aircraft control, autopilot, embedded control, C/C++, and multidisciplinary aerospace experience, although the post emphasizes firmware verification more than flight-control algorithms.",
       "content_angle": "Share an original perspective on how safety-critical embedded software practices such as requirements traceability, verification, and real-time constraints interact with flight-control and avionics development.",
@@ -271,7 +273,8 @@
         "target_role": "Flight-control or navigation engineering lead at Embention",
         "target_reason": "A relevant technical contact could provide insight into Veronte KAI 2.0 architecture, GPS-denied navigation, and integration requirements. No specific person is identified in the post.",
         "target_priority": "low",
-        "company": "Embention"
+        "company": "Embention",
+        "company_url": "https://www.linkedin.com/company/embention/"
       },
       "reason": "The post describes Embention's 190-gram Veronte KAI 2.0 flight control computer for one-way attack drones, emphasizing autonomy and navigation reliability in GPS-denied environments. This closely matches the profile's experience in flight-control systems, autopilots, UAVs, guidance, navigation, control, and autonomous systems. No hiring opportunity or specific person is identified.",
       "content_angle": "Inference: Discuss how layered positioning, navigation and timing architectures can improve robustness of UAV autonomy in GPS-denied environments, drawing on original expertise in flight dynamics, control-law design, sensor fusion, autopilots, and validation rather than repeating the product announcement.",
@@ -422,7 +425,8 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": "Sky-Drones"
+        "company": "Sky-Drones",
+        "company_url": "https://www.linkedin.com/company/sky-drones/"
       },
       "reason": "The post describes a VTOL UAV platform with autonomous take-off, transition, long-range mission flight, landing, BVLOS operation, and integrated flight-control, communications, and cloud technologies. These areas closely match the profile's flight-control, UAV, VTOL, autopilot, autonomy, simulation, and multidisciplinary R&D expertise. No hiring or specific networking contact is identified.",
       "content_angle": "An original expert perspective could discuss the control-system challenges of reliable autonomous VTOL transition and BVLOS operations, including how flight control, communications, and cloud infrastructure should be integrated while preserving operational robustness.",
@@ -506,7 +510,9 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": "MathWorks"
+        "company": "MathWorks",
+        "profile_url": "https://www.linkedin.com/in/melda-ulusoy/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The post directly addresses control systems engineering, MATLAB/Simulink, model-based design, simulation, embedded deployment, and inspectable verification workflows, all closely aligned with the profile's flight-control, autopilot, modeling, and simulation expertise. It also provides a relevant reason to engage with the author and monitor MathWorks-related engineering content, but contains no hiring indication.",
       "content_angle": "Discuss how agentic AI could assist flight-control model development while preserving traceability, verification evidence, simulation validity, and human review for safety-critical systems.",
@@ -591,7 +597,8 @@
         "target_role": "PNT and navigation technology specialist",
         "target_reason": "The author published a technically detailed analysis of MagNav, GPS-denied navigation and alternative PNT error models, making him a relevant person for a professional discussion about navigation robustness and autonomous aerospace systems.",
         "target_priority": "high",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/sachinjainphd/"
       },
       "reason": "The post directly concerns navigation, autonomy, GPS-denied operation, sensor-based positioning and aerospace defense flight testing. These topics strongly align with the profile's flight-control, GNC, navigation, sensor-fusion, UAV and autonomous-systems experience. It also provides a relevant technical person to engage with, although no hiring opportunity is stated.",
       "content_angle": "Discuss how changing the navigation error model can influence flight-control and autonomy architecture, comparing magnetic-map matching with inertial drift, terrain-relative navigation and sensor-fusion strategies without reproducing the author's specific test summary.",
@@ -667,7 +674,9 @@
         "target_role": "Lead flight control engineer",
         "target_reason": "The author holds a senior role directly aligned with flight-control engineering and may be a relevant peer or technical contact.",
         "target_priority": "high",
-        "company": "AltoVolo"
+        "company": "AltoVolo",
+        "profile_url": "https://www.linkedin.com/in/mohamad-omari-693a59202/",
+        "company_url": "https://www.linkedin.com/company/altovolo/"
       },
       "reason": "The author has started a confirmed Lead flight control engineer position at AltoVolo, directly matching the profile's flight-control and senior engineering focus. The post identifies a relevant technical person and a company worth monitoring, but it does not announce a vacancy or hiring activity.",
       "content_angle": "Congratulate the author and add an original perspective on the importance of flight-control engineering leadership in advanced aerospace or autonomous systems.",
@@ -754,7 +763,9 @@
         "target_role": "Hiring-post author",
         "target_reason": "The author published an explicit hiring post for a closely matching engineering role and may provide additional application or position context.",
         "target_priority": "high",
-        "company": "Embention"
+        "company": "Embention",
+        "profile_url": "https://www.linkedin.com/in/julietagonzalezmarasco/",
+        "company_url": "https://www.linkedin.com/company/embention/"
       },
       "reason": "The post explicitly advertises a Flight Control & Simulation Engineer position involving flight dynamics, control laws, MATLAB/Simulink, SIL/HIL, UAVs and eVTOLs. These requirements closely match the profile's flight control, autopilot, simulation, UAV/eVTOL and MATLAB/Simulink background. The position is on-site in Vienna, which is a potential constraint because the profile gives remote work high priority.",
       "content_angle": "Inference: Share an original expert perspective on practical SIL/HIL validation workflows for UAV and eVTOL flight-control systems, including the transition from simulation to real flight testing.",
@@ -844,7 +855,9 @@
         "target_role": "Autonomy Engineer",
         "target_reason": "Balram Kandoria authored the technical post and works on Kalman-filter-based flight management modeling for AAM aircraft, closely matching the profile's flight-control, navigation, and autonomous-systems background.",
         "target_priority": "high",
-        "company": "SkyGrid"
+        "company": "SkyGrid",
+        "profile_url": "https://www.linkedin.com/in/balram-kandoria1/",
+        "company_url": "https://www.linkedin.com/company/aiaa/"
       },
       "reason": "The post directly concerns autonomous AAM aircraft, flight management modeling, Kalman filtering, route-error correction, arrival-time prediction, and automated flight-plan validation. These topics closely match the profile's experience in flight dynamics, guidance and navigation, control systems, simulation, autopilot algorithms, and autonomous aerial systems. It also identifies two relevant autonomy engineers at SkyGrid, creating a concrete networking opportunity.",
       "content_angle": "Share an original expert perspective on how waypoint progress and control-input-dependent filter trust can affect flight-control validation, arrival-time uncertainty, and the transition from simulation models to operational AAM systems.",
@@ -997,7 +1010,8 @@
         "target_role": "Flight Controls or Flight Dynamics hiring contact",
         "target_reason": "Sarla Aviation is explicitly hiring in areas closely aligned with the profile, but the post does not identify which named person handles hiring.",
         "target_priority": "high",
-        "company": "Sarla Aviation"
+        "company": "Sarla Aviation",
+        "profile_url": "https://www.linkedin.com/in/adrnschm/"
       },
       "reason": "The post explicitly announces hiring across Flight Controls and Flight Dynamics, directly matching the profile's primary expertise in flight-control systems, autopilots, flight dynamics, simulation and aircraft development. The author and three mentioned people are identifiable networking targets, although their roles are not stated.",
       "content_angle": "Share an original perspective on the engineering challenges of developing flight-control laws, flight-dynamics models and simulation infrastructure for novel aircraft categories.",
@@ -1145,7 +1159,9 @@
         "target_role": "Head of the Unmanned Aircraft Department at the DLR Institute of Flight Systems",
         "target_reason": "A confirmed senior technical leader whose department works on unmanned aircraft research, modelling, control, safe autonomy, and certification.",
         "target_priority": "high",
-        "company": "German Aerospace Center (DLR)"
+        "company": "German Aerospace Center (DLR)",
+        "profile_url": "https://www.linkedin.com/in/johann-dauer-702184317/",
+        "company_url": "https://www.linkedin.com/company/department-daer-polimi/"
       },
       "reason": "The post directly concerns unmanned aircraft modelling, control, safe autonomy, operations, and certification, closely matching the profile's flight-control, UAV, simulation, GNC, and autonomous-systems expertise. Johann Dauer is a concrete senior technical contact in a highly relevant aerospace research area.",
       "content_angle": "Offer an original perspective on the engineering connection between flight-control design, model-based simulation, operational safety evidence, and certification of autonomous UAVs, drawing on the challenge of demonstrating safe behavior in changing weather and shared airspace.",
@@ -1300,7 +1316,9 @@
         "target_role": "Grants Specialist",
         "target_reason": "The author works on public funding and explicitly invites aerospace, defense and UAS R&D participants to contact him about consortium collaboration.",
         "target_priority": "high",
-        "company": "Embention"
+        "company": "Embention",
+        "profile_url": "https://www.linkedin.com/in/roberto-moroll%C3%B3n-ruiz/",
+        "company_url": "https://www.linkedin.com/company/embention/"
       },
       "reason": "Embention is described as developing autopilots and control systems for unmanned aircraft, directly matching the profile's UAV, flight-control and autonomous-systems focus. The author explicitly invites people working in aerospace R&D, defense or UAS to discuss consortium collaboration, creating a relevant networking opportunity, but the post does not advertise a job.",
       "content_angle": "Inference: Share an original perspective on how flight-control and UAV R&D requirements can be translated into clear technical work packages, eligibility arguments and consortium contributions for public funding proposals.",
@@ -1376,7 +1394,8 @@
         "target_role": "Relevant autonomous-aircraft project contact",
         "target_reason": "Kevin Antcliff authored a post about the J208 autonomous aircraft and its cross-country demonstration, making him a potentially relevant contact for autonomous flight and UAV systems.",
         "target_priority": "medium",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/kevinantcliff/"
       },
       "reason": "The post describes a cross-country demonstration of the J208 autonomous aircraft and a gate-to-gate autonomous system, directly matching the profile's experience in flight control, UAVs, autonomous systems, flight dynamics, and validation. It also identifies Kevin Antcliff as a relevant person connected to this work, although his role and company are not stated.",
       "content_angle": "Offer an original expert perspective on the engineering challenges of validating gate-to-gate autonomy during long-range cross-country operations, such as flight-test coverage, contingency handling, telemetry analysis, and transition between varied environments.",
@@ -1456,7 +1475,9 @@
         "target_role": "Lead of Airborne Systems",
         "target_reason": "Vijay Singh is explicitly identified as the technical lead responsible for a flight computer, firmware, propulsion, energy management and ground communication systems.",
         "target_priority": "high",
-        "company": "Sarla Aviation"
+        "company": "Sarla Aviation",
+        "profile_url": "https://www.linkedin.com/in/vijay-singh-335a20119/",
+        "company_url": "https://www.linkedin.com/company/sarla-aviation/"
       },
       "reason": "Inference: The post is strongly aligned with the profile's experience in flight-control systems, autopilots, aircraft systems, vertical flight, embedded software, propulsion-related control and energy management. Vijay Singh is a specifically identified technical leader at an aviation company, creating a strong reason to follow or connect.",
       "content_angle": "Share an original expert perspective on the control-system challenges of vertical flight, such as maintaining stability during hover, integrating flight computers with propulsion and energy management, and validating first-flight behavior through simulation and testing.",
@@ -1529,7 +1550,8 @@
         "target_role": "Technical lead in autonomous surface vessels or marine controls",
         "target_reason": "Identify technical decision-makers at Open Ocean Robotics or through SMM who work on autonomous vessel guidance, navigation, stabilization, or control systems.",
         "target_priority": "medium",
-        "company": "Open Ocean Robotics"
+        "company": "Open Ocean Robotics",
+        "company_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/"
       },
       "reason": "Open Ocean Robotics describes autonomous surface vessels for defence, security, and ocean operations. This closely matches the profile’s target expansion into marine autonomy, autonomous vessel control, navigation, stabilization, and robotics. The post also provides a direct opportunity to engage with the company at SMM Hamburg, but it contains no hiring announcement.",
       "content_angle": "Discuss how flight-control, GNC, simulation, and telemetry practices can transfer to autonomous surface vessels, including differences in marine dynamics, environmental disturbances, and navigation constraints.",
@@ -1603,7 +1625,8 @@
         "target_role": "Saildrone engineering hiring contact",
         "target_reason": "Identify the appropriate contact for the unspecified engineering openings mentioned in the post and assess whether any involve autonomy, navigation, controls or simulation.",
         "target_priority": "high",
-        "company": "Saildrone"
+        "company": "Saildrone",
+        "company_url": "https://www.linkedin.com/company/saildrone-inc/posts/"
       },
       "reason": "Saildrone explicitly states that it is hiring roughly two dozen people across engineering and other functions. The company’s work on autonomous maritime platforms, defense, ocean mapping and NOAA missions is strongly adjacent to the profile’s autonomous-systems, control, navigation, simulation and marine-autonomy interests. The post does not specify an open flight-controls, GNC or marine-controls role, so the exact technical fit requires job review.",
       "content_angle": "Inference: publish an original expert perspective on how flight-control, GNC, simulation and mission-assurance methods can transfer from UAVs and eVTOLs to autonomous USVs operating in defense, ocean-mapping and severe-weather missions.",
@@ -1691,7 +1714,8 @@
         "target_role": "Aerospace freelance opportunity contact",
         "target_reason": "The author invites experienced specialists to request details about freelance aerospace opportunities involving flight-control computing and related safety-critical engineering.",
         "target_priority": "high",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/iram-z-7633a727b/"
       },
       "reason": "The post explicitly describes demand for freelance aerospace specialists in flight-control computing, avionics, embedded systems and safety-critical architectures. These areas closely match the profile's flight-control, autopilot, flight-dynamics, simulation, UAV, embedded-control and multidisciplinary aerospace background. The freelance and contract focus also aligns with the profile's consulting preference, although no specific vacancy, employer or remote arrangement is provided.",
       "content_angle": "Inference: contribute an original perspective on the practical connection between flight-control laws, redundancy management, real-time embedded implementation, simulation-based validation and certification constraints in safety-critical aircraft systems.",
@@ -1768,7 +1792,8 @@
         "target_role": "Author and hiring contact for the Ignition Systems team",
         "target_reason": "The author explicitly announced hiring for Level I and Level II positions at Relativity Space.",
         "target_priority": "high",
-        "company": "Relativity Space"
+        "company": "Relativity Space",
+        "profile_url": "https://www.linkedin.com/in/venkata-devalaraju/"
       },
       "reason": "The author explicitly states that Relativity Space is hiring for its Ignition Systems team and provides Level I and Level II application links. The aerospace and mission-critical systems context is adjacent to the profile's flight-control, aircraft, UAV and autonomous-systems experience, although the post does not provide enough detail to confirm a direct controls or GNC match.",
       "content_angle": "Offer an original perspective on how model-based development, simulation, telemetry analysis and fault-tolerant control principles can support verification of mission-critical aerospace systems, without claiming direct ignition-system experience.",
@@ -1846,7 +1871,8 @@
         "target_role": "Technical lead in unmanned surface vehicle autonomy at Saildrone",
         "target_reason": "Identify the engineering contact responsible for autonomous vessel control, navigation, mission planning or real-time observation systems behind the described mission.",
         "target_priority": "medium",
-        "company": "Saildrone"
+        "company": "Saildrone",
+        "company_url": "https://www.linkedin.com/company/noaa/"
       },
       "reason": "The post describes a real-world marine autonomy mission using unmanned surface vehicles for persistent environmental observation. This closely aligns with the profile's stated expansion into marine autonomy, autonomous vessels, navigation and control of mobile platforms, while also offering relevant material for original commentary on endurance, telemetry, mission planning, sensor coverage and autonomous operations. No hiring opportunity is stated.",
       "content_angle": "Discuss how long-endurance autonomous surface vehicles can complement buoys, floats and satellites by closing spatial and temporal observation gaps, with an expert perspective on navigation reliability, mission planning, telemetry quality and control-system resilience in remote ocean operations.",
@@ -1927,7 +1953,9 @@
         "target_role": "eVTOL or autonomous-flight engineer",
         "target_reason": "The author explicitly describes engineering work on the development and flight testing of a full-sized eVTOL involving autonomous flight and avionics.",
         "target_priority": "high",
-        "company": "Embention"
+        "company": "Embention",
+        "profile_url": "https://www.linkedin.com/in/pablo-ceacero-escrig/",
+        "company_url": "https://www.linkedin.com/company/embention/"
       },
       "reason": "The post describes an eVTOL development and flight-testing project involving autonomous flight, avionics, integration, and engineering problem-solving. These areas closely match the profile’s experience in eVTOL flight dynamics, control systems, autopilot algorithms, simulation, and autonomous systems. The author is a concrete relevant engineering contact, and Embention is a relevant company to monitor, although no hiring is stated.",
       "content_angle": "Discuss how multidisciplinary integration, flight-test feedback, and structured problem-solving help move eVTOL autonomous-flight systems from development into successful flight demonstrations.",
@@ -2013,7 +2041,9 @@
         "target_role": "Software Systems Engineer in autonomous aviation",
         "target_reason": "The author is identified as a Software Systems Engineer at DoorDash Labs and formerly at Joby Aviation, with a stated focus on integrating technology, aviation and autonomy.",
         "target_priority": "high",
-        "company": "Joby Aviation"
+        "company": "Joby Aviation",
+        "profile_url": "https://www.linkedin.com/in/bmather9/",
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
       },
       "reason": "The post directly concerns autonomous aircraft, retrofit autonomy, remote supervision, navigation, weather rerouting and cargo or defense logistics. These topics closely match the profile's experience in flight controls, autopilot algorithms, flight dynamics, UAV and eVTOL systems, simulation, telemetry and autonomous platforms. The author is a concrete, relevant aviation-autonomy contact, although the post contains no hiring signal.",
       "content_angle": "Discuss how autonomous retrofits shift near-term aviation autonomy from clean-sheet aircraft development toward integration challenges: flight-control validation, remote-operations architecture, weather-aware rerouting, certification and telemetry for existing airframes.",
@@ -2091,7 +2121,9 @@
         "target_role": "Head of Product at SkyGrid",
         "target_reason": "Brenden Hedblom is identified as the author and discusses SkyGrid's collaboration with Wisk on safe and scalable autonomous flight.",
         "target_priority": "high",
-        "company": "SkyGrid"
+        "company": "SkyGrid",
+        "profile_url": "https://www.linkedin.com/in/brenden-hedblom/",
+        "company_url": "https://www.linkedin.com/company/wisk-aero/"
       },
       "reason": "The post directly concerns advanced air mobility, autonomous flight, and safe integration into shared airspace, closely matching the profile's eVTOL, UAV, flight-control, autonomy, and aerospace focus. The author is identified as Head of Product at SkyGrid, providing a concrete relevant person for professional networking. No hiring opportunity is stated.",
       "content_angle": "Offer an original expert perspective on the flight-control, autonomy, simulation, and safety-validation challenges involved in scaling autonomous eVTOL operations within shared airspace.",
@@ -2310,7 +2342,8 @@
         "target_role": "SkyGrid flight-planning or autonomy technical lead",
         "target_reason": "Inference: the post's technical subject suggests a potentially relevant person to identify for future discussion of strategic flight planning, uncertainty modeling, and AAM systems.",
         "target_priority": "low",
-        "company": "SkyGrid"
+        "company": "SkyGrid",
+        "company_url": "https://www.linkedin.com/company/aiaa/"
       },
       "reason": "The post directly concerns flight planning, uncertainty modeling, navigation-related estimation, and simulation in advanced air mobility. These topics align closely with the profile's flight dynamics, GNC, autopilot, simulation, and autonomous aerial systems experience. No hiring or author identity is provided.",
       "content_angle": "Discuss how uncertainty models based on continuous FMS corrections can reduce conservatism in strategic flight planning, connecting the topic to flight-dynamics modeling, estimator design, and validation of autonomous aerial operations.",
@@ -2389,7 +2422,9 @@
         "target_role": "CEO",
         "target_reason": "Billy Thalheimer is explicitly identified as REGENT Craft's CEO, a potentially relevant senior contact for marine vehicle and flight-control engineering topics.",
         "target_priority": "high",
-        "company": "REGENT Craft"
+        "company": "REGENT Craft",
+        "profile_url": "https://www.linkedin.com/in/olubayosam/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "Inference: The post strongly aligns with the profile's flight controls, MATLAB/Simulink, simulation, digital-twin, and marine autonomy interests. It also identifies REGENT Craft and CEO Billy Thalheimer as relevant people or company contacts, although no hiring activity is stated.",
       "content_angle": "Offer an original expert perspective on how model-based design and hardware-in-the-loop validation can de-risk transitions between hull-borne, hydrofoil, and ground-effect flight modes, including failure-case coverage and repeatability metrics.",
@@ -2543,7 +2578,9 @@
         "target_role": "PhD researcher in astrodynamics and relative navigation",
         "target_reason": "Alessandro Michelazzi is the post author and presented work on GNSS-based relative navigation and close formation flying. Inference: his research may provide a relevant technical connection to the profile's navigation, control and autonomous-systems expertise.",
         "target_priority": "high",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/alessandro-michelazzi-270/",
+        "company_url": "https://www.linkedin.com/company/department-daer-polimi/"
       },
       "reason": "The post covers spacecraft guidance, navigation and control, relative navigation, trajectory optimisation, formation flying and collision avoidance. These topics strongly overlap with the profile's GNC, navigation, trajectory control, simulation and autonomous-systems background. The author and other named researchers are concrete potential technical contacts in an adjacent space-navigation domain. No hiring signal is stated.",
       "content_angle": "Inference: discuss an original cross-domain comparison between spacecraft relative navigation and UAV formation control, focusing on how low-thrust or constrained-actuation manoeuvre planning concepts could inform autonomous aerial systems without copying the post's research content.",
@@ -2627,7 +2664,8 @@
         "target_role": "Post author",
         "target_reason": "Mario Srouji authored a technically relevant post about aviation communications, onboard AI and aviation safety; he is a concrete person to follow or engage with regarding adjacent aviation autonomy and safety-critical systems.",
         "target_priority": "high",
-        "company": "Archer"
+        "company": "Archer",
+        "profile_url": "https://www.linkedin.com/in/mariojohnsrouji/"
       },
       "reason": "The post describes an aviation-focused, real-time, offline and on-device AI system for interpreting ATC communications, grounding terminology to geographic context, and structuring safety-critical commands. This strongly overlaps with the profile's aviation systems, autonomy, onboard systems, simulation, telemetry and safety-critical engineering background, although the post focuses on speech and language technology rather than flight controls or GNC.",
       "content_angle": "Discuss how structured, time-indexed ATC communications could complement flight-control and autonomy systems by improving command verification, telemetry traceability, human-machine coordination and safety analysis, while noting the need for deterministic validation in safety-critical workflows.",
@@ -2780,7 +2818,8 @@
         "target_role": "mission autonomy technical lead at Anduril or Hermeus",
         "target_reason": "Identify technical leaders responsible for integrating autonomy software with high-speed aircraft and coordinated missions, which is closely related to the profile's flight-control and autonomous-systems expertise.",
         "target_priority": "high",
-        "company": "Anduril"
+        "company": "Anduril",
+        "company_url": "https://www.linkedin.com/company/hermeus/"
       },
       "reason": "The post describes end-to-end mission autonomy for the Hermeus Quarterhorse Mk 2, including planning, execution and debriefing for high-speed aircraft. This closely matches the profile's experience in flight control, autopilot algorithms, flight dynamics, UAV/eVTOL systems, simulation and autonomous missions. No hiring opportunity is stated.",
       "content_angle": "An original expert perspective could discuss the engineering challenges of integrating mission-level autonomy with flight-control and vehicle-level systems across the full lifecycle: pre-mission planning, execution, coordination and post-mission debriefing.",
@@ -2866,7 +2905,8 @@
         "target_role": "MathWorks research or engineering community contact",
         "target_reason": "The summit is intended to build research collaborations and connections around engineered system design, MATLAB, Simulink, and AI.",
         "target_priority": "high",
-        "company": "MathWorks"
+        "company": "MathWorks",
+        "profile_url": "https://www.linkedin.com/in/rajhans/"
       },
       "reason": "The post announces MathWorks Research Summit India, focused on engineered system design in the age of AI, and explicitly features MATLAB and Simulink. This aligns with the profile's flight-control, simulation, modeling, and autonomous-systems expertise. The event also offers a concrete opportunity to identify and connect with relevant MathWorks research and engineering contacts, although it is invitation-based rather than a job opening.",
       "content_angle": "Discuss how model-based design, simulation, and control-system validation can help move AI-enabled aerospace or autonomous-system research from exploration to deployable engineering impact.",
@@ -2943,7 +2983,9 @@
         "target_role": "Chief Engineer",
         "target_reason": "David King is the post author and is described as a Chief Engineer working on a new electric aircraft, making him a relevant senior aerospace engineering contact.",
         "target_priority": "high",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/david-king-6818293/",
+        "company_url": "https://www.linkedin.com/company/businessinsider/"
       },
       "reason": "The author is identified as a Chief Engineer involved in developing a new electric aircraft, which aligns with the profile's aerospace, eVTOL, flight-control and autonomous-systems focus. The post also provides a concrete senior engineering person to follow or connect with.",
       "content_angle": "Inference: offer an original perspective on how engineers can manage uncertainty in electric-aircraft development, connecting the post's 'unknown' theme with disciplined modeling, simulation and validation practices.",
@@ -3028,7 +3070,9 @@
         "target_role": "advanced air mobility technical or program stakeholder",
         "target_reason": "Inference: People involved in Project Nexus and Texas eIPP may be relevant contacts for eVTOL integration, autonomy, flight operations, and regulatory deployment.",
         "target_priority": "high",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/shtofman/",
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
       },
       "reason": "The post directly concerns eVTOL, autonomy-enabled aircraft, aircraft sensors, flight operations, and the regulatory integration of advanced air mobility into an active airport environment. These topics closely match the profile's flight-controls, UAV/eVTOL, autonomy, simulation, and multidisciplinary aerospace focus. The author and named participants may provide relevant industry-network access, but the post does not establish their specific job titles or hiring authority.",
       "content_angle": "Discuss how operating eVTOL aircraft in a busy airport environment provides a stronger systems-integration test than isolated demonstrations, focusing on autonomy, sensor integration, traffic coexistence, safety validation, and the role of flight-control engineering in scaling commercial operations.",
@@ -3106,7 +3150,9 @@
         "target_role": "Advanced Air Mobility engineering professional",
         "target_reason": "The author discusses contributing to engineering efforts at Eve Air Mobility and Embraer, making her potentially relevant for domain networking; her exact role is not stated.",
         "target_priority": "medium",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/isabel-lima-0b889912b/",
+        "company_url": "https://www.linkedin.com/company/evtolinsights/"
       },
       "reason": "The post concerns eVTOL and Advanced Air Mobility engineering at Eve Air Mobility and Embraer, directly matching the profile's flight-control, eVTOL, aviation, and autonomous-systems focus. The author is a concrete professional contact associated with this domain, although her specific role is not stated.",
       "content_angle": "Discuss how multidisciplinary engineering collaboration, safety, and sustainability influence the development of eVTOL control, autonomy, and flight-system architectures.",
@@ -3187,7 +3233,8 @@
         "target_role": "Sarla Aviation eVTOL engineering team member",
         "target_reason": "The post names women described as designing and building Sarla Aviation's electric aircraft; they may be relevant contacts for eVTOL engineering networking.",
         "target_priority": "high",
-        "company": "Sarla Aviation"
+        "company": "Sarla Aviation",
+        "profile_url": "https://www.linkedin.com/in/vijeta-tantry/"
       },
       "reason": "The post highlights Sarla Aviation's electric air taxi and identifies women involved in designing and building the eVTOL aircraft. This aligns strongly with the profile's eVTOL, flight-control, aircraft-development and multidisciplinary aerospace background, while offering concrete people and company networking targets. No hiring opportunity is stated.",
       "content_angle": "Offer an original perspective on the multidisciplinary engineering challenges of eVTOL development, such as connecting aircraft architecture, flight controls, simulation, avionics and testing, while acknowledging the importance of expanding participation in core aerospace technology roles.",
@@ -3260,7 +3307,8 @@
         "target_role": "Technical lead for GNSS integrity, navigation or autonomous flight",
         "target_reason": "The VARIANT project concerns real-time detection of jamming and spoofing and integration with autonomous-flight airspace management, creating a strong technical basis for identifying relevant specialists.",
         "target_priority": "medium",
-        "company": "SkyGrid"
+        "company": "SkyGrid",
+        "company_url": "https://www.linkedin.com/company/variant-consortium/"
       },
       "reason": "The post directly addresses GNSS degradation, autonomous aircraft, flight planning, contingency management and airspace safety in Advanced Air Mobility. These topics align closely with the profile's experience in eVTOL flight control, guidance and navigation, autopilot algorithms, autonomous systems and safety-oriented control development.",
       "content_angle": "Discuss how GNSS interference detection can feed navigation integrity monitoring, degraded-mode flight-control logic and contingency trajectory planning for autonomous eVTOL operations.",
@@ -3323,7 +3371,9 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/bonnysimi/",
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
       },
       "reason": "обнаружен hiring-сигнал; технологии: eVTOL; домены: aerospace, defense; совпадение с профилем: aerospace, eVTOL.",
       "content_angle": null,
@@ -3396,7 +3446,8 @@
         "target_role": "Marmara Racing technical or engineering lead",
         "target_reason": "Inference: a technical lead associated with the team could be relevant for understanding its simulation, modeling, and vehicle-performance engineering work.",
         "target_priority": "low",
-        "company": "MathWorks"
+        "company": "MathWorks",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The post describes Marmara Racing using MathWorks MATLAB and Simulink for vehicle performance analysis, system modeling, data evaluation, and engineering process improvement. This aligns strongly with the profile's experience in MATLAB/Simulink, flight dynamics, control-system modeling, simulation, and telemetry analysis, although the post concerns motorsport rather than aerospace or UAV systems. No hiring opportunity is stated.",
       "content_angle": "Discuss how model-based design, simulation, and data-driven validation used in motorsport can also improve flight-control development, autonomous vehicles, and other safety-critical engineering systems.",
@@ -3530,7 +3581,8 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": "Eve Air Mobility"
+        "company": "Eve Air Mobility",
+        "company_url": "https://www.linkedin.com/company/eveairmobility/posts/"
       },
       "reason": "The post discusses eVTOL urban mobility and the strategic importance of energy and charging infrastructure. This aligns with the profile's eVTOL development, flight-control architecture, simulation, autopilot and energy-aware trajectory-planning experience, but the post contains no hiring or specific role signal.",
       "content_angle": "Inference: Explain how charging infrastructure, energy constraints and turnaround requirements affect eVTOL mission planning, flight-control validation and operational availability.",
@@ -3608,7 +3660,9 @@
         "target_role": "Author; professional role not stated",
         "target_reason": "The author posted about a concrete achievement in autonomous UAV navigation and computer vision, making them a potentially relevant person to monitor, but the post does not establish their technical or organizational role.",
         "target_priority": "low",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/vassilis-diakoloukas-b581ba5/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The post describes a winning university minidrone project involving autonomous navigation, computer vision, simulation, and real-world flight. These areas closely match the profile's UAV, autonomy, flight-control, simulation, and computer-vision expertise. No job, hiring intent, or professional role is stated for the people mentioned.",
       "content_angle": "Share an original expert perspective on the engineering challenges of moving autonomous navigation and computer-vision algorithms from simulation into reliable real-world UAV flight, including validation, robustness, and flight-test considerations.",
@@ -3687,7 +3741,9 @@
         "target_role": "Author",
         "target_reason": "Nate Glasscock publicly supports SkyRunner, LLC and may provide a relevant path to information about the company's autonomous flight activities.",
         "target_priority": "medium",
-        "company": "SkyRunner, LLC"
+        "company": "SkyRunner, LLC",
+        "profile_url": "https://www.linkedin.com/in/nathan-glasscock/",
+        "company_url": "https://www.linkedin.com/company/skyrunner-llc/"
       },
       "reason": "The post directly concerns autonomous flight testing, uncrewed platforms, and defense applications, closely matching the profile's UAV, autonomy, flight-control, and simulation focus. It provides no explicit hiring information, but identifies SkyRunner, LLC and an author who publicly supports the company.",
       "content_angle": "Inference: Comment on the importance of rigorous autonomous flight-test validation, resilience, and adaptability for uncrewed systems operating in complex defense environments.",
@@ -3758,7 +3814,8 @@
         "target_role": "Post author",
         "target_reason": "Phil Scott authored a post about a first flight in an electric aviation project, making him a potentially relevant aerospace contact despite no stated role or company relationship.",
         "target_priority": "medium",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/phil-scott-78658511a/"
       },
       "reason": "The post describes a first flight involving ALIA and electric aviation, which aligns with the profile's aerospace, eVTOL and flight-control focus. No hiring or specific technical role is stated.",
       "content_angle": "Share an original expert perspective on the engineering significance of first-flight milestones for electric aircraft, such as the role of flight-dynamics modeling, control-law validation and flight-test telemetry.",
@@ -3826,7 +3883,9 @@
         "target_role": "Dean",
         "target_reason": "Mentioned as a partner in developing aviation and engineering curriculum pathways relevant to the aerospace domain.",
         "target_priority": "medium",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/jennifer-radtke-56bb29210/",
+        "company_url": "https://www.linkedin.com/company/boeing/"
       },
       "reason": "The post concerns aviation and engineering education, accredited engineering technology curriculum, and Product Support Engineering pathways connected with TeamBoeing. It is adjacent to the profile's aerospace engineering background but does not present a job or direct technical project opportunity.",
       "content_angle": "Discuss how flight-control, simulation, and systems-engineering competencies can be translated into practical aviation engineering and product-support curricula.",
@@ -3900,7 +3959,9 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": "Joby Aviation"
+        "company": "Joby Aviation",
+        "profile_url": "https://www.linkedin.com/in/achickinthecockpitb727/",
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
       },
       "reason": "The post discusses the historical reduction of flight-deck crew size and the possibility of pilotless cockpits, which connects to the profile's experience in aircraft flight controls, autopilot algorithms, flight dynamics, and autonomous systems. It is a discussion topic rather than a job or project lead.",
       "content_angle": "Inference: Discuss how flight-control architecture, redundancy, certification, human factors, and operational safety could shape the transition from two-pilot cockpits toward increasingly autonomous aircraft.",
@@ -3983,7 +4044,8 @@
         "target_role": "Hiring contact or aviation/autonomous-systems lead at ADASI",
         "target_reason": "The author posted an explicit UAV Pilot opening at ADASI; connecting may help identify whether related flight-control, GNC or autonomous-systems engineering opportunities exist.",
         "target_priority": "medium",
-        "company": "ADASI"
+        "company": "ADASI",
+        "profile_url": "https://www.linkedin.com/in/nidhirajr/"
       },
       "reason": "The post explicitly advertises a UAV Pilot position at ADASI in the UAE and references autonomous aviation and advanced autonomous systems. The UAV, aviation and autonomy domains overlap with the profile, but the advertised pilot role is not a direct match for the profile's senior flight-control, GNC, simulation and engineering-leadership focus. The UAE location may also be less aligned with the profile's strong remote preference.",
       "content_angle": "Offer an original perspective on how UAV operational experience can be strengthened by robust autopilot validation, flight-dynamics simulation, telemetry analysis and safety-focused autonomy engineering.",
@@ -4134,7 +4196,8 @@
         "target_role": "Cadence technical specialist in NVH simulation",
         "target_reason": "Could provide relevant technical context on MSC Nastran, Actran and reduced-order modeling, although no specific person is identified in the post.",
         "target_priority": "low",
-        "company": "Cadence"
+        "company": "Cadence",
+        "company_url": "https://www.linkedin.com/company/cadence/posts/"
       },
       "reason": "The post concerns physics-based simulation of EV acoustics using specialized tools and reduced-order modeling. This is adjacent to the profile's modeling, simulation and multidisciplinary engineering background, but NVH and automotive acoustics are not core target domains.",
       "content_angle": "Discuss how model-based simulation and reduced-order models help manage coupled physical-system behavior, contrasting NVH workflows with simulation and control challenges in autonomous vehicles or aircraft.",
@@ -4207,7 +4270,8 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": "Sarla Aviation"
+        "company": "Sarla Aviation",
+        "company_url": "https://www.linkedin.com/company/sarla-aviation/posts/"
       },
       "reason": "The post describes a partnership between Sarla Aviation and Tata Elxsi to develop Shunya, an eVTOL aircraft for urban air mobility. This directly matches the profile's eVTOL, flight-control, aircraft-systems, simulation and autonomous-mobility background, but the post contains no hiring information or named technical contact.",
       "content_angle": "Offer an original expert perspective on the flight-control, simulation, verification and multidisciplinary integration challenges involved in developing eVTOL aircraft for urban air mobility, without assuming details about Shunya's architecture.",
@@ -4283,7 +4347,8 @@
         "target_role": "Founder of Anduril",
         "target_reason": "Named in the post and associated with a company working on aerospace and defense systems; the post provides context for monitoring the company's technical direction.",
         "target_priority": "low",
-        "company": "Anduril and Voyager Technologies"
+        "company": "Anduril and Voyager Technologies",
+        "company_url": "https://www.linkedin.com/company/voyagertechnologies-inc/"
       },
       "reason": "The post describes a major aerospace and defense partnership focused on propulsion, testing, manufacturing scale, and missile defense systems. These areas are adjacent to the profile's aerospace, UAV, flight-control, simulation, and multidisciplinary R&D background, although no specific controls or engineering role is identified.",
       "content_angle": "Discuss the engineering tradeoffs involved in scaling aerospace and defense systems from development and testing into reliable mass production, including how simulation, verification, and infrastructure investment support that transition.",
@@ -4356,7 +4421,8 @@
         "target_role": "President & CEO of Embraer Commercial Aviation",
         "target_reason": "The author is a confirmed senior leader in commercial aviation, and the post directly concerns an aircraft program relevant to the profile's aviation and flight-control background.",
         "target_priority": "medium",
-        "company": "Embraer"
+        "company": "Embraer",
+        "profile_url": "https://www.linkedin.com/in/arjanmeijer/"
       },
       "reason": "The post concerns Embraer's commercial aviation business and the worldwide milestone of 2,000 E-Jet deliveries. This aligns broadly with the profile's aircraft flight-control and aviation background, but it provides no specific technical details, role, or hiring information.",
       "content_angle": "Offer an original expert perspective on how flight-control maturity, operational reliability, and lifecycle support can contribute to the global adoption of commercial aircraft, without repeating the post's promotional wording.",
@@ -4431,7 +4497,8 @@
         "target_role": "Flight controls or GNC technical lead at Rocket Lab",
         "target_reason": "The post invites connections with people behind Rocket Lab programs, and this role would align more closely with the profile's flight-control, autonomy and aerospace expertise.",
         "target_priority": "medium",
-        "company": "Rocket Lab"
+        "company": "Rocket Lab",
+        "company_url": "https://www.linkedin.com/company/rocket-lab-corp/posts/"
       },
       "reason": "Rocket Lab is promoting an explicit career networking event and applications for Manufacturing Technicians and Supply Chain Specialists, with work involving real hardware, missions, national security, deep space exploration and defense. The aerospace and space context is relevant to the profile, but the advertised roles are not directly aligned with flight controls, GNC, UAV systems or simulation.",
       "content_angle": "Share an original perspective on the engineering challenges of moving autonomous or flight-control systems from simulation into real hardware and operational missions, without presenting it as a response to a confirmed Rocket Lab technical vacancy.",
@@ -4575,7 +4642,9 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": "Joby Aviation"
+        "company": "Joby Aviation",
+        "profile_url": "https://www.linkedin.com/in/rahim786/",
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
       },
       "reason": "The post reports Joby Aviation flying electric air taxis across the Dallas-Fort Worth area as part of a federal pilot program, directly aligning with the profile's eVTOL, flight-control and autonomous-systems interests. It contains no hiring information.",
       "content_angle": "Inference: Offer an original expert perspective on the flight-control, validation and operational challenges involved in scaling eVTOL air-taxi demonstrations, without claiming details not provided in the post.",
@@ -4654,7 +4723,9 @@
         "target_role": "Airspace Integration Manager",
         "target_reason": "Sandro Salgueiro is explicitly identified in the post as an Airspace Integration Manager presenting on automated flight rules and highly automated aircraft integration.",
         "target_priority": "high",
-        "company": "SkyGrid"
+        "company": "SkyGrid",
+        "profile_url": "https://www.linkedin.com/in/arife-aycan-mutlu/",
+        "company_url": "https://www.linkedin.com/company/skygrid/"
       },
       "reason": "Inference: The post covers highly automated aircraft, UAS operations, airspace integration and future flight rules, which align with the profile's focus on UAV systems, autopilots, autonomy, flight control and aviation engineering. It also identifies a concrete technical professional, Sandro Salgueiro, working on airspace integration at SkyGrid.",
       "content_angle": "Inference: Develop an original expert perspective on how automated flight rules could affect autonomy architecture, detect-and-avoid behavior, mission planning, and control-system requirements for UAS operating in shared airspace.",
@@ -4730,7 +4801,9 @@
         "target_role": "CEO at Vertical",
         "target_reason": "Stuart Simpson is identified in the post as Vertical's CEO, and Vertical's eVTOL focus is directly relevant to the profile's target domain.",
         "target_priority": "high",
-        "company": "Vertical"
+        "company": "Vertical",
+        "profile_url": "https://www.linkedin.com/in/stuart-simpson-18a3643/",
+        "company_url": "https://www.linkedin.com/company/nyse/"
       },
       "reason": "The post concerns Vertical's eVTOL technology and Valo's potential to transform travel. This aligns directly with the profile's eVTOL, flight-control, autopilot, flight-dynamics and autonomous-systems focus. Stuart Simpson is identified as Vertical's CEO, making him a concrete senior person relevant to potential industry networking. No hiring or vacancy is stated.",
       "content_angle": "Offer an original expert perspective on the engineering challenges behind bringing eVTOL technology to life, such as the interaction between flight dynamics, control-law validation, transition behavior and autonomous-system reliability.",
@@ -4889,7 +4962,9 @@
         "target_role": "Sarla Aviation eVTOL flight-controls or GNC technical lead",
         "target_reason": "Inference: Identifying the technical lead could reveal relevant engineering work around eVTOL aircraft development and certification.",
         "target_priority": "high",
-        "company": "Sarla Aviation"
+        "company": "Sarla Aviation",
+        "profile_url": "https://www.linkedin.com/in/rakesh-gaonkar/",
+        "company_url": "https://www.linkedin.com/company/sarla-aviation/posts/"
       },
       "reason": "Inference: The post describes a direct eVTOL and advanced-air-mobility project involving aircraft development, operational integration, medical-bay design, transfer procedures, and certification. These areas align strongly with the profile's flight controls, flight dynamics, simulation, autonomy, and eVTOL experience. No hiring opportunity is stated.",
       "content_angle": "Original angle: discuss the control, safety, simulation, and certification challenges of designing an eVTOL air-ambulance service around patient handover, medical-bay constraints, emergency routing, and reliable inter-hospital operations.",
@@ -4972,7 +5047,8 @@
         "target_role": "DAER aerospace research participant",
         "target_reason": "Named in the post as involved in aerospace laboratory and research activities that may overlap with flight dynamics, simulation and autonomous-systems expertise.",
         "target_priority": "high",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/camilla-colombo-8520407/"
       },
       "reason": "The post describes aerospace and space research activities at Politecnico di Milano's DAER, including satellites, space missions, aircraft technologies, wind-tunnel testing and experimental safety research. These domains overlap with the profile's aerospace engineering and simulation background. The author and several named participants provide concrete aerospace-related networking targets, although the post does not state their roles or any hiring activity.",
       "content_angle": "Discuss how public aerospace research demonstrations can connect advanced simulation, experimental testing and safety research with practical flight-control and autonomous-system development, adding an original engineering perspective rather than summarizing the event.",
@@ -5056,7 +5132,9 @@
         "target_role": "Robotics technical educator or practitioner",
         "target_reason": "The author shares technically relevant robotics learning resources covering simulation, navigation, sensing and control.",
         "target_priority": "low",
-        "company": "MathWorks"
+        "company": "MathWorks",
+        "profile_url": "https://www.linkedin.com/in/zieglerr/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The post focuses on designing, simulating and controlling autonomous robots using MATLAB/Simulink, navigation sensors, computer vision, motor tuning and virtual simulation. These topics closely match the profile's control systems, simulation, robotics, autonomy and MATLAB/Simulink background. The author is a potentially relevant robotics-content contact, but no professional role or hiring connection is stated.",
       "content_angle": "Share an original expert perspective on how beginner robotics simulation can progress toward model-based control, hardware-in-the-loop testing and sim-to-real validation, drawing on practical experience without reproducing the course content.",
@@ -5131,7 +5209,9 @@
         "target_role": "Program Manager and Weapons Open Systems Architecture creator",
         "target_reason": "Jonathan Shaver is identified as the author and as a technical/program leader associated with WOSA at AFRL's Air Warfare Directorate, making him a potentially relevant contact for aerospace systems architecture and defense technology topics.",
         "target_priority": "medium",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/jonathan-shaver-21377573/",
+        "company_url": "https://www.linkedin.com/company/air-force-research-laboratory/"
       },
       "reason": "The post concerns aerospace-defense systems, production-scale open architecture, and the ability of weapon systems to evolve with mission needs. These topics are adjacent to the profile's aerospace, autonomous-systems, flight-control, and multidisciplinary R&D background, although the post does not mention flight controls, GNC, UAVs, or a job opportunity.",
       "content_angle": "Discuss how open-system architecture principles can support modular, upgradeable autonomy, flight-control, and mission systems while preserving verification, integration, and safety discipline.",
@@ -5215,7 +5295,9 @@
         "target_role": "Person involved in the referenced Simulink Agentic Toolkit article",
         "target_reason": "Could provide relevant insight into applying agentic AI to model-based engineering, change management, and verification workflows.",
         "target_priority": "high",
-        "company": "MathWorks"
+        "company": "MathWorks",
+        "profile_url": "https://www.linkedin.com/in/laura-reimoser-b087a1163/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The post directly relates to Simulink, model-based engineering, AI-assisted engineering workflows, model updates, change impact tracking, and verification. These topics align with the profile's extensive MATLAB/Simulink, flight-control modeling, simulation, and applied AI experience. The author and two explicitly mentioned people provide concrete technical networking targets, although no employment or hiring opportunity is stated.",
       "content_angle": "Offer an original perspective on how agentic AI could support verification, regression analysis, and controlled evolution of flight-control and simulation models without weakening traceability or safety assurance.",
@@ -5294,7 +5376,9 @@
         "target_role": "SciEngineer representative involved in MathWorks solutions",
         "target_reason": "The author describes SciEngineer’s work with MathWorks technologies, technical consulting, training, and implementation for autonomous-system challenges.",
         "target_priority": "medium",
-        "company": "SciEngineer"
+        "company": "SciEngineer",
+        "profile_url": "https://www.linkedin.com/in/robert-bolesza-a56477342/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The post covers autonomous systems development, verification, deployment, MATLAB, Simulink, and model-based design, which closely match the profile's flight-control, simulation, autonomy, and MATLAB/Simulink expertise. SciEngineer also describes technical consulting, training, and implementation services for engineering teams in the Southeastern Europe region.",
       "content_angle": "Share an original perspective on how model-based design and simulation-based verification can reduce integration risk in autonomous flight-control systems, without repeating the webinar promotion.",
@@ -5373,7 +5457,9 @@
         "target_role": "MathWorks technical education or application engineering contact",
         "target_reason": "Inference: Ajay Talluri and Loy Sabson Fernandes are identified as MathWorks supporters of the MATLAB and Simulink program; their exact roles are not stated.",
         "target_priority": "medium",
-        "company": "MathWorks"
+        "company": "MathWorks",
+        "profile_url": "https://www.linkedin.com/in/p-chandhana/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/posts/"
       },
       "reason": "The post is from MathWorks and focuses on MATLAB and Simulink education, tools that are directly aligned with the profile's flight-control, simulation, and model-based engineering experience. It names MathWorks and ARKANCE participants, creating possible but unconfirmed networking paths. No job opening or hiring intent is stated.",
       "content_angle": "Share an original perspective on how MATLAB/Simulink education can connect academic modeling and simulation with real-world flight-control, autopilot, GNC, and autonomous-systems development, without reproducing the event's content.",
@@ -5447,7 +5533,8 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": "MathWorks"
+        "company": "MathWorks",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/posts/"
       },
       "reason": "The post highlights MATLAB and Simulink in wireless communications and cross-discipline design. These tools are directly aligned with the profile, although the specific wireless-communications focus is adjacent rather than central to flight control, GNC, UAV and autonomous-systems work.",
       "content_angle": "Share an original perspective on how model-based MATLAB/Simulink workflows can support cross-disciplinary development, verification and communication in flight-control or autonomous-system projects.",
@@ -5521,7 +5608,9 @@
         "target_role": "Flight controls or GNC technical lead at Joby Aviation",
         "target_reason": "Joby's electric-air-taxi focus is relevant to the profile's eVTOL, flight-control, autopilot and autonomous-systems expertise; the post provides a reason to identify technical personnel at the company.",
         "target_priority": "medium",
-        "company": "Joby Aviation"
+        "company": "Joby Aviation",
+        "profile_url": "https://www.linkedin.com/in/maxgolds/",
+        "company_url": "https://www.linkedin.com/company/jobyaviation/posts/"
       },
       "reason": "The post confirms that Joby Aviation is developing electric air taxis and operating in the eVTOL aerospace sector, which aligns with the profile's target domain. However, the post focuses on digital marketing and storytelling rather than engineering work or an open role.",
       "content_angle": "Offer an original perspective on how engineers can explain eVTOL safety, control-system complexity and operational benefits in ways that build public trust without oversimplifying the technology.",
@@ -5606,7 +5695,9 @@
         "target_role": "CEO of OceanWings",
         "target_reason": "Emmanuel Schalit is the identified company leader behind a maritime propulsion technology relevant to the profile's broader marine engineering interests.",
         "target_priority": "medium",
-        "company": "OceanWings"
+        "company": "OceanWings",
+        "profile_url": "https://www.linkedin.com/in/emmanuelschalit/",
+        "company_url": "https://www.linkedin.com/company/oceanwings/"
       },
       "reason": "The post concerns technically assessed wind-propulsion systems for maritime vessels, including vessel-specific sizing, deck arrangements, operating profiles, newbuilds and retrofits. This is adjacent to the profile's interest in marine autonomy and control of mobile platforms, but the post does not mention autonomy, navigation, simulation or controls work.",
       "content_angle": "Discuss how vessel-specific wind-propulsion sizing could be evaluated through multidisciplinary modeling, stability, operational-profile and retrofit-constraint analysis, without duplicating the author's announcement.",
@@ -5682,7 +5773,9 @@
         "target_role": "MathWorks contact",
         "target_reason": "Ritika Jaiswal explicitly states that she joined MathWorks; her role is not stated, but she may provide a route to learn about the company or identify relevant technical contacts.",
         "target_priority": "medium",
-        "company": "MathWorks"
+        "company": "MathWorks",
+        "profile_url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The author explicitly states that she joined MathWorks. MathWorks is relevant to the profile because the professional profile uses MATLAB and Simulink, but the post does not specify the author's role, technical work, or any hiring activity. The author and three named contacts provide potential networking paths, although their relevance to engineering opportunities is unconfirmed.",
       "content_angle": null,
@@ -5899,7 +5992,9 @@
         "target_role": "P100 coverage author",
         "target_reason": "Charles Alcock is identified as the author and is referenced as having previously covered the P100, making him a potentially relevant source for aerospace and autonomous-aircraft developments.",
         "target_priority": "medium",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/charles-alcock-98b798197/",
+        "company_url": "https://www.linkedin.com/company/aviationinternationalnews/"
       },
       "reason": "The post describes the P100 aircraft completing more than 100 flight tests and advancing its autonomous capabilities across contested logistics, ISR and precision-effects missions. This aligns with the profile's experience in flight controls, autonomous aircraft, UAV systems, simulation and flight-test support. No hiring or specific employer is identified.",
       "content_angle": "Inference: Discuss how repeated flight-test campaigns can validate and mature autonomy and flight-control capabilities as an aircraft expands from prototype testing to broader operational missions.",
@@ -5972,7 +6067,8 @@
         "target_role": "Flight-controls or autonomy technical lead at Joby Aviation",
         "target_reason": "Inference: Joby's focus on electric and autonomous flight is closely aligned with the profile's flight-control, GNC and eVTOL expertise.",
         "target_priority": "medium",
-        "company": "Joby Aviation"
+        "company": "Joby Aviation",
+        "company_url": "https://www.linkedin.com/company/kentuckians-for-better-transportation-kbt-/"
       },
       "reason": "The post highlights electric aviation and autonomous flight technology, which align with the profile's eVTOL, flight-control, autonomy and UAV interests. It contains no hiring announcement or specific engineering opportunity.",
       "content_angle": "Inference: Offer an original perspective on the flight-control, guidance, navigation and validation challenges involved in bringing autonomous electric aircraft from demonstration to reliable operations.",
@@ -6051,7 +6147,9 @@
         "target_role": "Technical leads in autonomous ships, autonomous aircraft, spacecraft, or national-security AI",
         "target_reason": "Participating organizations are described as building systems directly related to autonomy, aircraft, and AI, which align with the profile's technical background.",
         "target_priority": "high",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/dre-hamilton/",
+        "company_url": "https://www.linkedin.com/company/foundry-robotics/"
       },
       "reason": "The post explicitly announces hiring across organizations working on autonomous ships and aircraft, spacecraft, AI, and national security. These areas overlap strongly with the profile's UAV, autonomous-systems, flight-control, robotics, and AI experience. However, the event is stated to be open to Stanford students, and the post does not specify remote availability, exact positions, or individual hiring contacts.",
       "content_angle": "Discuss how control systems, simulation, autonomy, and safety-critical engineering skills transfer across aircraft, maritime autonomy, spacecraft, and national-security applications.",
@@ -6136,7 +6234,9 @@
         "target_role": "Ohio aerospace and defense leaders",
         "target_reason": "The post identifies aerospace and defense as major growth areas in Ohio and references Anduril Industries and Joby Aviation projects, making relevant technical and organizational contacts worth identifying.",
         "target_priority": "high",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/ryan-augsburger-8697a914a/",
+        "company_url": "https://www.linkedin.com/company/intel-corporation/"
       },
       "reason": "The post describes Ohio's expanding manufacturing, aerospace, defense, aviation, automotive and mobility ecosystem, including projects associated with Anduril Industries and Joby Aviation. These markets overlap with the profile's UAV, eVTOL, flight-control, autonomy and aerospace interests. The reference to a large new-jobs project is an indirect hiring signal, but no specific vacancy, role, employer relationship or remote arrangement is stated.",
       "content_angle": "Discuss how Ohio's manufacturing and aerospace ecosystem can connect flight-control simulation, autonomy, verification, production testing and operational feedback when scaling eVTOL and defense platforms.",
@@ -6206,7 +6306,8 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": null
+        "company": null,
+        "company_url": "https://www.linkedin.com/company/us-army/"
       },
       "reason": "The post concerns autonomous UAVs, payload-carrying missions, and logistics applications involving medical supplies, ammunition, and replacement parts. These topics align with the profile's UAV systems, autonomy, mission optimization, and control engineering background. No explicit job opening or identifiable person is provided.",
       "content_angle": "Discuss the engineering trade-offs in autonomous small-payload UAV logistics, such as payload capacity versus endurance, mission reliability, energy-aware route planning, and the validation requirements for time-critical deliveries.",
@@ -6354,7 +6455,9 @@
         "target_role": "Relevant LiDAR and autonomy practitioner; role not stated",
         "target_reason": "Dave Schowalter authored a post directly relevant to LiDAR, MATLAB, and autonomy, making him a reasonable person to follow or engage with.",
         "target_priority": "medium",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/dave-schowalter/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The post discusses LiDAR simulation, colorized point clouds, direct sensor-data streaming into MATLAB, and autonomy. These topics align with the profile's MATLAB/Simulink, simulation, autonomous-systems, sensor-fusion, and robotics interests. No hiring opportunity is stated.",
       "content_angle": "Inference: Share an original expert perspective on how direct LiDAR streaming and colorized point clouds could affect autonomy simulation, perception validation, and camera-LiDAR fusion decisions in off-road systems.",
@@ -6506,7 +6609,8 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": "Joby Aviation and Toyota"
+        "company": "Joby Aviation and Toyota",
+        "profile_url": "https://www.linkedin.com/in/corey-proffitt-b95b564/"
       },
       "reason": "The post describes a collaboration between Joby Aviation and Toyota involving an eVTOL aircraft landing event. This aligns strongly with the profile's eVTOL, flight-control, aircraft-systems and multidisciplinary R&D background, but the post does not indicate a vacancy or specify the author's role.",
       "content_angle": "Discuss the engineering and program-coordination challenges of moving an eVTOL aircraft from early cross-company discussions to a public landing demonstration, focusing on integration, testing and operational readiness.",
@@ -6587,7 +6691,8 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": "Cadence Fidelity CFD"
+        "company": "Cadence Fidelity CFD",
+        "company_url": "https://www.linkedin.com/company/cadence-cfd/posts/"
       },
       "reason": "The post discusses aeroacoustics simulation, large eddy simulation, noise control, and aerospace applications. Inference: this overlaps with the profile's aerospace engineering, flight dynamics, simulation, and multidisciplinary design background, although aeroacoustics is not listed as a core specialization.",
       "content_angle": "Inference: discuss how aeroacoustic objectives can be incorporated into model-based aerospace design and simulation workflows, connecting noise, performance, regulatory constraints, and system-level trade-offs without duplicating the author's business-focused message.",
@@ -6730,7 +6835,8 @@
         "target_role": "Managing Director at Astana Hub",
         "target_reason": "The author is explicitly identified as Managing Director at Astana Hub and discusses connecting international engineers with Kazakhstan's technology ecosystem.",
         "target_priority": "high",
-        "company": "Astana Hub"
+        "company": "Astana Hub",
+        "profile_url": "https://www.linkedin.com/in/rinata-ilyubayeva/"
       },
       "reason": "Inference: The post is not a direct engineering or hiring opportunity, but it highlights Astana Hub, international technology communities, AI, and opportunities for engineers and founders to connect in Kazakhstan. The author is a confirmed senior technology-ecosystem contact, making the post more valuable for networking than for immediate job matching.",
       "content_angle": "Inference: Share an original perspective on how international technology hubs can support multidisciplinary engineering communities working on autonomy, robotics, UAVs, and AI-enabled physical systems.",
@@ -6875,7 +6981,9 @@
         "target_role": "eVTOL or advanced air mobility technical leader",
         "target_reason": "Potentially relevant connection for the profile's flight-control, GNC, simulation, and eVTOL focus; the post identifies activity and named participants in this ecosystem.",
         "target_priority": "high",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/shellylesikardezevallos/",
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
       },
       "reason": "The post highlights advanced air mobility and eVTOL activity in Texas and mentions Joby Aviation, BETA Technologies, and Archer, which align with the profile's target domains. It provides networking and market-awareness value but contains no explicit hiring or project details.",
       "content_angle": "Discuss the engineering challenges of bringing advanced air mobility concepts into operational aviation, such as flight-control validation, transition-mode simulation, safety assurance, and integration with existing airport infrastructure.",
@@ -6943,7 +7051,9 @@
         "target_role": "eVTOL flight-controls or testing lead at Joby Aviation",
         "target_reason": "Inference: Joby's involvement in the reported air taxi testing program makes relevant technical leads a reasonable networking target for the profile's eVTOL and flight-control background.",
         "target_priority": "medium",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/robert-francis-1762482/",
+        "company_url": "https://www.linkedin.com/company/city-of-fort-worth/"
       },
       "reason": "The post reports a new air taxi testing program involving Fort Worth, Hillwood AllianceTexas, Joby Aviation, the Texas Department of Transportation, and the U.S. Department of Transportation. Inference: the eVTOL testing context is closely aligned with the profile's flight-control, simulation, autopilot, and UAV/eVTOL expertise, but the post does not provide a specific vacancy or technical scope.",
       "content_angle": "Inference: Offer an original expert perspective on how eVTOL testing programs can integrate flight-dynamics simulation, control-law validation, hardware-in-the-loop testing, and flight-test telemetry.",
@@ -7027,7 +7137,9 @@
         "target_role": "post author",
         "target_reason": "The author has demonstrated interest in GenAI, model-based design, MATLAB, Simulink, and safety-critical engineering topics relevant to the profile.",
         "target_priority": "medium",
-        "company": "MathWorks"
+        "company": "MathWorks",
+        "profile_url": "https://www.linkedin.com/in/klammhsa/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/"
       },
       "reason": "The post discusses applying GenAI and AI agents to model-based, safety-critical engineering workflows using MATLAB and Simulink. This aligns with the profile's flight-control, simulation, model-based development, MATLAB/Simulink, and autonomous-systems expertise, although the post focuses on automotive engineering rather than aerospace.",
       "content_angle": "Discuss how GenAI could support flight-control and autonomous-system engineering without weakening traceability, verification, safety cases, or hardware-in-the-loop validation. Compare automotive V-cycle concerns with aerospace flight-control development and emphasize engineer-supervised use of AI for repetitive modeling, code-generation, test-case creation, and telemetry analysis.",
@@ -7100,7 +7212,8 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": "Joby Aviation"
+        "company": "Joby Aviation",
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
       },
       "reason": "The post connects Joby Aviation, autonomous aircraft, and aviation workforce growth. The engineering and autonomy themes align with the profile's flight-control, UAV, autonomous-systems, and aerospace background. Hiring is only an indirect signal because the post discusses workforce needs and jobs in Oklahoma but does not advertise specific vacancies.",
       "content_angle": "Discuss how autonomous-aircraft demonstrations can accelerate demand for flight-controls, simulation, autonomy, software, manufacturing, and maintenance expertise, while highlighting the engineering challenges of transitioning autonomous aircraft into operational service.",
@@ -7179,7 +7292,9 @@
         "target_role": "Defense technology executive",
         "target_reason": "Jim Taiclet is identified as Lockheed Martin's CEO and is discussing the company's autonomous combat aircraft initiative.",
         "target_priority": "medium",
-        "company": "Lockheed Martin"
+        "company": "Lockheed Martin",
+        "profile_url": "https://www.linkedin.com/in/edward-ludlow-5a7b4280/",
+        "company_url": "https://www.linkedin.com/company/lockheed-martin/"
       },
       "reason": "The post discusses Vectis, described as Lockheed Martin's next-generation autonomous combat aircraft. This aligns with the profile's background in flight controls, GNC, autopilot algorithms, UAV/eVTOL systems, simulation, and autonomous aerospace systems. The post also identifies a defense technology executive and a journalist covering the topic, creating relevant follow-up networking targets, but it contains no hiring information.",
       "content_angle": "Inference: Offer an original expert perspective on the flight-control, autonomy, simulation, and verification challenges involved in developing autonomous combat aircraft, without restating the post.",
@@ -7257,7 +7372,9 @@
         "target_role": "Saildrone autonomy or vessel-controls engineer",
         "target_reason": "Inference: identifying an engineering contact involved in autonomous vessel control, navigation, or mission operations could connect the profile's UAV and flight-control background with marine autonomy.",
         "target_priority": "medium",
-        "company": "Saildrone"
+        "company": "Saildrone",
+        "profile_url": "https://www.linkedin.com/in/elizabeth-shadwick-6ba2a1252/",
+        "company_url": "https://www.linkedin.com/company/csiro/"
       },
       "reason": "The post describes a long-duration solar-powered autonomous vessel operating in a difficult marine environment, closely matching the profile's interest in marine autonomy, autonomous vessel control, navigation, mission planning, and energy-aware operations. It does not indicate a job opening.",
       "content_angle": "Discuss how energy-aware trajectory planning, telemetry, fault management, and robust autonomy can support long-duration uncrewed missions in remote marine environments, drawing an original comparison with solar-powered UAV endurance challenges.",
@@ -7337,7 +7454,9 @@
         "target_role": "CEO, Association of British Columbia Defence and Marine Industries (ABCDMI)",
         "target_reason": "Alex Rueben is explicitly identified as the CEO of an organization representing British Columbia marine and defence businesses and connecting industry, government, and academia.",
         "target_priority": "high",
-        "company": "Open Ocean Robotics"
+        "company": "Open Ocean Robotics",
+        "profile_url": "https://www.linkedin.com/in/alex-rueben-083a8323/",
+        "company_url": "https://www.linkedin.com/company/open-ocean-robotics/posts/"
       },
       "reason": "The post highlights British Columbia’s marine and defence ecosystem and names the CEO of an association connecting industry, government, and academia. This aligns with the profile’s interest in marine autonomy, autonomous vessels, control systems, and multidisciplinary engineering networks, but the post does not identify a specific engineering role or technical project.",
       "content_angle": "Discuss how guidance, navigation, control, autonomy, and simulation expertise can contribute to innovation across marine and defence systems, while connecting the topic to multidisciplinary industry collaboration.",
@@ -7405,7 +7524,9 @@
         "target_role": "MathWorks manager",
         "target_reason": "Named as the manager of the intern described in the post; may provide context on teams and future opportunities, but technical scope is not specified.",
         "target_priority": "medium",
-        "company": "MathWorks"
+        "company": "MathWorks",
+        "profile_url": "https://www.linkedin.com/in/lynseyurban/",
+        "company_url": "https://www.linkedin.com/company/the-mathworks_2/posts/"
       },
       "reason": "The post confirms MathWorks is bringing an intern into a full-time position and describes work involving AI, usability evaluation, and human-centered research. MathWorks is potentially relevant to the profile because of its association with engineering software, but the post does not identify a flight-control, simulation, robotics, or engineering vacancy. The named manager, mentors, and sponsors are concrete people connected to MathWorks and may provide networking context, although their technical relevance is not established.",
       "content_angle": "Discuss how human-centered evaluation and AI-assisted workflows could improve the usability and validation of engineering simulation or autonomy tools, while preserving expert oversight.",
@@ -7547,7 +7668,9 @@
         "target_role": "Anduril autonomy systems technical lead",
         "target_reason": "Could be relevant for understanding technical work involving autonomous coordination across air, land and space; no specific individual is identified in the post.",
         "target_priority": "medium",
-        "company": "Anduril"
+        "company": "Anduril",
+        "profile_url": "https://www.linkedin.com/in/jeffmillertime/",
+        "company_url": "https://www.linkedin.com/company/x-prize-foundation/"
       },
       "reason": "The post describes an autonomous wildfire-response solution coordinating assets across air, land and space with minimal human intervention. This aligns with the profile's experience in UAVs, autonomous systems, flight control, mission coordination and multidisciplinary R&D, although no specific role or hiring opportunity is stated.",
       "content_angle": "Discuss how multi-domain autonomous coordination could be evaluated through control-system architecture, communications reliability, sensor fusion, human-supervision levels and mission-response metrics, using original expertise rather than repeating the post.",
@@ -7632,7 +7755,9 @@
         "target_role": "aerospace research contact",
         "target_reason": "Michèle Lavagna is the author of a post about aerospace research outreach and named contributors from the event could provide relevant academic or industry context.",
         "target_priority": "medium",
-        "company": null
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/mich%C3%A8le-lavagna-mickie/",
+        "company_url": "https://www.linkedin.com/company/department-daer-polimi/"
       },
       "reason": "The post concerns aerospace and space research activities, including vehicle safety, aeronautical structures, satellites and orbital debris. It names the author and multiple contributors involved in the event, creating a relevant aerospace networking context, but it contains no hiring or vacancy signal.",
       "content_angle": "Discuss how aerospace control, autonomy and safety research can be communicated to the public through interactive demonstrations, connecting technical engineering work with the broader theme of technology for humanity.",
@@ -7765,7 +7890,8 @@
         "target_role": null,
         "target_reason": null,
         "target_priority": null,
-        "company": "Eve Air Mobility"
+        "company": "Eve Air Mobility",
+        "company_url": "https://www.linkedin.com/company/farnborough-international-ltd/"
       },
       "reason": "The post concerns Eve Air Mobility's urban air mobility approach and a full-scale eVTOL mock-up, which aligns with the profile's eVTOL, flight-control, aircraft-systems and autonomous-mobility interests. It is primarily a showcase and event-recap post, with no hiring or detailed technical opportunity stated.",
       "content_angle": "Discuss how passenger-experience requirements in eVTOL aircraft can influence handling qualities, transition control, guidance logic and validation priorities.",
@@ -7846,7 +7972,9 @@
         "target_role": "aerospace autonomy contact",
         "target_reason": "Inference: the mentioned individuals may be relevant contacts because they are tagged in a post about Joby Aviation's autonomous trip; their specific roles are not provided.",
         "target_priority": "medium",
-        "company": "Joby Aviation"
+        "company": "Joby Aviation",
+        "profile_url": "https://www.linkedin.com/in/jamesasherman/",
+        "company_url": "https://www.linkedin.com/company/jobyaviation/"
       },
       "reason": "The post concerns Joby Aviation completing an autonomous coast-to-coast trip, directly aligning with the profile's aerospace, autonomous-systems and flight-control interests. The author and several people are explicitly mentioned, creating potential networking targets, although no roles or hiring activity are stated.",
       "content_angle": "Offer an original expert perspective on the engineering validation challenges behind autonomous long-distance aviation, such as autonomy assurance, navigation robustness and flight-test evidence, without assuming details absent from the post.",
