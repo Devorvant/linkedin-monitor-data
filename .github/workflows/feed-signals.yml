@@ -9,6 +9,7 @@ on:
       - scripts/action_planner.py
       - scripts/relationship_watchlist.py
       - scripts/recommendation_rebuilder.py
+      - scripts/translate_recommendation_reasons.py
       - .github/workflows/feed-signals.yml
       - '.feed-signals-trigger*'
   workflow_dispatch:
@@ -39,7 +40,11 @@ jobs:
 
       - name: Validate pipeline scripts
         run: |
-          python -m py_compile scripts/action_planner.py scripts/relationship_watchlist.py scripts/recommendation_rebuilder.py
+          python -m py_compile scripts/action_planner.py scripts/relationship_watchlist.py scripts/recommendation_rebuilder.py scripts/translate_recommendation_reasons.py
+
+      - name: Install translation dependency
+        run: |
+          python -m pip install --quiet openai
 
       - name: Unpack analyzer
         run: |
@@ -150,6 +155,15 @@ jobs:
             --relationships-dir linkedin_relationships \
             --output recommendations_current.json
 
+      - name: Add Russian recommendation reasons
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python scripts/translate_recommendation_reasons.py \
+            --recommendations recommendations_current.json \
+            --cache recommendation_reason_translations.json \
+            --model gpt-5.6-luna
+
       - name: Build pipeline status
         env:
           ANALYSIS_MODE: ${{ steps.mode.outputs.mode }}
@@ -186,7 +200,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add feed_signals_latest.json action_queue_latest.json recommendations_current.json relationship_watchlist.json feed_pipeline_status.json history/feed_signals history/action_queue history/relationships
+          git add feed_signals_latest.json action_queue_latest.json recommendations_current.json recommendation_reason_translations.json relationship_watchlist.json feed_pipeline_status.json history/feed_signals history/action_queue history/relationships
           if git diff --cached --quiet; then
             echo 'No Feed pipeline changes'
             exit 0
