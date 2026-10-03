@@ -411,18 +411,48 @@ def drafts(signal, target, actions):
     company = clean(signal.get("company"))
     out = {}
 
+    hiring = signal.get("hiring") or {}
+    hiring_detected = bool(hiring.get("detected"))
+    hiring_roles = [clean(x) for x in (hiring.get("roles") or []) if clean(x)]
+    career_relevance = int(signal.get("career_relevance") or 0)
+    role_text = ", ".join(hiring_roles[:3])
+
     if "connect_person" in action_names:
-        out["connection_note"] = (
-            f"Hi {first}, I came across your work on {topic}. "
-            "My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. "
-            "I'd be glad to connect."
-        )
+        if hiring_detected and career_relevance >= 85:
+            out["connection_note"] = (
+                f"Hi {first}, I saw your post about hiring for {role_text or 'engineering roles'}. "
+                "My background is in flight controls, flight dynamics, GNC, UAV systems and simulation, "
+                "so the work looks closely aligned. I'd be glad to connect."
+            )
+        else:
+            out["connection_note"] = (
+                f"Hi {first}, I came across your work on {topic}. "
+                "My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. "
+                "I'd be glad to connect."
+            )
+
     if "message_person" in action_names:
-        out["message"] = (
-            f"Hi {first}, I noticed your recent work around {topic}. "
-            "I work on flight controls, GNC, UAV/autonomous systems and simulation. "
-            "I thought there may be useful overlap in our technical interests and would be interested in exchanging perspectives."
-        )
+        if hiring_detected and career_relevance >= 85:
+            out["message"] = (
+                f"Hi {first}, I saw the recent hiring signal for {role_text or 'engineering roles'}"
+                + (f" at {company}" if company else "")
+                + ". My background is in flight controls, GNC, flight dynamics, UAV/autonomous systems and simulation. "
+                  "The roles look closely aligned with my experience. If useful, I'd be glad to share a short summary of my background."
+            )
+        elif hiring_detected:
+            out["message"] = (
+                f"Hi {first}, I saw the recent {role_text or 'engineering'} opening"
+                + (f" at {company}" if company else "")
+                + ". My main focus is flight controls, GNC, flight dynamics and UAV/autonomous systems. "
+                  "The advertised role is somewhat adjacent to that focus, so I wanted to ask whether you know of any current "
+                  "or upcoming roles closer to flight controls, GNC, autonomy or simulation."
+            )
+        else:
+            out["message"] = (
+                f"Hi {first}, I noticed your recent work around {topic}. "
+                "I work on flight controls, GNC, UAV/autonomous systems and simulation. "
+                "I thought there may be useful overlap in our technical interests and would be interested in exchanging perspectives."
+            )
     if "job_outreach" in action_names:
         where = f" at {company}" if company else ""
         out["job_outreach"] = (
