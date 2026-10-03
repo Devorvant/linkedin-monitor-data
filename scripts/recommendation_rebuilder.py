@@ -148,6 +148,39 @@ def representative_signals(signals):
     return representatives, stats_by_signal_id
 
 
+def post_permalink(signal):
+    source = planner.clean(signal.get("source_url"))
+    if "/feed/update/" in source or ("/posts/" in source and "activity-" in source):
+        return source
+
+    for item in signal.get("links") or []:
+        if not isinstance(item, dict):
+            continue
+        url = planner.clean(item.get("url"))
+        if "/feed/update/" in url or ("/posts/" in url and "activity-" in url):
+            return url
+
+    post_id = planner.clean(signal.get("source_post_id") or signal.get("post_id"))
+    if post_id:
+        return f"https://www.linkedin.com/feed/update/urn:li:ugcPost:{post_id}/"
+    return None
+
+
+def crm_company_url(crm, company):
+    company_key = norm_name(company)
+    if not company_key:
+        return None
+    for item in crm.get("items") or []:
+        if item.get("kind") != "company":
+            continue
+        if norm_name(item.get("name")) != company_key:
+            continue
+        url = planner.clean(item.get("profile_url"))
+        if "/company/" in url:
+            return url
+    return None
+
+
 def direct_urls(signal, target):
     person_url = ""
     company_url = ""
@@ -389,8 +422,17 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
         item.setdefault("target", {})
         if person_url:
             item["target"]["profile_url"] = person_url
+
+        company_name = planner.clean(
+            item["target"].get("company") or item.get("company") or representative.get("company")
+        )
+        exact_company_url = crm_company_url(crm, company_name)
+        if exact_company_url:
+            company_url = exact_company_url
         if company_url:
             item["target"]["company_url"] = company_url
+
+        item["post_url"] = post_permalink(representative)
         item["signal_context"] = signal_context(representative)
 
     seen = set()
