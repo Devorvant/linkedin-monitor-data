@@ -165,6 +165,351 @@
       "source": "The post describes a long-duration solar-powered autonomous vessel operating in a difficult marine environment, closely matching the profile's interest in marine autonomy, autonomous vessel control, navigation, mission planning, and energy-aware operations. It does not indicate a job opening.",
       "ru": "Публикация описывает автономное судно на солнечной энергии с длительным временем работы, функционирующее в сложной морской среде, что тесно соответствует интересам профиля в морской автономности, управлении автономными судами, навигации, планировании миссий и энергоэффективных операциях. Открытая вакансия не указана.",
       "model": "gpt-5.6-luna"
+    },
+    "ca51aa700bddf3605c3fc019": {
+      "source": "The post directly concerns flight planning, uncertainty modeling, navigation-related estimation, and simulation in advanced air mobility. These topics align closely with the profile's flight dynamics, GNC, autopilot, simulation, and autonomous aerial systems experience. No hiring or author identity is provided.",
+      "ru": "Публикация непосредственно касается планирования полётов, моделирования неопределённости, оценивания, связанного с навигацией, и симуляции в сфере Advanced Air Mobility. Эти темы тесно соответствуют опыту профиля в области динамики полёта, GNC, автопилотов, симуляции и автономных летательных систем. Информация о найме или личности автора отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "739f8aad1216b51c37fb0837": {
+      "source": "Inference: The post strongly aligns with the profile's flight controls, MATLAB/Simulink, simulation, digital-twin, and marine autonomy interests. It also identifies REGENT Craft and CEO Billy Thalheimer as relevant people or company contacts, although no hiring activity is stated.",
+      "ru": "Вывод: публикация тесно соответствует интересам профиля в области управления полётом, MATLAB/Simulink, симуляции, цифровых двойников и морской автономности. В ней также указаны REGENT Craft и CEO Billy Thalheimer как релевантные люди или контакты компании, хотя информация о найме отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "9255503444c6c4dde0634d03": {
+      "source": "The post describes an aviation-focused, real-time, offline and on-device AI system for interpreting ATC communications, grounding terminology to geographic context, and structuring safety-critical commands. This strongly overlaps with the profile's aviation systems, autonomy, onboard systems, simulation, telemetry and safety-critical engineering background, although the post focuses on speech and language technology rather than flight controls or GNC.",
+      "ru": "В публикации описывается авиационная AI-система реального времени, работающая офлайн и непосредственно на устройстве, для интерпретации сообщений ATC, привязки терминологии к географическому контексту и структурирования критически важных для безопасности команд. Это тесно пересекается с опытом профиля в авиационных системах, автономности, бортовых системах, симуляции, телеметрии и разработке критически важных для безопасности систем, хотя публикация сосредоточена на технологиях речи и языка, а не на управлении полётом или GNC.",
+      "model": "gpt-5.6-luna"
+    },
+    "4da18bd6209996280acfa6fd": {
+      "source": "The post focuses on SLAM, localization, mapping, sensor data, autonomous robotics and navigation. These topics align with the profile's robotics, sensor fusion, navigation, autonomy and control interests, while C++ and Python match the stated technical toolkit. The post contains no hiring information.",
+      "ru": "Публикация посвящена SLAM, локализации, картографированию, данным датчиков, автономной робототехнике и навигации. Эти темы соответствуют интересам профиля в области робототехники, объединения данных датчиков, навигации, автономности и управления, а C++ и Python совпадают с указанным техническим набором инструментов. Информация о найме отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "c5d1c05fc3809d984e720b7a": {
+      "source": "The post describes a VTOL UAV platform with autonomous take-off, transition, long-range mission flight, landing, BVLOS operation, and integrated flight-control, communications, and cloud technologies. These areas closely match the profile's flight-control, UAV, VTOL, autopilot, autonomy, simulation, and multidisciplinary R&D expertise. No hiring or specific networking contact is identified.",
+      "ru": "В публикации описывается платформа VTOL UAV с автономным взлётом, переходным режимом, дальним полётом по заданной миссии, посадкой, операциями BVLOS и интегрированными технологиями управления полётом, связи и облачных систем. Эти области тесно соответствуют опыту профиля в управлении полётом, UAV, VTOL, автопилотах, автономности, симуляции и междисциплинарных R&D. Информация о найме или конкретном контакте для нетворкинга отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "aa82b77aba59676f748008a7": {
+      "source": "The author has started a confirmed Lead flight control engineer position at AltoVolo, directly matching the profile's flight-control and senior engineering focus. The post identifies a relevant technical person and a company worth monitoring, but it does not announce a vacancy or hiring activity.",
+      "ru": "Автор начал подтверждённую работу в должности Lead flight control engineer в AltoVolo, что напрямую соответствует профилю в области управления полётом и senior engineering. В публикации указан релевантный технический специалист и компания, за которой стоит следить, однако вакансия или активность по найму не объявляются.",
+      "model": "gpt-5.6-luna"
+    },
+    "5f8164b6a95ceacc5da6dcf7": {
+      "source": "Saildrone explicitly advertises multiple openings while expanding teams worldwide. Its unmanned surface vehicle and ocean-mapping focus aligns with the profile's target expansion into marine autonomy, autonomous vessel control, robotics, simulation and multidisciplinary engineering. The Technical Operations Engineer and Manufacturing Systems Integration & Test Engineer roles appear most potentially relevant, although the post does not provide detailed requirements or remote-work information.",
+      "ru": "Saildrone явно объявляет о нескольких вакансиях на фоне расширения команд по всему миру. Фокус компании на беспилотных надводных аппаратах и картографировании океана соответствует целевому расширению профиля в области морской автономности, управления автономными судами, робототехники, симуляции и междисциплинарной инженерии. Роли Technical Operations Engineer и Manufacturing Systems Integration & Test Engineer выглядят наиболее потенциально релевантными, хотя в публикации нет подробных требований или информации о возможности удалённой работы.",
+      "model": "gpt-5.6-luna"
+    },
+    "e7b02ab3b4c78f7b08b210ae": {
+      "source": "Inference: The post is strongly aligned with the profile's experience in flight-control systems, autopilots, aircraft systems, vertical flight, embedded software, propulsion-related control and energy management. Vijay Singh is a specifically identified technical leader at an aviation company, creating a strong reason to follow or connect.",
+      "ru": "Вывод: публикация тесно соответствует опыту профиля в области систем управления полётом, автопилотов, авиационных систем, вертикального полёта, встроенного ПО, управления, связанного с силовой установкой, и управления энергией. Vijay Singh указан как конкретный технический руководитель в авиационной компании, что создаёт вескую причину следить за ним или установить контакт.",
+      "model": "gpt-5.6-luna"
+    },
+    "cbfc89e9662217ab9a987785": {
+      "source": "The post directly concerns autonomous aircraft, retrofit autonomy, remote supervision, navigation, weather rerouting and cargo or defense logistics. These topics closely match the profile's experience in flight controls, autopilot algorithms, flight dynamics, UAV and eVTOL systems, simulation, telemetry and autonomous platforms. The author is a concrete, relevant aviation-autonomy contact, although the post contains no hiring signal.",
+      "ru": "Публикация непосредственно касается автономных летательных аппаратов, дооснащения автономными системами, удалённого надзора, навигации, перенаправления маршрутов из-за погодных условий и логистики грузов или оборонных задач. Эти темы тесно соответствуют опыту профиля в области управления полётом, алгоритмов автопилота, динамики полёта, систем UAV и eVTOL, симуляции, телеметрии и автономных платформ. Автор является конкретным релевантным контактом в сфере авиационной автономности, хотя публикация не содержит признаков найма.",
+      "model": "gpt-5.6-luna"
+    },
+    "984968275bcecb72e33e12bc": {
+      "source": "The post describes Embention's 190-gram Veronte KAI 2.0 flight control computer for one-way attack drones, emphasizing autonomy and navigation reliability in GPS-denied environments. This closely matches the profile's experience in flight-control systems, autopilots, UAVs, guidance, navigation, control, and autonomous systems. No hiring opportunity or specific person is identified.",
+      "ru": "В публикации описывается 190-граммовый компьютер управления полётом Veronte KAI 2.0 компании Embention для одноразовых ударных дронов, с акцентом на надёжность автономности и навигации в условиях отсутствия GPS. Это тесно соответствует опыту профиля в области систем управления полётом, автопилотов, UAV, наведения, навигации, управления и автономных систем. Возможность трудоустройства или конкретный человек не указаны.",
+      "model": "gpt-5.6-luna"
+    },
+    "005b2ad67fe759e3bd853eb4": {
+      "source": "The post directly concerns autonomous flight testing, uncrewed platforms, and defense applications, closely matching the profile's UAV, autonomy, flight-control, and simulation focus. It provides no explicit hiring information, but identifies SkyRunner, LLC and an author who publicly supports the company.",
+      "ru": "Публикация непосредственно касается автономных лётных испытаний, беспилотных платформ и оборонных применений, что тесно соответствует фокусу профиля на UAV, автономности, управлении полётом и симуляции. Явная информация о найме отсутствует, однако указаны SkyRunner, LLC и автор, который публично поддерживает компанию.",
+      "model": "gpt-5.6-luna"
+    },
+    "e2d55f270c8f417455b5f8fd": {
+      "source": "The post covers autonomous systems development, verification, deployment, MATLAB, Simulink, and model-based design, which closely match the profile's flight-control, simulation, autonomy, and MATLAB/Simulink expertise. SciEngineer also describes technical consulting, training, and implementation services for engineering teams in the Southeastern Europe region.",
+      "ru": "Публикация посвящена разработке, верификации и внедрению автономных систем, MATLAB, Simulink и модельно-ориентированному проектированию, что тесно соответствует опыту профиля в области управления полётом, симуляции, автономности и MATLAB/Simulink. SciEngineer также описывает услуги технического консалтинга, обучения и внедрения для инженерных команд в регионе Юго-Восточной Европы.",
+      "model": "gpt-5.6-luna"
+    },
+    "92f15f42e1ae9b9cd752bf9d": {
+      "source": "The post describes a collaboration between Joby Aviation and Toyota involving an eVTOL aircraft landing event. This aligns strongly with the profile's eVTOL, flight-control, aircraft-systems and multidisciplinary R&D background, but the post does not indicate a vacancy or specify the author's role.",
+      "ru": "В публикации описывается сотрудничество Joby Aviation и Toyota, связанное с посадкой летательного аппарата eVTOL. Это тесно соответствует опыту профиля в области eVTOL, управления полётом, авиационных систем и междисциплинарных R&D, однако публикация не указывает на вакансию и не уточняет роль автора.",
+      "model": "gpt-5.6-luna"
+    },
+    "e2eff1144c66b7b5e638b914": {
+      "source": "The post directly concerns navigation, autonomy, GPS-denied operation, sensor-based positioning and aerospace defense flight testing. These topics strongly align with the profile's flight-control, GNC, navigation, sensor-fusion, UAV and autonomous-systems experience. It also provides a relevant technical person to engage with, although no hiring opportunity is stated.",
+      "ru": "Публикация непосредственно касается навигации, автономности, работы в условиях отсутствия GPS, позиционирования на основе датчиков и лётных испытаний в сфере аэрокосмической обороны. Эти темы тесно соответствуют опыту профиля в области управления полётом, GNC, навигации, объединения данных датчиков, UAV и автономных систем. В ней также указан релевантный технический специалист для взаимодействия, хотя возможность трудоустройства не заявлена.",
+      "model": "gpt-5.6-luna"
+    },
+    "d79c7a227bb5963a996f73aa": {
+      "source": "The post concerns eVTOL and Advanced Air Mobility engineering at Eve Air Mobility and Embraer, directly matching the profile's flight-control, eVTOL, aviation, and autonomous-systems focus. The author is a concrete professional contact associated with this domain, although her specific role is not stated.",
+      "ru": "Публикация посвящена инженерным разработкам eVTOL и Advanced Air Mobility в Eve Air Mobility и Embraer, что напрямую соответствует фокусу профиля на управлении полётом, eVTOL, авиации и автономных системах. Автор является конкретным профессиональным контактом в этой области, хотя его конкретная роль не указана.",
+      "model": "gpt-5.6-luna"
+    },
+    "cab99f1c25c6db7d69b94a40": {
+      "source": "The post directly addresses GNSS degradation, autonomous aircraft, flight planning, contingency management and airspace safety in Advanced Air Mobility. These topics align closely with the profile's experience in eVTOL flight control, guidance and navigation, autopilot algorithms, autonomous systems and safety-oriented control development.",
+      "ru": "Публикация непосредственно касается ухудшения GNSS, автономных летательных аппаратов, планирования полётов, управления нештатными ситуациями и безопасности воздушного пространства в Advanced Air Mobility. Эти темы тесно соответствуют опыту профиля в области управления полётом eVTOL, наведения и навигации, алгоритмов автопилота, автономных систем и разработки систем управления с акцентом на безопасность.",
+      "model": "gpt-5.6-luna"
+    },
+    "36d903c3dc7a6aafdf9b4415": {
+      "source": "The post explicitly advertises a Senior GNC Engineer position and describes work on turbine-powered VTOL aircraft, closely matching the profile's flight controls, GNC, autopilot, VTOL, flight dynamics, simulation and multidisciplinary aerospace experience.",
+      "ru": "В публикации явно объявлена вакансия Senior GNC Engineer и описывается работа с турбинными летательными аппаратами VTOL, что тесно соответствует опыту профиля в области управления полётом, GNC, автопилотов, VTOL, динамики полёта, симуляции и междисциплинарной аэрокосмической инженерии.",
+      "model": "gpt-5.6-luna"
+    },
+    "d975a0ef8232463074a42068": {
+      "source": "The post directly concerns unmanned aircraft modelling, control, safe autonomy, operations, and certification, closely matching the profile's flight-control, UAV, simulation, GNC, and autonomous-systems expertise. Johann Dauer is a concrete senior technical contact in a highly relevant aerospace research area.",
+      "ru": "Публикация непосредственно касается моделирования беспилотных летательных аппаратов, безопасной автономности, эксплуатации и сертификации, что тесно соответствует опыту профиля в области управления полётом, UAV, симуляции, GNC и автономных систем. Johann Dauer является конкретным senior technical contact в весьма релевантной области аэрокосмических исследований.",
+      "model": "gpt-5.6-luna"
+    },
+    "10604fe37c8bee4303f04c2e": {
+      "source": "The post describes an eVTOL development and flight-testing project involving autonomous flight, avionics, integration, and engineering problem-solving. These areas closely match the profile’s experience in eVTOL flight dynamics, control systems, autopilot algorithms, simulation, and autonomous systems. The author is a concrete relevant engineering contact, and Embention is a relevant company to monitor, although no hiring is stated.",
+      "ru": "В публикации описывается проект разработки и лётных испытаний eVTOL с участием автономного полёта, авионики, интеграции и инженерного решения задач. Эти области тесно соответствуют опыту профиля в динамике полёта eVTOL, системах управления, алгоритмах автопилота, симуляции и автономных системах. Автор является конкретным релевантным инженерным контактом, а Embention — компанией, за которой стоит следить, хотя информация о найме отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "1b810990a0dc5d73be3b3c79": {
+      "source": "The post directly concerns eVTOL, autonomy-enabled aircraft, aircraft sensors, flight operations, and the regulatory integration of advanced air mobility into an active airport environment. These topics closely match the profile's flight-controls, UAV/eVTOL, autonomy, simulation, and multidisciplinary aerospace focus. The author and named participants may provide relevant industry-network access, but the post does not establish their specific job titles or hiring authority.",
+      "ru": "Публикация непосредственно касается eVTOL, летательных аппаратов с поддержкой автономности, авиационных датчиков, лётных операций и нормативной интеграции Advanced Air Mobility в действующую аэропортовую среду. Эти темы тесно соответствуют фокусу профиля на управлении полётом, UAV/eVTOL, автономности, симуляции и междисциплинарной аэрокосмической инженерии. Автор и указанные участники могут предоставить доступ к релевантной отраслевой сети, однако публикация не подтверждает их конкретные должности или полномочия по найму.",
+      "model": "gpt-5.6-luna"
+    },
+    "26a78a356ea928d8bca1170b": {
+      "source": "The post directly concerns autonomous AAM aircraft, flight management modeling, Kalman filtering, route-error correction, arrival-time prediction, and automated flight-plan validation. These topics closely match the profile's experience in flight dynamics, guidance and navigation, control systems, simulation, autopilot algorithms, and autonomous aerial systems. It also identifies two relevant autonomy engineers at SkyGrid, creating a concrete networking opportunity.",
+      "ru": "Публикация непосредственно касается автономных воздушных аппаратов AAM, моделирования управления полётом, фильтра Калмана, коррекции ошибки маршрута, прогнозирования времени прибытия и автоматической проверки планов полёта. Эти темы тесно соответствуют опыту профиля в области динамики полёта, наведения и навигации, систем управления, симуляции, алгоритмов автопилота и автономных воздушных систем. Также указаны два релевантных инженера по автономности в SkyGrid, что создаёт конкретную возможность для нетворкинга.",
+      "model": "gpt-5.6-luna"
+    },
+    "bf593a654f285beb4ec4c64d": {
+      "source": "The post explicitly advertises a Flight Control & Simulation Engineer position involving flight dynamics, control laws, MATLAB/Simulink, SIL/HIL, UAVs and eVTOLs. These requirements closely match the profile's flight control, autopilot, simulation, UAV/eVTOL and MATLAB/Simulink background. The position is on-site in Vienna, which is a potential constraint because the profile gives remote work high priority.",
+      "ru": "В публикации явно объявлена вакансия Flight Control & Simulation Engineer, связанная с динамикой полёта, законами управления, MATLAB/Simulink, SIL/HIL, UAV и eVTOL. Эти требования тесно соответствуют опыту профиля в области управления полётом, автопилотов, симуляции, UAV/eVTOL и MATLAB/Simulink. Работа предполагает присутствие на месте в Вене, что может быть ограничением, поскольку профиль уделяет высокий приоритет удалённой работе.",
+      "model": "gpt-5.6-luna"
+    },
+    "5d1960c0be5a1016c830da89": {
+      "source": "The post describes a real-world marine autonomy mission using unmanned surface vehicles for persistent environmental observation. This closely aligns with the profile's stated expansion into marine autonomy, autonomous vessels, navigation and control of mobile platforms, while also offering relevant material for original commentary on endurance, telemetry, mission planning, sensor coverage and autonomous operations. No hiring opportunity is stated.",
+      "ru": "В публикации описывается реальная миссия в области морской автономности с использованием беспилотных надводных аппаратов для постоянного наблюдения за окружающей средой. Это тесно соответствует заявленному расширению профиля в сторону морской автономности, автономных судов, навигации и управления мобильными платформами, а также предоставляет материал для оригинального комментария о выносливости, телеметрии, планировании миссий, покрытии датчиками и автономных операциях. Возможность трудоустройства не заявлена.",
+      "model": "gpt-5.6-luna"
+    },
+    "936927a87298c673daa67682": {
+      "source": "The author is identified as a Chief Engineer involved in developing a new electric aircraft, which aligns with the profile's aerospace, eVTOL, flight-control and autonomous-systems focus. The post also provides a concrete senior engineering person to follow or connect with.",
+      "ru": "Автор указан как Chief Engineer, участвующий в разработке нового электрического летательного аппарата, что соответствует фокусу профиля на аэрокосмической отрасли, eVTOL, управлении полётом и автономных системах. Публикация также предоставляет конкретного senior engineering contact, за которым можно следить или с которым можно установить контакт.",
+      "model": "gpt-5.6-luna"
+    },
+    "b5cbb289e129ac5d678f12ee": {
+      "source": "The post describes a cross-country demonstration of the J208 autonomous aircraft and a gate-to-gate autonomous system, directly matching the profile's experience in flight control, UAVs, autonomous systems, flight dynamics, and validation. It also identifies Kevin Antcliff as a relevant person connected to this work, although his role and company are not stated.",
+      "ru": "Публикация описывает демонстрационный перелёт автономного летательного аппарата J208 через всю страну и автономную систему gate-to-gate, что напрямую соответствует опыту профиля в области управления полётом, UAV, автономных систем, динамики полёта и валидации. Также Kevin Antcliff указан как релевантный человек, связанный с этой работой, хотя его роль и компания не указаны.",
+      "model": "gpt-5.6-luna"
+    },
+    "e65c0dee6d4840e2f1ad1010": {
+      "source": "The author explicitly states that Relativity Space is hiring for its Ignition Systems team and provides Level I and Level II application links. The aerospace and mission-critical systems context is adjacent to the profile's flight-control, aircraft, UAV and autonomous-systems experience, although the post does not provide enough detail to confirm a direct controls or GNC match.",
+      "ru": "Автор явно сообщает, что Relativity Space нанимает сотрудников в команду Ignition Systems, и предоставляет ссылки для подачи заявок на уровни I и II. Аэрокосмический контекст и критически важные для миссий системы смежны с опытом профиля в области управления полётом, летательных аппаратов, UAV и автономных систем, хотя в публикации недостаточно деталей, чтобы подтвердить прямое соответствие управлению или GNC.",
+      "model": "gpt-5.6-luna"
+    },
+    "cf10b189e5c1ec304f072e03": {
+      "source": "The post directly concerns eVTOL programmes, aircraft capability, autonomy timing, battery ageing, mission range, weather, utilisation, infrastructure and operational scalability. These topics closely match the profile's eVTOL flight dynamics, control-system architecture, simulation, autonomy and multidisciplinary R&D experience. It provides no confirmed author identity, company affiliation or hiring information.",
+      "ru": "Публикация непосредственно касается программ eVTOL, характеристик летательных аппаратов, сроков внедрения автономности, старения батарей, дальности миссий, погоды, коэффициента использования, инфраструктуры и масштабирования операций. Эти темы тесно соответствуют опыту профиля в области динамики полёта eVTOL, архитектуры систем управления, симуляции, автономности и междисциплинарных R&D. Подтверждённая личность автора, принадлежность к компании или информация о найме отсутствуют.",
+      "model": "gpt-5.6-luna"
+    },
+    "120c499e70a01f79142cc59b": {
+      "source": "The post explicitly invites applications for a Firmware Engineer role in aerospace and avionics. Its embedded-systems, real-time operating system, software verification, and safety-certification requirements overlap with the profile's aviation, embedded control, C/C++, and multidisciplinary engineering background, although the post does not mention flight controls, GNC, or simulation.",
+      "ru": "Публикация явно приглашает подавать заявки на должность Firmware Engineer в сфере аэрокосмической отрасли и авионики. Требования к встроенным системам, операционным системам реального времени, верификации ПО и сертификации безопасности пересекаются с опытом профиля в авиации, встроенном управлении, C/C++ и междисциплинарной инженерии, хотя управление полётом, GNC или симуляция в публикации не упоминаются.",
+      "model": "gpt-5.6-luna"
+    },
+    "e8f71116f7b5e6286d83bf9f": {
+      "source": "Embention is described as developing autopilots and control systems for unmanned aircraft, directly matching the profile's UAV, flight-control and autonomous-systems focus. The author explicitly invites people working in aerospace R&D, defense or UAS to discuss consortium collaboration, creating a relevant networking opportunity, but the post does not advertise a job.",
+      "ru": "Embention описывается как компания, разрабатывающая автопилоты и системы управления для беспилотных летательных аппаратов, что напрямую соответствует фокусу профиля на UAV, управлении полётом и автономных системах. Автор явно приглашает специалистов, работающих в аэрокосмических R&D, обороне или UAS, обсудить сотрудничество в рамках консорциума, что создаёт релевантную возможность для нетворкинга, однако вакансия не объявляется.",
+      "model": "gpt-5.6-luna"
+    },
+    "d0aa50a0abefeea21747b553": {
+      "source": "The post directly concerns VTOL hover stability, flight-control response, propulsion dynamics, sensors, and validation of the complete control loop, closely matching the profile's flight-control, autopilot, UAV, eVTOL, simulation, and testing expertise.",
+      "ru": "Публикация непосредственно касается устойчивости VTOL в режиме висения, реакции системы управления полётом, динамики силовой установки, датчиков и валидации полного контура управления, что тесно соответствует опыту профиля в области управления полётом, автопилотов, UAV, eVTOL, симуляции и испытаний.",
+      "model": "gpt-5.6-luna"
+    },
+    "fa460a813b2ef3eec49fb196": {
+      "source": "The post explicitly describes demand for freelance aerospace specialists in flight-control computing, avionics, embedded systems and safety-critical architectures. These areas closely match the profile's flight-control, autopilot, flight-dynamics, simulation, UAV, embedded-control and multidisciplinary aerospace background. The freelance and contract focus also aligns with the profile's consulting preference, although no specific vacancy, employer or remote arrangement is provided.",
+      "ru": "Публикация явно описывает спрос на freelance aerospace specialists в области вычислений для управления полётом, авионики, встроенных систем и критически важных для безопасности архитектур. Эти области тесно соответствуют опыту профиля в управлении полётом, автопилотах, динамике полёта, симуляции, UAV, встроенном управлении и междисциплинарной аэрокосмической инженерии. Фокус на freelance и contract также соответствует предпочтению профиля к консалтингу, хотя конкретная вакансия, работодатель или удалённый формат не указаны.",
+      "model": "gpt-5.6-luna"
+    },
+    "b25b3f4596ad63126720d737": {
+      "source": "The post describes end-to-end mission autonomy for the Hermeus Quarterhorse Mk 2, including planning, execution and debriefing for high-speed aircraft. This closely matches the profile's experience in flight control, autopilot algorithms, flight dynamics, UAV/eVTOL systems, simulation and autonomous missions. No hiring opportunity is stated.",
+      "ru": "Публикация описывает автономность миссии полного цикла для Hermeus Quarterhorse Mk 2, включая планирование, выполнение и разбор полётов для высокоскоростных летательных аппаратов. Это тесно соответствует опыту профиля в области управления полётом, алгоритмов автопилота, динамики полёта, систем UAV/eVTOL, симуляции и автономных миссий. Возможность трудоустройства не заявлена.",
+      "model": "gpt-5.6-luna"
+    },
+    "997af7216a2650dfd2758346": {
+      "source": "The post announces MathWorks Research Summit India, focused on engineered system design in the age of AI, and explicitly features MATLAB and Simulink. This aligns with the profile's flight-control, simulation, modeling, and autonomous-systems expertise. The event also offers a concrete opportunity to identify and connect with relevant MathWorks research and engineering contacts, although it is invitation-based rather than a job opening.",
+      "ru": "Публикация анонсирует MathWorks Research Summit India, посвящённый проектированию инженерных систем в эпоху AI, и явно включает MATLAB и Simulink. Это соответствует опыту профиля в области управления полётом, симуляции, моделирования и автономных систем. Мероприятие также даёт конкретную возможность найти и установить контакт с релевантными исследовательскими и инженерными специалистами MathWorks, хотя оно проводится по приглашениям, а не является вакансией.",
+      "model": "gpt-5.6-luna"
+    },
+    "ea1df5370d6380b68315c459": {
+      "source": "Saildrone explicitly states that it is hiring roughly two dozen people across engineering and other functions. The company’s work on autonomous maritime platforms, defense, ocean mapping and NOAA missions is strongly adjacent to the profile’s autonomous-systems, control, navigation, simulation and marine-autonomy interests. The post does not specify an open flight-controls, GNC or marine-controls role, so the exact technical fit requires job review.",
+      "ru": "Saildrone прямо сообщает, что нанимает около двух десятков сотрудников в инженерные и другие подразделения. Работа компании с автономными морскими платформами, обороной, картографированием океана и миссиями NOAA тесно смежна с интересами профиля в области автономных систем, управления, навигации, симуляции и морской автономности. В публикации не указана открытая позиция в области управления полётом, GNC или управления морскими системами, поэтому точное техническое соответствие требует изучения вакансий.",
+      "model": "gpt-5.6-luna"
+    },
+    "847fe20c1eecbef050a781d9": {
+      "source": "Open Ocean Robotics describes autonomous surface vessels for defence, security, and ocean operations. This closely matches the profile’s target expansion into marine autonomy, autonomous vessel control, navigation, stabilization, and robotics. The post also provides a direct opportunity to engage with the company at SMM Hamburg, but it contains no hiring announcement.",
+      "ru": "Open Ocean Robotics описывает автономные надводные суда для обороны, безопасности и океанских операций. Это тесно соответствует целевому расширению профиля в сторону морской автономности, управления автономными судами, навигации, стабилизации и робототехники. Публикация также предоставляет прямую возможность взаимодействия с компанией на SMM Hamburg, но не содержит объявления о найме.",
+      "model": "gpt-5.6-luna"
+    },
+    "9035a236169bfa4723228a71": {
+      "source": "The post explicitly advertises a UAV Pilot position at ADASI in the UAE and references autonomous aviation and advanced autonomous systems. The UAV, aviation and autonomy domains overlap with the profile, but the advertised pilot role is not a direct match for the profile's senior flight-control, GNC, simulation and engineering-leadership focus. The UAE location may also be less aligned with the profile's strong remote preference.",
+      "ru": "Публикация явно объявляет вакансию UAV Pilot в ADASI в ОАЭ и упоминает автономную авиацию и передовые автономные системы. Области UAV, авиации и автономности пересекаются с профилем, однако вакансия пилота не соответствует напрямую фокусу профиля на senior flight-control, GNC, симуляции и инженерном лидерстве. Расположение в ОАЭ также может быть менее совместимо с выраженным предпочтением профиля к удалённой работе.",
+      "model": "gpt-5.6-luna"
+    },
+    "0ff9f496ade3bfec3388f135": {
+      "source": "The post describes the P100 aircraft completing more than 100 flight tests and advancing its autonomous capabilities across contested logistics, ISR and precision-effects missions. This aligns with the profile's experience in flight controls, autonomous aircraft, UAV systems, simulation and flight-test support. No hiring or specific employer is identified.",
+      "ru": "Публикация описывает выполнение летательным аппаратом P100 более 100 лётных испытаний и развитие его автономных возможностей для задач contested logistics, ISR и precision-effects. Это соответствует опыту профиля в области управления полётом, автономных летательных аппаратов, систем UAV, симуляции и поддержки лётных испытаний. Информация о найме или конкретном работодателе отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "24f8be600167434eed927005": {
+      "source": "The post discusses applying GenAI and AI agents to model-based, safety-critical engineering workflows using MATLAB and Simulink. This aligns with the profile's flight-control, simulation, model-based development, MATLAB/Simulink, and autonomous-systems expertise, although the post focuses on automotive engineering rather than aerospace.",
+      "ru": "Публикация посвящена применению GenAI и AI agents к модельно-ориентированным, критически важным для безопасности инженерным рабочим процессам с использованием MATLAB и Simulink. Это соответствует опыту профиля в области управления полётом, симуляции, модельно-ориентированной разработки, MATLAB/Simulink и автономных систем, хотя публикация посвящена автомобильной инженерии, а не аэрокосмической отрасли.",
+      "model": "gpt-5.6-luna"
+    },
+    "b088c4c2ae86baaaa667097f": {
+      "source": "The post reports a new air taxi testing program involving Fort Worth, Hillwood AllianceTexas, Joby Aviation, the Texas Department of Transportation, and the U.S. Department of Transportation. Inference: the eVTOL testing context is closely aligned with the profile's flight-control, simulation, autopilot, and UAV/eVTOL expertise, but the post does not provide a specific vacancy or technical scope.",
+      "ru": "Публикация сообщает о новой программе испытаний аэротакси с участием Fort Worth, Hillwood AllianceTexas, Joby Aviation, Texas Department of Transportation и U.S. Department of Transportation. Вывод: контекст испытаний eVTOL тесно соответствует опыту профиля в области управления полётом, симуляции, автопилотов и UAV/eVTOL, однако конкретная вакансия или технический охват не указаны.",
+      "model": "gpt-5.6-luna"
+    },
+    "3ec84a692f5dc9ea6d0100b2": {
+      "source": "The post reports Joby Aviation flying electric air taxis across the Dallas-Fort Worth area as part of a federal pilot program, directly aligning with the profile's eVTOL, flight-control and autonomous-systems interests. It contains no hiring information.",
+      "ru": "Публикация сообщает о полётах Joby Aviation на электрических аэротакси в районе Dallas-Fort Worth в рамках федеральной пилотной программы, что напрямую соответствует интересам профиля в области eVTOL, управления полётом и автономных систем. Информация о найме отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "d6f293ec60c20858ce3e90f6": {
+      "source": "The post promotes a professional certificate focused on practical modeling and simulation with Simulink and Simscape, including power electronics, electric motors, and battery systems. This aligns strongly with the profile's MATLAB/Simulink and simulation experience and is adjacent to the profile's eVTOL, flight-control, and electrified aircraft work. It is a learning opportunity, not a job or hiring announcement.",
+      "ru": "Публикация продвигает профессиональный сертификат, посвящённый практическому моделированию и симуляции с использованием Simulink и Simscape, включая силовую электронику, электродвигатели и батарейные системы. Это тесно соответствует опыту профиля в MATLAB/Simulink и симуляции и смежно с работой профиля в области eVTOL, управления полётом и электрифицированных летательных аппаратов. Это возможность обучения, а не вакансия или объявление о найме.",
+      "model": "gpt-5.6-luna"
+    },
+    "768e183fcc607723aac1d4a1": {
+      "source": "The post highlights advanced air mobility and eVTOL activity in Texas and mentions Joby Aviation, BETA Technologies, and Archer, which align with the profile's target domains. It provides networking and market-awareness value but contains no explicit hiring or project details.",
+      "ru": "Публикация освещает активность в сфере Advanced Air Mobility и eVTOL в Техасе и упоминает Joby Aviation, BETA Technologies и Archer, что соответствует целевым областям профиля. Она предоставляет ценность для нетворкинга и понимания рынка, но не содержит явной информации о найме или деталях проектов.",
+      "model": "gpt-5.6-luna"
+    },
+    "ee5d5898be90dc5fe56c78b5": {
+      "source": "The post describes Anduril's deployment of passive systems that detect small drones, large aircraft, and surface vessels without emitting signals. This aligns technically with the profile's UAV/UAS, autonomous-systems, aerospace-defense, and sensing-related interests, but the post contains no hiring or specific networking contact.",
+      "ru": "Публикация описывает развёртывание Anduril пассивных систем, обнаруживающих малые дроны, крупные летательные аппараты и надводные суда без излучения сигналов. Технически это соответствует интересам профиля в области UAV/UAS, автономных систем, аэрокосмической обороны и сенсорных технологий, однако информация о найме или конкретном контакте для нетворкинга отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "4ce9da21728b1cba2666c59c": {
+      "source": "The post directly relates to Simulink, model-based engineering, AI-assisted engineering workflows, model updates, change impact tracking, and verification. These topics align with the profile's extensive MATLAB/Simulink, flight-control modeling, simulation, and applied AI experience. The author and two explicitly mentioned people provide concrete technical networking targets, although no employment or hiring opportunity is stated.",
+      "ru": "Публикация непосредственно связана с Simulink, модельно-ориентированной инженерией, инженерными рабочими процессами с поддержкой AI, обновлением моделей, отслеживанием влияния изменений и верификацией. Эти темы соответствуют обширному опыту профиля в MATLAB/Simulink, моделировании управления полётом, симуляции и прикладном AI. Автор и два явно упомянутых человека являются конкретными целями для технического нетворкинга, хотя информация о трудоустройстве или найме отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "dc0cee8a11496e0652298af4": {
+      "source": "Inference: The post is relevant to the profile's flight-dynamics, modeling, simulation, and control-system background. Its focus on improving accuracy, reducing testing, and accelerating engineering development could support an expert perspective on applying multibody dynamics simulation to flight-control validation and autonomous-system development.",
+      "ru": "Вывод: публикация релевантна опыту профиля в области динамики полёта, моделирования, симуляции и систем управления. Её фокус на повышении точности, сокращении объёма испытаний и ускорении инженерной разработки может поддержать экспертный взгляд на применение симуляции многотельной динамики для валидации управления полётом и разработки автономных систем.",
+      "model": "gpt-5.6-luna"
+    },
+    "6480dbdf8c026b555f4b1438": {
+      "source": "The post focuses on designing, simulating and controlling autonomous robots using MATLAB/Simulink, navigation sensors, computer vision, motor tuning and virtual simulation. These topics closely match the profile's control systems, simulation, robotics, autonomy and MATLAB/Simulink background. The author is a potentially relevant robotics-content contact, but no professional role or hiring connection is stated.",
+      "ru": "Публикация посвящена проектированию, симуляции и управлению автономными роботами с использованием MATLAB/Simulink, навигационных датчиков, компьютерного зрения, настройки двигателей и виртуальной симуляции. Эти темы тесно соответствуют опыту профиля в области систем управления, симуляции, робототехники, автономности и MATLAB/Simulink. Автор является потенциально релевантным контактом по робототехническому контенту, однако его профессиональная роль или связь с наймом не указаны.",
+      "model": "gpt-5.6-luna"
+    },
+    "b7ac3f5bd0d47d2a223bf5c3": {
+      "source": "The post describes a first flight involving ALIA and electric aviation, which aligns with the profile's aerospace, eVTOL and flight-control focus. No hiring or specific technical role is stated.",
+      "ru": "Публикация описывает первый полёт с участием ALIA и электрической авиации, что соответствует фокусу профиля на аэрокосмической отрасли, eVTOL и управлении полётом. Информация о найме или конкретной технической роли отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "b3e94f55284fd369482313f0": {
+      "source": "The post describes an autonomous Altius-700 launched from an H-60M Black Hawk to find a target, share data across a formation, and execute a strike. This closely relates to the profile's UAV autonomy, guidance, control, mission systems, telemetry, and multidisciplinary aerospace engineering background. No employer, author identity, vacancy, or hiring intent is provided.",
+      "ru": "Публикация описывает автономный Altius-700, запущенный с H-60M Black Hawk для поиска цели, обмена данными внутри группы и выполнения удара. Это тесно связано с опытом профиля в области автономности UAV, наведения, управления, миссионных систем, телеметрии и междисциплинарной аэрокосмической инженерии. Работодатель, личность автора, вакансия или намерение нанимать сотрудников не указаны.",
+      "model": "gpt-5.6-luna"
+    },
+    "070a7d68fa152242e2a69622": {
+      "source": "The post concerns Eve Air Mobility's urban air mobility approach and a full-scale eVTOL mock-up, which aligns with the profile's eVTOL, flight-control, aircraft-systems and autonomous-mobility interests. It is primarily a showcase and event-recap post, with no hiring or detailed technical opportunity stated.",
+      "ru": "Публикация посвящена подходу Eve Air Mobility к городской воздушной мобильности и полноразмерному макету eVTOL, что соответствует интересам профиля в области eVTOL, управления полётом, авиационных систем и автономной мобильности. В основном это публикация-презентация и отчёт о мероприятии, без информации о найме или подробной технической возможности.",
+      "model": "gpt-5.6-luna"
+    },
+    "dc7cf08568ec768483f6b658": {
+      "source": "The post concerns aviation and engineering education, accredited engineering technology curriculum, and Product Support Engineering pathways connected with TeamBoeing. It is adjacent to the profile's aerospace engineering background but does not present a job or direct technical project opportunity.",
+      "ru": "Публикация посвящена авиационному и инженерному образованию, аккредитованной учебной программе по инженерным технологиям и направлениям Product Support Engineering, связанным с TeamBoeing. Она смежна с аэрокосмическим инженерным опытом профиля, но не представляет вакансию или прямую возможность участия в техническом проекте.",
+      "model": "gpt-5.6-luna"
+    },
+    "45e2a236a10fcf232a641ebe": {
+      "source": "The post describes aerospace and space research activities at Politecnico di Milano's DAER, including satellites, space missions, aircraft technologies, wind-tunnel testing and experimental safety research. These domains overlap with the profile's aerospace engineering and simulation background. The author and several named participants provide concrete aerospace-related networking targets, although the post does not state their roles or any hiring activity.",
+      "ru": "Публикация описывает аэрокосмические и космические исследовательские проекты в DAER при Politecnico di Milano, включая спутники, космические миссии, авиационные технологии, испытания в аэродинамической трубе и экспериментальные исследования безопасности. Эти области пересекаются с опытом профиля в аэрокосмической инженерии и симуляции. Автор и несколько указанных участников являются конкретными целями для аэрокосмического нетворкинга, хотя их роли и активность по найму не указаны.",
+      "model": "gpt-5.6-luna"
+    },
+    "aeafe809c184f2e316eb82de": {
+      "source": "The post explicitly requests resumes and is tagged for UAV, aerospace, avionics, HMI, UI, QA, and Tech Lead work. The UAV, aerospace, avionics, and technical-leadership aspects overlap with the profile, but the specific responsibilities and fit for flight-control or GNC work are not provided.",
+      "ru": "Публикация явно запрашивает резюме и отмечена тегами UAV, aerospace, avionics, HMI, UI, QA и Tech Lead. Аспекты UAV, аэрокосмической отрасли, авионики и технического лидерства пересекаются с профилем, однако конкретные обязанности и соответствие работе в области управления полётом или GNC не указаны.",
+      "model": "gpt-5.6-luna"
+    },
+    "66052b5fb6a6306f014cf3ee": {
+      "source": "The author explicitly states that she joined MathWorks. MathWorks is relevant to the profile because the professional profile uses MATLAB and Simulink, but the post does not specify the author's role, technical work, or any hiring activity. The author and three named contacts provide potential networking paths, although their relevance to engineering opportunities is unconfirmed.",
+      "ru": "Автор явно сообщает, что присоединилась к MathWorks. MathWorks релевантна профилю, поскольку специалист использует MATLAB и Simulink, однако в публикации не указаны роль автора, техническая работа или активность по найму. Автор и три упомянутых контакта создают потенциальные пути для нетворкинга, хотя их связь с инженерными возможностями не подтверждена.",
+      "model": "gpt-5.6-luna"
+    },
+    "a283518d768e163d8709ba85": {
+      "source": "Inference: The post is not a direct engineering or hiring opportunity, but it highlights Astana Hub, international technology communities, AI, and opportunities for engineers and founders to connect in Kazakhstan. The author is a confirmed senior technology-ecosystem contact, making the post more valuable for networking than for immediate job matching.",
+      "ru": "Вывод: публикация не является прямой инженерной возможностью или возможностью трудоустройства, но освещает Astana Hub, международные технологические сообщества, AI и возможности для взаимодействия инженеров и основателей в Казахстане. Автор является подтверждённым senior contact в технологической экосистеме, поэтому публикация более ценна для нетворкинга, чем для немедленного поиска подходящей работы.",
+      "model": "gpt-5.6-luna"
+    },
+    "9156c51855a0ddf970965448": {
+      "source": "The post concerns technically assessed wind-propulsion systems for maritime vessels, including vessel-specific sizing, deck arrangements, operating profiles, newbuilds and retrofits. This is adjacent to the profile's interest in marine autonomy and control of mobile platforms, but the post does not mention autonomy, navigation, simulation or controls work.",
+      "ru": "Публикация посвящена технически оцениваемым системам ветровой тяги для морских судов, включая расчёты под конкретные суда, размещение на палубе, профили эксплуатации, новые суда и модернизацию существующих. Это смежно с интересом профиля к морской автономности и управлению мобильными платформами, но публикация не упоминает автономность, навигацию, симуляцию или работу с системами управления.",
+      "model": "gpt-5.6-luna"
+    },
+    "de86e72ae91f4c9783c98042": {
+      "source": "The post describes the P100 as a turbine-powered autonomous VTOL built for speed. Inference: this is relevant to the profile's focus on VTOL, autonomous aircraft, flight dynamics, autopilot and control systems, although the post provides no specific engineering details or employment signal.",
+      "ru": "Публикация описывает P100 как турбинный автономный VTOL, созданный для высокой скорости. Вывод: это релевантно фокусу профиля на VTOL, автономных летательных аппаратах, динамике полёта, автопилотах и системах управления, хотя конкретные инженерные детали или признаки трудоустройства отсутствуют.",
+      "model": "gpt-5.6-luna"
+    },
+    "845d1e237da2468c8a245895": {
+      "source": "The post describes ground validation of engine and propulsion performance for a VTOL UAV before flight testing. This is adjacent to the profile's UAV, flight-control, flight-dynamics, simulation and multidisciplinary aircraft-testing experience, but it does not specifically discuss control algorithms or an opportunity.",
+      "ru": "Публикация описывает наземную валидацию характеристик двигателя и силовой установки для VTOL UAV перед лётными испытаниями. Это смежно с опытом профиля в области UAV, управления полётом, динамики полёта, симуляции и междисциплинарных испытаний летательных аппаратов, но конкретно алгоритмы управления или возможность трудоустройства не обсуждаются.",
+      "model": "gpt-5.6-luna"
+    },
+    "a4f56d6082756b3ca7a53476": {
+      "source": "Inference: The post describes a direct eVTOL and advanced-air-mobility project involving aircraft development, operational integration, medical-bay design, transfer procedures, and certification. These areas align strongly with the profile's flight controls, flight dynamics, simulation, autonomy, and eVTOL experience. No hiring opportunity is stated.",
+      "ru": "Вывод: публикация описывает непосредственный проект eVTOL и advanced air mobility, связанный с разработкой летательного аппарата, интеграцией в эксплуатацию, проектированием медицинского отсека, процедурами передачи и сертификацией. Эти области тесно соответствуют опыту профиля в управлении полётом, динамике полёта, симуляции, автономности и eVTOL. Возможность трудоустройства не заявлена.",
+      "model": "gpt-5.6-luna"
+    },
+    "010ad4f3fc7da01406343570": {
+      "source": "The post concerns physics-based simulation of EV acoustics using specialized tools and reduced-order modeling. This is adjacent to the profile's modeling, simulation and multidisciplinary engineering background, but NVH and automotive acoustics are not core target domains.",
+      "ru": "Публикация посвящена физически обоснованной симуляции акустики электромобилей с использованием специализированных инструментов и моделей пониженного порядка. Это смежно с опытом профиля в моделировании, симуляции и междисциплинарной инженерии, однако NVH и автомобильная акустика не относятся к основным целевым областям.",
+      "model": "gpt-5.6-luna"
+    },
+    "b085e92c12c3fe2743b7197d": {
+      "source": "The post confirms that Joby Aviation is developing electric air taxis and operating in the eVTOL aerospace sector, which aligns with the profile's target domain. However, the post focuses on digital marketing and storytelling rather than engineering work or an open role.",
+      "ru": "Публикация подтверждает, что Joby Aviation разрабатывает электрические аэротакси и работает в секторе аэрокосмической eVTOL, что соответствует целевой области профиля. Однако публикация посвящена цифровому маркетингу и сторителлингу, а не инженерной работе или открытой вакансии.",
+      "model": "gpt-5.6-luna"
+    },
+    "13639d3142703b3d855bf61a": {
+      "source": "The post describes a partnership between Sarla Aviation and Tata Elxsi to develop Shunya, an eVTOL aircraft for urban air mobility. This directly matches the profile's eVTOL, flight-control, aircraft-systems, simulation and autonomous-mobility background, but the post contains no hiring information or named technical contact.",
+      "ru": "Публикация описывает партнёрство Sarla Aviation и Tata Elxsi по разработке Shunya — летательного аппарата eVTOL для городской воздушной мобильности. Это напрямую соответствует опыту профиля в области eVTOL, управления полётом, авиационных систем, симуляции и автономной мобильности, однако публикация не содержит информации о найме или имён технических контактов.",
+      "model": "gpt-5.6-luna"
+    },
+    "2a055b7932f1578c76f41a56": {
+      "source": "The post discusses eVTOL urban mobility and the strategic importance of energy and charging infrastructure. This aligns with the profile's eVTOL development, flight-control architecture, simulation, autopilot and energy-aware trajectory-planning experience, but the post contains no hiring or specific role signal.",
+      "ru": "Публикация посвящена городской мобильности eVTOL и стратегической важности энергетической и зарядной инфраструктуры. Это соответствует опыту профиля в разработке eVTOL, архитектуре управления полётом, симуляции, автопилотах и планировании траекторий с учётом энергии, однако публикация не содержит информации о найме или конкретной роли.",
+      "model": "gpt-5.6-luna"
+    },
+    "7ab74010c77d6c6fe0b2429a": {
+      "source": "Rocket Lab is promoting an explicit career networking event and applications for Manufacturing Technicians and Supply Chain Specialists, with work involving real hardware, missions, national security, deep space exploration and defense. The aerospace and space context is relevant to the profile, but the advertised roles are not directly aligned with flight controls, GNC, UAV systems or simulation.",
+      "ru": "Rocket Lab продвигает специальное мероприятие для карьерного нетворкинга и приём заявок на должности Manufacturing Technicians и Supply Chain Specialists, связанные с реальным оборудованием, миссиями, национальной безопасностью, исследованием дальнего космоса и обороной. Аэрокосмический и космический контекст релевантен профилю, но объявленные роли напрямую не соответствуют управлению полётом, GNC, системам UAV или симуляции.",
+      "model": "gpt-5.6-luna"
+    },
+    "435a5653adbfc1adc3925508": {
+      "source": "The post discusses aeroacoustics simulation, large eddy simulation, noise control, and aerospace applications. Inference: this overlaps with the profile's aerospace engineering, flight dynamics, simulation, and multidisciplinary design background, although aeroacoustics is not listed as a core specialization.",
+      "ru": "Публикация посвящена симуляции аэроакустики, моделированию крупных вихрей, управлению шумом и аэрокосмическим применениям. Вывод: это пересекается с опытом профиля в аэрокосмической инженерии, динамике полёта, симуляции и междисциплинарном проектировании, хотя аэроакустика не указана как основная специализация.",
+      "model": "gpt-5.6-luna"
+    },
+    "074d6f6738354f22fb5d5709": {
+      "source": "The post confirms MathWorks is bringing an intern into a full-time position and describes work involving AI, usability evaluation, and human-centered research. MathWorks is potentially relevant to the profile because of its association with engineering software, but the post does not identify a flight-control, simulation, robotics, or engineering vacancy. The named manager, mentors, and sponsors are concrete people connected to MathWorks and may provide networking context, although their technical relevance is not established.",
+      "ru": "Публикация подтверждает, что MathWorks переводит стажёра на постоянную должность, и описывает работу, связанную с AI, оценкой удобства использования и человеко-ориентированными исследованиями. MathWorks потенциально релевантна профилю благодаря связи с инженерным ПО, однако публикация не указывает на вакансию в области управления полётом, симуляции, робототехники или инженерии. Указанные менеджер, наставники и спонсоры являются конкретными людьми, связанными с MathWorks, и могут дать контекст для нетворкинга, хотя их техническая релевантность не установлена.",
+      "model": "gpt-5.6-luna"
+    },
+    "f5c7d63e0ea277b9be3d47b7": {
+      "source": "The post highlights MATLAB and Simulink in wireless communications and cross-discipline design. These tools are directly aligned with the profile, although the specific wireless-communications focus is adjacent rather than central to flight control, GNC, UAV and autonomous-systems work.",
+      "ru": "Публикация освещает применение MATLAB и Simulink в беспроводной связи и междисциплинарном проектировании. Эти инструменты напрямую соответствуют профилю, хотя конкретный фокус на беспроводных коммуникациях является смежным, а не центральным для работы в области управления полётом, GNC, UAV и автономных систем.",
+      "model": "gpt-5.6-luna"
+    },
+    "f651b4d6ebecc682d1df56f6": {
+      "source": "The post is from MathWorks and focuses on MATLAB and Simulink education, tools that are directly aligned with the profile's flight-control, simulation, and model-based engineering experience. It names MathWorks and ARKANCE participants, creating possible but unconfirmed networking paths. No job opening or hiring intent is stated.",
+      "ru": "Публикация опубликована MathWorks и посвящена обучению MATLAB и Simulink — инструментам, напрямую соответствующим опыту профиля в области управления полётом, симуляции и модельно-ориентированной инженерии. В ней названы участники MathWorks и ARKANCE, что создаёт возможные, но неподтверждённые пути для нетворкинга. Вакансия или намерение нанимать сотрудников не заявлены.",
+      "model": "gpt-5.6-luna"
+    },
+    "a3a92c55a7d269c1b13cb125": {
+      "source": "The post describes an aerial firefighting system using automatic navigation, flight operations at 150 meters, targeted agent distribution, and optimized drop physics. These topics align closely with the profile's experience in flight-control systems, flight dynamics, autopilot algorithms, UAVs, simulation, and autonomous systems. The author is seeking strategic R&D partners and grant co-applicants, creating a potential collaboration opportunity, but no employment vacancy or named organization is provided.",
+      "ru": "Публикация описывает систему воздушного пожаротушения с автоматической навигацией, выполнением полётов на высоте 150 метров, целевой доставкой средства и оптимизированной физикой сброса. Эти темы тесно соответствуют опыту профиля в области систем управления полётом, динамики полёта, алгоритмов автопилота, UAV, симуляции и автономных систем. Автор ищет стратегических R&D-партнёров и со-заявителей на гранты, что создаёт потенциальную возможность сотрудничества, но вакансия или название организации не указаны.",
+      "model": "gpt-5.6-luna"
+    },
+    "465e3264db4fcda5c29ef618": {
+      "source": "The post highlights British Columbia’s marine and defence ecosystem and names the CEO of an association connecting industry, government, and academia. This aligns with the profile’s interest in marine autonomy, autonomous vessels, control systems, and multidisciplinary engineering networks, but the post does not identify a specific engineering role or technical project.",
+      "ru": "Публикация освещает морскую и оборонную экосистему British Columbia и называет CEO ассоциации, объединяющей промышленность, государственные органы и академическое сообщество. Это соответствует интересам профиля в области морской автономности, автономных судов, систем управления и междисциплинарных инженерных сетей, но конкретная инженерная роль или технический проект не указаны.",
+      "model": "gpt-5.6-luna"
     }
   }
 }
