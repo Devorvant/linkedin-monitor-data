@@ -272,6 +272,21 @@ def as_int(value):
         return 0
 
 
+def recency_decay(age_days):
+    age = as_int(age_days)
+    if age <= 3:
+        return 0
+    if age <= 7:
+        return -3
+    if age <= 14:
+        return -10
+    if age <= 21:
+        return -18
+    if age <= 30:
+        return -25
+    return -30
+
+
 def opportunity_constraints(signal):
     text = " ".join([
         planner.clean(signal.get("source_text")),
@@ -294,7 +309,19 @@ def opportunity_constraints(signal):
         })
         penalty += 18
 
-    if "does not specify remote" in text or "remote availability" in text and "does not specify" in text:
+    remote_unspecified = any(marker in text for marker in (
+        "does not specify remote",
+        "remote availability",
+        "remote arrangement is provided",
+        "remote-work information",
+        "remote work information",
+    )) and any(marker in text for marker in (
+        "does not specify",
+        "no specific",
+        "not provide",
+        "no ",
+    ))
+    if remote_unspecified:
         constraints.append({
             "code": "remote_unspecified",
             "label": "удалённый формат не подтверждён",
@@ -302,13 +329,45 @@ def opportunity_constraints(signal):
         })
         penalty += 3
 
-    if "does not specify" in text and ("exact positions" in text or "specific vacancy" in text):
+    roles_unspecified = any(marker in text for marker in (
+        "no specific vacancy",
+        "does not specify an open",
+        "does not specify exact positions",
+        "exact positions",
+        "exact technical fit requires job review",
+    ))
+    if roles_unspecified:
         constraints.append({
             "code": "roles_unspecified",
-            "label": "конкретные вакансии/позиции не указаны",
+            "label": "конкретная подходящая вакансия не подтверждена",
             "penalty": 4,
         })
         penalty += 4
+
+    employer_unspecified = "no specific vacancy, employer" in text or "no specific employer" in text
+    if employer_unspecified:
+        constraints.append({
+            "code": "employer_unspecified",
+            "label": "конкретный работодатель не указан",
+            "penalty": 2,
+        })
+        penalty += 2
+
+    onsite_remote_mismatch = (
+        "on-site" in text
+        and (
+            "remote work high priority" in text
+            or "remote work high priority" in text.replace("-", " ")
+            or "remote work" in text and "potential constraint" in text
+        )
+    )
+    if onsite_remote_mismatch:
+        constraints.append({
+            "code": "work_format_mismatch",
+            "label": "on-site формат при приоритете remote",
+            "penalty": 8,
+        })
+        penalty += 8
 
     if "indirect hiring signal" in text or "hiring is only an indirect signal" in text:
         constraints.append({
@@ -429,6 +488,7 @@ def calculate_action_score(item, signal):
         "opportunity": 2 if "OPPORTUNITY_SIGNAL" in types else 0,
         "priority": 2 if item.get("priority") == "high" else 1,
         "constraints": -ctx["constraint_penalty"],
+        "recency_decay": recency_decay(age),
     }
     score = max(0, min(100, round(sum(components.values()))))
     return score, components, ctx
