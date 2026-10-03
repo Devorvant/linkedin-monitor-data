@@ -1,53 +1,51 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-02T05:13:17.912847+00:00",
+  "generated_at": "2026-10-03T05:12:15.409443+00:00",
   "status": "OK",
   "analysis_mode": "llm",
   "analysis_reason": "Feed/profile/analyzer changed",
   "feed_signals": {
-    "posts_analyzed": 18,
-    "high_priority": 1,
-    "medium_priority": 7,
-    "low_priority": 10,
+    "posts_analyzed": 16,
+    "high_priority": 2,
+    "medium_priority": 1,
+    "low_priority": 13,
     "signal_type_counts": {
-      "TECH_SIGNAL": 9,
-      "PROJECT_SIGNAL": 8,
+      "TECH_SIGNAL": 4,
+      "PROJECT_SIGNAL": 7,
       "PEOPLE_SIGNAL": 10,
-      "NETWORK_SIGNAL": 9,
-      "MARKET_SIGNAL": 6,
-      "HIRING_SIGNAL": 1,
-      "COMPANY_SIGNAL": 7
+      "NETWORK_SIGNAL": 12,
+      "HIRING_SIGNAL": 2,
+      "COMPANY_SIGNAL": 4,
+      "MARKET_SIGNAL": 4,
+      "OPPORTUNITY_SIGNAL": 2
     }
   },
   "action_queue": {
-    "items": 8,
-    "high": 1,
-    "medium": 7,
+    "items": 3,
+    "high": 2,
+    "medium": 1,
     "pending_approval": 2,
-    "research_needed": 3,
+    "research_needed": 0,
     "primary_action_counts": {
-      "engage_with_post": 5,
-      "research_contact": 3
+      "engage_with_post": 3
     },
     "action_plan_counts": {
+      "check_jobs": 1,
       "connect_person": 2,
-      "engage_with_post": 5,
-      "find_warm_path": 5,
-      "follow_company": 4,
-      "follow_person": 4,
-      "research_company": 1,
-      "research_contact": 3,
-      "review_technology": 3,
-      "save_for_content": 5
+      "engage_with_post": 3,
+      "find_warm_path": 3,
+      "follow_company": 1,
+      "follow_person": 1,
+      "review_technology": 2
     }
   },
   "relationships": {
-    "total": 250,
-    "people": 212,
+    "total": 252,
+    "people": 214,
     "companies": 38,
-    "people_with_profile_url": 173,
+    "people_with_profile_url": 174,
     "status_counts": {
-      "WATCH": 250,
+      "WATCH": 252,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -55,7 +53,7 @@
       "REPLIED": 0,
       "CLOSED": 0
     },
-    "review_recommended": 120,
+    "review_recommended": 122,
     "do_not_contact": 0,
     "repeat_entities": 48
   },
