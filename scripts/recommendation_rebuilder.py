@@ -331,6 +331,10 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
     for item in queue.get("items", []):
         stats = item.get("history_stats") or {}
         item["freshness"] = freshness_for(stats.get("last_seen"), reference_date)
+        item["action_plan_full"] = copy.deepcopy(item.get("action_plan") or [])
+        item["drafts_full"] = copy.deepcopy(item.get("drafts") or {})
+        item["execution_status_full"] = item.get("execution_status")
+        item["approval_required_full"] = item.get("approval_required")
         item["recommendation_status"] = (
             "ACTIONABLE_NOW" if item["freshness"]["actionable_now"]
             else "WATCHLIST" if item["freshness"]["age_days"] <= 14
