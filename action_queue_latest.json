@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-03T18:02:19.029249+00:00",
+  "generated_at": "2026-10-03T18:11:30.575481+00:00",
   "source_generated_at": "2026-10-03T05:11:28.187448+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
