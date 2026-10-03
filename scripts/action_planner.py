@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 import argparse
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import unquote
 
 ALLOWED_ACTIONS = {
     "connect_person", "follow_person", "follow_company", "engage_with_post",
@@ -31,6 +33,196 @@ def load_json(path: Path, default=None):
 
 def clean(value):
     return str(value or "").strip()
+
+
+def norm_url(value):
+    text = clean(value)
+    if not text:
+        return ""
+    return text.split("#", 1)[0].split("?", 1)[0].rstrip("/").casefold()
+
+
+def profile_slug(value):
+    match = re.search(r"https?://(?:www\.)?linkedin\.com/in/([^/?#]+)", clean(value), re.I)
+    return unquote(match.group(1)).casefold() if match else ""
+
+
+def signal_urls(signal):
+    urls = []
+    for value in [signal.get("source_url")]:
+        value = clean(value)
+        if value:
+            urls.append(value)
+    for item in signal.get("links") or []:
+        if isinstance(item, dict):
+            value = clean(item.get("url"))
+            if value:
+                urls.append(value)
+    for person in signal.get("people") or []:
+        if isinstance(person, dict):
+            for key in ("profile_url", "url"):
+                value = clean(person.get(key))
+                if value:
+                    urls.append(value)
+    return list(dict.fromkeys(urls))
+
+
+def load_known_relationships(root: Path):
+    known = {
+        "following_company_names": set(),
+        "following_company_urls": set(),
+        "connection_slugs": set(),
+        "connection_ids": set(),
+        "follower_slugs": set(),
+        "follower_ids": set(),
+        "following_person_slugs": set(),
+        "following_person_ids": set(),
+        "school_names": set(),
+        "school_urls": set(),
+        "newsletter_names": set(),
+        "newsletter_urls": set(),
+        "group_names": set(),
+    }
+
+    companies = load_json(root / "following_companies.json", {}).get("companies", [])
+    for item in companies:
+        name = clean(item.get("name")).casefold()
+        url = norm_url(item.get("url"))
+        if name:
+            known["following_company_names"].add(name)
+        if url:
+            known["following_company_urls"].add(url)
+
+    people_files = [
+        ("connections.json", "connections", "connection"),
+        ("followers.json", "followers", "follower"),
+        ("following_people.json", "following_people", "following_person"),
+    ]
+    for filename, key, prefix in people_files:
+        for item in load_json(root / filename, {}).get(key, []):
+            slug = unquote(clean(item.get("linkedin_slug"))).casefold()
+            linkedin_id = clean(item.get("linkedin_id"))
+            if slug:
+                known[f"{prefix}_slugs"].add(slug)
+            if linkedin_id:
+                known[f"{prefix}_ids"].add(linkedin_id)
+
+    for item in load_json(root / "schools.json", {}).get("schools", []):
+        name = clean(item.get("name")).casefold()
+        url = norm_url(item.get("url"))
+        if name:
+            known["school_names"].add(name)
+        if url:
+            known["school_urls"].add(url)
+
+    for item in load_json(root / "newsletters.json", {}).get("newsletters", []):
+        name = clean(item.get("name")).casefold()
+        url = norm_url(item.get("url"))
+        if name:
+            known["newsletter_names"].add(name)
+        if url:
+            known["newsletter_urls"].add(url)
+
+    for item in load_json(root / "groups.json", {}).get("groups", []):
+        name = clean(item.get("name")).casefold()
+        if name:
+            known["group_names"].add(name)
+
+    return known
+
+
+def known_relationship_state(signal, target, known):
+    if not known:
+        return {
+            "following_company": False,
+            "connection": False,
+            "follower": False,
+            "following_person": False,
+            "following_school": False,
+            "newsletter_subscribed": False,
+            "group_member": False,
+            "labels": [],
+        }
+
+    urls = signal_urls(signal)
+    norm_urls = {norm_url(url) for url in urls if norm_url(url)}
+    slugs = {profile_slug(url) for url in urls if profile_slug(url)}
+    ids = set()
+    for person in signal.get("people") or []:
+        if isinstance(person, dict):
+            linkedin_id = clean(person.get("linkedin_id"))
+            if linkedin_id:
+                ids.add(linkedin_id)
+
+    company_names = {
+        clean(signal.get("company")).casefold(),
+        clean((target or {}).get("company")).casefold(),
+    }
+    company_names.discard("")
+    entity_names = {
+        clean(signal.get("author")).casefold(),
+        clean(signal.get("company")).casefold(),
+    }
+    entity_names.discard("")
+
+    following_company = bool(
+        company_names & known["following_company_names"]
+        or norm_urls & known["following_company_urls"]
+    )
+    connection = bool(
+        slugs & known["connection_slugs"]
+        or ids & known["connection_ids"]
+    )
+    follower = bool(
+        slugs & known["follower_slugs"]
+        or ids & known["follower_ids"]
+    )
+    following_person = bool(
+        slugs & known["following_person_slugs"]
+        or ids & known["following_person_ids"]
+    )
+    following_school = bool(
+        entity_names & known["school_names"]
+        or norm_urls & known["school_urls"]
+    )
+    newsletter_subscribed = bool(
+        entity_names & known["newsletter_names"]
+        or norm_urls & known["newsletter_urls"]
+    )
+    group_member = bool(entity_names & known["group_names"])
+
+    labels = []
+    if following_company:
+        labels.append("FOLLOWING_COMPANY")
+    if connection:
+        labels.append("CONNECTION")
+    if follower:
+        labels.append("FOLLOWER")
+    if following_person:
+        labels.append("FOLLOWING_PERSON")
+    if following_school:
+        labels.append("FOLLOWING_SCHOOL")
+    if newsletter_subscribed:
+        labels.append("NEWSLETTER_SUBSCRIBED")
+    if group_member:
+        labels.append("GROUP_MEMBER")
+
+    return {
+        "following_company": following_company,
+        "connection": connection,
+        "follower": follower,
+        "following_person": following_person,
+        "following_school": following_school,
+        "newsletter_subscribed": newsletter_subscribed,
+        "group_member": group_member,
+        "labels": labels,
+    }
+
+
+def crm_status(crm_record):
+    if not crm_record:
+        return "WATCH"
+    return crm_record.get("_effective_status") or crm_record.get("status", "WATCH")
 
 
 def people(signal):
@@ -79,7 +271,7 @@ def match_crm(signal, crm):
 def relationship_stage(crm_record):
     if not crm_record:
         return "observe"
-    return STAGE_BY_CRM.get(crm_record.get("status", "WATCH"), "observe")
+    return STAGE_BY_CRM.get(crm_status(crm_record), "observe")
 
 
 def has_hiring_signal(signal):
@@ -114,11 +306,12 @@ def research_plan(signal, target):
     return {"needed": needed, "tasks": tasks}
 
 
-def strategy_actions(signal, crm_record, target, research):
+def strategy_actions(signal, crm_record, target, research, relationship=None):
     """Produce an ordered relationship strategy, not just one raw command."""
     recommended = [a for a in signal.get("recommended_actions", []) if a in ALLOWED_ACTIONS]
-    status = (crm_record or {}).get("status", "WATCH")
+    status = crm_status(crm_record)
     dnc = bool((crm_record or {}).get("do_not_contact"))
+    relationship = relationship or {}
     concrete_person = bool(target.get("name"))
     company = clean(signal.get("company"))
     actions = []
@@ -145,12 +338,13 @@ def strategy_actions(signal, crm_record, target, research):
         if company:
             add("research_company", "Check the relevant team, current projects and open roles.", False)
     else:
+        if status in {"WATCH", "REVIEW", "CONNECT", "CONNECTED"} and "engage_with_post" in recommended:
+            add("engage_with_post", "Create a natural context before direct outreach.", False)
+
         if status in {"WATCH", "REVIEW", "CONNECT"}:
-            if "engage_with_post" in recommended:
-                add("engage_with_post", "Create a natural context before direct outreach.", False)
-            if "follow_person" in recommended:
+            if "follow_person" in recommended and not relationship.get("following_person"):
                 add("follow_person", "Keep the person in the observation loop.", False)
-            if concrete_person and "connect_person" in recommended:
+            if concrete_person and "connect_person" in recommended and not relationship.get("connection"):
                 add("connect_person", "Concrete relevant person identified; connection can be considered.", True)
             if concrete_person:
                 add("find_warm_path", "Check shared contacts or other contextual paths before outreach.", False)
@@ -167,7 +361,7 @@ def strategy_actions(signal, crm_record, target, research):
         if concrete_person and status == "CONNECTED" and is_job_relevant(signal):
             add("job_outreach", "Relevant hiring context plus an established LinkedIn connection.", True)
 
-    if company and "follow_company" in recommended:
+    if company and "follow_company" in recommended and not relationship.get("following_company"):
         add("follow_company", "Keep company activity visible for future signals.", False)
     if "review_technology" in recommended:
         add("review_technology", "Technical project or technology is relevant to the profile.", False)
@@ -226,7 +420,7 @@ def drafts(signal, target, actions):
 def apply_guard(actions, crm_record):
     if not crm_record:
         return actions, False, None
-    status = crm_record.get("status", "WATCH")
+    status = crm_status(crm_record)
     dnc = bool(crm_record.get("do_not_contact"))
     guarded = []
     blocked = []
@@ -248,15 +442,20 @@ def apply_guard(actions, crm_record):
     return guarded, bool(blocked), ";".join(blocked) or None
 
 
-def build_queue(data, crm):
+def build_queue(data, crm, known_relationships=None):
     items = []
+    known_relationships = known_relationships or {}
     for signal in data.get("signals", []):
         if signal.get("priority") not in {"high", "medium"}:
             continue
         crm_record = match_crm(signal, crm)
         target = target_info(signal)
+        relationship = known_relationship_state(signal, target, known_relationships)
+        if crm_record and relationship.get("connection") and crm_status(crm_record) in {"WATCH", "REVIEW", "CONNECT"}:
+            crm_record = dict(crm_record)
+            crm_record["_effective_status"] = "CONNECTED"
         research = research_plan(signal, target)
-        action_plan = strategy_actions(signal, crm_record, target, research)
+        action_plan = strategy_actions(signal, crm_record, target, research, relationship)
         action_plan, blocked, blocked_reason = apply_guard(action_plan, crm_record)
         primary = action_plan[0]["action"]
         draft_set = drafts(signal, target, action_plan)
@@ -284,6 +483,8 @@ def build_queue(data, crm):
             "crm_guard_reason": blocked_reason,
             "crm_entity_id": crm_record.get("id") if crm_record else None,
             "crm_status": crm_record.get("status") if crm_record else None,
+            "crm_status_effective": crm_status(crm_record) if crm_record else None,
+            "known_relationships": relationship.get("labels", []),
             "do_not_contact": bool(crm_record.get("do_not_contact")) if crm_record else False,
             "target": target,
             "reason": signal.get("why_relevant"),
@@ -323,11 +524,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--signals", default="feed_signals_latest.json")
     ap.add_argument("--crm", default="relationship_watchlist.json")
+    ap.add_argument("--relationships-dir", default="linkedin_relationships")
     ap.add_argument("--output", default="action_queue_latest.json")
     args = ap.parse_args()
     data = load_json(Path(args.signals), {"signals": []})
     crm = load_json(Path(args.crm), {"items": []})
-    queue = build_queue(data, crm)
+    known_relationships = load_known_relationships(Path(args.relationships_dir))
+    queue = build_queue(data, crm, known_relationships)
     Path(args.output).write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
         f"OK action_items={queue['summary']['items']} "
