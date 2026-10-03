@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T18:13:22.796707+00:00",
-  "source_generated_at": "2026-10-03T18:13:22.796707+00:00",
+  "generated_at": "2026-10-03T18:16:01.745536+00:00",
+  "source_generated_at": "2026-10-03T18:16:01.745536+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
     "outbound_actions": [
@@ -23,26 +23,28 @@
     "items": 102,
     "high": 42,
     "medium": 60,
-    "pending_approval": 6,
+    "pending_approval": 8,
     "research_needed": 34,
     "actionable_now": 33,
     "watchlist": 13,
     "archive": 56,
     "primary_action_counts": {
-      "check_jobs": 3,
-      "engage_with_post": 19,
-      "find_warm_path": 18,
-      "follow_person": 27,
+      "check_jobs": 2,
+      "engage_with_post": 22,
+      "find_warm_path": 17,
+      "follow_person": 26,
       "research_contact": 34,
       "review_technology": 1
     },
     "action_plan_counts": {
       "check_jobs": 12,
-      "connect_person": 6,
-      "engage_with_post": 19,
+      "connect_person": 7,
+      "engage_with_post": 22,
       "find_warm_path": 64,
       "follow_company": 9,
       "follow_person": 40,
+      "job_outreach": 1,
+      "message_person": 1,
       "research_company": 13,
       "research_contact": 34,
       "review_technology": 49,
@@ -50,6 +52,248 @@
     }
   },
   "items": [
+    {
+      "signal_id": "sig_64835e0799a0c3fb",
+      "source_post_id": null,
+      "priority": "high",
+      "confidence": 94,
+      "author": "Neha S • 1-й",
+      "company": "Qubist Solutions",
+      "primary_action": "engage_with_post",
+      "secondary_action": "message_person",
+      "approval_required": true,
+      "execution_status": "PENDING_APPROVAL",
+      "relationship_stage": "connected",
+      "action_plan": [
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "message_person",
+          "reason": "The person is already connected; a contextual message can be prepared.",
+          "approval_required": true
+        },
+        {
+          "action": "check_jobs",
+          "reason": "Hiring signal detected; verify whether relevant roles exist.",
+          "approval_required": false
+        },
+        {
+          "action": "job_outreach",
+          "reason": "Relevant hiring context plus an established LinkedIn connection.",
+          "approval_required": true
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_company_and_relevant_team",
+          "check_relevant_open_roles",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {
+        "message": "Hi Neha, I noticed your recent work around DO-178C, RTOS, BSP. I work on flight controls, GNC, UAV/autonomous systems and simulation. I thought there may be useful overlap in our technical interests and would be interested in exchanging perspectives.",
+        "job_outreach": "Hi Neha, I'm exploring senior/lead opportunities at Qubist Solutions related to flight controls, GNC, autonomy and simulation. My background includes UAV/autopilot development, flight dynamics and MATLAB/Simulink/Python. If there is a relevant team or role, I'd appreciate any direction on whom best to speak with."
+      },
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "company:qubist solutions",
+      "crm_status": "WATCH",
+      "crm_status_effective": "CONNECTED",
+      "known_relationships": [
+        "CONNECTION",
+        "FOLLOWER"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Neha S • 1-й",
+        "role": null,
+        "relation": "author",
+        "target_role": "Hiring contact at Qubist Solutions",
+        "target_reason": "The post explicitly requests resumes for a Firmware Engineer opportunity and was published by a first-degree contact, making the author or another identified hiring contact relevant to approach.",
+        "target_priority": "high",
+        "company": "Qubist Solutions",
+        "profile_url": "https://www.linkedin.com/in/neha-s-1155231b8/"
+      },
+      "reason": "The post explicitly advertises a Firmware Engineer hiring opportunity in aerospace and avionics, with embedded, RTOS, verification, and safety-critical development requirements. This aligns with the profile's aircraft control, autopilot, embedded control, C/C++, and multidisciplinary aerospace experience, although the post emphasizes firmware verification more than flight-control algorithms.",
+      "content_angle": "Share an original perspective on how safety-critical embedded software practices such as requirements traceability, verification, and real-time constraints interact with flight-control and avionics development.",
+      "source_url": "https://www.linkedin.com/in/neha-s-1155231b8/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 6,
+        "first_seen": "2026-09-07",
+        "last_seen": "2026-10-03",
+        "dates": [
+          "2026-09-07",
+          "2026-09-08",
+          "2026-09-21",
+          "2026-09-26",
+          "2026-09-27",
+          "2026-10-03"
+        ],
+        "high": 5,
+        "medium": 1
+      },
+      "freshness": {
+        "age_days": 0,
+        "bucket": "fresh",
+        "actionable_now": true
+      },
+      "action_plan_full": [
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "message_person",
+          "reason": "The person is already connected; a contextual message can be prepared.",
+          "approval_required": true
+        },
+        {
+          "action": "check_jobs",
+          "reason": "Hiring signal detected; verify whether relevant roles exist.",
+          "approval_required": false
+        },
+        {
+          "action": "job_outreach",
+          "reason": "Relevant hiring context plus an established LinkedIn connection.",
+          "approval_required": true
+        }
+      ],
+      "drafts_full": {
+        "message": "Hi Neha, I noticed your recent work around DO-178C, RTOS, BSP. I work on flight controls, GNC, UAV/autonomous systems and simulation. I thought there may be useful overlap in our technical interests and would be interested in exchanging perspectives.",
+        "job_outreach": "Hi Neha, I'm exploring senior/lead opportunities at Qubist Solutions related to flight controls, GNC, autonomy and simulation. My background includes UAV/autopilot development, flight dynamics and MATLAB/Simulink/Python. If there is a relevant team or role, I'd appreciate any direction on whom best to speak with."
+      },
+      "execution_status_full": "PENDING_APPROVAL",
+      "approval_required_full": true,
+      "recommendation_status": "ACTIONABLE_NOW",
+      "reason_ru": "Публикация прямо рекламирует вакансию Firmware Engineer в аэрокосмической отрасли и авионике с требованиями к embedded-разработке, RTOS, верификации и разработке критически важных с точки зрения безопасности систем. Это соответствует опыту профиля в управлении летательными аппаратами, автопилотах, embedded control, C/C++ и междисциплинарной аэрокосмической деятельности, хотя публикация в большей степени акцентирует верификацию firmware, чем алгоритмы управления полётом."
+    },
+    {
+      "signal_id": "sig_2ee539bdec5e01ec",
+      "source_post_id": "7511755840958353409",
+      "priority": "high",
+      "confidence": 92,
+      "author": null,
+      "company": null,
+      "primary_action": "engage_with_post",
+      "secondary_action": "connect_person",
+      "approval_required": true,
+      "execution_status": "PENDING_APPROVAL",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "connect_person",
+          "reason": "Concrete relevant person identified; connection can be considered.",
+          "approval_required": true
+        },
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {
+        "connection_note": "Hi James, I came across your work on eVTOL aircraft designed and built in Singapore by an NTU team. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+      },
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "person:james wang",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "do_not_contact": false,
+      "target": {
+        "name": "James Wang",
+        "role": "Professor",
+        "relation": "mentioned",
+        "target_role": "Professor and eVTOL project team lead",
+        "target_reason": "James Wang is identified as the NTU professor who led the team through the first phase of eVTOL flight tests, making him a relevant person for autonomous-flight and flight-test networking.",
+        "target_priority": "medium",
+        "company": null
+      },
+      "reason": "The post describes an eVTOL flight-test milestone involving autonomous flight and avionics, closely matching the profile's flight-control, eVTOL, autonomy, and multidisciplinary R&D experience. Professor James Wang is a specifically named person who led the NTU team, creating a relevant potential technical networking target. No hiring is stated.",
+      "content_angle": "Inference: Share an original expert perspective on the engineering challenges of integrating autonomous flight and avionics during early eVTOL flight-test campaigns, including validation, telemetry, and transition-to-flight considerations.",
+      "source_url": "",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      },
+      "history_stats": {
+        "occurrences": 1,
+        "first_seen": "2026-10-03",
+        "last_seen": "2026-10-03",
+        "dates": [
+          "2026-10-03"
+        ],
+        "high": 1,
+        "medium": 0
+      },
+      "freshness": {
+        "age_days": 0,
+        "bucket": "fresh",
+        "actionable_now": true
+      },
+      "action_plan_full": [
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "connect_person",
+          "reason": "Concrete relevant person identified; connection can be considered.",
+          "approval_required": true
+        },
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        }
+      ],
+      "drafts_full": {
+        "connection_note": "Hi James, I came across your work on eVTOL aircraft designed and built in Singapore by an NTU team. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
+      },
+      "execution_status_full": "PENDING_APPROVAL",
+      "approval_required_full": true,
+      "recommendation_status": "ACTIONABLE_NOW",
+      "reason_ru": "Публикация описывает достижение в лётных испытаниях eVTOL, связанное с автономным полётом и авионикой, что тесно соответствует опыту профиля в управлении полётом, eVTOL, автономности и междисциплинарных R&D. Professor James Wang, руководивший командой NTU, указан как конкретный человек и релевантная потенциальная цель для технического нетворкинга. О найме не сообщается."
+    },
     {
       "signal_id": "sig_8a00830809af67f7",
       "source_post_id": null,
@@ -959,134 +1203,28 @@
       "reason_ru": "Публикация освещает электрическое аэротакси Sarla Aviation и упоминает женщин, участвовавших в проектировании и создании летательного аппарата eVTOL. Это в значительной степени соответствует опыту профиля в eVTOL, управлении полётом, разработке летательных аппаратов и междисциплинарной аэрокосмической деятельности, а также предоставляет конкретных людей и компанию для нетворкинга. Возможность найма не заявлена."
     },
     {
-      "signal_id": "sig_64835e0799a0c3fb",
-      "source_post_id": null,
-      "priority": "high",
-      "confidence": 94,
-      "author": "Neha S • 1-й",
-      "company": "Qubist Solutions",
-      "primary_action": "check_jobs",
-      "secondary_action": null,
+      "signal_id": "sig_2a8736a02a666fe1",
+      "source_post_id": "7511926210394804226",
+      "priority": "medium",
+      "confidence": 88,
+      "author": "Elizabeth Shadwick",
+      "company": "Saildrone",
+      "primary_action": "engage_with_post",
+      "secondary_action": "follow_person",
       "approval_required": false,
       "execution_status": "READY",
-      "relationship_stage": "connected",
+      "relationship_stage": "observe",
       "action_plan": [
-        {
-          "action": "check_jobs",
-          "reason": "Hiring signal detected; verify whether relevant roles exist.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_company_and_relevant_team",
-          "check_relevant_open_roles",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "company:qubist solutions",
-      "crm_status": "WATCH",
-      "crm_status_effective": "CONNECTED",
-      "known_relationships": [
-        "CONNECTION",
-        "FOLLOWER"
-      ],
-      "do_not_contact": false,
-      "target": {
-        "name": "Neha S • 1-й",
-        "role": null,
-        "relation": "author",
-        "target_role": "Hiring contact at Qubist Solutions",
-        "target_reason": "The post explicitly requests resumes for a Firmware Engineer opportunity and was published by a first-degree contact, making the author or another identified hiring contact relevant to approach.",
-        "target_priority": "high",
-        "company": "Qubist Solutions",
-        "profile_url": "https://www.linkedin.com/in/neha-s-1155231b8/"
-      },
-      "reason": "The post explicitly advertises a Firmware Engineer hiring opportunity in aerospace and avionics, with embedded, RTOS, verification, and safety-critical development requirements. This aligns with the profile's aircraft control, autopilot, embedded control, C/C++, and multidisciplinary aerospace experience, although the post emphasizes firmware verification more than flight-control algorithms.",
-      "content_angle": "Share an original perspective on how safety-critical embedded software practices such as requirements traceability, verification, and real-time constraints interact with flight-control and avionics development.",
-      "source_url": "https://www.linkedin.com/in/neha-s-1155231b8/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 6,
-        "first_seen": "2026-09-07",
-        "last_seen": "2026-10-03",
-        "dates": [
-          "2026-09-07",
-          "2026-09-08",
-          "2026-09-21",
-          "2026-09-26",
-          "2026-09-27",
-          "2026-10-03"
-        ],
-        "high": 5,
-        "medium": 1
-      },
-      "freshness": {
-        "age_days": 0,
-        "bucket": "fresh",
-        "actionable_now": true
-      },
-      "action_plan_full": [
         {
           "action": "engage_with_post",
           "reason": "Create a natural context before direct outreach.",
           "approval_required": false
         },
         {
-          "action": "message_person",
-          "reason": "The person is already connected; a contextual message can be prepared.",
-          "approval_required": true
-        },
-        {
-          "action": "check_jobs",
-          "reason": "Hiring signal detected; verify whether relevant roles exist.",
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
           "approval_required": false
         },
-        {
-          "action": "job_outreach",
-          "reason": "Relevant hiring context plus an established LinkedIn connection.",
-          "approval_required": true
-        }
-      ],
-      "drafts_full": {
-        "message": "Hi Neha, I noticed your recent work around DO-178C, RTOS, BSP. I work on flight controls, GNC, UAV/autonomous systems and simulation. I thought there may be useful overlap in our technical interests and would be interested in exchanging perspectives.",
-        "job_outreach": "Hi Neha, I'm exploring senior/lead opportunities at Qubist Solutions related to flight controls, GNC, autonomy and simulation. My background includes UAV/autopilot development, flight dynamics and MATLAB/Simulink/Python. If there is a relevant team or role, I'd appreciate any direction on whom best to speak with."
-      },
-      "execution_status_full": "PENDING_APPROVAL",
-      "approval_required_full": true,
-      "recommendation_status": "ACTIONABLE_NOW",
-      "freshness_guard_applied": true,
-      "freshness_guard_removed": [
-        "engage_with_post",
-        "message_person",
-        "job_outreach"
-      ],
-      "reason_ru": "Публикация прямо рекламирует вакансию Firmware Engineer в аэрокосмической отрасли и авионике с требованиями к embedded-разработке, RTOS, верификации и разработке критически важных с точки зрения безопасности систем. Это соответствует опыту профиля в управлении летательными аппаратами, автопилотах, embedded control, C/C++ и междисциплинарной аэрокосмической деятельности, хотя публикация в большей степени акцентирует верификацию firmware, чем алгоритмы управления полётом."
-    },
-    {
-      "signal_id": "sig_2ee539bdec5e01ec",
-      "source_post_id": "7511755840958353409",
-      "priority": "high",
-      "confidence": 92,
-      "author": null,
-      "company": null,
-      "primary_action": "find_warm_path",
-      "secondary_action": "review_technology",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
         {
           "action": "find_warm_path",
           "reason": "Check shared contacts or other contextual paths before outreach.",
@@ -1101,29 +1239,34 @@
       "research": {
         "needed": false,
         "tasks": [
+          "check_company_and_relevant_team",
           "check_shared_context_or_warm_path"
         ]
       },
       "drafts": {},
       "crm_guard_applied": false,
       "crm_guard_reason": null,
-      "crm_entity_id": "person:james wang",
+      "crm_entity_id": "company:saildrone",
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
-      "known_relationships": [],
+      "known_relationships": [
+        "FOLLOWING_COMPANY"
+      ],
       "do_not_contact": false,
       "target": {
-        "name": "James Wang",
-        "role": "Professor",
-        "relation": "mentioned",
-        "target_role": "Professor and eVTOL project team lead",
-        "target_reason": "James Wang is identified as the NTU professor who led the team through the first phase of eVTOL flight tests, making him a relevant person for autonomous-flight and flight-test networking.",
+        "name": "Elizabeth Shadwick",
+        "role": "Dr at CSIRO",
+        "relation": "author",
+        "target_role": "Saildrone autonomy or vessel-controls engineer",
+        "target_reason": "Inference: identifying an engineering contact involved in autonomous vessel control, navigation, or mission operations could connect the profile's UAV and flight-control background with marine autonomy.",
         "target_priority": "medium",
-        "company": null
+        "company": "Saildrone",
+        "profile_url": "https://www.linkedin.com/in/elizabeth-shadwick-6ba2a1252/",
+        "company_url": "https://www.linkedin.com/company/csiro/"
       },
-      "reason": "The post describes an eVTOL flight-test milestone involving autonomous flight and avionics, closely matching the profile's flight-control, eVTOL, autonomy, and multidisciplinary R&D experience. Professor James Wang is a specifically named person who led the NTU team, creating a relevant potential technical networking target. No hiring is stated.",
-      "content_angle": "Inference: Share an original expert perspective on the engineering challenges of integrating autonomous flight and avionics during early eVTOL flight-test campaigns, including validation, telemetry, and transition-to-flight considerations.",
-      "source_url": "",
+      "reason": "The post describes a long-duration solar-powered autonomous vessel operating in a difficult marine environment, closely matching the profile's interest in marine autonomy, autonomous vessel control, navigation, mission planning, and energy-aware operations. It does not indicate a job opening.",
+      "content_angle": "Discuss how energy-aware trajectory planning, telemetry, fault management, and robust autonomy can support long-duration uncrewed missions in remote marine environments, drawing an original comparison with solar-powered UAV endurance challenges.",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508757252187705344/",
       "analysis_engine": "rules+openai",
       "llm": {
         "used": true,
@@ -1138,8 +1281,8 @@
         "dates": [
           "2026-10-03"
         ],
-        "high": 1,
-        "medium": 0
+        "high": 0,
+        "medium": 1
       },
       "freshness": {
         "age_days": 0,
@@ -1153,9 +1296,9 @@
           "approval_required": false
         },
         {
-          "action": "connect_person",
-          "reason": "Concrete relevant person identified; connection can be considered.",
-          "approval_required": true
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
         },
         {
           "action": "find_warm_path",
@@ -1168,18 +1311,11 @@
           "approval_required": false
         }
       ],
-      "drafts_full": {
-        "connection_note": "Hi James, I came across your work on eVTOL aircraft designed and built in Singapore by an NTU team. My background is in flight controls, UAV systems and simulation, and the topic is closely aligned with my work. I'd be glad to connect."
-      },
-      "execution_status_full": "PENDING_APPROVAL",
-      "approval_required_full": true,
+      "drafts_full": {},
+      "execution_status_full": "READY",
+      "approval_required_full": false,
       "recommendation_status": "ACTIONABLE_NOW",
-      "freshness_guard_applied": true,
-      "freshness_guard_removed": [
-        "engage_with_post",
-        "connect_person"
-      ],
-      "reason_ru": "Публикация описывает достижение в лётных испытаниях eVTOL, связанное с автономным полётом и авионикой, что тесно соответствует опыту профиля в управлении полётом, eVTOL, автономности и междисциплинарных R&D. Professor James Wang, руководивший командой NTU, указан как конкретный человек и релевантная потенциальная цель для технического нетворкинга. О найме не сообщается."
+      "reason_ru": "Публикация описывает автономное судно на солнечной энергии с длительным временем работы, функционирующее в сложной морской среде, что тесно соответствует интересам профиля в морской автономности, управлении автономными судами, навигации, планировании миссий и энергоэффективных операциях. Открытая вакансия не указана."
     },
     {
       "signal_id": "sig_e5b0d33a66fefd44",
@@ -3613,120 +3749,6 @@
       "approval_required_full": false,
       "recommendation_status": "ACTIONABLE_NOW",
       "reason_ru": "Публикация прямо упоминает embedded AI и автономные системы. Они пересекаются с интересами профиля в embedded control, машинном обучении и автономности, но конкретное применение, должность, компания или возможность не указаны."
-    },
-    {
-      "signal_id": "sig_2a8736a02a666fe1",
-      "source_post_id": "7511926210394804226",
-      "priority": "medium",
-      "confidence": 88,
-      "author": "Elizabeth Shadwick",
-      "company": "Saildrone",
-      "primary_action": "follow_person",
-      "secondary_action": "find_warm_path",
-      "approval_required": false,
-      "execution_status": "READY",
-      "relationship_stage": "observe",
-      "action_plan": [
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "review_technology",
-          "reason": "Technical project or technology is relevant to the profile.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "check_company_and_relevant_team",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {},
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "company:saildrone",
-      "crm_status": "WATCH",
-      "crm_status_effective": "WATCH",
-      "known_relationships": [
-        "FOLLOWING_COMPANY"
-      ],
-      "do_not_contact": false,
-      "target": {
-        "name": "Elizabeth Shadwick",
-        "role": "Dr at CSIRO",
-        "relation": "author",
-        "target_role": "Saildrone autonomy or vessel-controls engineer",
-        "target_reason": "Inference: identifying an engineering contact involved in autonomous vessel control, navigation, or mission operations could connect the profile's UAV and flight-control background with marine autonomy.",
-        "target_priority": "medium",
-        "company": "Saildrone",
-        "profile_url": "https://www.linkedin.com/in/elizabeth-shadwick-6ba2a1252/",
-        "company_url": "https://www.linkedin.com/company/csiro/"
-      },
-      "reason": "The post describes a long-duration solar-powered autonomous vessel operating in a difficult marine environment, closely matching the profile's interest in marine autonomy, autonomous vessel control, navigation, mission planning, and energy-aware operations. It does not indicate a job opening.",
-      "content_angle": "Discuss how energy-aware trajectory planning, telemetry, fault management, and robust autonomy can support long-duration uncrewed missions in remote marine environments, drawing an original comparison with solar-powered UAV endurance challenges.",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508757252187705344/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      },
-      "history_stats": {
-        "occurrences": 1,
-        "first_seen": "2026-10-03",
-        "last_seen": "2026-10-03",
-        "dates": [
-          "2026-10-03"
-        ],
-        "high": 0,
-        "medium": 1
-      },
-      "freshness": {
-        "age_days": 0,
-        "bucket": "fresh",
-        "actionable_now": true
-      },
-      "action_plan_full": [
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "follow_person",
-          "reason": "Keep the person in the observation loop.",
-          "approval_required": false
-        },
-        {
-          "action": "find_warm_path",
-          "reason": "Check shared contacts or other contextual paths before outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "review_technology",
-          "reason": "Technical project or technology is relevant to the profile.",
-          "approval_required": false
-        }
-      ],
-      "drafts_full": {},
-      "execution_status_full": "READY",
-      "approval_required_full": false,
-      "recommendation_status": "ACTIONABLE_NOW",
-      "freshness_guard_applied": true,
-      "freshness_guard_removed": [
-        "engage_with_post"
-      ],
-      "reason_ru": "Публикация описывает автономное судно на солнечной энергии с длительным временем работы, функционирующее в сложной морской среде, что тесно соответствует интересам профиля в морской автономности, управлении автономными судами, навигации, планировании миссий и энергоэффективных операциях. Открытая вакансия не указана."
     },
     {
       "signal_id": "sig_497580c697b5aab9",
