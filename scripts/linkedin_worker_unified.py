@@ -750,19 +750,31 @@ def extract_records(html: str, source_file: str) -> list[dict]:
             value = value.replace(suffix, " ")
         return clean_text(value)
 
-    def first_author_link(container):
-        # Company post links обычно выглядят /company/<slug>/posts/.
-        for a in container.find_all("a", href=True):
-            url = normalize_url(a.get("href"))
-            if not url:
-                continue
-            if "/company/" in url and "/posts/" in url:
-                title = clean_text(a.get_text(" ", strip=True))
-                if title:
-                    return title, url, "company"
+    def first_author_link(container, body=None):
+        """Find the post author without mistaking in-post mentions for the author."""
+        def inside_post_body(node) -> bool:
+            if body is None:
+                return False
+            return body in node.parents
 
-        # Для публикаций людей берём первый содержательный /in/ link.
+        # Modern LinkedIn often uses a plain /company/<slug>/ author link,
+        # not necessarily /company/<slug>/posts/. Ignore links embedded in the
+        # expandable post text because those are mentions, not the author.
         for a in container.find_all("a", href=True):
+            if inside_post_body(a):
+                continue
+            url = normalize_url(a.get("href"))
+            if not url or "/company/" not in url:
+                continue
+            title = clean_text(a.get_text(" ", strip=True))
+            if title:
+                return title, url, "company"
+
+        # For person-authored posts, use the first meaningful /in/ link outside
+        # the expandable post text for the same reason.
+        for a in container.find_all("a", href=True):
+            if inside_post_body(a):
+                continue
             url = normalize_url(a.get("href"))
             if not url or "/in/" not in url:
                 continue
@@ -790,7 +802,7 @@ def extract_records(html: str, source_file: str) -> list[dict]:
         if container is None:
             container = body.parent
 
-        author, author_url, author_type = first_author_link(container)
+        author, author_url, author_type = first_author_link(container, body)
 
         # Хэштеги.
         hashtags = []
@@ -874,16 +886,22 @@ def extract_records(html: str, source_file: str) -> list[dict]:
         if id_match:
             post_id = id_match.group(1)
 
-        # Если отдельного permalink в DOM нет, author posts/profile URL лучше,
-        # чем случайная ссылка из карточки.
+        # Prefer a real permalink from the DOM. If LinkedIn omits the anchor but
+        # exposes userGeneratedContentId in componentkey, reconstruct the stable
+        # feed permalink from that ID. Only then fall back to the author profile.
         post_url = ""
         for a in container.find_all("a", href=True):
             url = normalize_url(a.get("href"))
             if not url:
                 continue
-            if "/feed/update/" in url or "/posts/" in url and "activity-" in url:
+            if "/feed/update/" in url or ("/posts/" in url and "activity-" in url):
                 post_url = url
                 break
+        if not post_url and post_id:
+            post_url = (
+                "https://www.linkedin.com/feed/update/"
+                f"urn:li:ugcPost:{post_id}/"
+            )
         if not post_url:
             post_url = author_url
 
