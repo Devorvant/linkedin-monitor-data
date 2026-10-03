@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T14:49:43.706200+00:00",
+  "generated_at": "2026-10-03T15:24:10.980528+00:00",
   "status_model": {
     "allowed": [
       "WATCH",
@@ -3517,9 +3517,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T14:49:43.706200+00:00"
+        "last_processed_at": "2026-10-03T15:24:10.980528+00:00"
       },
-      "updated_at": "2026-10-03T14:49:43.706200+00:00"
+      "updated_at": "2026-10-03T15:24:10.980528+00:00"
     },
     {
       "id": "person:dale r. marks",
@@ -5331,9 +5331,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T14:49:43.706200+00:00"
+        "last_processed_at": "2026-10-03T15:24:10.980528+00:00"
       },
-      "updated_at": "2026-10-03T14:49:43.706200+00:00"
+      "updated_at": "2026-10-03T15:24:10.980528+00:00"
     },
     {
       "id": "person:alessandro michelazzi",
@@ -6263,9 +6263,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T14:49:43.706200+00:00"
+        "last_processed_at": "2026-10-03T15:24:10.980528+00:00"
       },
-      "updated_at": "2026-10-03T14:49:43.706200+00:00"
+      "updated_at": "2026-10-03T15:24:10.980528+00:00"
     },
     {
       "id": "person:neha s • 1-й",
@@ -6449,9 +6449,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T14:49:43.706200+00:00"
+        "last_processed_at": "2026-10-03T15:24:10.980528+00:00"
       },
-      "updated_at": "2026-10-03T14:49:43.706200+00:00"
+      "updated_at": "2026-10-03T15:24:10.980528+00:00"
     },
     {
       "id": "person:wiebke retagne",
@@ -8563,9 +8563,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-03T14:49:43.706200+00:00"
+        "last_processed_at": "2026-10-03T15:24:10.980528+00:00"
       },
-      "updated_at": "2026-10-03T14:49:43.706200+00:00"
+      "updated_at": "2026-10-03T15:24:10.980528+00:00"
     },
     {
       "id": "company:hermeus and anduril",
@@ -13155,9 +13155,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-10-03T14:49:43.706200+00:00"
+        "last_processed_at": "2026-10-03T15:24:10.980528+00:00"
       },
-      "updated_at": "2026-10-03T14:49:43.706200+00:00"
+      "updated_at": "2026-10-03T15:24:10.980528+00:00"
     },
     {
       "id": "person:faezeh amirteimoury",
