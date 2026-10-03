@@ -205,7 +205,8 @@ def freshness_for(last_seen, reference_date):
 
 def apply_freshness_guard(item):
     freshness = item.get("freshness") or {}
-    age_days = int(freshness.get("age_days") or 999)
+    raw_age = freshness.get("age_days")
+    age_days = int(raw_age if raw_age is not None else 999)
     if age_days <= 7:
         return
 
@@ -350,7 +351,11 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
             0 if x.get("recommendation_status") == "ACTIONABLE_NOW" else
             1 if x.get("recommendation_status") == "WATCHLIST" else 2,
             PRIORITY_RANK.get(x.get("priority"), 9),
-            int((x.get("freshness") or {}).get("age_days") or 999),
+            int(
+                (x.get("freshness") or {}).get("age_days")
+                if (x.get("freshness") or {}).get("age_days") is not None
+                else 999
+            ),
             -int((x.get("history_stats") or {}).get("occurrences") or 0),
             -int(x.get("confidence") or 0),
         )
