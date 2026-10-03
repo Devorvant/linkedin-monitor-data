@@ -158,32 +158,34 @@ def known_relationship_state(signal, target, known):
             if linkedin_id:
                 ids.add(linkedin_id)
 
-    company_names = {
+    target_company_names = {
         clean(signal.get("company")).casefold(),
         clean((target or {}).get("company")).casefold(),
     }
-    company_names.discard("")
+    target_company_names.discard("")
     entity_names = {
         clean(signal.get("author")).casefold(),
         clean(signal.get("company")).casefold(),
     }
     entity_names.discard("")
 
-    following_company = bool(
-        company_names & known["following_company_names"]
-        or norm_urls & known["following_company_urls"]
-    )
+    matched_target_names = target_company_names & known["following_company_names"]
+    following_company = bool(matched_target_names)
     following_company_name = None
-    if following_company:
-        for url in norm_urls:
-            if url in known.get("following_company_by_url", {}):
-                following_company_name = known["following_company_by_url"][url]
-                break
-        if not following_company_name:
-            for name in company_names:
-                if name in known.get("following_company_by_name", {}):
-                    following_company_name = known["following_company_by_name"][name]
-                    break
+    for name in matched_target_names:
+        following_company_name = known.get("following_company_by_name", {}).get(name)
+        if following_company_name:
+            break
+
+    related_followed_companies = []
+    for url in norm_urls:
+        related_name = known.get("following_company_by_url", {}).get(url)
+        if not related_name:
+            continue
+        if following_company_name and related_name.casefold() == following_company_name.casefold():
+            continue
+        if related_name not in related_followed_companies:
+            related_followed_companies.append(related_name)
     connection = bool(
         slugs & known["connection_slugs"]
         or ids & known["connection_ids"]
@@ -225,6 +227,7 @@ def known_relationship_state(signal, target, known):
     return {
         "following_company": following_company,
         "following_company_name": following_company_name,
+        "related_followed_companies": related_followed_companies,
         "connection": connection,
         "follower": follower,
         "following_person": following_person,
@@ -532,6 +535,7 @@ def build_queue(data, crm, known_relationships=None):
             "crm_status_effective": crm_status(crm_record) if crm_record else None,
             "known_relationships": relationship.get("labels", []),
             "known_relationship_company": relationship.get("following_company_name"),
+            "known_related_companies": relationship.get("related_followed_companies", []),
             "do_not_contact": bool(crm_record.get("do_not_contact")) if crm_record else False,
             "target": target,
             "reason": signal.get("why_relevant"),
