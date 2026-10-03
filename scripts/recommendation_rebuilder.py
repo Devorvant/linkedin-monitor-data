@@ -137,6 +137,7 @@ def representative_signals(signals):
             "occurrences": len(rows),
             "first_seen": dates[0] if dates else None,
             "last_seen": dates[-1] if dates else None,
+            "dates": dates,
             "high": sum(1 for s in rows if s.get("priority") == "high"),
             "medium": sum(1 for s in rows if s.get("priority") == "medium"),
         }
