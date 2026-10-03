@@ -190,13 +190,15 @@ def direct_urls(signal, target):
     for url in planner.signal_urls(signal):
         if not person_url and planner.profile_slug(url):
             person_url = planner.clean(url)
-        if not company_url and company_slug(url):
-            company_url = planner.clean(url)
 
     source = planner.clean(signal.get("source_url"))
     if target_name and "/in/" in source:
         person_url = source
-    if target_company and "/company/" in source:
+
+    # Never use an arbitrary mentioned company as the target company.
+    # Exact company URLs are resolved from CRM later; source company URL is
+    # accepted only when the signal itself is company-authored.
+    if target_company and signal.get("author_type") == "company" and "/company/" in source:
         company_url = source
 
     return person_url or None, company_url or None
@@ -270,8 +272,58 @@ def as_int(value):
         return 0
 
 
+def opportunity_constraints(signal):
+    text = " ".join([
+        planner.clean(signal.get("source_text")),
+        planner.clean(signal.get("why_relevant")),
+    ]).casefold()
+    constraints = []
+    penalty = 0
+
+    student_only_markers = (
+        "open to stanford students",
+        "stanford students only",
+        "open only to students",
+        "students only",
+    )
+    if any(marker in text for marker in student_only_markers):
+        constraints.append({
+            "code": "restricted_eligibility",
+            "label": "ограниченная доступность: мероприятие/возможность только для студентов",
+            "penalty": 18,
+        })
+        penalty += 18
+
+    if "does not specify remote" in text or "remote availability" in text and "does not specify" in text:
+        constraints.append({
+            "code": "remote_unspecified",
+            "label": "удалённый формат не подтверждён",
+            "penalty": 3,
+        })
+        penalty += 3
+
+    if "does not specify" in text and ("exact positions" in text or "specific vacancy" in text):
+        constraints.append({
+            "code": "roles_unspecified",
+            "label": "конкретные вакансии/позиции не указаны",
+            "penalty": 4,
+        })
+        penalty += 4
+
+    if "indirect hiring signal" in text or "hiring is only an indirect signal" in text:
+        constraints.append({
+            "code": "indirect_hiring",
+            "label": "косвенный hiring-сигнал",
+            "penalty": 6,
+        })
+        penalty += 6
+
+    return constraints, penalty
+
+
 def signal_context(signal):
     hiring = signal.get("hiring") or {}
+    constraints, constraint_penalty = opportunity_constraints(signal)
     return {
         "signal_types": list(signal.get("signal_types") or []),
         "career_relevance": as_int(signal.get("career_relevance")),
@@ -282,6 +334,8 @@ def signal_context(signal):
         "hiring_intent": planner.clean(hiring.get("intent")),
         "hiring_roles": list(hiring.get("roles") or []),
         "profile_matches": list(signal.get("profile_matches") or []),
+        "constraints": constraints,
+        "constraint_penalty": constraint_penalty,
     }
 
 
@@ -374,8 +428,9 @@ def calculate_action_score(item, signal):
         "exact_hiring_match": 5 if hiring and ctx["career_relevance"] >= 90 else 0,
         "opportunity": 2 if "OPPORTUNITY_SIGNAL" in types else 0,
         "priority": 2 if item.get("priority") == "high" else 1,
+        "constraints": -ctx["constraint_penalty"],
     }
-    score = min(100, round(sum(components.values())))
+    score = max(0, min(100, round(sum(components.values()))))
     return score, components, ctx
 
 
