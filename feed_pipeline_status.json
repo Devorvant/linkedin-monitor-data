@@ -1,52 +1,55 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T19:30:49.591585+00:00",
+  "generated_at": "2026-10-04T05:12:51.023846+00:00",
   "status": "OK",
-  "analysis_mode": "reuse",
-  "analysis_reason": "Only downstream/test files changed",
+  "analysis_mode": "llm",
+  "analysis_reason": "Feed/profile/analyzer changed",
   "feed_signals": {
     "posts_analyzed": 16,
-    "high_priority": 2,
-    "medium_priority": 1,
-    "low_priority": 13,
+    "high_priority": 3,
+    "medium_priority": 3,
+    "low_priority": 10,
     "signal_type_counts": {
-      "TECH_SIGNAL": 4,
-      "PROJECT_SIGNAL": 7,
-      "PEOPLE_SIGNAL": 10,
-      "NETWORK_SIGNAL": 12,
+      "TECH_SIGNAL": 6,
+      "PROJECT_SIGNAL": 11,
+      "PEOPLE_SIGNAL": 6,
+      "NETWORK_SIGNAL": 5,
+      "COMPANY_SIGNAL": 8,
+      "MARKET_SIGNAL": 3,
       "HIRING_SIGNAL": 2,
-      "COMPANY_SIGNAL": 4,
-      "MARKET_SIGNAL": 4,
-      "OPPORTUNITY_SIGNAL": 2
+      "OPPORTUNITY_SIGNAL": 3
     }
   },
   "action_queue": {
-    "items": 3,
-    "high": 2,
-    "medium": 1,
-    "pending_approval": 2,
-    "research_needed": 0,
+    "items": 6,
+    "high": 3,
+    "medium": 3,
+    "pending_approval": 1,
+    "research_needed": 4,
     "primary_action_counts": {
-      "engage_with_post": 3
+      "engage_with_post": 2,
+      "research_contact": 4
     },
     "action_plan_counts": {
       "check_jobs": 1,
       "connect_person": 1,
-      "engage_with_post": 3,
+      "engage_with_post": 2,
       "find_warm_path": 2,
-      "follow_person": 1,
-      "job_outreach": 1,
-      "message_person": 1,
-      "review_technology": 2
+      "follow_company": 1,
+      "follow_person": 2,
+      "research_company": 4,
+      "research_contact": 4,
+      "review_technology": 2,
+      "save_for_content": 5
     }
   },
   "relationships": {
-    "total": 252,
-    "people": 214,
-    "companies": 38,
-    "people_with_profile_url": 174,
+    "total": 255,
+    "people": 215,
+    "companies": 40,
+    "people_with_profile_url": 175,
     "status_counts": {
-      "WATCH": 252,
+      "WATCH": 255,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -54,48 +57,47 @@
       "REPLIED": 0,
       "CLOSED": 0
     },
-    "review_recommended": 122,
+    "review_recommended": 123,
     "do_not_contact": 0,
-    "repeat_entities": 48,
+    "repeat_entities": 54,
     "known_connections": 5,
     "known_following_people": 2,
-    "known_following_companies": 20
+    "known_following_companies": 22
   },
   "current_recommendations": {
-    "items": 102,
-    "high": 42,
+    "items": 104,
+    "high": 44,
     "medium": 60,
-    "pending_approval": 8,
-    "research_needed": 34,
-    "actionable_now": 33,
-    "watchlist": 13,
-    "archive": 56,
+    "pending_approval": 7,
+    "research_needed": 35,
+    "actionable_now": 32,
+    "watchlist": 18,
+    "archive": 54,
     "primary_action_counts": {
-      "check_jobs": 12,
-      "find_warm_path": 59,
-      "research_company": 1,
-      "research_contact": 28,
+      "check_jobs": 13,
+      "find_warm_path": 60,
+      "research_contact": 29,
       "review_technology": 2
     },
     "action_plan_counts": {
-      "check_jobs": 12,
-      "connect_person": 7,
-      "engage_with_post": 22,
-      "find_warm_path": 64,
+      "check_jobs": 13,
+      "connect_person": 6,
+      "engage_with_post": 20,
+      "find_warm_path": 65,
       "follow_company": 11,
-      "follow_person": 40,
+      "follow_person": 41,
       "message_person": 1,
-      "research_company": 13,
-      "research_contact": 34,
+      "research_company": 15,
+      "research_contact": 35,
       "review_technology": 49,
-      "save_for_content": 61
+      "save_for_content": 63
     },
     "history_scope": {
       "first_date": "2026-08-29",
-      "last_date": "2026-10-03",
-      "history_files": 30,
-      "unique_signals": 133,
-      "entities": 102
+      "last_date": "2026-10-04",
+      "history_files": 31,
+      "unique_signals": 139,
+      "entities": 104
     },
     "recommendation_mode": "accumulated_current_state"
   },

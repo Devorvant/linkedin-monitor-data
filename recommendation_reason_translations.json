@@ -510,6 +510,36 @@
       "source": "The post highlights British Columbia’s marine and defence ecosystem and names the CEO of an association connecting industry, government, and academia. This aligns with the profile’s interest in marine autonomy, autonomous vessels, control systems, and multidisciplinary engineering networks, but the post does not identify a specific engineering role or technical project.",
       "ru": "Публикация освещает морскую и оборонную экосистему British Columbia и называет CEO ассоциации, объединяющей промышленность, государственные органы и академическое сообщество. Это соответствует интересам профиля в области морской автономности, автономных судов, систем управления и междисциплинарных инженерных сетей, но конкретная инженерная роль или технический проект не указаны.",
       "model": "gpt-5.6-luna"
+    },
+    "16d4bb706c8a44ea9de29dfc": {
+      "source": "The post covers supervised autonomous aircraft operations, electric aviation, real-world flight data, safety, infrastructure, and future standards. These topics closely align with the profile's experience in eVTOL flight dynamics, control systems, autopilot algorithms, simulation, and autonomous aircraft.",
+      "ru": "Публикация посвящена эксплуатации автономных воздушных судов под контролем оператора, электрической авиации, данным реальных полётов, безопасности, инфраструктуре и будущим стандартам. Эти темы тесно связаны с опытом, указанным в профиле: динамика полёта eVTOL, системы управления, алгоритмы автопилота, моделирование и автономные воздушные суда.",
+      "model": "gpt-5.6-luna"
+    },
+    "e7dfb50d0e65c670fa4d24b1": {
+      "source": "The post covers spacecraft guidance, navigation and control, relative navigation, trajectory optimisation, formation flying and collision avoidance, which closely align with the profile's GNC, navigation, flight dynamics, trajectory planning and autonomous-systems expertise. The post also identifies several concrete researchers and a relevant aerospace research institution. It does not provide a hiring signal. The potential value for career expansion into space systems is an inference from the technical overlap.",
+      "ru": "Публикация посвящена наведению, навигации и управлению космическими аппаратами, относительной навигации, оптимизации траекторий, полётам строем и предотвращению столкновений, что тесно связано с указанной в профиле экспертизой в области GNC, навигации, динамики полёта, планирования траекторий и автономных систем. В публикации также упоминаются несколько конкретных исследователей и соответствующее аэрокосмическое исследовательское учреждение. Она не содержит сигнала о найме. Возможная ценность для развития карьеры в направлении космических систем является выводом, основанным на техническом совпадении.",
+      "model": "gpt-5.6-luna"
+    },
+    "1c05c3c0e556c6482e20096b": {
+      "source": "The post describes Lockheed Martin's air-dominance approach connecting crewed F-35 fighters with autonomous Vectis aircraft, including a claim that one F-35 could control up to eight autonomous aircraft. This closely aligns with the profile's experience in flight controls, autopilot algorithms, GNC, UAV/eVTOL systems, autonomy, simulation, and multidisciplinary aerospace R&D. No hiring activity is stated.",
+      "ru": "В публикации описывается подход Lockheed Martin к обеспечению превосходства в воздухе, объединяющий пилотируемые истребители F-35 с автономными летательными аппаратами Vectis, включая утверждение, что один F-35 сможет управлять до восьми автономных летательных аппаратов. Это тесно связано с опытом, указанным в профиле: системы управления полётом, алгоритмы автопилота, GNC, системы UAV/eVTOL, автономность, моделирование и междисциплинарные аэрокосмические исследования и разработки. Информация о найме отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "8a1f6016402d0f2e7d3eb326": {
+      "source": "Vast explicitly advertises openings connected to its satellite business, including pre-sales engineering roles. The pre-sales engineer track is potentially adjacent to the profile's aerospace engineering background, although the post emphasizes commercial development and customer-facing work rather than flight controls, GNC, or autonomy. Inference: Vast may be worth monitoring for technically oriented satellite roles beyond the roles listed in this post.",
+      "ru": "Vast явно рекламирует вакансии, связанные со своим спутниковым бизнесом, включая должности Pre-Sales Engineer. Направление Pre-Sales Engineer потенциально близко к аэрокосмическому инженерному опыту, указанному в профиле, хотя в публикации акцент сделан на коммерческом развитии и взаимодействии с клиентами, а не на системах управления полётом, GNC или автономности. Вывод: за Vast может иметь смысл следить в поиске технически ориентированных должностей в сфере спутников, помимо перечисленных в этой публикации.",
+      "model": "gpt-5.6-luna"
+    },
+    "d718ba6c755130a1520923c5": {
+      "source": "The post describes maritime defense, autonomous-platform integration, sensor interoperability, and a unified operational picture. These areas are adjacent to the profile's experience in UAV systems, autonomy, navigation, control, simulation, and interest in marine autonomous platforms. No specific vacancy or hiring intent is stated.",
+      "ru": "В публикации описываются морская оборона, интеграция автономных платформ, совместимость сенсоров и единая оперативная картина. Эти направления близки к опыту, указанному в профиле: системы UAV, автономность, навигация, управление, моделирование и интерес к автономным морским платформам. Конкретная вакансия или намерение нанимать сотрудников не указаны.",
+      "model": "gpt-5.6-luna"
+    },
+    "440ea86aef4b9d8f5c935e46": {
+      "source": "The post concerns engineering simulation for EV noise, including frequency-domain analysis, acoustic and structural coupling, and reduced-order models. This overlaps with the profile's simulation and multidisciplinary physical-systems background, but NVH and automotive acoustics are not stated core specialties.",
+      "ru": "Публикация посвящена инженерному моделированию шума в электромобилях, включая анализ в частотной области, акустическое и структурное взаимодействие, а также модели пониженного порядка. Это пересекается с опытом в области моделирования и междисциплинарных физических систем, указанным в профиле, однако NVH и автомобильная акустика не заявлены в качестве основных специализаций.",
+      "model": "gpt-5.6-luna"
     }
   }
 }
