@@ -540,6 +540,26 @@
       "source": "The post concerns engineering simulation for EV noise, including frequency-domain analysis, acoustic and structural coupling, and reduced-order models. This overlaps with the profile's simulation and multidisciplinary physical-systems background, but NVH and automotive acoustics are not stated core specialties.",
       "ru": "Публикация посвящена инженерному моделированию шума в электромобилях, включая анализ в частотной области, акустическое и структурное взаимодействие, а также модели пониженного порядка. Это пересекается с опытом в области моделирования и междисциплинарных физических систем, указанным в профиле, однако NVH и автомобильная акустика не заявлены в качестве основных специализаций.",
       "model": "gpt-5.6-luna"
+    },
+    "6c97a1e134d002c7090b310d": {
+      "source": "The post describes a technically relevant autonomous-drone project combining computer vision, path planning, autonomous control, simulation, trajectory management, real-time constraints, and deployment on limited onboard hardware. These areas closely match the profile's UAV, autonomy, flight-control, simulation, navigation, and embedded-control focus. The author and named teammates are concrete people connected to relevant engineering work, although no employment or hiring relationship is stated.",
+      "ru": "Публикация описывает технически релевантный проект автономного дрона, объединяющий компьютерное зрение, планирование пути, автономное управление, моделирование, управление траекторией, ограничения реального времени и работу на бортовом оборудовании с ограниченными ресурсами. Эти области тесно соответствуют специализации профиля: БПЛА, автономность, управление полётом, моделирование, навигация и встроенные системы управления. Автор и названные участники команды — конкретные люди, связанные с релевантной инженерной работой, однако трудовые отношения или найм не указаны.",
+      "model": "codex"
+    },
+    "daef906251b5d2180c08a278": {
+      "source": "Inference: The post is strongly aligned with the profile's UAV, autonomous-systems, flight-control, communications-integration and multidisciplinary R&D interests. It describes autonomous flight testing and a modular vehicle carrying mission-specific payloads, but does not state a vacancy or hiring intent.",
+      "ru": "Вывод: публикация хорошо соответствует интересам профиля в области БПЛА, автономных систем, управления полётом, интеграции средств связи и междисциплинарных исследований и разработок. Она описывает испытания автономного полёта и модульный аппарат с полезной нагрузкой для конкретных задач, но не сообщает о вакансии или намерении нанимать сотрудников.",
+      "model": "codex"
+    },
+    "f21d4af895bea50fc531503b": {
+      "source": "The post highlights MathWorks research projects using MATLAB and Simulink across computer vision, robotics, physics-based optimization and sensor simulation, closely matching the profile's control, simulation, robotics and MATLAB/Simulink background. It contains no hiring indication.",
+      "ru": "Публикация рассказывает об исследовательских проектах MathWorks, использующих MATLAB и Simulink для компьютерного зрения, робототехники, оптимизации на основе физических моделей и моделирования датчиков. Это тесно соответствует опыту профиля в управлении, моделировании, робототехнике и MATLAB/Simulink. Признаков найма нет.",
+      "model": "codex"
+    },
+    "349a13739c235504f044520d": {
+      "source": "The post identifies Boeing as expanding employee development pathways with Embry-Riddle and strengthening engineering and product-support capabilities. This is relevant to the profile's aerospace engineering background and could indicate a company worth monitoring, but it does not advertise a role or confirm hiring.",
+      "ru": "Публикация сообщает, что Boeing расширяет возможности развития сотрудников совместно с Embry-Riddle и укрепляет компетенции в инженерии и поддержке продукции. Это релевантно авиационно-космическому инженерному опыту профиля и может указывать на компанию, за которой стоит наблюдать, но публикация не объявляет вакансию и не подтверждает найм.",
+      "model": "codex"
     }
   }
 }

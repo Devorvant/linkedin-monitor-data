@@ -47,7 +47,7 @@
     "total": 255,
     "people": 215,
     "companies": 40,
-    "people_with_profile_url": 175,
+    "people_with_profile_url": 183,
     "status_counts": {
       "WATCH": 255,
       "REVIEW": 0,
@@ -65,41 +65,42 @@
     "known_following_companies": 22
   },
   "current_recommendations": {
-    "items": 104,
-    "high": 44,
-    "medium": 60,
-    "pending_approval": 7,
-    "research_needed": 35,
+    "items": 102,
+    "high": 45,
+    "medium": 57,
+    "pending_approval": 8,
+    "research_needed": 33,
     "actionable_now": 32,
     "watchlist": 18,
-    "archive": 54,
+    "archive": 52,
     "primary_action_counts": {
       "check_jobs": 13,
       "find_warm_path": 60,
-      "research_contact": 29,
+      "research_contact": 27,
       "review_technology": 2
     },
     "action_plan_counts": {
       "check_jobs": 13,
-      "connect_person": 6,
+      "connect_person": 7,
       "engage_with_post": 20,
       "find_warm_path": 65,
       "follow_company": 11,
       "follow_person": 41,
       "message_person": 1,
       "research_company": 15,
-      "research_contact": 35,
+      "research_contact": 33,
       "review_technology": 49,
-      "save_for_content": 63
+      "save_for_content": 62
     },
     "history_scope": {
       "first_date": "2026-08-29",
       "last_date": "2026-10-04",
       "history_files": 31,
       "unique_signals": 139,
-      "entities": 104
+      "entities": 102
     },
     "recommendation_mode": "accumulated_current_state"
   },
-  "llm_provider": "openai"
+  "llm_provider": "openai",
+  "recommendations_rebuilt_at": "2026-10-04T19:18:50.340943+00:00"
 }

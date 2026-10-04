@@ -7,6 +7,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 import action_planner as planner
+from person_identity import feed_profile_index, person_profile, profile_key, with_feed_profiles
 
 
 PRIORITY_RANK = {"high": 0, "medium": 1}
@@ -57,18 +58,18 @@ def signal_key(signal):
 def entity_key(signal):
     target = planner.target_info(signal)
     if target.get("name"):
-        slugs = [planner.profile_slug(url) for url in planner.signal_urls(signal)]
-        slugs = [slug for slug in slugs if slug]
-        if slugs:
-            return f"person:{slugs[0]}"
+        url, _ = person_profile(signal, target["name"])
+        if url:
+            return f"person:{profile_key(url)}"
         return f"person:{norm_name(target.get('name'))}"
 
     company = planner.clean(target.get("company") or signal.get("company"))
     if company:
-        slugs = [company_slug(url) for url in planner.signal_urls(signal)]
-        slugs = [slug for slug in slugs if slug]
-        if slugs:
-            return f"company:{slugs[0]}"
+        # A mentioned company's URL is not the identity of the target company.
+        if signal.get("author_type") == "company" and norm_name(signal.get("author")) == norm_name(company):
+            source_slug = company_slug(signal.get("source_url"))
+            if source_slug:
+                return f"company:{source_slug}"
         return f"company:{norm_name(company)}"
 
     return signal_key(signal)
@@ -82,36 +83,42 @@ def collect_signals(history_dir, latest_path=None):
     by_signal = {}
     source_files = []
 
+    def observe(signal, observed_date, source, profiles):
+        row = with_feed_profiles(signal, profiles)
+        row["_history_date"] = observed_date
+        row["_history_source"] = source
+        key = signal_key(row)
+        old = by_signal.get(key)
+        dates = set((old or {}).get("_history_dates") or []) | {observed_date}
+        evidence = list((old or {}).get("_person_profile_evidence") or [])
+        for entry in row.get("_person_profile_evidence") or []:
+            if entry not in evidence:
+                evidence.append(entry)
+        chosen = row if old is None or observed_date >= old["_history_date"] else old
+        chosen["_history_dates"] = sorted(dates)
+        chosen["_person_profile_evidence"] = evidence
+        by_signal[key] = chosen
+
     files = sorted(history_dir.glob("*.json")) if history_dir.exists() else []
     for path in files:
         source_files.append(path.name)
         data = load_json(path, {"signals": []})
         date = date_for_file(path)
+        profiles = feed_profile_index(history_dir.parent / "feed" / path.name)
         for signal in data.get("signals", []):
             if signal.get("priority") not in {"high", "medium"}:
                 continue
-            row = copy.deepcopy(signal)
-            row["_history_date"] = date
-            row["_history_source"] = path.name
-            key = signal_key(row)
-            old = by_signal.get(key)
-            if old is None or row["_history_date"] >= old["_history_date"]:
-                by_signal[key] = row
+            observe(signal, date, path.name, profiles)
 
     if latest_path and latest_path.exists():
         data = load_json(latest_path, {"signals": []})
         generated = planner.clean(data.get("generated_at"))
         date = generated[:10] if generated else datetime.now(timezone.utc).date().isoformat()
+        profiles = feed_profile_index(latest_path.parent / "feed_latest.json")
         for signal in data.get("signals", []):
             if signal.get("priority") not in {"high", "medium"}:
                 continue
-            row = copy.deepcopy(signal)
-            row["_history_date"] = date
-            row["_history_source"] = latest_path.name
-            key = signal_key(row)
-            old = by_signal.get(key)
-            if old is None or row["_history_date"] >= old["_history_date"]:
-                by_signal[key] = row
+            observe(signal, date, latest_path.name, profiles)
 
     return list(by_signal.values()), source_files
 
@@ -127,17 +134,24 @@ def representative_signals(signals):
         rows.sort(
             key=lambda s: (
                 s.get("_history_date") or "",
-                -int(s.get("confidence") or 0),
+                1 if s.get("priority") == "high" else 0,
+                as_int(s.get("career_relevance")),
+                as_int(s.get("technical_relevance")),
+                as_int(s.get("confidence")),
+                planner.clean(s.get("signal_id")),
             ),
             reverse=True,
         )
         representative = copy.deepcopy(rows[0])
-        dates = sorted({s.get("_history_date") for s in rows if s.get("_history_date")})
+        signal_dates = [{"key": signal_key(s),
+                         "dates": s.get("_history_dates") or [s["_history_date"]]} for s in rows]
+        dates = sorted({d for entry in signal_dates for d in entry["dates"] if d})
         stats = {
             "occurrences": len(rows),
             "first_seen": dates[0] if dates else None,
             "last_seen": dates[-1] if dates else None,
             "dates": dates,
+            "signal_dates": signal_dates,
             "high": sum(1 for s in rows if s.get("priority") == "high"),
             "medium": sum(1 for s in rows if s.get("priority") == "medium"),
         }
@@ -181,19 +195,12 @@ def crm_company_url(crm, company):
     return None
 
 
-def direct_urls(signal, target):
-    person_url = ""
+def direct_urls(signal, target, crm=None):
+    person_url, _ = person_profile(signal, (target or {}).get("name"), crm)
     company_url = ""
-    target_name = norm_name((target or {}).get("name"))
     target_company = norm_name((target or {}).get("company") or signal.get("company"))
 
-    for url in planner.signal_urls(signal):
-        if not person_url and planner.profile_slug(url):
-            person_url = planner.clean(url)
-
     source = planner.clean(signal.get("source_url"))
-    if target_name and "/in/" in source:
-        person_url = source
 
     # Never use an arbitrary mentioned company as the target company.
     # Exact company URLs are resolved from CRM later; source company URL is
@@ -533,7 +540,7 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
             "occurrences": 1, "first_seen": None, "last_seen": None, "high": 0, "medium": 0
         })
         representative = representative_by_id.get(sid, {})
-        person_url, company_url = direct_urls(representative, item.get("target") or {})
+        person_url, company_url = direct_urls(representative, item.get("target") or {}, crm)
         item.setdefault("target", {})
         if person_url:
             item["target"]["profile_url"] = person_url
@@ -609,6 +616,8 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
     for item in queue.get("items", []):
         stats = item.get("history_stats") or {}
         item["freshness"] = freshness_for(stats.get("last_seen"), reference_date)
+        representative = representative_by_id.get(planner.clean(item.get("signal_id")), {})
+        recompute_item_fields(item, representative)
         item["action_plan_full"] = copy.deepcopy(item.get("action_plan") or [])
         item["drafts_full"] = copy.deepcopy(item.get("drafts") or {})
         item["execution_status_full"] = item.get("execution_status")
@@ -682,7 +691,7 @@ def rebuild(history_dir, latest_signals, crm_path, relationships_dir):
         },
     })
 
-    queue["schema_version"] = 4
+    queue["schema_version"] = 5
     queue["recommendation_mode"] = "accumulated_current_state"
     queue["history_scope"] = {
         "first_date": dates[0] if dates else None,

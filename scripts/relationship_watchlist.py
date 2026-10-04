@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 import argparse
+import copy
 import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import unquote, urlparse
+
+from person_identity import feed_profile_index, name_key, person_profile, profile_key, with_feed_profiles
 
 STATUSES = ["WATCH", "REVIEW", "CONNECT", "CONNECTED", "CONTACTED", "REPLIED", "CLOSED"]
 MANUAL_FIELDS = ["status", "notes", "tags", "do_not_contact", "last_contacted_at", "next_follow_up_at"]
@@ -180,45 +183,30 @@ def name_tokens(value):
 
 def person_profile_url(name, signal):
     """Return a person /in/ URL only when it can be safely matched to this name."""
-    name_cf = norm(name).casefold()
-    author = norm(signal.get("author")).casefold()
-    source_url = norm(signal.get("source_url"))
+    return person_profile(signal, name)[0]
 
-    # Author's own profile is unambiguous.
-    if name_cf and name_cf == author and "/in/" in source_url:
-        return source_url
 
-    # Future analyzer versions may attach a URL directly to the person object.
-    for person in signal.get("people") or []:
-        if norm(person.get("name")).casefold() == name_cf:
-            direct = norm(person.get("profile_url") or person.get("url"))
-            if "/in/" in direct:
-                return direct
-
-    candidates = []
-    for item in signal.get("links") or []:
-        url = norm(item.get("url"))
-        if item.get("link_type") == "person" and "/in/" in url:
-            candidates.append(url)
-
-    target_tokens = name_tokens(name)
-    if not target_tokens:
-        return None
-
-    best_url = None
-    best_score = 0
-    for url in candidates:
-        try:
-            slug = urlparse(url).path.split("/in/", 1)[1].strip("/")
-        except Exception:
+def repair_person_profiles(existing, signals):
+    """Audit current URLs against source evidence without changing manual CRM fields."""
+    result = copy.deepcopy(existing)
+    for record in result.get("items") or []:
+        if record.get("kind") != "person":
             continue
-        slug_tokens = name_tokens(slug)
-        overlap = sum(1 for token in target_tokens if any(token == s or token in s or s in token for s in slug_tokens))
-        # Require two matching tokens, except for an uncommon single-token exact author name.
-        if overlap >= 2 and overlap > best_score:
-            best_score = overlap
-            best_url = url
-    return best_url
+        candidates = {}
+        ambiguous = False
+        for signal in signals:
+            url, proof = person_profile(signal, record.get("name"))
+            if url:
+                candidates[profile_key(url)] = (url, proof)
+            elif any(name_key(x.get("name")) == name_key(record.get("name"))
+                     for x in signal.get("_person_profile_evidence") or []):
+                ambiguous = True
+        if len(candidates) == 1 and not ambiguous:
+            record["profile_url"], record["profile_evidence"] = next(iter(candidates.values()))
+        elif (record.get("profile_evidence") or {}).get("source") != "manual":
+            record["profile_url"] = None
+            record["profile_evidence"] = None
+    return result
 
 
 def company_profile_url(name, signal):
@@ -307,8 +295,9 @@ def upsert(records, kind, name, signal, now):
             priority_counts[p] = as_int(priority_counts.get(p)) + 1
 
     profile_url = old.get("profile_url")
+    profile_evidence = old.get("profile_evidence")
     if kind == "person":
-        profile_url = person_profile_url(name, signal) or profile_url
+        profile_url, profile_evidence = person_profile(signal, name, {"items": [old]})
     elif kind == "company":
         profile_url = company_profile_url(name, signal) or profile_url
 
@@ -355,6 +344,7 @@ def upsert(records, kind, name, signal, now):
         "name": name,
         **manual,
         "profile_url": profile_url,
+        "profile_evidence": profile_evidence,
         "first_seen": first_seen,
         "last_seen": last_seen,
         "times_seen": times_seen,
@@ -422,7 +412,7 @@ def build(signals, existing, known=None):
     items.sort(key=lambda r: (r.get("status") == "CLOSED", -as_int(r.get("score")), r.get("kind", ""), r.get("name", "").casefold()))
     status_counts = {status: sum(1 for r in items if r.get("status") == status) for status in STATUSES}
     return {
-        "schema_version": 4,
+        "schema_version": 5,
         "generated_at": now,
         "status_model": {
             "allowed": STATUSES,
@@ -451,10 +441,21 @@ def main():
     ap.add_argument("--signals", default="feed_signals_latest.json")
     ap.add_argument("--watchlist", default="relationship_watchlist.json")
     ap.add_argument("--relationships-dir", default="linkedin_relationships")
+    ap.add_argument("--history-dir", default="history/feed_signals")
+    ap.add_argument("--feed-history-dir", default="history/feed")
     args = ap.parse_args()
     signals = load_json(Path(args.signals), {"signals": []})
     path = Path(args.watchlist)
     existing = load_json(path, {"items": []})
+    history = []
+    for source in sorted(Path(args.history_dir).glob("*.json")):
+        index = feed_profile_index(Path(args.feed_history_dir) / source.name)
+        history.extend(with_feed_profiles(s, index)
+                       for s in load_json(source, {"signals": []}).get("signals", []))
+    latest_index = feed_profile_index(Path(args.signals).parent / "feed_latest.json")
+    signals["signals"] = [with_feed_profiles(s, latest_index) for s in signals.get("signals", [])]
+    if history:
+        existing = repair_person_profiles(existing, history + signals["signals"])
     known = load_relationship_reference(Path(args.relationships_dir))
     result = build(signals, existing, known)
     path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

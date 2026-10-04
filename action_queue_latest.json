@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-04T05:12:42.135693+00:00",
+  "generated_at": "2026-10-04T19:18:50.168395+00:00",
   "source_generated_at": "2026-10-04T05:11:21.035103+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
@@ -94,7 +94,7 @@
       },
       "crm_guard_applied": false,
       "crm_guard_reason": null,
-      "crm_entity_id": "company:department of aerospace science and technology - politecnico di milano",
+      "crm_entity_id": "person:alessandro michelazzi",
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [
@@ -110,7 +110,15 @@
         "target_role": "PhD student in astrodynamics",
         "target_reason": "Alessandro Michelazzi, Eduardo Polli and Wiebke Retagne are explicitly identified as PhD students presenting work on relative navigation, collision avoidance and space-debris mitigation.",
         "target_priority": "high",
-        "company": "Department of Aerospace Science and Technology - Politecnico di Milano"
+        "company": "Department of Aerospace Science and Technology - Politecnico di Milano",
+        "profile_url": "https://www.linkedin.com/in/alessandro-michelazzi-270/",
+        "profile_evidence": {
+          "name": "Alessandro Michelazzi",
+          "url": "https://www.linkedin.com/in/alessandro-michelazzi-270/",
+          "source": "feed_mention",
+          "signal_id": "sig_74864a2c56b1b26c"
+        },
+        "profile_resolution": "resolved"
       },
       "reason": "The post covers spacecraft guidance, navigation and control, relative navigation, trajectory optimisation, formation flying and collision avoidance, which closely align with the profile's GNC, navigation, flight dynamics, trajectory planning and autonomous-systems expertise. The post also identifies several concrete researchers and a relevant aerospace research institution. It does not provide a hiring signal. The potential value for career expansion into space systems is an inference from the technical overlap.",
       "content_angle": "Offer an original expert perspective comparing relative-navigation and collision-avoidance challenges in spacecraft with analogous estimation, guidance and safety constraints in UAV or eVTOL systems, without copying the post.",
@@ -236,7 +244,7 @@
       "drafts": {},
       "crm_guard_applied": false,
       "crm_guard_reason": null,
-      "crm_entity_id": "company:lockheed martin",
+      "crm_entity_id": "person:oj sanchez",
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [
@@ -252,7 +260,15 @@
         "target_role": "OJ Sanchez",
         "target_reason": "He is directly identified in the post as discussing Lockheed Martin's crewed-autonomous air-dominance concept; his exact role is not specified.",
         "target_priority": "medium",
-        "company": "Lockheed Martin"
+        "company": "Lockheed Martin",
+        "profile_url": "https://www.linkedin.com/in/ojsanchez/",
+        "profile_evidence": {
+          "name": "OJ Sanchez",
+          "url": "https://www.linkedin.com/in/ojsanchez/",
+          "source": "feed_mention",
+          "signal_id": "sig_9e1694eb13c49855"
+        },
+        "profile_resolution": "resolved"
       },
       "reason": "The post describes Lockheed Martin's air-dominance approach connecting crewed F-35 fighters with autonomous Vectis aircraft, including a claim that one F-35 could control up to eight autonomous aircraft. This closely aligns with the profile's experience in flight controls, autopilot algorithms, GNC, UAV/eVTOL systems, autonomy, simulation, and multidisciplinary aerospace R&D. No hiring activity is stated.",
       "content_angle": "Discuss the engineering challenges behind scalable crewed-autonomous teaming, such as command authority, guidance and control coordination, communications constraints, workload, simulation, and verification for one crewed aircraft supervising multiple autonomous vehicles.",

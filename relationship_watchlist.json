@@ -1,6 +1,6 @@
 {
-  "schema_version": 4,
-  "generated_at": "2026-10-04T05:12:42.062485+00:00",
+  "schema_version": 5,
+  "generated_at": "2026-10-04T19:17:56.278539+00:00",
   "status_model": {
     "allowed": [
       "WATCH",
@@ -25,7 +25,7 @@
     "total": 255,
     "people": 215,
     "companies": 40,
-    "people_with_profile_url": 175,
+    "people_with_profile_url": 183,
     "status_counts": {
       "WATCH": 255,
       "REVIEW": 0,
@@ -353,7 +353,13 @@
         "CONNECTION",
         "FOLLOWER"
       ],
-      "linkedin_relationship": "CONNECTION"
+      "linkedin_relationship": "CONNECTION",
+      "profile_evidence": {
+        "name": "Burak Çetin",
+        "url": "https://www.linkedin.com/in/burak-%C3%A7etin-71ba601aa/",
+        "source": "author_link",
+        "signal_id": "sig_be674d6a70aaead0"
+      }
     },
     {
       "id": "company:skygrid",
@@ -590,7 +596,13 @@
       },
       "updated_at": "2026-09-11T05:12:32.913619+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Aryaman Samyal",
+        "url": "https://www.linkedin.com/in/aryaman-samyal/",
+        "source": "feed_mention",
+        "signal_id": "sig_8442c6a9035f4356"
+      }
     },
     {
       "id": "person:balram kandoria",
@@ -664,7 +676,13 @@
       },
       "updated_at": "2026-09-11T05:12:32.913619+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Balram Kandoria",
+        "url": "https://www.linkedin.com/in/balram-kandoria1/",
+        "source": "author_link",
+        "signal_id": "sig_8442c6a9035f4356"
+      }
     },
     {
       "id": "company:mathworks",
@@ -1215,7 +1233,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Adrian Schmidt",
+        "url": "https://www.linkedin.com/in/adrnschm/",
+        "source": "author_link",
+        "signal_id": "sig_95dd1e765314b06d"
+      }
     },
     {
       "id": "person:athanasios digkas",
@@ -1288,7 +1312,13 @@
       },
       "updated_at": "2026-09-30T05:12:28.488167+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Athanasios Digkas",
+        "url": "https://www.linkedin.com/in/athanasios-digkas-10660722a/",
+        "source": "feed_mention",
+        "signal_id": "sig_12f6ff652c24cbfb"
+      }
     },
     {
       "id": "person:dimitrios ioannidis",
@@ -1361,7 +1391,13 @@
       },
       "updated_at": "2026-09-30T05:12:28.488167+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Dimitrios Ioannidis",
+        "url": "https://www.linkedin.com/in/dimitrios-ioannidis-534081294/",
+        "source": "feed_mention",
+        "signal_id": "sig_12f6ff652c24cbfb"
+      }
     },
     {
       "id": "person:krishna keerthana chiruvolu",
@@ -1434,7 +1470,13 @@
       },
       "updated_at": "2026-09-30T05:12:28.488167+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Krishna Keerthana Chiruvolu",
+        "url": "https://www.linkedin.com/in/krishna-keerthana-chiruvolu-981181223/",
+        "source": "feed_mention",
+        "signal_id": "sig_12f6ff652c24cbfb"
+      }
     },
     {
       "id": "person:krishna pal rajput",
@@ -1504,7 +1546,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Krishna Pal Rajput",
+        "url": "https://www.linkedin.com/in/krishna-pal-rajput-a9a83689/",
+        "source": "feed_mention",
+        "signal_id": "sig_95dd1e765314b06d"
+      }
     },
     {
       "id": "person:manjunath r",
@@ -1577,7 +1625,13 @@
       },
       "updated_at": "2026-09-30T05:12:28.488167+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Manjunath R",
+        "url": "https://www.linkedin.com/in/manjunath-r-65ab9740/",
+        "source": "feed_mention",
+        "signal_id": "sig_12f6ff652c24cbfb"
+      }
     },
     {
       "id": "person:marios antakis",
@@ -1650,7 +1704,13 @@
       },
       "updated_at": "2026-09-30T05:12:28.488167+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Marios Antakis",
+        "url": "https://www.linkedin.com/in/marios-antakis-004ba5249/",
+        "source": "feed_mention",
+        "signal_id": "sig_12f6ff652c24cbfb"
+      }
     },
     {
       "id": "person:payal satish",
@@ -1761,7 +1821,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Payal Satish",
+        "url": "https://www.linkedin.com/in/payal-satish/",
+        "source": "feed_mention",
+        "signal_id": "sig_95dd1e765314b06d"
+      }
     },
     {
       "id": "person:rakesh gaonkar",
@@ -1852,7 +1918,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Rakesh Gaonkar",
+        "url": "https://www.linkedin.com/in/rakesh-gaonkar/",
+        "source": "feed_mention",
+        "signal_id": "sig_95dd1e765314b06d"
+      }
     },
     {
       "id": "person:vassilis diakoloukas",
@@ -1948,7 +2020,13 @@
       },
       "updated_at": "2026-09-30T05:12:28.488167+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Vassilis Diakoloukas",
+        "url": "https://www.linkedin.com/in/vassilis-diakoloukas-b581ba5/",
+        "source": "author_link",
+        "signal_id": "sig_f2d3343252394f19"
+      }
     },
     {
       "id": "person:vassilis diakoloukas • 3-й+",
@@ -2044,7 +2122,13 @@
       },
       "updated_at": "2026-09-30T05:12:28.488167+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Vassilis Diakoloukas • 3-й+",
+        "url": "https://www.linkedin.com/in/vassilis-diakoloukas-b581ba5/",
+        "source": "author_link",
+        "signal_id": "sig_f2d3343252394f19"
+      }
     },
     {
       "id": "company:altovolo",
@@ -2449,7 +2533,13 @@
       },
       "updated_at": "2026-09-13T05:12:09.600303+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Christopher Ash, C.M., ACE",
+        "url": "https://www.linkedin.com/in/christopher-ash-c-m-ace-1927591/",
+        "source": "feed_mention",
+        "signal_id": "sig_931e9cfd03763586"
+      }
     },
     {
       "id": "person:dan elwell",
@@ -2528,7 +2618,8 @@
       },
       "updated_at": "2026-09-13T05:12:09.600303+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:dan harmon",
@@ -2621,7 +2712,13 @@
       },
       "updated_at": "2026-09-13T05:12:09.600303+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Dan Harmon",
+        "url": "https://www.linkedin.com/in/dan-harmon-11918827/",
+        "source": "feed_mention",
+        "signal_id": "sig_931e9cfd03763586"
+      }
     },
     {
       "id": "person:iram zubair",
@@ -2701,7 +2798,13 @@
         "CONNECTION",
         "FOLLOWER"
       ],
-      "linkedin_relationship": "CONNECTION"
+      "linkedin_relationship": "CONNECTION",
+      "profile_evidence": {
+        "name": "Iram Zubair",
+        "url": "https://www.linkedin.com/in/iram-z-7633a727b/",
+        "source": "author_link",
+        "signal_id": "sig_bfde6edb48b2d7a3"
+      }
     },
     {
       "id": "person:johann dauer",
@@ -2775,7 +2878,13 @@
       },
       "updated_at": "2026-09-14T05:12:42.871235+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Johann Dauer",
+        "url": "https://www.linkedin.com/in/johann-dauer-702184317/",
+        "source": "author_link",
+        "signal_id": "sig_7e8ca48f43c40e94"
+      }
     },
     {
       "id": "person:julieta jazmín gonzález marasco",
@@ -2863,7 +2972,13 @@
       },
       "updated_at": "2026-09-10T05:12:19.274264+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Julieta Jazmín González Marasco",
+        "url": "https://www.linkedin.com/in/julietagonzalezmarasco/",
+        "source": "author_link",
+        "signal_id": "sig_cae42d5ed9b9ed38"
+      }
     },
     {
       "id": "person:julieta jazmín gonzález marasco • 3-й+",
@@ -2934,7 +3049,13 @@
       },
       "updated_at": "2026-09-10T05:12:19.274264+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Julieta Jazmín González Marasco • 3-й+",
+        "url": "https://www.linkedin.com/in/julietagonzalezmarasco/",
+        "source": "author_link",
+        "signal_id": "sig_cae42d5ed9b9ed38"
+      }
     },
     {
       "id": "person:mohamad omari",
@@ -3001,7 +3122,13 @@
       },
       "updated_at": "2026-09-21T05:13:06.125664+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Mohamad Omari",
+        "url": "https://www.linkedin.com/in/mohamad-omari-693a59202/",
+        "source": "author_link",
+        "signal_id": "sig_076e3f0a57e922ae"
+      }
     },
     {
       "id": "person:mohamad omari • 2-й",
@@ -3066,7 +3193,13 @@
       },
       "updated_at": "2026-09-21T05:13:06.125664+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Mohamad Omari • 2-й",
+        "url": "https://www.linkedin.com/in/mohamad-omari-693a59202/",
+        "source": "author_link",
+        "signal_id": "sig_076e3f0a57e922ae"
+      }
     },
     {
       "id": "person:scott shtofman",
@@ -3078,7 +3211,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": "https://www.linkedin.com/in/christopher-ash-c-m-ace-1927591/",
+      "profile_url": "https://www.linkedin.com/in/shtofman/",
       "first_seen": "2026-09-13T05:12:09.600303+00:00",
       "last_seen": "2026-09-13T05:12:09.600303+00:00",
       "times_seen": 1,
@@ -3143,7 +3276,13 @@
       },
       "updated_at": "2026-09-13T05:12:09.600303+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Scott Shtofman",
+        "url": "https://www.linkedin.com/in/shtofman/",
+        "source": "author_link",
+        "signal_id": "sig_931e9cfd03763586"
+      }
     },
     {
       "id": "person:scott shtofman • 3-й+",
@@ -3220,7 +3359,13 @@
       },
       "updated_at": "2026-09-13T05:12:09.600303+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Scott Shtofman • 3-й+",
+        "url": "https://www.linkedin.com/in/shtofman/",
+        "source": "author_link",
+        "signal_id": "sig_931e9cfd03763586"
+      }
     },
     {
       "id": "person:secretary duffy",
@@ -3299,7 +3444,8 @@
       },
       "updated_at": "2026-09-13T05:12:09.600303+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:senator cruz",
@@ -3378,7 +3524,8 @@
       },
       "updated_at": "2026-09-13T05:12:09.600303+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:sergio roman ii",
@@ -3455,7 +3602,13 @@
       },
       "updated_at": "2026-09-13T05:12:09.600303+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Sergio Roman II",
+        "url": "https://www.linkedin.com/in/sergio-roman-ii-11224678/",
+        "source": "feed_mention",
+        "signal_id": "sig_931e9cfd03763586"
+      }
     },
     {
       "id": "company:saildrone",
@@ -3681,7 +3834,8 @@
       },
       "updated_at": "2026-09-06T08:32:23.136659+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:erik balck sørensen",
@@ -3750,7 +3904,8 @@
       },
       "updated_at": "2026-09-06T08:32:23.136659+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:prince joachim of denmark",
@@ -3821,7 +3976,8 @@
       },
       "updated_at": "2026-09-06T08:32:23.136659+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:richard jenkins",
@@ -3893,7 +4049,8 @@
       },
       "updated_at": "2026-09-06T08:32:23.136659+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:robert kleist",
@@ -3905,7 +4062,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": "https://www.linkedin.com/in/robert-kleist-5643195/",
+      "profile_url": null,
       "first_seen": "2026-09-06T08:28:06.926039+00:00",
       "last_seen": "2026-09-06T08:28:06.926039+00:00",
       "times_seen": 1,
@@ -3964,7 +4121,8 @@
       },
       "updated_at": "2026-09-06T08:32:23.136659+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:vijay singh",
@@ -4037,7 +4195,13 @@
       },
       "updated_at": "2026-09-21T05:13:06.125664+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Vijay Singh",
+        "url": "https://www.linkedin.com/in/vijay-singh-335a20119/",
+        "source": "author_link",
+        "signal_id": "sig_e9286cf9f5ac682a"
+      }
     },
     {
       "id": "company:regent craft",
@@ -4123,7 +4287,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/williamthalheimer/",
       "first_seen": "2026-09-22T05:12:56.304314+00:00",
       "last_seen": "2026-09-22T05:12:56.304314+00:00",
       "times_seen": 1,
@@ -4187,7 +4351,13 @@
       },
       "updated_at": "2026-09-22T05:12:56.304314+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Billy Thalheimer",
+        "url": "https://www.linkedin.com/in/williamthalheimer/",
+        "source": "feed_mention",
+        "signal_id": "sig_56dce301ca6046dd"
+      }
     },
     {
       "id": "person:monica wang",
@@ -4261,7 +4431,13 @@
       },
       "updated_at": "2026-09-22T05:12:56.304314+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Monica Wang",
+        "url": "https://www.linkedin.com/in/monica-wang-986794/",
+        "source": "feed_mention",
+        "signal_id": "sig_56dce301ca6046dd"
+      }
     },
     {
       "id": "person:samuel olubayo",
@@ -4273,7 +4449,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/olubayosam/",
       "first_seen": "2026-09-22T05:12:56.304314+00:00",
       "last_seen": "2026-09-22T05:12:56.304314+00:00",
       "times_seen": 1,
@@ -4335,7 +4511,13 @@
       },
       "updated_at": "2026-09-22T05:12:56.304314+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Samuel Olubayo",
+        "url": "https://www.linkedin.com/in/olubayosam/",
+        "source": "author_link",
+        "signal_id": "sig_56dce301ca6046dd"
+      }
     },
     {
       "id": "person:samuel olubayo • 3-й+",
@@ -4409,7 +4591,13 @@
       },
       "updated_at": "2026-09-22T05:12:56.304314+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Samuel Olubayo • 3-й+",
+        "url": "https://www.linkedin.com/in/olubayosam/",
+        "source": "author_link",
+        "signal_id": "sig_56dce301ca6046dd"
+      }
     },
     {
       "id": "company:department of aerospace science and technology - politecnico di milano",
@@ -4422,6 +4610,7 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/company/department-daer-polimi/",
+      "profile_evidence": null,
       "first_seen": "2026-10-04T05:12:42.062485+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 1,
@@ -4479,9 +4668,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
@@ -4498,6 +4687,7 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/company/jobyaviation/",
+      "profile_evidence": null,
       "first_seen": "2026-09-03T05:12:41.718126+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 9,
@@ -4700,9 +4890,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
@@ -4719,6 +4909,12 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/in/alessandro-michelazzi-270/",
+      "profile_evidence": {
+        "name": "Alessandro Michelazzi",
+        "url": "https://www.linkedin.com/in/alessandro-michelazzi-270/",
+        "source": "feed_mention",
+        "signal_id": "sig_74864a2c56b1b26c"
+      },
       "first_seen": "2026-10-02T05:13:17.741838+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 2,
@@ -4807,9 +5003,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [],
       "linkedin_relationship": null
     },
@@ -4824,6 +5020,12 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/in/andrea-muciaccia-19a65a211/",
+      "profile_evidence": {
+        "name": "Andrea Muciaccia",
+        "url": "https://www.linkedin.com/in/andrea-muciaccia-19a65a211/",
+        "source": "feed_mention",
+        "signal_id": "sig_74864a2c56b1b26c"
+      },
       "first_seen": "2026-10-02T05:13:17.741838+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 2,
@@ -4910,9 +5112,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [],
       "linkedin_relationship": null
     },
@@ -4989,7 +5191,8 @@
       },
       "updated_at": "2026-09-21T05:13:06.125664+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:brett mather, профиль подтверждено, 3-й+ brett mather • 3-й+ software systems engineer, doordash labs | ex-joby aviation | integrating tech, aviation & autonomy",
@@ -5062,7 +5265,13 @@
       },
       "updated_at": "2026-09-21T05:13:06.125664+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Brett Mather, профиль Подтверждено, 3-й+ Brett Mather • 3-й+ Software Systems Engineer, DoorDash Labs | Ex-Joby Aviation | Integrating Tech, Aviation & Autonomy",
+        "url": "https://www.linkedin.com/in/bmather9/",
+        "source": "author_link",
+        "signal_id": "sig_fde0b702dbca4690"
+      }
     },
     {
       "id": "person:camilla colombo",
@@ -5075,6 +5284,12 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/in/camilla-colombo-8520407/",
+      "profile_evidence": {
+        "name": "Camilla Colombo",
+        "url": "https://www.linkedin.com/in/camilla-colombo-8520407/",
+        "source": "feed_mention",
+        "signal_id": "sig_74864a2c56b1b26c"
+      },
       "first_seen": "2026-09-07T05:12:33.834468+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 4,
@@ -5219,9 +5434,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [],
       "linkedin_relationship": null
     },
@@ -5236,6 +5451,12 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/in/eduardo-polli-0223ab188/",
+      "profile_evidence": {
+        "name": "Eduardo Polli",
+        "url": "https://www.linkedin.com/in/eduardo-polli-0223ab188/",
+        "source": "feed_mention",
+        "signal_id": "sig_74864a2c56b1b26c"
+      },
       "first_seen": "2026-10-02T05:13:17.741838+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 2,
@@ -5324,9 +5545,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [],
       "linkedin_relationship": null
     },
@@ -5341,6 +5562,12 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/in/gabriella-gaias-366085146/",
+      "profile_evidence": {
+        "name": "Gabriella Gaias",
+        "url": "https://www.linkedin.com/in/gabriella-gaias-366085146/",
+        "source": "feed_mention",
+        "signal_id": "sig_74864a2c56b1b26c"
+      },
       "first_seen": "2026-10-02T05:13:17.741838+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 2,
@@ -5427,9 +5654,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [],
       "linkedin_relationship": null
     },
@@ -5444,6 +5671,12 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/in/juan-luis-gonzalo/",
+      "profile_evidence": {
+        "name": "Juan Luis Gonzalo Gómez",
+        "url": "https://www.linkedin.com/in/juan-luis-gonzalo/",
+        "source": "feed_mention",
+        "signal_id": "sig_74864a2c56b1b26c"
+      },
       "first_seen": "2026-10-02T05:13:17.741838+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 2,
@@ -5530,9 +5763,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [],
       "linkedin_relationship": null
     },
@@ -5620,7 +5853,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Kevin Antcliff",
+        "url": "https://www.linkedin.com/in/kevinantcliff/",
+        "source": "feed_mention",
+        "signal_id": "sig_d006bda9c4e96595"
+      }
     },
     {
       "id": "person:kevin antcliff • 3-й+",
@@ -5686,7 +5925,13 @@
       },
       "updated_at": "2026-09-09T05:12:12.004399+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Kevin Antcliff • 3-й+",
+        "url": "https://www.linkedin.com/in/kevinantcliff/",
+        "source": "feed_mention",
+        "signal_id": "sig_d006bda9c4e96595"
+      }
     },
     {
       "id": "person:pablo ceacero escrig",
@@ -5757,7 +6002,13 @@
       },
       "updated_at": "2026-09-14T05:12:42.871235+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Pablo Ceacero Escrig",
+        "url": "https://www.linkedin.com/in/pablo-ceacero-escrig/",
+        "source": "author_link",
+        "signal_id": "sig_c4860243e2abdd75"
+      }
     },
     {
       "id": "person:pablo ceacero escrig • 3-й+",
@@ -5826,7 +6077,13 @@
       },
       "updated_at": "2026-09-14T05:12:42.871235+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Pablo Ceacero Escrig • 3-й+",
+        "url": "https://www.linkedin.com/in/pablo-ceacero-escrig/",
+        "source": "author_link",
+        "signal_id": "sig_c4860243e2abdd75"
+      }
     },
     {
       "id": "person:sachin jain, ph.d.",
@@ -5952,7 +6209,13 @@
       "known_relationships": [
         "FOLLOWING_PERSON"
       ],
-      "linkedin_relationship": "FOLLOWING_PERSON"
+      "linkedin_relationship": "FOLLOWING_PERSON",
+      "profile_evidence": {
+        "name": "Sachin Jain, Ph.D.",
+        "url": "https://www.linkedin.com/in/sachinjainphd/",
+        "source": "author_link",
+        "signal_id": "sig_f61689fcb1a3d6e2"
+      }
     },
     {
       "id": "person:sachin jain, ph.d. • отслеживаете",
@@ -6078,7 +6341,13 @@
       "known_relationships": [
         "FOLLOWING_PERSON"
       ],
-      "linkedin_relationship": "FOLLOWING_PERSON"
+      "linkedin_relationship": "FOLLOWING_PERSON",
+      "profile_evidence": {
+        "name": "Sachin Jain, Ph.D. • Отслеживаете",
+        "url": "https://www.linkedin.com/in/sachinjainphd/",
+        "source": "author_link",
+        "signal_id": "sig_f61689fcb1a3d6e2"
+      }
     },
     {
       "id": "person:wiebke retagne",
@@ -6091,6 +6360,12 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/in/wiebke-retagne-4b7687172/",
+      "profile_evidence": {
+        "name": "Wiebke Retagne",
+        "url": "https://www.linkedin.com/in/wiebke-retagne-4b7687172/",
+        "source": "feed_mention",
+        "signal_id": "sig_74864a2c56b1b26c"
+      },
       "first_seen": "2026-10-02T05:13:17.741838+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 2,
@@ -6179,9 +6454,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [],
       "linkedin_relationship": null
     },
@@ -6423,7 +6698,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Brenden Hedblom",
+        "url": "https://www.linkedin.com/in/brenden-hedblom/",
+        "source": "author_link",
+        "signal_id": "sig_f55e2b580e46e750"
+      }
     },
     {
       "id": "person:melda ulusoy",
@@ -6511,7 +6792,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Melda Ulusoy",
+        "url": "https://www.linkedin.com/in/melda-ulusoy/",
+        "source": "author_link",
+        "signal_id": "sig_3f5942c35066722f"
+      }
     },
     {
       "id": "person:melda ulusoy • 3-й+",
@@ -6599,7 +6886,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Melda Ulusoy • 3-й+",
+        "url": "https://www.linkedin.com/in/melda-ulusoy/",
+        "source": "author_link",
+        "signal_id": "sig_3f5942c35066722f"
+      }
     },
     {
       "id": "person:neha s",
@@ -6790,7 +7083,13 @@
         "CONNECTION",
         "FOLLOWER"
       ],
-      "linkedin_relationship": "CONNECTION"
+      "linkedin_relationship": "CONNECTION",
+      "profile_evidence": {
+        "name": "Neha S",
+        "url": "https://www.linkedin.com/in/neha-s-1155231b8/",
+        "source": "author_link",
+        "signal_id": "sig_64835e0799a0c3fb"
+      }
     },
     {
       "id": "person:neha s • 1-й",
@@ -6981,7 +7280,13 @@
         "CONNECTION",
         "FOLLOWER"
       ],
-      "linkedin_relationship": "CONNECTION"
+      "linkedin_relationship": "CONNECTION",
+      "profile_evidence": {
+        "name": "Neha S • 1-й",
+        "url": "https://www.linkedin.com/in/neha-s-1155231b8/",
+        "source": "author_link",
+        "signal_id": "sig_64835e0799a0c3fb"
+      }
     },
     {
       "id": "company:skyrunner, llc",
@@ -7086,7 +7391,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/nathan-glasscock/",
       "first_seen": "2026-09-22T05:12:56.304314+00:00",
       "last_seen": "2026-09-22T05:12:56.304314+00:00",
       "times_seen": 2,
@@ -7167,7 +7472,13 @@
       },
       "updated_at": "2026-09-22T05:12:56.304314+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Nate Glasscock",
+        "url": "https://www.linkedin.com/in/nathan-glasscock/",
+        "source": "author_link",
+        "signal_id": "sig_77c124aa8f5d4bb8"
+      }
     },
     {
       "id": "person:nate glasscock • 3-й+",
@@ -7179,7 +7490,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/nathan-glasscock/",
       "first_seen": "2026-09-22T05:12:56.304314+00:00",
       "last_seen": "2026-09-22T05:12:56.304314+00:00",
       "times_seen": 2,
@@ -7260,7 +7571,13 @@
       },
       "updated_at": "2026-09-22T05:12:56.304314+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Nate Glasscock • 3-й+",
+        "url": "https://www.linkedin.com/in/nathan-glasscock/",
+        "source": "author_link",
+        "signal_id": "sig_77c124aa8f5d4bb8"
+      }
     },
     {
       "id": "company:open ocean robotics",
@@ -7355,7 +7672,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/rajhans/",
       "first_seen": "2026-09-05T05:12:45.953970+00:00",
       "last_seen": "2026-09-05T05:12:45.953970+00:00",
       "times_seen": 1,
@@ -7411,7 +7728,13 @@
       },
       "updated_at": "2026-09-05T05:12:45.953970+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Akshay Rajhans, Ph.D.",
+        "url": "https://www.linkedin.com/in/rajhans/",
+        "source": "author_link",
+        "signal_id": "sig_2d50b3fae8f5bfbb"
+      }
     },
     {
       "id": "person:akshay rajhans, ph.d. • 3-й+",
@@ -7423,7 +7746,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/rajhans/",
       "first_seen": "2026-09-05T05:12:45.953970+00:00",
       "last_seen": "2026-09-05T05:12:45.953970+00:00",
       "times_seen": 1,
@@ -7479,7 +7802,13 @@
       },
       "updated_at": "2026-09-05T05:12:45.953970+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Akshay Rajhans, Ph.D. • 3-й+",
+        "url": "https://www.linkedin.com/in/rajhans/",
+        "source": "author_link",
+        "signal_id": "sig_2d50b3fae8f5bfbb"
+      }
     },
     {
       "id": "person:david king",
@@ -7544,7 +7873,13 @@
       },
       "updated_at": "2026-09-10T05:12:19.274264+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "David King",
+        "url": "https://www.linkedin.com/in/david-king-6818293/",
+        "source": "author_link",
+        "signal_id": "sig_e2cfcd825506de45"
+      }
     },
     {
       "id": "person:isabel lima",
@@ -7607,7 +7942,13 @@
       },
       "updated_at": "2026-09-16T05:12:34.968432+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Isabel Lima",
+        "url": "https://www.linkedin.com/in/isabel-lima-0b889912b/",
+        "source": "author_link",
+        "signal_id": "sig_d33c8bdffbf95dd7"
+      }
     },
     {
       "id": "person:isabel lima • 3-й+",
@@ -7670,7 +8011,13 @@
       },
       "updated_at": "2026-09-16T05:12:34.968432+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Isabel Lima • 3-й+",
+        "url": "https://www.linkedin.com/in/isabel-lima-0b889912b/",
+        "source": "author_link",
+        "signal_id": "sig_d33c8bdffbf95dd7"
+      }
     },
     {
       "id": "person:lakshminarayan viju ravichandran",
@@ -7682,7 +8029,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/lravichandran/",
       "first_seen": "2026-09-05T05:12:45.953970+00:00",
       "last_seen": "2026-09-05T05:12:45.953970+00:00",
       "times_seen": 1,
@@ -7738,7 +8085,13 @@
       },
       "updated_at": "2026-09-05T05:12:45.953970+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Lakshminarayan Viju Ravichandran",
+        "url": "https://www.linkedin.com/in/lravichandran/",
+        "source": "feed_mention",
+        "signal_id": "sig_3f83dafd640dcd51"
+      }
     },
     {
       "id": "person:medha deshpande",
@@ -7807,7 +8160,13 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Medha Deshpande",
+        "url": "https://www.linkedin.com/in/medha-deshpande-4515941ba/",
+        "source": "feed_mention",
+        "signal_id": "sig_7a0beed01ba995cb"
+      }
     },
     {
       "id": "person:nishtha sharma",
@@ -7876,7 +8235,13 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Nishtha Sharma",
+        "url": "https://www.linkedin.com/in/nishtha-sharma-91a102241/",
+        "source": "feed_mention",
+        "signal_id": "sig_7a0beed01ba995cb"
+      }
     },
     {
       "id": "person:pavana prabhu",
@@ -7945,7 +8310,13 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Pavana Prabhu",
+        "url": "https://www.linkedin.com/in/pavana-prabhu-731ab25b/",
+        "source": "feed_mention",
+        "signal_id": "sig_7a0beed01ba995cb"
+      }
     },
     {
       "id": "person:roberto morollón ruiz",
@@ -8013,7 +8384,13 @@
       },
       "updated_at": "2026-09-07T05:12:33.834468+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Roberto Morollón Ruiz",
+        "url": "https://www.linkedin.com/in/roberto-moroll%C3%B3n-ruiz/",
+        "source": "author_link",
+        "signal_id": "sig_a21f7cf1db81c8f4"
+      }
     },
     {
       "id": "person:roberto morollón ruiz • 3-й+",
@@ -8079,7 +8456,13 @@
       },
       "updated_at": "2026-09-07T05:12:33.834468+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Roberto Morollón Ruiz • 3-й+",
+        "url": "https://www.linkedin.com/in/roberto-moroll%C3%B3n-ruiz/",
+        "source": "author_link",
+        "signal_id": "sig_a21f7cf1db81c8f4"
+      }
     },
     {
       "id": "person:saisurya anbazhagan vanniyar",
@@ -8148,7 +8531,13 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Saisurya Anbazhagan Vanniyar",
+        "url": "https://www.linkedin.com/in/saisurya-anbazhagan-vanniyar/",
+        "source": "feed_mention",
+        "signal_id": "sig_7a0beed01ba995cb"
+      }
     },
     {
       "id": "person:sandra sánchez hernández",
@@ -8214,7 +8603,13 @@
       },
       "updated_at": "2026-09-07T05:12:33.834468+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Sandra Sánchez Hernández",
+        "url": "https://www.linkedin.com/in/sandra-s%C3%A1nchez-hern%C3%A1ndez-963999252/",
+        "source": "feed_mention",
+        "signal_id": "sig_a21f7cf1db81c8f4"
+      }
     },
     {
       "id": "person:sarla thakral",
@@ -8283,7 +8678,8 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:souvick chatterjee",
@@ -8351,7 +8747,13 @@
       },
       "updated_at": "2026-09-05T05:12:45.953970+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Souvick Chatterjee",
+        "url": "https://www.linkedin.com/in/souvick-chatterjee-1649b927/",
+        "source": "feed_mention",
+        "signal_id": "sig_3f83dafd640dcd51"
+      }
     },
     {
       "id": "person:vijeta tantry",
@@ -8420,7 +8822,13 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Vijeta Tantry",
+        "url": "https://www.linkedin.com/in/vijeta-tantry/",
+        "source": "author_link",
+        "signal_id": "sig_7a0beed01ba995cb"
+      }
     },
     {
       "id": "company:archer",
@@ -8573,7 +8981,8 @@
       },
       "updated_at": "2026-09-06T08:32:23.136659+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:mario srouji",
@@ -8649,7 +9058,13 @@
       },
       "updated_at": "2026-09-22T05:12:56.304314+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Mario Srouji",
+        "url": "https://www.linkedin.com/in/mariojohnsrouji/",
+        "source": "author_link",
+        "signal_id": "sig_2d75613963e0b3ff"
+      }
     },
     {
       "id": "person:mario srouji • 3-й+",
@@ -8725,7 +9140,13 @@
       },
       "updated_at": "2026-09-22T05:12:56.304314+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Mario Srouji • 3-й+",
+        "url": "https://www.linkedin.com/in/mariojohnsrouji/",
+        "source": "author_link",
+        "signal_id": "sig_2d75613963e0b3ff"
+      }
     },
     {
       "id": "company:anduril",
@@ -8853,6 +9274,7 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/company/anduril/",
+      "profile_evidence": null,
       "first_seen": "2026-09-04T05:12:32.591228+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 3,
@@ -8955,9 +9377,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
@@ -8974,6 +9396,7 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/company/lockheed-martin/",
+      "profile_evidence": null,
       "first_seen": "2026-08-29T20:59:43.575683+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 3,
@@ -9059,9 +9482,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
@@ -9208,7 +9631,8 @@
       },
       "updated_at": "2026-10-03T19:30:48.886736+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:oj sanchez",
@@ -9221,6 +9645,12 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/in/ojsanchez/",
+      "profile_evidence": {
+        "name": "OJ Sanchez",
+        "url": "https://www.linkedin.com/in/ojsanchez/",
+        "source": "feed_mention",
+        "signal_id": "sig_9e1694eb13c49855"
+      },
       "first_seen": "2026-10-04T05:12:42.062485+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 1,
@@ -9275,9 +9705,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [],
       "linkedin_relationship": null
     },
@@ -9594,7 +10024,8 @@
       },
       "updated_at": "2026-09-10T05:12:19.274264+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "company:relativity space",
@@ -9671,7 +10102,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": "https://www.linkedin.com/in/pierangelo-masarati-6a088/",
+      "profile_url": null,
       "first_seen": "2026-09-06T08:28:06.926039+00:00",
       "last_seen": "2026-09-06T08:28:06.926039+00:00",
       "times_seen": 2,
@@ -9736,7 +10167,8 @@
       },
       "updated_at": "2026-09-06T08:28:06.926039+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:sebastian topczewski",
@@ -9748,7 +10180,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": "https://www.linkedin.com/in/stefan-van-t-hoff-99795468/",
+      "profile_url": null,
       "first_seen": "2026-09-06T08:28:06.926039+00:00",
       "last_seen": "2026-09-06T08:28:06.926039+00:00",
       "times_seen": 1,
@@ -9797,7 +10229,8 @@
       },
       "updated_at": "2026-09-06T08:28:06.926039+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:stefan van 't hoff",
@@ -9809,7 +10242,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": "https://www.linkedin.com/in/stefan-van-t-hoff-99795468/",
+      "profile_url": null,
       "first_seen": "2026-09-06T08:28:06.926039+00:00",
       "last_seen": "2026-09-06T08:28:06.926039+00:00",
       "times_seen": 1,
@@ -9858,7 +10291,8 @@
       },
       "updated_at": "2026-09-06T08:28:06.926039+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:venkata devalaraju",
@@ -9921,7 +10355,13 @@
       },
       "updated_at": "2026-09-08T05:12:46.802051+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Venkata Devalaraju",
+        "url": "https://www.linkedin.com/in/venkata-devalaraju/",
+        "source": "author_link",
+        "signal_id": "sig_59f2c91fe0b2ea80"
+      }
     },
     {
       "id": "person:venkata devalaraju • 3-й+",
@@ -9984,7 +10424,13 @@
       },
       "updated_at": "2026-09-08T05:12:46.802051+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Venkata Devalaraju • 3-й+",
+        "url": "https://www.linkedin.com/in/venkata-devalaraju/",
+        "source": "author_link",
+        "signal_id": "sig_59f2c91fe0b2ea80"
+      }
     },
     {
       "id": "person:dr. h. sudarshan ballal",
@@ -9996,7 +10442,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": "https://www.linkedin.com/in/adrnschm/",
+      "profile_url": null,
       "first_seen": "2026-09-04T05:12:32.591228+00:00",
       "last_seen": "2026-09-04T05:12:32.591228+00:00",
       "times_seen": 1,
@@ -10056,7 +10502,8 @@
       },
       "updated_at": "2026-09-04T05:12:32.591228+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:kinjarapu ram mohan naidu",
@@ -10128,7 +10575,8 @@
       },
       "updated_at": "2026-09-04T05:12:32.591228+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "company:eve air mobility",
@@ -10306,7 +10754,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/guy-on-simulink/",
       "first_seen": "2026-09-10T05:12:19.274264+00:00",
       "last_seen": "2026-09-10T05:12:19.274264+00:00",
       "times_seen": 1,
@@ -10364,7 +10812,13 @@
       },
       "updated_at": "2026-09-11T05:12:32.913619+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Guy Rouleau",
+        "url": "https://www.linkedin.com/in/guy-on-simulink/",
+        "source": "feed_mention",
+        "signal_id": "sig_2c6a7549a2b8bd98"
+      }
     },
     {
       "id": "person:jason ghidella",
@@ -10434,7 +10888,13 @@
       },
       "updated_at": "2026-09-11T05:12:32.913619+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Jason Ghidella",
+        "url": "https://www.linkedin.com/in/jason-ghidella/",
+        "source": "feed_mention",
+        "signal_id": "sig_2c6a7549a2b8bd98"
+      }
     },
     {
       "id": "person:laura reimoser",
@@ -10504,7 +10964,13 @@
       },
       "updated_at": "2026-09-11T05:12:32.913619+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Laura Reimoser",
+        "url": "https://www.linkedin.com/in/laura-reimoser-b087a1163/",
+        "source": "author_link",
+        "signal_id": "sig_2c6a7549a2b8bd98"
+      }
     },
     {
       "id": "person:laura reimoser • 3-й+",
@@ -10574,7 +11040,13 @@
       },
       "updated_at": "2026-09-11T05:12:32.913619+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Laura Reimoser • 3-й+",
+        "url": "https://www.linkedin.com/in/laura-reimoser-b087a1163/",
+        "source": "author_link",
+        "signal_id": "sig_2c6a7549a2b8bd98"
+      }
     },
     {
       "id": "person:ajay talluri",
@@ -10637,7 +11109,8 @@
       },
       "updated_at": "2026-08-29T21:29:17.294091+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:alessandro croce",
@@ -10742,7 +11215,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Alessandro Croce",
+        "url": "https://www.linkedin.com/in/alessandrocroce/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:alex zanotti",
@@ -10847,7 +11326,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Alex Zanotti",
+        "url": "https://www.linkedin.com/in/alex-zanotti-a79a438/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:andrea milanese",
@@ -10952,7 +11437,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Andrea Milanese",
+        "url": "https://www.linkedin.com/in/andrea-milanese-02b48b58/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:arife aycan mutlu",
@@ -11023,7 +11514,13 @@
       },
       "updated_at": "2026-09-28T05:12:19.673509+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Arife Aycan Mutlu",
+        "url": "https://www.linkedin.com/in/arife-aycan-mutlu/",
+        "source": "author_link",
+        "signal_id": "sig_66ee3b70617f6279"
+      }
     },
     {
       "id": "person:arife aycan mutlu • 3-й+",
@@ -11094,7 +11591,13 @@
       },
       "updated_at": "2026-09-28T05:12:19.673509+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Arife Aycan Mutlu • 3-й+",
+        "url": "https://www.linkedin.com/in/arife-aycan-mutlu/",
+        "source": "author_link",
+        "signal_id": "sig_66ee3b70617f6279"
+      }
     },
     {
       "id": "person:filippo maggi",
@@ -11106,7 +11609,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/fmaggi/",
       "first_seen": "2026-09-07T05:12:33.834468+00:00",
       "last_seen": "2026-10-01T05:13:00.708480+00:00",
       "times_seen": 2,
@@ -11199,7 +11702,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Filippo Maggi",
+        "url": "https://www.linkedin.com/in/fmaggi/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:francesco topputo",
@@ -11304,7 +11813,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Francesco Topputo",
+        "url": "https://www.linkedin.com/in/francesco-topputo-7667991/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:francis arokia swamy",
@@ -11367,7 +11882,13 @@
       },
       "updated_at": "2026-08-29T21:29:17.294091+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Francis Arokia Swamy",
+        "url": "https://www.linkedin.com/in/francis-arokia-swamy-2b448238a/",
+        "source": "feed_mention",
+        "signal_id": "sig_2b5d34d34e5e66cd"
+      }
     },
     {
       "id": "person:kevin zakka",
@@ -11444,7 +11965,8 @@
       },
       "updated_at": "2026-09-15T05:12:51.932542+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:loy sabson fernandes",
@@ -11507,7 +12029,13 @@
       },
       "updated_at": "2026-08-29T21:29:17.294091+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Loy Sabson Fernandes",
+        "url": "https://www.linkedin.com/in/loysabson/",
+        "source": "feed_mention",
+        "signal_id": "sig_2b5d34d34e5e66cd"
+      }
     },
     {
       "id": "person:mathilda bolis",
@@ -11612,7 +12140,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Mathilda Bolis",
+        "url": "https://www.linkedin.com/in/mathilda-bolis/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:michèle lavagna",
@@ -11717,7 +12251,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Michèle Lavagna",
+        "url": "https://www.linkedin.com/in/mich%C3%A8le-lavagna-mickie/",
+        "source": "author_link",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:naresh babu",
@@ -11780,7 +12320,13 @@
       },
       "updated_at": "2026-08-29T21:29:17.294091+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Naresh Babu",
+        "url": "https://www.linkedin.com/in/naresh-babu-77a37444/",
+        "source": "feed_mention",
+        "signal_id": "sig_2b5d34d34e5e66cd"
+      }
     },
     {
       "id": "person:p chandhana",
@@ -11843,7 +12389,13 @@
       },
       "updated_at": "2026-08-29T21:29:17.294091+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "P Chandhana",
+        "url": "https://www.linkedin.com/in/p-chandhana/",
+        "source": "feed_mention",
+        "signal_id": "sig_2b5d34d34e5e66cd"
+      }
     },
     {
       "id": "person:paolo bettini",
@@ -11948,7 +12500,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Paolo Bettini",
+        "url": "https://www.linkedin.com/in/paolo-bettini-39ab582b9/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:sandro salgueiro",
@@ -12021,7 +12579,13 @@
       },
       "updated_at": "2026-09-28T05:12:19.673509+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Sandro Salgueiro",
+        "url": "https://www.linkedin.com/in/sandro-salgueiro/",
+        "source": "feed_mention",
+        "signal_id": "sig_056a8f4222126be2"
+      }
     },
     {
       "id": "person:uday kumar",
@@ -12084,7 +12648,13 @@
       },
       "updated_at": "2026-08-29T21:29:17.294091+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "uday Kumar",
+        "url": "https://www.linkedin.com/in/uday-kumar-51b5a026/",
+        "source": "feed_mention",
+        "signal_id": "sig_2b5d34d34e5e66cd"
+      }
     },
     {
       "id": "person:xi li",
@@ -12189,7 +12759,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Xi Li",
+        "url": "https://www.linkedin.com/in/xi-li-756443195/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "company:sciengineer",
@@ -12392,7 +12968,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Andreas Hamilton",
+        "url": "https://www.linkedin.com/in/dre-hamilton/",
+        "source": "author_link",
+        "signal_id": "sig_1cef5dbf352d646f"
+      }
     },
     {
       "id": "person:ashley mastronardi",
@@ -12460,7 +13042,13 @@
       },
       "updated_at": "2026-09-30T05:12:28.488167+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Ashley Mastronardi",
+        "url": "https://www.linkedin.com/in/ashleymastronardi/",
+        "source": "feed_mention",
+        "signal_id": "sig_9448be54c76e1693"
+      }
     },
     {
       "id": "person:emmanouil tzorakoleftherakis",
@@ -12526,7 +13114,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Emmanouil Tzorakoleftherakis",
+        "url": "https://www.linkedin.com/in/emmanouil-tzorakoleftherakis-a417468b/",
+        "source": "feed_mention",
+        "signal_id": "sig_3f5942c35066722f"
+      }
     },
     {
       "id": "person:lukas m. ziegler",
@@ -12538,7 +13132,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/zieglerr/",
       "first_seen": "2026-09-09T05:12:12.004399+00:00",
       "last_seen": "2026-09-09T05:12:12.004399+00:00",
       "times_seen": 1,
@@ -12602,7 +13196,13 @@
       },
       "updated_at": "2026-09-09T05:12:12.004399+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Lukas M. Ziegler",
+        "url": "https://www.linkedin.com/in/zieglerr/",
+        "source": "author_link",
+        "signal_id": "sig_17f0709f75cd314b"
+      }
     },
     {
       "id": "person:lukas m. ziegler • 3-й+",
@@ -12678,7 +13278,13 @@
       },
       "updated_at": "2026-09-09T05:12:12.004399+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Lukas M. Ziegler • 3-й+",
+        "url": "https://www.linkedin.com/in/zieglerr/",
+        "source": "author_link",
+        "signal_id": "sig_17f0709f75cd314b"
+      }
     },
     {
       "id": "person:mukund bala",
@@ -12750,7 +13356,13 @@
       },
       "updated_at": "2026-09-12T05:11:56.067343+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Mukund Bala",
+        "url": "https://www.linkedin.com/in/mukundbala/",
+        "source": "feed_mention",
+        "signal_id": "sig_32c9243eb4e29018"
+      }
     },
     {
       "id": "person:naren srivaths raman",
@@ -12816,7 +13428,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Naren Srivaths Raman",
+        "url": "https://www.linkedin.com/in/naren-srivaths-raman/",
+        "source": "feed_mention",
+        "signal_id": "sig_3f5942c35066722f"
+      }
     },
     {
       "id": "person:robert bolesza",
@@ -12886,7 +13504,13 @@
       },
       "updated_at": "2026-09-21T05:13:06.125664+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Robert Bolesza",
+        "url": "https://www.linkedin.com/in/robert-bolesza-a56477342/",
+        "source": "author_link",
+        "signal_id": "sig_777a606ec1699c9c"
+      }
     },
     {
       "id": "person:robert bolesza • 3-й+",
@@ -12956,7 +13580,13 @@
       },
       "updated_at": "2026-09-21T05:13:06.125664+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Robert Bolesza • 3-й+",
+        "url": "https://www.linkedin.com/in/robert-bolesza-a56477342/",
+        "source": "author_link",
+        "signal_id": "sig_777a606ec1699c9c"
+      }
     },
     {
       "id": "person:stuart simpson",
@@ -13027,7 +13657,13 @@
       },
       "updated_at": "2026-09-30T05:12:28.488167+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Stuart Simpson",
+        "url": "https://www.linkedin.com/in/stuart-simpson-18a3643/",
+        "source": "author_link",
+        "signal_id": "sig_94d03241755d0ed3"
+      }
     },
     {
       "id": "company:ultralytics",
@@ -13243,7 +13879,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Alberto Savino",
+        "url": "https://www.linkedin.com/in/alberto-savino-7b12a01a0/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:alberto verga",
@@ -13316,7 +13958,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Alberto Verga",
+        "url": "https://www.linkedin.com/in/alberto-verga/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:anatoli mitrou",
@@ -13389,7 +14037,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Anatoli Mitrou",
+        "url": "https://www.linkedin.com/in/anatoli-mitrou/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:antonio raimondo",
@@ -13462,7 +14116,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Antonio Raimondo",
+        "url": "https://www.linkedin.com/in/antonio-raimondo/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:bianca omede'",
@@ -13535,7 +14195,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Bianca Omede'",
+        "url": "https://www.linkedin.com/in/biancaomede/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:chris rocheleau",
@@ -13598,7 +14264,13 @@
       },
       "updated_at": "2026-09-12T05:11:56.067343+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Chris Rocheleau",
+        "url": "https://www.linkedin.com/in/chris-rocheleau-a058681a/",
+        "source": "feed_mention",
+        "signal_id": "sig_856e126b21b8ea5e"
+      }
     },
     {
       "id": "person:dan edwards",
@@ -13661,7 +14333,13 @@
       },
       "updated_at": "2026-09-12T05:11:56.067343+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Dan Edwards",
+        "url": "https://www.linkedin.com/in/danieljedwards/",
+        "source": "feed_mention",
+        "signal_id": "sig_856e126b21b8ea5e"
+      }
     },
     {
       "id": "person:dimitrios diakoloukas",
@@ -13731,7 +14409,13 @@
       },
       "updated_at": "2026-09-30T05:12:28.488167+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Dimitrios Diakoloukas",
+        "url": "https://www.linkedin.com/in/dimitrios-diakoloukas-a00564247/",
+        "source": "feed_mention",
+        "signal_id": "sig_f2d3343252394f19"
+      }
     },
     {
       "id": "person:donato grassi",
@@ -13804,7 +14488,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Donato Grassi",
+        "url": "https://www.linkedin.com/in/donato-grassi-8135406/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:dr. shelly lesikar dezevallos",
@@ -13867,7 +14557,13 @@
       },
       "updated_at": "2026-09-12T05:11:56.067343+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Dr. Shelly Lesikar deZevallos",
+        "url": "https://www.linkedin.com/in/shellylesikardezevallos/",
+        "source": "author_link",
+        "signal_id": "sig_856e126b21b8ea5e"
+      }
     },
     {
       "id": "person:dr. shelly lesikar dezevallos • 3-й+",
@@ -13930,7 +14626,13 @@
       },
       "updated_at": "2026-09-12T05:11:56.067343+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Dr. Shelly Lesikar deZevallos • 3-й+",
+        "url": "https://www.linkedin.com/in/shellylesikardezevallos/",
+        "source": "author_link",
+        "signal_id": "sig_856e126b21b8ea5e"
+      }
     },
     {
       "id": "person:elizabeth shadwick",
@@ -14001,7 +14703,13 @@
       },
       "updated_at": "2026-10-03T19:30:48.886736+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Elizabeth Shadwick",
+        "url": "https://www.linkedin.com/in/elizabeth-shadwick-6ba2a1252/",
+        "source": "author_link",
+        "signal_id": "sig_84b59c119ae91346"
+      }
     },
     {
       "id": "person:faezeh amirteimoury",
@@ -14074,7 +14782,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Faezeh Amirteimoury",
+        "url": "https://www.linkedin.com/in/faezeh-amirteimoury-b98389107/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:federico ghioldi",
@@ -14147,7 +14861,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Federico Ghioldi",
+        "url": "https://www.linkedin.com/in/federico-ghioldi/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:francesca spini",
@@ -14220,7 +14940,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Francesca Spini",
+        "url": "https://www.linkedin.com/in/francesca-spini-104a98213/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:luca riccobene",
@@ -14293,7 +15019,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Luca Riccobene",
+        "url": "https://www.linkedin.com/in/lucariccobene/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:luca scampini",
@@ -14366,7 +15098,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Luca Scampini",
+        "url": "https://www.linkedin.com/in/luca-scampini-970168227/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:lucrezia calzoni",
@@ -14439,7 +15177,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Lucrezia Calzoni",
+        "url": "https://www.linkedin.com/in/lucreziacalzoni/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:mara galliani",
@@ -14512,7 +15256,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Mara Galliani",
+        "url": "https://www.linkedin.com/in/mara-galliani-400030411/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:marco anghileri",
@@ -14585,7 +15335,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Marco Anghileri",
+        "url": "https://www.linkedin.com/in/marco-anghileri-312a19/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:matt byrd",
@@ -14648,7 +15404,13 @@
       },
       "updated_at": "2026-09-12T05:11:56.067343+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Matt Byrd",
+        "url": "https://www.linkedin.com/in/matt-byrd-0a4637/",
+        "source": "feed_mention",
+        "signal_id": "sig_856e126b21b8ea5e"
+      }
     },
     {
       "id": "person:ross perot jr",
@@ -14711,7 +15473,13 @@
       },
       "updated_at": "2026-09-12T05:11:56.067343+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Ross Perot Jr",
+        "url": "https://www.linkedin.com/in/rossperotjr/",
+        "source": "feed_mention",
+        "signal_id": "sig_856e126b21b8ea5e"
+      }
     },
     {
       "id": "person:sean duffy",
@@ -14774,7 +15542,13 @@
       },
       "updated_at": "2026-09-12T05:11:56.067343+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Sean Duffy",
+        "url": "https://www.linkedin.com/in/seanduffywi/",
+        "source": "feed_mention",
+        "signal_id": "sig_856e126b21b8ea5e"
+      }
     },
     {
       "id": "person:stefania carlotti",
@@ -14847,7 +15621,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Stefania Carlotti",
+        "url": "https://www.linkedin.com/in/stefania-carlotti-2101/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "person:ted cruz",
@@ -14910,7 +15690,13 @@
       },
       "updated_at": "2026-09-12T05:11:56.067343+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Ted Cruz",
+        "url": "https://www.linkedin.com/in/cruzted/",
+        "source": "feed_mention",
+        "signal_id": "sig_856e126b21b8ea5e"
+      }
     },
     {
       "id": "person:vittoria mancinelli",
@@ -14983,7 +15769,13 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Vittoria Mancinelli",
+        "url": "https://www.linkedin.com/in/vittoria-mancinelli-701169363/",
+        "source": "feed_mention",
+        "signal_id": "sig_b48e4a5ed0d67682"
+      }
     },
     {
       "id": "company:oceanwings",
@@ -15121,7 +15913,13 @@
       },
       "updated_at": "2026-08-29T21:29:17.294091+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Alex Rueben",
+        "url": "https://www.linkedin.com/in/alex-rueben-083a8323/",
+        "source": "feed_mention",
+        "signal_id": "sig_efacd14ea7014dbc"
+      }
     },
     {
       "id": "person:avinash nehemiah",
@@ -15192,7 +15990,13 @@
       },
       "updated_at": "2026-09-16T05:12:34.968432+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Avinash Nehemiah",
+        "url": "https://www.linkedin.com/in/avinash-nehemiah/",
+        "source": "feed_mention",
+        "signal_id": "sig_cc8d4c700807381a"
+      }
     },
     {
       "id": "person:edward ludlow",
@@ -15259,7 +16063,13 @@
       },
       "updated_at": "2026-10-02T05:13:17.741838+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Edward Ludlow",
+        "url": "https://www.linkedin.com/in/edward-ludlow-5a7b4280/",
+        "source": "author_link",
+        "signal_id": "sig_b39f593caf24fa7e"
+      }
     },
     {
       "id": "person:emmanuel schalit",
@@ -15332,7 +16142,13 @@
       },
       "updated_at": "2026-09-06T08:28:06.926039+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Emmanuel Schalit",
+        "url": "https://www.linkedin.com/in/emmanuelschalit/",
+        "source": "author_link",
+        "signal_id": "sig_5a142a83c3f0f639"
+      }
     },
     {
       "id": "person:jim taiclet",
@@ -15344,7 +16160,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/james-taiclet/",
       "first_seen": "2026-10-02T05:13:17.741838+00:00",
       "last_seen": "2026-10-02T05:13:17.741838+00:00",
       "times_seen": 1,
@@ -15401,7 +16217,13 @@
       },
       "updated_at": "2026-10-02T05:13:17.741838+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Jim Taiclet",
+        "url": "https://www.linkedin.com/in/james-taiclet/",
+        "source": "feed_mention",
+        "signal_id": "sig_e951077b48f4e227"
+      }
     },
     {
       "id": "person:mahsa k.",
@@ -15413,7 +16235,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/klammhsa/",
       "first_seen": "2026-09-16T05:12:34.968432+00:00",
       "last_seen": "2026-09-16T05:12:34.968432+00:00",
       "times_seen": 1,
@@ -15472,7 +16294,13 @@
       },
       "updated_at": "2026-09-16T05:12:34.968432+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Mahsa K.",
+        "url": "https://www.linkedin.com/in/klammhsa/",
+        "source": "author_link",
+        "signal_id": "sig_cc8d4c700807381a"
+      }
     },
     {
       "id": "person:mahsa k. • 3-й+",
@@ -15543,7 +16371,13 @@
       },
       "updated_at": "2026-09-16T05:12:34.968432+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Mahsa K. • 3-й+",
+        "url": "https://www.linkedin.com/in/klammhsa/",
+        "source": "author_link",
+        "signal_id": "sig_cc8d4c700807381a"
+      }
     },
     {
       "id": "person:bonny simi",
@@ -15611,7 +16445,13 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Bonny Simi",
+        "url": "https://www.linkedin.com/in/bonnysimi/",
+        "source": "author_link",
+        "signal_id": "sig_645b98bac4705df0"
+      }
     },
     {
       "id": "person:bonny simi • 3-й+",
@@ -15679,7 +16519,13 @@
       },
       "updated_at": "2026-09-27T05:11:55.671845+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Bonny Simi • 3-й+",
+        "url": "https://www.linkedin.com/in/bonnysimi/",
+        "source": "author_link",
+        "signal_id": "sig_645b98bac4705df0"
+      }
     },
     {
       "id": "person:dave schowalter",
@@ -15750,7 +16596,13 @@
       },
       "updated_at": "2026-09-27T05:11:55.671845+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Dave Schowalter",
+        "url": "https://www.linkedin.com/in/dave-schowalter/",
+        "source": "author_link",
+        "signal_id": "sig_97d696b35feaea51"
+      }
     },
     {
       "id": "person:dave schowalter • 3-й+",
@@ -15821,7 +16673,13 @@
       },
       "updated_at": "2026-09-27T05:11:55.671845+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Dave Schowalter • 3-й+",
+        "url": "https://www.linkedin.com/in/dave-schowalter/",
+        "source": "author_link",
+        "signal_id": "sig_97d696b35feaea51"
+      }
     },
     {
       "id": "person:jonathan shaver",
@@ -15889,7 +16747,13 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Jonathan Shaver",
+        "url": "https://www.linkedin.com/in/jonathan-shaver-21377573/",
+        "source": "author_link",
+        "signal_id": "sig_2d769a7978af3532"
+      }
     },
     {
       "id": "person:ouster",
@@ -15960,7 +16824,8 @@
       },
       "updated_at": "2026-09-27T05:11:55.671845+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "company:adasi",
@@ -16158,7 +17023,13 @@
       },
       "updated_at": "2026-09-16T05:12:34.968432+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Charles Alcock",
+        "url": "https://www.linkedin.com/in/charles-alcock-98b798197/",
+        "source": "author_link",
+        "signal_id": "sig_b72e695bb907a9a5"
+      }
     },
     {
       "id": "person:corey proffitt",
@@ -16225,7 +17096,13 @@
       },
       "updated_at": "2026-09-20T05:12:04.502515+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Corey Proffitt",
+        "url": "https://www.linkedin.com/in/corey-proffitt-b95b564/",
+        "source": "author_link",
+        "signal_id": "sig_723010d80fcdd675"
+      }
     },
     {
       "id": "person:corey proffitt • 3-й+",
@@ -16292,7 +17169,13 @@
       },
       "updated_at": "2026-09-20T05:12:04.502515+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Corey Proffitt • 3-й+",
+        "url": "https://www.linkedin.com/in/corey-proffitt-b95b564/",
+        "source": "author_link",
+        "signal_id": "sig_723010d80fcdd675"
+      }
     },
     {
       "id": "person:eric allison",
@@ -16359,7 +17242,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Eric Allison",
+        "url": "https://www.linkedin.com/in/eric-m-allison/",
+        "source": "feed_mention",
+        "signal_id": "sig_d006bda9c4e96595"
+      }
     },
     {
       "id": "person:gregory bowles",
@@ -16426,7 +17315,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Gregory Bowles",
+        "url": "https://www.linkedin.com/in/gregory-bowles-97a51b90/",
+        "source": "feed_mention",
+        "signal_id": "sig_d006bda9c4e96595"
+      }
     },
     {
       "id": "person:ife o.",
@@ -16493,7 +17388,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Ife O.",
+        "url": "https://www.linkedin.com/in/ife-o-92b563148/",
+        "source": "feed_mention",
+        "signal_id": "sig_d006bda9c4e96595"
+      }
     },
     {
       "id": "person:jim sherman",
@@ -16505,7 +17406,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": "https://www.linkedin.com/in/eric-m-allison/",
+      "profile_url": "https://www.linkedin.com/in/jamesasherman/",
       "first_seen": "2026-09-29T05:12:51.908529+00:00",
       "last_seen": "2026-09-29T05:12:51.908529+00:00",
       "times_seen": 1,
@@ -16560,7 +17461,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Jim Sherman",
+        "url": "https://www.linkedin.com/in/jamesasherman/",
+        "source": "author_link",
+        "signal_id": "sig_d006bda9c4e96595"
+      }
     },
     {
       "id": "person:jim sherman • 3-й+",
@@ -16627,7 +17534,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Jim Sherman • 3-й+",
+        "url": "https://www.linkedin.com/in/jamesasherman/",
+        "source": "author_link",
+        "signal_id": "sig_d006bda9c4e96595"
+      }
     },
     {
       "id": "person:joeben bevirt",
@@ -16694,7 +17607,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "JoeBen Bevirt",
+        "url": "https://www.linkedin.com/in/joeben-bevirt-639451/",
+        "source": "feed_mention",
+        "signal_id": "sig_d006bda9c4e96595"
+      }
     },
     {
       "id": "person:jp nauseef",
@@ -16706,7 +17625,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/nauseef/",
       "first_seen": "2026-10-02T05:13:17.741838+00:00",
       "last_seen": "2026-10-02T05:13:17.741838+00:00",
       "times_seen": 1,
@@ -16759,7 +17678,13 @@
       },
       "updated_at": "2026-10-02T05:13:17.741838+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "JP Nauseef",
+        "url": "https://www.linkedin.com/in/nauseef/",
+        "source": "feed_mention",
+        "signal_id": "sig_67d5a3786b315508"
+      }
     },
     {
       "id": "person:karthik avadhanula",
@@ -16824,7 +17749,13 @@
       },
       "updated_at": "2026-10-02T05:13:17.741838+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Karthik Avadhanula",
+        "url": "https://www.linkedin.com/in/karthikavadhanula/",
+        "source": "feed_mention",
+        "signal_id": "sig_67d5a3786b315508"
+      }
     },
     {
       "id": "person:luca medici",
@@ -16836,7 +17767,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": "https://www.linkedin.com/in/luca-medici-4400b273/",
+      "profile_url": null,
       "first_seen": "2026-09-06T08:28:06.926039+00:00",
       "last_seen": "2026-09-06T08:28:06.926039+00:00",
       "times_seen": 1,
@@ -16885,7 +17816,8 @@
       },
       "updated_at": "2026-09-06T08:28:06.926039+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:maxime gariel",
@@ -16952,7 +17884,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Maxime Gariel",
+        "url": "https://www.linkedin.com/in/maxime-gariel/",
+        "source": "feed_mention",
+        "signal_id": "sig_d006bda9c4e96595"
+      }
     },
     {
       "id": "person:nidhi raj",
@@ -17020,7 +17958,13 @@
         "CONNECTION",
         "FOLLOWER"
       ],
-      "linkedin_relationship": "CONNECTION"
+      "linkedin_relationship": "CONNECTION",
+      "profile_evidence": {
+        "name": "Nidhi Raj",
+        "url": "https://www.linkedin.com/in/nidhirajr/",
+        "source": "author_link",
+        "signal_id": "sig_1b1eea193ca3558b"
+      }
     },
     {
       "id": "person:ryan augsburger",
@@ -17085,7 +18029,13 @@
       },
       "updated_at": "2026-10-02T05:13:17.741838+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Ryan Augsburger",
+        "url": "https://www.linkedin.com/in/ryan-augsburger-8697a914a/",
+        "source": "author_link",
+        "signal_id": "sig_67d5a3786b315508"
+      }
     },
     {
       "id": "person:ryan naru",
@@ -17152,7 +18102,13 @@
       },
       "updated_at": "2026-09-29T05:12:51.908529+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Ryan Naru",
+        "url": "https://www.linkedin.com/in/ryannaru/",
+        "source": "feed_mention",
+        "signal_id": "sig_d006bda9c4e96595"
+      }
     },
     {
       "id": "company:beta technologies",
@@ -17306,7 +18262,13 @@
       },
       "updated_at": "2026-09-08T05:12:46.802051+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Phil Scott",
+        "url": "https://www.linkedin.com/in/phil-scott-78658511a/",
+        "source": "author_link",
+        "signal_id": "sig_5c3cbdd6e2c7c084"
+      }
     },
     {
       "id": "person:todd case",
@@ -17377,7 +18339,8 @@
       },
       "updated_at": "2026-09-30T05:12:28.488167+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "company:codevintec",
@@ -17594,7 +18557,13 @@
       },
       "updated_at": "2026-10-02T05:13:17.741838+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Arjan Meijer",
+        "url": "https://www.linkedin.com/in/arjanmeijer/",
+        "source": "author_link",
+        "signal_id": "sig_5b106c8f12227c8f"
+      }
     },
     {
       "id": "person:bettina mrusek, ph.d.",
@@ -17659,7 +18628,13 @@
       },
       "updated_at": "2026-09-07T05:12:33.834468+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Bettina Mrusek, Ph.D.",
+        "url": "https://www.linkedin.com/in/bettina-mrusek/",
+        "source": "feed_mention",
+        "signal_id": "sig_c2204077657123ab"
+      }
     },
     {
       "id": "person:carlos naufel",
@@ -17729,7 +18704,13 @@
       },
       "updated_at": "2026-10-02T05:13:17.741838+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Carlos Naufel",
+        "url": "https://www.linkedin.com/in/carlos-naufel-19b5869b/",
+        "source": "feed_mention",
+        "signal_id": "sig_5b106c8f12227c8f"
+      }
     },
     {
       "id": "person:haitham alalem",
@@ -17741,7 +18722,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": "https://www.linkedin.com/in/haitham-alalem-59976a126/",
+      "profile_url": null,
       "first_seen": "2026-09-06T08:28:06.926039+00:00",
       "last_seen": "2026-09-06T08:28:06.926039+00:00",
       "times_seen": 1,
@@ -17795,7 +18776,8 @@
       },
       "updated_at": "2026-09-06T08:32:23.136659+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:haitham alalem, профиль premium, 3-й+ haitham alalem • 3-й+ strategic business development leader | defense, homeland security & advanced technology | government growth | critical infrastructure | complex deal cycles | partnerships | gcc",
@@ -17807,7 +18789,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": "https://www.linkedin.com/in/haitham-alalem-59976a126/",
+      "profile_url": null,
       "first_seen": "2026-09-06T08:28:06.926039+00:00",
       "last_seen": "2026-09-06T08:28:06.926039+00:00",
       "times_seen": 1,
@@ -17858,7 +18840,8 @@
       },
       "updated_at": "2026-09-06T08:32:23.136659+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:jeff miller",
@@ -17926,7 +18909,13 @@
       },
       "updated_at": "2026-10-02T05:13:17.741838+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Jeff Miller",
+        "url": "https://www.linkedin.com/in/jeffmillertime/",
+        "source": "author_link",
+        "signal_id": "sig_30310ea24e88091e"
+      }
     },
     {
       "id": "person:jeff miller • 3-й+",
@@ -17994,7 +18983,13 @@
       },
       "updated_at": "2026-10-02T05:13:17.741838+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Jeff Miller • 3-й+",
+        "url": "https://www.linkedin.com/in/jeffmillertime/",
+        "source": "author_link",
+        "signal_id": "sig_30310ea24e88091e"
+      }
     },
     {
       "id": "person:jennifer radtke",
@@ -18075,7 +19070,13 @@
       },
       "updated_at": "2026-09-07T05:12:33.834468+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Jennifer Radtke",
+        "url": "https://www.linkedin.com/in/jennifer-radtke-56bb29210/",
+        "source": "author_link",
+        "signal_id": "sig_15d36dce418c2121"
+      }
     },
     {
       "id": "person:jennifer radtke • 3-й+",
@@ -18156,7 +19157,13 @@
       },
       "updated_at": "2026-09-07T05:12:33.834468+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Jennifer Radtke • 3-й+",
+        "url": "https://www.linkedin.com/in/jennifer-radtke-56bb29210/",
+        "source": "author_link",
+        "signal_id": "sig_15d36dce418c2121"
+      }
     },
     {
       "id": "person:john r. watret",
@@ -18221,7 +19228,13 @@
       },
       "updated_at": "2026-09-07T05:12:33.834468+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "John R. Watret",
+        "url": "https://www.linkedin.com/in/john-r-watret-a58b7811/",
+        "source": "feed_mention",
+        "signal_id": "sig_c2204077657123ab"
+      }
     },
     {
       "id": "company:astana hub",
@@ -18366,7 +19379,8 @@
       },
       "updated_at": "2026-09-06T08:52:43.251861+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:rinata ilyubayeva",
@@ -18438,7 +19452,13 @@
       },
       "updated_at": "2026-09-06T08:52:43.251861+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Rinata Ilyubayeva",
+        "url": "https://www.linkedin.com/in/rinata-ilyubayeva/",
+        "source": "author_link",
+        "signal_id": "sig_cdf9cc4dfb68511a"
+      }
     },
     {
       "id": "person:robert francis",
@@ -18503,7 +19523,13 @@
       },
       "updated_at": "2026-09-15T05:12:51.932542+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Robert Francis",
+        "url": "https://www.linkedin.com/in/robert-francis-1762482/",
+        "source": "author_link",
+        "signal_id": "sig_c5916c5029ffa177"
+      }
     },
     {
       "id": "person:robert francis • 3-й+",
@@ -18568,7 +19594,13 @@
       },
       "updated_at": "2026-09-15T05:12:51.932542+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Robert Francis • 3-й+",
+        "url": "https://www.linkedin.com/in/robert-francis-1762482/",
+        "source": "author_link",
+        "signal_id": "sig_c5916c5029ffa177"
+      }
     },
     {
       "id": "person:thorsten gutmann",
@@ -18640,7 +19672,13 @@
       },
       "updated_at": "2026-09-06T08:52:43.251861+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Thorsten Gutmann",
+        "url": "https://www.linkedin.com/in/thorstengutmann/",
+        "source": "feed_mention",
+        "signal_id": "sig_cdf9cc4dfb68511a"
+      }
     },
     {
       "id": "company:anduril and voyager technologies",
@@ -18722,6 +19760,7 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/company/cadence/",
+      "profile_evidence": null,
       "first_seen": "2026-08-31T05:12:40.449414+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 3,
@@ -18819,9 +19858,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [],
       "linkedin_relationship": null
     },
@@ -18961,7 +20000,13 @@
       },
       "updated_at": "2026-08-31T05:12:40.449414+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Adam Cohen",
+        "url": "https://www.linkedin.com/in/adam-cohen-313b223/",
+        "source": "feed_mention",
+        "signal_id": "sig_91bb93edb5faa6d2"
+      }
     },
     {
       "id": "person:lynsey urban",
@@ -19034,7 +20079,13 @@
       },
       "updated_at": "2026-08-31T05:12:40.449414+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Lynsey Urban",
+        "url": "https://www.linkedin.com/in/lynseyurban/",
+        "source": "feed_mention",
+        "signal_id": "sig_91bb93edb5faa6d2"
+      }
     },
     {
       "id": "person:meghna chatterjee",
@@ -19107,7 +20158,13 @@
       },
       "updated_at": "2026-08-31T05:12:40.449414+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Meghna Chatterjee",
+        "url": "https://www.linkedin.com/in/meghna-chatterjee-13339180/",
+        "source": "feed_mention",
+        "signal_id": "sig_91bb93edb5faa6d2"
+      }
     },
     {
       "id": "person:palmer luckey",
@@ -19178,7 +20235,8 @@
       },
       "updated_at": "2026-10-01T05:13:00.708480+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:rahim ali",
@@ -19190,7 +20248,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/rahim786/",
       "first_seen": "2026-09-14T05:12:42.871235+00:00",
       "last_seen": "2026-09-14T05:12:42.871235+00:00",
       "times_seen": 1,
@@ -19247,7 +20305,13 @@
       },
       "updated_at": "2026-09-14T05:12:42.871235+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Rahim Ali",
+        "url": "https://www.linkedin.com/in/rahim786/",
+        "source": "author_link",
+        "signal_id": "sig_eae4669bec29fa10"
+      }
     },
     {
       "id": "person:rahim ali • 3-й+",
@@ -19316,7 +20380,13 @@
       },
       "updated_at": "2026-09-14T05:12:42.871235+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Rahim Ali • 3-й+",
+        "url": "https://www.linkedin.com/in/rahim786/",
+        "source": "author_link",
+        "signal_id": "sig_eae4669bec29fa10"
+      }
     },
     {
       "id": "person:shruti sunil bhave",
@@ -19389,7 +20459,13 @@
       },
       "updated_at": "2026-08-31T05:12:40.449414+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Shruti Sunil Bhave",
+        "url": "https://www.linkedin.com/in/shruti-sunil-bhave-88460ba0/",
+        "source": "feed_mention",
+        "signal_id": "sig_91bb93edb5faa6d2"
+      }
     },
     {
       "id": "person:wen (michael) shi, phd",
@@ -19462,7 +20538,13 @@
       },
       "updated_at": "2026-08-31T05:12:40.449414+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Wen (Michael) Shi, PhD",
+        "url": "https://www.linkedin.com/in/michael-shi-5776879/",
+        "source": "feed_mention",
+        "signal_id": "sig_91bb93edb5faa6d2"
+      }
     },
     {
       "id": "company:cadence fidelity cfd",
@@ -19593,7 +20675,13 @@
       },
       "updated_at": "2026-09-06T08:52:43.251861+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Aditya Aggarwal",
+        "url": "https://www.linkedin.com/in/adityaaggarwal07/",
+        "source": "feed_mention",
+        "signal_id": "sig_6565118cced5d2a0"
+      }
     },
     {
       "id": "person:airline captain",
@@ -19659,7 +20747,8 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:ayantika roy",
@@ -19722,7 +20811,13 @@
       },
       "updated_at": "2026-09-06T08:52:43.251861+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Ayantika Roy",
+        "url": "https://www.linkedin.com/in/ayantika-roy-3a372813b/",
+        "source": "feed_mention",
+        "signal_id": "sig_6565118cced5d2a0"
+      }
     },
     {
       "id": "person:erika armstrong",
@@ -19734,7 +20829,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/achickinthecockpitb727/",
       "first_seen": "2026-09-26T20:02:16.933458+00:00",
       "last_seen": "2026-09-26T20:02:16.933458+00:00",
       "times_seen": 2,
@@ -19804,7 +20899,13 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Erika Armstrong",
+        "url": "https://www.linkedin.com/in/achickinthecockpitb727/",
+        "source": "author_link",
+        "signal_id": "sig_f50cc90e0bfb799f"
+      }
     },
     {
       "id": "person:erika armstrong • 3-й+",
@@ -19886,7 +20987,13 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Erika Armstrong • 3-й+",
+        "url": "https://www.linkedin.com/in/achickinthecockpitb727/",
+        "source": "author_link",
+        "signal_id": "sig_f50cc90e0bfb799f"
+      }
     },
     {
       "id": "person:first officer",
@@ -19952,7 +21059,8 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:max goldstein",
@@ -19964,7 +21072,7 @@
       "do_not_contact": false,
       "last_contacted_at": null,
       "next_follow_up_at": null,
-      "profile_url": null,
+      "profile_url": "https://www.linkedin.com/in/maxgolds/",
       "first_seen": "2026-09-03T05:12:41.718126+00:00",
       "last_seen": "2026-09-03T05:12:41.718126+00:00",
       "times_seen": 1,
@@ -20020,7 +21128,13 @@
       },
       "updated_at": "2026-09-03T05:12:41.718126+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Max Goldstein",
+        "url": "https://www.linkedin.com/in/maxgolds/",
+        "source": "feed_mention",
+        "signal_id": "sig_16658cc9bcdf8f00"
+      }
     },
     {
       "id": "person:ritika jaiswal",
@@ -20083,7 +21197,13 @@
       },
       "updated_at": "2026-09-06T08:52:43.251861+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Ritika Jaiswal",
+        "url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+        "source": "author_link",
+        "signal_id": "sig_6565118cced5d2a0"
+      }
     },
     {
       "id": "person:ritika jaiswal • 3-й+",
@@ -20146,7 +21266,13 @@
       },
       "updated_at": "2026-09-06T08:52:43.251861+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Ritika Jaiswal • 3-й+",
+        "url": "https://www.linkedin.com/in/ritika-jaiswal-1479rj/",
+        "source": "author_link",
+        "signal_id": "sig_6565118cced5d2a0"
+      }
     },
     {
       "id": "person:simulator instructor",
@@ -20212,7 +21338,8 @@
       },
       "updated_at": "2026-09-26T20:02:16.933458+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:soumik dutta",
@@ -20275,7 +21402,13 @@
       },
       "updated_at": "2026-09-06T08:52:43.251861+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": {
+        "name": "Soumik Dutta",
+        "url": "https://www.linkedin.com/in/soumikdutta13/",
+        "source": "feed_mention",
+        "signal_id": "sig_6565118cced5d2a0"
+      }
     },
     {
       "id": "company:vast",
@@ -20288,6 +21421,7 @@
       "last_contacted_at": null,
       "next_follow_up_at": null,
       "profile_url": "https://www.linkedin.com/company/vastspace/",
+      "profile_evidence": null,
       "first_seen": "2026-10-04T05:12:42.062485+00:00",
       "last_seen": "2026-10-04T05:12:42.062485+00:00",
       "times_seen": 1,
@@ -20337,9 +21471,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "WATCH",
-        "last_processed_at": "2026-10-04T05:12:42.062485+00:00"
+        "last_processed_at": "2026-10-04T19:17:56.278539+00:00"
       },
-      "updated_at": "2026-10-04T05:12:42.062485+00:00",
+      "updated_at": "2026-10-04T19:17:56.278539+00:00",
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
@@ -20476,7 +21610,8 @@
       },
       "updated_at": "2026-08-30T05:44:29.468629+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     },
     {
       "id": "person:salvo finocchario",
@@ -20542,7 +21677,8 @@
       },
       "updated_at": "2026-08-30T05:44:29.468629+00:00",
       "known_relationships": [],
-      "linkedin_relationship": null
+      "linkedin_relationship": null,
+      "profile_evidence": null
     }
   ]
 }

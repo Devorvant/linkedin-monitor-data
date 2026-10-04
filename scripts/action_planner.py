@@ -6,6 +6,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import unquote
 
+from person_identity import name_key, person_profile, profile_key
+
 ALLOWED_ACTIONS = {
     "connect_person", "follow_person", "follow_company", "engage_with_post",
     "save_for_content", "check_jobs", "review_technology", "watch", "no_action",
@@ -135,7 +137,7 @@ def load_known_relationships(root: Path):
     return known
 
 
-def known_relationship_state(signal, target, known):
+def known_relationship_state(signal, target, known, crm=None):
     if not known:
         return {
             "following_company": False,
@@ -150,10 +152,13 @@ def known_relationship_state(signal, target, known):
 
     urls = signal_urls(signal)
     norm_urls = {norm_url(url) for url in urls if norm_url(url)}
-    slugs = {profile_slug(url) for url in urls if profile_slug(url)}
+    person_url, _ = person_profile(signal, (target or {}).get("name"), crm)
+    slugs = {profile_key(person_url)} if person_url else set()
     ids = set()
     for person in signal.get("people") or []:
         if isinstance(person, dict):
+            if name_key(person.get("name")) != name_key((target or {}).get("name")):
+                continue
             linkedin_id = clean(person.get("linkedin_id"))
             if linkedin_id:
                 ids.add(linkedin_id)
@@ -276,14 +281,32 @@ def target_info(signal):
 
 def match_crm(signal, crm):
     items = crm.get("items", []) if crm else []
-    author = clean(signal.get("author")).casefold()
-    company = clean(signal.get("company")).casefold()
-    names = {clean(p.get("name")).casefold() for p in people(signal)}
-    names.discard("")
-    for record in items:
-        name = clean(record.get("name")).casefold()
-        if name and (name == author or name == company or name in names):
+    target = target_info(signal)
+    kind = "person" if target.get("name") else "company"
+    name = name_key(target.get("name") or target.get("company"))
+    if not name:
+        return None
+    matches = [r for r in items if r.get("kind") == kind and name_key(r.get("name")) == name]
+    if kind == "person":
+        url, _ = person_profile(signal, target.get("name"))
+        if url:
+            matches = [r for r in matches if not r.get("profile_url")
+                       or profile_key(r.get("profile_url")) == profile_key(url)]
+    # Preserve a contact prohibition even when duplicate names are ambiguous.
+    for record in matches:
+        if record.get("do_not_contact") or record.get("status") == "CLOSED":
             return record
+    if len(matches) == 1:
+        return matches[0]
+    # LinkedIn degree labels can create two CRM rows for the same verified URL.
+    # Keep their contact history guards, then prefer the exact displayed name.
+    if kind == "person" and url and matches and all(profile_key(r.get("profile_url")) == profile_key(url) for r in matches):
+        for status in ("REPLIED", "CONTACTED", "CONNECTED"):
+            guarded = [r for r in matches if r.get("status") == status]
+            if guarded:
+                return sorted(guarded, key=lambda r: r.get("id", ""))[0]
+        exact = [r for r in matches if clean(r.get("name")).casefold() == clean(target.get("name")).casefold()]
+        return exact[0] if len(exact) == 1 else sorted(matches, key=lambda r: r.get("id", ""))[0]
     return None
 
 
@@ -499,7 +522,11 @@ def build_queue(data, crm, known_relationships=None):
             continue
         crm_record = match_crm(signal, crm)
         target = target_info(signal)
-        relationship = known_relationship_state(signal, target, known_relationships)
+        if target.get("name"):
+            person_url, proof = person_profile(signal, target["name"], crm)
+            target.update({"profile_url": person_url, "profile_evidence": proof,
+                           "profile_resolution": "resolved" if person_url else "unresolved"})
+        relationship = known_relationship_state(signal, target, known_relationships, crm)
         if crm_record and relationship.get("connection") and crm_status(crm_record) in {"WATCH", "REVIEW", "CONNECT"}:
             crm_record = dict(crm_record)
             crm_record["_effective_status"] = "CONNECTED"
