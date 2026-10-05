@@ -560,6 +560,36 @@
       "source": "The post identifies Boeing as expanding employee development pathways with Embry-Riddle and strengthening engineering and product-support capabilities. This is relevant to the profile's aerospace engineering background and could indicate a company worth monitoring, but it does not advertise a role or confirm hiring.",
       "ru": "Публикация сообщает, что Boeing расширяет возможности развития сотрудников совместно с Embry-Riddle и укрепляет компетенции в инженерии и поддержке продукции. Это релевантно авиационно-космическому инженерному опыту профиля и может указывать на компанию, за которой стоит наблюдать, но публикация не объявляет вакансию и не подтверждает найм.",
       "model": "codex"
+    },
+    "86e3fd166292177d6b882923": {
+      "source": "The post describes a Politecnico di Milano event focused on aerospace and space-sector opportunities, navigation, connectivity, robotics, in-orbit services and orbital infrastructure. These topics overlap strongly with the profile's flight control, navigation, autonomous systems, robotics and multidisciplinary aerospace background. The post also identifies several concrete academic contacts relevant to space technology and navigation. The reference to professional opportunities is indirect and does not indicate an active vacancy.",
+      "ru": "В публикации описывается мероприятие Politecnico di Milano, посвящённое возможностям в аэрокосмической отрасли и космическом секторе, навигации, подключённости, робототехнике, услугам на орбите и орбитальной инфраструктуре. Эти темы тесно связаны с опытом профиля в области управления полётом, навигации, автономных систем, робототехники и междисциплинарной аэрокосмической инженерии. В публикации также указаны несколько конкретных академических контактов, имеющих отношение к космическим технологиям и навигации. Упоминание профессиональных возможностей носит косвенный характер и не указывает на наличие активной вакансии.",
+      "model": "gpt-5.6-luna"
+    },
+    "3dc8251eb2ae60190a4dc75f": {
+      "source": "The post describes a maritime vehicle combining hull flotation, hydrofoils, and ground-effect flight, with MATLAB and Simulink Model-Based Design used to develop and test its flight-control stack before crewed trials. This strongly matches the profile's flight controls, simulation, MATLAB/Simulink, eVTOL, and autonomous-platform interests, while also providing an adjacent marine-control opportunity. The post names MathWorks, Monica Wang, and REGENT Craft CEO Billy Thalheimer, but contains no hiring announcement.",
+      "ru": "В публикации описывается морское транспортное средство, сочетающее плавучесть корпуса, подводные крылья и полёт в зоне экранного эффекта; для разработки и тестирования его системы управления полётом перед испытаниями с экипажем использовался Model-Based Design в MATLAB и Simulink. Это напрямую соответствует интересам профиля в области управления полётом, моделирования, MATLAB/Simulink, eVTOL и автономных платформ, а также открывает смежную возможность в сфере управления морскими транспортными средствами. В публикации упоминаются MathWorks, Monica Wang и CEO компании REGENT Craft Billy Thalheimer, однако объявление о найме отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "c360b58dee0cfb3f3ed390ce": {
+      "source": "The post describes a Joby aircraft landing while controlled remotely from approximately 700 miles away, with no control inputs from the onboard safety pilot. This is strongly relevant to the profile's aviation, flight-control, autonomous-systems, and UAV interests. Inference: the demonstration may indicate future opportunities related to remote operations, flight autonomy, safety systems, and regulatory validation, but the post does not announce hiring.",
+      "ru": "В публикации описывается посадка летательного аппарата Joby, которым дистанционно управляли с расстояния примерно 700 миль, при этом пилот безопасности на борту не вводил управляющих воздействий. Это напрямую связано с интересами профиля в области авиации, управления полётом, автономных систем и БПЛА. Вывод: демонстрация может указывать на будущие возможности, связанные с дистанционными операциями, автономностью полёта, системами безопасности и валидацией соответствия нормативным требованиям, однако публикация не содержит объявления о найме.",
+      "model": "gpt-5.6-luna"
+    },
+    "0b94ffade7baa3b874011904": {
+      "source": "The post describes Joby Aviation's fully autonomous flight milestone, directly aligning with the profile's focus on autonomous systems, flight control, UAV/eVTOL-related engineering and aviation technology. It provides no explicit hiring information.",
+      "ru": "В публикации описывается достижение Joby Aviation в области полностью автономного полёта, что напрямую соответствует специализации профиля в области автономных систем, управления полётом, инженерии, связанной с БПЛА/eVTOL, и авиационных технологий. Явная информация о найме отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "c0a5f9b37adb834b7d8321a9": {
+      "source": "The post describes an autonomous system coordinating assets across air, land, and space with minimal human intervention. This aligns with the profile's focus on autonomous systems, UAVs, guidance, control, simulation, and multidisciplinary engineering, although the post does not identify a role or hiring opportunity.",
+      "ru": "В публикации описывается автономная система, координирующая активы в воздухе, на земле и в космосе при минимальном вмешательстве человека. Это соответствует специализации профиля в области автономных систем, БПЛА, наведения, управления, моделирования и междисциплинарной инженерии, хотя в публикации не указаны конкретная должность или возможность трудоустройства.",
+      "model": "gpt-5.6-luna"
+    },
+    "e7a0d2dde149bfe69dde3f91": {
+      "source": "The post concerns aerospace simulation, computational fluid dynamics, and noise-control design. These are adjacent to the profile's flight-dynamics, modeling, simulation, and aerospace engineering background, but aeroacoustics and large eddy simulation are not identified as core skills.",
+      "ru": "Публикация посвящена аэрокосмическому моделированию, вычислительной гидродинамике и проектированию систем шумоподавления. Эти темы смежны с опытом профиля в области аэродинамики полёта, моделирования, симуляции и аэрокосмической инженерии, однако аэроакустика и моделирование крупных вихрей не обозначены как ключевые навыки.",
+      "model": "gpt-5.6-luna"
     }
   }
 }
