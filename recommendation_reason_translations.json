@@ -590,6 +590,31 @@
       "source": "The post concerns aerospace simulation, computational fluid dynamics, and noise-control design. These are adjacent to the profile's flight-dynamics, modeling, simulation, and aerospace engineering background, but aeroacoustics and large eddy simulation are not identified as core skills.",
       "ru": "Публикация посвящена аэрокосмическому моделированию, вычислительной гидродинамике и проектированию систем шумоподавления. Эти темы смежны с опытом профиля в области аэродинамики полёта, моделирования, симуляции и аэрокосмической инженерии, однако аэроакустика и моделирование крупных вихрей не обозначены как ключевые навыки.",
       "model": "gpt-5.6-luna"
+    },
+    "4667645dccd1a4969e383cc2": {
+      "source": "The post directly concerns marine autonomy, USVs, robotics, persistent observation and autonomous maritime systems, which align with the profile's stated expansion into marine autonomy and autonomous vessel control. Julie Angus is a specifically identified CEO and an appropriate person to follow or connect with for domain networking. No hiring opportunity is stated.",
+      "ru": "Публикация напрямую касается морской автономности, USVs, робототехники, длительного наблюдения и автономных морских систем, что соответствует заявленному в профиле расширению деятельности в области морской автономности и управления автономными судами. Julie Angus — конкретно указанная CEO и подходящий человек для подписки или установления контакта в рамках профессионального взаимодействия в данной области. Возможность трудоустройства не указана.",
+      "model": "gpt-5.6-luna"
+    },
+    "d1442c0e579c55722f40d41a": {
+      "source": "The post directly covers MATLAB and Simulink-based robotics, control systems, physics-based simulation, real-time visualization, and data logging. These areas closely align with the profile's flight control, robotics, simulation, MATLAB/Simulink, and autonomous-systems experience. It does not provide a hiring signal or identify a specific technical contact.",
+      "ru": "Публикация напрямую посвящена робототехнике на базе MATLAB и Simulink, системам управления, физическому моделированию, визуализации в реальном времени и регистрации данных. Эти направления тесно соответствуют опыту профиля в области управления полётами, робототехники, моделирования, MATLAB/Simulink и автономных систем. Публикация не содержит сигнала о найме и не указывает конкретного технического контакта.",
+      "model": "gpt-5.6-luna"
+    },
+    "f0b6b378fd86bb958eea3cc5": {
+      "source": "Inference: BETA Technologies' hybrid-electric autonomous aircraft work is closely aligned with the profile's focus on eVTOL, flight control systems, autonomy, and multidisciplinary aircraft R&D. The post does not provide a hiring signal or technical implementation details.",
+      "ru": "Вывод: работа BETA Technologies над гибридно-электрическими автономными летательными аппаратами тесно соответствует направленности профиля на eVTOL, системы управления полётом, автономность и междисциплинарные исследования и разработки летательных аппаратов. Публикация не содержит сигнала о найме или технических деталей реализации.",
+      "model": "gpt-5.6-luna"
+    },
+    "f9989369f5e67b1a1b4a972a": {
+      "source": "Inference: The post is adjacent to the profile through navigation, autonomous-system behavior, large-scale simulation, dynamic environments, and path planning, although it focuses on NPCs and game environments rather than flight control or UAV systems.",
+      "ru": "Вывод: публикация связана с профилем через навигацию, поведение автономных систем, крупномасштабное моделирование, динамические среды и планирование пути, хотя она посвящена NPC и игровым средам, а не управлению полётом или системам UAV.",
+      "model": "gpt-5.6-luna"
+    },
+    "b064fa870e2406e7e3ff06bc": {
+      "source": "The post covers advanced NVH simulation, coupled physical modeling and reduced-order modeling for electric vehicles. This is adjacent to the profile's simulation, modeling and real-time engineering background, but it is not directly focused on flight controls, GNC, UAVs or autonomous systems.",
+      "ru": "Публикация посвящена передовому моделированию NVH, связанному физическому моделированию и моделированию пониженного порядка для электромобилей. Это смежно с опытом профиля в области моделирования, построения моделей и инженерных задач в реальном времени, однако публикация не посвящена напрямую управлению полётом, GNC, UAV или автономным системам.",
+      "model": "gpt-5.6-luna"
     }
   }
 }
