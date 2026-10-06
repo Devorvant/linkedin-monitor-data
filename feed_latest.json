@@ -1,53 +1,73 @@
 [
   {
     "type": "company",
+    "title": "3rd Marine Aircraft Wing",
+    "company": "",
+    "location": "",
+    "text": "3rd Marine Aircraft Wing",
+    "url": "https://www.linkedin.com/company/3rd-marine-aircraft-wing/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Alpha Test",
+    "company": "",
+    "location": "",
+    "text": "Alpha Test",
+    "url": "https://www.linkedin.com/company/alpha-test/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
+  },
+  {
+    "type": "company",
     "title": "Anduril Industries",
     "company": "",
     "location": "",
     "text": "Anduril Industries",
     "url": "https://www.linkedin.com/company/anduril/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "Department of Aerospace Science and Technology - Politecnico di Milano",
+    "title": "BETA TECHNOLOGIES",
     "company": "",
     "location": "",
-    "text": "Department of Aerospace Science and Technology - Politecnico di Milano",
-    "url": "https://www.linkedin.com/company/department-daer-polimi/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "BETA TECHNOLOGIES",
+    "url": "https://www.linkedin.com/company/beta-air-llc/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "Dipartimento di Elettronica, Informazione e Bioingegneria - Politecnico di Milano",
+    "title": "Boeing",
     "company": "",
     "location": "",
-    "text": "Dipartimento di Elettronica, Informazione e Bioingegneria - Politecnico di Milano",
-    "url": "https://www.linkedin.com/company/department-deib-polimi/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Boeing",
+    "url": "https://www.linkedin.com/company/boeing/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "Dipartimento di Ingegneria Civile e Ambientale - Politecnico di Milano",
+    "title": "Bubble Robotics",
     "company": "",
     "location": "",
-    "text": "Dipartimento di Ingegneria Civile e Ambientale - Politecnico di Milano",
-    "url": "https://www.linkedin.com/company/department-dica-polimi/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Bubble Robotics",
+    "url": "https://www.linkedin.com/company/bubble-robotics/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "Distretto Rotary 2041",
+    "title": "Cadence",
     "company": "",
     "location": "",
-    "text": "Distretto Rotary 2041",
-    "url": "https://www.linkedin.com/company/distretto-rotary-2041/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Cadence",
+    "url": "https://www.linkedin.com/company/cadence/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:59"
   },
   {
     "type": "company",
@@ -56,28 +76,18 @@
     "location": "",
     "text": "Elmo Motion Control",
     "url": "https://www.linkedin.com/company/elmomotioncontrol/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "Federal Aviation Administration",
+    "title": "INDIRE - Istituto Nazionale di Documentazione, Innovazione e Ricerca Educativa",
     "company": "",
     "location": "",
-    "text": "Federal Aviation Administration",
-    "url": "https://www.linkedin.com/company/faa/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "company",
-    "title": "Joby Aviation",
-    "company": "",
-    "location": "",
-    "text": "Joby Aviation",
-    "url": "https://www.linkedin.com/company/jobyaviation/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "INDIRE - Istituto Nazionale di Documentazione, Innovazione e Ricerca Educativa",
+    "url": "https://www.linkedin.com/company/indire/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
@@ -86,18 +96,28 @@
     "location": "",
     "text": "Lockheed Martin",
     "url": "https://www.linkedin.com/company/lockheed-martin/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "Lockheed Martin Подтверждено Lockheed Martin 3 339 046 отслеживающих",
+    "title": "Lockheed Martin Подтверждено Lockheed Martin 3 340 470 отслеживающих",
     "company": "",
     "location": "",
-    "text": "Lockheed Martin Подтверждено Lockheed Martin 3 339 046 отслеживающих",
+    "text": "Lockheed Martin Подтверждено Lockheed Martin 3 340 470 отслеживающих",
     "url": "https://www.linkedin.com/company/lockheed-martin/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Marine Technology Society (MTS)",
+    "company": "",
+    "location": "",
+    "text": "Marine Technology Society (MTS)",
+    "url": "https://www.linkedin.com/company/marine-technology-society/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
@@ -106,98 +126,138 @@
     "location": "",
     "text": "MathWorks",
     "url": "https://www.linkedin.com/company/the-mathworks_2/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "New American Industrial Alliance",
+    "title": "MathWorks Подтверждено MathWorks Автор 513 821 отслеживающий",
     "company": "",
     "location": "",
-    "text": "New American Industrial Alliance",
-    "url": "https://www.linkedin.com/company/new-american-industrial-alliance/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "MathWorks Подтверждено MathWorks Автор 513 821 отслеживающий",
+    "url": "https://www.linkedin.com/company/the-mathworks_2/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "Quintus Technologies",
+    "title": "Miramar Air Show",
     "company": "",
     "location": "",
-    "text": "Quintus Technologies",
-    "url": "https://www.linkedin.com/company/quintus-technologies/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Miramar Air Show",
+    "url": "https://www.linkedin.com/company/miramar-air-show/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "REGENT",
+    "title": "Next2AI",
     "company": "",
     "location": "",
-    "text": "REGENT",
-    "url": "https://www.linkedin.com/company/regentcraft/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Next2AI",
+    "url": "https://www.linkedin.com/company/next2ai/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "The Salt Lake Tribune",
+    "title": "OPSWAT",
     "company": "",
     "location": "",
-    "text": "The Salt Lake Tribune",
-    "url": "https://www.linkedin.com/company/the-salt-lake-tribune/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "OPSWAT",
+    "url": "https://www.linkedin.com/company/opswat/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "Unity",
+    "title": "Oceanbotics",
     "company": "",
     "location": "",
-    "text": "Unity",
-    "url": "https://www.linkedin.com/company/unity/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Oceanbotics",
+    "url": "https://www.linkedin.com/company/oceanbotics/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "Utah Department of Transportation",
+    "title": "Open Ocean Robotics",
     "company": "",
     "location": "",
-    "text": "Utah Department of Transportation",
-    "url": "https://www.linkedin.com/company/utah-department-of-transportation/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Open Ocean Robotics",
+    "url": "https://www.linkedin.com/company/open-ocean-robotics/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "company",
-    "title": "XPRIZE",
+    "title": "Orpheus Ocean",
     "company": "",
     "location": "",
-    "text": "XPRIZE",
-    "url": "https://www.linkedin.com/company/x-prize-foundation/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Orpheus Ocean",
+    "url": "https://www.linkedin.com/company/orpheus-ocean/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "Relativity Space",
+    "company": "",
+    "location": "",
+    "text": "Relativity Space",
+    "url": "https://www.linkedin.com/company/relativity/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "Skuola.net",
+    "company": "",
+    "location": "",
+    "text": "Skuola.net",
+    "url": "https://www.linkedin.com/company/skuolanet/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "UNIGINE",
+    "company": "",
+    "location": "",
+    "text": "UNIGINE",
+    "url": "https://www.linkedin.com/company/unigine/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:59"
+  },
+  {
+    "type": "company",
+    "title": "US Army",
+    "company": "",
+    "location": "",
+    "text": "US Army",
+    "url": "https://www.linkedin.com/company/us-army/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
+  },
+  {
+    "type": "company",
+    "title": "United States Marine Corps",
+    "company": "",
+    "location": "",
+    "text": "United States Marine Corps",
+    "url": "https://www.linkedin.com/company/marines/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "person",
-    "title": "Alexander Murashkin",
+    "title": "Alessandro Magno",
     "company": "",
     "location": "",
-    "text": "Alexander Murashkin",
-    "url": "https://www.linkedin.com/in/alexander-murashkin/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "Alexander Murashkin • 2-й",
-    "company": "",
-    "location": "",
-    "text": "Alexander Murashkin • 2-й",
-    "url": "https://www.linkedin.com/in/alexander-murashkin/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Alessandro Magno",
+    "url": "https://www.linkedin.com/in/alessandromagno/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:59"
   },
   {
     "type": "person",
@@ -206,168 +266,88 @@
     "location": "",
     "text": "Alexander Shatunov",
     "url": "https://www.linkedin.com/in/alexander-shatunov-9a6aaa107/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:59"
   },
   {
     "type": "person",
-    "title": "Billy Thalheimer",
+    "title": "Brett Adcock Founder @ Figure, Hark, Cover, & Archer Aviation Связано с людьми, которые вам интересны Отслеживать",
     "company": "",
     "location": "",
-    "text": "Billy Thalheimer",
-    "url": "https://www.linkedin.com/in/williamthalheimer/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Brett Adcock Founder @ Figure, Hark, Cover, & Archer Aviation Связано с людьми, которые вам интересны Отслеживать",
+    "url": "https://www.linkedin.com/in/brettadcock/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "person",
-    "title": "Bonny Simi",
+    "title": "Elena Barbieri Ripamonti",
     "company": "",
     "location": "",
-    "text": "Bonny Simi",
-    "url": "https://www.linkedin.com/in/bonnysimi/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Elena Barbieri Ripamonti",
+    "url": "https://www.linkedin.com/in/elena-barbieri-ripamonti/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "person",
-    "title": "David Jimenez • 3-й+",
+    "title": "Julie Angus",
     "company": "",
     "location": "",
-    "text": "David Jimenez • 3-й+",
-    "url": "https://www.linkedin.com/in/david-jimenez-b69b9baa/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Julie Angus",
+    "url": "https://www.linkedin.com/in/julie-angus/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "person",
-    "title": "Giovanna Venuti",
+    "title": "Lubor Zháňal • 3-й+",
     "company": "",
     "location": "",
-    "text": "Giovanna Venuti",
-    "url": "https://www.linkedin.com/in/giovanna-venuti-232678109/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Lubor Zháňal • 3-й+",
+    "url": "https://www.linkedin.com/in/lubor-zhanal/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "person",
-    "title": "Ivan Smirnov",
+    "title": "Mauro Colla",
     "company": "",
     "location": "",
-    "text": "Ivan Smirnov",
-    "url": "https://www.linkedin.com/in/ivan-smirnov-/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Mauro Colla",
+    "url": "https://www.linkedin.com/in/mauro-colla-67b0b61a3/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "person",
-    "title": "Jack Elston Founder of Black Swift Technologies - Cutting Edge UAS Solutions На основе сведений в вашем профиле Отслеживать",
+    "title": "Neha S • 1-й",
     "company": "",
     "location": "",
-    "text": "Jack Elston Founder of Black Swift Technologies - Cutting Edge UAS Solutions На основе сведений в вашем профиле Отслеживать",
-    "url": "https://www.linkedin.com/in/jack-elston/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Neha S • 1-й",
+    "url": "https://www.linkedin.com/in/neha-s-1155231b8/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "person",
-    "title": "Jeff Miller • 3-й+",
+    "title": "Polly Gonomaru Talent Acquisition Senior Specialist| Recruitment Marketing | eVTOL | Coach | DE&I | Career Advisor - Let's connect! A leading Japanese developer of eVTOL На основе сведений в вашем профиле Отслеживать",
     "company": "",
     "location": "",
-    "text": "Jeff Miller • 3-й+",
-    "url": "https://www.linkedin.com/in/jeffmillertime/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Polly Gonomaru Talent Acquisition Senior Specialist| Recruitment Marketing | eVTOL | Coach | DE&I | Career Advisor - Let's connect! A leading Japanese developer of eVTOL На основе сведений в вашем профиле Отслеживать",
+    "url": "https://www.linkedin.com/in/pollygonomaru/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "person",
-    "title": "Jordan Miller",
+    "title": "Rakesh Gaonkar Building India’s Wings | Co-Founder & CTO, Sarla Aviation Отслеживается 2 контактами Отслеживать",
     "company": "",
     "location": "",
-    "text": "Jordan Miller",
-    "url": "https://www.linkedin.com/in/jordan-miller-094b57160/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "Lamar Ellis UAS & Emerging Aviation Leader | Building Safe, Compliant amp; Scalable Drone Programs | Aviation Safety • AAM • Infrastructure • Education Связано с людьми, которые вам интересны Отслеживать",
-    "company": "",
-    "location": "",
-    "text": "Lamar Ellis UAS & Emerging Aviation Leader | Building Safe, Compliant amp; Scalable Drone Programs | Aviation Safety • AAM • Infrastructure • Education Связано с людьми, которые вам интересны Отслеживать",
-    "url": "https://www.linkedin.com/in/lamar-ellis-97868269/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "Lorenzo Luini",
-    "company": "",
-    "location": "",
-    "text": "Lorenzo Luini",
-    "url": "https://www.linkedin.com/in/lorenzo-luini-647a049/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "Mara Tanelli",
-    "company": "",
-    "location": "",
-    "text": "Mara Tanelli",
-    "url": "https://www.linkedin.com/in/mara-tanelli-9068b5/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "Massimiliano Papa",
-    "company": "",
-    "location": "",
-    "text": "Massimiliano Papa",
-    "url": "https://www.linkedin.com/in/massimiliano-papa-62bb95b/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "Michèle Lavagna",
-    "company": "",
-    "location": "",
-    "text": "Michèle Lavagna",
-    "url": "https://www.linkedin.com/in/mich%C3%A8le-lavagna-mickie/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "Monica Wang",
-    "company": "",
-    "location": "",
-    "text": "Monica Wang",
-    "url": "https://www.linkedin.com/in/monica-wang-986794/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "Samuel Dorn",
-    "company": "",
-    "location": "",
-    "text": "Samuel Dorn",
-    "url": "https://www.linkedin.com/in/samueldorn/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "Samuel Olubayo • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "Samuel Olubayo • 3-й+",
-    "url": "https://www.linkedin.com/in/olubayosam/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Rakesh Gaonkar Building India’s Wings | Co-Founder & CTO, Sarla Aviation Отслеживается 2 контактами Отслеживать",
+    "url": "https://www.linkedin.com/in/rakesh-gaonkar/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "person",
@@ -376,68 +356,38 @@
     "location": "",
     "text": "Sergey Teterin Senior Flight Control & UAV Systems Engineer | Autopilots, Flight Dynamics, GNC, Simulation | MATLAB/Simulink, Python | vvtol.com Москва, Москва",
     "url": "https://www.linkedin.com/in/devorvant/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "person",
-    "title": "Shuhrat Negmatov",
+    "title": "Sophie A. • 3-й+",
     "company": "",
     "location": "",
-    "text": "Shuhrat Negmatov",
-    "url": "https://www.linkedin.com/in/shuhrat-negmatov-787718168/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Sophie A. • 3-й+",
+    "url": "https://www.linkedin.com/in/sophieamster/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:59"
   },
   {
     "type": "person",
-    "title": "Sébastien Lejeune 🎀 Thales OSPO Director | Driving Open Source Collaboration Люди с похожим на ваш опытом и навыками интересуются следующим: Отслеживать",
+    "title": "Steve Parker • 3-й+",
     "company": "",
     "location": "",
-    "text": "Sébastien Lejeune 🎀 Thales OSPO Director | Driving Open Source Collaboration Люди с похожим на ваш опытом и навыками интересуются следующим: Отслеживать",
-    "url": "https://www.linkedin.com/in/s%C3%A9bastien-lejeune-%F0%9F%8E%80-26290a15/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Steve Parker • 3-й+",
+    "url": "https://www.linkedin.com/in/stephenkparker/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "person",
-    "title": "Tyler Knight • 3-й+",
+    "title": "Steven Abernathy • 3-й+",
     "company": "",
     "location": "",
-    "text": "Tyler Knight • 3-й+",
-    "url": "https://www.linkedin.com/in/tyler-knight-830192338/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "Vladimir Norov • 3-й+",
-    "company": "",
-    "location": "",
-    "text": "Vladimir Norov • 3-й+",
-    "url": "https://www.linkedin.com/in/vladimirnorov/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "Yuliya Klepusevich • 2-й",
-    "company": "",
-    "location": "",
-    "text": "Yuliya Klepusevich • 2-й",
-    "url": "https://www.linkedin.com/in/yuliya-klepusevich/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "person",
-    "title": "Аида Гайнутдинова",
-    "company": "",
-    "location": "",
-    "text": "Аида Гайнутдинова",
-    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Steven Abernathy • 3-й+",
+    "url": "https://www.linkedin.com/in/stevenabernathy75/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "person",
@@ -446,128 +396,154 @@
     "location": "",
     "text": "Астроно",
     "url": "https://www.linkedin.com/in/devorvant/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
-    "type": "person",
-    "title": "Юлия Кузнецова • 3-й+",
-    "company": "",
+    "type": "post",
+    "title": "Alpha Test",
+    "company": "Alpha Test",
     "location": "",
-    "text": "Юлия Кузнецова • 3-й+",
-    "url": "https://www.linkedin.com/in/%D1%8E%D0%BB%D0%B8%D1%8F-%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BE%D0%B2%D0%B0-4671b6217/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "collected_at": "2026-10-05T08:10:59"
+    "text": "Due indagini pubblicate nelle ultime settimane restituiscono una fotografia utile del rapporto tra studenti e intelligenza artificiale. Secondo l'Osservatorio Giovani e Lavoro di Skuola.net e Gi Edu, 8 studenti delle superiori su 10 usano i chatbot AI per studiare, ma solo 1 su 6 ha ricevuto dalla scuola indicazioni o formazione per usarli in modo critico. L'indagine nazionale INDIRE - Istituto Nazionale di Documentazione, Innovazione e Ricerca Educativa aggiunge un elemento sulla qualità dell'uso: tra gli studenti che dichiarano la massima fiducia nell'intelligenza artificiale, il 55% non verifica le fonti. A controllare sono soprattutto quelli con una fiducia moderata, quella \"fiducia consapevole\" che i ricercatori indicano come obiettivo educativo. Il quadro è chiaro: l'intelligenza artificiale fa ormai parte del modo in cui ragazze e ragazzi cercano informazioni, scrivono, approfondiscono. Quello che spesso manca è un criterio: quando usarla, quando invece è meglio affidarsi alle proprie capacità di ragionamento, come riconoscere i limiti di una risposta. Da qui nasce 𝗢𝗿𝗶𝗲𝗻𝘁𝗔𝗜, il nuovo percorso di 𝗔𝗹𝗽𝗵𝗮 𝗢𝗿𝗶𝗲𝗻𝘁𝗮 𝗽𝗲𝗿 𝗹𝗮 𝗦𝗰𝘂𝗼𝗹𝗮, coordinato da Mauro Colla . Gli incontri sono progettati e condotti insieme a Elena Barbieri Ripamonti , formatrice specializzata in intelligenza artificiale e founder di Next2AI . Il percorso è attivo dall'inizio di questo anno scolastico e nei prossimi mesi raggiungerà le classi delle scuole aderenti. Non è una lezione sui prompt. Al centro c'è il pensiero critico: un'occasione per riflettere sul rapporto con l'intelligenza artificiale e sul ruolo che vogliamo darle nello studio, nelle scelte e, più avanti, nel lavoro. «Orientare gli studenti non significa dare loro risposte pronte, ma aiutarli a scegliere con consapevolezza» dice Alessandro Magno , AD di Alpha Test. «L'intelligenza artificiale è uno strumento potente, ma il rischio è delegarle anche il giudizio. Vogliamo che ragazze e ragazzi escano da questi incontri sapendo che studiare non serve solo a superare una prova, ma a costruire il proprio modo di pensare, e che l'ultima parola deve restare la loro.»",
+    "url": "https://www.linkedin.com/company/alpha-test/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "author": "Alpha Test",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/alpha-test/",
+    "posted_time": "",
+    "post_id": "",
+    "hashtags": [],
+    "mentions": [
+      {
+        "name": "Skuola.net",
+        "url": "https://www.linkedin.com/company/skuolanet/"
+      },
+      {
+        "name": "INDIRE - Istituto Nazionale di Documentazione, Innovazione e Ricerca Educativa",
+        "url": "https://www.linkedin.com/company/indire/"
+      },
+      {
+        "name": "Mauro Colla",
+        "url": "https://www.linkedin.com/in/mauro-colla-67b0b61a3/"
+      },
+      {
+        "name": "Elena Barbieri Ripamonti",
+        "url": "https://www.linkedin.com/in/elena-barbieri-ripamonti/"
+      },
+      {
+        "name": "Next2AI",
+        "url": "https://www.linkedin.com/company/next2ai/"
+      },
+      {
+        "name": "Alessandro Magno",
+        "url": "https://www.linkedin.com/in/alessandromagno/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 22,
+    "comments": null,
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "post",
     "title": "Anduril Industries",
     "company": "Anduril Industries",
     "location": "",
-    "text": "Fight fire with fire. Anduril has earned first place in the XPRIZE Autonomous Wildfire Response Track. Our solution manages the entire wildfire lifecycle with minimal human intervention. Lattice coordinates assets across air, land, and space to detect and respond faster.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508577828133851136/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
+    "text": "The US Army has awarded Anduril a contract worth up to $1.8B over five years to scale Next-Generation Command and Control (NGC2) across the force. This is the problem Anduril was built to solve: to establish software as the connective tissue of the battlefield, letting every sensor, weapon, and system work together, no matter who built it. NGC2 is the broadest application of that vision yet.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7512987067748978688/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
     "author": "Anduril Industries",
     "author_type": "company",
     "author_url": "https://www.linkedin.com/company/anduril/",
-    "posted_time": "1 нед.",
-    "post_id": "7508577828133851136",
+    "posted_time": "7 ч.",
+    "post_id": "7512987067748978688",
     "hashtags": [],
     "mentions": [
       {
-        "name": "XPRIZE",
-        "url": "https://www.linkedin.com/company/x-prize-foundation/"
+        "name": "US Army",
+        "url": "https://www.linkedin.com/company/us-army/"
       }
     ],
     "external_links": [],
-    "reactions": 1448,
+    "reactions": 1264,
     "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "post",
-    "title": "Department of Aerospace Science and Technology - Politecnico di Milano",
-    "company": "Department of Aerospace Science and Technology - Politecnico di Milano",
+    "title": "BETA TECHNOLOGIES",
+    "company": "BETA TECHNOLOGIES",
     "location": "",
-    "text": "On 10-11 September, #DAER - Department of Aerospace Science and Technology - Politecnico di Milano , in collaboration with Distretto Rotary 2041 , hosted “SPAZIO alle opportunità - SPACE for Opportunities”: two days bringing together students, researchers and industry representatives to explore emerging technologies, applications and professional opportunities in the space sector. The event was opened by Mara Tanelli , Rector’s Delegate for Diversity and Inclusion at Politecnico di Milano, and Massimiliano Papa , representing Rotary Distretto 2041. Michèle Lavagna , Professor at DAER, introduced the opportunities and challenges of a rapidly evolving space ecosystem. The first day focused on the impact of space technologies on society, with Giovanna Venuti , Associate Professor at the Dipartimento di Ingegneria Civile e Ambientale - Politecnico di Milano ( #DICA ), discussing Earth observation and satellite data, and Lorenzo Luini , Associate Professor at the Dipartimento di Elettronica, Informazione e Bioingegneria - Politecnico di Milano ( #DEIB ), addressing navigation, telecommunications and connectivity. The programme then explored the #SpaceEconomy and the new frontiers of robotic and human #SpaceExploration - from in-orbit services and future orbital infrastructure to space debris management, advanced materials and the use of lunar resources. Read the article: https://lnkd.in/eHC684px #Polimi #AerospacePolimi",
-    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508861563580366848/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "Department of Aerospace Science and Technology - Politecnico di Milano",
+    "text": "The MV250: hybrid-electric, autonomous, multi-mission aircraft. At the Miramar Airshow, BETA showcased the MV250 on static display, while the CX300 became the first electric aircraft to fly at a military airshow. Thank you Miramar Air Show for welcoming BETA. 3rd Marine Aircraft Wing , United States Marine Corps",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7512974998135955456/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "author": "BETA TECHNOLOGIES",
     "author_type": "company",
-    "author_url": "https://www.linkedin.com/company/department-daer-polimi/",
-    "posted_time": "1 нед.",
-    "post_id": "7508861563580366848",
-    "hashtags": [
-      "#DAER",
-      "#DICA",
-      "#DEIB",
-      "#SpaceEconomy",
-      "#SpaceExploration",
-      "#Polimi",
-      "#AerospacePolimi"
-    ],
+    "author_url": "https://www.linkedin.com/company/beta-air-llc/",
+    "posted_time": "8 ч.",
+    "post_id": "7512974998135955456",
+    "hashtags": [],
     "mentions": [
       {
-        "name": "Department of Aerospace Science and Technology - Politecnico di Milano",
-        "url": "https://www.linkedin.com/company/department-daer-polimi/"
+        "name": "Miramar Air Show",
+        "url": "https://www.linkedin.com/company/miramar-air-show/"
       },
       {
-        "name": "Distretto Rotary 2041",
-        "url": "https://www.linkedin.com/company/distretto-rotary-2041/"
+        "name": "3rd Marine Aircraft Wing",
+        "url": "https://www.linkedin.com/company/3rd-marine-aircraft-wing/"
       },
       {
-        "name": "Mara Tanelli",
-        "url": "https://www.linkedin.com/in/mara-tanelli-9068b5/"
-      },
-      {
-        "name": "Massimiliano Papa",
-        "url": "https://www.linkedin.com/in/massimiliano-papa-62bb95b/"
-      },
-      {
-        "name": "Michèle Lavagna",
-        "url": "https://www.linkedin.com/in/mich%C3%A8le-lavagna-mickie/"
-      },
-      {
-        "name": "Giovanna Venuti",
-        "url": "https://www.linkedin.com/in/giovanna-venuti-232678109/"
-      },
-      {
-        "name": "Dipartimento di Ingegneria Civile e Ambientale - Politecnico di Milano",
-        "url": "https://www.linkedin.com/company/department-dica-polimi/"
-      },
-      {
-        "name": "Lorenzo Luini",
-        "url": "https://www.linkedin.com/in/lorenzo-luini-647a049/"
-      },
-      {
-        "name": "Dipartimento di Elettronica, Informazione e Bioingegneria - Politecnico di Milano",
-        "url": "https://www.linkedin.com/company/department-deib-polimi/"
+        "name": "United States Marine Corps",
+        "url": "https://www.linkedin.com/company/marines/"
       }
     ],
     "external_links": [],
-    "reactions": 20,
+    "reactions": 100,
     "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "post",
-    "title": "Discover your ideal 10X cabin in Dassault’s innovative Falcon showroom. A full-scale mockup featuring movable modules allows you to visualize multiple configurations.",
-    "company": "",
+    "title": "Boeing",
+    "company": "Boeing",
     "location": "",
-    "text": "Discover your ideal 10X cabin in Dassault’s innovative Falcon showroom. A full-scale mockup featuring movable modules allows you to visualize multiple configurations.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7508526423414845440/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "",
-    "author_type": "",
-    "author_url": "",
-    "posted_time": "1 нед.",
-    "post_id": "7508526423414845440",
+    "text": "Partner. Scale. Protect. Boeing has received a seven-year, approximately $14.7 billion contract from Lockheed Martin to scale production of PAC-3 seekers and strengthen the nation’s #ArsenalofFreedom . This multiyear commitment will help ramp up production and accelerate deliveries in support of the mission: protecting service members, civilians and critical infrastructure from advanced threats. And we are ready. Early investment and a relentless focus on quality and execution have positioned #TeamBoeing to deliver seekers at unprecedented levels in the near-term, and we are committed to building on that momentum. We are proud to support the U.S. Department of War and partner across the industry — creating jobs and reinforcing supplier resilience — to get our service members the capabilities they need, faster. Read more: https://lnkd.in/gAj_HnTZ",
+    "url": "https://www.linkedin.com/company/boeing/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "author": "Boeing",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/boeing/",
+    "posted_time": "11 ч.",
+    "post_id": "",
+    "hashtags": [
+      "#ArsenalofFreedom",
+      "#TeamBoeing"
+    ],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 394,
+    "comments": null,
+    "collected_at": "2026-10-06T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Cadence",
+    "company": "Cadence",
+    "location": "",
+    "text": "The EV didn't make NVH easier. It pushed the noise higher. Motor whine past 5 kHz. Gear mesh. Inverter harmonics. Road noise now the loudest source in the cabin. The critical band runs 100 Hz to 5 kHz, and no single method covers it. The Engineer's Guide to Modern NVH Simulation shows how to work the full range in MSC Nastran and Actran: heavy-fluid coupling, Virtual SEA, and ODYSSEE ROMs. Preview the first pages, then download the full guide below 👇",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485410214834339840/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "author": "Cadence",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/cadence/",
+    "posted_time": "",
+    "post_id": "7485410214834339840",
     "hashtags": [],
     "mentions": [],
     "external_links": [],
-    "reactions": 381,
+    "reactions": 72,
     "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "post",
@@ -576,7 +552,7 @@
     "location": "",
     "text": "With the Titanium Line, Elmo introduces a smarter, more powerful approach to servo drive technology - designed for high-performance applications that demand precision, speed, and safety. Proven best-in-class servo performance. Multi-axis functional safety. Top-performance multi-core processor. Miniature single & dual axis solutions. GaN power switching technology. Scalable architecture for safety configurations.",
     "url": "https://www.linkedin.com/company/elmomotioncontrol/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
     "author": "Elmo Motion Control",
     "author_type": "company",
     "author_url": "https://www.linkedin.com/company/elmomotioncontrol/",
@@ -589,397 +565,295 @@
     ],
     "reactions": 16,
     "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "post",
-    "title": "Ivan Smirnov",
-    "company": "",
+    "title": "Lockheed Martin",
+    "company": "Lockheed Martin",
     "location": "",
-    "text": "Хочу пожелать удачи. Моя реакция,когда сильные спецы выходят на рынок \"Ого\" эхом в голове от удивления до грусти. Alexander Murashkin огромной тебе удачи и отличной команды!",
-    "url": "https://www.linkedin.com/feed/update/urn:li:share:7510590427985604608/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "Ivan Smirnov",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/ivan-smirnov-/",
-    "posted_time": "5 дн.",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [
-      {
-        "name": "Alexander Murashkin",
-        "url": "https://www.linkedin.com/in/alexander-murashkin/"
-      }
-    ],
-    "external_links": [],
-    "reactions": null,
-    "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Ivan Smirnov",
-    "company": "",
-    "location": "",
-    "text": "𝐎𝐩𝐞𝐧 𝐭𝐨 𝐖𝐨𝐫𝐤: 𝐇𝐞𝐚𝐝 𝐨𝐟 𝐐𝐀 / 𝐐𝐀 𝐓𝐞𝐚𝐦 𝐋𝐞𝐚𝐝 Game over? Нет, начинаю новый уровень! Выхожу на рынок труда и ищу команду, для которой качество должно стать бизнес-преимуществом. За 9+ лет в QA: ▪️руководил командами от 5 до 45+ человек и вырастил из инженеров будущих лидов; ▪️ строил QA отделы с нуля на RnD-проектах; ▪️ масштабировал процессы на продуктах с 20M+ DAU; ▪️ процессы автоматизации тестирования создавал под ключ; ▪️ так оптимизировал процессы, что на проектах забывали термин \"бутылочное горлышко\". Если вам нужен человек, который: ▫️строит QA-стратегию на основе рисков, метрик и стадии продукта; ▫️делает релизный цикл предсказуемым и связывает QA с целями продукта и C-level; ▫️ умеет собирать и развивать гибридные команды; ▫️имеет глубокий технический бэкграунд: API, мультиплеер, матчмейкинг, кошельки, платёжные интеграции; ▫️автоматизирует рутину с помощью AI, не раздувая бюджет, то поиск можно заканчивать, давайте поговорим 🙂 Буду благодарен за поддержку, рефералку, лайк, репост, и даже коннект 🫡",
-    "url": "https://www.linkedin.com/feed/update/urn:li:share:7510590427985604608/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "Ivan Smirnov",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/ivan-smirnov-/",
-    "posted_time": "5 дн.",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": null,
-    "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Joby Aviation",
-    "company": "Joby Aviation",
-    "location": "",
-    "text": "A small plane landed on the tarmac at Salt Lake City Airport on Wednesday. Its pilot didn’t, though. They were 700 miles away, controlling the aircraft from a facility in in Concord, California. Dozens of people watched from the Utah Department of Transportation ’s hangar as Joby Aviation ’s J208 aircraft touched down in Utah’s capitol. Although a safety pilot was onboard as a passenger in the aircraft to meet requirements from the Federal Aviation Administration , that pilot never input any controls himself, according to the aviation company. These planes have already been used in military operations — along with the required onboard safety pilot — but Bonny Simi , Joby’s president of operations, said they will likely move to the “next stage” with the FAA — flying without an onboard pilot — sometime next year. It’s unclear when they could become commercially available in Utah. Read the story to learn more. By Jordan Miller https://lnkd.in/gFpQ8fTr",
-    "url": "https://www.linkedin.com/company/jobyaviation/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "Joby Aviation",
+    "text": "I’ve accepted a promotion to Sr. Program Manager at Lockheed Martin . The leader I am replacing is second to none. I consider him a mentor and a friend. He leaves big shoes to fill is an understatement. I’m blessed to be given the opportunity.",
+    "url": "https://www.linkedin.com/company/lockheed-martin/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "author": "Lockheed Martin",
     "author_type": "company",
-    "author_url": "https://www.linkedin.com/company/jobyaviation/",
+    "author_url": "https://www.linkedin.com/company/lockheed-martin/",
     "posted_time": "13 ч.",
     "post_id": "",
     "hashtags": [],
     "mentions": [
       {
-        "name": "Utah Department of Transportation",
-        "url": "https://www.linkedin.com/company/utah-department-of-transportation/"
-      },
-      {
-        "name": "Joby Aviation",
-        "url": "https://www.linkedin.com/company/jobyaviation/"
-      },
-      {
-        "name": "Federal Aviation Administration",
-        "url": "https://www.linkedin.com/company/faa/"
-      },
-      {
-        "name": "Bonny Simi",
-        "url": "https://www.linkedin.com/in/bonnysimi/"
-      },
-      {
-        "name": "Jordan Miller",
-        "url": "https://www.linkedin.com/in/jordan-miller-094b57160/"
-      }
-    ],
-    "external_links": [],
-    "reactions": 22,
-    "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Joby Aviation",
-    "company": "Joby Aviation",
-    "location": "",
-    "text": "NAIA's Vice President of Policy & Government Affairs Samuel Dorn joined member company Joby Aviation on the Washington, D.C., leg of its nationwide tour, where they showed off technology that feels a little like science fiction: fully autonomous flight. Joby recently made history by completing the first-ever fully autonomous flight across the United States. It's an extraordinary milestone for American aviation and a glimpse at just how quickly the boundaries of what’s possible are moving. This wasn't something you get to see every day - at least, not yet!",
-    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7509286256644689920/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "Joby Aviation",
-    "author_type": "company",
-    "author_url": "https://www.linkedin.com/company/jobyaviation/",
-    "posted_time": "1 нед.",
-    "post_id": "7509286256644689920",
-    "hashtags": [],
-    "mentions": [
-      {
-        "name": "Samuel Dorn",
-        "url": "https://www.linkedin.com/in/samueldorn/"
-      },
-      {
-        "name": "Joby Aviation",
-        "url": "https://www.linkedin.com/company/jobyaviation/"
-      }
-    ],
-    "external_links": [],
-    "reactions": 34,
-    "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Lockheed Martin",
-    "company": "Lockheed Martin",
-    "location": "",
-    "text": "Very excited to announce that I have accepted a position with Lockheed Martin !",
-    "url": "https://www.linkedin.com/company/lockheed-martin/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "Lockheed Martin",
-    "author_type": "company",
-    "author_url": "https://www.linkedin.com/company/lockheed-martin/",
-    "posted_time": "1 дн.",
-    "post_id": "",
-    "hashtags": [],
-    "mentions": [
-      {
         "name": "Lockheed Martin",
         "url": "https://www.linkedin.com/company/lockheed-martin/"
       }
     ],
     "external_links": [],
-    "reactions": 39,
+    "reactions": 568,
     "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "post",
     "title": "Lockheed Martin",
     "company": "Lockheed Martin",
     "location": "",
-    "text": "Welcome to the team, David!",
+    "text": "Congratulations on your promotion, Steven!",
     "url": "https://www.linkedin.com/company/lockheed-martin/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
     "author": "Lockheed Martin",
     "author_type": "company",
     "author_url": "https://www.linkedin.com/company/lockheed-martin/",
-    "posted_time": "1 дн.",
+    "posted_time": "13 ч.",
     "post_id": "",
     "hashtags": [],
     "mentions": [],
     "external_links": [],
-    "reactions": 39,
+    "reactions": 568,
     "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Lockheed Martin",
-    "company": "Lockheed Martin",
-    "location": "",
-    "text": "I’m happy to share that I’m starting a new position as Integrated program planner at Lockheed Martin !",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512618257737162752/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "Lockheed Martin",
-    "author_type": "company",
-    "author_url": "https://www.linkedin.com/company/lockheed-martin/",
-    "posted_time": "1 дн.",
-    "post_id": "7512220918195085312",
-    "hashtags": [],
-    "mentions": [
-      {
-        "name": "Lockheed Martin",
-        "url": "https://www.linkedin.com/company/lockheed-martin/"
-      }
-    ],
-    "external_links": [],
-    "reactions": 42,
-    "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Lockheed Martin",
-    "company": "Lockheed Martin",
-    "location": "",
-    "text": "Congratulations, Tyler!",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512618257737162752/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "Lockheed Martin",
-    "author_type": "company",
-    "author_url": "https://www.linkedin.com/company/lockheed-martin/",
-    "posted_time": "1 дн.",
-    "post_id": "7512220918195085312",
-    "hashtags": [],
-    "mentions": [],
-    "external_links": [],
-    "reactions": 42,
-    "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "post",
     "title": "MathWorks",
     "company": "MathWorks",
     "location": "",
-    "text": "I came across a MathWorks post this week, brilliantly narrated by Monica Wang , about REGENT Craft's Viceroy Seaglider, and I have not stopped thinking about it since. The Viceroy is an all-electric maritime vehicle that flies just above the water's surface, inspired by how birds like pelicans glide low over the ocean using ground effect to conserve energy. Turning that biological trick into a certified, human-rated vehicle is an extraordinarily hard engineering problem. The craft has to float on its hull like a boat at the dock, rise onto hydrofoils for stability and manoeuvrability as it picks up speed, then transition into full ground-effect flight within one wingspan of the water's surface at speeds up to 180 mph, and every one of those transitions has to be safe, repeatable, and predictable. Here is the part that genuinely excites me. Before this craft ever touched real water for crewed testing, REGENT engineers built the flight control stack using Model-Based Design in #MATLAB and #Simulink , modelling the vehicle and its full operating environment virtually. That means they could test and iterate on edge cases, failure conditions, and operating extremes long before putting a single physical prototype at risk. This is precisely the value of a digital twin. You can fail thousands of times safely before you fail expensively once in the real world. It connects directly to my own Master's thesis at the Universität Rostock , on large-scale data collection for fingerprinting-based indoor #localization , specifically in highly dynamic hospital environments where radio-reflecting equipment is constantly moving. Building a real-world dataset by hand in an environment that changes by the hour is close to impossible. A digital twin makes it tractable, and the resulting dataset is intended to train a neural network through unsupervised learning, powering downstream AI-based location prediction once deployed in the real world. Massive respect to the REGENT team and to CEO Billy Thalheimer for the engineering ambition here, and to MathWorks for building the tools making this kind of virtual-first development possible. #DigitalTwin #MATLAB #Simulink #Engineering #Innovation #localization",
-    "url": "https://www.linkedin.com/company/the-mathworks_2/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
+    "text": "Balancing a ball on a plate is a classic control problem. It is usually solved as a point mass moving in a plane. But what if we take it one step further, or several? 🤔 ✅ Real contacts between 3D bodies? Yes. ✅ Real masses, inertias and friction? Yes. ✅ A plate held by a robot arm with real motor limits? Yes. ✅ A robot on a floating base, lifted by rising water and rocked by waves? Yes. ✅ Real-time simulation with visualization and data logging? Yes. And then you can keep raising the waves until the controller can no longer keep up. PHX Toolbox for MATLAB and Simulink lets you build all of this with ease. And with MATLAB connected to an AI agent, you can put such a scene together and test it during a single coffee break. #MATLAB #Simulink #Robotics #ControlSystems #PhysicsSimulation #AI #PHXToolbox",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7512780151898746880/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
     "author": "MathWorks",
     "author_type": "company",
     "author_url": "https://www.linkedin.com/company/the-mathworks_2/",
-    "posted_time": "1 нед.",
-    "post_id": "",
+    "posted_time": "21 ч.",
+    "post_id": "7512780151898746880",
     "hashtags": [
       "#MATLAB",
       "#Simulink",
-      "#localization",
-      "#DigitalTwin",
-      "#Engineering",
-      "#Innovation"
+      "#Robotics",
+      "#ControlSystems",
+      "#PhysicsSimulation",
+      "#AI",
+      "#PHXToolbox"
     ],
-    "mentions": [
-      {
-        "name": "MathWorks",
-        "url": "https://www.linkedin.com/company/the-mathworks_2/"
-      },
-      {
-        "name": "Monica Wang",
-        "url": "https://www.linkedin.com/in/monica-wang-986794/"
-      },
-      {
-        "name": "REGENT",
-        "url": "https://www.linkedin.com/company/regentcraft/"
-      },
-      {
-        "name": "Billy Thalheimer",
-        "url": "https://www.linkedin.com/in/williamthalheimer/"
-      }
-    ],
+    "mentions": [],
     "external_links": [],
-    "reactions": 33,
+    "reactions": 154,
     "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "post",
     "title": "MathWorks",
     "company": "MathWorks",
     "location": "",
-    "text": "Adopting Model-Based Design? Explore best practices for managers, project teams, and engineers. Discover more: https://lnkd.in/eukH6Edn",
-    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7503832511525920770/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
+    "text": "What does it take to model thousands of satellites across dozens of orbital planes? This mega constellation model features three shells and is built using a Walker constellation architecture, demonstrating the scalability of satellite scenario modeling for large-space-system analysis and visualization. Created with MATLAB R2026b Aerospace Toolbox. #WorldSpaceWeek",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7512889336346951682/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
     "author": "MathWorks",
     "author_type": "company",
     "author_url": "https://www.linkedin.com/company/the-mathworks_2/",
-    "posted_time": "",
-    "post_id": "7503832511525920770",
-    "hashtags": [],
+    "posted_time": "14 ч.",
+    "post_id": "7512889336346951682",
+    "hashtags": [
+      "#WorldSpaceWeek"
+    ],
     "mentions": [],
     "external_links": [],
-    "reactions": 41,
+    "reactions": 132,
     "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "post",
-    "title": "Quintus Technologies",
-    "company": "Quintus Technologies",
+    "title": "MathWorks",
+    "company": "MathWorks",
     "location": "",
-    "text": "Flexform technology is made for rapid prototyping and low-volume production. Cut lead times, lower tooling investment, and unlock premium quality with flexibility built in.",
-    "url": "https://www.linkedin.com/company/quintus-technologies/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "Quintus Technologies",
+    "text": "More on R2026b: https://spr.ly/6047BGLufS",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7512889336346951682/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "author": "MathWorks",
     "author_type": "company",
-    "author_url": "https://www.linkedin.com/company/quintus-technologies/",
+    "author_url": "https://www.linkedin.com/company/the-mathworks_2/",
+    "posted_time": "14 ч.",
+    "post_id": "7512889336346951682",
+    "hashtags": [],
+    "mentions": [],
+    "external_links": [],
+    "reactions": 132,
+    "comments": null,
+    "collected_at": "2026-10-06T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Neha S • 1-й",
+    "company": "",
+    "location": "",
+    "text": "Please send your resume to communications@qubissolutions.com #Hiring #MFC #VC ++ #Windows #Application #Lead #Developer",
+    "url": "https://www.linkedin.com/in/neha-s-1155231b8/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "author": "Neha S • 1-й",
+    "author_type": "person",
+    "author_url": "https://www.linkedin.com/in/neha-s-1155231b8/",
+    "posted_time": "13 ч.",
+    "post_id": "",
+    "hashtags": [
+      "#Hiring",
+      "#MFC",
+      "#VC",
+      "#Windows",
+      "#Application",
+      "#Lead",
+      "#Developer"
+    ],
+    "mentions": [],
+    "external_links": [
+      "mailto:communications@qubissolutions.com"
+    ],
+    "reactions": 1,
+    "comments": null,
+    "collected_at": "2026-10-06T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "OPSWAT",
+    "company": "OPSWAT",
+    "location": "",
+    "text": "Cybersecurity has spent decades trusting the perimeter. Into the Breach puts that trust under fire. Episode 1 of OPSWAT’s new docuseries, hosted by Kari Byron, is now live. Watch now:",
+    "url": "https://www.linkedin.com/company/opswat/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "author": "OPSWAT",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/opswat/",
     "posted_time": "",
     "post_id": "",
     "hashtags": [],
     "mentions": [],
     "external_links": [
-      "https://quintustechnologies.com/products/sheet-metal-forming/?li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029&utm_campaign=SMF_Digital_Always%2BOn_NA_NA_EMEA_2025_QUIN0018&utm_medium=paid-social&utm_content=ALWAYS%2BON%2B%7C%2BSMF%2B%7C%2B2025&utm_source=linkedin"
+      "https://www.cyberking.com/into-the-breach?utm_medium=paid_social&utm_source=linkedin&utm_campaign=FY26-EUR-Brand-ITB&utm_content=itb&li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029"
     ],
-    "reactions": 40,
+    "reactions": 15,
     "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "post",
-    "title": "Shuhrat Negmatov",
-    "company": "",
+    "title": "Open Ocean Robotics",
+    "company": "Open Ocean Robotics",
     "location": "",
-    "text": "Strengthening AI Cooperation in Dushanbe During my visit to Area AI in Dushanbe, I had a productive meeting with representatives of Tajikistan’s rapidly developing AI ecosystem, including Masur Nazari, Deputy Chairman of the AI Council under the Ministry of Industry and New Technologies of Tajikistan, and Bonu Boboeva, Director of zehnlab.ai . Area AI 1.0, launched in 2026, is a Dushanbe-based hub connecting technology companies, startups, researchers, and investors to develop and commercialize AI solutions. Area AI is a project seeking to establish the world's first AI freezone — a platform connecting frontier R&D, talent development, green compute and value-added AI exports - from Tajikistan to the world. https://the-area.ai/ Our discussion focused on strengthening cooperation between AICA and Area AI, as well as developing closer engagement with Tajikistan’s AI Council and the wider innovation community. We also discussed all aspects of organizing the AICA Al-Khwarizmi Award ceremony as a permanent part of AI CONF, held annually at the end of October, creating a regional platform to recognize outstanding AI companies, startups, researchers, and innovators from across Central Asia. With initiatives such as Area AI, Soro LLM, and the growing AI CONF platform, Tajikistan is demonstrating strong ambitions in artificial intelligence. Closer cooperation among our regional AI ecosystems can help connect talent, technology, and investment while strengthening Central Asia’s collective position in the global AI landscape. I look forward to turning our discussions into practical cooperation. #AICA #AreaAI #AIConf2026 #ArtificialIntelligence #Tajikistan #CentralAsia #Innovation #AICAwards",
-    "url": "https://www.linkedin.com/in/shuhrat-negmatov-787718168/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "Shuhrat Negmatov",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/shuhrat-negmatov-787718168/",
-    "posted_time": "20 ч.",
+    "text": "Open Ocean Robotics CEO Julie Angus will be attending the Next-Generation Maritime Autonomy TechSurge hosted by the Marine Technology Society (MTS) from October 6–8, joining experts from across the industry to explore the technologies shaping the future of autonomous maritime operations. Julie will take the stage twice during the event: 🌊 October 6 | 1:55–2:10 PM Beyond Moorings: Continuous Ocean Observations with a Compact Solar-Powered USV Julie will share how solar-powered USVs can enable persistent, mobile ocean observations beyond the limitations of traditional fixed monitoring platforms. 🤖 October 7 | 3:35–5:00 PM Uncrewed Maritime Systems: A Founder’s View Julie will join fellow founders from Bubble Robotics , Oceanbotics , and Orpheus Ocean for a panel exploring the opportunities, challenges, and lessons learned while advancing uncrewed maritime systems. If you’re attending the TechSurge, be sure to catch Julie’s sessions and connect with her during the event! #MaritimeAutonomy #OceanTech #MarineRobotics #USV #MTS #TechSurge",
+    "url": "https://www.linkedin.com/company/open-ocean-robotics/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "author": "Open Ocean Robotics",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/open-ocean-robotics/",
+    "posted_time": "8 ч.",
     "post_id": "",
     "hashtags": [
-      "#AICA",
-      "#AreaAI",
-      "#AIConf2026",
-      "#ArtificialIntelligence",
-      "#Tajikistan",
-      "#CentralAsia",
-      "#Innovation",
-      "#AICAwards"
+      "#MaritimeAutonomy",
+      "#OceanTech",
+      "#MarineRobotics",
+      "#USV",
+      "#MTS",
+      "#TechSurge"
     ],
-    "mentions": [],
+    "mentions": [
+      {
+        "name": "Julie Angus",
+        "url": "https://www.linkedin.com/in/julie-angus/"
+      },
+      {
+        "name": "Marine Technology Society (MTS)",
+        "url": "https://www.linkedin.com/company/marine-technology-society/"
+      },
+      {
+        "name": "Bubble Robotics",
+        "url": "https://www.linkedin.com/company/bubble-robotics/"
+      },
+      {
+        "name": "Oceanbotics",
+        "url": "https://www.linkedin.com/company/oceanbotics/"
+      },
+      {
+        "name": "Orpheus Ocean",
+        "url": "https://www.linkedin.com/company/orpheus-ocean/"
+      }
+    ],
     "external_links": [],
-    "reactions": null,
+    "reactions": 10,
     "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "post",
-    "title": "Understand the Power of Aeroacoustics Simulations for Business Success. Noise isn’t just a technical issue—it’s a business challenge. From aerospace to automotive, managing sound i",
+    "title": "Relativity Space",
+    "company": "Relativity Space",
+    "location": "",
+    "text": "🚀 Your summer plans just got a lot more fun!!!! Relativity Space is hiring interns for Spring, Summer, and Fall 2027!!! At Relativity, our interns: 🤝 Work side by side with engineers working on development for our Terran R program 🔧 Design and own hardware, solve real challenges, and see their work come to life 🌎 Grow through dedicated mentorship, networking, and access to leadership Whether you're passionate about aerospace, mechanical, electrical, software, systems, or media production, there's a seat for you on this mission. 📍 Locations: Long Beach, CA, Stennis, MS, Cape Canaveral, FL and Washington, DC!! 📅 Dates: Spring, Summer, or Fall 2027 🎓 Open to: undergrads, masters, and PhD students! Ready for liftoff? Apply now: https://lnkd.in/gwW2H6bc #Internships #Aerospace #Engineering #SpaceTech #NowHiring #STEMCareers",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7512926024247132160/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "author": "Relativity Space",
+    "author_type": "company",
+    "author_url": "https://www.linkedin.com/company/relativity/",
+    "posted_time": "11 ч.",
+    "post_id": "7512926024247132160",
+    "hashtags": [
+      "#Internships",
+      "#Aerospace",
+      "#Engineering",
+      "#SpaceTech",
+      "#NowHiring",
+      "#STEMCareers"
+    ],
+    "mentions": [
+      {
+        "name": "Relativity Space",
+        "url": "https://www.linkedin.com/company/relativity/"
+      }
+    ],
+    "external_links": [],
+    "reactions": 290,
+    "comments": null,
+    "collected_at": "2026-10-06T08:10:58"
+  },
+  {
+    "type": "post",
+    "title": "Sergey, which technologies are shaping the future of the valve industry? Discover the 4 Key Topics at VALVE WORLD EXPO 2026. The world’s leading trade fair presents solutions for s",
     "company": "",
     "location": "",
-    "text": "Understand the Power of Aeroacoustics Simulations for Business Success. Noise isn’t just a technical issue—it’s a business challenge. From aerospace to automotive, managing sound impacts product value, customer experience, and regulatory compliance. 📖 Our “Manager’s Guide to Simulating Aeroacoustics” helps you bridge technical knowledge with strategic decision-making, driving innovation, cost-effectiveness, and market competitiveness. 🔧 Discover how tools like Cadence Fidelity LES can transform your approach to noise control and design. #aeroacoustics #largeeddysimulation #FidelityCFD",
-    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7306006458913951744/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
+    "text": "Sergey, which technologies are shaping the future of the valve industry? Discover the 4 Key Topics at VALVE WORLD EXPO 2026. The world’s leading trade fair presents solutions for safe, efficient and future-ready plants: ✅ Global Energy: Valves for hydrogen, LNG, CCUS and renewable energy – for safer energy projects. ✅ Process Industries & Safety: Materials and safety valves – reduce downtime and compliance risks. ✅ Digitalisation & Automation: Smart valves, digital twins and predictive maintenance – detect wear earlier and avoid downtime. ✅ Valve Value Chain: Materials, engineering, manufacturing and service in one place – compare solutions and make better decisions. 📅 1–3 December 2026 | Düsseldorf, Germany Learn more now and be part of it.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7491485213408215040/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
     "author": "",
     "author_type": "",
     "author_url": "",
     "posted_time": "",
-    "post_id": "7306006458913951744",
-    "hashtags": [
-      "#aeroacoustics",
-      "#largeeddysimulation",
-      "#FidelityCFD"
-    ],
+    "post_id": "7491485213408215040",
+    "hashtags": [],
     "mentions": [],
-    "external_links": [],
-    "reactions": 442,
+    "external_links": [
+      "https://www.valveworldexpo.com/en/Visit/What_to_expect/Reasons_to_attend?utm_source=linkedin&utm_medium=cpc&utm_campaign=Valve_2026_Fachbesucher_Kampagne&li_fat_id=e4e304d0-37a3-4ca9-88fe-75f60af43029"
+    ],
+    "reactions": 9,
     "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
+    "collected_at": "2026-10-06T08:10:58"
   },
   {
     "type": "post",
-    "title": "Unity",
-    "company": "Unity",
+    "title": "UNIGINE",
+    "company": "UNIGINE",
     "location": "",
-    "text": "Hi Sergey, BMW Group replaced manual teardowns with centralized 3D data and AI-driven component analysis. Get the technical breakdown",
-    "url": "https://www.linkedin.com/company/unity/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "Unity",
+    "text": "Navigation & Pathfinding has been completely reworked in UNIGINE Engine 2.22. The new experimental system is designed for large, dynamic worlds, with double-precision world coordinates to keep navigation accurate even across very large environments. Together, these improvements provide a much more scalable and flexible foundation for NPCs and other autonomous characters navigating complex simulation and game environments. You can now: • Generate NavMeshes automatically from scene geometry • Stream navigation data across large open worlds • Rebuild only affected areas when the environment changes • Generate navigation data at runtime for procedural or dynamic environments • Define cost-weighted areas, so characters can prefer roads, avoid rough terrain or hazards, and stay out of restricted zones • Handle dynamic obstacles without rebuilding the whole NavMesh • Use multithreaded pathfinding for large numbers of characters • Keep characters on route toward moving targets with path corridors • Run crowd avoidance with priorities and interaction rules • Profile navigation memory usage and per-frame performance directly in the engine For large-scale environments, you can also combine different levels of navigation detail — for example, keeping a coarse NavMesh for the whole world while streaming or generating higher-detail navigation around active characters. The new system is available as an experimental feature in UNIGINE SDK 2.22.",
+    "url": "https://www.linkedin.com/company/unigine/",
+    "source_file": "linkedin_feed_2026-10-06_08-10-50.mhtml",
+    "author": "UNIGINE",
     "author_type": "company",
-    "author_url": "https://www.linkedin.com/company/unity/",
-    "posted_time": "",
+    "author_url": "https://www.linkedin.com/company/unigine/",
+    "posted_time": "1 нед.",
     "post_id": "",
     "hashtags": [],
     "mentions": [],
     "external_links": [],
-    "reactions": 75,
-    "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
-  },
-  {
-    "type": "post",
-    "title": "Аида Гайнутдинова",
-    "company": "",
-    "location": "",
-    "text": "За годы в HR я видела тысячи резюме. Сегодня в фокусе одно - моё. Кажется, пришло время узнать, кто хантит хантера 👀 . . . За последние годы я помогла десяткам людей сделать следующий карьерный шаг. Нанимала специалистов и руководителей, собирала команды, растила рекрутеров, выстраивала HR-процессы и старалась делать так, чтобы за всеми этими процессами никогда не терялись люди. А теперь очередь дошла до меня. Мой самый неожиданный hiring-проект этой осени найти новую команду для самой себя. За плечами путь от Recruiter до HRD, управление командой до 21 человека и HR-функцией в компании 180+ сотрудников. Мой основной опыт iGaming / High-Risk / IT. Recruitment, адаптация и offboarding, аналитика, performance review, корпоративная культура, бенефиты, внутренние коммуникации, развитие команды я люблю HR именно за то, что здесь невозможно заниматься только чем-то одним. Сейчас рассматриваю роли: HRD / Head of HR / People Partner / HR Business Partner / Head of Recruitment / Recruitment Team Lead. 📍 Белград | Remote И, пожалуй, самое главное. Этот пост должен попасть всего к одному человеку тому, кто сейчас ищет меня в свою команду. Если это вы буду рада познакомиться. А если среди ваших знакомых есть тот самый человек буду благодарна за репост или интро. 🤍 Тг: @Ulikuz #OpenToWork #HR #HRD #Recruitment #PeoplePartner #iGaming",
-    "url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "source_file": "linkedin_feed_2026-10-05_08-10-51.mhtml",
-    "author": "Аида Гайнутдинова",
-    "author_type": "person",
-    "author_url": "https://www.linkedin.com/in/%D0%B0%D0%B8%D0%B4%D0%B0-%D0%B3%D0%B0%D0%B9%D0%BD%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0-912818209/",
-    "posted_time": "5 дн.",
-    "post_id": "",
-    "hashtags": [
-      "#OpenToWork",
-      "#HR",
-      "#HRD",
-      "#Recruitment",
-      "#PeoplePartner",
-      "#iGaming"
-    ],
-    "mentions": [],
-    "external_links": [],
     "reactions": null,
     "comments": null,
-    "collected_at": "2026-10-05T08:10:59"
+    "collected_at": "2026-10-06T08:10:58"
   }
 ]
