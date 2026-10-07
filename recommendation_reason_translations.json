@@ -615,6 +615,26 @@
       "source": "The post covers advanced NVH simulation, coupled physical modeling and reduced-order modeling for electric vehicles. This is adjacent to the profile's simulation, modeling and real-time engineering background, but it is not directly focused on flight controls, GNC, UAVs or autonomous systems.",
       "ru": "Публикация посвящена передовому моделированию NVH, связанному физическому моделированию и моделированию пониженного порядка для электромобилей. Это смежно с опытом профиля в области моделирования, построения моделей и инженерных задач в реальном времени, однако публикация не посвящена напрямую управлению полётом, GNC, UAV или автономным системам.",
       "model": "gpt-5.6-luna"
+    },
+    "608d8045d11074423a7191dd": {
+      "source": "The post highlights MathWorks-supported research and industry collaboration using MATLAB and Simulink, which directly align with the profile's flight-control, simulation, modeling, and autonomous-systems expertise. It also points to a future proposal cycle, but does not advertise employment.",
+      "ru": "В публикации освещаются исследования и сотрудничество с индустрией, поддерживаемые MathWorks, с использованием MATLAB и Simulink, что напрямую соответствует опыту профиля в области управления полётом, симуляции, моделирования и автономных систем. Также упоминается будущий цикл подачи предложений, однако вакансия не рекламируется.",
+      "model": "gpt-5.6-luna"
+    },
+    "391953396b43dfd939846c1a": {
+      "source": "The post describes a robotics and simulation project involving a robot arm, additional degrees of freedom, tactile sensing, and text translation. This aligns with the profile's experience in control systems, simulation, robotics, MATLAB-based engineering, and multidisciplinary autonomous-system development. It does not provide a hiring signal or identify an individual contact.",
+      "ru": "В публикации описывается проект в области робототехники и симуляции, включающий роботизированную руку, дополнительные степени свободы, тактильное восприятие и перевод текста. Это соответствует опыту профиля в области систем управления, симуляции, робототехники, инженерных разработок на базе MATLAB и междисциплинарной разработки автономных систем. Публикация не содержит сигнала о найме и не указывает конкретного контактного лица.",
+      "model": "gpt-5.6-luna"
+    },
+    "db9170620f01c5f06d8ca2e2": {
+      "source": "Relativity Space explicitly states that it is hiring an Avionics Mechanical Engineer supporting Terran R's first launch and future work. The space-launch context is adjacent to the profile's aerospace and autonomous-systems background, but the advertised role is mechanical avionics rather than flight controls, GNC, autopilots, or simulation.",
+      "ru": "Relativity Space прямо сообщает, что нанимает Avionics Mechanical Engineer для участия в подготовке первого запуска Terran R и последующей работе. Космическая и пусковая тематика связана с опытом профиля в аэрокосмической отрасли и области автономных систем, однако предлагаемая роль относится к механическим авионическим системам, а не к управлению полётом, GNC, автопилотам или симуляции.",
+      "model": "gpt-5.6-luna"
+    },
+    "ba717bb2ff264a16c810c5a4": {
+      "source": "The post describes scalable navigation and pathfinding for large, dynamic simulation environments, including dynamic obstacles, cost-aware routing, multithreading, and multiple levels of navigation detail. These topics are adjacent to the profile's experience in autonomy, trajectory planning, simulation, navigation, and mission optimization, but the post does not specifically concern flight control or UAV systems.",
+      "ru": "В публикации описываются масштабируемая навигация и поиск пути для крупных динамических сред симуляции, включая динамические препятствия, маршрутизацию с учётом стоимости, многопоточность и несколько уровней детализации навигации. Эти темы связаны с опытом профиля в области автономности, планирования траекторий, симуляции, навигации и оптимизации миссий, однако публикация не посвящена непосредственно управлению полётом или системам БПЛА.",
+      "model": "gpt-5.6-luna"
     }
   }
 }
