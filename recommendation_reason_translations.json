@@ -635,6 +635,46 @@
       "source": "The post describes scalable navigation and pathfinding for large, dynamic simulation environments, including dynamic obstacles, cost-aware routing, multithreading, and multiple levels of navigation detail. These topics are adjacent to the profile's experience in autonomy, trajectory planning, simulation, navigation, and mission optimization, but the post does not specifically concern flight control or UAV systems.",
       "ru": "В публикации описываются масштабируемая навигация и поиск пути для крупных динамических сред симуляции, включая динамические препятствия, маршрутизацию с учётом стоимости, многопоточность и несколько уровней детализации навигации. Эти темы связаны с опытом профиля в области автономности, планирования траекторий, симуляции, навигации и оптимизации миссий, однако публикация не посвящена непосредственно управлению полётом или системам БПЛА.",
       "model": "gpt-5.6-luna"
+    },
+    "538fc86c728982f10b712c84": {
+      "source": "The post discusses robotics skills that strongly overlap with the profile, including control theory, motion planning, simulation, sensor fusion, embedded systems, computer vision, and software-hardware integration. It also highlights broader market recognition of robotics, but provides no specific job, company, or hiring opportunity.",
+      "ru": "В публикации обсуждаются навыки в области робототехники, которые в значительной степени совпадают с профилем, включая теорию управления, планирование движений, моделирование, слияние данных с датчиков, встроенные системы, компьютерное зрение и интеграцию программного и аппаратного обеспечения. Также отмечается более широкое признание робототехники на рынке, однако конкретная вакансия, компания или возможность трудоустройства не указаны.",
+      "model": "gpt-5.6-luna"
+    },
+    "9ce456a05df11682994d54ed": {
+      "source": "The post describes a concrete marine-autonomy and defense partnership combining persistent-surveillance USVs with a faster response vessel. This closely matches the profile's stated interest in marine autonomy, autonomous vessels, navigation and control of mobile platforms, robotics, mission planning, and multidisciplinary autonomous-systems engineering. No hiring opportunity is stated.",
+      "ru": "В публикации описывается конкретное партнёрство в области морской автономности и обороны, объединяющее USV для непрерывного наблюдения и более быстрое судно реагирования. Это тесно соответствует заявленному в профиле интересу к морской автономности, автономным судам, навигации и управлению мобильными платформами, робототехнике, планированию миссий и междисциплинарной разработке автономных систем. Возможность трудоустройства не указана.",
+      "model": "gpt-5.6-luna"
+    },
+    "ce33ee29e314213ca130f29a": {
+      "source": "MathWorks posted about differentiable simulation and optimization workflows, directly aligning with the profile's MATLAB/Simulink, modeling, simulation, control and autonomous-systems background. The post also identifies several people involved in the presentation, but provides no roles or hiring information.",
+      "ru": "MathWorks опубликовала материал о дифференцируемом моделировании и рабочих процессах оптимизации, что напрямую соответствует опыту и знаниям, указанным в профиле: MATLAB/Simulink, моделирование, симуляция, управление и автономные системы. В публикации также указаны несколько человек, участвовавших в презентации, однако должности или информация о найме отсутствуют.",
+      "model": "gpt-5.6-luna"
+    },
+    "0babf233dc22ea1df84580e7": {
+      "source": "The post features a MATLAB model of Artemis II's free-return lunar trajectory, aligning with the profile's experience in flight dynamics, trajectory planning, simulation, and MATLAB/Simulink. It is technically relevant but does not present a job, project opportunity, or specific person to contact.",
+      "ru": "В публикации представлена модель MATLAB свободновозвратной лунной траектории Artemis II, что соответствует опыту профиля в области динамики полёта, планирования траекторий, моделирования и MATLAB/Simulink. Материал имеет техническую значимость, но не содержит информации о вакансии, возможности участия в проекте или конкретном человеке для связи.",
+      "model": "gpt-5.6-luna"
+    },
+    "18a02d3625c0c1789daf3a53": {
+      "source": "The post concerns autonomous collision-avoidance maneuver design, optimization under pointing constraints, and spacecraft guidance-related research. These topics are adjacent to the profile's experience in flight dynamics, control laws, guidance, trajectory planning, and autonomous systems. No vacancy or hiring intent is stated.",
+      "ru": "Публикация посвящена разработке манёвров автономного предотвращения столкновений, оптимизации при ограничениях на ориентацию и исследованиям, связанным с наведением космических аппаратов. Эти темы смежны с опытом профиля в области динамики полёта, законов управления, наведения, планирования траекторий и автономных систем. Вакансия или намерение нанимать сотрудников не указаны.",
+      "model": "gpt-5.6-luna"
+    },
+    "25d2e8fa3f78427025e0f0e3": {
+      "source": "The post concerns marine robotics, unmanned surface vessels, ocean monitoring and NATO experimentation, which align with the profile’s adjacent interests in marine autonomy, autonomous vessels, navigation and control of mobile platforms. It does not indicate a job opening or hiring activity.",
+      "ru": "Публикация посвящена морской робототехнике, безэкипажным надводным судам, мониторингу океана и экспериментам NATO, что соответствует смежным интересам профиля в области морской автономности, автономных судов, навигации и управления мобильными платформами. Информация об открытой вакансии или найме отсутствует.",
+      "model": "gpt-5.6-luna"
+    },
+    "34553ed34f0f6073060eebbc": {
+      "source": "The post covers marine measurement quality, navigation data, inertial sensing, sensor alignment, synchronization and sound-speed effects in multibeam surveying. These topics are adjacent to the profile's experience in navigation, sensor fusion, flight dynamics, autonomous systems and control, with potential relevance to marine autonomy.",
+      "ru": "В публикации рассматриваются вопросы качества морских измерений, навигационных данных, инерциального зондирования, юстировки датчиков, синхронизации и влияния скорости звука при многолучевой съёмке. Эти темы смежны с опытом профиля в области навигации, слияния данных с датчиков, динамики полёта, автономных систем и управления и потенциально имеют отношение к морской автономности.",
+      "model": "gpt-5.6-luna"
+    },
+    "ff47a91448f46c2854d04387": {
+      "source": "The post concerns marine engineering, retrofit integration on an operational bulk carrier, fuel-efficiency and emissions-reduction goals, and collection of real-world performance data. This is adjacent to the profile's interest in marine autonomy and control of mobile platforms, but it does not describe an autonomy, navigation, or controls role.",
+      "ru": "Публикация посвящена морской инженерии, интеграции модернизаций на эксплуатируемом балкере, целям по повышению топливной эффективности и сокращению выбросов, а также сбору реальных данных о характеристиках. Это смежно с интересом профиля к морской автономности и управлению мобильными платформами, однако публикация не описывает должность в области автономности, навигации или управления.",
+      "model": "gpt-5.6-luna"
     }
   }
 }
