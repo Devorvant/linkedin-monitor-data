@@ -675,6 +675,16 @@
       "source": "The post concerns marine engineering, retrofit integration on an operational bulk carrier, fuel-efficiency and emissions-reduction goals, and collection of real-world performance data. This is adjacent to the profile's interest in marine autonomy and control of mobile platforms, but it does not describe an autonomy, navigation, or controls role.",
       "ru": "Публикация посвящена морской инженерии, интеграции модернизаций на эксплуатируемом балкере, целям по повышению топливной эффективности и сокращению выбросов, а также сбору реальных данных о характеристиках. Это смежно с интересом профиля к морской автономности и управлению мобильными платформами, однако публикация не описывает должность в области автономности, навигации или управления.",
       "model": "gpt-5.6-luna"
+    },
+    "4fcc1c504c52435486330f15": {
+      "source": "The post analyzes why eVTOL programs follow different development timelines, focusing on early technical and organizational decisions, suppliers, testing infrastructure, certification paths, and scaling processes. This closely aligns with the profile's eVTOL, flight-control, simulation, and multidisciplinary aerospace engineering background. The author also states having 34 years in aerospace and experience with eVTOL aircraft that flew, making him a relevant person to follow or connect with.",
+      "ru": "Публикация анализирует, почему программы eVTOL реализуются по разным графикам разработки, уделяя внимание ранним техническим и организационным решениям, поставщикам, испытательной инфраструктуре, путям сертификации и процессам масштабирования. Это тесно соответствует опыту профиля в области eVTOL, систем управления полётом, моделирования и междисциплинарной аэрокосмической инженерии. Автор также сообщает о 34 годах работы в аэрокосмической отрасли и опыте работы с летавшими воздушными судами eVTOL, что делает его подходящим человеком для подписки или установления контакта.",
+      "model": "gpt-5.6-luna"
+    },
+    "abfc00620ef70c3e30e9a7a7": {
+      "source": "The post demonstrates MATLAB-based aerospace analysis of satellite line-of-sight coverage along an aircraft route. This aligns with the profile's experience in flight dynamics, simulation, trajectory planning, aerospace systems and MATLAB/Simulink, although no role or hiring opportunity is mentioned.",
+      "ru": "Публикация демонстрирует выполненный на базе MATLAB аэрокосмический анализ покрытия спутниковой линией визирования вдоль маршрута воздушного судна. Это соответствует опыту профиля в области динамики полёта, моделирования, планирования траекторий, аэрокосмических систем и MATLAB/Simulink, хотя роль или возможность трудоустройства не упоминаются.",
+      "model": "gpt-5.6-luna"
     }
   }
 }
