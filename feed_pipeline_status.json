@@ -1,21 +1,21 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T05:11:49.142124+00:00",
+  "generated_at": "2026-10-10T05:12:03.257994+00:00",
   "status": "OK",
   "analysis_mode": "llm",
   "analysis_reason": "Feed/profile/analyzer changed",
   "feed_signals": {
-    "posts_analyzed": 12,
+    "posts_analyzed": 7,
     "high_priority": 1,
     "medium_priority": 1,
-    "low_priority": 10,
+    "low_priority": 5,
     "signal_type_counts": {
-      "TECH_SIGNAL": 3,
+      "TECH_SIGNAL": 2,
       "PROJECT_SIGNAL": 4,
       "PEOPLE_SIGNAL": 3,
-      "NETWORK_SIGNAL": 5,
-      "COMPANY_SIGNAL": 5,
-      "MARKET_SIGNAL": 1
+      "COMPANY_SIGNAL": 3,
+      "MARKET_SIGNAL": 1,
+      "NETWORK_SIGNAL": 2
     }
   },
   "action_queue": {
@@ -29,23 +29,21 @@
       "research_contact": 1
     },
     "action_plan_counts": {
-      "connect_person": 1,
       "engage_with_post": 1,
-      "find_warm_path": 1,
-      "follow_person": 1,
+      "message_person": 1,
       "research_company": 1,
       "research_contact": 1,
-      "review_technology": 1,
-      "save_for_content": 2
+      "review_technology": 2,
+      "save_for_content": 1
     }
   },
   "relationships": {
-    "total": 276,
+    "total": 277,
     "people": 233,
-    "companies": 43,
+    "companies": 44,
     "people_with_profile_url": 201,
     "status_counts": {
-      "WATCH": 276,
+      "WATCH": 277,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -55,7 +53,7 @@
     },
     "review_recommended": 134,
     "do_not_contact": 0,
-    "repeat_entities": 63,
+    "repeat_entities": 64,
     "known_connections": 5,
     "known_following_people": 2,
     "known_following_companies": 22
@@ -66,35 +64,35 @@
     "medium": 66,
     "pending_approval": 8,
     "research_needed": 38,
-    "actionable_now": 33,
-    "watchlist": 20,
-    "archive": 64,
+    "actionable_now": 29,
+    "watchlist": 26,
+    "archive": 62,
     "primary_action_counts": {
-      "check_jobs": 13,
-      "engage_with_post": 1,
+      "check_jobs": 12,
+      "engage_with_post": 2,
       "find_warm_path": 70,
       "research_company": 1,
       "research_contact": 29,
       "review_technology": 3
     },
     "action_plan_counts": {
-      "check_jobs": 13,
-      "connect_person": 6,
-      "engage_with_post": 21,
+      "check_jobs": 12,
+      "connect_person": 5,
+      "engage_with_post": 18,
       "find_warm_path": 75,
-      "follow_company": 14,
+      "follow_company": 13,
       "follow_person": 48,
-      "message_person": 2,
+      "message_person": 3,
       "research_company": 18,
-      "research_contact": 36,
-      "review_technology": 59,
+      "research_contact": 35,
+      "review_technology": 61,
       "save_for_content": 74
     },
     "history_scope": {
       "first_date": "2026-08-29",
-      "last_date": "2026-10-09",
-      "history_files": 36,
-      "unique_signals": 163,
+      "last_date": "2026-10-10",
+      "history_files": 37,
+      "unique_signals": 165,
       "entities": 117
     },
     "recommendation_mode": "accumulated_current_state"

@@ -685,6 +685,16 @@
       "source": "The post demonstrates MATLAB-based aerospace analysis of satellite line-of-sight coverage along an aircraft route. This aligns with the profile's experience in flight dynamics, simulation, trajectory planning, aerospace systems and MATLAB/Simulink, although no role or hiring opportunity is mentioned.",
       "ru": "Публикация демонстрирует выполненный на базе MATLAB аэрокосмический анализ покрытия спутниковой линией визирования вдоль маршрута воздушного судна. Это соответствует опыту профиля в области динамики полёта, моделирования, планирования траекторий, аэрокосмических систем и MATLAB/Simulink, хотя роль или возможность трудоустройства не упоминаются.",
       "model": "gpt-5.6-luna"
+    },
+    "32f42dab74c7ac9a0610eb45": {
+      "source": "The post presents a drone flight control unit with triple redundancy and temperature control, closely matching the profile's flight-control, UAV, embedded-control, autopilot, and reliability experience. Nidhi Raj is a person sharing a directly relevant technical project, but the post does not state a job title, employer relationship, or hiring intent.",
+      "ru": "В публикации представлен блок управления полётом дрона с тройным резервированием и контролем температуры, что тесно соответствует опыту профиля в области управления полётом, UAV, embedded-control, автопилотов и надёжности. Nidhi Raj — человек, поделившийся техническим проектом, непосредственно связанным с этой тематикой, однако в публикации не указаны должность, связь с работодателем или намерение нанимать сотрудников.",
+      "model": "gpt-5.6-luna"
+    },
+    "fdf0dc6e8a708aeab506ee70": {
+      "source": "Saildrone's post describes autonomous unmanned surface vehicles operating in extreme hurricane conditions and collecting environmental data for NOAA. This is relevant to the profile's stated interest in marine autonomy, autonomous vessel control, navigation, stabilization and control of mobile platforms. No hiring information is present.",
+      "ru": "В публикации Saildrone описываются автономные беспилотные надводные аппараты, работающие в экстремальных условиях урагана и собирающие данные об окружающей среде для NOAA. Это соответствует заявленному в профиле интересу к морской автономности, управлению автономными судами, навигации, стабилизации и управлению мобильными платформами. Информация о найме отсутствует.",
+      "model": "gpt-5.6-luna"
     }
   }
 }
