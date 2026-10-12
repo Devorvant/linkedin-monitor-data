@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "model": "gpt-5.6-luna",
+  "batch_size": 6,
+  "max_new_orders": 120,
+  "request_timeout_seconds": 75,
+  "max_runtime_seconds": 480,
+  "profile_additions": {
+    "current_work": "Development of active vibration isolation and precision mechatronic systems for industrial and scientific equipment. Six-degree-of-freedom stabilization, active damping, system dynamics, voice-coil actuators, geophones, position sensors and custom control electronics.",
+    "preferences": "Priority: engineering development, simulation and consulting related to the confirmed profile. Teaching and general software projects are secondary and require manual review. Prefer remote and project-based work. No minimum rate or guaranteed availability has been specified."
+  },
+  "data_transfer_approved": false
+}

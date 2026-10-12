@@ -5,6 +5,12 @@ on:
     branches: [main]
     paths:
       - profi_latest.json
+      - profile.json
+      - profi_analysis_config.json
+      - scripts/profi_analyzer.py
+      - tests/test_profi_analyzer.py
+      - tests/test_profi_ui.cjs
+      - tests/fixtures/profi_monitor_ui.html
       - scripts/profi_monitor.py
       - scripts/profi_worker_unified.py
       - scripts/profi_worker_entry.py
@@ -25,6 +31,7 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,15 +44,19 @@ jobs:
         run: python -m pip install --quiet beautifulsoup4 lxml
       - name: Verify history and metrics
         run: python -m unittest discover -s tests -p 'test_profi*.py'
+      - name: Verify recommendation UI
+        run: node tests/test_profi_ui.cjs
       - name: Build snapshots and monitor
         run: python scripts/profi_monitor.py --git-backfill
+      - name: Build recommendations (AI data transfer disabled pending approval)
+        run: python scripts/profi_analyzer.py
       - name: Commit monitor results
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           for attempt in 1 2 3; do
-            git add profi_current.json profi_history.json profi_pipeline_status.json history/profi
+            git add profi_current.json profi_history.json profi_pipeline_status.json history/profi profi_recommendations.json profi_analysis_cache.json
             if git diff --cached --quiet; then
               exit 0
             fi
@@ -53,9 +64,12 @@ jobs:
             if git push; then
               exit 0
             fi
+            cp profi_analysis_cache.json "$RUNNER_TEMP/profi-analysis-cache.json"
             git fetch origin main
             git reset --hard origin/main
+            python -c 'import json, os; from pathlib import Path; p=Path("profi_analysis_cache.json"); remote=json.loads(p.read_text()) if p.exists() else {"entries":{}}; local=json.loads((Path(os.environ["RUNNER_TEMP"])/"profi-analysis-cache.json").read_text()); remote.setdefault("entries",{}).update(local.get("entries",{})); p.write_text(json.dumps(remote))'
             python scripts/profi_monitor.py --git-backfill
+            python scripts/profi_analyzer.py
           done
           echo 'Failed to publish Profi monitor results after 3 attempts.'
           exit 1

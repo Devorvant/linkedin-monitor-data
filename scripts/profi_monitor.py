@@ -182,7 +182,7 @@ def build_outputs(root: Path, processed_commits: list[str]) -> dict:
                "unique_observed": len(history), "scans": len(snapshots),
                "first_capture": snapshots[0]["captured_at"], "last_capture": latest["captured_at"]}
     warning = None if latest["parser_version"] != "legacy" else (
-        "Последний сбор сделан старым парсером. Запустите profi_worker_entry.py для нового сбора с серверным парсингом."
+        "Последний сбор сделан старым парсером. Запустите profi_worker_entry.py для нового сбора с обновлённым парсером на ПК."
     )
     status = {"schema_version": 1, "generated_at": generated, "status": "OK",
               "captured_at": latest["captured_at"], "parser_version": latest["parser_version"],
