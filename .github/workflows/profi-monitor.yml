@@ -1,0 +1,54 @@
+name: Build Profi Monitor
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - profi_latest.json
+      - scripts/profi_monitor.py
+      - tests/test_profi_monitor.py
+      - .github/workflows/profi-monitor.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profi-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify history and metrics
+        run: python -m unittest discover -s tests -p 'test_profi_monitor.py'
+      - name: Build snapshots and monitor
+        run: python scripts/profi_monitor.py --git-backfill
+      - name: Commit monitor results
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git add profi_current.json profi_history.json profi_pipeline_status.json history/profi
+            if git diff --cached --quiet; then
+              exit 0
+            fi
+            git commit -m 'Update Profi monitor history and metrics'
+            if git push; then
+              exit 0
+            fi
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/profi_monitor.py --git-backfill
+          done
+          echo 'Failed to publish Profi monitor results after 3 attempts.'
+          exit 1
