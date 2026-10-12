@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "enabled": false,
+  "enabled": true,
   "model": "gpt-5.6-luna",
   "batch_size": 6,
   "max_new_orders": 120,
@@ -8,7 +8,20 @@
   "max_runtime_seconds": 480,
   "profile_additions": {
     "current_work": "Development of active vibration isolation and precision mechatronic systems for industrial and scientific equipment. Six-degree-of-freedom stabilization, active damping, system dynamics, voice-coil actuators, geophones, position sensors and custom control electronics.",
-    "preferences": "Priority: engineering development, simulation and consulting related to the confirmed profile. Teaching and general software projects are secondary and require manual review. Prefer remote and project-based work. No minimum rate or guaranteed availability has been specified."
+    "preferences": "Consider broad applied engineering, practical development and consulting, not only aviation. Evaluate transferable skills across physical systems, electronics, control, scientific and industrial stands, automation, Python applications and data analysis. Teaching and general software tasks are considered individually against confirmed skills and conditions, not excluded by sector labels. Prefer remote and project-based work. No minimum rate or guaranteed availability has been specified.",
+    "confirmed_projects": [
+      {
+        "name": "STM32 Peltier Temperature Profile Control System",
+        "source": "https://vvtol.com/",
+        "experience": "Real-time heating/cooling stand with programmable temperature profiles; STM32 and Embedded C, PID feedback regulation, NTC temperature sensors, bidirectional Peltier drive, UART communication, Python/PySide6 GUI, telemetry visualization and Excel export. Thermal-lag compensation and experimental validation."
+      },
+      {
+        "name": "Applied software and data tools",
+        "source": "https://vvtol.com/",
+        "experience": "Python engineering applications, telemetry and sensor-data processing, automation and monitoring, engineering visualization, applied ML/computer vision and microcontroller/sensor integration."
+      }
+    ]
   },
-  "data_transfer_approved": false
+  "data_transfer_approved": true,
+  "data_transfer_approval": "User explicitly authorized sending Profi.ru order content and professional profile to the existing OpenAI API on 2026-10-12."
 }

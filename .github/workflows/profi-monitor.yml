@@ -48,9 +48,13 @@ jobs:
         run: node tests/test_profi_ui.cjs
       - name: Build snapshots and monitor
         run: python scripts/profi_monitor.py --git-backfill
-      - name: Build recommendations (AI data transfer disabled pending approval)
+      - name: Analyze broad engineering opportunities with OpenAI
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/profi_analyzer.py
       - name: Commit monitor results
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'

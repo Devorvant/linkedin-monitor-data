@@ -119,6 +119,24 @@ class AnalyzerTests(unittest.TestCase):
         self.assertEqual(output['summary']['ai_orders'], 1)
         self.assertEqual(len(output['items']), 2)
 
+    def test_non_aviation_and_unmatched_orders_reach_ai(self):
+        rows = [row('123', title='Температурный стенд Пельтье'),
+                row('124', title='Программа обработки измерений',
+                    description='Визуализировать файлы измерений в настольной программе.')]
+        def caller(batch, *args):
+            return {'items': [advice(r, evidence=[r['title']]) for r in batch]}, {}
+        output, _ = ai.analyze(current(rows), PROFILE, CFG, api_key='synthetic', caller=caller)
+        self.assertEqual(output['summary']['ai_orders'], 2)
+        self.assertTrue(all(r['recommendation'] == 'respond' for r in output['items']))
+
+    def test_confirmed_peltier_project_reaches_prompt_and_cache_identity(self):
+        config = {**CFG, 'profile_additions': {'confirmed_projects': ['STM32 Peltier heating/cooling stand']}}
+        context = ai.profile_input(PROFILE, config)
+        self.assertIn('Peltier', str(context))
+        self.assertNotEqual(ai.fingerprint(row(), context, 'test-model'),
+                            ai.fingerprint(row(), ai.profile_input(PROFILE, CFG), 'test-model'))
+        self.assertIn('авиация — лишь одна область', ai.SYSTEM)
+
     def test_unapproved_transfer_never_calls_api_even_with_key(self):
         call = Mock(side_effect=AssertionError('API must remain disabled'))
         output, cache = ai.analyze(current([row()]), PROFILE,
