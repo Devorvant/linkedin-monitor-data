@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-10-10T05:11:57.772092+00:00",
+  "generated_at": "2026-10-12T05:12:09.608141+00:00",
   "status_model": {
     "allowed": [
       "WATCH",
@@ -22,12 +22,12 @@
     "note": "Automation preserves manual fields. profile_url is distinct from source_url. Outbound remains approval-only."
   },
   "summary": {
-    "total": 277,
-    "people": 233,
-    "companies": 44,
-    "people_with_profile_url": 201,
+    "total": 282,
+    "people": 237,
+    "companies": 45,
+    "people_with_profile_url": 205,
     "status_counts": {
-      "WATCH": 277,
+      "WATCH": 282,
       "REVIEW": 0,
       "CONNECT": 0,
       "CONNECTED": 0,
@@ -37,7 +37,7 @@
     },
     "review_recommended": 134,
     "do_not_contact": 0,
-    "repeat_entities": 64,
+    "repeat_entities": 65,
     "known_connections": 5,
     "known_following_people": 2,
     "known_following_companies": 22
@@ -721,14 +721,14 @@
       "profile_url": "https://www.linkedin.com/company/the-mathworks_2/",
       "profile_evidence": null,
       "first_seen": "2026-08-29T20:12:22.922552+00:00",
-      "last_seen": "2026-10-09T05:11:43.856449+00:00",
-      "times_seen": 21,
+      "last_seen": "2026-10-12T05:12:09.608141+00:00",
+      "times_seen": 22,
       "score": 90,
       "latest_priority": "medium",
-      "latest_confidence": 91,
+      "latest_confidence": 94,
       "priority_counts": {
         "high": 7,
-        "medium": 13
+        "medium": 14
       },
       "suggested_action": "follow_company",
       "companies": [
@@ -756,7 +756,8 @@
         "sig_4dd69c345b017c18",
         "sig_bc0f5d2fea4e9fb6",
         "sig_7998d34040987d42",
-        "sig_02f557203b89a2c2"
+        "sig_02f557203b89a2c2",
+        "sig_6bc7d5e26845df36"
       ],
       "signal_history": [
         {
@@ -1154,16 +1155,34 @@
             "MATLAB R2026b"
           ],
           "source": "feed_signal"
+        },
+        {
+          "at": "2026-10-12T05:12:09.608141+00:00",
+          "signal_id": "sig_6bc7d5e26845df36",
+          "priority": "medium",
+          "confidence": 94,
+          "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7512783644453687296/",
+          "profile_url": "https://www.linkedin.com/company/the-mathworks_2/",
+          "reason": "The post directly concerns Simulink, model-based design, hardware configuration, optimized code generation, and prototyping of embedded applications. These technologies align strongly with the profile's flight-control, simulation, embedded-control, MATLAB/Simulink, and C/C++ experience. It provides no explicit hiring signal or named individual networking target.",
+          "projects": [
+            "Embedded World 2026 booth demonstration of Simulink and the NXP Model-Based Design Toolbox"
+          ],
+          "technologies": [
+            "Simulink",
+            "NXP Model-Based Design Toolbox",
+            "code generation"
+          ],
+          "source": "feed_signal"
         }
       ],
       "reasons": [
-        "The post highlights MathWorks-supported research and industry collaboration using MATLAB and Simulink, which directly align with the profile's flight-control, simulation, modeling, and autonomous-systems expertise. It also points to a future proposal cycle, but does not advertise employment.",
         "The post describes a robotics and simulation project involving a robot arm, additional degrees of freedom, tactile sensing, and text translation. This aligns with the profile's experience in control systems, simulation, robotics, MATLAB-based engineering, and multidisciplinary autonomous-system development. It does not provide a hiring signal or identify an individual contact.",
         "MathWorks posted about differentiable simulation and optimization workflows, directly aligning with the profile's MATLAB/Simulink, modeling, simulation, control and autonomous-systems background. The post also identifies several people involved in the presentation, but provides no roles or hiring information.",
         "The post features a MATLAB model of Artemis II's free-return lunar trajectory, aligning with the profile's experience in flight dynamics, trajectory planning, simulation, and MATLAB/Simulink. It is technically relevant but does not present a job, project opportunity, or specific person to contact.",
-        "The post demonstrates MATLAB-based aerospace analysis of satellite line-of-sight coverage along an aircraft route. This aligns with the profile's experience in flight dynamics, simulation, trajectory planning, aerospace systems and MATLAB/Simulink, although no role or hiring opportunity is mentioned."
+        "The post demonstrates MATLAB-based aerospace analysis of satellite line-of-sight coverage along an aircraft route. This aligns with the profile's experience in flight dynamics, simulation, trajectory planning, aerospace systems and MATLAB/Simulink, although no role or hiring opportunity is mentioned.",
+        "The post directly concerns Simulink, model-based design, hardware configuration, optimized code generation, and prototyping of embedded applications. These technologies align strongly with the profile's flight-control, simulation, embedded-control, MATLAB/Simulink, and C/C++ experience. It provides no explicit hiring signal or named individual networking target."
       ],
-      "latest_source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513901005659348992/",
+      "latest_source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7512783644453687296/",
       "status_history": [
         {
           "status": "WATCH",
@@ -1174,9 +1193,9 @@
       "automation": {
         "last_observed_status": "WATCH",
         "recommended_status": "REVIEW",
-        "last_processed_at": "2026-10-09T05:11:43.856449+00:00"
+        "last_processed_at": "2026-10-12T05:12:09.608141+00:00"
       },
-      "updated_at": "2026-10-09T05:11:43.856449+00:00",
+      "updated_at": "2026-10-12T05:12:09.608141+00:00",
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
@@ -8630,7 +8649,7 @@
         "name": "Neha S",
         "url": "https://www.linkedin.com/in/neha-s-1155231b8/",
         "source": "author_link",
-        "signal_id": "sig_b438ee57c401f506"
+        "signal_id": "sig_1d3607a86af2dc53"
       }
     },
     {
@@ -8827,7 +8846,7 @@
         "name": "Neha S • 1-й",
         "url": "https://www.linkedin.com/in/neha-s-1155231b8/",
         "source": "author_link",
-        "signal_id": "sig_b438ee57c401f506"
+        "signal_id": "sig_1d3607a86af2dc53"
       }
     },
     {
@@ -13084,6 +13103,109 @@
       }
     },
     {
+      "id": "company:speedgoat",
+      "kind": "company",
+      "name": "Speedgoat",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/company/speedgoat/",
+      "profile_evidence": null,
+      "first_seen": "2026-10-12T05:12:09.608141+00:00",
+      "last_seen": "2026-10-12T05:12:09.608141+00:00",
+      "times_seen": 2,
+      "score": 75,
+      "latest_priority": "medium",
+      "latest_confidence": 91,
+      "priority_counts": {
+        "high": 0,
+        "medium": 2
+      },
+      "suggested_action": "follow_company",
+      "companies": [
+        "Speedgoat"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_278e012f02280d25",
+        "sig_ccd3b0b40151a965"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-10-12T05:12:09.608141+00:00",
+          "signal_id": "sig_278e012f02280d25",
+          "priority": "medium",
+          "confidence": 94,
+          "source_url": "https://www.linkedin.com/company/speedgoat/",
+          "profile_url": "https://www.linkedin.com/company/speedgoat/",
+          "reason": "The post covers Simulink-based real-time simulation, HIL testing, automated validation, fault injection, and model reuse, which align strongly with the profile's simulation, control-system, MATLAB/Simulink, and HIL experience. The battery and EV focus is adjacent to the profile's primary aerospace and UAV domains.",
+          "projects": [
+            "Battery Management System testing and validation using Battery Cell Emulation",
+            "Cell Monitoring Unit emulation for component-level BMS validation",
+            "Battery system integration into complete EV powertrain HIL simulations"
+          ],
+          "technologies": [
+            "Simulink",
+            "Simscape Battery",
+            "Battery Cell Emulator",
+            "Cell Monitoring Unit emulation",
+            "Hardware-in-the-loop testing",
+            "Real-time testing",
+            "Automated validation workflows"
+          ],
+          "source": "feed_signal"
+        },
+        {
+          "at": "2026-10-12T05:12:09.608141+00:00",
+          "signal_id": "sig_ccd3b0b40151a965",
+          "priority": "medium",
+          "confidence": 91,
+          "source_url": "https://www.linkedin.com/company/speedgoat/",
+          "profile_url": "https://www.linkedin.com/company/speedgoat/",
+          "reason": "The post concerns real-time simulation, HIL testing, control validation, and Simulink-based workflows, which align with the profile's experience in flight-control simulation, autopilot validation, MATLAB/Simulink, and hardware-in-the-loop systems. The primary application domain is power systems and grid-connected inverters rather than aerospace or UAVs. No hiring opportunity is stated.",
+          "projects": [
+            "grid-connected inverter HIL testing",
+            "protection relay testing",
+            "MMC/HVDC validation"
+          ],
+          "technologies": [
+            "Simulink",
+            "real-time simulation",
+            "hardware-in-the-loop testing",
+            "power electronics HIL",
+            "requirements-based automation",
+            "AI-assisted engineering workflows",
+            "industrial communication networks",
+            "electromagnetic transient simulation"
+          ],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The post covers Simulink-based real-time simulation, HIL testing, automated validation, fault injection, and model reuse, which align strongly with the profile's simulation, control-system, MATLAB/Simulink, and HIL experience. The battery and EV focus is adjacent to the profile's primary aerospace and UAV domains.",
+        "The post concerns real-time simulation, HIL testing, control validation, and Simulink-based workflows, which align with the profile's experience in flight-control simulation, autopilot validation, MATLAB/Simulink, and hardware-in-the-loop systems. The primary application domain is power systems and grid-connected inverters rather than aerospace or UAVs. No hiring opportunity is stated."
+      ],
+      "latest_source_url": "https://www.linkedin.com/company/speedgoat/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-10-12T05:12:09.608141+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-10-12T05:12:09.608141+00:00"
+      },
+      "updated_at": "2026-10-12T05:12:09.608141+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
+    },
+    {
       "id": "person:ajay talluri",
       "kind": "person",
       "name": "Ajay Talluri",
@@ -14074,6 +14196,168 @@
       }
     },
     {
+      "id": "person:javier gazzarri",
+      "kind": "person",
+      "name": "Javier Gazzarri",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/javiergazzarri/",
+      "profile_evidence": {
+        "name": "Javier Gazzarri",
+        "url": "https://www.linkedin.com/in/javiergazzarri/",
+        "source": "signal_person",
+        "signal_id": "sig_278e012f02280d25"
+      },
+      "first_seen": "2026-10-12T05:12:09.608141+00:00",
+      "last_seen": "2026-10-12T05:12:09.608141+00:00",
+      "times_seen": 1,
+      "score": 75,
+      "latest_priority": "medium",
+      "latest_confidence": 94,
+      "priority_counts": {
+        "high": 0,
+        "medium": 1
+      },
+      "suggested_action": "follow_person",
+      "companies": [
+        "Speedgoat"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_278e012f02280d25"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-10-12T05:12:09.608141+00:00",
+          "signal_id": "sig_278e012f02280d25",
+          "priority": "medium",
+          "confidence": 94,
+          "source_url": "https://www.linkedin.com/company/speedgoat/",
+          "profile_url": "https://www.linkedin.com/in/javiergazzarri/",
+          "reason": "The post covers Simulink-based real-time simulation, HIL testing, automated validation, fault injection, and model reuse, which align strongly with the profile's simulation, control-system, MATLAB/Simulink, and HIL experience. The battery and EV focus is adjacent to the profile's primary aerospace and UAV domains.",
+          "projects": [
+            "Battery Management System testing and validation using Battery Cell Emulation",
+            "Cell Monitoring Unit emulation for component-level BMS validation",
+            "Battery system integration into complete EV powertrain HIL simulations"
+          ],
+          "technologies": [
+            "Simulink",
+            "Simscape Battery",
+            "Battery Cell Emulator",
+            "Cell Monitoring Unit emulation",
+            "Hardware-in-the-loop testing",
+            "Real-time testing",
+            "Automated validation workflows"
+          ],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The post covers Simulink-based real-time simulation, HIL testing, automated validation, fault injection, and model reuse, which align strongly with the profile's simulation, control-system, MATLAB/Simulink, and HIL experience. The battery and EV focus is adjacent to the profile's primary aerospace and UAV domains."
+      ],
+      "latest_source_url": "https://www.linkedin.com/company/speedgoat/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-10-12T05:12:09.608141+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-10-12T05:12:09.608141+00:00"
+      },
+      "updated_at": "2026-10-12T05:12:09.608141+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
+    },
+    {
+      "id": "person:julien darrah",
+      "kind": "person",
+      "name": "Julien Darrah",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/julien-darrah-78a61812/",
+      "profile_evidence": {
+        "name": "Julien Darrah",
+        "url": "https://www.linkedin.com/in/julien-darrah-78a61812/",
+        "source": "signal_person",
+        "signal_id": "sig_278e012f02280d25"
+      },
+      "first_seen": "2026-10-12T05:12:09.608141+00:00",
+      "last_seen": "2026-10-12T05:12:09.608141+00:00",
+      "times_seen": 1,
+      "score": 75,
+      "latest_priority": "medium",
+      "latest_confidence": 94,
+      "priority_counts": {
+        "high": 0,
+        "medium": 1
+      },
+      "suggested_action": "follow_person",
+      "companies": [
+        "Speedgoat"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_278e012f02280d25"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-10-12T05:12:09.608141+00:00",
+          "signal_id": "sig_278e012f02280d25",
+          "priority": "medium",
+          "confidence": 94,
+          "source_url": "https://www.linkedin.com/company/speedgoat/",
+          "profile_url": "https://www.linkedin.com/in/julien-darrah-78a61812/",
+          "reason": "The post covers Simulink-based real-time simulation, HIL testing, automated validation, fault injection, and model reuse, which align strongly with the profile's simulation, control-system, MATLAB/Simulink, and HIL experience. The battery and EV focus is adjacent to the profile's primary aerospace and UAV domains.",
+          "projects": [
+            "Battery Management System testing and validation using Battery Cell Emulation",
+            "Cell Monitoring Unit emulation for component-level BMS validation",
+            "Battery system integration into complete EV powertrain HIL simulations"
+          ],
+          "technologies": [
+            "Simulink",
+            "Simscape Battery",
+            "Battery Cell Emulator",
+            "Cell Monitoring Unit emulation",
+            "Hardware-in-the-loop testing",
+            "Real-time testing",
+            "Automated validation workflows"
+          ],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The post covers Simulink-based real-time simulation, HIL testing, automated validation, fault injection, and model reuse, which align strongly with the profile's simulation, control-system, MATLAB/Simulink, and HIL experience. The battery and EV focus is adjacent to the profile's primary aerospace and UAV domains."
+      ],
+      "latest_source_url": "https://www.linkedin.com/company/speedgoat/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-10-12T05:12:09.608141+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-10-12T05:12:09.608141+00:00"
+      },
+      "updated_at": "2026-10-12T05:12:09.608141+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
+    },
+    {
       "id": "person:kevin zakka",
       "kind": "person",
       "name": "Kevin Zakka",
@@ -14655,6 +14939,87 @@
       }
     },
     {
+      "id": "person:patric schenk",
+      "kind": "person",
+      "name": "Patric Schenk",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/patric-schenk-3723664/",
+      "profile_evidence": {
+        "name": "Patric Schenk",
+        "url": "https://www.linkedin.com/in/patric-schenk-3723664/",
+        "source": "signal_person",
+        "signal_id": "sig_278e012f02280d25"
+      },
+      "first_seen": "2026-10-12T05:12:09.608141+00:00",
+      "last_seen": "2026-10-12T05:12:09.608141+00:00",
+      "times_seen": 1,
+      "score": 75,
+      "latest_priority": "medium",
+      "latest_confidence": 94,
+      "priority_counts": {
+        "high": 0,
+        "medium": 1
+      },
+      "suggested_action": "follow_person",
+      "companies": [
+        "Speedgoat"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_278e012f02280d25"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-10-12T05:12:09.608141+00:00",
+          "signal_id": "sig_278e012f02280d25",
+          "priority": "medium",
+          "confidence": 94,
+          "source_url": "https://www.linkedin.com/company/speedgoat/",
+          "profile_url": "https://www.linkedin.com/in/patric-schenk-3723664/",
+          "reason": "The post covers Simulink-based real-time simulation, HIL testing, automated validation, fault injection, and model reuse, which align strongly with the profile's simulation, control-system, MATLAB/Simulink, and HIL experience. The battery and EV focus is adjacent to the profile's primary aerospace and UAV domains.",
+          "projects": [
+            "Battery Management System testing and validation using Battery Cell Emulation",
+            "Cell Monitoring Unit emulation for component-level BMS validation",
+            "Battery system integration into complete EV powertrain HIL simulations"
+          ],
+          "technologies": [
+            "Simulink",
+            "Simscape Battery",
+            "Battery Cell Emulator",
+            "Cell Monitoring Unit emulation",
+            "Hardware-in-the-loop testing",
+            "Real-time testing",
+            "Automated validation workflows"
+          ],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The post covers Simulink-based real-time simulation, HIL testing, automated validation, fault injection, and model reuse, which align strongly with the profile's simulation, control-system, MATLAB/Simulink, and HIL experience. The battery and EV focus is adjacent to the profile's primary aerospace and UAV domains."
+      ],
+      "latest_source_url": "https://www.linkedin.com/company/speedgoat/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-10-12T05:12:09.608141+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-10-12T05:12:09.608141+00:00"
+      },
+      "updated_at": "2026-10-12T05:12:09.608141+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
+    },
+    {
       "id": "person:sandro salgueiro",
       "kind": "person",
       "name": "Sandro Salgueiro",
@@ -14732,6 +15097,87 @@
         "source": "feed_mention",
         "signal_id": "sig_056a8f4222126be2"
       }
+    },
+    {
+      "id": "person:serena sharon duggem",
+      "kind": "person",
+      "name": "Serena Sharon Duggem",
+      "status": "WATCH",
+      "notes": "",
+      "tags": [],
+      "do_not_contact": false,
+      "last_contacted_at": null,
+      "next_follow_up_at": null,
+      "profile_url": "https://www.linkedin.com/in/serenaduggem/",
+      "profile_evidence": {
+        "name": "Serena Sharon Duggem",
+        "url": "https://www.linkedin.com/in/serenaduggem/",
+        "source": "signal_person",
+        "signal_id": "sig_278e012f02280d25"
+      },
+      "first_seen": "2026-10-12T05:12:09.608141+00:00",
+      "last_seen": "2026-10-12T05:12:09.608141+00:00",
+      "times_seen": 1,
+      "score": 75,
+      "latest_priority": "medium",
+      "latest_confidence": 94,
+      "priority_counts": {
+        "high": 0,
+        "medium": 1
+      },
+      "suggested_action": "follow_person",
+      "companies": [
+        "Speedgoat"
+      ],
+      "roles": [],
+      "source_signal_ids": [
+        "sig_278e012f02280d25"
+      ],
+      "signal_history": [
+        {
+          "at": "2026-10-12T05:12:09.608141+00:00",
+          "signal_id": "sig_278e012f02280d25",
+          "priority": "medium",
+          "confidence": 94,
+          "source_url": "https://www.linkedin.com/company/speedgoat/",
+          "profile_url": "https://www.linkedin.com/in/serenaduggem/",
+          "reason": "The post covers Simulink-based real-time simulation, HIL testing, automated validation, fault injection, and model reuse, which align strongly with the profile's simulation, control-system, MATLAB/Simulink, and HIL experience. The battery and EV focus is adjacent to the profile's primary aerospace and UAV domains.",
+          "projects": [
+            "Battery Management System testing and validation using Battery Cell Emulation",
+            "Cell Monitoring Unit emulation for component-level BMS validation",
+            "Battery system integration into complete EV powertrain HIL simulations"
+          ],
+          "technologies": [
+            "Simulink",
+            "Simscape Battery",
+            "Battery Cell Emulator",
+            "Cell Monitoring Unit emulation",
+            "Hardware-in-the-loop testing",
+            "Real-time testing",
+            "Automated validation workflows"
+          ],
+          "source": "feed_signal"
+        }
+      ],
+      "reasons": [
+        "The post covers Simulink-based real-time simulation, HIL testing, automated validation, fault injection, and model reuse, which align strongly with the profile's simulation, control-system, MATLAB/Simulink, and HIL experience. The battery and EV focus is adjacent to the profile's primary aerospace and UAV domains."
+      ],
+      "latest_source_url": "https://www.linkedin.com/company/speedgoat/",
+      "status_history": [
+        {
+          "status": "WATCH",
+          "at": "2026-10-12T05:12:09.608141+00:00",
+          "source": "created"
+        }
+      ],
+      "automation": {
+        "last_observed_status": "WATCH",
+        "recommended_status": "WATCH",
+        "last_processed_at": "2026-10-12T05:12:09.608141+00:00"
+      },
+      "updated_at": "2026-10-12T05:12:09.608141+00:00",
+      "known_relationships": [],
+      "linkedin_relationship": null
     },
     {
       "id": "person:simone del corso",

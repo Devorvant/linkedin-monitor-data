@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-10T05:11:57.872541+00:00",
-  "source_generated_at": "2026-10-10T05:11:21.412072+00:00",
+  "generated_at": "2026-10-12T05:12:09.710964+00:00",
+  "source_generated_at": "2026-10-12T05:11:18.912196+00:00",
   "policy": {
     "outbound_requires_human_approval": true,
     "outbound_actions": [
@@ -20,117 +20,34 @@
     ]
   },
   "summary": {
-    "items": 2,
-    "high": 1,
-    "medium": 1,
-    "pending_approval": 1,
-    "research_needed": 1,
+    "items": 3,
+    "high": 0,
+    "medium": 3,
+    "pending_approval": 0,
+    "research_needed": 2,
     "primary_action_counts": {
       "engage_with_post": 1,
-      "research_contact": 1
+      "research_contact": 2
     },
     "action_plan_counts": {
       "engage_with_post": 1,
-      "message_person": 1,
-      "research_company": 1,
-      "research_contact": 1,
-      "review_technology": 2,
+      "find_warm_path": 1,
+      "follow_company": 2,
+      "follow_person": 1,
+      "research_company": 2,
+      "research_contact": 2,
+      "review_technology": 3,
       "save_for_content": 1
     }
   },
   "items": [
     {
-      "signal_id": "sig_fa0057b132a07f81",
-      "source_post_id": null,
-      "priority": "high",
-      "confidence": 94,
-      "author": "Nidhi Raj",
-      "company": "Analog Devices",
-      "primary_action": "engage_with_post",
-      "secondary_action": "message_person",
-      "approval_required": true,
-      "execution_status": "PENDING_APPROVAL",
-      "relationship_stage": "connected",
-      "action_plan": [
-        {
-          "action": "engage_with_post",
-          "reason": "Create a natural context before direct outreach.",
-          "approval_required": false
-        },
-        {
-          "action": "message_person",
-          "reason": "The person is already connected; a contextual message can be prepared.",
-          "approval_required": true
-        },
-        {
-          "action": "review_technology",
-          "reason": "Technical project or technology is relevant to the profile.",
-          "approval_required": false
-        },
-        {
-          "action": "save_for_content",
-          "reason": "Signal may support an original expert post later.",
-          "approval_required": false
-        }
-      ],
-      "research": {
-        "needed": false,
-        "tasks": [
-          "verify_current_role",
-          "check_company_and_relevant_team",
-          "check_shared_context_or_warm_path"
-        ]
-      },
-      "drafts": {
-        "message": "Hi Nidhi, I noticed your recent work around New triple-redundant temperature-controlled flight control unit. I work on flight controls, GNC, UAV/autonomous systems and simulation. I thought there may be useful overlap in our technical interests and would be interested in exchanging perspectives."
-      },
-      "crm_guard_applied": false,
-      "crm_guard_reason": null,
-      "crm_entity_id": "person:nidhi raj",
-      "crm_status": "WATCH",
-      "crm_status_effective": "CONNECTED",
-      "known_relationships": [
-        "CONNECTION",
-        "FOLLOWER"
-      ],
-      "known_relationship_company": null,
-      "known_related_companies": [],
-      "do_not_contact": false,
-      "target": {
-        "name": "Nidhi Raj",
-        "role": null,
-        "relation": "author",
-        "target_role": "Author of the flight control unit",
-        "target_reason": "Nidhi Raj presented a technically relevant drone flight-control project involving redundancy, thermal management, and Analog Devices silicon.",
-        "target_priority": "medium",
-        "company": "Analog Devices",
-        "profile_url": "https://www.linkedin.com/in/nidhirajr/",
-        "profile_evidence": {
-          "name": "Nidhi Raj",
-          "url": "https://www.linkedin.com/in/nidhirajr/",
-          "source": "author_link",
-          "signal_id": "sig_fa0057b132a07f81"
-        },
-        "profile_resolution": "resolved"
-      },
-      "reason": "The post presents a drone flight control unit with triple redundancy and temperature control, closely matching the profile's flight-control, UAV, embedded-control, autopilot, and reliability experience. Nidhi Raj is a person sharing a directly relevant technical project, but the post does not state a job title, employer relationship, or hiring intent.",
-      "content_angle": "Discuss how triple-redundant flight controllers can be evaluated through fault-injection testing, voting-logic validation, thermal-envelope analysis, and hardware-in-the-loop scenarios.",
-      "source_url": "https://www.linkedin.com/in/nidhirajr/",
-      "analysis_engine": "rules+openai",
-      "llm": {
-        "used": true,
-        "provider": "openai",
-        "model": "gpt-5.6-luna",
-        "error": null
-      }
-    },
-    {
-      "signal_id": "sig_53700f09aa691ad6",
-      "source_post_id": "7514389775227801600",
+      "signal_id": "sig_6bc7d5e26845df36",
+      "source_post_id": "7512783644453687296",
       "priority": "medium",
-      "confidence": 88,
-      "author": "Saildrone",
-      "company": "Saildrone",
+      "confidence": 94,
+      "author": "MathWorks",
+      "company": "MathWorks",
       "primary_action": "research_contact",
       "secondary_action": "research_company",
       "approval_required": false,
@@ -163,27 +80,192 @@
       "drafts": {},
       "crm_guard_applied": false,
       "crm_guard_reason": null,
-      "crm_entity_id": "company:saildrone",
+      "crm_entity_id": "company:mathworks",
       "crm_status": "WATCH",
       "crm_status_effective": "WATCH",
       "known_relationships": [
         "FOLLOWING_COMPANY"
       ],
-      "known_relationship_company": "Saildrone",
+      "known_relationship_company": "MathWorks",
       "known_related_companies": [],
       "do_not_contact": false,
       "target": {
         "name": null,
         "role": null,
         "relation": null,
-        "target_role": "Marine autonomy or control systems technical lead at Saildrone",
-        "target_reason": "Inference: Saildrone's autonomous vessel operations are strongly related to the profile's control, navigation, simulation and autonomous-systems expertise; identifying relevant technical leads could support future networking.",
-        "target_priority": "medium",
-        "company": "Saildrone"
+        "target_role": null,
+        "target_reason": null,
+        "target_priority": null,
+        "company": "MathWorks"
       },
-      "reason": "Saildrone's post describes autonomous unmanned surface vehicles operating in extreme hurricane conditions and collecting environmental data for NOAA. This is relevant to the profile's stated interest in marine autonomy, autonomous vessel control, navigation, stabilization and control of mobile platforms. No hiring information is present.",
-      "content_angle": "Inference: Discuss how robust guidance, navigation, stabilization and sensor-validation methods can support unmanned surface vehicles operating in extreme sea states, using the post's hurricane missions as context without copying its narrative.",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514389775227801600/",
+      "reason": "The post directly concerns Simulink, model-based design, hardware configuration, optimized code generation, and prototyping of embedded applications. These technologies align strongly with the profile's flight-control, simulation, embedded-control, MATLAB/Simulink, and C/C++ experience. It provides no explicit hiring signal or named individual networking target.",
+      "content_angle": "Discuss how model-based design and optimized code generation can support verification and deployment workflows for safety-critical flight-control or other autonomous embedded systems, while noting the importance of hardware-in-the-loop testing and generated-code validation.",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7512783644453687296/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_278e012f02280d25",
+      "source_post_id": null,
+      "priority": "medium",
+      "confidence": 94,
+      "author": "Speedgoat",
+      "company": "Speedgoat",
+      "primary_action": "engage_with_post",
+      "secondary_action": "follow_person",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "engage_with_post",
+          "reason": "Create a natural context before direct outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_person",
+          "reason": "Keep the person in the observation loop.",
+          "approval_required": false
+        },
+        {
+          "action": "find_warm_path",
+          "reason": "Check shared contacts or other contextual paths before outreach.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_company",
+          "reason": "Keep company activity visible for future signals.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": false,
+        "tasks": [
+          "verify_current_role",
+          "check_company_and_relevant_team",
+          "check_shared_context_or_warm_path"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "person:patric schenk",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "MathWorks"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": "Patric Schenk",
+        "role": null,
+        "relation": "mentioned",
+        "target_role": "Speedgoat or MathWorks battery-testing technical contact",
+        "target_reason": "The post names four people associated with demonstrations and discussions of BMS, battery emulation, and HIL testing; identifying their specific technical responsibilities could reveal relevant engineering connections.",
+        "target_priority": "medium",
+        "company": "Speedgoat",
+        "profile_url": "https://www.linkedin.com/in/patric-schenk-3723664/",
+        "profile_evidence": {
+          "name": "Patric Schenk",
+          "url": "https://www.linkedin.com/in/patric-schenk-3723664/",
+          "source": "signal_person",
+          "signal_id": "sig_278e012f02280d25"
+        },
+        "profile_resolution": "resolved"
+      },
+      "reason": "The post covers Simulink-based real-time simulation, HIL testing, automated validation, fault injection, and model reuse, which align strongly with the profile's simulation, control-system, MATLAB/Simulink, and HIL experience. The battery and EV focus is adjacent to the profile's primary aerospace and UAV domains.",
+      "content_angle": "Discuss how reusable models, automated fault injection, and HIL validation workflows can reduce the gap between simulation and real-world testing of safety-critical autonomous systems, while drawing an original comparison to flight-control verification.",
+      "source_url": "https://www.linkedin.com/company/speedgoat/",
+      "analysis_engine": "rules+openai",
+      "llm": {
+        "used": true,
+        "provider": "openai",
+        "model": "gpt-5.6-luna",
+        "error": null
+      }
+    },
+    {
+      "signal_id": "sig_ccd3b0b40151a965",
+      "source_post_id": null,
+      "priority": "medium",
+      "confidence": 91,
+      "author": "Speedgoat",
+      "company": "Speedgoat",
+      "primary_action": "research_contact",
+      "secondary_action": "research_company",
+      "approval_required": false,
+      "execution_status": "READY",
+      "relationship_stage": "observe",
+      "action_plan": [
+        {
+          "action": "research_contact",
+          "reason": "A concrete person should be identified before any connection or message.",
+          "approval_required": false
+        },
+        {
+          "action": "research_company",
+          "reason": "Check the relevant team, current projects and open roles.",
+          "approval_required": false
+        },
+        {
+          "action": "follow_company",
+          "reason": "Keep company activity visible for future signals.",
+          "approval_required": false
+        },
+        {
+          "action": "review_technology",
+          "reason": "Technical project or technology is relevant to the profile.",
+          "approval_required": false
+        },
+        {
+          "action": "save_for_content",
+          "reason": "Signal may support an original expert post later.",
+          "approval_required": false
+        }
+      ],
+      "research": {
+        "needed": true,
+        "tasks": [
+          "identify_concrete_person",
+          "check_company_and_relevant_team"
+        ]
+      },
+      "drafts": {},
+      "crm_guard_applied": false,
+      "crm_guard_reason": null,
+      "crm_entity_id": "company:speedgoat",
+      "crm_status": "WATCH",
+      "crm_status_effective": "WATCH",
+      "known_relationships": [],
+      "known_relationship_company": null,
+      "known_related_companies": [
+        "MathWorks"
+      ],
+      "do_not_contact": false,
+      "target": {
+        "name": null,
+        "role": null,
+        "relation": null,
+        "target_role": "Technical lead for real-time simulation or HIL systems",
+        "target_reason": "Could be relevant for understanding Speedgoat technologies and possible future applications of the profile's simulation and control-validation expertise.",
+        "target_priority": "low",
+        "company": "Speedgoat"
+      },
+      "reason": "The post concerns real-time simulation, HIL testing, control validation, and Simulink-based workflows, which align with the profile's experience in flight-control simulation, autopilot validation, MATLAB/Simulink, and hardware-in-the-loop systems. The primary application domain is power systems and grid-connected inverters rather than aerospace or UAVs. No hiring opportunity is stated.",
+      "content_angle": "Inference: develop an original comparison of HIL validation practices across aerospace flight-control systems and grid-connected inverter controls, focusing on realistic plant modeling, requirements-based testing, and automated validation.",
+      "source_url": "https://www.linkedin.com/company/speedgoat/",
       "analysis_engine": "rules+openai",
       "llm": {
         "used": true,

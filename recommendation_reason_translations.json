@@ -695,6 +695,21 @@
       "source": "Saildrone's post describes autonomous unmanned surface vehicles operating in extreme hurricane conditions and collecting environmental data for NOAA. This is relevant to the profile's stated interest in marine autonomy, autonomous vessel control, navigation, stabilization and control of mobile platforms. No hiring information is present.",
       "ru": "В публикации Saildrone описываются автономные беспилотные надводные аппараты, работающие в экстремальных условиях урагана и собирающие данные об окружающей среде для NOAA. Это соответствует заявленному в профиле интересу к морской автономности, управлению автономными судами, навигации, стабилизации и управлению мобильными платформами. Информация о найме отсутствует.",
       "model": "gpt-5.6-luna"
+    },
+    "a1d55415e35e52292574c5ac": {
+      "source": "The post directly concerns Simulink, model-based design, hardware configuration, optimized code generation, and prototyping of embedded applications. These technologies align strongly with the profile's flight-control, simulation, embedded-control, MATLAB/Simulink, and C/C++ experience. It provides no explicit hiring signal or named individual networking target.",
+      "ru": "Публикация непосредственно посвящена Simulink, проектированию на основе моделей, конфигурации аппаратного обеспечения, оптимизированной генерации кода и прототипированию встроенных приложений. Эти технологии тесно соответствуют опыту профиля в области систем управления полётом, моделирования, встроенных систем управления, MATLAB/Simulink и C/C++. В публикации отсутствуют явные признаки найма или указание конкретного человека для установления контакта.",
+      "model": "gpt-5.6-luna"
+    },
+    "c199f4324faf464e1d28313e": {
+      "source": "The post covers Simulink-based real-time simulation, HIL testing, automated validation, fault injection, and model reuse, which align strongly with the profile's simulation, control-system, MATLAB/Simulink, and HIL experience. The battery and EV focus is adjacent to the profile's primary aerospace and UAV domains.",
+      "ru": "Публикация посвящена моделированию в реальном времени на основе Simulink, HIL-тестированию, автоматизированной валидации, инъекции отказов и повторному использованию моделей, что тесно соответствует опыту профиля в области моделирования, систем управления, MATLAB/Simulink и HIL. Тематика аккумуляторных батарей и электромобилей смежна с основными направлениями профиля — аэрокосмической отраслью и БПЛА.",
+      "model": "gpt-5.6-luna"
+    },
+    "f09c036b3d711caaa32cce00": {
+      "source": "The post concerns real-time simulation, HIL testing, control validation, and Simulink-based workflows, which align with the profile's experience in flight-control simulation, autopilot validation, MATLAB/Simulink, and hardware-in-the-loop systems. The primary application domain is power systems and grid-connected inverters rather than aerospace or UAVs. No hiring opportunity is stated.",
+      "ru": "Публикация посвящена моделированию в реальном времени, HIL-тестированию, валидации систем управления и рабочим процессам на основе Simulink, что соответствует опыту профиля в области моделирования систем управления полётом, валидации автопилотов, MATLAB/Simulink и систем hardware-in-the-loop. Основная прикладная область — электроэнергетические системы и инверторы, подключённые к сети, а не аэрокосмическая отрасль или БПЛА. Возможность трудоустройства не указана.",
+      "model": "gpt-5.6-luna"
     }
   }
 }
