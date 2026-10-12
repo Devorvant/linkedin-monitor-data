@@ -6,7 +6,13 @@ on:
     paths:
       - profi_latest.json
       - scripts/profi_monitor.py
+      - 'profi_inputs/**'
+      - scripts/profi_parser.py
+      - scripts/profi_ingest.py
+      - scripts/profi_capture_transport.py
       - tests/test_profi_monitor.py
+      - tests/test_profi_server.py
+      - tests/fixtures/profi_capture.json
       - .github/workflows/profi-monitor.yml
   workflow_dispatch:
 
@@ -28,8 +34,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Install server parser dependencies
+        run: python -m pip install --quiet beautifulsoup4 lxml
       - name: Verify history and metrics
-        run: python -m unittest discover -s tests -p 'test_profi_monitor.py'
+        run: python -m unittest discover -s tests -p 'test_profi*.py'
+      - name: Parse uploaded order cards on GitHub
+        run: python scripts/profi_ingest.py
       - name: Build snapshots and monitor
         run: python scripts/profi_monitor.py --git-backfill
       - name: Commit monitor results
@@ -38,7 +48,8 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           for attempt in 1 2 3; do
-            git add profi_current.json profi_history.json profi_pipeline_status.json history/profi
+            git add profi_latest.json profi_current.json profi_history.json profi_pipeline_status.json profi_input_state.json history/profi
+            if [ -d history/profi_parsed ]; then git add history/profi_parsed; fi
             if git diff --cached --quiet; then
               exit 0
             fi
@@ -48,6 +59,7 @@ jobs:
             fi
             git fetch origin main
             git reset --hard origin/main
+            python scripts/profi_ingest.py
             python scripts/profi_monitor.py --git-backfill
           done
           echo 'Failed to publish Profi monitor results after 3 attempts.'
