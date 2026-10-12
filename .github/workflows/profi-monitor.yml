@@ -8,6 +8,8 @@ on:
       - profile.json
       - profi_analysis_config.json
       - scripts/profi_analyzer.py
+      - scripts/profi_recommendation_history.py
+      - tests/test_profi_recommendation_history.py
       - tests/test_profi_analyzer.py
       - tests/test_profi_ui.cjs
       - tests/fixtures/profi_monitor_ui.html
@@ -52,6 +54,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/profi_analyzer.py
+      - name: Accumulate recommendation history
+        run: python scripts/profi_recommendation_history.py --git-backfill
       - name: Commit monitor results
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -60,7 +64,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           for attempt in 1 2 3; do
-            git add profi_current.json profi_history.json profi_pipeline_status.json history/profi profi_recommendations.json profi_analysis_cache.json
+            git add profi_current.json profi_history.json profi_pipeline_status.json history/profi profi_recommendations.json profi_analysis_cache.json profi_recommendation_history.json
             if git diff --cached --quiet; then
               exit 0
             fi
@@ -74,6 +78,7 @@ jobs:
             python -c 'import json, os; from pathlib import Path; p=Path("profi_analysis_cache.json"); remote=json.loads(p.read_text()) if p.exists() else {"entries":{}}; local=json.loads((Path(os.environ["RUNNER_TEMP"])/"profi-analysis-cache.json").read_text()); remote.setdefault("entries",{}).update(local.get("entries",{})); p.write_text(json.dumps(remote))'
             python scripts/profi_monitor.py --git-backfill
             python scripts/profi_analyzer.py
+            python scripts/profi_recommendation_history.py --git-backfill
           done
           echo 'Failed to publish Profi monitor results after 3 attempts.'
           exit 1
