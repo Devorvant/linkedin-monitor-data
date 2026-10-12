@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-12T14:00:38+00:00",
+  "generated_at": "2026-10-12T14:26:00+00:00",
   "runs": [
     {
       "snapshot_id": "875fd115c3af32ea",
       "date": "2026-10-12",
       "captured_at": "2026-10-12T10:11:28+03:00",
       "analyzed_at": "2026-10-12T17:00:38+03:00",
-      "ref": "main",
+      "ref": "8c6d99553b59f8b37a16c7095a07a5ab3f5b6408",
       "path": "profi_recommendations.json",
       "status": "AI",
       "orders": 89,

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "analysis_version": "profi-ai-v2-broad-engineering",
-  "generated_at": "2026-10-12T14:00:38+00:00",
-  "source_generated_at": "2026-10-12T14:00:32+00:00",
+  "generated_at": "2026-10-12T14:26:00+00:00",
+  "source_generated_at": "2026-10-12T14:26:00+00:00",
   "captured_at": "2026-10-12T10:11:28+03:00",
   "model": "gpt-5.6-luna",
   "status": "AI",
@@ -12,15 +12,11 @@
     "clarify": 39,
     "skip": 50,
     "ai_orders": 89,
-    "new_ai_orders": 1,
-    "cached_ai_orders": 88,
+    "new_ai_orders": 0,
+    "cached_ai_orders": 89,
     "preliminary_orders": 0
   },
-  "usage_this_run": {
-    "input_tokens": 2241,
-    "output_tokens": 402,
-    "total_tokens": 2643
-  },
+  "usage_this_run": {},
   "warnings": [],
   "scope_note": "Рекомендации по последнему сохранённому сбору. Оценка соответствия не является вероятностью получения заказа. Наличие заказа необходимо проверить на Profi.ru.",
   "items": [
@@ -3209,7 +3205,7 @@
       "commercial_fit": "poor",
       "confidence": "high",
       "task_kind": "engineering",
-      "analysis_source": "ai",
+      "analysis_source": "ai_cache",
       "analyzed_at": "2026-10-12T14:00:38+00:00",
       "input_hash": "c06eb3c6811193869a39e95dad3187dc2a09139461555cd46cb3a6e7950d8833",
       "recommendation_label": "Пропустить",
