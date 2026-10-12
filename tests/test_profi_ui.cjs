@@ -8,7 +8,7 @@ const orders=[{order_id:'1',title:'MATLAB',remote:true,description:'Модель
  {order_id:'2',title:'Python',remote:false,profile_fit:'medium',observed_dates:['2026-10-12']},
  {order_id:'3',title:'Другая задача',remote:true,profile_fit:'other',observed_dates:['2026-10-12']}];
 function recommendation(id,action){return {order_id:id,title:orders[Number(id)-1].title,recommendation:action,
- analysis_source:'ai',remote:orders[Number(id)-1].remote,priority_score:80,technical_fit:90,
+ analysis_source:'ai',task_kind:'engineering',remote:orders[Number(id)-1].remote,priority_score:80,technical_fit:90,
  reason:'Проверенная причина <script>alert(1)</script>',confidence:'high',budget_assessment:'Бюджет уточнить',
  format_assessment:'Формат',questions:['Вопрос?'],gaps:[],evidence:['Модель'],
  draft:action==='skip'?'':'Здравствуйте! Уточните исходные данные.'}}
@@ -17,7 +17,7 @@ const recs={source_generated_at:stamp,captured_at:capture,generated_at:stamp,sta
  items:[recommendation('1','respond'),recommendation('2','clarify'),recommendation('3','skip')]};
 async function context(recommendations=recs){
  const elements=new Map(),copied=[];const button={dataset:{id:'1'},nextElementSibling:{textContent:''}};
- const defaults={view:'current',fit:'all',remote:'all',priced:'all',sort:'fit',search:'',adviceSearch:'',adviceAction:'shortlist',adviceRemote:'all',adviceView:'current',adviceSnapshot:''};
+ const defaults={view:'current',fit:'all',remote:'all',priced:'all',sort:'fit',search:'',adviceSearch:'',adviceAction:'shortlist',adviceRemote:'all',adviceView:'current',adviceSnapshot:'',adviceLimit:'5',adviceKind:'applied'};
  function el(id){if(!elements.has(id))elements.set(id,{id,value:defaults[id]||'',textContent:'',innerHTML:'',hidden:false,disabled:false,classList:{toggle(){}},setAttribute(){},addEventListener(){}});return elements.get(id)}
  const files={'profi_current.json':{generated_at:stamp,captured_at:capture,orders,new_ids:[]},
  'profi_history.json':{generated_at:stamp,orders},'profi_pipeline_status.json':{generated_at:stamp,captured_at:capture,summary:{orders:3},daily:[],runs:[]},
@@ -62,9 +62,9 @@ async function context(recommendations=recs){
  assert.equal(vm.runInContext("adviceHistoryRows[0].recommendation",ctx),'skip');
  const preliminary=JSON.parse(JSON.stringify(recs));preliminary.status='RULES_ONLY';preliminary.summary.ai_orders=0;preliminary.summary.preliminary_orders=3;
  preliminary.items.forEach(r=>{r.analysis_source='rules';r.technical_fit=null;r.priority_score=null;r.draft=''});
- ({ctx,el}=await context(preliminary));assert.equal(el('analysisStatus').textContent,'Предварительный отбор');
+ ({ctx,el}=await context(preliminary));el('adviceLimit').value='all';el('adviceKind').value='all';vm.runInContext('renderRecommendations()',ctx);assert.equal(el('analysisStatus').textContent,'Предварительный отбор');
  assert(el('recommendationCards').innerHTML.includes('Предварительно · по словам'));
- assert(!el('recommendationCards').innerHTML.includes('Приоритет:'));
+ assert(!el('recommendationCards').innerHTML.includes('Рейтинг списка:'));assert(el('recommendationCards').innerHTML.includes('Актуальность:'));
  assert.equal(vm.runInContext("safeOrderUrl({order_id:'javascript:alert(1)'})",ctx),null);
  vm.runInContext("advicePeriod='all';$('adviceView').value='current'",ctx);
  assert.equal(vm.runInContext("adviceFresh({order_id:'1',_capture_at:'2026-10-08T10:00:00+03:00'})",ctx),false);
@@ -74,5 +74,27 @@ async function context(recommendations=recs){
  assert.equal(vm.runInContext('visibleAdvice().length',ctx),1);
  assert(el('recommendationCards').innerHTML.includes('Архивная оценка'));
  vm.runInContext("advicePeriod='3'",ctx);assert.equal(vm.runInContext('visibleAdvice().length',ctx),0);
+ ({ctx,el}=await context());
+ assert.equal(vm.runInContext("actuality({order_id:'1',_historical:true}).score",ctx),null);
+ assert.equal(vm.runInContext("actuality({order_id:'1',_capture_at:'2026-10-09T12:00:00Z'}).score",ctx),0);
+ assert.equal(vm.runInContext("actuality({order_id:'1',_capture_at:'2030-01-01T00:00:00Z'}).score",ctx),null);
+ const freshScore=vm.runInContext("actuality({order_id:'1',_capture_at:'2026-10-12T11:00:00Z',first_seen:'2026-10-12T10:00:00Z'}).score",ctx);
+ const oldScore=vm.runInContext("actuality({order_id:'1',_capture_at:'2026-10-12T11:00:00Z',first_seen:'2026-09-01T10:00:00Z'}).score",ctx);
+ assert(freshScore>oldScore);assert(oldScore>0);
+ vm.runInContext("recommendations.items=Array.from({length:12},(_,i)=>({...recommendations.items[0],order_id:String(i+1),technical_fit:95-i,first_seen:'2026-10-12T10:00:00Z'}));current.orders=recommendations.items.map(r=>({...r,posted_at:null}));$('adviceLimit').value='5'",ctx);
+ assert.equal(vm.runInContext('visibleAdvice().length',ctx),5);
+ assert.equal(vm.runInContext('visibleAdvice()[0].order_id',ctx),'1');
+ el('adviceLimit').value='10';assert.equal(vm.runInContext('visibleAdvice().length',ctx),10);
+ el('adviceLimit').value='all';assert.equal(vm.runInContext('visibleAdvice().length',ctx),12);
+ vm.runInContext("recommendations.items[0].task_kind='teaching';$('adviceLimit').value='5'",ctx);
+ assert.notEqual(vm.runInContext('visibleAdvice()[0].order_id',ctx),'1');
+ el('adviceKind').value='teaching';assert.equal(vm.runInContext('visibleAdvice().length',ctx),1);
+ el('adviceKind').value='all';assert.equal(vm.runInContext('visibleAdvice().length',ctx),5);
+ vm.runInContext("recommendations.items[0].recommendation='clarify';recommendations.items[0].budget=null",ctx);
+ assert.equal(vm.runInContext('visibleAdvice()[0].order_id',ctx),'1');
+ vm.runInContext("recommendations.items[0].technical_fit=null;recommendations.items[0].analysis_source='rules'",ctx);
+ assert.notEqual(vm.runInContext('visibleAdvice()[0].order_id',ctx),'1');
+ vm.runInContext("current.orders[1].posted_at='2026-10-01';recommendations.items[1].first_seen='2026-10-12T10:00:00Z'",ctx);
+ assert(vm.runInContext("actuality(recommendations.items[1]).reason.includes('по дате публикации')",ctx));
  console.log('Recommendation UI passed: filter, provenance, freshness, escaping, safe URLs, manual copy, missing API/data and tabs.');
 })().catch(e=>{console.error(e);process.exitCode=1});
