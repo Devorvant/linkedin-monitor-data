@@ -1,7 +1,7 @@
-"""Stable Windows launcher: download the current capture code and run it.
+"""Stable Windows launcher: download the collector/parser and run it on the PC.
 
-Place this file beside github_token.txt and saved_pages. Order fields are parsed
-in GitHub Actions. All downloaded modules come from one pinned repository commit.
+Place this file beside github_token.txt and saved_pages. MHTML is parsed on the
+PC; JSON goes to GitHub for history and metrics. Code comes from a pinned commit.
 """
 from __future__ import annotations
 
@@ -37,19 +37,14 @@ def main() -> int:
         raise RuntimeError("Некорректная версия кода GitHub.")
     cache = ROOT / "cache"
     cache.mkdir(parents=True, exist_ok=True)
-    modules = []
-    for remote, local in (("profi_capture_transport.py", "profi_capture_transport.py"),
-                          ("profi_capture_worker.py", "profi_capture_worker_runtime.py")):
-        source = download("https://raw.githubusercontent.com/" + REPOSITORY + "/" + commit + "/scripts/" + remote)
-        compile(source.decode("utf-8"), local, "exec")
-        modules.append((cache / local, source))
-    # Validate both modules before replacing either cached source.
-    for path, source in modules:
-        temporary = path.with_suffix(".tmp")
-        temporary.write_bytes(source)
-        temporary.replace(path)
+    source = download("https://raw.githubusercontent.com/" + REPOSITORY + "/" + commit + "/scripts/profi_worker_unified.py")
+    worker = cache / "profi_worker_unified_runtime.py"
+    compile(source.decode("utf-8"), str(worker), "exec")
+    temporary = worker.with_suffix(".tmp")
+    temporary.write_bytes(source)
+    temporary.replace(worker)
     print("Profi.ru: текущая версия " + commit[:8])
-    command = [sys.executable, str(cache / "profi_capture_worker_runtime.py"),
+    command = [sys.executable, str(worker),
                "--root", str(ROOT), *sys.argv[1:]]
     return subprocess.run(command, cwd=str(ROOT), check=False).returncode
 

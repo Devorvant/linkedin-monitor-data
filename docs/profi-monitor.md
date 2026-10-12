@@ -2,59 +2,46 @@
 
 Page: https://devorvant.ru/profi-monitor.html
 
-Launch `profi_worker_entry.py` on Windows. It downloads the capture worker and
-its transport module from the same current GitHub commit. Existing credentials
-and folders stay beside the launcher; capture, rename and window-close behavior
-are retained.
+The architecture matches LinkedIn:
 
-The PC saves the complete MHTML locally and uploads only card HTML and capture
-metadata to `profi_inputs/YYYY-MM-DD/<capture_id>.json`. It does not parse order
-fields. Backoffice navigation, scripts, images and unrelated account controls
-are excluded from the transmitted document.
+1. `profi_worker_entry.py` downloads the current `scripts/profi_worker_unified.py`
+   from one pinned GitHub commit into the PC's `cache` folder.
+2. The worker runs on the Windows PC: scroll, save MHTML, rename, close Chrome,
+   parse order cards locally and upload `profi_latest.json`.
+3. GitHub Actions updates snapshots, first/last observations and metrics.
+4. The website reads `profi_current.json`, `profi_history.json` and
+   `profi_pipeline_status.json`.
 
-GitHub Actions runs `scripts/profi_ingest.py` and `scripts/profi_parser.py`,
-creates `profi_latest.json` and parsed archives, then updates history and metrics.
-Changing the server parser reparses stored HTML automatically; it requires no
-replacement of files on the PC. The launcher also gets Windows-worker updates
-automatically at the next run.
+Place the launcher beside the existing `saved_pages`, `reports` and
+`github_token.txt`. Run `python profi_worker_entry.py` or add `-a`.
+Existing coordinate options are forwarded, e.g. `--close-y 0.02`.
+`--parse-only saved_pages/your_capture.mhtml` sends a parsed JSON report from an
+existing local MHTML without opening Chrome.
 
-CLI: `python profi_worker_entry.py` (or `-a`). To send an already saved file:
-`python profi_worker_entry.py --upload-only saved_pages/your_capture.mhtml`.
+The complete MHTML and card HTML stay on the PC. Only the existing structured
+JSON report is uploaded, as with the earlier v4 collector. Old launchers which
+request `profi_capture_worker.py` are kept compatible with the same local parser.
+Server-side raw-HTML ingest is no longer wired into the workflow.
 
-The workflow builds:
+History:
 
-- `history/profi_parsed/YYYY-MM-DD/<capture_id>.json`: server-parsed reports.
-- `profi_input_state.json`: source checksums and parser fingerprint.
-- `profi_current.json`: orders from the newest saved capture and profile tags.
+- `history/profi/YYYY-MM-DD/<scan_id>.json`: normalized saved JSON snapshots.
 - `profi_history.json`: first/last observation, scan count, observed dates by ID.
-- `profi_pipeline_status.json`: latest metrics, daily unique counts and run list.
-- `history/profi/YYYY-MM-DD/<scan_id>.json`: individual capture snapshots.
+- `profi_current.json`: newest capture and explained profile-keyword tags.
+- `profi_pipeline_status.json`: metrics, daily unique counts and run list.
 
-Older uploads are recovered from the Git history of `profi_latest.json` so CI
-does not lose a capture uploaded between runs. A reparse of the collector's
-same timestamped file replaces its snapshot and does not add another scan.
-Empty/invalid latest inputs fail before replacing existing results.
+Git backfill recovers earlier `profi_latest.json` uploads between CI runs.
+Reparsing the same timestamped file updates one snapshot, without adding another
+scan. Moscow time is used for daily boundaries. First observed is not the
+customer's publication time; absence in a later scan does not establish closure.
 
-Dates and daily boundaries use Moscow time. First observed means the first
-appearance in our captures, not the customer's publication time. Absence in a
-later capture does not establish that an order was closed. Daily counts are
-unique IDs across that day's saved captures; days without captures are gaps.
+The profile tags use explained keyword rules and require manual review.
+Price bounds and units are preserved; hourly prices are not averaged with project
+prices. Invalid/empty parser results leave the previous JSON intact.
 
-Profile marks are transparent keyword rules for controls, modeling, embedded
-systems, engineering and adjacent data tasks. They are not a probability or
-an AI assessment. Budgets retain upper/lower bounds and units; hourly prices
-are not averaged with project prices.
-
-Older collector reports remain readable and carry a visible parser warning.
-Use the new launcher for corrected server-side carousel/price extraction.
-
-Local checks:
+Checks:
 
 ```sh
-python -m unittest discover -s tests -p 'test_profi_monitor.py'
-python scripts/profi_ingest.py
+python -m unittest discover -s tests -p 'test_profi*.py'
 python scripts/profi_monitor.py --git-backfill
 ```
-
-Public capture uploads are disabled pending explicit authorization for order-card
-contents in the public repository. Server tests use synthetic inputs only.
