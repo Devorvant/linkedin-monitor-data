@@ -18,6 +18,11 @@ from urllib.request import Request, urlopen
 from profi_monitor import classify, read_json, write_json
 
 VERSION = 'profi-ai-v2-broad-engineering'
+
+
+class AIValidationError(ValueError):
+    """Safe fixed diagnostics; never includes the model payload."""
+    pass
 ACTIONS = {'respond': 'Откликнуться', 'clarify': 'Уточнить условия', 'skip': 'Пропустить'}
 INPUT_FIELDS = ('order_id', 'title', 'description', 'remote', 'location', 'schedule',
                 'budget', 'budget_min_rub', 'budget_max_rub', 'budget_kind', 'budget_unit',
@@ -114,7 +119,7 @@ def call_openai(rows, profile, model, api_key, timeout):
     except (URLError, TimeoutError, OSError):
         raise RuntimeError('OpenAI network/timeout error') from None
     if result.get('status') != 'completed':
-        raise ValueError('OpenAI response incomplete or refused')
+        raise AIValidationError('OpenAI response incomplete or refused')
     texts = [part.get('text', '') for item in result.get('output', [])
              for part in item.get('content', []) if part.get('type') == 'output_text']
     return json.loads(''.join(texts)), result.get('usage') or {}
@@ -122,34 +127,34 @@ def call_openai(rows, profile, model, api_key, timeout):
 
 def validate_batch(payload, rows):
     if not isinstance(payload, dict) or not isinstance(payload.get('items'), list):
-        raise ValueError('AI items array missing')
+        raise AIValidationError('AI items array missing')
     expected = {str(r['order_id']): order_input(r) for r in rows}
     result = {}
     props = schema()['properties']['items']['items']['properties']
     for item in payload['items']:
         if not isinstance(item, dict) or set(item) != set(props):
-            raise ValueError('AI fields do not match schema')
+            raise AIValidationError('AI fields do not match schema')
         ident = item['order_id']
         if not isinstance(ident, str) or ident not in expected or ident in result:
-            raise ValueError('Unknown or duplicate AI order ID')
+            raise AIValidationError('Unknown or duplicate AI order ID')
         if type(item['technical_fit']) is not int or not 0 <= item['technical_fit'] <= 100:
-            raise ValueError('Invalid technical fit')
+            raise AIValidationError('Invalid technical fit')
         for key, rule in props.items():
             if 'enum' in rule and item[key] not in rule['enum']:
-                raise ValueError('Invalid AI enum: ' + key)
+                raise AIValidationError('Invalid AI enum: ' + key)
             if rule['type'] == 'string' and (not isinstance(item[key], str) or len(item[key]) > 1600):
-                raise ValueError('Invalid AI text: ' + key)
+                raise AIValidationError('Invalid AI text: ' + key)
             if rule['type'] == 'array' and (not isinstance(item[key], list) or len(item[key]) > 5
                     or any(not isinstance(t, str) or not t or len(t) > 400 for t in item[key])):
-                raise ValueError('Invalid AI list: ' + key)
+                raise AIValidationError('Invalid AI list: ' + key)
         if not item['reason'].strip() or not item['evidence']:
-            raise ValueError('AI reason/evidence missing')
+            raise AIValidationError('AI reason/evidence missing')
         card = expected[ident]['title'] + ' ' + expected[ident]['description']
         if any(e not in card for e in item['evidence']):
-            raise ValueError('AI evidence is not present in the order')
+            raise AIValidationError('AI evidence is not present in the order')
         result[ident] = dict(item)
     if set(result) != set(expected):
-        raise ValueError('AI omitted order IDs')
+        raise AIValidationError('AI omitted order IDs')
     return result
 
 
@@ -247,6 +252,9 @@ def analyze(current, profile, config, cache=None, api_key='', caller=call_openai
         try:
             payload, batch_usage = caller(batch, context, model, api_key,
                 min(max(5, int(config.get('request_timeout_seconds', 75))), remaining))
+            for k in ('input_tokens', 'output_tokens', 'total_tokens'):
+                if type(batch_usage.get(k)) is int:
+                    usage[k] += batch_usage[k]
             verified = validate_batch(payload, batch)
             now = datetime.now(timezone.utc).isoformat(timespec='seconds')
             for row in batch:
@@ -255,14 +263,11 @@ def analyze(current, profile, config, cache=None, api_key='', caller=call_openai
                 advice = verified[ident]
                 cached[key] = {'advice': advice, 'analyzed_at': now, 'order_id': ident}
                 results[ident] = {**advice, 'analysis_source': 'ai', 'analyzed_at': now, 'input_hash': key}
-            for k in ('input_tokens', 'output_tokens', 'total_tokens'):
-                if type(batch_usage.get(k)) is int:
-                    usage[k] += batch_usage[k]
             failures = 0
         except Exception as error:
             # Do not publish payloads, credentials or HTTP response bodies in diagnostics.
             failures += 1
-            detail = str(error) if re.fullmatch(r'OpenAI HTTP \d+|OpenAI network/timeout error', str(error)) else ''
+            detail = str(error) if isinstance(error, AIValidationError) else str(error) if re.fullmatch(r'OpenAI HTTP \d+|OpenAI network/timeout error', str(error)) else ''
             errors.append('Batch analysis failed: ' + type(error).__name__ + (' (' + detail + ')' if detail else ''))
     no_ai_reason = ('ИИ-анализ отключён в настройках.' if not enabled else
                     'API-ключ не доступен: предварительная оценка по словам.' if not api_key else
