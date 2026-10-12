@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T13:05:15+00:00",
+  "generated_at": "2026-10-12T13:19:12+00:00",
   "status": "OK",
   "captured_at": "2026-10-12T10:11:28+03:00",
   "parser_version": "legacy",
@@ -35,13 +35,13 @@
       "remote_orders": 65,
       "with_budget": 51,
       "profile_relevant": 30,
-      "high_fit": 3,
+      "high_fit": 4,
       "categories": {
-        "embedded": 3,
+        "embedded": 4,
         "other": 38,
         "ai_data": 4,
         "software": 10,
-        "engineering": 23,
+        "engineering": 22,
         "education": 38
       }
     },
