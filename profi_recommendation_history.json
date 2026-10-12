@@ -1,0 +1,90 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-10-12T14:00:38+00:00",
+  "runs": [
+    {
+      "snapshot_id": "875fd115c3af32ea",
+      "date": "2026-10-12",
+      "captured_at": "2026-10-12T10:11:28+03:00",
+      "analyzed_at": "2026-10-12T17:00:38+03:00",
+      "ref": "main",
+      "path": "profi_recommendations.json",
+      "status": "AI",
+      "orders": 89,
+      "ai_orders": 89,
+      "respond": 0,
+      "clarify": 39,
+      "skip": 50
+    },
+    {
+      "snapshot_id": "5ff9e820a3c560fa",
+      "date": "2026-10-12",
+      "captured_at": "2026-10-12T10:11:28+03:00",
+      "analyzed_at": "2026-10-12T16:33:33+03:00",
+      "ref": "55e2ec1fac61daf8a03a2f036418ec5bc71b73f6",
+      "path": "profi_recommendations.json",
+      "status": "PARTIAL",
+      "orders": 89,
+      "ai_orders": 88,
+      "respond": 0,
+      "clarify": 39,
+      "skip": 50
+    },
+    {
+      "snapshot_id": "f662d905231191a7",
+      "date": "2026-10-12",
+      "captured_at": "2026-10-12T10:11:28+03:00",
+      "analyzed_at": "2026-10-12T16:26:21+03:00",
+      "ref": "47ab287f2a25db752c2d043fb81689f396466094",
+      "path": "profi_recommendations.json",
+      "status": "PARTIAL",
+      "orders": 89,
+      "ai_orders": 48,
+      "respond": 0,
+      "clarify": 19,
+      "skip": 70
+    },
+    {
+      "snapshot_id": "09ca3dd3a70e7f90",
+      "date": "2026-10-12",
+      "captured_at": "2026-10-12T10:11:28+03:00",
+      "analyzed_at": "2026-10-12T16:19:56+03:00",
+      "ref": "0b10521661145c924b6acbb7327a4b732f5d3d22",
+      "path": "profi_recommendations.json",
+      "status": "RULES_ONLY",
+      "orders": 89,
+      "ai_orders": 0,
+      "respond": 0,
+      "clarify": 22,
+      "skip": 67
+    },
+    {
+      "snapshot_id": "b9e638ac69709921",
+      "date": "2026-10-12",
+      "captured_at": "2026-10-12T10:11:28+03:00",
+      "analyzed_at": "2026-10-12T16:05:15+03:00",
+      "ref": "9495c6aa3f02df0962f08da673b867d2a5e68a30",
+      "path": "profi_recommendations.json",
+      "status": "RULES_ONLY",
+      "orders": 89,
+      "ai_orders": 0,
+      "respond": 0,
+      "clarify": 22,
+      "skip": 67
+    }
+  ],
+  "summary": {
+    "snapshots": 5,
+    "unique_orders": 89,
+    "days": 1,
+    "first_capture": "2026-10-12T10:11:28+03:00",
+    "last_capture": "2026-10-12T10:11:28+03:00"
+  },
+  "daily": [
+    {
+      "date": "2026-10-12",
+      "unique_orders": 89
+    }
+  ],
+  "scope_note": "Индекс уже опубликованных версий файла в Git. Архив не подтверждает, что заказ открыт."
+}
