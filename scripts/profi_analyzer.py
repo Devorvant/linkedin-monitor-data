@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 import re
 import time
+import unicodedata
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 from profi_monitor import classify, read_json, write_json
@@ -125,6 +126,24 @@ def call_openai(rows, profile, model, api_key, timeout):
     return json.loads(''.join(texts)), result.get('usage') or {}
 
 
+def anchored_quote(quote, card):
+    """Allow case/spacing/punctuation changes, but return the actual source span."""
+    if quote in card:
+        return quote
+    pattern = r'[A-Za-z]+(?:\+\+|#)?|\w+'
+    normalize = lambda t: unicodedata.normalize('NFKC', t).casefold().replace('ё', 'е')
+    needle = [normalize(m.group()) for m in re.finditer(pattern, quote)]
+    matches = list(re.finditer(pattern, card))
+    words = [normalize(m.group()) for m in matches]
+    if not needle:
+        return None
+    for i in range(len(words) - len(needle) + 1):
+        if words[i:i + len(needle)] == needle:
+            actual = card[matches[i].start():matches[i + len(needle) - 1].end()]
+            return actual if len(actual) <= 400 else None
+    return None
+
+
 def validate_batch(payload, rows):
     if not isinstance(payload, dict) or not isinstance(payload.get('items'), list):
         raise AIValidationError('AI items array missing')
@@ -149,13 +168,34 @@ def validate_batch(payload, rows):
                 raise AIValidationError('Invalid AI list: ' + key)
         if not item['reason'].strip() or not item['evidence']:
             raise AIValidationError('AI reason/evidence missing')
-        card = expected[ident]['title'] + ' ' + expected[ident]['description']
-        if any(e not in card for e in item['evidence']):
+        card = ' '.join(expected[ident].get(k) or '' for k in ('title', 'description', 'budget', 'location', 'schedule'))
+        anchors = list(dict.fromkeys(a for e in item['evidence'] if (a := anchored_quote(e, card))))
+        if not anchors:
             raise AIValidationError('AI evidence is not present in the order')
-        result[ident] = dict(item)
+        result[ident] = {**item, 'evidence': anchors[:3]}
     if set(result) != set(expected):
         raise AIValidationError('AI omitted order IDs')
     return result
+
+
+def validate_partial_batch(payload, rows):
+    if not isinstance(payload, dict) or not isinstance(payload.get('items'), list):
+        raise AIValidationError('AI items array missing')
+    expected = {str(r['order_id']): r for r in rows}
+    seen, verified, rejected = set(), {}, 0
+    for item in payload['items']:
+        ident = item.get('order_id') if isinstance(item, dict) else None
+        if not isinstance(ident, str) or ident not in expected or ident in seen:
+            raise AIValidationError('Unknown or duplicate AI order ID')
+        seen.add(ident)
+        try:
+            verified.update(validate_batch({'items': [item]}, [expected[ident]]))
+        except AIValidationError:
+            rejected += 1
+    rejected += len(set(expected) - seen)
+    if not verified:
+        raise AIValidationError('No AI items passed individual validation')
+    return verified, rejected
 
 
 def preliminary(row, reason):
@@ -255,10 +295,14 @@ def analyze(current, profile, config, cache=None, api_key='', caller=call_openai
             for k in ('input_tokens', 'output_tokens', 'total_tokens'):
                 if type(batch_usage.get(k)) is int:
                     usage[k] += batch_usage[k]
-            verified = validate_batch(payload, batch)
+            verified, rejected = validate_partial_batch(payload, batch)
+            if rejected:
+                errors.append(f'{rejected} AI items rejected by validation; valid items retained.')
             now = datetime.now(timezone.utc).isoformat(timespec='seconds')
             for row in batch:
                 ident = str(row['order_id'])
+                if ident not in verified:
+                    continue
                 key = fingerprint(row, context, model)
                 advice = verified[ident]
                 cached[key] = {'advice': advice, 'analyzed_at': now, 'order_id': ident}

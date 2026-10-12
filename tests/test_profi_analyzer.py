@@ -94,6 +94,23 @@ class AnalyzerTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 ai.validate_batch({'items': items}, [row()])
 
+    def test_quotes_restore_real_source_span_without_inventing_words(self):
+        card = 'Модель MATLAB:\nСбор\u00a0данных — температура. Язык C++.'
+        self.assertEqual(ai.anchored_quote('сбор данных, температура', card), 'Сбор\u00a0данных — температура')
+        self.assertIsNone(ai.anchored_quote('Управление двигателем', card))
+        self.assertIsNone(ai.anchored_quote('Язык C#', card))
+
+    def test_bad_quote_does_not_discard_supported_quote(self):
+        result = ai.validate_batch({'items': [advice(row(), evidence=['Invented quote', 'Моделирование в MATLAB'])]}, [row()])
+        self.assertEqual(result['123']['evidence'], ['Моделирование в MATLAB'])
+
+    def test_bad_item_does_not_discard_valid_item_in_batch(self):
+        rows = [row('123'), row('124')]
+        verified, rejected = ai.validate_partial_batch({'items': [advice(rows[0]),
+            advice(rows[1], evidence=['Invented quote'])]}, rows)
+        self.assertEqual(set(verified), {'123'})
+        self.assertEqual(rejected, 1)
+
     def test_api_failure_does_not_poison_cache_or_abort_history(self):
         call = Mock(side_effect=RuntimeError('do not publish synthetic-secret'))
         rows = [row(str(i)) for i in range(5)]
