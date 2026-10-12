@@ -12,5 +12,14 @@
   "github_repo": "Devorvant/linkedin-monitor-data",
   "github_branch": "main",
   "remote_log_path": "logs/dispatcher_latest.log",
-  "remote_status_path": "dispatcher_status.json"
+  "remote_status_path": "dispatcher_status.json",
+  "profi_after_linkedin": {
+    "enabled": true,
+    "delay_seconds": 60,
+    "timeout_seconds": 300,
+    "min_remaining_seconds": 120
+  },
+  "linkedin_timeout_seconds": 900,
+  "actions_timeout_seconds": 180,
+  "worker_timeout_seconds": 1200
 }

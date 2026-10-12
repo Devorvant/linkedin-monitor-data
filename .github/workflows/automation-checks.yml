@@ -1,0 +1,27 @@
+name: Verify LinkedIn Profi dispatcher
+on:
+  push:
+    branches: [main]
+    paths:
+      - control.json
+      - scripts/automation_runtime.py
+      - scripts/linkedin_worker_entry.py
+      - scripts/dispatcher_v4_linkedin_profi.py
+      - tests/test_automation_chain.py
+      - .github/workflows/automation-checks.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check chain, failures, timeout and shutdown mocks
+        run: python -m unittest discover -s tests -p 'test_automation*.py' -v
