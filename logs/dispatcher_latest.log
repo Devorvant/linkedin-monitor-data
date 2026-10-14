@@ -1,33 +1,30 @@
 === DISPATCHER ===
-[2026-10-13 08:05:55] Dispatcher запущен.
-[2026-10-13 08:05:57] control.json загружен с GitHub.
-[2026-10-13 08:05:57] Ожидание START: 2026-10-13 08:10
-[2026-10-13 08:06:27] Ожидание START: 2026-10-13 08:10
-[2026-10-13 08:07:27] Ожидание START: 2026-10-13 08:10
-[2026-10-13 08:08:27] Ожидание START: 2026-10-13 08:10
-[2026-10-13 08:09:27] Ожидание START: 2026-10-13 08:10
-[2026-10-13 08:10:00] START: время наступило.
-[2026-10-13 08:10:00] control.json загружен с GitHub.
-[2026-10-13 08:10:00] Скачиваю worker: https://raw.githubusercontent.com/Devorvant/linkedin-monitor-data/main/scripts/linkedin_worker_entry.py
-[2026-10-13 08:10:00] Worker сохранён: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\linkedin_worker_entry.py
-[2026-10-13 08:10:00] Запускаю worker через: H:\Users\kusc\AppData\Local\Programs\Python\Python311\python.exe
-[2026-10-13 08:16:22] Worker завершился с кодом: 0
+[2026-10-14 08:05:54] Dispatcher запущен.
+[2026-10-14 08:05:55] control.json загружен с GitHub.
+[2026-10-14 08:05:55] Ожидание START: 2026-10-14 08:10
+[2026-10-14 08:06:25] Ожидание START: 2026-10-14 08:10
+[2026-10-14 08:07:25] Ожидание START: 2026-10-14 08:10
+[2026-10-14 08:08:25] Ожидание START: 2026-10-14 08:10
+[2026-10-14 08:09:25] Ожидание START: 2026-10-14 08:10
+[2026-10-14 08:10:00] START: время наступило.
+[2026-10-14 08:10:00] control.json загружен с GitHub.
+[2026-10-14 08:10:00] Скачиваю worker: https://raw.githubusercontent.com/Devorvant/linkedin-monitor-data/main/scripts/linkedin_worker_entry.py
+[2026-10-14 08:10:01] Worker сохранён: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\linkedin_worker_entry.py
+[2026-10-14 08:10:01] Запускаю worker через: H:\Users\kusc\AppData\Local\Programs\Python\Python311\python.exe
+[2026-10-14 08:16:04] Worker завершился с кодом: 0
 
 
 === WORKER ===
-[2026-10-13 08:10:01] Independent Windows FINISH timer: exit=0
-Cleanup: removed linkedin_feed_2026-10-12_08-10-50.mhtml
-Cleanup: removed linkedin_jobs_2026-10-12_08-11-55.mhtml
-Cleanup: removed linkedin_notifications_2026-10-12_08-13-00.mhtml
-Cleanup saved_pages: removed=3, failed=0
+[2026-10-14 08:10:01] Independent Windows FINISH timer: exit=0
+Cleanup saved_pages: removed=0, failed=0
 Downloaded: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\automation_runtime.py
 Downloaded: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\linkedin_worker_unified_runtime.py
-[2026-10-13 08:10:02] linkedin: started PID 14180
-[2026-10-13 08:13:51] linkedin: ok, exit=0
+[2026-10-14 08:10:02] linkedin: started PID 12392
+[2026-10-14 08:13:34] linkedin: ok, exit=0
 Downloaded: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\action_executor_runtime.py
-[2026-10-13 08:13:59] actions: started PID 16712
-[2026-10-13 08:14:01] actions: ok, exit=0
-[2026-10-13 08:14:01] LinkedIn stages finished. Pause before Profi.ru: 60 seconds
+[2026-10-14 08:13:42] actions: started PID 13268
+[2026-10-14 08:13:43] actions: ok, exit=0
+[2026-10-14 08:13:43] LinkedIn stages finished. Pause before Profi.ru: 60 seconds
 Downloaded: H:\Users\kusc\AppData\Local\Programs\Python\Python311\linkedin_desktop_automation\cache\profi_worker_entry_runtime.py
-[2026-10-13 08:15:01] profi: started PID 12636
-[2026-10-13 08:16:22] profi: ok, exit=0
+[2026-10-14 08:14:44] profi: started PID 7480
+[2026-10-14 08:16:04] profi: ok, exit=0
