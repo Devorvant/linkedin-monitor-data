@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "source": {
-    "filename": "linkedin_combined_report_2026-10-23_08-13-46.xlsx",
-    "full_path": "H:\\Users\\kusc\\AppData\\Local\\Programs\\Python\\Python311\\linkedin_desktop_automation\\reports\\linkedin_combined_report_2026-10-23_08-13-46.xlsx",
-    "modified_at": "2026-10-23T08:13:46",
-    "converted_at": "2026-10-23T08:13:46"
+    "filename": "linkedin_combined_report_2026-10-24_08-13-29.xlsx",
+    "full_path": "H:\\Users\\kusc\\AppData\\Local\\Programs\\Python\\Python311\\linkedin_desktop_automation\\reports\\linkedin_combined_report_2026-10-24_08-13-29.xlsx",
+    "modified_at": "2026-10-24T08:13:29",
+    "converted_at": "2026-10-24T08:13:29"
   },
   "sheet_order": [
     "Summary",
@@ -33,14 +33,14 @@
         {
           "section": "Jobs",
           "records": 0,
-          "source_report": null,
-          "status": "не найден"
+          "source_report": "linkedin_jobs_report_2026-10-24_08-12-15.csv",
+          "status": "OK"
         },
         {
           "section": "Notifications",
           "records": 0,
-          "source_report": null,
-          "status": "не найден"
+          "source_report": "linkedin_notifications_report_2026-10-24_08-13-20.csv",
+          "status": "OK"
         }
       ],
       "raw_values": [
@@ -59,14 +59,14 @@
         [
           "Jobs",
           0,
-          null,
-          "не найден"
+          "linkedin_jobs_report_2026-10-24_08-12-15.csv",
+          "OK"
         ],
         [
           "Notifications",
           0,
-          null,
-          "не найден"
+          "linkedin_notifications_report_2026-10-24_08-13-20.csv",
+          "OK"
         ]
       ],
       "formulas": {},
@@ -93,14 +93,30 @@
     "Jobs": {
       "title": "Jobs",
       "max_row": 1,
-      "max_column": 1,
+      "max_column": 9,
       "columns": [
-        "column_1"
+        "type",
+        "job_id",
+        "title",
+        "company",
+        "location",
+        "url",
+        "source_file",
+        "collected_at",
+        "text"
       ],
       "records": [],
       "raw_values": [
         [
-          null
+          "type",
+          "job_id",
+          "title",
+          "company",
+          "location",
+          "url",
+          "source_file",
+          "collected_at",
+          "text"
         ]
       ],
       "formulas": {},
@@ -110,14 +126,30 @@
     "Notifications": {
       "title": "Notifications",
       "max_row": 1,
-      "max_column": 1,
+      "max_column": 9,
       "columns": [
-        "column_1"
+        "type",
+        "job_id",
+        "title",
+        "company",
+        "location",
+        "url",
+        "source_file",
+        "collected_at",
+        "text"
       ],
       "records": [],
       "raw_values": [
         [
-          null
+          "type",
+          "job_id",
+          "title",
+          "company",
+          "location",
+          "url",
+          "source_file",
+          "collected_at",
+          "text"
         ]
       ],
       "formulas": {},
