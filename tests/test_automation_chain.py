@@ -110,7 +110,7 @@ class RunnerTests(unittest.TestCase):
 
 
 class ChainTests(unittest.TestCase):
-    def chain(self, failures=None, safe=True, pause_ok=True, secret=True, device='2', download_error=False):
+    def chain(self, failures=None, safe=True, pause_ok=True, secret=True, device='2', download_error=False, cfg=None):
         calls = []
         failures = failures or {}
         class FakeRunner:
@@ -135,7 +135,7 @@ class ChainTests(unittest.TestCase):
              patch.object(entry, 'detect_executor_device', return_value=device), \
              patch.dict(os.environ, {'DISPATCHER_MANAGED': '0'}), \
              patch.object(sys, 'argv', ['entry.py', '-a']):
-            code = entry.execute_chain(fake, CFG, FINISH, status)
+            code = entry.execute_chain(fake, CFG if cfg is None else cfg, FINISH, status)
         return code, status, calls
 
     def test_sequence_and_one_minute_delay(self):
@@ -144,6 +144,28 @@ class ChainTests(unittest.TestCase):
         self.assertEqual([(x[0], x[1]) for x in calls], [('stage', 'linkedin'), ('pause', 7),
                          ('stage', 'actions'), ('pause', 60), ('stage', 'profi')])
         self.assertEqual(calls[-1][2][-1], '-a')
+
+    def test_paused_linkedin_runs_only_profi_without_delay(self):
+        code, status, calls = self.chain(
+            {'actions': 7}, download_error=True, cfg={**CFG, 'linkedin_enabled': False})
+        self.assertEqual(code, 0)
+        self.assertEqual([(x[0], x[1]) for x in calls], [('pause', 0), ('stage', 'profi')])
+        self.assertEqual([x['state'] for x in status['stages'][:2]], ['disabled', 'disabled'])
+        self.assertEqual(status['profi_delay_seconds'], 0)
+        self.assertEqual(calls[-1][2][-1], '-a')
+
+    def test_paused_linkedin_still_reports_profi_failure(self):
+        code, status, calls = self.chain(
+            {'profi': 7}, secret=False, cfg={**CFG, 'linkedin_enabled': False})
+        self.assertEqual(code, 7)
+        self.assertEqual(status['stages'][-1]['stage'], 'profi')
+        self.assertEqual(status['stages'][-1]['state'], 'error')
+
+    def test_reenabled_linkedin_restores_full_sequence(self):
+        code, status, calls = self.chain(cfg={**CFG, 'linkedin_enabled': True})
+        self.assertEqual(code, 0)
+        self.assertEqual([(x[0], x[1]) for x in calls], [('stage', 'linkedin'), ('pause', 7),
+                         ('stage', 'actions'), ('pause', 60), ('stage', 'profi')])
 
     def test_linkedin_failure_skips_actions_but_allows_safe_profi(self):
         code, status, calls = self.chain({'linkedin': 3})

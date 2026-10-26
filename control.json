@@ -1,5 +1,6 @@
 {
   "enabled": true,
+  "linkedin_enabled": false,
   "schedule": {
     "start_time": "8:10",
     "finish_time": "8:20"

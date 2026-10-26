@@ -153,6 +153,8 @@ def executor_secret_available() -> bool:
 
 
 def execute_chain(runtime, cfg, finish_at, status):
+    linkedin_enabled = cfg.get("linkedin_enabled", True)
+    status["linkedin_enabled"] = linkedin_enabled
     options = cfg.get("profi_after_linkedin", {})
     if isinstance(options, bool):
         options = {"enabled": options}
@@ -178,19 +180,27 @@ def execute_chain(runtime, cfg, finish_at, status):
         write_chain_status(status)
         return result
 
-    linkedin = stage("linkedin", WORKER_URL, RUNTIME_WORKER, sys.argv[1:],
-                     cfg.get("linkedin_timeout_seconds", 900))
-    safe = linkedin.get("safe_to_continue", True)
-    if linkedin["exit_code"] == 0 and executor_secret_available():
-        if runtime.pause_before_stage(7, finish_at, logger=log):
-            actions = stage("actions", EXECUTOR_URL, RUNTIME_EXECUTOR,
-                            ["--device", detect_executor_device()], cfg.get("actions_timeout_seconds", 180))
-            safe = safe and actions.get("safe_to_continue", True)
+    safe = True
+    if linkedin_enabled:
+        linkedin = stage("linkedin", WORKER_URL, RUNTIME_WORKER, sys.argv[1:],
+                         cfg.get("linkedin_timeout_seconds", 900))
+        safe = linkedin.get("safe_to_continue", True)
+        if linkedin["exit_code"] == 0 and executor_secret_available():
+            if runtime.pause_before_stage(7, finish_at, logger=log):
+                actions = stage("actions", EXECUTOR_URL, RUNTIME_EXECUTOR,
+                                ["--device", detect_executor_device()], cfg.get("actions_timeout_seconds", 180))
+                safe = safe and actions.get("safe_to_continue", True)
+            else:
+                status["stages"].append({"stage": "actions", "state": "skipped_finish", "exit_code": 124})
         else:
-            status["stages"].append({"stage": "actions", "state": "skipped_finish", "exit_code": 124})
+            reason = "LinkedIn failed" if linkedin["exit_code"] else "No configured approval secret"
+            status["stages"].append({"stage": "actions", "state": "skipped", "exit_code": 0, "reason": reason})
     else:
-        reason = "LinkedIn failed" if linkedin["exit_code"] else "No configured approval secret"
-        status["stages"].append({"stage": "actions", "state": "skipped", "exit_code": 0, "reason": reason})
+        for name in ("linkedin", "actions"):
+            status["stages"].append({"stage": name, "state": "disabled", "exit_code": 0,
+                                     "reason": "linkedin_enabled=false"})
+        write_chain_status(status)
+        log("LinkedIn collection and actions disabled by control.json")
 
     pc2 = os.environ.get("DISPATCHER_MANAGED") == "1" or detect_executor_device() == "2"
     if not options.get("enabled", True) or not pc2:
@@ -199,9 +209,9 @@ def execute_chain(runtime, cfg, finish_at, status):
         status["stages"].append({"stage": "profi", "state": "blocked_process_alive", "exit_code": 1})
     else:
         status["phase"] = "pause_before_profi"
-        status["profi_delay_seconds"] = options.get("delay_seconds", 60)
+        status["profi_delay_seconds"] = options.get("delay_seconds", 60) if linkedin_enabled else 0
         write_chain_status(status)
-        log(f"LinkedIn stages finished. Pause before Profi.ru: {status['profi_delay_seconds']} seconds")
+        log(f"Pause before Profi.ru: {status['profi_delay_seconds']} seconds")
         if runtime.pause_before_stage(status["profi_delay_seconds"], finish_at,
                                       options.get("min_remaining_seconds", 120), log):
             stage("profi", PROFI_URL, RUNTIME_PROFI, ["-a"], options.get("timeout_seconds", 300))
@@ -233,7 +243,8 @@ def main() -> int:
                     path.unlink(missing_ok=True)
                 except OSError as error:
                     log(f"Old diagnostic cleanup warning: {error}")
-        cleanup_saved_pages()
+        if cfg.get("linkedin_enabled", True):
+            cleanup_saved_pages()
         download_python(HELPER_URL, RUNTIME_HELPER, "linkedin-profi-runtime")
         spec = importlib.util.spec_from_file_location("automation_runtime", RUNTIME_HELPER)
         runtime = importlib.util.module_from_spec(spec)

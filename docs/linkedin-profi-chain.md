@@ -33,6 +33,11 @@ Profi.ru пропускается с причиной `skipped_finish`. Даже
 
 Настройки `control.json`:
 
+- `linkedin_enabled`: временное включение сбора LinkedIn и связанных одобренных действий.
+  При `false` оба этапа пропускаются, а Profi.ru на PC2 запускается без паузы после LinkedIn.
+  Время START/FINISH и независимый таймер выключения сохраняются.
+  Текущий режим — `false` (только Profi.ru); для возврата полной цепочки установить `true`.
+  Если параметр отсутствует, для совместимости действует прежняя полная цепочка.
 - `profi_after_linkedin.enabled`: включение Profi.ru.
 - `profi_after_linkedin.delay_seconds`: пауза 60.
 - `profi_after_linkedin.timeout_seconds`: максимум Profi.ru 300.
