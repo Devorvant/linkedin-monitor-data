@@ -1,13 +1,27 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T05:18:25+00:00",
+  "generated_at": "2026-10-26T05:18:21+00:00",
   "runs": [
+    {
+      "snapshot_id": "7200faf120803e78",
+      "date": "2026-10-26",
+      "captured_at": "2026-10-26T08:16:08+03:00",
+      "analyzed_at": "2026-10-26T08:18:21+03:00",
+      "ref": "main",
+      "path": "profi_recommendations.json",
+      "status": "AI",
+      "orders": 100,
+      "ai_orders": 100,
+      "respond": 0,
+      "clarify": 32,
+      "skip": 68
+    },
     {
       "snapshot_id": "8d942fc9575d589e",
       "date": "2026-10-25",
       "captured_at": "2026-10-25T08:16:08+03:00",
       "analyzed_at": "2026-10-25T08:18:25+03:00",
-      "ref": "main",
+      "ref": "984adbe2d843cd539a13fe373f33f4fb1738dcd7",
       "path": "profi_recommendations.json",
       "status": "AI",
       "orders": 100,
@@ -158,11 +172,11 @@
     }
   ],
   "summary": {
-    "snapshots": 11,
-    "unique_orders": 398,
-    "days": 7,
+    "snapshots": 12,
+    "unique_orders": 431,
+    "days": 8,
     "first_capture": "2026-10-12T10:11:28+03:00",
-    "last_capture": "2026-10-25T08:16:08+03:00"
+    "last_capture": "2026-10-26T08:16:08+03:00"
   },
   "daily": [
     {
@@ -191,6 +205,10 @@
     },
     {
       "date": "2026-10-25",
+      "unique_orders": 100
+    },
+    {
+      "date": "2026-10-26",
       "unique_orders": 100
     }
   ],
