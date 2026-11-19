@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T18:42:34+00:00",
+  "generated_at": "2026-11-19T18:53:48+00:00",
   "processed_source_commits": [
     "c6c6d71d477c9071d696671822e165bdd68ba79a",
     "700e6ac779ad6f9af30283f670e73a3db2aad6ae",
@@ -13,7 +13,8 @@
     "fa0fe4e82a286ff79580b99985dad08911577ef0",
     "121247130a868fdd7f5df7cf3446e3441c7b8ab7",
     "01c5bdec8c0d02fc240e9bc5f55f7fc359a20486",
-    "d8041809f06d642fb6845ea5ad41879139aa2582"
+    "d8041809f06d642fb6845ea5ad41879139aa2582",
+    "abd141f8516303174532ada9eb0257a7492333bf"
   ],
   "orders": [
     {
@@ -3414,7 +3415,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "92980949",
@@ -4024,7 +4025,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "90070592",
@@ -5219,7 +5220,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "94854816",
@@ -6234,8 +6235,8 @@
       "location": "Москва",
       "schedule": "",
       "client": "Валерия",
-      "posted": "23 октября",
-      "posted_at": "2026-10-23",
+      "posted": "15 ноября",
+      "posted_at": "2026-11-15",
       "posted_at_precision": "inferred_year",
       "budget": "1000 ₽",
       "budget_min_rub": 1000,
@@ -6254,17 +6255,18 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-10-26",
+      "capture_day": "2026-11-19",
       "first_seen": "2026-10-12T10:11:28+03:00",
-      "last_seen": "2026-10-26T08:16:08+03:00",
-      "times_seen": 6,
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 7,
       "observed_dates": [
         "2026-10-12",
         "2026-10-14",
         "2026-10-16",
         "2026-10-24",
         "2026-10-25",
-        "2026-10-26"
+        "2026-10-26",
+        "2026-11-19"
       ],
       "is_current": true
     },
@@ -6944,7 +6946,7 @@
         "2026-10-14",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "94918954",
@@ -7336,7 +7338,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "94896777",
@@ -7496,7 +7498,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "93242785",
@@ -7577,7 +7579,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "94747872",
@@ -7698,13 +7700,13 @@
     {
       "order_id": "94297317",
       "title": "Конструкторы",
-      "description": "Разработка конструкторской документации · Сфера деятельности: производство · Знание программ: AutoCAD, CorelDRAW · Спроектировать рекламные металлоконструкции; · разработать световые короба, объемные буквы, крышные установки, панель-кронштейны, интерьерную рекламу; · подготовить проектную документацию для согласования с заказчиком; · разработать рабочую документацию для производства; · выполнить чертежи и расчет материалов; · подготовить файлы для фрезеровки и плоттерной резки; · сопроводить реализацию конструкторских решений на всех этапах производства и монтажа",
+      "description": "Разработка конструкторской документации · Сфера деятельности: производство · Знание программ: БазисМебельщик · Спроектировать рекламные металлоконструкции; · разработать световые короба, объемные буквы, крышные установки, панель-кронштейны, интерьерную рекламу; · подготовить проектную документацию для согласования с заказчиком; · разработать рабочую документацию для производства; · выполнить чертежи и расчет материалов; · подготовить файлы для фрезеровки и плоттерной резки; · сопроводить реализацию конструкторских решений на всех этапах производства и монтажа",
       "remote": false,
       "location": "городской округ Мытищи, деревня Пирогово, Совхозная улица, 2А",
       "schedule": "28 сен. (Пн) - 30 ноя. (Пн)",
       "client": "Ирина",
-      "posted": "24 сентября",
-      "posted_at": "2026-09-24",
+      "posted": "6 ноября",
+      "posted_at": "2026-11-06",
       "posted_at_precision": "inferred_year",
       "budget": "до 100 000 ₽",
       "budget_min_rub": null,
@@ -7722,15 +7724,14 @@
       "fit_label": "Смежная задача",
       "match_terms": [
         "Конструктор",
-        "AutoCAD",
         "чертеж"
       ],
-      "fit_reason": "Совпадения по ключевым словам: Конструктор, AutoCAD, чертеж",
+      "fit_reason": "Совпадения по ключевым словам: Конструктор, чертеж",
       "parser_version": "4.4",
-      "capture_day": "2026-10-26",
+      "capture_day": "2026-11-19",
       "first_seen": "2026-10-12T10:11:28+03:00",
-      "last_seen": "2026-10-26T08:16:08+03:00",
-      "times_seen": 8,
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 9,
       "observed_dates": [
         "2026-10-12",
         "2026-10-13",
@@ -7739,7 +7740,8 @@
         "2026-10-23",
         "2026-10-24",
         "2026-10-25",
-        "2026-10-26"
+        "2026-10-26",
+        "2026-11-19"
       ],
       "is_current": true
     },
@@ -8747,9 +8749,9 @@
       "location": "Одинцово, улица Маршала Неделина, 6Б",
       "schedule": "",
       "client": "Татьяна",
-      "posted": "23 октября",
-      "posted_at": "2026-10-23",
-      "posted_at_precision": "inferred_year",
+      "posted": "21 час назад",
+      "posted_at": "2026-11-19T00:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
       "budget": "до 1400 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 1400,
@@ -8767,10 +8769,10 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-10-26",
+      "capture_day": "2026-11-19",
       "first_seen": "2026-10-13T08:16:08+03:00",
-      "last_seen": "2026-10-26T08:16:08+03:00",
-      "times_seen": 7,
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 8,
       "observed_dates": [
         "2026-10-13",
         "2026-10-14",
@@ -8778,7 +8780,8 @@
         "2026-10-23",
         "2026-10-24",
         "2026-10-25",
-        "2026-10-26"
+        "2026-10-26",
+        "2026-11-19"
       ],
       "is_current": true
     },
@@ -9585,7 +9588,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "94990943",
@@ -11013,7 +11016,7 @@
         "2026-10-24",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "94951344",
@@ -11623,7 +11626,7 @@
         "2026-10-24",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95083950",
@@ -12003,8 +12006,8 @@
       "location": "Москва",
       "schedule": "",
       "client": "Анастасия",
-      "posted": "14 октября",
-      "posted_at": "2026-10-14",
+      "posted": "17 ноября",
+      "posted_at": "2026-11-17",
       "posted_at_precision": "inferred_year",
       "budget": "500 ₽",
       "budget_min_rub": 500,
@@ -12023,14 +12026,15 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-10-16",
+      "capture_day": "2026-11-19",
       "first_seen": "2026-10-16T08:16:08+03:00",
-      "last_seen": "2026-10-16T08:16:08+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-10-16"
+        "2026-10-16",
+        "2026-11-19"
       ],
-      "is_current": false
+      "is_current": true
     },
     {
       "order_id": "95026021",
@@ -12071,7 +12075,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95079628",
@@ -12504,7 +12508,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95050749",
@@ -12618,7 +12622,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "94985161",
@@ -13031,7 +13035,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95040029",
@@ -13078,8 +13082,8 @@
       "location": "Давыдково 600 м",
       "schedule": "",
       "client": "Екатерина",
-      "posted": "8 часов назад",
-      "posted_at": "2026-10-16T00:16:08+03:00",
+      "posted": "4 часа назад",
+      "posted_at": "2026-11-19T17:53:07+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 1400 ₽",
       "budget_min_rub": null,
@@ -13098,14 +13102,15 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-10-16",
+      "capture_day": "2026-11-19",
       "first_seen": "2026-10-16T08:16:08+03:00",
-      "last_seen": "2026-10-16T08:16:08+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-10-16"
+        "2026-10-16",
+        "2026-11-19"
       ],
-      "is_current": false
+      "is_current": true
     },
     {
       "order_id": "94312096",
@@ -14014,7 +14019,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95274294",
@@ -14630,7 +14635,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95227872",
@@ -14708,7 +14713,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95229704",
@@ -14748,7 +14753,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95322285",
@@ -14980,7 +14985,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95290134",
@@ -15311,7 +15316,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95196117",
@@ -15356,7 +15361,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95319037",
@@ -15478,7 +15483,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95312831",
@@ -15562,7 +15567,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95141496",
@@ -15641,7 +15646,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95282347",
@@ -15680,7 +15685,7 @@
         "2026-10-24",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "93575388",
@@ -15799,13 +15804,13 @@
     {
       "order_id": "95243157",
       "title": "Разработка конструкторской документации",
-      "description": "Сфера деятельности: Обрудование для растениеводства · Знание программ: SolidWorks, AutoCAD · РАЗРАБОТКА КОНСТРУКТОРСКОЙ ДОКУМЕНТАЦИИ ОБОРУДОВАНИЯ ДЛЯ РАСТЕНИЕВОДСТВА В ЧАСТИ ЭЛЕКТРОСНАБЖЕНИЯ И АВТОМАТИЗАЦИИ · Компания ведет разработку установки промышленного гидропонного выращивания вертикально-стеллажного типа с многоярусной зоной выращивания, замкнутым циклом подачи питательного раствора, интегрированной системой светодиодного фитоосвещения для круглогодичного производства салатных культур и пряных трав",
+      "description": "Сфера деятельности: Обрудование для растениеводства · Знание программ: AutoCAD, SolidWorks · РАЗРАБОТКА КОНСТРУКТОРСКОЙ ДОКУМЕНТАЦИИ ОБОРУДОВАНИЯ ДЛЯ РАСТЕНИЕВОДСТВА В ЧАСТИ ЭЛЕКТРОСНАБЖЕНИЯ И АВТОМАТИЗАЦИИ · Компания ведет разработку установки промышленного гидропонного выращивания вертикально-стеллажного типа с многоярусной зоной выращивания, замкнутым циклом подачи питательного раствора, интегрированной системой светодиодного фитоосвещения для круглогодичного производства салатных культур и пряных трав · Прошу смотреть файл с ТЗ · После предварительных переговоров, планируется подписание NDA со специалистом и начало плотного взаимодействия · Для подписания договора необходим режим юридического лица, ИП без НДС",
       "remote": false,
       "location": "Аэропорт • улица Викторенко, 16с1",
-      "schedule": "1 ноя. (Вс) - 20 дек. (Вс)",
+      "schedule": "30 ноя. (Пн) - 31 янв. 2027 (Вс)",
       "client": "Владимир Клиент запросил ещё отклики",
-      "posted": "4 дня назад",
-      "posted_at": "2026-10-21T08:16:08+03:00",
+      "posted": "29 дней назад",
+      "posted_at": "2026-10-21T21:53:07+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -15828,16 +15833,17 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: конструктор, SolidWorks, AutoCAD",
       "parser_version": "4.4",
-      "capture_day": "2026-10-25",
+      "capture_day": "2026-11-19",
       "first_seen": "2026-10-23T08:16:08+03:00",
-      "last_seen": "2026-10-25T08:16:08+03:00",
-      "times_seen": 3,
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 4,
       "observed_dates": [
         "2026-10-23",
         "2026-10-24",
-        "2026-10-25"
+        "2026-10-25",
+        "2026-11-19"
       ],
-      "is_current": false
+      "is_current": true
     },
     {
       "order_id": "95248471",
@@ -15877,7 +15883,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95273540",
@@ -15917,7 +15923,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95298709",
@@ -16035,7 +16041,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95248182",
@@ -16196,7 +16202,7 @@
         "2026-10-24",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95215425",
@@ -16275,7 +16281,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95222189",
@@ -16319,7 +16325,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95131544",
@@ -16361,7 +16367,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95260145",
@@ -16441,7 +16447,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95195068",
@@ -16523,7 +16529,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95074942",
@@ -16834,7 +16840,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95319293",
@@ -16991,7 +16997,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95268290",
@@ -17144,7 +17150,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95091992",
@@ -17184,7 +17190,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "93644700",
@@ -17261,7 +17267,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95354592",
@@ -17337,7 +17343,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95349155",
@@ -17376,7 +17382,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95337729",
@@ -17415,7 +17421,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95342341",
@@ -17493,7 +17499,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "92999640",
@@ -17569,7 +17575,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "94885004",
@@ -17608,7 +17614,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95352822",
@@ -17722,7 +17728,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95146613",
@@ -17804,7 +17810,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95270348",
@@ -17960,7 +17966,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95316424",
@@ -17998,7 +18004,7 @@
         "2026-10-24",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95310275",
@@ -18150,7 +18156,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95227283",
@@ -18415,7 +18421,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95334008",
@@ -18457,7 +18463,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95343001",
@@ -18760,7 +18766,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95377742",
@@ -18946,7 +18952,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "94867242",
@@ -19098,7 +19104,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95375309",
@@ -19136,7 +19142,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "94894876",
@@ -19174,7 +19180,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95378992",
@@ -19252,7 +19258,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95369225",
@@ -19292,7 +19298,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "94916056",
@@ -19404,7 +19410,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95302832",
@@ -19442,7 +19448,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95374775",
@@ -19524,7 +19530,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95382782",
@@ -19638,7 +19644,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95377994",
@@ -19713,7 +19719,7 @@
         "2026-10-25",
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95410805",
@@ -19750,7 +19756,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95408721",
@@ -19789,7 +19795,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95404512",
@@ -19826,7 +19832,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95242827",
@@ -19865,7 +19871,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95386615",
@@ -19904,7 +19910,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95412355",
@@ -19941,7 +19947,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95412341",
@@ -19978,7 +19984,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95412279",
@@ -20017,7 +20023,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95409636",
@@ -20054,7 +20060,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95396584",
@@ -20093,7 +20099,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95389902",
@@ -20132,7 +20138,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95388466",
@@ -20169,7 +20175,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95386460",
@@ -20206,7 +20212,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95410883",
@@ -20243,7 +20249,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95400455",
@@ -20280,7 +20286,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95181172",
@@ -20317,7 +20323,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95369505",
@@ -20327,9 +20333,9 @@
       "location": "Екатеринбург +2 часа",
       "schedule": "",
       "client": "Владимир",
-      "posted": "Вчера в 12:54",
-      "posted_at": "2026-10-25T12:54:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "17 ноября",
+      "posted_at": "2026-11-17",
+      "posted_at_precision": "inferred_year",
       "budget": "до 500 000 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 500000,
@@ -20347,12 +20353,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-10-26",
+      "capture_day": "2026-11-19",
       "first_seen": "2026-10-26T08:16:08+03:00",
-      "last_seen": "2026-10-26T08:16:08+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-10-26"
+        "2026-10-26",
+        "2026-11-19"
       ],
       "is_current": true
     },
@@ -20391,7 +20398,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95394463",
@@ -20430,7 +20437,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95412833",
@@ -20469,7 +20476,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95412765",
@@ -20506,7 +20513,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95412702",
@@ -20543,7 +20550,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95389130",
@@ -20580,7 +20587,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95387568",
@@ -20617,7 +20624,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95406271",
@@ -20654,7 +20661,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "94814459",
@@ -20691,7 +20698,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95398722",
@@ -20728,7 +20735,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95400657",
@@ -20767,7 +20774,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95395599",
@@ -20804,7 +20811,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95410742",
@@ -20843,7 +20850,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95402258",
@@ -20880,7 +20887,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "92381086",
@@ -20917,7 +20924,7 @@
       "observed_dates": [
         "2026-10-26"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95398769",
@@ -20953,6 +20960,2948 @@
       "times_seen": 1,
       "observed_dates": [
         "2026-10-26"
+      ],
+      "is_current": false
+    },
+    {
+      "order_id": "96217836",
+      "title": "Программисты",
+      "description": "Настройки google play консоли · Тестирование, настройка, доработка существующего продукта · В google play консоли не работает монематизация",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "Начать 19 ноября (чт)",
+      "client": "Александр",
+      "posted": "6 часов назад",
+      "posted_at": "2026-11-19T15:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96217836",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96216881",
+      "title": "Программисты",
+      "description": "Создание диска на приставку · Разработка с нуля · Пожелания и особенности: Нужно записать игру на диск. Xbox 360 · ФИФА, гта, и гонки · Территориально Ростов-на-Дону, Азов",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "19 ноя. (Чт)",
+      "client": "Андрей",
+      "posted": "6 часов назад",
+      "posted_at": "2026-11-19T15:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 750 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 750,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96216881",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96210235",
+      "title": "Программирование контроллеров mitsubishi",
+      "description": "Микроконтроллер: Mitsubishi · Функции и задача устройства: Данный контроллер обеспечивает работу автоматического ламинатора",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "19 ноя. (Чт) - 23 ноя. (Пн)",
+      "client": "Максим",
+      "posted": "9 часов назад",
+      "posted_at": "2026-11-19T12:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96210235",
+      "category": "embedded",
+      "category_label": "Электроника и робототехника",
+      "profile_fit": "high",
+      "fit_label": "Близко к профилю",
+      "match_terms": [
+        "Микроконтроллер"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: Микроконтроллер",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96228743",
+      "title": "Физика",
+      "description": "5 курс · Подготовка к экзамену в вузе · Вуз и специальность: Мфти",
+      "remote": true,
+      "location": "Иркутск +5 часов",
+      "schedule": "Пн-пт 07:00-08:00",
+      "client": "Оксана Высокие шансы",
+      "posted": "20 минут назад",
+      "posted_at": "2026-11-19T21:33:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "900–1800 ₽",
+      "budget_min_rub": 900,
+      "budget_max_rub": 1800,
+      "budget_kind": "range",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96228743",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96164666",
+      "title": "Программисты",
+      "description": "Перепрограммировать табло, поставив необходимые платы · Доработка существующего продукта, разработка с нуля · Оказалось, что мои часы не перепрограммировать, но можно поменять \"начинку\", оставив корпус и экран, но поставить плату ардуино и модуль таймера. Часы X 6636",
+      "remote": true,
+      "location": "Санкт-Петербург",
+      "schedule": "Закончить 19 ноября (чт)",
+      "client": "Виталий",
+      "posted": "Вчера в 11:40",
+      "posted_at": "2026-11-18T11:40:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 10000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 10000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96164666",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96148026",
+      "title": "Программисты",
+      "description": "Продвижение сайта · Специалист по маркетингу или медиабайер для продвижения платформы по открытию кейсов CS2 · Мы ищем опытного специалиста по маркетингу или медиабайера для продвижения платформы по открытию кейсов CS2 · Вы должны иметь опыт работы с iGaming, игровой индустрией или платформами, связанными с игровыми скинами, а также понимать рекламные ограничения, применимые к продуктам, основанным на случайных результатах · Есть требования по аудитории · Мы отдаём предпочтение сотрудничеству на основе результатов (CPA / FTD)",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "17 ноя. (Вт) - 17 дек. (Чт)",
+      "client": "Ян",
+      "posted": "Вчера в 15:47",
+      "posted_at": "2026-11-18T15:47:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 50 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 50000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96148026",
+      "category": "software",
+      "category_label": "Сайты и приложения",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96143414",
+      "title": "Программисты",
+      "description": "/ · / · Пожелания и особенности: Нужен ведущий разработчик Pega в банк · Альфабанк · Ведущий разработчик Pega · Грейд: Middle / Middle + · Требования к кандидатам: · - SSA; · 3+ года разработки на Pega · Отличные знания BPM · Java общие знания и навыки · Обязанности: · Разработка программного обеспечения согласно требованиям внутреннего заказчика · Развитие программного обеспечения · Анализ поступающих задач на предмет оптимального решения, оценка трудозатрат, соблюдение поставленных сроков · Тестирование реализованных функций системы · Исправление дефектов программного обеспечения · Настройка и конфигурирование ПО в соответствии с требованиями заказчика · Консультирование и техническая поддержка по вопросам функционирования разработанного ПО · Практическое освоение и внедрение новых информационных технологий, повышение качества разрабатываемого ПО · Внедрение разработанного ПО и интеграция с другими системами банка · Описание проекта: · Набор идет в новую команду, есть возможность реального влияния на архитектуру решений, а также на подбор и становление новой команды. Новая команда будет встраиваться в уже существующие, отстроенные процессы кредитной фабрики. Документация по проекту вся есть, ее наличие и актуальность постоянно контролируется. На проекте большое коммьюнити разработчиков Pega. В проекте выстроена friendly атмосфера, для новых коллег предусмотрен онбординг с наставником, а для команды - онбординг по всем существующим процессам производственного цикла и организации работы · РФ, удаленная работа",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Тимур",
+      "posted": "17 ноября",
+      "posted_at": "2026-11-17",
+      "posted_at_precision": "inferred_year",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96143414",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "95991579",
+      "title": "Айтишник-программист",
+      "description": "видеонаблюдение · Доработка существующего продукта, настройка · Выполнить работы по капитальному ремонту, монтаж системы видеонаблюдения, охранной сигнализации ФГБУ ДС «Бимлюк» Минздрава России по адресу: Краснодарский край, г. Анапа, Пионерский пр., 21. Представлять организацию по данному контракту в г. Анапа",
+      "remote": true,
+      "location": "Тула",
+      "schedule": "16 ноя. (Пн) - 30 ноя. (Пн)",
+      "client": "ООО Сафети",
+      "posted": "12 ноября",
+      "posted_at": "2026-11-12",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 50 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 50000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=95991579",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "95976173",
+      "title": "Программисты",
+      "description": "Восстановление почты · Восстановление почты · Не помню пароль от почты, номер телефона не был указан, резервной почты тоже не было, помню саму почту и старый пароль",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "12 ноя. (Чт) - 14 ноя. (Сб)",
+      "client": "Руслан",
+      "posted": "12 ноября",
+      "posted_at": "2026-11-12",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 3500 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 3500,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=95976173",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96228665",
+      "title": "Генерация изображений в нейросетях",
+      "description": "Изображение: для сайта · Количество: 30 шт · Пожелания и особенности: Необходимо создать фотокарточки для сайта. · Диффузоры , крем, мыло · Заказчик обращает внимание на детали и довольно требователен",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "19 ноя. (Чт) - 25 ноя. (Ср)",
+      "client": "Ирина",
+      "posted": "24 минуты назад",
+      "posted_at": "2026-11-19T21:29:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 500 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 500,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [
+        "Топ-заказ"
+      ],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96228665",
+      "category": "ai_data",
+      "category_label": "AI и обработка данных",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "нейросет"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: нейросет",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96207094",
+      "title": "Java-разработчик (Rust in Minecraft)",
+      "description": "Rust in Minecraft - перенос Rust в Minecraft с сохранением самого Minecraft. Есть уже много аналогов популярных RustMe и Rustex Remake, наша задача создать ещё лучше, и сразу добавить то, чего нет у этих популярных проектов. Тематика существует уже больше 10 лет и пользуется популярностью, но онлайн у этих проектов падает т.к обновлений хороших нет. Наша задача создать монстра который выйдет на рынок и наберёт многотысячную аудиторию. · Сейчас как и в любом крупном бизнесе - оплата процентом от продаж - мне не нужны в команду разработчики, которые не знают что такое менеджемент, тз, и коммуникация между друг другом. Важно иметь Discord и чтобы он работал + постоянная связь и отчётность в Telegram. Проект серьёзный, требует на создание немало времени, но опытные специалисты создадут такое за 2-3 месяца · Подробнее по условиям оплаты, полному тз по телефону",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Владислав",
+      "posted": "11 часов назад",
+      "posted_at": "2026-11-19T10:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 1 000 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1000000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96207094",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96158884",
+      "title": "Java EE разработчик (Wildfly/JBoss) - доработка СЭД под МЭДО 3.0, декабрь",
+      "description": "Привет! Ищем исполнителя на следующий пул работ · Что нужно сделать: · 1. Разобраться в существующей СЭД на Java EE (исходники и документацию даём): Wildfly 11, JBoss Portal 2.6.8, Tomcat 7, Java 8, PostgreSQL 10, CentOS 6 · 2. Доработать подсистему интеграции с внешними системами под формат МЭДО 3.0 (приказ Минцифры и ФСО № 611/96): приём и отправка документов, уведомления о регистрации и доставке, создание РКК · 3. Проверить работу электронной подписи (КриптоПро CSP 5.0) в новом формате · 4. Подготовить программу и методику испытаний, пройти функциональное тестирование и приёмочные испытания, включая проверку на соответствие требованиям 611/96 · 5. Развернуть доработанную версию на серверах заказчика · 6. Обновить техническую и эксплуатационную документацию (ГОСТ 34). Оформление можем взять на себя, от вас техническая часть · Условия: · 1. Москва, часть работ на площадке заказчика (пропускной режим) · 2. Сроки: первая половина декабря, около 2 недель, дедлайн жёсткий · 3. Оплата обсуждается: фикс за весь объём или по этапам · 4. Гарантия 12 месяцев на исправление ошибок, объём и оплату обсудим · Что хотим увидеть в отклике: · 1. Опыт с Java EE / Wildfly / JBoss и легаси-проектами · 2. Опыт с МЭДО (особенно 3.0), СЭД, электронной подписью / КриптоПро · 3. Ваша оценка срока и стоимости за весь объём · 4. Готовы ли в декабре работать плотно и выезжать к заказчику в Москве · Если знаете тех, кто как раз этим занимается, тоже будем рады рекомендации",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "1 дек. (Вт) - 18 дек. (Пт)",
+      "client": "Александр",
+      "posted": "17 ноября",
+      "posted_at": "2026-11-17",
+      "posted_at_precision": "inferred_year",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96158884",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96228840",
+      "title": "Внедрение искусственного интеллекта",
+      "description": "",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Иван",
+      "posted": "16 минут назад",
+      "posted_at": "2026-11-19T21:37:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96228840",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96211415",
+      "title": "Рисование картин",
+      "description": "Картина или рисунок на заказ · Техника исполнения: масло · По техническому заданию · Размер: 50 на 50 · Количество: 2 шт",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "19 ноя. (Чт)",
+      "client": "Александр Клиент изучает цены",
+      "posted": "9 часов назад",
+      "posted_at": "2026-11-19T12:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96211415",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96228210",
+      "title": "Репетитор для подготовки к CEnT-S",
+      "description": "CEnT-S",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "Пн-пт 20:00-21:00",
+      "client": "Глеб",
+      "posted": "9 минут назад",
+      "posted_at": "2026-11-19T21:44:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "1700–3100 ₽",
+      "budget_min_rub": 1700,
+      "budget_max_rub": 3100,
+      "budget_kind": "range",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96228210",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96189764",
+      "title": "Художники",
+      "description": "Картина или рисунок на заказ · Техника исполнения: масло · По техническому заданию · Размер: 2*3 метра · Количество: 1 шт · Пока отсутствует фото. Ищем художника для девелопментского мероприятия. Будет выставочный стенд и большой белый холст в торговом центре на котором нужно будет постепенно рисовать картину. Ориентир месяц работы",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "18 ноя. (Ср)",
+      "client": "Анна",
+      "posted": "Вчера в 17:45",
+      "posted_at": "2026-11-18T17:45:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96189764",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96125095",
+      "title": "Художник",
+      "description": "Картина или рисунок на заказ · Техника исполнения: масло · По техническому заданию · Размер: нужно в гжель росписать металлические объёмные формы · Количество: 4 шт · Пожелания и особенности: Росписать ёмкости под гжель. Работа в Лен.обл, недалеко от Выборга. (п.Мысовое)",
+      "remote": true,
+      "location": "Санкт-Петербург",
+      "schedule": "16 ноя. (Пн)",
+      "client": "Юрий",
+      "posted": "16 ноября",
+      "posted_at": "2026-11-16",
+      "posted_at_precision": "inferred_year",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96125095",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96213603",
+      "title": "Физика",
+      "description": "7 класс · Повышение успеваемости · Пожелания и особенности: Пожелания и особенности: В качестве репетитора ищем учителя, работавшего в обычной школе или гимназии. Студенты не подходят · У нас время +4 к Москве",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Мария",
+      "posted": "5 часов назад",
+      "posted_at": "2026-11-19T16:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "700 ₽",
+      "budget_min_rub": 700,
+      "budget_max_rub": 700,
+      "budget_kind": "exact",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96213603",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96206091",
+      "title": "3d анимация логотипа, создание футажа",
+      "description": "Изображение: для презентации · Количество: 1 шт · Нужен горизонтальный 3D-футаж для LED-экрана: в центре появляется надпись «1 ЛИНИЯ» объёмными розовыми буквами. Буквы надуваются, как bubble gum, затем эффектно взрываются, и начинается динамичная анимация в розовой гамме · Это не простой монтаж в CapCut. Нужен специалист, который работает в After Effects, Cinema 4D, Blender или аналогичных программах и умеет создавать 3D-анимацию, частицы, взрывы, неон и качественные визуальные эффекты. Также подойдёт человек, который делает · Название · Бэк-визуал для выступления команды «1 линия» · Формат и технические требования · • Горизонтальный формат: 16:9 · • Разрешение: 1920 ? 1080, Full HD · • Формат файла: MP4, H.264 · • Без звука и водяных знаков · • Длительность: по таймингу музыки — сообщу отдельно · • Файл должен быть готов к запуску на LED-экране · • Срок сдачи: до 28 ноября · Идея · В центре экрана появляется надпись «1 ЛИНИЯ». Буквы — объёмные, глянцевые, розовые: от нежно-розового до яркого фуксии. Они постепенно надуваются, становятся округлыми и объёмными, с бликами и мягким свечением · Затем буквы эффектно взрываются: разлетаются на розовые частицы, брызги, конфетти, искры и световые вспышки. После взрыва начинается основная динамичная анимация: розовые линии, неон, частицы, градиенты, геометрические формы и световые полосы · Стиль · • Современно, дерзко, дорого, женственно · • Спортивно-танцевальное шоу, не детский мультик · • Розовый градиент: пудрово-розовый ? фуксия ? неоново-розовый · • Тёмный или чёрный фон для контраста · • Белые, серебристые и перламутровые блики · • Глянцевые 3D-буквы с эффектом bubble gum · • Неон, частицы, вспышки, световые линии · • Визуал должен усиливать номер, а не мешать видеть девочек · Обязательно · • Надпись «1 ЛИНИЯ» — крупно и читаемо · • 3D-эффект надувания букв, как bubble gum · • Взрыв букв с розовыми частицами, искрами и конфетти · • Динамичная анимация в розовой гамме после взрыва · • Ритмичные переходы под музыку · • В финале надпись «1 ЛИНИЯ» может появиться снова",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "19 ноя. (Чт) - 26 ноя. (Чт)",
+      "client": "Виктория",
+      "posted": "9 часов назад",
+      "posted_at": "2026-11-19T12:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 5000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 5000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96206091",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96144538",
+      "title": "Физика",
+      "description": "11 класс · Повышение успеваемости · Приглашаем преподавателей и репетиторов на удалённую работу/подработку (на вакансию) в онлайн-школу. Вы можете сформировать любой удобный для себя график · Вы будете проводить онлайн обучение из дома при помощи нашей интернет-платформы. (Учеников искать не надо! Наши менеджеры сами запишут Вам учеников на уроки.) · - Опыт преподавания или репетиторской деятельности от 6 месяцев · - Возможность уделять 10 часов в неделю · Доход от 52 000 до 113 000 рублей в месяц (Зависит от количества уроков + бонус за количество уроков + бонус за опыт работы) · Выплаты 2 раза в месяц без задержек · Гибкий график работы. Вы можете сформировать любой удобный для себя график. От 10 часов в неделю · Постоянная профессиональная поддержка в процессе преподавания",
+      "remote": true,
+      "location": "Владимир",
+      "schedule": "",
+      "client": "Анастасия",
+      "posted": "17 ноября",
+      "posted_at": "2026-11-17",
+      "posted_at_precision": "inferred_year",
+      "budget": "500 ₽",
+      "budget_min_rub": 500,
+      "budget_max_rub": 500,
+      "budget_kind": "exact",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96144538",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96144230",
+      "title": "Физика",
+      "description": "11 класс · Повышение успеваемости · Приглашаем преподавателей и репетиторов на удалённую работу/подработку (на вакансию) в онлайн-школу. Вы можете сформировать любой удобный для себя график · Вы будете проводить онлайн обучение из дома при помощи нашей интернет-платформы. (Учеников искать не надо! Наши менеджеры сами запишут Вам учеников на уроки.) · - Опыт преподавания или репетиторской деятельности от 6 месяцев · - Возможность уделять 10 часов в неделю · Доход от 52 000 до 113 000 рублей в месяц (Зависит от количества уроков + бонус за количество уроков + бонус за опыт работы) · Выплаты 2 раза в месяц без задержек · Гибкий график работы. Вы можете сформировать любой удобный для себя график. От 10 часов в неделю · Постоянная профессиональная поддержка в процессе преподавания",
+      "remote": true,
+      "location": "Владимир",
+      "schedule": "",
+      "client": "Анастасия",
+      "posted": "17 ноября",
+      "posted_at": "2026-11-17",
+      "posted_at_precision": "inferred_year",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96144230",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "94306519",
+      "title": "Физика",
+      "description": "9 класс · Повышение успеваемости · Приглашаю преподавателей физики в онлайн-школу — 800–1000 р. за 60 минут · Меня зовут Сергей Марченко. Я веду блог о физике с аудиторией 350 000+ человек и развиваю онлайн-школу индивидуальных занятий · Расширяем команду. Ищем преподавателей, которые любят свой предмет, умеют понятно объяснять и замечают, когда ученик действительно разобрался · Что предлагаем: · • учеников — искать заказы самостоятельно не нужно; · • готовые конспекты и банк задач; · • выплаты дважды в месяц; · • обмен опытом и поддержку команды · Что важно: · • подтверждённый опыт подготовки к ОГЭ, ЕГЭ или олимпиадам; · • умение объяснять через понятные примеры и проверять понимание; · • терпение, внимательность и уважительное общение с учениками; · • ответственное отношение к расписанию и договорённостям · Что предстоит делать: · • проводить индивидуальные занятия в Яндекс Телемосте; · • помогать закрывать пробелы и готовиться к экзаменам; · • давать и проверять домашние задания; · • фиксировать пройденные темы и результаты занятий · Работаем со школьниками 6–11 классов и студентами вузов · Если вам подходит такой формат: заполните гугл-форму: · https://forms.gle/V9AdUe9aNvD7wirA6",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Сергей",
+      "posted": "14 ноября",
+      "posted_at": "2026-11-14",
+      "posted_at_precision": "inferred_year",
+      "budget": "1000 ₽",
+      "budget_min_rub": 1000,
+      "budget_max_rub": 1000,
+      "budget_kind": "exact",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=94306519",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96113318",
+      "title": "Иллюстратор ИИ",
+      "description": "Изображение: для компьютерной игры · Количество: 3000 шт · Пожелания и особенности: ИИ-иллюстратор для 2D-игры — окружение и анимация · Делаем детский платформер. Маршрут, платформы и механики уровня уже готовы. Ищем художника, который с помощью нейросетей создаст фоны и декорации в едином стиле, расставит их по слоям в нашем редакторе и оживит сцену. Например, добавит покачивание веток и рябь на воде · В отклике покажите пример вашего игрового окружения. Лучше всего — короткое видео собранной сцены в движении · Примеры детализации и стиля смотрите в игре oddmar, скрин прикрепил",
+      "remote": true,
+      "location": "Воронеж",
+      "schedule": "16 ноя. (Пн) - 22 ноя. (Вс)",
+      "client": "Роман Клиент запросил ещё отклики",
+      "posted": "2 дня назад",
+      "posted_at": "2026-11-17T21:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96113318",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "механик"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: механик",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "95763033",
+      "title": "Веб-разработка, создание сайта",
+      "description": "многофункциональный сайт · Платформа: OpenCart или самопис · Функционал сайта: страницы с товарами и поделками, каталог, корзина с ручной обработкой, барахолка, автоматические обновления контента · Контент есть · Сайтерам, проживающим в Санкт-Петербурге! · Пожалуйста, не засоряйте задание откликами, не соответствующими параметрам задания · Отклики без прочтения отбрасываются сразу · Задача: собрать каркас сайта с несколькими разделами, тематика - музыкальное оборудование · Рассматриваются самопис или Opencart и подобные бесплатные, не подразумевающие абонентскую плату, не подразумевающие докупку модулей, нужно полное решение в коробке, чтобы весь код лежал на моём хосте и производитель не мог на него никак влиять · Что точно НЕ нужно: · - Тильда и Битрикс · - менеджеров, делегирующих \"владельцев команд\" и прочих переговорщиков с местоимением \"мы\" · Порядок взаимодействий: · 1. предварительная переписка · 2. личная встреча (обязательно) · 3. обсуждение бюджета и сроков · 4. формирование доверия к вам на примере простой задачи · 5. выполнение основной задачи (удаленно) · Есть контент и подробное ТЗ · Наполнением сайта буду заниматься сам, нужен только дизайн и каркас · Оплата проекта - поэтапно, без авансирования, степ-бай-степ, сделано - оплачено · Вначале - лучше всего - списаться в ВК, сразу присылайте ссылку на вашу страницу ВК с открытым профилем - это способствует пониманию и формированию доверия · Если вы считаете стоимость ваших услуг по трудочасам и/или расписываете в смете \"каждое движение руки\", если вы генерите одностраничники дороже 15тр или берете более 50тр за сайт 10-50 страниц, если в коммуникации вы отвечаете не лично сами, а через ИИ, то не нужно откликаться, пропустите это задание · Давайте беречь время друг друга · Подтвердите пожалуйста в отклике, что вы находитесь в спб - так я смогу отличить вас от шаблонных откликов - пустышек, пересказывающих задание, без реального прочтения",
+      "remote": true,
+      "location": "Санкт-Петербург",
+      "schedule": "",
+      "client": "Александр",
+      "posted": "13 ноября",
+      "posted_at": "2026-11-13",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 40 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 40000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=95763033",
+      "category": "software",
+      "category_label": "Сайты и приложения",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96030236",
+      "title": "Разработка электронных устройств",
+      "description": "Разработка конструкторской документации · Пожелания и особенности: Нужна кастомная маска · Главный рефренс: · https://www.instagram.com/p/C23QOJ7IpWN/?srtk=cjdmaHR3dXo5czF0",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Максим Клиент изучает цены",
+      "posted": "13 ноября",
+      "posted_at": "2026-11-13",
+      "posted_at_precision": "inferred_year",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96030236",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "конструктор"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: конструктор",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96202239",
+      "title": "Программирование ESP32 Esp",
+      "description": "Пожелания и особенности: Для проекта нужно · запрограммировать плату esp 32 и джойстик Bluetooth к ней. + Гироскоп. Плата должна управлять движением роборуки. 4 сервомашинки",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "31 янв. 2027 (Вс)",
+      "client": "Константин",
+      "posted": "15 часов назад",
+      "posted_at": "2026-11-19T06:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96202239",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96110724",
+      "title": "ИИ-консалтинг",
+      "description": "Ищу видеографа / СММ-менеджера (партнёра в недвижимости) · Что нужно делать · Снимать видео 1–3 раза в неделю, по договорённости · Придумывать сценарии для Reels, вместе со мной или самостоятельно · Монтировать видео для публикации в Instagram, в том числе с помощью ИИ-инструментов (нейросети для субтитров, нарезки, улучшения звука, быстрых вариантов монтажа и т. п.) · Вести Instagram (не обязательно, но желательно) · Кого я ищу · Амбициозного, включённого, заинтересованного человека · Человека, у которого есть идеи и который готов экспериментировать с форматами, чтобы набирать просмотры и получать заявки · Того, кому интересно работать с ИИ в монтаже: опыт не обязателен, главное желание разбираться и ускорять работу · Опыт значения не имеет: рассмотрю и новичков, и профи · Чего я не ищу · Шаблонных заезженных видео, такое не снимаем · Отстранённости и пассивности · Работы «на отбывание»: снял, смонтировал, ушёл · Формат работы · Я ищу не просто оператора или СММ-щика, а партнёра. Схема простая: ты отвечаешь за контент и заявки с него, я за продажи. Снимаем меня. Локации гибкие: улица, заведения, жилые комплексы, договоримся · Оплата · Плачу 20% от своей комиссии за каждую сделку, которая пришла через Reels. Тебе нужно только снимать и монтировать, продажи и ведение клиента беру на себя · Пример расчёта · Квартира за 30 000 000 ? · Средняя комиссия по рынку 3%: 900 000 ? · Налог 12%: остаётся 792 000 ? · Твои 20%: 158 400 ? на руки · Сроки сделки · Цикл от 1 до 12 месяцев, в среднем 2–3 месяца · Перспектива · Предлагаю начать как эксперимент или подработку с возможностью перейти на основной доход. При трёх сделках в месяц это около 475 000 ?. Для этого по средней конверсии нужно генерировать 10–15 заявок в месяц",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "17 ноя. (Вт) - 18 мар. 2027 (Чт)",
+      "client": "Артур",
+      "posted": "16 ноября",
+      "posted_at": "2026-11-16",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 1 000 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1000000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96110724",
+      "category": "ai_data",
+      "category_label": "AI и обработка данных",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "нейросет"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: нейросет",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96065592",
+      "title": "Проектирование маломерных судов",
+      "description": "Разработка конструкторской документации · Сфера деятельности: Судостроение · Знание программ: не имеет значения",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Руслан",
+      "posted": "Вчера в 01:33",
+      "posted_at": "2026-11-18T01:33:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 100 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 100000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96065592",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "конструктор"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: конструктор",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96032213",
+      "title": "Конструкторы",
+      "description": "начертить и подготовить файл для резки · Сфера деятельности: мебель · Знание программ: SolidWorks, CorelDRAW, не имеет значения, Базис мебельщик · Начертить конструктив и подготовить файлы для нестинга",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "14 ноя. (Сб) - 18 ноя. (Ср)",
+      "client": "Ольга",
+      "posted": "14 ноября",
+      "posted_at": "2026-11-14",
+      "posted_at_precision": "inferred_year",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96032213",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "Конструктор",
+        "SolidWorks"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: Конструктор, SolidWorks",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "95914621",
+      "title": "Конструктор- проектировщик на раздел КД",
+      "description": "Разработка конструкторской документации · Сфера деятельности: строительство · Знание программ: не имеет значения · Требуется разработать раздел КД для ИЖС",
+      "remote": true,
+      "location": "Иваново",
+      "schedule": "",
+      "client": "Наталья",
+      "posted": "11 ноября",
+      "posted_at": "2026-11-11",
+      "posted_at_precision": "inferred_year",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=95914621",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "Конструктор"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: Конструктор",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96207961",
+      "title": "Конструктор КМ КМД",
+      "description": "Разработка конструкторской документации · Сфера деятельности: НВФ СПК · Знание программ: AutoCAD",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Игорь Клиент изучает цены",
+      "posted": "10 часов назад",
+      "posted_at": "2026-11-19T11:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96207961",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "Конструктор",
+        "AutoCAD"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: Конструктор, AutoCAD",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96177067",
+      "title": "Математика",
+      "description": "6 класс · Повышение успеваемости · Я хочу найти учителя ответственного чтобы не менял расписание и время уроков и цену внимательно читайте объявления что цена 300 р кто дороже не писать",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "Ср-пт 07:00-08:00",
+      "client": "Пикалева Наталия Викторовна",
+      "posted": "1 час назад",
+      "posted_at": "2026-11-19T20:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "300 ₽",
+      "budget_min_rub": 300,
+      "budget_max_rub": 300,
+      "budget_kind": "exact",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96177067",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "95910237",
+      "title": "Математика",
+      "description": "11 класс · Повышение успеваемости · Приглашаем преподавателей и репетиторов на удалённую работу/подработку (на вакансию) в онлайн-школу. Вы можете сформировать любой удобный для себя график · Вы будете проводить онлайн обучение из дома при помощи нашей интернет-платформы. (Учеников искать не надо! Наши менеджеры сами запишут Вам учеников на уроки.) · - Опыт преподавания или репетиторской деятельности от 6 месяцев · - Возможность уделять 10 часов в неделю · Доход от 52 000 до 113 000 рублей в месяц (Зависит от количества уроков + бонус за количество уроков + бонус за опыт работы) · Выплаты 2 раза в месяц без задержек · Гибкий график работы. Вы можете сформировать любой удобный для себя график. От 10 часов в неделю · Постоянная профессиональная поддержка в процессе преподавания",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Анастасия",
+      "posted": "12 часов назад",
+      "posted_at": "2026-11-19T09:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=95910237",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "95680615",
+      "title": "Математика",
+      "description": "11 класс · Повышение успеваемости · Приглашаем преподавателей и репетиторов на удалённую работу/подработку (на вакансию) в онлайн-школу. Вы можете сформировать любой удобный для себя график · Вы будете проводить онлайн обучение из дома при помощи нашей интернет-платформы. (Учеников искать не надо! Наши менеджеры сами запишут Вам учеников на уроки.) · - Опыт преподавания или репетиторской деятельности от 6 месяцев · - Возможность уделять 10 часов в неделю · Доход от 52 000 до 113 000 рублей в месяц (Зависит от количества уроков + бонус за количество уроков + бонус за опыт работы) · Выплаты 2 раза в месяц без задержек · Гибкий график работы. Вы можете сформировать любой удобный для себя график. От 10 часов в неделю · Постоянная профессиональная поддержка в процессе преподавания",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Наталья",
+      "posted": "12 часов назад",
+      "posted_at": "2026-11-19T09:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=95680615",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96144280",
+      "title": "Математика",
+      "description": "11 класс · Повышение успеваемости · Приглашаем преподавателей и репетиторов на удалённую работу/подработку (на вакансию) в онлайн-школу. Вы можете сформировать любой удобный для себя график · Вы будете проводить онлайн обучение из дома при помощи нашей интернет-платформы. (Учеников искать не надо! Наши менеджеры сами запишут Вам учеников на уроки.) · - Опыт преподавания или репетиторской деятельности от 6 месяцев · - Возможность уделять 10 часов в неделю · Доход от 52 000 до 113 000 рублей в месяц (Зависит от количества уроков + бонус за количество уроков + бонус за опыт работы) · Выплаты 2 раза в месяц без задержек · Гибкий график работы. Вы можете сформировать любой удобный для себя график. От 10 часов в неделю · Постоянная профессиональная поддержка в процессе преподавания",
+      "remote": true,
+      "location": "Владимир",
+      "schedule": "",
+      "client": "Анастасия",
+      "posted": "12 часов назад",
+      "posted_at": "2026-11-19T09:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96144280",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96000628",
+      "title": "Математика",
+      "description": "8 класс · Повышение успеваемости · Ищем преподавателей в наш замечательный образовательный центр! · Удаленная работа • Гибкий график • Стабильный поток учеников • Своевременные выплаты · О компании: · Целифайв — современная онлайн платформа, образовательный центр для дошкольников, 1-11 классов и взрослых. Мы повышаем успеваемость по школьным предметам, готовим к экзаменам, олимпиадам и предоставляем обучение по 7 разным иностранным языкам. Преподаватели работают в комфортных условиях, развиваются профессионально и становятся частью сильного сообщества педагогов · Почему преподаватели выбирают нас? · • Полностью удаленная работа из любой точки мира · • Гибкий график, который можно совмещать с учебой или другой работой · • Стабильный поток учеников · • Своевременные выплаты по договору ГПХ. Вы должны быть САМОЗАНЯТЫМ · • Поддержка команды и возможность профессионального роста · • Долгосрочное сотрудничество · Что мы ожидаем от кандидата: · • Ответственный подход к работе · • Быть на связи! Если педагог без предупреждения не отвечает больше 5-6 часов мы прекращаем сотрудничество · • Опыт преподавания или репетиторства от 2ух лет · • Умение проводить эффективные индивидуально онлайн-занятия · • Умение понятно объяснять даже сложные темы и мотивировать учеников · • Желание развиваться как преподаватель и работать в команде · Чем предстоит заниматься: · • Проводить онлайн-занятия по школьной и углубленной программе, которую Вы составляете самостоятельно · • Использовать современные и интерактивные методики обучения · • Отслеживать прогресс учеников и при необходимости корректировать программу обучения · • Поддерживать комфортную рабочую атмосферу и дисциплину на занятиях · Условия: · ?? График: гибкий, от 8 часов в неделю. Занятия проходят в интервале с 08:00 до 23:00 (МСК) · ?? Оплата: стабильные ежемесячные выплаты по договору ГПХ с учетом самозанятости. · ?? Развитие: возможность профессионального роста при поддержке компании · ?? Команда: дружный коллектив преподавателей, обмен опытом и долгосрочное сотрудничество · ?? Занятость: работа в течение всего учебного года с возможностью продолжить преподавание летом",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Онлайн школа Целифайв",
+      "posted": "Вчера в 22:14",
+      "posted_at": "2026-11-18T22:14:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "450 ₽",
+      "budget_min_rub": 450,
+      "budget_max_rub": 450,
+      "budget_kind": "exact",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96000628",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96189183",
+      "title": "Репетитор по kpi",
+      "description": "3 курс · Подготовка к экзамену в вузе · Вуз и специальность: колледж туризм и гостеприимство",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "Пн, сб 17:00-18:00",
+      "client": "Валя",
+      "posted": "Вчера в 22:05",
+      "posted_at": "2026-11-18T22:05:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "1400–3600 ₽",
+      "budget_min_rub": 1400,
+      "budget_max_rub": 3600,
+      "budget_kind": "range",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96189183",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "95719636",
+      "title": "Математика",
+      "description": "6 класс · Повышение успеваемости · Ищем преподавателей в наш замечательный образовательный центр! · Удаленная работа • Гибкий график • Стабильный поток учеников • Своевременные выплаты · О компании: · Целифайв — современная онлайн платформа, образовательный центр для дошкольников, 1-11 классов и взрослых. Мы повышаем успеваемость по школьным предметам, готовим к экзаменам, олимпиадам и предоставляем обучение по 7 разным иностранным языкам. Преподаватели работают в комфортных условиях, развиваются профессионально и становятся частью сильного сообщества педагогов · Почему преподаватели выбирают нас? · • Полностью удаленная работа из любой точки мира · • Гибкий график, который можно совмещать с учебой или другой работой · • Стабильный поток учеников · • Своевременные выплаты по договору ГПХ. Вы должны быть САМОЗАНЯТЫМ · • Поддержка команды и возможность профессионального роста · • Долгосрочное сотрудничество · Что мы ожидаем от кандидата: · • Ответственный подход к работе · • Быть на связи! Если педагог без предупреждения не отвечает больше 5-6 часов мы прекращаем сотрудничество · • Опыт преподавания или репетиторства от 2ух лет · • Умение проводить эффективные индивидуально онлайн-занятия · • Умение понятно объяснять даже сложные темы и мотивировать учеников · • Желание развиваться как преподаватель и работать в команде · Чем предстоит заниматься: · • Проводить онлайн-занятия по школьной и углубленной программе, которую Вы составляете самостоятельно · • Использовать современные и интерактивные методики обучения · • Отслеживать прогресс учеников и при необходимости корректировать программу обучения · • Поддерживать комфортную рабочую атмосферу и дисциплину на занятиях · Условия: · ?? График: гибкий, от 8 часов в неделю. Занятия проходят в интервале с 08:00 до 23:00 (МСК) · ?? Оплата: стабильные ежемесячные выплаты по договору ГПХ с учетом самозанятости. · ?? Развитие: возможность профессионального роста при поддержке компании · ?? Команда: дружный коллектив преподавателей, обмен опытом и долгосрочное сотрудничество · ?? Занятость: работа в течение всего учебного года с возможностью продолжить преподавание летом · Оставляйте заявки на нашем сайте: · https://целифайв.рф/team",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Онлайн школа Целифайв",
+      "posted": "16 ноября",
+      "posted_at": "2026-11-16",
+      "posted_at_precision": "inferred_year",
+      "budget": "450 ₽",
+      "budget_min_rub": 450,
+      "budget_max_rub": 450,
+      "budget_kind": "exact",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=95719636",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96173239",
+      "title": "Физика",
+      "description": "1 курс · Повышение успеваемости · Вуз и специальность: Торговое дело аграрный техникум",
+      "remote": true,
+      "location": "Иркутск, Иркутский муниципальный округ, деревня Малая Еланка, Парниковая улица, 36",
+      "schedule": "",
+      "client": "Дмитрий",
+      "posted": "8 часов назад",
+      "posted_at": "2026-11-19T13:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 1100 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1100,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96173239",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96197367",
+      "title": "Физика",
+      "description": "8 класс · Нужен учитель физики в г Ижевске в лицей",
+      "remote": true,
+      "location": "Удмуртия, Удмуртская Республика, Ижевск, улица Холмогорова, 21А",
+      "schedule": "",
+      "client": "Мальвина",
+      "posted": "Вчера в 22:00",
+      "posted_at": "2026-11-18T22:00:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 800 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 800,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96197367",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96056840",
+      "title": "Физика",
+      "description": "11 класс · Учитель физики в школу на полную ставку, не онлайн-занятия!! · Пожелания и особенности: Требуется учитель по физике для учеников 7–11 классов в школу СВАО. Обязательно наличие высшего образования (желательно физико-математическое или педагогическое). Нужен специалист, который сможет работать с разным уровнем подготовки: от подтягивания школьной программы до подготовки к ОГЭ/ЕГЭ. Стоимость и занятость обсудим в чате. Будем рады также начинающим специалистам без опыта работы. Не онлайн!!! Работа в школе",
+      "remote": true,
+      "location": "Свиблово 700 м",
+      "schedule": "",
+      "client": "Юлия",
+      "posted": "15 ноября",
+      "posted_at": "2026-11-15",
+      "posted_at_precision": "inferred_year",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96056840",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96199137",
+      "title": "Математика",
+      "description": "3 класс · Подготовка к олимпиаде · Ищем преподавателя олимпиадной математики! · Мы открываем набор на популярное направление — олимпиадную математику для детей и подростков от 8 до 15 лет — и ищем увлечённого педагога, который умеет зажечь в ребятах интерес к нестандартным задачам и логике · Занятия будут проходить на базе современной студии цифрового искусства, которая предоставляет нам уютные и оборудованные классы · Условия работы: · • График: 2–3 раза в неделю (расписание обсуждается индивидуально) · • Формат: Мини-группы до 4 человек — идеальный формат для глубокой проработки задач и внимания к каждому ученику · • Локация: Комфортные, светлые аудитории на площадке студии цифрового искусства · Что предстоит делать: · • Проводить занятия по олимпиадной математике для школьников 8–15 лет (логика, комбинаторика, геометрия, нестандартные задачи) · • Учить детей мыслить гибко, искать разные пути решения и не бояться сложных вызовов · • Готовить учеников к математическим олимпиадам и конкурсам (по желанию и уровню группы) · Наши ожидания от кандидата: · • Опыт преподавания олимпиадной математики или ведения математических кружков для детей 8–15 лет · • Профильное математическое или педагогическое образование (также рассмотрим сильных студентов профильных вузов с олимпиадным прошлым) · • Умение подавать сложный материал в увлекательной и понятной форме · • Искренний интерес к предмету, терпение и доброжелательность",
+      "remote": false,
+      "location": "Аэропорт • улица Викторенко, 11",
+      "schedule": "Ср 18:00-20:00, сб-вс 12:00-14:00",
+      "client": "Elena",
+      "posted": "4 часа назад",
+      "posted_at": "2026-11-19T17:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "от 2200 ₽",
+      "budget_min_rub": 2200,
+      "budget_max_rub": null,
+      "budget_kind": "lower_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96199137",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96149116",
+      "title": "Картины маслом",
+      "description": "По фотографии · Размер: 100 на 50 см · Количество: 1 шт · Написать картину маслом с картинки · Прицениваюсь",
+      "remote": false,
+      "location": "Бульвар Генерала Карбышева 300 м",
+      "schedule": "",
+      "client": "Илья Клиент изучает цены",
+      "posted": "17 ноября",
+      "posted_at": "2026-11-17",
+      "posted_at_precision": "inferred_year",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96149116",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "95826448",
+      "title": "Высшая математика",
+      "description": "1 курс · Подготовка к экзамену в вузе · Вуз и специальность: МГУ Экономический факультет · Нужен действующий или бывший преподаватель с кафедры математики экономического факультета МГУ для первокурсника. При всем уважении, больше никого не рассматриваю",
+      "remote": true,
+      "location": "Щёлковская 800 м",
+      "schedule": "",
+      "client": "Владимир",
+      "posted": "17 ноября",
+      "posted_at": "2026-11-17",
+      "posted_at_precision": "inferred_year",
+      "budget": "от 2500 ₽",
+      "budget_min_rub": 2500,
+      "budget_max_rub": null,
+      "budget_kind": "lower_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=95826448",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96215377",
+      "title": "Теоретическая механика",
+      "description": "2 курс · Повышение успеваемости · Вуз и специальность: МАДИ строительство",
+      "remote": false,
+      "location": "Аэропорт ещё 6",
+      "schedule": "Пн-вс 15:00-20:00",
+      "client": "Арсений",
+      "posted": "7 часов назад",
+      "posted_at": "2026-11-19T14:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 1900 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1900,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96215377",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "механик"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: механик",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96229142",
+      "title": "Подготовка к экзаменам",
+      "description": "10 класс · ЕГЭ по: физике · Цель по баллам: 90+",
+      "remote": false,
+      "location": "Бабушкинская 300 м",
+      "schedule": "",
+      "client": "Ирина",
+      "posted": "5 минут назад",
+      "posted_at": "2026-11-19T21:48:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "2300–4200 ₽",
+      "budget_min_rub": 2300,
+      "budget_max_rub": 4200,
+      "budget_kind": "range",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96229142",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96194513",
+      "title": "IT-аутсорсинг",
+      "description": "Создание сайтов · Сайт-визитка · Платформа: Tilda · Функционал сайта: визитка · Контента нет · Вы",
+      "remote": false,
+      "location": "Аэропорт",
+      "schedule": "19 ноя. (Чт) - 30 ноя. (Пн)",
+      "client": "Сергей Клиент изучает цены",
+      "posted": "Вчера в 20:20",
+      "posted_at": "2026-11-18T20:20:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 55 555 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 55555,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96194513",
+      "category": "software",
+      "category_label": "Сайты и приложения",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96126799",
+      "title": "Конструкторы",
+      "description": "Разработка конструкторской документации · Сфера деятельности: Строительство · Знание программ: не имеет значения · Пожелания и особенности: Нужно разработать конструкцию из столбов и тросов. Так что бы вдоль этого сдания выше зонтов можно было на роса повесить герлянды или еше какие нибудь украшения. В зависимости от времени погодо. Жду от специалистов цену минимальную максимальную и от чего она зависит. Сделать расчёт сечения столбов на какую глубину вкапать, сечение тросов анкеров, все отрисовано и просчитано. Это людное место нужно что бы было безопасно желательно печать на проекте. Подробности по телефону",
+      "remote": false,
+      "location": "Коптево",
+      "schedule": "17 ноя. (Вт), 22 ноя. (Вс)",
+      "client": "Дмитрий",
+      "posted": "16 ноября",
+      "posted_at": "2026-11-16",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 1 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96126799",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "Конструктор"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: Конструктор",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96098647",
+      "title": "Конструктор",
+      "description": "Доработка существующего проекта · Сфера деятельности: Создание протезов пальцев · Знание программ: AutoCAD · Пожелания и особенности: Я не являюсь инженером, мне нужна помощь с конструированием самой кинематики пальца, у меня есть некоторые наработки, но на данный момент, они заставляют желать лучшего",
+      "remote": false,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Александр",
+      "posted": "16 ноября",
+      "posted_at": "2026-11-16",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 40 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 40000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96098647",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "Конструктор",
+        "инженер",
+        "AutoCAD"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: Конструктор, инженер, AutoCAD",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96149664",
+      "title": "Педагог",
+      "description": "6 класс · Участие в судебном заседании · Пожелания и особенности: Нужен педагогический работник для формального участия в судебном заседании при опросе ребёнка 11 лет · Занятия, консультации, подготовка заключения или выступление в суде не требуются. Необходимо только прибыть в Измайловский районный суд по адресу: Москва, Первомайская ул., д. 12, предъявить документ об образовании/квалификации педагога и присутствовать при опросе ребёнка судом · Заседание назначено на сегодня на 14:00, но в суде имеется задержка, поэтому фактический опрос ожидается ориентировочно через 2–3 часа · Оплата за участие и ожидание — по договорённости. Вся задача сводится к присутствию педагога при опросе несовершеннолетнего",
+      "remote": false,
+      "location": "Измайловская 400 м",
+      "schedule": "17 ноя. (Вт)",
+      "client": "Олег Шевелев",
+      "posted": "17 ноября",
+      "posted_at": "2026-11-17",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 1400 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1400,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96149664",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "95731005",
+      "title": "Разработка электроники",
+      "description": "Разработка и изготовление генератора импульсов для электроискрового легирования",
+      "remote": false,
+      "location": "Москва",
+      "schedule": "9 ноя. (Пн), 30 ноя. (Пн)",
+      "client": "Александр",
+      "posted": "5 ноября",
+      "posted_at": "2026-11-05",
+      "posted_at_precision": "inferred_year",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=95731005",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "93101838",
+      "title": "Математика",
+      "description": "6 класс · Арифметика РКШ · Егэ/огэ не предлагать · Ищем педагога в семейную школу в 6 класс исключительно по методике РКШ (Арифметика по Пчелко, Алгебра Киселев/Барсуков/Ларичев) · С сертификатом РКШ средняя школа",
+      "remote": false,
+      "location": "Волоколамская 200 м",
+      "schedule": "",
+      "client": "Ольга",
+      "posted": "16 ноября",
+      "posted_at": "2026-11-16",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 1900 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1900,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=93101838",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "95971325",
+      "title": "Математика",
+      "description": "5 класс · Повышение успеваемости · Пожелания и особенности: Пожелания и особенности: Требуется преподаватель математики в штат частной гимназии. ЗП по договоренности",
+      "remote": false,
+      "location": "муниципальный округ Истра, деревня Покровское, КП Новорижский, Покровский бульвар",
+      "schedule": "",
+      "client": "Ольга Клиент запросил ещё отклики день назад",
+      "posted": "",
+      "posted_at": null,
+      "posted_at_precision": null,
+      "budget": "1400–1900 ₽",
+      "budget_min_rub": 1400,
+      "budget_max_rub": 1900,
+      "budget_kind": "range",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=95971325",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96137363",
+      "title": "Математика",
+      "description": "7 класс · Для себя · Пожелания и особенности: Добрый день! · В частную студию требуется преподаватель математики (г. Пушкино, очно) · Условия оплаты: · • 1–4 класс — 700 ? за урок · • 5–8 класс — 800 ? за урок · • 9 класс — 900 ? за урок · • 10–11 класс — 1000 ? за урок · Будет ли вам интересно такое сотрудничество? Если да, с удовольствием расскажу подробнее о студии, расписании и форматах занятий",
+      "remote": false,
+      "location": "Пушкино, улица Тургенева, 15Б",
+      "schedule": "",
+      "client": "Виталий",
+      "posted": "17 ноября",
+      "posted_at": "2026-11-17",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 1400 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1400,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96137363",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96218046",
+      "title": "Изготовление электронных устройств",
+      "description": "Изготовление ШИМ-регулятора · Знание программ: не имеет значения · Изготовление ШИМ-регулятора вентиляции двигательного отсека катера",
+      "remote": false,
+      "location": "Печатники • улица Сечкина, 1Ас63",
+      "schedule": "",
+      "client": "ИЛЬЯ Высокие шансы Клиент ждёт ещё предложений, чтобы выбрать",
+      "posted": "",
+      "posted_at": null,
+      "posted_at_precision": null,
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96218046",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96216219",
+      "title": "Проектирование светопрозрачных конструкций из алюминия",
+      "description": "Разработка конструкторской документации · Сфера деятельности: Остекление зданий · Знание программ: AutoCAD · Проектирование светопрозрачных конструкций из алюминия (стадии КМ, КМД, обработка геодезии) · Разработка проектной и рабочей документации (стадии КМ, КМД, РД), включая узлы примыканий, раскладку подсистемы и облицовки · Взаимодействие с заказчиками, архитекторами, проектировщиками и строителями по техническим вопросам · Выполнение расчётов нагрузок и воздействий на конструкции и их элементы · Оформление конструкторской документации согласно ЕСКД · 3D-моделирование изделий · Выполнение статических и прочностных расчётов",
+      "remote": false,
+      "location": "Марьино 500 м",
+      "schedule": "1 дек. (Вт) - 31 дек. (Чт)",
+      "client": "Татьяна",
+      "posted": "7 часов назад",
+      "posted_at": "2026-11-19T14:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 280 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 280000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96216219",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "конструктор",
+        "AutoCAD"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: конструктор, AutoCAD",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96115178",
+      "title": "Инженер-конструктор для реконструкции частного дома 950м2",
+      "description": "Разработка конструкторской документации · Сфера деятельности: Строительство, проектирование зданий и сооружений · Требуется опытный инженер-конструктор для разработки раздела КР по реконструкции двухэтажного частного дома, Московская область, посёлок Вешки. · Существующая площадь около 550 м2, после реконструкции950 м2. · Работы: частичное изменение несущих конструкций, две пристройки — гараж и спа-зона, полная замена кровли, расчёт фундаментов и узлов сопряжения, полный комплект рабочих чертежей, выезды на объект, сопровождение строительства. · Обмеры выполнены, архитектурный проект есть, геология есть · Я архитектор, автор проекта, ищу ответственного специалиста с опытом реконструкций частных домов и готовностью оперативно выезжать. · Оплата по договоренности после ознакомления с проектом, возможно дальнейшее сотрудничество",
+      "remote": false,
+      "location": "городской округ Мытищи, посёлок Вешки, Центральная улица",
+      "schedule": "Начать 16 ноября (пн)",
+      "client": "Александр Клиент ждёт ещё предложений, чтобы выбрать",
+      "posted": "",
+      "posted_at": null,
+      "posted_at_precision": null,
+      "budget": "2 до 400 000 ₽",
+      "budget_min_rub": 2,
+      "budget_max_rub": 400000,
+      "budget_kind": "range",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96115178",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "конструктор",
+        "Инженер",
+        "чертеж"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: конструктор, Инженер, чертеж",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "95511357",
+      "title": "Разработка конструкторской документации",
+      "description": "Сфера деятельности: конструктор рекламных · Знание программ: SolidWorks, AutoCAD, Компас, CorelDRAW, Autodesk 3ds Max · Разработка конструкторской документации · Сфера деятельности: рекламные конструкции, выставочные стенды, экспо · Знание программ: CorelDRAW, AutoCAD, SolidWorks, Компас, Autodesk 3ds Max · Отрисовка, разработка, чертежи, схемы, резки листовых материалов, для всех участков",
+      "remote": false,
+      "location": "Ивантеевка",
+      "schedule": "29 окт. (Чт) - 31 окт. (Сб)",
+      "client": "Maxim",
+      "posted": "28 октября",
+      "posted_at": "2026-10-28",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 35 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 35000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=95511357",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "конструктор",
+        "SolidWorks",
+        "AutoCAD",
+        "Компас",
+        "чертеж"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: конструктор, SolidWorks, AutoCAD, Компас, чертеж",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96227966",
+      "title": "Программисты",
+      "description": "Восстановление, доступ к файлам · Доработка существующего продукта · Мне через телеграмм отправили файлы со свадьбы (видео ) · Сейчас видео не открывается, пишет доступ ограничен, что у отправителя переполнена память в диске",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Айзирек Клиент изучает цены",
+      "posted": "51 минуту назад",
+      "posted_at": "2026-11-19T21:02:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96227966",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96166669",
+      "title": "Программисты",
+      "description": "Разработка игр · Переработать готовую игру · Игра: для установки на ПК · Игра: одиночная · Жанр: гонки · Платформа: Windows 11 · Графика: 3D",
+      "remote": true,
+      "location": "Якутия +6 часов",
+      "schedule": "",
+      "client": "",
+      "posted": "",
+      "posted_at": null,
+      "posted_at_precision": null,
+      "budget": "до 2000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 2000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96166669",
+      "category": "software",
+      "category_label": "Сайты и приложения",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96222495",
+      "title": "Разработка игр",
+      "description": "Разработать игровую механику · Игра: для мобильных устройств · Игра: одиночная · Жанр: RPG · Платформа: Unity · Графика: 3D",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "",
+      "posted": "4 часа назад",
+      "posted_at": "2026-11-19T17:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96222495",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "механик"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: механик",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96224534",
+      "title": "Программисты",
+      "description": "Системное программирование · Разработка с нуля, доработка существующего продукта · Техническое задание · 1. Есть лаунчер · https://launcher.ndaz.ru/ · , который загружает игру на компьютер. Под капотом игры Minecraft 1.21.11 (точно неизвестно, Fabric или Forge) · 2. Лаунчер защищён EAC. Есть готовый рабочий софт на C#, который через zmapper и самописный драйвер загружается в ядро не системным процессом, а просто висит в памяти, чтобы его не читал EAC · 3. Через файл Rw.cs софт получает команды и может читать и писать в память. Файл Reasolver.cs должен находить оффсеты игры и отдавать их в Reader.cs. Файл Program.cs получает данные о том, с какой программой идёт работа · 4. Проблема: не получаются найти верные оффсеты. Один раз удалось найти что-то, но ESP летало по экрану или было под землёй там, где нет ентити · 5. ndaz-clien.exe запускается в оболочке start_protected_game.exe, эта оболочка полностью обходится. ndaz-clien.exe это electron лаунчер, под капотом Minecraft 1.21.11 · 6. Без EAC ndaz-clien.exe запускается, но не входит на сервер. Предположительно оффсеты передаются только при подключении к серверу, поэтому дампить без EAC смысла нет, но можно попробовать · 7. Нужно найти рабочие оффсеты для Minecraft 1.21.11 и полностью доработать софт под ключ, включая поиск оффсетов и стабильную работу ESP · Требования к результату · 1. Найденные рабочие оффсеты для Minecraft 1.21.11, переданные в виде готового файла или списка · 2. Полностью доработанный софт под ключ: поиск оффсетов выполнен, все функции работают стабильно(необезательно но вияет на цену вопроса, если только оффсета хотелось бы подешевле потому что я сам разработчик и могу сам доделать проект) · файлы чита передам при принятии заказа",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "",
+      "posted": "",
+      "posted_at": null,
+      "posted_at_precision": null,
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96224534",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96186018",
+      "title": "Программист",
+      "description": "Системное программирование · Доработка существующего продукта · Здравствуйте, мне нужна услуга программиста. Задача такова - в реальном времени мне нужно заполнить одну анкету в Максе , которая состоит из таблиц. Все заполняются, кроме одной. Она единственная как будто не позволяет редактировать, т.е. не появляется курсор при желании в ней печатать. Уже Макс закачала на ноут, но ноут вообще не открывает Анкету, выходит ошибка. Ноут поддерживает Microsoft . Кто сможет мне помочь и сколько это будет стоить?",
+      "remote": true,
+      "location": "Удмуртия +1 час",
+      "schedule": "",
+      "client": "",
+      "posted": "Вчера в 16:01",
+      "posted_at": "2026-11-18T16:01:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96186018",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96228328",
+      "title": "Разработка на Arduino",
+      "description": "Программирование микроконтроллеров · Микроконтроллер: по рекомендации специалиста · Функции и задача устройства: Прописать микро контроллер",
+      "remote": true,
+      "location": "Кострома",
+      "schedule": "",
+      "client": "",
+      "posted": "38 минут назад",
+      "posted_at": "2026-11-19T21:15:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96228328",
+      "category": "embedded",
+      "category_label": "Электроника и робототехника",
+      "profile_fit": "high",
+      "fit_label": "Близко к профилю",
+      "match_terms": [
+        "микроконтроллер",
+        "Arduino"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: микроконтроллер, Arduino",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96184917",
+      "title": "Майнкрафт сборка",
+      "description": "бяля · Игра: для установки на ПК · Игра: многопользовательская · Жанр: писочница и выживание · Платформа: java script · Графика: 3D",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "",
+      "posted": "Вчера в 15:32",
+      "posted_at": "2026-11-18T15:32:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 3000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 3000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96184917",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96166164",
+      "title": "Разработка игр на пк",
+      "description": "Сделать сайт · Игра: для установки на ПК · Игра: многопользовательская · Жанр: шутер · Графика: 2D, 3D",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "",
+      "posted": "Вчера в 00:23",
+      "posted_at": "2026-11-18T00:23:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 2500 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 2500,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96166164",
+      "category": "software",
+      "category_label": "Сайты и приложения",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96222256",
+      "title": "Разработка компьютерных игр",
+      "description": "Разработать игровую механику, сделать проект под ключ, переработать готовую игру, разработать персонажей, разработать дизайн уровней, выполнить художественный дизайн · Игра: массовая онлайн, многопользовательская, одиночная · Жанр: RPG · Графика: 3D, 2D",
+      "remote": true,
+      "location": "Ростов-на-Дону",
+      "schedule": "",
+      "client": "",
+      "posted": "4 часа назад",
+      "posted_at": "2026-11-19T17:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96222256",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "механик"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: механик",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96193611",
+      "title": "Разработка игр на Unreal Engine",
+      "description": "Переработать готовую игру, сделать проект под ключ, Разработка шейдера · Игра: для установки на ПК, для мобильных устройств · Игра: одиночная · Жанр: шутер · Графика: 3D · Требуется улучшить существующий шейдер на Unreal Engine 5 · Взять шейдер https://www.fab.com/listings/aa1cf447-29bd-4f06-8d71-fe499c121f5c?lang=en (его делал человек из моей команды) · И привести его по функциональности и скриншотам ближе к https://www.fab.com/listings/64eda078-1f3f-4aef-b3c9-393d803c10f6 (есть готовые наработки в эту сторону, желательно сделать еще лучше чем там) · Паки для скриншотов предполагается использовать готовые · Возможно сделать какие-то еще шейдеры/эффекты если есть идеи · Внимание: важны скиллы по шейдерам/материалам · Стоимость обсуждается",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "",
+      "posted": "Вчера в 22:12",
+      "posted_at": "2026-11-18T22:12:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 3000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 3000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96193611",
+      "category": "software",
+      "category_label": "Сайты и приложения",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96088273",
+      "title": "Модмейкинг",
+      "description": "Игра: для установки на ПК · Игра: одиночная · Жанр: стратегия · Платформа: Windows · Графика: 3D · Мод на Total War: Warhammer III · Платформа: PC, Steam, Windows · Тип проекта: пользовательский мод для одиночной кампании · Цель: создать персонализированный романтический фэнтези-мод с двумя уникальными легендарными лордами, сюжетной цепочкой событий, индивидуальными способностями и особой механикой заключения союза между персонажами · Мод создаётся в подарок на день рождения. Дедлайн: 12.12.26 · Основная идея: игрок управляет героем, который встречает независимую чародейку и постепенно проходит сюжетные испытания, чтобы заслужить её доверие и заключить с ней союз",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "",
+      "posted": "15 ноября",
+      "posted_at": "2026-11-15",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 20 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 20000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96088273",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "механик"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: механик",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96227698",
+      "title": "Программист C++",
+      "description": "Программирование микроконтроллеров · Микроконтроллер: Esp32 · Функции и задача устройства: Подсчет входных импульсов,обработка полученных данных,управление исполнительными устройствами, работа с файловой системой,вывод и получение информации на сенсорном экране, получение и вывод информации посредством wifi, взаимодействие с bluetooth принтером,",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "1 дек. (Вт) - 1 фев. 2027 (Пн)",
+      "client": "Сергей",
+      "posted": "1 час назад",
+      "posted_at": "2026-11-19T20:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 50 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 50000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96227698",
+      "category": "embedded",
+      "category_label": "Электроника и робототехника",
+      "profile_fit": "high",
+      "fit_label": "Близко к профилю",
+      "match_terms": [
+        "микроконтроллер"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: микроконтроллер",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96201332",
+      "title": "Программисты",
+      "description": "Разработка приложений для ПК · Настройка · Пожелания и особенности: Есть моноблок у которого не работает тачскрин образ хотим перекинуть на ноутбук и запустить промышленную термокамеру · Такое выполняли уже со второй термокамерой",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "19 ноя. (Чт)",
+      "client": "Николай",
+      "posted": "19 часов назад",
+      "posted_at": "2026-11-19T02:53:07+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 10000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 10000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96201332",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96163113",
+      "title": "Программисты программа",
+      "description": "Установка программы · Тестирование · Срочно нужно установить программу, не получается. Возможно удаленное консультирование",
+      "remote": true,
+      "location": "Санкт-Петербург",
+      "schedule": "",
+      "client": "Ольгв",
+      "posted": "17 ноября",
+      "posted_at": "2026-11-17",
+      "posted_at_precision": "inferred_year",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96163113",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96162248",
+      "title": "Программист",
+      "description": "Веб-разработка · Разработка с нуля, тестирование, настройка, доработка существующего продукта · Пожелания и особенности: Ищу репетитора по программированию онлайн для ребёнка 13 лет · Занятия на компьютере, с нуля, в удобное время. Нужен преподаватель, который умеет объяснять понятно и работать с подростками",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "17 ноя. (Вт)",
+      "client": "Алимирза",
+      "posted": "17 ноября",
+      "posted_at": "2026-11-17",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 1 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96162248",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96194495",
+      "title": "Программисты",
+      "description": "Настройка акаунтов и подписок приложений · Настройка",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "21 ноя. (Сб)",
+      "client": "Ирина",
+      "posted": "Вчера в 20:20",
+      "posted_at": "2026-11-18T20:20:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96194495",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96181754",
+      "title": "Программисты",
+      "description": "Pega · - · Пожелания и особенности: Альфабанк Ведущий разработчик Pega · Грейд: Middle / Middle + · Требования к кандидатам: · - SSA; · 3+ года разработки на Pega · Отличные знания BPM · Java общие знания и навыки · Обязанности: · Разработка программного обеспечения согласно требованиям внутреннего заказчика · Развитие программного обеспечения · Анализ поступающих задач на предмет оптимального решения, оценка трудозатрат, соблюдение поставленных сроков · Тестирование реализованных функций системы · Исправление дефектов программного обеспечения · Настройка и конфигурирование ПО в соответствии с требованиями заказчика · Консультирование и техническая поддержка по вопросам функционирования разработанного ПО · Практическое освоение и внедрение новых информационных технологий, повышение качества разрабатываемого ПО · Внедрение разработанного ПО и интеграция с другими системами банка · Описание проекта: · Набор идет в новую команду, есть возможность реального влияния на архитектуру решений, а также на подбор и становление новой команды. Новая команда будет встраиваться в уже существующие, отстроенные процессы кредитной фабрики. Документация по проекту вся есть, ее наличие и актуальность постоянно контролируется. На проекте большое коммьюнити разработчиков Pega. В проекте выстроена friendly атмосфера, для новых коллег предусмотрен онбординг с наставником, а для команды - онбординг по всем существующим процессам производственного цикла и организации работы · РФ, удаленная работа",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Тимур",
+      "posted": "Вчера в 14:12",
+      "posted_at": "2026-11-18T14:12:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96181754",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96173960",
+      "title": "Программисты",
+      "description": "Скачать приложение Фото на документы и полностью запустить его · Настройка · На копицентр нужно приложение для Фото на документы скачать и чтоб полностью работала. Сами скачали не запускается …",
+      "remote": true,
+      "location": "Екатеринбург +2 часа",
+      "schedule": "",
+      "client": "Азиз",
+      "posted": "Вчера в 10:56",
+      "posted_at": "2026-11-18T10:56:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 2000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 2000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96173960",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96192100",
+      "title": "Программист ИИ",
+      "description": "Пожелания и особенности: Нужно пройти верификацию в Claud",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Наталья",
+      "posted": "Вчера в 18:59",
+      "posted_at": "2026-11-18T18:59:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96192100",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96199567",
+      "title": "Программирование микроконтроллеров",
+      "description": "Микроконтроллер: ESP32 · Функции и задача устройства: Установка, программирование и настройка системы автоматического управления основным и резервным котлами отопления с использованием контроллера ESP32. ТЗ в приложенном файле · Территориально: Щёлковский район Московская область · Пожелания и особенности: Ссылка на файл с ТЗ - https://dropmefiles.com/wejgm",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "23 ноя. (Пн), 30 ноя. (Пн)",
+      "client": "Alex",
+      "posted": "Вчера в 23:40",
+      "posted_at": "2026-11-18T23:40:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 25 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 25000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96199567",
+      "category": "embedded",
+      "category_label": "Электроника и робототехника",
+      "profile_fit": "high",
+      "fit_label": "Близко к профилю",
+      "match_terms": [
+        "микроконтроллер"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: микроконтроллер",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T21:53:07+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
       ],
       "is_current": true
     }
