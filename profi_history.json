@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T18:53:48+00:00",
+  "generated_at": "2026-11-19T19:10:20+00:00",
   "processed_source_commits": [
     "c6c6d71d477c9071d696671822e165bdd68ba79a",
     "700e6ac779ad6f9af30283f670e73a3db2aad6ae",
@@ -14,7 +14,8 @@
     "121247130a868fdd7f5df7cf3446e3441c7b8ab7",
     "01c5bdec8c0d02fc240e9bc5f55f7fc359a20486",
     "d8041809f06d642fb6845ea5ad41879139aa2582",
-    "abd141f8516303174532ada9eb0257a7492333bf"
+    "abd141f8516303174532ada9eb0257a7492333bf",
+    "373edd9cc41804d57057ad91bdcaecee57ec8fb2"
   ],
   "orders": [
     {
@@ -6257,8 +6258,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-10-12T10:11:28+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 7,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 8,
       "observed_dates": [
         "2026-10-12",
         "2026-10-14",
@@ -7730,8 +7731,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-10-12T10:11:28+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 9,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 10,
       "observed_dates": [
         "2026-10-12",
         "2026-10-13",
@@ -8749,8 +8750,8 @@
       "location": "Одинцово, улица Маршала Неделина, 6Б",
       "schedule": "",
       "client": "Татьяна",
-      "posted": "21 час назад",
-      "posted_at": "2026-11-19T00:53:07+03:00",
+      "posted": "22 часа назад",
+      "posted_at": "2026-11-19T00:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 1400 ₽",
       "budget_min_rub": null,
@@ -8771,8 +8772,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-10-13T08:16:08+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 8,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 9,
       "observed_dates": [
         "2026-10-13",
         "2026-10-14",
@@ -12028,8 +12029,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-10-16T08:16:08+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-10-16",
         "2026-11-19"
@@ -13083,7 +13084,7 @@
       "schedule": "",
       "client": "Екатерина",
       "posted": "4 часа назад",
-      "posted_at": "2026-11-19T17:53:07+03:00",
+      "posted_at": "2026-11-19T18:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 1400 ₽",
       "budget_min_rub": null,
@@ -13104,8 +13105,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-10-16T08:16:08+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-10-16",
         "2026-11-19"
@@ -15810,7 +15811,7 @@
       "schedule": "30 ноя. (Пн) - 31 янв. 2027 (Вс)",
       "client": "Владимир Клиент запросил ещё отклики",
       "posted": "29 дней назад",
-      "posted_at": "2026-10-21T21:53:07+03:00",
+      "posted_at": "2026-10-21T22:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -15835,8 +15836,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-10-23T08:16:08+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 4,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 5,
       "observed_dates": [
         "2026-10-23",
         "2026-10-24",
@@ -20355,8 +20356,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-10-26T08:16:08+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-10-26",
         "2026-11-19"
@@ -20972,7 +20973,7 @@
       "schedule": "Начать 19 ноября (чт)",
       "client": "Александр",
       "posted": "6 часов назад",
-      "posted_at": "2026-11-19T15:53:07+03:00",
+      "posted_at": "2026-11-19T16:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -20993,8 +20994,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21008,8 +21009,8 @@
       "location": "Москва",
       "schedule": "19 ноя. (Чт)",
       "client": "Андрей",
-      "posted": "6 часов назад",
-      "posted_at": "2026-11-19T15:53:07+03:00",
+      "posted": "7 часов назад",
+      "posted_at": "2026-11-19T15:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 750 ₽",
       "budget_min_rub": null,
@@ -21030,8 +21031,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21045,8 +21046,8 @@
       "location": "Москва",
       "schedule": "19 ноя. (Чт) - 23 ноя. (Пн)",
       "client": "Максим",
-      "posted": "9 часов назад",
-      "posted_at": "2026-11-19T12:53:07+03:00",
+      "posted": "10 часов назад",
+      "posted_at": "2026-11-19T12:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -21069,8 +21070,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21083,9 +21084,9 @@
       "remote": true,
       "location": "Иркутск +5 часов",
       "schedule": "Пн-пт 07:00-08:00",
-      "client": "Оксана Высокие шансы",
-      "posted": "20 минут назад",
-      "posted_at": "2026-11-19T21:33:07+03:00",
+      "client": "Оксана",
+      "posted": "36 минут назад",
+      "posted_at": "2026-11-19T21:33:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "900–1800 ₽",
       "budget_min_rub": 900,
@@ -21106,8 +21107,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21143,8 +21144,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21180,8 +21181,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21217,8 +21218,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21254,8 +21255,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21291,8 +21292,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21306,8 +21307,8 @@
       "location": "Москва",
       "schedule": "19 ноя. (Чт) - 25 ноя. (Ср)",
       "client": "Ирина",
-      "posted": "24 минуты назад",
-      "posted_at": "2026-11-19T21:29:07+03:00",
+      "posted": "40 минут назад",
+      "posted_at": "2026-11-19T21:29:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 500 ₽",
       "budget_min_rub": null,
@@ -21332,8 +21333,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21348,7 +21349,7 @@
       "schedule": "",
       "client": "Владислав",
       "posted": "11 часов назад",
-      "posted_at": "2026-11-19T10:53:07+03:00",
+      "posted_at": "2026-11-19T11:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 1 000 000 ₽",
       "budget_min_rub": null,
@@ -21369,8 +21370,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21406,8 +21407,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21448,7 +21449,7 @@
       "observed_dates": [
         "2026-11-19"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96211415",
@@ -21459,7 +21460,7 @@
       "schedule": "19 ноя. (Чт)",
       "client": "Александр Клиент изучает цены",
       "posted": "9 часов назад",
-      "posted_at": "2026-11-19T12:53:07+03:00",
+      "posted_at": "2026-11-19T13:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -21480,8 +21481,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21495,8 +21496,8 @@
       "location": "Москва",
       "schedule": "Пн-пт 20:00-21:00",
       "client": "Глеб",
-      "posted": "9 минут назад",
-      "posted_at": "2026-11-19T21:44:07+03:00",
+      "posted": "26 минут назад",
+      "posted_at": "2026-11-19T21:43:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "1700–3100 ₽",
       "budget_min_rub": 1700,
@@ -21517,8 +21518,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21554,8 +21555,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21591,8 +21592,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21606,8 +21607,8 @@
       "location": "Москва",
       "schedule": "",
       "client": "Мария",
-      "posted": "5 часов назад",
-      "posted_at": "2026-11-19T16:53:07+03:00",
+      "posted": "6 часов назад",
+      "posted_at": "2026-11-19T16:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "700 ₽",
       "budget_min_rub": 700,
@@ -21628,8 +21629,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21644,7 +21645,7 @@
       "schedule": "19 ноя. (Чт) - 26 ноя. (Чт)",
       "client": "Виктория",
       "posted": "9 часов назад",
-      "posted_at": "2026-11-19T12:53:07+03:00",
+      "posted_at": "2026-11-19T13:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 5000 ₽",
       "budget_min_rub": null,
@@ -21665,8 +21666,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21702,8 +21703,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21739,8 +21740,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21776,8 +21777,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21792,7 +21793,7 @@
       "schedule": "16 ноя. (Пн) - 22 ноя. (Вс)",
       "client": "Роман Клиент запросил ещё отклики",
       "posted": "2 дня назад",
-      "posted_at": "2026-11-17T21:53:07+03:00",
+      "posted_at": "2026-11-17T22:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -21815,8 +21816,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21852,8 +21853,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21891,8 +21892,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21907,7 +21908,7 @@
       "schedule": "31 янв. 2027 (Вс)",
       "client": "Константин",
       "posted": "15 часов назад",
-      "posted_at": "2026-11-19T06:53:07+03:00",
+      "posted_at": "2026-11-19T07:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -21928,8 +21929,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -21967,8 +21968,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22006,8 +22007,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22046,8 +22047,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22085,8 +22086,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22100,8 +22101,8 @@
       "location": "Москва",
       "schedule": "",
       "client": "Игорь Клиент изучает цены",
-      "posted": "10 часов назад",
-      "posted_at": "2026-11-19T11:53:07+03:00",
+      "posted": "11 часов назад",
+      "posted_at": "2026-11-19T11:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -22125,8 +22126,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22141,7 +22142,7 @@
       "schedule": "Ср-пт 07:00-08:00",
       "client": "Пикалева Наталия Викторовна",
       "posted": "1 час назад",
-      "posted_at": "2026-11-19T20:53:07+03:00",
+      "posted_at": "2026-11-19T21:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "300 ₽",
       "budget_min_rub": 300,
@@ -22162,8 +22163,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22177,8 +22178,8 @@
       "location": "Москва",
       "schedule": "",
       "client": "Анастасия",
-      "posted": "12 часов назад",
-      "posted_at": "2026-11-19T09:53:07+03:00",
+      "posted": "13 часов назад",
+      "posted_at": "2026-11-19T09:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -22199,8 +22200,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22214,8 +22215,8 @@
       "location": "Москва",
       "schedule": "",
       "client": "Наталья",
-      "posted": "12 часов назад",
-      "posted_at": "2026-11-19T09:53:07+03:00",
+      "posted": "13 часов назад",
+      "posted_at": "2026-11-19T09:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -22236,8 +22237,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22251,8 +22252,8 @@
       "location": "Владимир",
       "schedule": "",
       "client": "Анастасия",
-      "posted": "12 часов назад",
-      "posted_at": "2026-11-19T09:53:07+03:00",
+      "posted": "13 часов назад",
+      "posted_at": "2026-11-19T09:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -22273,8 +22274,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22310,8 +22311,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22347,8 +22348,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22384,8 +22385,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22400,7 +22401,7 @@
       "schedule": "",
       "client": "Дмитрий",
       "posted": "8 часов назад",
-      "posted_at": "2026-11-19T13:53:07+03:00",
+      "posted_at": "2026-11-19T14:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 1100 ₽",
       "budget_min_rub": null,
@@ -22421,8 +22422,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22458,8 +22459,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22495,8 +22496,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22511,7 +22512,7 @@
       "schedule": "Ср 18:00-20:00, сб-вс 12:00-14:00",
       "client": "Elena",
       "posted": "4 часа назад",
-      "posted_at": "2026-11-19T17:53:07+03:00",
+      "posted_at": "2026-11-19T18:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "от 2200 ₽",
       "budget_min_rub": 2200,
@@ -22532,8 +22533,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22569,8 +22570,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22606,8 +22607,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22622,7 +22623,7 @@
       "schedule": "Пн-вс 15:00-20:00",
       "client": "Арсений",
       "posted": "7 часов назад",
-      "posted_at": "2026-11-19T14:53:07+03:00",
+      "posted_at": "2026-11-19T15:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 1900 ₽",
       "budget_min_rub": null,
@@ -22645,8 +22646,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22687,7 +22688,7 @@
       "observed_dates": [
         "2026-11-19"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96194513",
@@ -22719,8 +22720,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22758,8 +22759,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22799,8 +22800,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22836,8 +22837,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22873,8 +22874,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22910,8 +22911,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22947,8 +22948,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -22984,8 +22985,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23021,8 +23022,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23037,7 +23038,7 @@
       "schedule": "1 дек. (Вт) - 31 дек. (Чт)",
       "client": "Татьяна",
       "posted": "7 часов назад",
-      "posted_at": "2026-11-19T14:53:07+03:00",
+      "posted_at": "2026-11-19T15:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 280 000 ₽",
       "budget_min_rub": null,
@@ -23061,8 +23062,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23102,8 +23103,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23145,8 +23146,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23160,8 +23161,8 @@
       "location": "Москва",
       "schedule": "",
       "client": "Айзирек Клиент изучает цены",
-      "posted": "51 минуту назад",
-      "posted_at": "2026-11-19T21:02:07+03:00",
+      "posted": "1 час назад",
+      "posted_at": "2026-11-19T21:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -23182,8 +23183,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23224,7 +23225,7 @@
       "observed_dates": [
         "2026-11-19"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96222495",
@@ -23263,7 +23264,7 @@
       "observed_dates": [
         "2026-11-19"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96224534",
@@ -23295,8 +23296,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23332,8 +23333,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23347,8 +23348,8 @@
       "location": "Кострома",
       "schedule": "",
       "client": "",
-      "posted": "38 минут назад",
-      "posted_at": "2026-11-19T21:15:07+03:00",
+      "posted": "55 минут назад",
+      "posted_at": "2026-11-19T21:14:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
       "budget_min_rub": null,
@@ -23372,8 +23373,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23409,8 +23410,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23446,8 +23447,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23490,7 +23491,7 @@
       "observed_dates": [
         "2026-11-19"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96193611",
@@ -23522,8 +23523,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23561,8 +23562,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23577,7 +23578,7 @@
       "schedule": "1 дек. (Вт) - 1 фев. 2027 (Пн)",
       "client": "Сергей",
       "posted": "1 час назад",
-      "posted_at": "2026-11-19T20:53:07+03:00",
+      "posted_at": "2026-11-19T21:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 50 000 ₽",
       "budget_min_rub": null,
@@ -23600,8 +23601,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23616,7 +23617,7 @@
       "schedule": "19 ноя. (Чт)",
       "client": "Николай",
       "posted": "19 часов назад",
-      "posted_at": "2026-11-19T02:53:07+03:00",
+      "posted_at": "2026-11-19T03:09:55+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 10000 ₽",
       "budget_min_rub": null,
@@ -23637,8 +23638,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23679,7 +23680,7 @@
       "observed_dates": [
         "2026-11-19"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96162248",
@@ -23711,8 +23712,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23748,8 +23749,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23785,8 +23786,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23822,8 +23823,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23859,8 +23860,8 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
       "observed_dates": [
         "2026-11-19"
       ],
@@ -23898,7 +23899,194 @@
       "parser_version": "4.4",
       "capture_day": "2026-11-19",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-19T21:53:07+03:00",
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 2,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96229640",
+      "title": "Математика",
+      "description": "1 курс · Повышение успеваемости · Вуз и специальность: Твгту,1 курс , хим технолог",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "Пн 19:00-20:00",
+      "client": "Мария Добавкина",
+      "posted": "2 минуты назад",
+      "posted_at": "2026-11-19T22:07:55+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 1700 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1700,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96229640",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T22:09:55+03:00",
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96210435",
+      "title": "Математика",
+      "description": "11 класс · Повышение успеваемости · Пожелания и особенности: Внимательный анализ входных данных — основа математического мышления. Если ваш отклик не соответствует изложенным в объявлении параметрам, мы будем вынуждены усомниться в вашей профессиональной пригодности. Надеемся на ваше понимание. · Два ученика (9 и 11 класс) / ОГЭ с нуля + База ЕГЭ · Исключительно молодой человек · Задача: · – Ученик 9 класса: Подготовка к ОГЭ практически с нулевой базы. Нужно терпение и умение объяснять азы максимально доступно, без лишней воды и нагромождений. Показать что математику можно легко понимать и полюбить. · Цель просто сдать ОГЭ · – Ученик 11 класса: Сопровождение по Базовой математике. Ребенок в теме, нужно просто систематизировать знания и «набить руку» · Цель: · Сдать экзамен на отлично · Ищем не просто «училку», а старшего товарища, который покажет, что математика — это не страшно",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "Вт, чт 13:00-14:00",
+      "client": "Ольга",
+      "posted": "2 минуты назад",
+      "posted_at": "2026-11-19T22:07:55+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "600 ₽",
+      "budget_min_rub": 600,
+      "budget_max_rub": 600,
+      "budget_kind": "exact",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96210435",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T22:09:55+03:00",
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96059781",
+      "title": "Разработка игр на Unity",
+      "description": "Сделать проект под ключ, разработать игровую механику · Игра: для установки на ПК · Игра: одиночная · Жанр: стратегия · Графика: 2D · РАБОТА НА ЭНТУЗИАЗМЕ · ВСЕ НАРИСОВАНО",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "",
+      "posted": "14 ноября",
+      "posted_at": "2026-11-14",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 1 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96059781",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "механик"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: механик",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T22:09:55+03:00",
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96054379",
+      "title": "Разработка игр на Unity ПК",
+      "description": "Сделать проект под ключ · Игра: для установки на ПК · Игра: многопользовательская, одиночная, массовая онлайн · Жанр: Симулятор вождения · Графика: 3D · Разработка симулятора вождения автобуса (РП) реалистичного, проще говоря нужно будет сделать реальную жизнь водителя автобуса, смена, автобусы, гараж,ремонт и тд, и всё это онлайн и одиночной сессии. Так же междугородние перевозки. в теории будет карта города, в будущем несколько, всё из реальной жизни будем брать. Оплата за проект процентом от продаж игры, тематика популярна но хорошей игры с автобусами так и нет, а у меня есть концепт и план, того что нужно сейчас людям. Возьму 3-4 разработчика, возможно официальное заключение и работа с оплатой после продаж ибо доля · Так же к слову: У меня своя команда по разработке есть, мы занимаемся другой игрой. В районе весны будет официальное добавление в команду и компанию (в случае регистрации)",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "",
+      "posted": "",
+      "posted_at": null,
+      "posted_at_precision": null,
+      "budget": "до 1 000 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1000000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96054379",
+      "category": "software",
+      "category_label": "Сайты и приложения",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T22:09:55+03:00",
+      "last_seen": "2026-11-19T22:09:55+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-19"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96058148",
+      "title": "Разработка игр на Unreal Engine",
+      "description": "Сделать проект под ключ · Игра: для установки на ПК · Игра: многопользовательская, одиночная, массовая онлайн · Жанр: Симулятор вождения автобуса РП · Графика: 3D · Разработка симулятора вождения автобуса (РП) реалистичного, проще говоря нужно будет сделать реальную жизнь водителя автобуса, смена, автобусы, гараж,ремонт и тд, и всё это онлайн и одиночной сессии. Так же междугородние перевозки. в теории будет карта города, в будущем несколько, всё из реальной жизни будем брать. Оплата за проект процентом от продаж игры, тематика популярна но хорошей игры с автобусами так и нет, а у меня есть концепт и план, того что нужно сейчас людям. Возьму 3-4 разработчика, возможно официальное заключение и работа с оплатой после продаж ибо доля · Так же к слову: У меня своя команда по разработке есть, мы занимаемся другой игрой. В районе весны будет официальное добавление в команду и компанию (в случае регистрации)",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "",
+      "posted": "14 ноября",
+      "posted_at": "2026-11-14",
+      "posted_at_precision": "inferred_year",
+      "budget": "до 500 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 500000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96058148",
+      "category": "software",
+      "category_label": "Сайты и приложения",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-19",
+      "first_seen": "2026-11-19T22:09:55+03:00",
+      "last_seen": "2026-11-19T22:09:55+03:00",
       "times_seen": 1,
       "observed_dates": [
         "2026-11-19"
