@@ -6,8 +6,11 @@ on:
       - control.json
       - scripts/automation_runtime.py
       - scripts/linkedin_worker_entry.py
+      - scripts/profi_worker_entry.py
+      - scripts/profi_run_now.bat
       - scripts/dispatcher_v4_linkedin_profi.py
       - tests/test_automation_chain.py
+      - tests/test_automation_profi_launcher.py
       - .github/workflows/automation-checks.yml
   workflow_dispatch:
 permissions:
