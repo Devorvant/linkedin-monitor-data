@@ -67,21 +67,20 @@ class WorkerTests(unittest.TestCase):
                 w.main()
             self.assertEqual(events, ["capture", "close", "parse", "upload"])
 
-    def test_launcher_pins_code_and_forwards_root_and_arguments(self):
+    def test_launcher_downloads_raw_code_and_forwards_root_and_arguments(self):
         entry = self.entry
-        sha = "a" * 40
         urls = []
         def download(url):
             urls.append(url)
-            return json.dumps({"object": {"sha": sha}}).encode() if "api.github.com" in url else b"# valid collector\n"
+            self.assertNotIn("api.github.com", url)
+            return b"# valid collector\n"
         with tempfile.TemporaryDirectory() as directory, patch.object(entry, "ROOT", Path(directory)), patch.object(entry, "download", side_effect=download), patch.object(entry.sys, "argv", ["entry.py", "--close-y", "0.02"]), patch.object(entry.subprocess, "run", return_value=Mock(returncode=0)) as run:
             self.assertEqual(entry.main(), 0)
             self.assertTrue((Path(directory) / "cache" / "profi_worker_unified_runtime.py").exists())
             command = run.call_args.args[0]
             self.assertIn("--root", command)
             self.assertEqual(command[-2:], ["--close-y", "0.02"])
-        self.assertEqual(len(urls), 2)
-        self.assertIn("/" + sha + "/scripts/profi_worker_unified.py", urls[1])
+        self.assertEqual(urls, ["https://raw.githubusercontent.com/Devorvant/linkedin-monitor-data/main/scripts/profi_worker_unified.py"])
 
     def test_invalid_download_does_not_replace_cached_worker(self):
         entry = self.entry
@@ -90,8 +89,7 @@ class WorkerTests(unittest.TestCase):
             worker = root / "cache" / "profi_worker_unified_runtime.py"
             worker.parent.mkdir()
             worker.write_text("# previous valid version\n")
-            payloads = [json.dumps({"object": {"sha": "a" * 40}}).encode(), b"not Python !"]
-            with patch.object(entry, "ROOT", root), patch.object(entry, "download", side_effect=payloads), patch.object(entry.subprocess, "run") as run:
+            with patch.object(entry, "ROOT", root), patch.object(entry, "download", return_value=b"not Python !"), patch.object(entry.subprocess, "run") as run:
                 with self.assertRaises(SyntaxError):
                     entry.main()
             run.assert_not_called()
