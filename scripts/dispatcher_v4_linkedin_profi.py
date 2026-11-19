@@ -607,14 +607,16 @@ def main() -> None:
             return
         start_at, finish_at = resolve_times(datetime.now(), cfg)
         should_shutdown = cfg.get("shutdown_after_finish", True)
-        # Arm before any START wait, download, worker or diagnostic upload.
-        if should_shutdown:
+        # An OS countdown is opt-in; by default Python waits for FINISH below.
+        if should_shutdown and cfg.get("independent_shutdown_enabled", False):
             try:
                 shutdown_armed = arm_windows_shutdown(finish_at, log)
             except Exception as error:
                 log(f"Windows FINISH timer setup failed: {error}")
             if not shutdown_armed:
                 log("WARNING: OS shutdown timer unavailable; dispatcher watchdog remains active.")
+        elif should_shutdown:
+            log("Independent Windows FINISH timer disabled; Python handles shutdown at FINISH.")
         if datetime.now() < start_at:
             wait_until(start_at, "START")
         if datetime.now() >= finish_at:
@@ -630,7 +632,8 @@ def main() -> None:
                 cancel_owned_shutdown(log)
                 shutdown_armed = False
             return
-        if not cfg.get("shutdown_after_finish", True) and shutdown_armed:
+        if shutdown_armed and (not cfg.get("shutdown_after_finish", True)
+                               or not cfg.get("independent_shutdown_enabled", False)):
             cancel_owned_shutdown(log)
             shutdown_armed = False
         # Finish for this cycle stays the originally calculated deadline.
@@ -688,3 +691,4 @@ if __name__ == "__main__":
                     datetime.fromisoformat(request["ended"]))
     else:
         main()
+

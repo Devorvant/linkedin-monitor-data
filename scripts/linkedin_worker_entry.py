@@ -231,9 +231,13 @@ def main() -> int:
         cfg = load_chain_config()
         finish_at = run_deadline(cfg)
         status["finish_at"] = finish_at.isoformat() if finish_at else None
-        # Old dispatchers have no independent timer; arm it before network work.
-        if os.environ.get("DISPATCHER_SHUTDOWN_ARMED") != "1":
+        # Python-only shutdown is the default: a Windows countdown can block GUI focus.
+        independent_shutdown = cfg.get("independent_shutdown_enabled", False)
+        status["independent_shutdown_enabled"] = independent_shutdown
+        if independent_shutdown and os.environ.get("DISPATCHER_SHUTDOWN_ARMED") != "1":
             timer_owned = arm_early_shutdown(finish_at)
+        elif finish_at is not None and not independent_shutdown:
+            log("Independent Windows FINISH timer disabled; shutdown is handled by Python dispatcher.")
         write_chain_status(status)
         LOG_DIR.mkdir(parents=True, exist_ok=True)
         for name in ("linkedin", "actions", "profi"):
@@ -274,3 +278,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

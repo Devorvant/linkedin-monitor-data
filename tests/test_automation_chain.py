@@ -28,6 +28,7 @@ NOW = datetime(2026, 10, 12, 8, 10)
 FINISH = NOW.replace(minute=20)
 CFG = {'enabled': True, 'schedule': {'start_time': '8:10', 'finish_time': '8:20'},
        'shutdown_after_finish': True, 'shutdown_when_disabled': True,
+       'independent_shutdown_enabled': True,
        'run_if_started_late': True}
 
 
@@ -216,10 +217,34 @@ class ChainTests(unittest.TestCase):
             self.assertEqual(entry.main(), 130)
             self.assertEqual(cancel.call_args.args[0], ['shutdown', '/a'])
 
+    def test_python_mode_never_arms_os_timer_in_worker(self):
+        for value in (False, None):
+            cfg = {**CFG, 'linkedin_enabled': False}
+            if value is None:
+                cfg.pop('independent_shutdown_enabled')
+            else:
+                cfg['independent_shutdown_enabled'] = value
+            with self.subTest(value=value), tempfile.TemporaryDirectory() as root, \
+                 patch.object(entry, 'load_chain_config', return_value=cfg), \
+                 patch.object(entry, 'run_deadline', return_value=FINISH), \
+                 patch.object(entry, 'arm_early_shutdown') as arm, \
+                 patch.object(entry, 'write_chain_status') as status, \
+                 patch.object(entry, 'LOG_DIR', Path(root)), patch.object(entry, 'log'), \
+                 patch.object(entry, 'download_python', side_effect=OSError('offline')), \
+                 patch.object(entry.subprocess, 'run') as command, \
+                 patch.dict(os.environ, {'DISPATCHER_SHUTDOWN_ARMED': '0'}):
+                self.assertEqual(entry.main(), 1)
+                arm.assert_not_called()
+                command.assert_not_called()
+                result = status.call_args.args[0]
+                self.assertFalse(result['independent_shutdown_enabled'])
+                self.assertEqual(result['finish_at'], FINISH.isoformat())
+
 
 class DispatcherTests(unittest.TestCase):
-    def execute(self, worker_error=False, cancel=False, refreshed=None, timer_error=False):
+    def execute(self, worker_error=False, cancel=False, refreshed=None, timer_error=False, cfg=None):
         events = []
+        cfg = CFG if cfg is None else cfg
         def arm(*args):
             events.append('arm')
             if timer_error:
@@ -236,7 +261,7 @@ class DispatcherTests(unittest.TestCase):
             events.append((label, target))
         with tempfile.TemporaryDirectory() as root, patch.object(dispatcher, 'LOG_DIR', Path(root)), \
              patch.object(dispatcher, 'datetime', Frozen), patch.object(dispatcher, 'log'), \
-             patch.object(dispatcher, 'load_control', side_effect=[CFG, refreshed or CFG]), \
+             patch.object(dispatcher, 'load_control', side_effect=[cfg, refreshed or cfg]), \
              patch.object(dispatcher, 'arm_windows_shutdown', side_effect=arm), \
              patch.object(dispatcher, 'download_worker', side_effect=download), \
              patch.object(dispatcher, 'run_worker', return_value=0), \
@@ -258,6 +283,38 @@ class DispatcherTests(unittest.TestCase):
         events = self.execute(timer_error=True)
         self.assertIn('download', events)
         self.assertEqual(events[-1], 'shutdown')
+
+    def test_python_mode_waits_and_shuts_down_without_os_countdown(self):
+        for worker_error in (False, True):
+            for explicit in (False, True):
+                cfg = {**CFG, 'independent_shutdown_enabled': False}
+                if not explicit:
+                    cfg.pop('independent_shutdown_enabled')
+                with self.subTest(worker_error=worker_error, explicit=explicit):
+                    events = self.execute(worker_error=worker_error, cfg=cfg)
+                    self.assertNotIn('arm', events)
+                    self.assertNotIn('cancel', events)
+                    self.assertIn(('FINISH', FINISH), events)
+                    self.assertEqual(events[-1], 'shutdown')
+
+    def test_python_mode_user_cancel_does_not_power_off(self):
+        events = self.execute(cancel=True, cfg={**CFG, 'independent_shutdown_enabled': False})
+        self.assertNotIn('arm', events)
+        self.assertNotIn('cancel', events)
+        self.assertNotIn('shutdown', events)
+
+    def test_switch_to_python_mode_cancels_owned_countdown(self):
+        events = self.execute(refreshed={**CFG, 'independent_shutdown_enabled': False})
+        self.assertEqual(events[:2], ['arm', 'cancel'])
+        self.assertIn(('FINISH', FINISH), events)
+        self.assertEqual(events[-1], 'shutdown')
+
+    def test_finish_shutdown_command_has_no_countdown(self):
+        with patch.object(dispatcher.sys, 'platform', 'win32'), \
+             patch.object(dispatcher, 'log'), \
+             patch.object(dispatcher.subprocess, 'run', return_value=Mock(returncode=0)) as command:
+            dispatcher.shutdown_windows()
+        self.assertEqual(command.call_args.args[0], ['shutdown', '/s', '/f', '/t', '0'])
 
     def test_user_cancel_cancels_only_own_timer(self):
         events = self.execute(cancel=True)
@@ -298,3 +355,4 @@ class DispatcherTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

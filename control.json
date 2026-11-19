@@ -9,6 +9,7 @@
   "script_name": "linkedin_worker_entry.py",
   "script_url": "https://raw.githubusercontent.com/Devorvant/linkedin-monitor-data/main/scripts/linkedin_worker_entry.py",
   "shutdown_after_finish": true,
+  "independent_shutdown_enabled": false,
   "shutdown_when_disabled": true,
   "github_repo": "Devorvant/linkedin-monitor-data",
   "github_branch": "main",
@@ -24,3 +25,4 @@
   "actions_timeout_seconds": 180,
   "worker_timeout_seconds": 1200
 }
+
