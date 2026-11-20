@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T19:10:20+00:00",
+  "generated_at": "2026-11-20T05:11:39+00:00",
   "status": "OK",
-  "captured_at": "2026-11-19T22:09:55+03:00",
+  "captured_at": "2026-11-20T08:11:10+03:00",
   "parser_version": "4.4",
   "summary": {
-    "orders": 84,
-    "remote_orders": 65,
-    "with_budget": 55,
-    "profile_relevant": 22,
-    "high_fit": 4,
+    "orders": 85,
+    "remote_orders": 67,
+    "with_budget": 57,
+    "profile_relevant": 24,
+    "high_fit": 2,
     "categories": {
-      "education": 29,
-      "software": 7,
-      "engineering": 16,
-      "other": 26,
-      "embedded": 4,
-      "ai_data": 2
+      "other": 27,
+      "education": 28,
+      "engineering": 21,
+      "embedded": 2,
+      "software": 6,
+      "ai_data": 1
     },
-    "new_observed": 5,
-    "unique_observed": 627,
-    "scans": 13,
+    "new_observed": 18,
+    "unique_observed": 645,
+    "scans": 14,
     "first_capture": "2026-08-23T20:51:51+03:00",
-    "last_capture": "2026-11-19T22:09:55+03:00"
+    "last_capture": "2026-11-20T08:11:10+03:00"
   },
   "warning": null,
   "daily": [
@@ -211,9 +211,68 @@
         "ai_data": 2,
         "engineering": 18
       }
+    },
+    {
+      "date": "2026-11-20",
+      "scans": 1,
+      "new_observed": 18,
+      "orders": 85,
+      "remote_orders": 67,
+      "with_budget": 57,
+      "profile_relevant": 24,
+      "high_fit": 2,
+      "categories": {
+        "other": 27,
+        "education": 28,
+        "engineering": 21,
+        "embedded": 2,
+        "software": 6,
+        "ai_data": 1
+      }
     }
   ],
   "runs": [
+    {
+      "scan_id": "274e1b0c427628a8",
+      "date": "2026-11-20",
+      "captured_at": "2026-11-20T08:11:10+03:00",
+      "source_filename": "profi_orders_2026-11-20_08-11-10.mhtml",
+      "parser_version": "4.4",
+      "new_observed": 18,
+      "new_ids": [
+        "96234610",
+        "96231717",
+        "96234876",
+        "96233372",
+        "96234342",
+        "96234962",
+        "96233373",
+        "96235055",
+        "96234178",
+        "96232373",
+        "96230521",
+        "96234375",
+        "96211623",
+        "96208785",
+        "95957344",
+        "96143479",
+        "96224719",
+        "96224677"
+      ],
+      "orders": 85,
+      "remote_orders": 67,
+      "with_budget": 57,
+      "profile_relevant": 24,
+      "high_fit": 2,
+      "categories": {
+        "other": 27,
+        "education": 28,
+        "engineering": 21,
+        "embedded": 2,
+        "software": 6,
+        "ai_data": 1
+      }
+    },
     {
       "scan_id": "830cd8a5e5355e1b",
       "date": "2026-11-19",
