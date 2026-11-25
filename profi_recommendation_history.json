@@ -1,13 +1,27 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T05:13:27+00:00",
+  "generated_at": "2026-11-25T05:13:46+00:00",
   "runs": [
+    {
+      "snapshot_id": "58d874190a8ff93b",
+      "date": "2026-11-25",
+      "captured_at": "2026-11-25T08:11:10+03:00",
+      "analyzed_at": "2026-11-25T08:13:45+03:00",
+      "ref": "main",
+      "path": "profi_recommendations.json",
+      "status": "PARTIAL",
+      "orders": 90,
+      "ai_orders": 83,
+      "respond": 0,
+      "clarify": 36,
+      "skip": 54
+    },
     {
       "snapshot_id": "433d98894a543d05",
       "date": "2026-11-24",
       "captured_at": "2026-11-24T08:11:10+03:00",
       "analyzed_at": "2026-11-24T08:13:26+03:00",
-      "ref": "main",
+      "ref": "15bb7897ca7fcc21f4124d83a46207d660d2db9e",
       "path": "profi_recommendations.json",
       "status": "AI",
       "orders": 71,
@@ -270,11 +284,11 @@
     }
   ],
   "summary": {
-    "snapshots": 19,
-    "unique_orders": 653,
-    "days": 14,
+    "snapshots": 20,
+    "unique_orders": 695,
+    "days": 15,
     "first_capture": "2026-10-12T10:11:28+03:00",
-    "last_capture": "2026-11-24T08:11:10+03:00"
+    "last_capture": "2026-11-25T08:11:10+03:00"
   },
   "daily": [
     {
@@ -332,6 +346,10 @@
     {
       "date": "2026-11-24",
       "unique_orders": 71
+    },
+    {
+      "date": "2026-11-25",
+      "unique_orders": 90
     }
   ],
   "scope_note": "Индекс уже опубликованных версий файла в Git. Архив не подтверждает, что заказ открыт."
