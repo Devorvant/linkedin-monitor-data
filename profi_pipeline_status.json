@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T05:11:38+00:00",
+  "generated_at": "2026-11-26T05:11:40+00:00",
   "status": "OK",
-  "captured_at": "2026-11-25T08:11:10+03:00",
+  "captured_at": "2026-11-26T08:11:10+03:00",
   "parser_version": "4.4",
   "summary": {
-    "orders": 90,
-    "remote_orders": 70,
-    "with_budget": 63,
+    "orders": 97,
+    "remote_orders": 75,
+    "with_budget": 62,
     "profile_relevant": 23,
-    "high_fit": 3,
+    "high_fit": 1,
     "categories": {
-      "other": 30,
-      "software": 6,
+      "other": 33,
+      "software": 8,
       "ai_data": 6,
-      "embedded": 3,
-      "education": 31,
-      "engineering": 14
+      "education": 33,
+      "engineering": 16,
+      "embedded": 1
     },
-    "new_observed": 42,
-    "unique_observed": 808,
-    "scans": 19,
+    "new_observed": 30,
+    "unique_observed": 838,
+    "scans": 20,
     "first_capture": "2026-08-23T20:51:51+03:00",
-    "last_capture": "2026-11-25T08:11:10+03:00"
+    "last_capture": "2026-11-26T08:11:10+03:00"
   },
   "warning": null,
   "daily": [
@@ -322,9 +322,80 @@
         "education": 31,
         "engineering": 14
       }
+    },
+    {
+      "date": "2026-11-26",
+      "scans": 1,
+      "new_observed": 30,
+      "orders": 97,
+      "remote_orders": 75,
+      "with_budget": 62,
+      "profile_relevant": 23,
+      "high_fit": 1,
+      "categories": {
+        "other": 33,
+        "software": 8,
+        "ai_data": 6,
+        "education": 33,
+        "engineering": 16,
+        "embedded": 1
+      }
     }
   ],
   "runs": [
+    {
+      "scan_id": "51468cf5bead17f7",
+      "date": "2026-11-26",
+      "captured_at": "2026-11-26T08:11:10+03:00",
+      "source_filename": "profi_orders_2026-11-26_08-11-10.mhtml",
+      "parser_version": "4.4",
+      "new_observed": 30,
+      "new_ids": [
+        "96419344",
+        "96418366",
+        "96418258",
+        "96414331",
+        "96413705",
+        "96395629",
+        "96403568",
+        "96396834",
+        "96418629",
+        "96417664",
+        "96406252",
+        "96403121",
+        "96416848",
+        "96215119",
+        "96416696",
+        "96407552",
+        "96409736",
+        "96390521",
+        "96384276",
+        "96419366",
+        "96410021",
+        "96404375",
+        "96416850",
+        "96404865",
+        "93722757",
+        "96402715",
+        "96416150",
+        "96396101",
+        "96416301",
+        "96419329"
+      ],
+      "orders": 97,
+      "remote_orders": 75,
+      "with_budget": 62,
+      "profile_relevant": 23,
+      "high_fit": 1,
+      "categories": {
+        "other": 33,
+        "software": 8,
+        "ai_data": 6,
+        "education": 33,
+        "engineering": 16,
+        "embedded": 1
+      }
+    },
     {
       "scan_id": "3bac93f370fc5947",
       "date": "2026-11-25",

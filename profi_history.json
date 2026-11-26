@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T05:11:38+00:00",
+  "generated_at": "2026-11-26T05:11:40+00:00",
   "processed_source_commits": [
     "c6c6d71d477c9071d696671822e165bdd68ba79a",
     "700e6ac779ad6f9af30283f670e73a3db2aad6ae",
@@ -21,7 +21,8 @@
     "6cb2bc4353a025e65950e6140c505dde4d7dfe32",
     "37a774aa91185d7982a2ff7610de65f5afb36562",
     "4fff921c29b4cb2011c2cbbffce13993af5d6bc2",
-    "841755050b4b0c8df90ec7ae05e1738bfe3b81a6"
+    "841755050b4b0c8df90ec7ae05e1738bfe3b81a6",
+    "71c4eb81d883aefa08b06ec6740c00d8e1f43e8e"
   ],
   "orders": [
     {
@@ -6262,10 +6263,10 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-10-12T10:11:28+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 14,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 15,
       "observed_dates": [
         "2026-10-12",
         "2026-10-14",
@@ -6279,7 +6280,8 @@
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -12026,9 +12028,9 @@
       "location": "Москва",
       "schedule": "",
       "client": "Анастасия",
-      "posted": "Вчера в 15:30",
-      "posted_at": "2026-11-24T15:30:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "500 ₽",
       "budget_min_rub": 500,
       "budget_max_rub": 500,
@@ -12046,16 +12048,17 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-10-16T08:16:08+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 6,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 7,
       "observed_dates": [
         "2026-10-16",
         "2026-11-19",
         "2026-11-20",
         "2026-11-21",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -15834,7 +15837,7 @@
       "location": "Аэропорт • улица Викторенко, 16с1",
       "schedule": "30 ноя. (Пн) - 31 янв. 2027 (Вс)",
       "client": "Владимир Клиент запросил ещё отклики",
-      "posted": "35 дней назад",
+      "posted": "36 дней назад",
       "posted_at": "2026-10-21T08:11:10+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
@@ -15858,10 +15861,10 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: конструктор, SolidWorks, AutoCAD",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-10-23T08:16:08+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 10,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 11,
       "observed_dates": [
         "2026-10-23",
         "2026-10-24",
@@ -15871,7 +15874,8 @@
         "2026-11-21",
         "2026-11-22",
         "2026-11-23",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -22087,10 +22091,10 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: конструктор",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 8,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 9,
       "observed_dates": [
         "2026-11-19",
         "2026-11-20",
@@ -22098,7 +22102,8 @@
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -22174,10 +22179,10 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: Конструктор",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 8,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 9,
       "observed_dates": [
         "2026-11-19",
         "2026-11-20",
@@ -22185,7 +22190,8 @@
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -22278,9 +22284,9 @@
       "location": "Москва",
       "schedule": "",
       "client": "Анастасия",
-      "posted": "Вчера в 13:41",
-      "posted_at": "2026-11-24T13:41:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "",
       "budget_min_rub": null,
       "budget_max_rub": null,
@@ -22298,15 +22304,16 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 5,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 6,
       "observed_dates": [
         "2026-11-19",
         "2026-11-20",
         "2026-11-21",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -22472,9 +22479,9 @@
       "location": "Москва",
       "schedule": "",
       "client": "Онлайн школа Целифайв",
-      "posted": "Вчера в 09:10",
-      "posted_at": "2026-11-24T09:10:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "450 ₽",
       "budget_min_rub": 450,
       "budget_max_rub": 450,
@@ -22492,15 +22499,16 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 5,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 6,
       "observed_dates": [
         "2026-11-19",
         "2026-11-20",
         "2026-11-23",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -22647,10 +22655,10 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 8,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 9,
       "observed_dates": [
         "2026-11-19",
         "2026-11-20",
@@ -22658,7 +22666,8 @@
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -23043,17 +23052,18 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 7,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 8,
       "observed_dates": [
         "2026-11-19",
         "2026-11-20",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -23138,19 +23148,19 @@
         "2026-11-24",
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96218046",
-      "title": "Изготовление электронных устройств",
+      "title": "Разработка электроники",
       "description": "Изготовление ШИМ-регулятора · Знание программ: не имеет значения · Изготовление ШИМ-регулятора вентиляции двигательного отсека катера",
       "remote": false,
       "location": "Печатники • улица Сечкина, 1Ас63",
       "schedule": "",
       "client": "ИЛЬЯ",
-      "posted": "19 ноября",
-      "posted_at": "2026-11-19",
-      "posted_at_precision": "inferred_year",
+      "posted": "Вчера в 15:50",
+      "posted_at": "2026-11-25T15:50:00+03:00",
+      "posted_at_precision": "minute",
       "budget": "",
       "budget_min_rub": null,
       "budget_max_rub": null,
@@ -23168,10 +23178,10 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 8,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 9,
       "observed_dates": [
         "2026-11-19",
         "2026-11-20",
@@ -23179,7 +23189,8 @@
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -23214,10 +23225,10 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: конструктор, AutoCAD",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 8,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 9,
       "observed_dates": [
         "2026-11-19",
         "2026-11-20",
@@ -23225,7 +23236,8 @@
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -23261,10 +23273,10 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: конструктор, Инженер, чертеж",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 8,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 9,
       "observed_dates": [
         "2026-11-19",
         "2026-11-20",
@@ -23272,7 +23284,8 @@
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -23310,10 +23323,10 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: конструктор, SolidWorks, AutoCAD, Компас, чертеж",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 8,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 9,
       "observed_dates": [
         "2026-11-19",
         "2026-11-20",
@@ -23321,7 +23334,8 @@
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -23696,17 +23710,18 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-19T21:53:07+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 7,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 8,
       "observed_dates": [
         "2026-11-19",
         "2026-11-20",
         "2026-11-21",
         "2026-11-22",
         "2026-11-23",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -25379,7 +25394,7 @@
       "location": "Москва",
       "schedule": "",
       "client": "Алена Клиент запросил ещё отклики",
-      "posted": "3 дня назад",
+      "posted": "4 дня назад",
       "posted_at": "2026-11-22T08:11:10+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "",
@@ -25401,16 +25416,17 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: Машинное обучен",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-21T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 5,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 6,
       "observed_dates": [
         "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -25758,16 +25774,17 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: конструктор, AutoCAD",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-21T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 5,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 6,
       "observed_dates": [
         "2026-11-21",
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -25822,9 +25839,9 @@
       "location": "Москва",
       "schedule": "",
       "client": "Дарья",
-      "posted": "Вчера в 17:26",
-      "posted_at": "2026-11-24T17:26:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 1300 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 1300,
@@ -25842,14 +25859,15 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-21T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 3,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 4,
       "observed_dates": [
         "2026-11-21",
         "2026-11-23",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -26009,9 +26027,9 @@
       "location": "Некрасовка 1.2 км",
       "schedule": "",
       "client": "Екатерина Школьник",
-      "posted": "Вчера в 15:25",
-      "posted_at": "2026-11-24T15:25:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 2500 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 2500,
@@ -26029,15 +26047,16 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-21T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 4,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 5,
       "observed_dates": [
         "2026-11-21",
         "2026-11-22",
         "2026-11-23",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -26086,9 +26105,9 @@
       "location": "Прокшино 900 м",
       "schedule": "Пн-вт, чт 15:00-18:00, вт, чт 20:00-21:00, ср, пт 15:00-17:00, сб 12:00-20:00, вс 10:00-20:00",
       "client": "Екатерина Школьник",
-      "posted": "23 ноября",
-      "posted_at": "2026-11-23",
-      "posted_at_precision": "inferred_year",
+      "posted": "Вчера в 16:50",
+      "posted_at": "2026-11-25T16:50:00+03:00",
+      "posted_at_precision": "minute",
       "budget": "до 2100 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 2100,
@@ -26106,15 +26125,16 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-21T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 4,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 5,
       "observed_dates": [
         "2026-11-21",
         "2026-11-22",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -26391,10 +26411,10 @@
       "remote": true,
       "location": "Москва",
       "schedule": "20 ноя. (Пт), 2 апр. 2027 (Пт)",
-      "client": "Артём",
-      "posted": "Вчера в 19:46",
-      "posted_at": "2026-11-21T19:46:00+03:00",
-      "posted_at_precision": "minute",
+      "client": "Артём Клиент ждёт ещё предложений, чтобы выбрать",
+      "posted": "",
+      "posted_at": null,
+      "posted_at_precision": null,
       "budget": "до 100 000 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 100000,
@@ -26414,14 +26434,15 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: нейросет",
       "parser_version": "4.4",
-      "capture_day": "2026-11-22",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-22T08:11:09+03:00",
-      "last_seen": "2026-11-22T08:11:09+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-26"
       ],
-      "is_current": false
+      "is_current": true
     },
     {
       "order_id": "96282366",
@@ -26490,15 +26511,16 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-22T08:11:09+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 4,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 5,
       "observed_dates": [
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -26835,15 +26857,16 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-22T08:11:09+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 4,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 5,
       "observed_dates": [
         "2026-11-22",
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -26855,8 +26878,8 @@
       "location": "Фили 500 м",
       "schedule": "",
       "client": "Ксения",
-      "posted": "Вчера в 17:45",
-      "posted_at": "2026-11-21T17:45:00+03:00",
+      "posted": "Вчера в 12:09",
+      "posted_at": "2026-11-25T12:09:00+03:00",
       "posted_at_precision": "minute",
       "budget": "1200 ₽",
       "budget_min_rub": 1200,
@@ -26875,14 +26898,15 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-22",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-22T08:11:09+03:00",
-      "last_seen": "2026-11-22T08:11:09+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-26"
       ],
-      "is_current": false
+      "is_current": true
     },
     {
       "order_id": "96285812",
@@ -27409,14 +27433,15 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-23T08:11:11+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 3,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 4,
       "observed_dates": [
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -27448,14 +27473,15 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-23T08:11:11+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 3,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 4,
       "observed_dates": [
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -27487,14 +27513,15 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-23T08:11:11+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 3,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 4,
       "observed_dates": [
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -27535,7 +27562,7 @@
         "2026-11-24",
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96318802",
@@ -27765,7 +27792,7 @@
         "2026-11-24",
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96312738",
@@ -27836,14 +27863,15 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-23T08:11:11+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 3,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 4,
       "observed_dates": [
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -27990,14 +28018,15 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-23T08:11:11+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 3,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 4,
       "observed_dates": [
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -28144,14 +28173,15 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-23T08:11:11+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 3,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 4,
       "observed_dates": [
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -28183,14 +28213,15 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-23T08:11:11+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 3,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 4,
       "observed_dates": [
         "2026-11-23",
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -28231,7 +28262,7 @@
         "2026-11-24",
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96305857",
@@ -28582,9 +28613,9 @@
       "location": "Москва",
       "schedule": "",
       "client": "Дмитрий",
-      "posted": "Вчера в 11:36",
-      "posted_at": "2026-11-24T11:36:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 1500 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 1500,
@@ -28605,13 +28636,14 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: Python, Машинное обучен",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -28688,7 +28720,7 @@
         "2026-11-24",
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96354612",
@@ -28735,9 +28767,9 @@
       "location": "Москва",
       "schedule": "24 ноя. (Вт)",
       "client": "Никита Клиент изучает цены",
-      "posted": "Вчера в 07:23",
-      "posted_at": "2026-11-24T07:23:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 10000 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 10000,
@@ -28755,13 +28787,14 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -28793,13 +28826,14 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -28831,13 +28865,14 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -28849,9 +28884,9 @@
       "location": "Москва",
       "schedule": "Вт 09:00-00:00",
       "client": "Григорий",
-      "posted": "Вчера в 16:04",
-      "posted_at": "2026-11-24T16:04:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 3100 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 3100,
@@ -28869,13 +28904,14 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -29000,9 +29036,9 @@
       "location": "Москва",
       "schedule": "Начать 25 ноября (ср)",
       "client": "Динара",
-      "posted": "Вчера в 18:46",
-      "posted_at": "2026-11-24T18:46:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "",
       "budget_min_rub": null,
       "budget_max_rub": null,
@@ -29020,13 +29056,14 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -29038,8 +29075,8 @@
       "location": "Санкт-Петербург",
       "schedule": "",
       "client": "Владимир",
-      "posted": "Вчера в 18:08",
-      "posted_at": "2026-11-23T18:08:00+03:00",
+      "posted": "Вчера в 09:30",
+      "posted_at": "2026-11-25T09:30:00+03:00",
       "posted_at_precision": "minute",
       "budget": "",
       "budget_min_rub": null,
@@ -29058,14 +29095,15 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-24",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-24T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-24"
+        "2026-11-24",
+        "2026-11-26"
       ],
-      "is_current": false
+      "is_current": true
     },
     {
       "order_id": "96353514",
@@ -29103,7 +29141,7 @@
         "2026-11-24",
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95515183",
@@ -29113,9 +29151,9 @@
       "location": "Санкт-Петербург",
       "schedule": "",
       "client": "Руслан",
-      "posted": "Вчера в 02:34",
-      "posted_at": "2026-11-24T02:34:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 50 000 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 50000,
@@ -29136,13 +29174,14 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: конструктор, AutoCAD",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -29182,7 +29221,7 @@
         "2026-11-24",
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96346151",
@@ -29215,13 +29254,14 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: конструктор, Инженер",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -29256,13 +29296,14 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: Конструктор, AutoCAD",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -29298,13 +29339,14 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: конструктор, AutoCAD, чертеж",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -29418,7 +29460,7 @@
         "2026-11-24",
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96352888",
@@ -29522,13 +29564,14 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -29560,13 +29603,14 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-24T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 2,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 3,
       "observed_dates": [
         "2026-11-24",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -29681,7 +29725,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96385663",
@@ -29718,7 +29762,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96384167",
@@ -29755,7 +29799,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "95531607",
@@ -29765,9 +29809,9 @@
       "location": "Нижний Новгород",
       "schedule": "",
       "client": "Елена",
-      "posted": "Вчера в 15:58",
-      "posted_at": "2026-11-24T15:58:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "",
       "budget_min_rub": null,
       "budget_max_rub": null,
@@ -29787,12 +29831,13 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: нейросет",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -29831,7 +29876,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96373401",
@@ -29863,12 +29908,13 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: микроконтроллер",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -29880,9 +29926,9 @@
       "location": "Москва",
       "schedule": "24 ноя. (Вт) - 13 дек. (Вс)",
       "client": "Владислав Клиент изучает цены",
-      "posted": "Вчера в 12:21",
-      "posted_at": "2026-11-24T12:21:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 2000 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 2000,
@@ -29902,12 +29948,13 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: анализу данн",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -29946,7 +29993,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96369397",
@@ -29956,9 +30003,9 @@
       "location": "Москва",
       "schedule": "",
       "client": "Кирилл",
-      "posted": "Вчера в 14:50",
-      "posted_at": "2026-11-24T14:50:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "",
       "budget_min_rub": null,
       "budget_max_rub": null,
@@ -29976,12 +30023,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30022,7 +30070,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96387020",
@@ -30059,7 +30107,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96389030",
@@ -30096,7 +30144,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96382802",
@@ -30133,7 +30181,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96381652",
@@ -30143,9 +30191,9 @@
       "location": "Москва",
       "schedule": "24 ноя. (Вт)",
       "client": "Светлана Клиент изучает цены",
-      "posted": "Вчера в 20:58",
-      "posted_at": "2026-11-24T20:58:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 1000 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 1000,
@@ -30163,12 +30211,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30180,9 +30229,9 @@
       "location": "Москва",
       "schedule": "",
       "client": "Ангелина",
-      "posted": "Вчера в 19:27",
-      "posted_at": "2026-11-24T19:27:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 35 000 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 35000,
@@ -30200,12 +30249,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30217,9 +30267,9 @@
       "location": "Москва",
       "schedule": "27 ноя. (Пт) 12:00-14:00",
       "client": "Лена",
-      "posted": "Вчера в 15:02",
-      "posted_at": "2026-11-24T15:02:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 5000 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 5000,
@@ -30237,12 +30287,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30254,9 +30305,9 @@
       "location": "Москва",
       "schedule": "",
       "client": "Анастасия",
-      "posted": "Вчера в 22:34",
-      "posted_at": "2026-11-24T22:34:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "",
       "budget_min_rub": null,
       "budget_max_rub": null,
@@ -30274,12 +30325,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30290,10 +30342,10 @@
       "remote": true,
       "location": "Санкт-Петербург",
       "schedule": "",
-      "client": "София Клиент запросил ещё отклики",
-      "posted": "9 часов назад",
-      "posted_at": "2026-11-24T23:11:10+03:00",
-      "posted_at_precision": "relative_estimate",
+      "client": "София Клиент запросил ещё отклики день назад",
+      "posted": "",
+      "posted_at": null,
+      "posted_at_precision": null,
       "budget": "до 900 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 900,
@@ -30311,12 +30363,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30328,9 +30381,9 @@
       "location": "Москва",
       "schedule": "",
       "client": "Ольга Волгина",
-      "posted": "1 час назад",
-      "posted_at": "2026-11-25T07:11:10+03:00",
-      "posted_at_precision": "relative_estimate",
+      "posted": "Вчера в 06:52",
+      "posted_at": "2026-11-25T06:52:00+03:00",
+      "posted_at_precision": "minute",
       "budget": "до 1300 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 1300,
@@ -30348,12 +30401,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30365,9 +30419,9 @@
       "location": "Владимир",
       "schedule": "",
       "client": "Анастасия",
-      "posted": "Вчера в 15:41",
-      "posted_at": "2026-11-24T15:41:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "500 ₽",
       "budget_min_rub": 500,
       "budget_max_rub": 500,
@@ -30385,12 +30439,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30402,9 +30457,9 @@
       "location": "Владимир",
       "schedule": "",
       "client": "Анастасия",
-      "posted": "Вчера в 15:35",
-      "posted_at": "2026-11-24T15:35:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "",
       "budget_min_rub": null,
       "budget_max_rub": null,
@@ -30422,12 +30477,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30439,9 +30495,9 @@
       "location": "Москва",
       "schedule": "",
       "client": "Сергей",
-      "posted": "Вчера в 19:06",
-      "posted_at": "2026-11-24T19:06:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 1300 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 1300,
@@ -30459,12 +30515,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30505,7 +30562,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96387624",
@@ -30542,7 +30599,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96101227",
@@ -30552,7 +30609,7 @@
       "location": "Москва",
       "schedule": "17 ноя. (Вт), 25 дек. (Пт)",
       "client": "Мария Клиент запросил ещё отклики",
-      "posted": "8 дней назад",
+      "posted": "9 дней назад",
       "posted_at": "2026-11-17T08:11:10+03:00",
       "posted_at_precision": "relative_estimate",
       "budget": "до 10 ₽",
@@ -30572,12 +30629,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30589,9 +30647,9 @@
       "location": "Санкт-Петербург",
       "schedule": "",
       "client": "Игорь",
-      "posted": "7 часов назад",
-      "posted_at": "2026-11-25T01:11:10+03:00",
-      "posted_at_precision": "relative_estimate",
+      "posted": "Вчера в 00:30",
+      "posted_at": "2026-11-25T00:30:00+03:00",
+      "posted_at_precision": "minute",
       "budget": "",
       "budget_min_rub": null,
       "budget_max_rub": null,
@@ -30611,12 +30669,13 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: Инженер",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30651,12 +30710,13 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: Конструктор, AutoCAD",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30668,9 +30728,9 @@
       "location": "Москва",
       "schedule": "",
       "client": "Михаил",
-      "posted": "Вчера в 10:46",
-      "posted_at": "2026-11-24T10:46:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "",
       "budget_min_rub": null,
       "budget_max_rub": null,
@@ -30688,12 +30748,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30705,9 +30766,9 @@
       "location": "Белгород",
       "schedule": "30 ноя. (Пн)",
       "client": "Dr.Jack",
-      "posted": "Вчера в 17:49",
-      "posted_at": "2026-11-24T17:49:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 1000 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 1000,
@@ -30728,12 +30789,13 @@
       ],
       "fit_reason": "Совпадения по ключевым словам: Конструктор, механик",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30745,9 +30807,9 @@
       "location": "Владимир",
       "schedule": "",
       "client": "Анастасия",
-      "posted": "Вчера в 15:34",
-      "posted_at": "2026-11-24T15:34:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "",
       "budget_min_rub": null,
       "budget_max_rub": null,
@@ -30765,12 +30827,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30782,12 +30845,12 @@
       "location": "Москва",
       "schedule": "",
       "client": "Онлайн школа Целифайв",
-      "posted": "Вчера в 20:03",
-      "posted_at": "2026-11-24T20:03:00+03:00",
+      "posted": "Вчера в 16:18",
+      "posted_at": "2026-11-25T16:18:00+03:00",
       "posted_at_precision": "minute",
-      "budget": "450 ₽",
-      "budget_min_rub": 450,
-      "budget_max_rub": 450,
+      "budget": "500 ₽",
+      "budget_min_rub": 500,
+      "budget_max_rub": 500,
       "budget_kind": "exact",
       "budget_unit": null,
       "budget_unit_source": null,
@@ -30802,25 +30865,26 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
     {
       "order_id": "96361148",
       "title": "Математика",
-      "description": "11 класс · Эксперт по ОГЭ/ЕГЭ · Пожелания и особенности: Онлайн гимназия «Сто пятерок» ищет эксперта по ОГЭ/ЕГЭ.Ставка от 900 рублей (60 мин) .График свободный. Работаем по самозанятости",
+      "description": "11 класс · Эксперт по ОГЭ/ЕГЭ · Пожелания и особенности: Онлайн гимназия «Сто пятерок» ищет эксперта по ОГЭ/ЕГЭ.Ставка от 900 рублей (60 мин) .График свободный. Работаем по самозанятости.Нужен эксперт, который состоит или был в комиссии",
       "remote": true,
       "location": "Москва",
       "schedule": "",
       "client": "Анастасия",
-      "posted": "Вчера в 14:15",
-      "posted_at": "2026-11-24T14:15:00+03:00",
+      "posted": "Вчера в 13:00",
+      "posted_at": "2026-11-25T13:00:00+03:00",
       "posted_at_precision": "minute",
       "budget": "до 1300 ₽",
       "budget_min_rub": null,
@@ -30839,12 +30903,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30883,7 +30948,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96375745",
@@ -30893,9 +30958,9 @@
       "location": "Раменки 600 м",
       "schedule": "",
       "client": "Ольга Аркадьевна",
-      "posted": "Вчера в 17:41",
-      "posted_at": "2026-11-24T17:41:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "от 1400 ₽",
       "budget_min_rub": 1400,
       "budget_max_rub": null,
@@ -30913,12 +30978,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -30957,7 +31023,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96376220",
@@ -30967,9 +31033,9 @@
       "location": "Комсомольская 400 м",
       "schedule": "",
       "client": "Роман",
-      "posted": "Вчера в 17:55",
-      "posted_at": "2026-11-24T17:55:00+03:00",
-      "posted_at_precision": "minute",
+      "posted": "24 ноября",
+      "posted_at": "2026-11-24",
+      "posted_at_precision": "inferred_year",
       "budget": "до 300 000 ₽",
       "budget_min_rub": null,
       "budget_max_rub": 300000,
@@ -30987,12 +31053,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -31024,12 +31091,13 @@
       "match_terms": [],
       "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
       "parser_version": "4.4",
-      "capture_day": "2026-11-25",
+      "capture_day": "2026-11-26",
       "first_seen": "2026-11-25T08:11:10+03:00",
-      "last_seen": "2026-11-25T08:11:10+03:00",
-      "times_seen": 1,
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 2,
       "observed_dates": [
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-26"
       ],
       "is_current": true
     },
@@ -31068,7 +31136,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96381935",
@@ -31108,7 +31176,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96389309",
@@ -31147,7 +31215,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96374487",
@@ -31184,7 +31252,7 @@
       "observed_dates": [
         "2026-11-25"
       ],
-      "is_current": true
+      "is_current": false
     },
     {
       "order_id": "96380637",
@@ -31222,6 +31290,1126 @@
       "times_seen": 1,
       "observed_dates": [
         "2026-11-25"
+      ],
+      "is_current": false
+    },
+    {
+      "order_id": "96419344",
+      "title": "Программисты",
+      "description": "ворд · Настройка · Нужно исправить ворд",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Лариса",
+      "posted": "5 минут назад",
+      "posted_at": "2026-11-26T08:06:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 1000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96419344",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96418366",
+      "title": "Программисты",
+      "description": "Разблокировать телефон · Востоновить айклауд · Взломали телефон, не могу зайти в айклауд",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "26 ноя. (Чт) - 28 ноя. (Сб)",
+      "client": "Ксения Высокие шансы",
+      "posted": "2 часа назад",
+      "posted_at": "2026-11-26T06:11:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 3000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 3000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96418366",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96418258",
+      "title": "Программист",
+      "description": "Поиск по сайту · Необходимо узнать чей профиль · Надо узнать чей профиль на сайте",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Сергей",
+      "posted": "2 часа назад",
+      "posted_at": "2026-11-26T06:11:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96418258",
+      "category": "software",
+      "category_label": "Сайты и приложения",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96414331",
+      "title": "Программист",
+      "description": "Сборка компьютера и установка программ · Настройка",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Евгений",
+      "posted": "Вчера в 22:16",
+      "posted_at": "2026-11-25T22:16:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96414331",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96413705",
+      "title": "Программисты",
+      "description": "Разблокировка iPhone с сохранением данных · Разблокировка iPhone · Забыла код пароль от телефона",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "26 ноя. (Чт) - 27 ноя. (Пт)",
+      "client": "Настя",
+      "posted": "Вчера в 21:50",
+      "posted_at": "2026-11-25T21:50:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 5000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 5000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [
+        "Топ-заказ"
+      ],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96413705",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96395629",
+      "title": "Программисты",
+      "description": "нужен спец по Exel чтобы очно мог в Мск объяснить · Разработка с нуля, тестирование",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "25 ноя. (Ср), 27 ноя. (Пт)",
+      "client": "Има",
+      "posted": "Вчера в 12:05",
+      "posted_at": "2026-11-25T12:05:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 8000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 8000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96395629",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96403568",
+      "title": "Программист",
+      "description": "Настроить WI-FI · Доработка существующего продукта",
+      "remote": true,
+      "location": "Ставрополь",
+      "schedule": "25 ноя. (Ср)",
+      "client": "АнжеЛика Клиент ждёт ещё предложений, чтобы выбрать",
+      "posted": "",
+      "posted_at": null,
+      "posted_at_precision": null,
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96403568",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96396834",
+      "title": "Анализ данных, разработка инструментария",
+      "description": "Доработка существующего продукта · Нужен социолог-аналитик с опытом работы в качественных исследованиях. · для разработки инструментария для качественного исследования в сфере образования и в дальнейшем анализ данных, написание отчета, т.е проект \"под ключ\". Сбор данных , подготовка транскриптов на нашей стороне. · Необходимо: · 1. Разработать гайд для глубинных интервью учащихся 8-9 и 11 классов (критерием включения является агентность ребёнка в принятии решении о собственной образовательной траектории). Объём: 8-12 интервью с подростками; · 2. Разработать гайд с родителями школьников четырёх диапазонов – с 7 по 8 класс, родители школьников 9 класса обучения и родители одиннадцатиклассников, родители студентов техникума. Объем: 28-33 интервью с родителями · Длительность гайда - порядка 60 мин · Сроки разработки гайда до 27 ноября · Написание отчета с 17 декабря",
+      "remote": true,
+      "location": "Пермь +2 часа",
+      "schedule": "25 ноя. (Ср) - 27 ноя. (Пт)",
+      "client": "Ольга",
+      "posted": "Вчера в 12:38",
+      "posted_at": "2026-11-25T12:38:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 70 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 70000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96396834",
+      "category": "ai_data",
+      "category_label": "AI и обработка данных",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "Анализ данн"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: Анализ данн",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96418629",
+      "title": "Физика",
+      "description": "1 курс · Повышение успеваемости · Вуз и специальность: Иркутский национальный исследовательский технический университет, Нефтегазовое дело",
+      "remote": true,
+      "location": "Иркутск +5 часов",
+      "schedule": "",
+      "client": "Ольга",
+      "posted": "1 час назад",
+      "posted_at": "2026-11-26T07:11:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "от 800 ₽",
+      "budget_min_rub": 800,
+      "budget_max_rub": null,
+      "budget_kind": "lower_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96418629",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96417664",
+      "title": "Картины маслом",
+      "description": "По техническому заданию · Размер: 80x60 · Количество: 1 шт · Нужно написать картину Бал сатаны из романа \"Мастер и Маргарита\" с главной героиней в шикарном платье по фотографии девушки. Задача узнавание девушки и ключевых персонажей ( таких как кот Бегимот), высокая детализация, нужно к новому году",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "26 дек. (Сб)",
+      "client": "Сергей",
+      "posted": "5 часов назад",
+      "posted_at": "2026-11-26T03:11:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96417664",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96406252",
+      "title": "Регистрация для сайта",
+      "description": "Объём диска: менее 5 Гб · Нужно сделать несколько регистраций (по мере необходимости) на сайте Microsoft, Azure чтобы получить триал на месяц и 200 кредитов",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "25 ноя. (Ср) - 2 дек. (Ср)",
+      "client": "Stepan",
+      "posted": "Вчера в 17:21",
+      "posted_at": "2026-11-25T17:21:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 1500 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1500,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96406252",
+      "category": "software",
+      "category_label": "Сайты и приложения",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96403121",
+      "title": "Художники",
+      "description": "Картина или рисунок на заказ · Техника исполнения: масло · По фотографии · Размер: 50Х70 · Количество: 1 шт",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "11 дек. (Пт) 08:00-10:00",
+      "client": "Евгений",
+      "posted": "Вчера в 15:40",
+      "posted_at": "2026-11-25T15:40:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96403121",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96416848",
+      "title": "Физика",
+      "description": "8 класс · Повышение успеваемости · Школа имени Лебедева ищет одного преподавателя физики в команду для онлайн-занятий со школьниками. Это общий набор, конкретного ученика и даты первого урока пока нет. Восьмой класс в анкете — ориентир. Можно вести другие классы, в которых вы уверены · Оплата преподавателю за 60 минут: индивидуально — 1 000 ?, группа из 2 учеников — 1 250 ?, из 3 — 1 500 ?, из 4 — 1 750 ?. Нужно от 6 свободных часов в неделю после 18:00 МСК, желательно около 10 · Если интересно, напишите, с какими классами работаете и сколько вечерних часов можете выделить. Будет ли удобно созвониться с руководителем в Zoom на 10–15 минут в один из ближайших дней? Время согласуем отдельно",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Анна",
+      "posted": "7 часов назад",
+      "posted_at": "2026-11-26T01:11:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "1000 ₽",
+      "budget_min_rub": 1000,
+      "budget_max_rub": 1000,
+      "budget_kind": "exact",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96416848",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96215119",
+      "title": "Физика",
+      "description": "7 класс · Повышение успеваемости",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "Пн 10:00-11:00, вт 11:00-12:00, чт 10:00-12:00",
+      "client": "Gulya",
+      "posted": "2 часа назад",
+      "posted_at": "2026-11-26T06:11:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "500 ₽",
+      "budget_min_rub": 500,
+      "budget_max_rub": 500,
+      "budget_kind": "exact",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96215119",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96416696",
+      "title": "Доработка сайта",
+      "description": "Уже есть: готовый сайт · Сайт-визитка · Платформа: Самописный · Функционал сайта: Вкладка кино · Контент есть · Пожелания и особенности: Небольшая доработка персонального сайта · Ищу специалиста для нескольких небольших изменений на уже готовом сайте · Сайт самописный, с собственной админкой. PHP 8.2, HTML, CSS и JavaScript. Хостинг REG.RU. Работа ведётся через SFTP · Что нужно сделать: · 1. Отключить Outlook и заменить отображение электронной почты на картинку; подправить логотип; валючить соглашение о конфиденциальности или как оно там… предупреждение о куках есть · 2. Немного улучшить мобильную версию сайта · 3. Возможно добавить новую вкладку «Кино» в существующем стиле · Сам сайт мне очень нравится, предыдущий специалист проделал отличную работу. Поэтому важно сохранить его дизайн и общую стилистику. Речь именно о точечных улучшениях и дополнениях · В отклике расскажите о своём опыте и покажите примеры работ. Особенно интересен опыт работы с самописными сайтами и собственными CMS · Исполнителя выберу по трём небольшим предварительным примерам: замена почты на картинку, идея улучшения мобильной версии и вариант оформления вкладки «Кино». Достаточно показать концепцию (фото, скрины), без полноценной реализации · Бюджет — 10 рублей. Готов работать с начинающими специалистами. По итогам оставлю подробный отзыв!",
+      "remote": true,
+      "location": "Санкт-Петербург",
+      "schedule": "",
+      "client": "Максим",
+      "posted": "6 часов назад",
+      "posted_at": "2026-11-26T02:11:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 10 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 10,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96416696",
+      "category": "software",
+      "category_label": "Сайты и приложения",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96407552",
+      "title": "Разработка электроники",
+      "description": "Техническая консультация · Знание программ: не имеет значения · Пожелания и особенности: Нужно разработать простой светодиодный модуль. Печатная плата размером 32х10 мм, на которой с обеих сторон светодиоды 2835 с резисторами. На одной стороне 1 светодиод плюс резистор и на второй стороне 1 светодиод плюс резистор. · В плате с двух сторон отверстия под винты М3 или М4 · Из этих модулей и проволоки будем собирать светильники на винтах. Важно чтобы модуль работал от напряжения 7-12 вольт. При 7 вольтах минимальная яркость, при 12 максимальная. И сам модуль с хорошим запасом по нагрузке, чтобы служили максимально долго. На фото пример одностороннего модуля",
+      "remote": true,
+      "location": "Нижний Новгород",
+      "schedule": "26 ноя. (Чт) - 27 ноя. (Пт)",
+      "client": "Евгений",
+      "posted": "Вчера в 18:05",
+      "posted_at": "2026-11-25T18:05:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 2000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 2000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96407552",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96409736",
+      "title": "Репетитор математики для онлайн-школы",
+      "description": "Для себя",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Никита",
+      "posted": "Вчера в 21:00",
+      "posted_at": "2026-11-25T21:00:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 1700 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1700,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96409736",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96390521",
+      "title": "Математика",
+      "description": "7 класс · Повышение успеваемости",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "Пн-пт 08:00-10:00",
+      "client": "Сева",
+      "posted": "31 минуту назад",
+      "posted_at": "2026-11-26T07:40:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "150 ₽",
+      "budget_min_rub": 150,
+      "budget_max_rub": 150,
+      "budget_kind": "exact",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96390521",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96384276",
+      "title": "Математика",
+      "description": "11 класс · Повышение успеваемости · Приглашаем преподавателей и репетиторов на удалённую работу/подработку (на вакансию) в онлайн-школу. Вы можете сформировать любой удобный для себя график · Вы будете проводить онлайн обучение из дома при помощи нашей интернет-платформы. (Учеников искать не надо! Наши менеджеры сами запишут Вам учеников на уроки.) · - Опыт преподавания или репетиторской деятельности от 6 месяцев · - Возможность уделять 10 часов в неделю · Доход от 52 000 до 113 000 рублей в месяц (Зависит от количества уроков + бонус за количество уроков + бонус за опыт работы)",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Анастасия",
+      "posted": "Вчера в 20:24",
+      "posted_at": "2026-11-25T20:24:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96384276",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96419366",
+      "title": "Математика",
+      "description": "4 класс · Повышение успеваемости · Учится по советским учебникам: Пчелко, Попова, Костин · Сдвг, дисграфия и дискалькулия",
+      "remote": false,
+      "location": "Преображенская площадь 400 м",
+      "schedule": "Пн, ср-чт 12:00-15:00, вт, пт 13:00-15:00",
+      "client": "Марина",
+      "posted": "3 минуты назад",
+      "posted_at": "2026-11-26T08:08:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 4100 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 4100,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96419366",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96410021",
+      "title": "Физика",
+      "description": "9 класс · ОГЭ по физике · Пожелания и особенности: Нужно очное занятие",
+      "remote": false,
+      "location": "Новокосино 1.2 км",
+      "schedule": "",
+      "client": "Алиев Юсиф",
+      "posted": "Вчера в 20:40",
+      "posted_at": "2026-11-25T20:40:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "1900–2800 ₽",
+      "budget_min_rub": 1900,
+      "budget_max_rub": 2800,
+      "budget_kind": "range",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96410021",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96404375",
+      "title": "Алгебра",
+      "description": "8 класс · Повышение успеваемости",
+      "remote": false,
+      "location": "Авиационный",
+      "schedule": "",
+      "client": "Наталья",
+      "posted": "2 часа назад",
+      "posted_at": "2026-11-26T06:11:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "1000 ₽",
+      "budget_min_rub": 1000,
+      "budget_max_rub": 1000,
+      "budget_kind": "exact",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96404375",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96416850",
+      "title": "Реверс-инженер",
+      "description": "Создание 3-d прототипа · Сфера деятельности: Инженер конструктор в области пластиковых изделий · Знание программ: SolidWorks",
+      "remote": false,
+      "location": "Москва",
+      "schedule": "",
+      "client": "Михаил",
+      "posted": "7 часов назад",
+      "posted_at": "2026-11-26T01:11:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96416850",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "конструктор",
+        "инженер",
+        "SolidWorks"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: конструктор, инженер, SolidWorks",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96404865",
+      "title": "Олимпиады по математике",
+      "description": "1 класс · Подготовка ученика к олимпиадной математике. 1 класс",
+      "remote": false,
+      "location": "Мичуринский проспект 1.1 км",
+      "schedule": "25 ноя. (Ср) - 2 дек. (Ср)",
+      "client": "Persona",
+      "posted": "Вчера в 16:34",
+      "posted_at": "2026-11-25T16:34:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 2800 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 2800,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96404865",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "93722757",
+      "title": "Начальная математика",
+      "description": "2 класс · Повышение успеваемости · Программа: Моро М.И",
+      "remote": false,
+      "location": "Красногорск ещё 2",
+      "schedule": "Пн, ср, пт 16:00-20:00, сб-вс 10:00-20:00",
+      "client": "Алина Клиент запросил ещё отклики",
+      "posted": "14 часов назад",
+      "posted_at": "2026-11-25T18:11:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 1100 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 1100,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "new_board",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=93722757",
+      "category": "education",
+      "category_label": "Обучение",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96402715",
+      "title": "Программист",
+      "description": "Разработка игр · Разработать игровую механику, разработать персонажей, разработать дизайн уровней, выполнить художественный дизайн, создать мультиплеер на базе выделенного сервера · Игра: для установки на ПК, для мобильных устройств · Игра: многопользовательская, массовая онлайн · Жанр: тренажёр · Графика: 3D · Сделать для «Газпрома» большой виртуальный новогодний посёлок вахтовиков, выполненный в современной качественной 3D-анимации, показать каждую профессию и сам посёлок и всё это в одной среде",
+      "remote": true,
+      "location": "Санкт-Петербург",
+      "schedule": "",
+      "client": "",
+      "posted": "Вчера в 18:04",
+      "posted_at": "2026-11-25T18:04:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96402715",
+      "category": "engineering",
+      "category_label": "Инженерные задачи",
+      "profile_fit": "medium",
+      "fit_label": "Смежная задача",
+      "match_terms": [
+        "механик"
+      ],
+      "fit_reason": "Совпадения по ключевым словам: механик",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96416150",
+      "title": "Разработка игр",
+      "description": "Сделать проект под ключ · Игра: для мобильных устройств · Игра: одиночная, массовая онлайн · Жанр: аркада · Графика: 3D",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "",
+      "posted": "Вчера в 23:46",
+      "posted_at": "2026-11-25T23:46:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96416150",
+      "category": "software",
+      "category_label": "Сайты и приложения",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96396101",
+      "title": "Разблокировать айфон 13 после мошенников",
+      "description": "Системное программирование · Доработка существующего продукта · Разблокировка",
+      "remote": true,
+      "location": "Бурятия +5 часов",
+      "schedule": "",
+      "client": "",
+      "posted": "Вчера в 12:18",
+      "posted_at": "2026-11-25T12:18:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "до 10000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 10000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96396101",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96416301",
+      "title": "Создание визуальной новеллы renpy",
+      "description": "Сделать проект под ключ, переработать готовую игру · Игра: для установки на ПК, для браузера · Графика: 3D",
+      "remote": true,
+      "location": "Москва",
+      "schedule": "",
+      "client": "",
+      "posted": "Вчера в 23:56",
+      "posted_at": "2026-11-25T23:56:00+03:00",
+      "posted_at_precision": "minute",
+      "budget": "",
+      "budget_min_rub": null,
+      "budget_max_rub": null,
+      "budget_kind": "unspecified",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96416301",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
+      ],
+      "is_current": true
+    },
+    {
+      "order_id": "96419329",
+      "title": "3Д моделирование игровое",
+      "description": "Разработать: дизайн локаций, дизайн уровней, персонажей · Игра: многопользовательская · Жанр: шутер · Графика: 3D · Пожелания и особенности: Нужны несколько локаций для игры вр",
+      "remote": true,
+      "location": "Липецк",
+      "schedule": "",
+      "client": "",
+      "posted": "6 минут назад",
+      "posted_at": "2026-11-26T08:05:10+03:00",
+      "posted_at_precision": "relative_estimate",
+      "budget": "до 50 000 ₽",
+      "budget_min_rub": null,
+      "budget_max_rub": 50000,
+      "budget_kind": "upper_bound",
+      "budget_unit": null,
+      "budget_unit_source": null,
+      "card_source": "carousel",
+      "badges": [],
+      "parser_warnings": [],
+      "url": "https://profi.ru/backoffice/n.php?o=96419329",
+      "category": "other",
+      "category_label": "Другие задачи",
+      "profile_fit": "other",
+      "fit_label": "Другие задачи",
+      "match_terms": [],
+      "fit_reason": "Прямые совпадения с инженерным профилем не найдены.",
+      "parser_version": "4.4",
+      "capture_day": "2026-11-26",
+      "first_seen": "2026-11-26T08:11:10+03:00",
+      "last_seen": "2026-11-26T08:11:10+03:00",
+      "times_seen": 1,
+      "observed_dates": [
+        "2026-11-26"
       ],
       "is_current": true
     }
